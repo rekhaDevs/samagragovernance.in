@@ -20,13 +20,13 @@ const IndexPagePreview = ({ entry, getAsset }) => {
   } else {
     return <div>Loading...</div>
   }
-}
+};
 
 IndexPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
-}
+};
 
 export default IndexPagePreview
