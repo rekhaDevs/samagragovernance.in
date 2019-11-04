@@ -1,0 +1,310 @@
+@import "./variable";
+
+.product-page-second-section-wrapper {
+  padding: 50px 0;
+  text-align: center;
+
+  .first-section {
+    .objective-wrapper {
+      padding: 40px;
+      position: relative;
+      padding-top: 150px;
+      overflow: hidden;
+
+      .background {
+        position: absolute;
+        right: 50% !important;
+
+        width: 500px !important;
+        top: 50%;
+        height: 70%;
+        background: #efefef;
+        z-index: -1;
+      }
+
+      .objective-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+        max-width: 600px;
+        margin: auto;
+        color: #666666;
+
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #343434;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .scale-wrapper {
+      padding: 40px;
+      position: relative;
+
+      overflow: hidden;
+
+      .background {
+        position: absolute;
+        left: 50%;
+
+        width: 300px;
+        top: 0;
+        height: 70%;
+        background: #efefef;
+        z-index: -1;
+      }
+
+      .scale-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+        max-width: 500px;
+        margin: auto;
+        color: #666666;
+
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #343434;
+          font-weight: 600;
+        }
+
+        .list {
+          .list-item {
+            text-align: center;
+            &:not(:last-child){
+              border-bottom: 1px solid #dddddd;
+            }
+            padding: 10px;
+
+            .count {
+              font-size: 32px;
+              font-weight: 800;
+              padding: 0 10px;
+              font-family: 'impact' !important;
+              letter-spacing: 2px;
+            }
+
+            .description {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    &.visible {
+      .objective-wrapper {
+        .objective-card {
+          opacity: 1;
+          margin-top: 0;
+          -webkit-animation-name: cardVisibleAnimation; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+          animation-name: cardVisibleAnimation;
+          animation-duration: 2s;
+        }
+      }
+
+      .scale-wrapper {
+        .scale-card {
+          opacity: 1;
+          margin-top: 0;
+          -webkit-animation-name: cardVisibleAnimation; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+          animation-name: cardVisibleAnimation;
+          animation-duration: 2s;
+        }
+      }
+    }
+  }
+
+  .second-section {
+    padding-top: 50px;
+
+    .slider-wrapper {
+      padding: 40px;
+      position: relative;
+
+      overflow: hidden;
+
+      .background {
+        position: absolute;
+        right: 0;
+
+        width: 300px;
+        top: 0;
+        height: 70%;
+        background: #efefef;
+        z-index: -1;
+      }
+
+      .slider-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+        margin: auto;
+        color: #666666;
+        min-height: 500px;
+        background-size: cover;
+
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #343434;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+  }
+
+  .third-section {
+    .approach-wrapper {
+      padding: 40px;
+      position: relative;
+      padding-top: 150px;
+      overflow: hidden;
+
+      .background {
+        position: absolute;
+        right: 50% !important;
+
+        width: 300px !important;
+        top: 80px;
+        height: 70%;
+        background: #efefef;
+        z-index: -1;
+      }
+
+      .approach-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+        max-width: 500px;
+        margin: auto;
+        color: #666666;
+
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #343434;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .impact-wrapper {
+      padding: 40px;
+      position: relative;
+
+      overflow: hidden;
+
+      .background {
+        position: absolute;
+        left: 50%;
+        width: 300px;
+        top: 20%;
+        height: 70%;
+        background: #efefef;
+        z-index: -1;
+      }
+
+      .impact-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+        max-width: 500px;
+        margin: auto;
+        color: #666666;
+
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #343434;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+        .list {
+          .list-item {
+            text-align: center;
+            padding: 10px;
+            &:not(:last-child){
+              border-bottom: 1px solid #dddddd;
+            }
+            .count {
+              font-size: 32px;
+              font-weight: 800;
+              padding: 0 10px;
+              font-family: 'impact' !important;
+              letter-spacing: 2px;
+            }
+
+            .description {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    &.visible {
+      .approach-wrapper {
+        .approach-card {
+          opacity: 1;
+          margin-top: 0;
+          -webkit-animation-name: cardVisibleAnimation; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+          animation-name: cardVisibleAnimation;
+          animation-duration: 2s;
+        }
+      }
+
+      .impact-wrapper {
+        .impact-card {
+          opacity: 1;
+          margin-top: 0;
+          -webkit-animation-name: cardVisibleAnimation; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+          animation-name: cardVisibleAnimation;
+          animation-duration: 2s;
+        }
+      }
+    }
+  }
+
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cardVisibleAnimation {
+  from {
+    margin-top: 50px;
+    opacity: 0
+  }
+  to {
+    margin-top: 0;
+    opacity: 1
+  }
+}
+
+/* Standard syntax */
+@keyframes cardVisibleAnimation {
+  from {
+    margin-top: 50px;
+    opacity: 0
+  }
+  to {
+    margin-top: 0;
+    opacity: 1
+  }
+}

@@ -4,35 +4,27 @@ import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 
 export default class BlogIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
-          }}
-        >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
-              padding: '1rem',
-            }}
-          >
-            Latest Stories
-          </h1>
-        </div>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <BlogRoll />
-            </div>
-          </div>
-        </section>
-      </Layout>
-    )
-  }
+    render() {
+        return (
+            <Layout>
+                <div className={'home-top-slider-wrapper media-page-banner'}
+                     style={{height: '600px', backgroundImage: `url(https://api.samagragovernance.in/blog/blog-header-bg.jpg)`}}>
+                    <div className="translucent-dark-overlay" style={{height: 'auto'}}>
+                    </div>
+                    <div className=" container content-section">
+                        <div className="title">
+                            Samvaad
+                        </div>
+                    </div>
+                </div>
+                <section className="section">
+                    <div className="container-fluid">
+                        <div className="content">
+                            <BlogRoll/>
+                        </div>
+                    </div>
+                </section>
+            </Layout>
+        )
+    }
 }

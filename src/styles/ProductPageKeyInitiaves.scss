@@ -1,0 +1,430 @@
+@import "./variable";
+
+.product-page-key-initiatives-section-wrapper {
+  padding: 50px 0;
+  text-align: center;
+
+  .title {
+    font-size: 38px;
+    color: $theme-text-normal;
+    letter-spacing: 0.47px;
+  }
+
+  .title-big {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 500;
+    color: $theme-text-normal;
+  }
+
+  .sub-title {
+    font-size: 16px;
+    color: $theme-text-light;
+    margin: 40px 0;
+  }
+
+  .content-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 30px;
+
+    .image-section {
+      flex: 1;
+
+      .image-wrapper {
+        width: calc(40vw);
+        height: calc(40vw);
+        border-radius: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .text-section {
+      flex: 1;
+      text-align: left;
+
+      &#our-approach-text-section {
+        padding-top: calc((35vw - 380px) / 2);
+      }
+
+      .title {
+        font-size: 70px;
+        line-height: 85px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: $theme-text-normal;
+      }
+
+      .sub-title {
+        max-width: 480px;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 40px 0 20px 0;
+      }
+
+      .description {
+        max-width: 600px;
+        font-size: 16px;
+      }
+    }
+
+    &.reverse {
+      flex-direction: row-reverse;
+
+      .image-section {
+        .image-wrapper {
+          margin-left: auto;
+          background-size: cover;
+          background-position: center;
+          border-radius: 10px;
+        }
+      }
+
+      .text-section {
+        padding-left: 7vw;
+        padding-right: 30px;
+
+        &#our-approach-text-section {
+          padding-top: calc((35vw - 3000px) / 2);
+        }
+
+      }
+    }
+
+    .content-inner-section {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+
+      &.dummy {
+        opacity: 0;
+      }
+
+      &.active-section {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        -webkit-animation-name: sectionFadeIn; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+        animation-name: sectionFadeIn;
+        animation-duration: 1s;
+        z-index: 2;
+        left: 0;
+      }
+
+      &.inactive-section {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        opacity: 0;
+        -webkit-animation-name: sectionFadeOut; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+        animation-name: sectionFadeOut;
+        animation-duration: 0.5s;
+      }
+    }
+
+  }
+
+  .stats-section {
+    padding: 150px 0 0;
+
+    text-align: left;
+
+    .stat-item {
+      max-width: 750px;
+      border-radius: 15px;
+      margin: 30px auto 0 auto;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+
+
+      .stat-count-wrapper {
+        background: #343434;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: -60px;
+
+        .stat-count-wring {
+          padding: 15px;
+          border-radius: 50%;
+
+          .stat-count-inner-ring {
+            font-size: 30px;
+            font-weight: 900;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            background: white;
+            color: $theme-text-normal;
+            border-radius: 50%;
+            box-shadow: 0 6px 0 0 rgba(0, 0, 0, .5), 0 15px 10px 0 rgba(0, 0, 0, 1);
+          }
+        }
+      }
+
+      .stat-description-wrapper {
+        padding: 15px 0;
+        position: relative;
+        width: 100%;
+
+        .stat-description {
+          background: #f5f5f5;
+          padding: 20px;
+          border-radius: 15px;
+          min-height: 100px;
+          position: absolute;
+          left: -30px;
+          width: 100%;
+          z-index: -1;
+          padding-left: 40px;
+          font-size: 14px;
+        }
+      }
+
+      &.inverted {
+        flex-direction: row-reverse;
+
+        .stat-count-wrapper {
+          margin-right: -60px;
+          margin-left: 0;
+        }
+
+        .stat-description-wrapper {
+          padding: 15px 0;
+          position: relative;
+          width: 100%;
+
+          .stat-description {
+            background: #f5f5f5;
+            left: auto;
+            right: -30px;
+            z-index: -1;
+            padding-left: 20px;
+            padding-right: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .stats-section {
+      .stat-item {
+        flex-direction: column !important;
+
+        .stat-count-wrapper {
+          max-width: 130px;
+          margin: auto !important;
+
+          .stat-count-wring {
+
+          }
+        }
+
+        .stat-description-wrapper {
+          .stat-description {
+            position: initial;
+            padding: 20px !important;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .content-section {
+
+      margin-top: 60px;
+      margin-left: 0;
+
+      .content-inner-section {
+        flex-direction: column !important;
+
+        &.reverse {
+          flex-direction: column !important;
+        }
+      }
+
+      .image-section {
+        .image-wrapper {
+          width: calc(100vw - 20px);
+          height: calc(100vw - 20px);
+
+          &#our-image-approach-wrapper {
+
+            width: calc(100vw - 20px);
+            height: calc(100vw - 20px);
+          }
+
+          margin: 0 auto 20px auto;
+          background-position: center;
+        }
+
+        padding-top: 0;
+      }
+
+      .text-section {
+        padding: 0 20px;
+      }
+    }
+  }
+  @media only screen and (max-width: 980px) {
+    .title {
+      font-size: 38px !important;
+      line-height: 34px;
+    }
+    .content-section {
+      margin-top: 20px !important;
+    }
+    .image-section {
+      padding-top: calc((500px - 45vw) / 2);
+
+      .image-wrapper {
+
+      }
+    }
+  }
+  @media only screen and (min-width: 1336px) and (max-width: 1440px) {
+    .title {
+      font-size: 38px;
+    }
+    .content-section {
+      .text-section {
+
+
+        &#our-approach-text-section {
+          padding-top: calc((35vw - 480px) / 2);
+        }
+
+        .title {
+          font-size: 60px;
+          line-height: 85px;
+        }
+
+        .sub-title {
+          max-width: 480px;
+        }
+
+        .description {
+          font-size: 20px;
+          line-height: 29px;
+        }
+      }
+    }
+
+  }
+  @media only screen and (min-width: 1441px) {
+    .title {
+      font-size: 44px;
+    }
+    .content-section {
+      .text-section {
+
+
+        &#our-approach-text-section {
+          padding-top: calc((35vw - 520px) / 2);
+        }
+
+        .title {
+          font-size: 100px;
+          line-height: 120px;
+        }
+
+        .sub-title {
+          max-width: 480px;
+        }
+
+        .description {
+          font-size: 20px;
+          line-height: 29px;
+        }
+
+        .sub-title {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  .gray-background {
+    position: absolute;
+    left: -30px;
+    bottom: -70px;
+    height: 50%;
+    background: #efefef;
+    width: 30vw;
+  }
+
+  @media only screen and (min-width: 760px) {
+    .gray-background {
+      display: none;
+    }
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sectionFadeIn {
+  0% {
+    opacity: 0;
+    left: 15px;
+  }
+  350% {
+    opacity: 0;
+    left: 15px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes sectionFadeIn {
+  0% {
+    opacity: 0;
+    left: 15px;
+  }
+  35% {
+    opacity: 0;
+    left: 15px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sectionFadeOut {
+  from {
+    opacity: 1;
+    left: 0;
+  }
+  to {
+
+    opacity: 0;
+    left: 15px;
+  }
+}
+
+/* Standard syntax */
+@keyframes sectionFadeOut {
+  from {
+    opacity: 1;
+    left: 0;
+  }
+  to {
+
+    opacity: 0;
+    left: 15px;
+  }
+}

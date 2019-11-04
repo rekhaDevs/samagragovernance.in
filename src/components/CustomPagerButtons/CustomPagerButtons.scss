@@ -1,0 +1,102 @@
+@import "../../variable";
+
+.custom-pager-buttons-wrapper {
+
+  .action-wrapper {
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: $primary;
+    padding-top: 10px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: scale(0.6);
+    i {
+      line-height: 80px;
+    }
+
+    &.disabled {
+      opacity: 0.5;
+      transform: scale(0.6);
+      -webkit-animation-name: scaleOutAnimation; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+      animation-name: scaleOutAnimation;
+      animation-duration: 1s;
+    }
+
+    &.active {
+      transform: scale(0.6);
+      -webkit-animation-name: scaleInAnimation; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+      animation-name: scaleInAnimation;
+      animation-duration: 1s;
+    }
+  }
+
+  .pages {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: 500;
+    color: #888888;
+    padding: 0 20px;
+    letter-spacing: 4.12px;
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scaleOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+/* Standard syntax */
+@keyframes scaleOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scaleInAnimation {
+  0% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Standard syntax */
+@keyframes scaleInAnimation {
+  0% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}

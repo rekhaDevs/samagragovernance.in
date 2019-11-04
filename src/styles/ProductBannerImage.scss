@@ -1,0 +1,136 @@
+.product-page-banner {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+
+  .dummy-header-background {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .translucent-dark-overlay {
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    z-index: 1;
+
+    .banner-text {
+      display: flex;
+
+      .project-name {
+        font-weight: 600;
+        display: inline-block;
+        font-size: 1.9vw;
+        position: relative;
+        background: rgba(0, 0, 0, 0.7);
+
+        .text {
+          flex: 1;
+          padding: 1.8vw 1.5vw;
+
+          font-size: 1.9vw;
+          color: white;
+          font-weight: 400;
+        }
+
+        &.theme-yellow {
+          color: white;
+          background: rgba(242, 209, 84, 1);
+        }
+
+        .logo {
+          display: inline;
+          padding: 0 20px 0 0;
+
+          img {
+            height: 50px;
+          }
+        }
+
+        //.skewed-background {
+        //  background: rgba(0, 0, 0, 0.9);
+        //  position: absolute;
+        //  left: -60px;
+        //  right: -70px;
+        //  bottom: 0;
+        //  top: 0;
+        //  z-index: -1;
+        //}
+      }
+
+      .project-tag-line {
+        flex: 1;
+        display: flex;
+        background: rgba(0, 0, 0, 0.7);
+
+        .text {
+          flex: 1;
+          padding: 1.8vw 1.5vw;
+          padding-left: 0;
+          font-size: 1.9vw;
+          color: white;
+          font-weight: 400;
+        }
+
+        img {
+          height: 6.4vw;
+        }
+      }
+
+
+    }
+  }
+
+
+  .content-section {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+
+    .logo {
+      padding-top: 200px;
+
+      img {
+        height: 140px;
+        border-radius: 5px;
+        background: white;
+        padding: 10px;
+      }
+    }
+
+    .title {
+      color: white;
+      font-size: 70px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 70px;
+    }
+
+    .sub-title {
+      color: white;
+      font-size: 22px;
+      font-weight: 500;
+      text-align: center;
+      margin: auto;
+      max-width: 720px;
+      line-height: 22px;
+    }
+  }
+
+  &.project-banner {
+    @media only screen and (max-width: 980px) {
+      max-height: 270px !important;
+    }
+  }
+}
