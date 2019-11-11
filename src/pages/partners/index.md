@@ -6,6 +6,8 @@ subTitle: >-
   We are a growing team of 40+ professionals. Our consultants come from diverse
   backgrounds, united in their commitment to creating impact at scale.
 partnerTitle: New Partner Page
+titleLines:
+  - text: 'Government of Haryana, Ashoka University and'
 videos:
   - designation: 'Founder and Trustee, Ashoka University'
     partnerName: /img/coffee-gear.png
