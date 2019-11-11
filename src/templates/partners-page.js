@@ -4,17 +4,12 @@ import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 
-import linkedInSvg from "../img/social/LinkedIn.svg";
-import linkedInSvgSelected from "../img/social/LinkedIn-selected.svg";
 import PaertnersBannerImage from "../components/PartnersPageComponents/PaertnersBannerImage/PaertnersBannerImage";
 import PartnersSectionSecond from "../components/PartnersPageComponents/PartnersSectionSecond/PartnersSectionSecond";
 
 const PartnerPage = ({data}) => {
     const {markdownRemark: post} = data;
-    const team = post.frontmatter.team || [];
-    const [hoveredMember, setHoveredMember] = React.useState(-1);
-    const [socialHovered, setSocialHovered] = React.useState(false);
-    const [showPopup, setShowPopup] = React.useState(-1);
+    console.log(post);
     if (!post.frontmatter.bannerImage) {
         return '';
     }
@@ -33,7 +28,7 @@ PartnerPage.propTypes = {
 export default PartnerPage
 
 export const aboutPageQuery = graphql`
-  query PartnerPage($id: String!) {
+  query PartnerPageQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -46,6 +41,19 @@ export const aboutPageQuery = graphql`
         }
         title
         subTitle
+        partnerTitle
+        titleLines {
+            text
+        }
+        videos {
+            videoUrl
+            partnerName
+            designation
+        }
+        partners {
+            image
+            description
+        }
       }
     }
   }
