@@ -10,7 +10,7 @@ titleLines:
   - text: 'Government of Haryana, Ashoka University and'
 videos:
   - designation: 'Founder and Trustee, Ashoka University'
-    partnerName: /img/coffee-gear.png
+    partnerName: New Partner
     videoUrl: 'https://www.youtube.com/embed/oJm-kLL-W78'
 partners:
   - description: >-
