@@ -9,7 +9,6 @@ import PartnersSectionSecond from "../components/PartnersPageComponents/Partners
 
 const PartnerPage = ({data}) => {
     const {markdownRemark: post} = data;
-    console.log(post);
     if (!post.frontmatter.bannerImage) {
         return '';
     }
@@ -51,7 +50,13 @@ export const aboutPageQuery = graphql`
             designation
         }
         partners {
-            image
+            image {
+                childImageSharp {
+                    fluid(maxWidth: 2048, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+            }
             description
         }
       }

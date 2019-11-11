@@ -12,7 +12,7 @@ const PartnersSectionSecond = ({content}) => {
                     <div className={'mt-4 py-5 text-center f-23 color-text-primary main-text container'}>
                         {
                             content.titleLines.map((title) => {
-                                return <div>{title}</div>
+                                return <div>{title.text}</div>
                             })
                         }
                     </div>
@@ -57,7 +57,7 @@ const PartnersSectionSecond = ({content}) => {
                                         <div className={'description'}>
                                             {partner.description}
                                         </div>
-                                        <img src={partner.image}/>
+                                        <img src={!!partner.image.childImageSharp ? partner.image.childImageSharp.fluid.src : ''}/>
                                     </div>
                                 })
                             }

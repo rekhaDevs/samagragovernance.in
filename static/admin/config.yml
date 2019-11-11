@@ -14,13 +14,45 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Author Image", name: "authorImage", widget: image}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
-
+  - name: "media"
+    label: "Media"
+    folder: "src/pages/media"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Author Image", name: "authorImage", widget: image}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "project"
+    label: "Projects"
+    folder: "src/pages/project"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Domain", name: "domain", widget: "string"}
+      - {label: "Sub Title", name: "subTitle", widget: "string"}
+      - {label: "State", name: "state", widget: "string"}
+      - {label: "Tag Line", name: "tagLine", widget: "string"}
+      - {label: "Project Logo with State", name: "projectLogoWithState", widget: image}
+      - {label: Overview, name: overview, widget: object, fields: [{label: Text, name: text, widget: string}]}
+      - {label: Scale, name: scale, widget: object, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
+      - {label: "Center Banner", name: "centerBanner", widget: image}
+      - {label: Approach, name: approach, widget: object, fields: [{label: Text, name: text, widget: string}]}
+      - {label: Impact, name: impact, widget: object, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
+      - {label: "Key Initiatives", name: keyInitiatives, widget: object, fields: [{label: "Image", name: "image", widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: object, fields: [{label: Text, name: text, widget: string}]}]}
   - name: "pages"
     label: "Pages"
     files:
