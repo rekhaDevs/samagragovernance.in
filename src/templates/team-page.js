@@ -6,19 +6,25 @@ import Content, {HTMLContent} from '../components/Content'
 
 import linkedInSvg from "../img/social/LinkedIn.svg";
 import linkedInSvgSelected from "../img/social/LinkedIn-selected.svg";
+
 const TeamPage = ({data}) => {
     const {markdownRemark: post} = data;
     const team = post.frontmatter.team || [];
     const [hoveredMember, setHoveredMember] = React.useState(-1);
     const [socialHovered, setSocialHovered] = React.useState(false);
     const [showPopup, setShowPopup] = React.useState(-1);
+    if (!post.frontmatter.bannerImage) {
+        return '';
+    }
     return (
         <Layout>
             <div>
                 <div className={'home-top-slider-wrapper  team-banner'}
-                     style={{height: '600px',  backgroundImage: `url(${
+                     style={{
+                         height: '600px', backgroundImage: `url(${
                              !!post.frontmatter.bannerImage.childImageSharp ? post.frontmatter.bannerImage.childImageSharp.fluid.src : ''
-                         })`, backgroundPosition: 'center'}}>
+                         })`, backgroundPosition: 'center'
+                     }}>
                     <div className="translucent-dark-overlay" style={{height: 'auto'}}>
                     </div>
                     <div className="content-section">
@@ -42,9 +48,11 @@ const TeamPage = ({data}) => {
                                     </div>
                                     <div className="detail-section">
                                         <div className="image-section"
-                                             style={{backgroundImage: `url(${
+                                             style={{
+                                                 backgroundImage: `url(${
                                                      !!team[showPopup].frontmatter.bannerImage.childImageSharp ? team[showPopup].frontmatter.bannerImage.childImageSharp.fluid.src : ''
-                                                 })`}}>
+                                                 })`
+                                             }}>
 
                                         </div>
                                         <div className="details">

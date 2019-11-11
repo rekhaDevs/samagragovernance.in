@@ -1,0 +1,101 @@
+.partners-section-second {
+  .main-text {
+    line-height: 1.7;
+  }
+
+  .partners-wrapper {
+    text-align: center;
+    position: relative;
+
+    .card-wrapper {
+      display: inline-block;
+      max-width: 370px;
+      border-radius: 7px;
+      width: 100%;
+      box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+      vertical-align: top;
+      cursor: pointer;
+      overflow: hidden;
+
+      &.hovered {
+        -webkit-animation-name: smoothScaleIn; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 0.3s; /* Safari 4.0 - 8.0 */
+        animation-name: smoothScaleIn;
+        animation-duration: 0.3s;
+        transform: scale(1.02);
+      }
+
+      .image-section {
+        height: 250px;
+        background: #eeeeee;
+        background-size: cover;
+      }
+
+      .content-section {
+        padding: 15px;
+        text-align: left;
+
+        .heading {
+          font-size: 16px;
+          color: $theme-text-normal;
+        }
+
+        .designation {
+          font-size: 13px;
+          line-height: 13px;
+          color: $theme-text-light;
+        }
+
+        .foundation {
+          color: #444444;
+          font-size: 14px;
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+
+  .partners-title {
+    font-size: 30px;
+  }
+
+  .partner-companies {
+    margin-bottom: 100px;
+
+    .partners-image-wrapper {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+
+      img {
+        padding: 30px 20px;
+        max-height: 100px;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      }
+
+      .description {
+        position: absolute;
+        bottom: 100px;
+        z-index: 2;
+        left: 0;
+        background: #efefef;
+        border-radius: 20px;
+        padding: 15px;
+        display: none;
+        box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+      }
+
+      &:hover {
+        img {
+          -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(0%);
+        }
+
+        .description {
+          display: initial;
+        }
+      }
+    }
+  }
+}

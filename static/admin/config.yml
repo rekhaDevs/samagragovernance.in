@@ -53,6 +53,17 @@ collections:
           - {label: "Banner Image", name: bannerImage, widget: image}
           - {label: "Sub Title", name: "subTitle", widget: "string"}
           - {label: Team, name: team, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Name, name: name, widget: text}, {label: Project, name: project, widget: text}, {label: Bio, name: bio, widget: text}, {label: "LinkedIn Profile", name: linkedInProfile, widget: text}]}
+      - file: "src/pages/partners/index.md"
+        label: "Partners Page"
+        name: "partner"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partners-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Banner Image", name: bannerImage, widget: image}
+          - {label: "Sub Title", name: "subTitle", widget: "string"}
+          - {label: "Partners Title", name: "partnerTitle", widget: text}
+          - {label: Videos, name: videos, widget: list, fields: [{label: "Video Url", name: videoUrl, widget: "string"}, {label: "Partner Image", name: partnerName, widget: image}, {label: Designation, name: designation, widget: "string"}]}
+          - {label: Partners, name: partners, widget: list, fields: [{label: "Partner Image", name: image, widget: image}, {label: Description, name: description, widget: "text"}]}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
