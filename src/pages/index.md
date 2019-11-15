@@ -9,6 +9,13 @@ description: >-
 baseBanner:
   titleLines:
     - text: New Text
+subBanners:
+  - projectName: Project Bame
+    slides:
+      - image: /img/blog-index.jpg
+        title: Slide Title
+    titleLines:
+      - text: New Sub Banner
 secondSection:
   ourApproach:
     title: Approach
@@ -20,3 +27,4 @@ secondSection:
         text: Decsrot
   title: Second Section
 ---
+
