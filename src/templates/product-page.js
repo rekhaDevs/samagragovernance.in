@@ -172,12 +172,12 @@ class ProductPage extends React.Component {
       project: {},
       media: []
     };
-    axios.get(`${service.baseUrl}projects/${window.location.href.split('/')[window.location.href.split('/').length - 1]}`).then(res => {
-      this.setState({project: res.data.content});
-      axios.get(`${service.baseUrl}media?tag=${res.data.content.tag}`).then(res => {
-        this.setState({media: res.data.media});
-      });
-    });
+    // axios.get(`${service.baseUrl}projects/${window.location.href.split('/')[window.location.href.split('/').length - 1]}`).then(res => {
+    //   this.setState({project: res.data.content});
+    //   axios.get(`${service.baseUrl}media?tag=${res.data.content.tag}`).then(res => {
+    //     this.setState({media: res.data.media});
+    //   });
+    // });
   }
 
   render() {
