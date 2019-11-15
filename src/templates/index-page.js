@@ -41,7 +41,7 @@ export const pageQuery = graphql`
             }
         }
         secondSection {
-        title
+         title
          ourApproach {
             title
          }
