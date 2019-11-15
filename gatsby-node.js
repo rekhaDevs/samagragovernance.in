@@ -31,6 +31,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     const posts = result.data.allMarkdownRemark.edges
 
+    console.log(posts);
     posts.forEach(edge => {
       const id = edge.node.id
       createPage({

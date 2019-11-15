@@ -15,7 +15,6 @@ export const MediaPostTemplate = ({
                                      helmet,
                                  }) => {
     const PostContent = contentComponent || Content
-    console.log(description);
     return (
         <section className="section">
             {helmet || ''}

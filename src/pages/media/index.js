@@ -2,6 +2,7 @@ import React from 'react'
 
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
+import MediaRoll from "../../components/MediaRoll";
 
 export default class MediaIndexPage extends React.Component {
     render() {
@@ -13,14 +14,14 @@ export default class MediaIndexPage extends React.Component {
                     </div>
                     <div className=" container content-section">
                         <div className="title">
-                            Samvaad
+                            Samagra in News
                         </div>
                     </div>
                 </div>
                 <section className="section">
                     <div className="container-fluid">
                         <div className="content">
-                            <BlogRoll/>
+                            <MediaRoll/>
                         </div>
                     </div>
                 </section>

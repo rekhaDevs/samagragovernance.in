@@ -28,12 +28,12 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-post"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Project", name: "project", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Author Image", name: "authorImage", widget: image}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Image", name: "image", widget: image}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Media House", name: "mediaHouse", widget: "string"}
   - name: "project"
     label: "Projects"
     folder: "src/pages/project"
@@ -48,10 +48,10 @@ collections:
       - {label: "Tag Line", name: "tagLine", widget: "string"}
       - {label: "Project Logo with State", name: "projectLogoWithState", widget: image}
       - {label: Overview, name: overview, widget: object, fields: [{label: Text, name: text, widget: string}]}
-      - {label: Scale, name: scale, widget: object, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
+      - {label: Scale, name: scale, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
       - {label: "Center Banner", name: "centerBanner", widget: image}
       - {label: Approach, name: approach, widget: object, fields: [{label: Text, name: text, widget: string}]}
-      - {label: Impact, name: impact, widget: object, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
+      - {label: Impact, name: impact, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
       - {label: "Key Initiatives", name: keyInitiatives, widget: object, fields: [{label: "Image", name: "image", widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: object, fields: [{label: Text, name: text, widget: string}]}]}
   - name: "pages"
     label: "Pages"
@@ -62,13 +62,10 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
           - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: Base Banner, name: baseBanner, widget: object, fields: [{label: "Title Lines", name: "titleLines", widget: list, fields: [{label: Text, name: text, widget: string}]}]}
+          - {label: "Sub Banners", name: subBanners, widget: list, fields: [{label: "Title Lines", name: "titleLines", widget: list, fields: [{label: Text, name: text, widget: string}]}, {label: "Project Name", name: "projectName", widget: "string"}, {label: "Slides", name: "slides", widget: list, fields: [{label: "Image", name: image, widget: image}, {label: "Title", name: title, widget: string}]}]}
+          - {label: "Second Section" ,name: secondSection, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Our Model", name: ourModel, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: list, fields: [{label: Sub Title, name: subTitle, widget: string}, {label: Text, name: text, widget: text}]}]}, {label: "Our Approach", name: ourApproach, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: list, fields: [{label: Sub Title, name: subTitle, widget: string}, {label: Text, name: text, widget: text}]}]}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
