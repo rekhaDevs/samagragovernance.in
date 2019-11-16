@@ -5,9 +5,12 @@ import {Link, graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import {HomeTopSlider} from "../components/HomeComponents/HomeTopSlider/HomeTopSlider";
+import {HomeSecondSection} from "../components/HomeComponents/HomeSecondSection/HomeSecondSection";
 
 export const IndexPageTemplate = ({
                                       title,
+                                      mainContent,
                                       description
                                   }) => (
     <div>
@@ -17,12 +20,15 @@ export const IndexPageTemplate = ({
 
 const IndexPage = ({data}) => {
     const {frontmatter} = data.markdownRemark;
+    console.log(frontmatter)
     return (
         <Layout>
-            <IndexPageTemplate
-                title={frontmatter.title}
-                description={frontmatter.description}
-            />
+            {
+                frontmatter && frontmatter.subBanners ? <React.Fragment>
+                    <HomeTopSlider baseBanner={frontmatter.baseBanner} subBanners={frontmatter.subBanners}/>
+                    <HomeSecondSection homeContent={frontmatter}/>
+                </React.Fragment> : <span/>
+            }
         </Layout>
     )
 }
@@ -39,6 +45,19 @@ export const pageQuery = graphql`
             titleLines {
                 text
             }
+        }
+        subBanners {
+            projectName
+            slides {
+                image {
+                    childImageSharp {
+                        fluid(maxWidth: 240, quality: 64) {
+                          ...GatsbyImageSharpFluid
+                        }
+                      }
+                }
+                title
+            }   
         }
         secondSection {
          title

@@ -1,0 +1,276 @@
+@import "./variable";
+
+.home-top-slider-wrapper {
+  background: #444444;
+  position: relative;
+  background-size: cover;
+  text-align: center;
+  //height: 100vh;
+  .bubble-wrapper {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  }
+
+  .translucent-dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .slider-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .left-text-section {
+      flex: 1;
+
+      .title {
+        color: white;
+        font-size: 100px;
+        line-height: 121px;
+        font-weight: 600;
+        margin: 174px 0;
+        margin-top: calc(50vh - 220px);
+        opacity: 0;
+        position: absolute;
+        top: 85px;
+        right: 0;
+        left: 0;
+
+        &.visible {
+          opacity: 1;
+          -webkit-animation-name: textFadeIn; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 1.2s; /* Safari 4.0 - 8.0 */
+          animation-name: textFadeIn;
+          animation-duration: 1.2s;
+        }
+
+        .sub-title {
+          color: white;
+          font-size: 20px;
+          font-weight: 400;
+          text-align: center;
+          margin: auto;
+          padding: 100px 50px;
+          max-width: 720px;
+          line-height: 22px;
+        }
+      }
+
+
+    }
+  }
+
+
+  @media only screen and (max-width: 980px) {
+    .title {
+      font-size: 50px !important;
+      line-height: 70px !important;
+      margin: 80px 0 !important;
+    }
+    .slider-wrapper {
+      height: 400px !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+
+      .slider {
+        padding: 7px !important;
+
+      }
+    }
+    .content-section {
+      flex-direction: column !important;
+
+      .content-text {
+        padding: 0 !important;
+
+        .inner-content-text {
+          text-align: center !important;
+          padding: 0 20px !important;
+          margin-bottom: 30px !important;
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes textFadeSlideIn {
+  from {
+    opacity: 0;
+    top: 70px;
+  }
+  to {
+
+    opacity: 1;
+    top: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes textFadeSlideIn {
+  from {
+    opacity: 0;
+    top: 70px;
+  }
+  to {
+
+    opacity: 1;
+    top: 0;
+  }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes textFadeSlideOut {
+  from {
+    opacity: 1;
+    top: 0;
+  }
+  to {
+    opacity: 0;
+    top: -70px;
+  }
+}
+
+/* Standard syntax */
+@keyframes textFadeSlideOut {
+  from {
+    opacity: 1;
+    top: 0;
+  }
+  to {
+    opacity: 0;
+    top: -70px;
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes textFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+
+    opacity: 1;
+  }
+}
+
+/* Standard syntax */
+@keyframes textFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes textFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes textFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes textFadeInPadding {
+  0% {
+    padding: 0;
+  }
+  50% {
+    padding: 0;
+  }
+  100% {
+    padding: 20px;
+  }
+}
+
+/* Standard syntax */
+@keyframes textFadeInPadding {
+  0% {
+    padding: 0;
+  }
+  50% {
+    padding: 0;
+  }
+  100% {
+    padding: 20px;
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes addedBorderAnimation {
+  0% {
+    border: 5px solid white;
+  }
+  20% {
+    border: 5px solid white;
+  }
+  100% {
+    border: 10px solid white;
+  }
+}
+
+/* Standard syntax */
+@keyframes addedBorderAnimation {
+  0% {
+    border: 5px solid white;
+  }
+  20% {
+    border: 5px solid white;
+  }
+  100% {
+    border: 10px solid white;
+  }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animatedSectionAnimation {
+  0% {
+    top: calc((265px - 50vh));
+  }
+  100% {
+    top: calc((265px - 50vh - 622px));
+  }
+}
+
+/* Standard syntax */
+@keyframes animatedSectionAnimation {
+  0% {
+    top: calc((265px - 50vh));
+  }
+  100% {
+    top: calc((265px - 50vh - 622px));
+  }
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

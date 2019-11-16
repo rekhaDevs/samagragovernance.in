@@ -1,0 +1,109 @@
+@import "./variable";
+
+.home-news-section-wrapper {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 40px;
+  text-align: center;
+
+  .title {
+    font-size: 50px;
+    color: $theme-text-normal;
+    font-weight: 500;
+    margin: 70px 0 10px 0;
+  }
+
+  .cards-section {
+    text-align: center;
+
+    .card-wrapper {
+      width: 30%;
+      display: inline-block;
+      max-width: 370px;
+      border-radius: 7px;
+      margin: 20px;
+      box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+      vertical-align: top;
+      cursor: pointer;
+      overflow: hidden;
+      @media only screen and (max-width: 980px) {
+        max-width: 300px;
+      }
+      &.hovered {
+        -webkit-animation-name: smoothScaleIn; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 0.3s; /* Safari 4.0 - 8.0 */
+        animation-name: smoothScaleIn;
+        animation-duration: 0.3s;
+        transform: scale(1.02);
+      }
+
+      .image-section {
+        height: 250px;
+        background: #eeeeee;
+        background-size: cover;
+
+        &.background-right {
+          background-position: right;
+        }
+      }
+
+      .content-section {
+        padding: 15px;
+        text-align: left;
+
+        .heading {
+          font-size: 14px;
+          color: $theme-text-normal;
+          min-height: 41px;
+        }
+
+        .timestamp {
+          color: #a5a5a5;
+          font-size: 12px;
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .cards-section {
+      .card-wrapper {
+        width: 50%;
+      }
+    }
+  }
+  @media only screen and (max-width: 980px) {
+    .title {
+      font-size: 40px;
+      margin: 40px 0 10px 0;
+    }
+  }
+  @media only screen and (max-width: 760px) {
+    .cards-section {
+      .card-wrapper {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes smoothScaleIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.02);
+  }
+}
+
+/* Standard syntax */
+@keyframes smoothScaleIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.02);
+  }
+}
