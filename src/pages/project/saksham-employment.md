@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: Saksham Employment
+backgroundCover: /img/flavor_wheel.jpg
 domain: Employment
 subTitle: Samagra
 state: Haryana
