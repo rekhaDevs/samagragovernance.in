@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-// import visionImage from '../../../assets/images/vision-image.jpg';
-import CustomPagerButtons from "../../CustomPagerButtons/CustomPagerButtons";
+import visionImage from '../../../img/vision-image.jpg';
+import {CustomPagerButtons} from "../../CustomPagerButtons/CustomPagerButtons";
 
 export const ProductPageKeyInitiatives = ({project}) => {
     const keyObjectives = project.keyInitiatives;
@@ -16,7 +16,7 @@ export const ProductPageKeyInitiatives = ({project}) => {
                 <div className="gray-background hide-for-small-only"/>
                 <div className={'content-inner-section dummy'}>
                     <div className={'image-section'}>
-                        <div className={'image-wrapper'} style={{backgroundImage: `url(${''})`}}>
+                        <div className={'image-wrapper'} style={{backgroundImage: `url(${visionImage})`}}>
 
                         </div>
                     </div>

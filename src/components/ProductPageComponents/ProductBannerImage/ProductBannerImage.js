@@ -1,8 +1,9 @@
 import React from "react";
-// import odishaAdaptLogo from '../../../assets/images/project-logos/odisha-adapt-logo.png';
 
-import service from "../../../utils/service";
+
+const service = {};
 export const ProductBannerImage = ({project}) => {
+    console.log(project)
     return (
 
         <div className={'product-page-banner project-banner'}
@@ -10,7 +11,9 @@ export const ProductBannerImage = ({project}) => {
                  height: '600px',
                  overflow: 'hidden',
                  maxHeight: '100vh',
-                 backgroundImage: `url(${project.backgroundCover ? ('http://luezoid.com:3399/' + project.backgroundCover) : ''})`
+                 backgroundImage: `url(${
+                     !!(project.backgroundCover && project.backgroundCover.childImageSharp) ? project.backgroundCover.childImageSharp.fluid.src : ''
+                 })`
              }}>
             <div className="dummy-header-background"/>
             <div className="translucent-dark-overlay">
@@ -25,7 +28,7 @@ export const ProductBannerImage = ({project}) => {
                             {project.tagLine || ''}
                         </div>
                         <img
-                            src={project.projectLogoWithState ? (service.baseUrl + project.projectLogoWithState) : ''}/>
+                            src={!!project.projectLogoWithState.childImageSharp ? project.projectLogoWithState.childImageSharp.fluid.src : ''}/>
                     </div>
                 </div>
             </div>

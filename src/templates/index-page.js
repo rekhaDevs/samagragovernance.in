@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Link, graphql} from 'gatsby'
+import {Link, graphql, StaticQuery} from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -20,7 +20,6 @@ export const IndexPageTemplate = ({
 
 const IndexPage = ({data}) => {
     const {frontmatter} = data.markdownRemark;
-    console.log(frontmatter)
     return (
         <Layout>
             {
@@ -87,3 +86,4 @@ export const pageQuery = graphql`
     }
   }
 `
+

@@ -1,0 +1,10 @@
+@import "./variable";
+.btn-theme-primary {
+  font-size: 14px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background: $primary;
+  font-weight: 500;
+}

@@ -1,5 +1,7 @@
 import React from "react";
 
+const service = {};
+
 export class ProductPageSecondSection extends React.Component {
 
     constructor(props) {
@@ -44,7 +46,7 @@ export class ProductPageSecondSection extends React.Component {
                             {
                                 project.overview.map((o) => {
                                     return <p>
-                                        {o}
+                                        {o.text}
                                     </p>
                                 })
                             }
@@ -74,7 +76,11 @@ export class ProductPageSecondSection extends React.Component {
                     <div className="slider-wrapper col-12">
                         <div className="background"/>
                         <div className="slider-card"
-                             style={{backgroundImage: `url(${'http://luezoid.com:3399/' + (project.centerBanner ? project.centerBanner : '')})`}}>
+                             style={{
+                                 backgroundImage:  `url(${
+                                     !!project.centerBanner.childImageSharp ? project.centerBanner.childImageSharp.fluid.src : ''
+                                 })`
+                             }}>
                         </div>
                     </div>
                 </div>
@@ -88,7 +94,7 @@ export class ProductPageSecondSection extends React.Component {
                             {
                                 project.approach.map((o) => {
                                     return <p>
-                                        {o}
+                                        {o.text}
                                     </p>
                                 })
                             }

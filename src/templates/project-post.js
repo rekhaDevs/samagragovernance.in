@@ -5,17 +5,20 @@ import Helmet from 'react-helmet'
 import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
+import ProductBannerImage from "../components/ProductPageComponents/ProductBannerImage/ProductBannerImage";
+import {ProductPageSecondSection} from "../components/ProductPageComponents/ProductPageSecondSection/ProductPageSecondSection";
+import {ProductPageKeyInitiatives} from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
+import {OurPublicationsSection} from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
 
 export const ProjectPostTemplate = ({
-                                     content,
-                                     contentComponent,
-                                     description,
-                                     tags,
-                                     title,
-                                     helmet,
-                                 }) => {
+                                        content,
+                                        contentComponent,
+                                        description,
+                                        tags,
+                                        title,
+                                        helmet,
+                                    }) => {
     const PostContent = contentComponent || Content
-    console.log(description);
     return (
         <section className="section">
             {helmet || ''}
@@ -30,42 +33,78 @@ export const ProjectPostTemplate = ({
     )
 };
 const ProjectPost = ({data}) => {
-    const {markdownRemark: post} = data;
+    const {markdownRemark: item} = data;
 
+    const project = item.frontmatter;
     return (
-        <Layout>
-            <ProjectPostTemplate
-                content={post.html}
-                contentComponent={HTMLContent}
-                description={post.frontmatter.description}
-                helmet={
-                    <Helmet titleTemplate="%s | Blog">
-                        <title>{`${post.frontmatter.title}`}</title>
-                        <meta
-                            name="description"
-                            content={`${post.frontmatter.description}`}
-                        />
-                    </Helmet>
-                }
-                tags={post.frontmatter.tags}
-                title={post.frontmatter.title}
-            />
-        </Layout>
+        project && project.title ? <Layout>
+            <ProductBannerImage project={project}/>
+            <ProductPageSecondSection project={project}/>
+            {/*<ProductPageKeyInitiatives project={project}/>*/}
+            {/*<OurPublicationsSection media={media}/>*/}
+        </Layout> : <React.Fragment/>
     )
 }
 
 export default ProjectPost
 
 export const pageQuery = graphql`
-  query ProjectPostByID($id: String!) {
+  query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      id
-      html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
-        description
-        tags
+        domain
+        subTitle
+        state
+        tagLine
+        backgroundCover  {
+            childImageSharp {
+                fluid(maxWidth: 1024, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+        }
+        projectLogoWithState  {
+            childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+        }
+        approach {
+            text
+        }
+        centerBanner {
+            childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+        }
+        overview {
+            text
+        }
+        scale {
+            count
+            label
+        }
+        impact {
+            count
+            label 
+        }
+        keyInitiatives {
+            image {
+                childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            title
+            description {
+                text
+            }
+        }
       }
     }
   }

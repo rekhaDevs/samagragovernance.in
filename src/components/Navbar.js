@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo-colored.png'
+import HeaderDropdown from "./HeaderDropdown";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -80,7 +81,7 @@ const Navbar = class extends React.Component {
                 </a>
               </Link>
               <ul className={'nav justify-content-end'}>
-                {/*<HeaderDropDown items={projects}/>*/}
+                <HeaderDropdown/>
                 <li>
                   <Link to={'/team'}><a className="nav-link" href="/team">TEAM</a></Link>
                 </li>
