@@ -16,6 +16,16 @@ subBanners:
         title: Slide Title
     titleLines:
       - text: New Sub Banner
+  - projectName: Project Name
+    slides:
+      - image: /img/chemex.jpg
+        title: Title
+      - image: /img/flavor_wheel.jpg
+        title: New Title
+      - image: /img/chemex.jpg
+        title: Title
+    titleLines:
+      - text: NEw Tag line
 secondSection:
   ourApproach:
     title: Approach
