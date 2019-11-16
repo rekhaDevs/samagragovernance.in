@@ -47,12 +47,12 @@ collections:
       - {label: "State", name: "state", widget: "string"}
       - {label: "Tag Line", name: "tagLine", widget: "string"}
       - {label: "Project Logo with State", name: "projectLogoWithState", widget: image}
-      - {label: Overview, name: overview, widget: object, fields: [{label: Text, name: text, widget: string}]}
+      - {label: Overview, name: overview, widget: list, fields: [{label: Text, name: text, widget: string}]}
       - {label: Scale, name: scale, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
       - {label: "Center Banner", name: "centerBanner", widget: image}
-      - {label: Approach, name: approach, widget: object, fields: [{label: Text, name: text, widget: string}]}
+      - {label: Approach, name: approach, widget: list, fields: [{label: Text, name: text, widget: string}]}
       - {label: Impact, name: impact, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
-      - {label: "Key Initiatives", name: keyInitiatives, widget: object, fields: [{label: "Image", name: "image", widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: object, fields: [{label: Text, name: text, widget: string}]}]}
+      - {label: "Key Initiatives", name: keyInitiatives, widget: list, fields: [{label: "Image", name: "image", widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: object, fields: [{label: Text, name: text, widget: string}]}]}
   - name: "pages"
     label: "Pages"
     files:
