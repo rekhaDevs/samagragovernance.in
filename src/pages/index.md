@@ -10,12 +10,26 @@ baseBanner:
   titleLines:
     - text: New Text
 subBanners:
-  - projectName: Project Bame
+  - projectName: Project Name
     slides:
       - image: /img/chemex.jpg
-        title: Slide Title
+        title: Title
+      - image: /img/flavor_wheel.jpg
+        title: New Title
+      - image: /img/chemex.jpg
+        title: Title
     titleLines:
-      - text: New Sub Banner
+      - text: NEw Tag line
+  - projectName: Project Name
+    slides:
+      - image: /img/chemex.jpg
+        title: Title
+      - image: /img/flavor_wheel.jpg
+        title: New Title
+      - image: /img/chemex.jpg
+        title: Title
+    titleLines:
+      - text: NEw Tag line
   - projectName: Project Name
     slides:
       - image: /img/chemex.jpg

@@ -63,6 +63,10 @@ export const pageQuery = graphql`
          title
          ourApproach {
             title
+             description {
+                text
+                subTitle
+            }
          }
          ourModel {
             image {

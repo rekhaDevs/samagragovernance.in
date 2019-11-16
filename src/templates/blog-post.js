@@ -12,69 +12,54 @@ export const BlogPostTemplate = ({
                                      description,
                                      tags,
                                      title,
+                                     htmlContent,
                                      helmet,
                                  }) => {
     const PostContent = contentComponent || Content
-    console.log(description);
+    console.log(content);
     return (
         <section className="section">
             {helmet || ''}
-            {/*<div className="container content">*/}
-            {/*    <div className="columns">*/}
-            {/*        <div className="column is-10 is-offset-1">*/}
-            {/*            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">*/}
-            {/*                {title}*/}
-            {/*            </h1>*/}
-            {/*            <p>{description}</p>*/}
-            {/*            <PostContent content={content}/>*/}
-            {/*            {tags && tags.length ? (*/}
-            {/*                <div style={{marginTop: `4rem`}}>*/}
-            {/*                    <h4>Tags</h4>*/}
-            {/*                    <ul className="taglist">*/}
-            {/*                        {tags.map(tag => (*/}
-            {/*                            <li key={tag + `tag`}>*/}
-            {/*                                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>*/}
-            {/*                            </li>*/}
-            {/*                        ))}*/}
-            {/*                    </ul>*/}
-            {/*                </div>*/}
-            {/*            ) : null}*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-            <div className={'container blog-detail-section'}>
-                <div className="row">
-                    {/*<div className="col-md-12 ">*/}
-                    {/*    <div className="author-section">*/}
-                    {/*        <div className="image">*/}
-
-                    {/*        </div>*/}
-                    {/*        <div className="details">*/}
-                    {/*            <div className="name">*/}
-                    {/*                {blog.author}*/}
-                    {/*            </div>*/}
-                    {/*            <div className="timestamp">*/}
-                    {/*                {blog.timestamp}*/}
-                    {/*            </div>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-                    <div className="col-md-12 col-sm-12" style={{paddingTop: '80px'}}>
-                        <PostContent content={content}/>
+            <div className={'blog-banner'}>
+                <div className="translucent-dark-overlay" style={{height: 'auto'}}>
+                </div>
+                <div className=" container content-section">
+                    <div className="title">
+                        {content && content.title ? content.title : 'Our Blog'}
                     </div>
                 </div>
+
+            </div>
+            <div className={'container blog-detail-section'}>
+                <div className="row">
+                    <div className="col-md-12 ">
+                        <div className="author-section">
+                            <div className="image" style={{backgroundImage: `url(${
+                                    !!content.authorImage && !!content.authorImage.childImageSharp ? content.authorImage.childImageSharp.fluid.src : ''
+                                })`, backgroundPosition: 'center',
+                                backgroundSize: 'cover'
+                            }}>
+
+                            </div>
+                            <div className="details">
+                                <div className="name">
+                                    {content.author}
+                                </div>
+                                <div className="timestamp">
+                                    {content.date}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-12 col-sm-12">
+                        <PostContent content={htmlContent}/>
+                    </div>
+                </div>
+
             </div>
         </section>
     )
 };
-
-BlogPostTemplate.propTypes = {
-    content: PropTypes.node.isRequired,
-    contentComponent: PropTypes.func,
-    description: PropTypes.string,
-    title: PropTypes.string,
-    helmet: PropTypes.object,
-}
 
 const BlogPost = ({data}) => {
     const {markdownRemark: post} = data;
@@ -82,7 +67,8 @@ const BlogPost = ({data}) => {
     return (
         <Layout>
             <BlogPostTemplate
-                content={post.html}
+                content={post.frontmatter}
+                htmlContent={post.html}
                 contentComponent={HTMLContent}
                 description={post.frontmatter.description}
                 helmet={
@@ -94,8 +80,6 @@ const BlogPost = ({data}) => {
                         />
                     </Helmet>
                 }
-                tags={post.frontmatter.tags}
-                title={post.frontmatter.title}
             />
         </Layout>
     )
@@ -117,6 +101,14 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        author
+        authorImage {
+            childImageSharp {
+                fluid(maxWidth: 640, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+        }
         description
         tags
       }
