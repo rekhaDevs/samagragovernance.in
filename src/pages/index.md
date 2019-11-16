@@ -12,7 +12,7 @@ baseBanner:
 subBanners:
   - projectName: Project Bame
     slides:
-      - image: /img/blog-index.jpg
+      - image: /img/chemex.jpg
         title: Slide Title
     titleLines:
       - text: New Sub Banner
@@ -29,8 +29,11 @@ subBanners:
 secondSection:
   ourApproach:
     title: Approach
+    description:
+      - subTitle: New Descriptiuon
+        text: New Description
   ourModel:
-    image: /img/blog-index.jpg
+    image: /img/chemex.jpg
     title: Title
     description:
       - subTitle: New Sub Title
