@@ -85,7 +85,7 @@ collections:
         label: "Media Page"
         name: "media"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partners-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner Image", name: bannerImage, widget: image}
           - {label: "Media Content", name: mediaContent, widget: list, fields: [{label: "Title", name: "title", widget: "string"},{label: "Project", name: "project", widget: "string"},{label: "Author", name: "author", widget: "string"},{label: "Link", name: "link", widget: "string"},{label: "Image", name: "image", widget: image},{label: "Date", name: "date", widget: "datetime"},{label: "Media House", name: "mediaHouse", widget: "string"}]}
