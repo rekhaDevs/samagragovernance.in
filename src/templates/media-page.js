@@ -5,11 +5,11 @@ import Helmet from 'react-helmet'
 import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
-import MediaRoll from "../components/MediaRoll";
+import {MediaRoll} from "../components/MediaRoll";
 
 const MediaPage = ({data}) => {
-    const {markdownRemark: post} = data;
-
+    const {markdownRemark: mediaPageContent} = data;
+    console.log(mediaPageContent);
     return (
         <Layout>
             <div className={'home-top-slider-wrapper media-page-banner'}
@@ -21,17 +21,13 @@ const MediaPage = ({data}) => {
                 </div>
                 <div className=" container content-section">
                     <div className="title">
-                        Samagra in News
+                        {mediaPageContent.frontmatter.title}
                     </div>
                 </div>
             </div>
-            <section className="section">
-                <div className="container-fluid">
-                    <div className="content">
-                        {/*<MediaRoll/>*/}
-                    </div>
-                </div>
-            </section>
+            <div className="media-section container">
+                <MediaRoll media={mediaPageContent.frontmatter.mediaContent}/>
+            </div>
         </Layout>
     )
 }
