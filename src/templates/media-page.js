@@ -13,7 +13,10 @@ const MediaPage = ({data}) => {
     return (
         <Layout>
             <div className={'home-top-slider-wrapper media-page-banner'}
-                 style={{height: '600px', backgroundImage: `url(https://api.samagragovernance.in/blog/blog-header-bg.jpg)`}}>
+                 style={{
+                     height: '600px',
+                     backgroundImage: `url(https://api.samagragovernance.in/blog/blog-header-bg.jpg)`
+                 }}>
                 <div className="translucent-dark-overlay" style={{height: 'auto'}}>
                 </div>
                 <div className=" container content-section">
@@ -35,11 +38,34 @@ const MediaPage = ({data}) => {
 
 export default MediaPage
 export const mediaPageQuery = graphql`
-  query MediaPageQuery($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query MediaPageQuery {
+    markdownRemark(frontmatter: { templateKey: { eq: "media-page" } }) {
       html
       frontmatter {
         title
+        bannerImage {
+                   childImageSharp {
+                    fluid(maxWidth: 640, quality: 64) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+            }
+        mediaContent {
+            title
+            project
+            author
+            link
+            
+            image {
+                   childImageSharp {
+                    fluid(maxWidth: 640, quality: 64) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+            }
+            date(formatString: "MMMM DD, YYYY")
+            mediaHouse
+        }
       }
     }
   }
