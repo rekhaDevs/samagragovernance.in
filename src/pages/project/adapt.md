@@ -29,7 +29,7 @@ scale:
     label: Government Officials
   - count: '65,00,000'
     label: Farmers
-centerBanner: /img/chemex.jpg
+projectMiddleBannerImage: /img/chemex.jpg
 approach:
   - text: >-
       Our approach to improving agricultural productivity in Odisha is centred
