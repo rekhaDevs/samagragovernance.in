@@ -1,6 +1,8 @@
 ---
 templateKey: project-post
 title: Saksham Employment
+fullName: Saksham Haryana Skills and Employment
+id: SAKSHAM_EMPLOYMENT
 backgroundCover: /img/flavor_wheel.jpg
 domain: Employment
 subTitle: Samagra
