@@ -23,7 +23,7 @@ scale:
     label: Digital projects
   - count: '3,00,000'
     label: Government officials
-centerBanner: /img/chemex.jpg
+projectMiddleBannerImage: /img/chemex.jpg
 approach:
   - text: >-
       Our approach in this engagement has three elements. At the core of this
