@@ -15,7 +15,7 @@ const JoinUsPage = ({data}) => {
     return (
         <Layout>
             <JoinUsBannerImage/>
-            <JoinUsFormSection/>
+            <JoinUsFormSection />
         </Layout>
     )
 }
@@ -27,6 +27,20 @@ export const JoinUsPageQuery = graphql`
       html
       frontmatter {
         title
+        verticalImage {
+             childImageSharp {
+                fluid(maxWidth: 640, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+        }
+        horizontalImage {
+             childImageSharp {
+                fluid(maxWidth: 640, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+        }
       }
     }
   }

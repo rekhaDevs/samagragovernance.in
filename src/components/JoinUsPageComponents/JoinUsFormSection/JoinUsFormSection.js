@@ -3,7 +3,7 @@ import {PrimaryButton} from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
 const service = {};
 
-export const JoinUsFormSection = ({}) => {
+export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
     const reachingOptions = [
         'Word of Mouth',
         'Samagra Team Member',
