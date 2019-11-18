@@ -42,7 +42,7 @@ export const HeaderDropDownComponent = ({data}) => {
         <li onMouseEnter={() => setFocus()} onMouseLeave={() => looseFocus()}
             className={`${focused ? 'focused' : ''}`}>
             <a className="nav-link" href="#">OUR WORK</a>
-            <div className={'sub-menu'} style={{width: '650px'}}>
+            <div className={'sub-menu'} style={{width: '700px'}}>
                 <div className={"head-items-wrapper"}>
                     {
                         domains.map((item, index) => {

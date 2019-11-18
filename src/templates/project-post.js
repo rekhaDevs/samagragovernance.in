@@ -86,6 +86,13 @@ export const pageQuery = graphql`
             count
             label 
         }
+        projectMiddleBannerImage {
+           childImageSharp {
+            fluid(maxWidth: 240, quality: 64) {
+              ...GatsbyImageSharpFluid
+                }
+            }
+        }
         keyInitiatives {
             image {
                 childImageSharp {

@@ -11,11 +11,10 @@ import JoinUsFormSection from "../components/JoinUsPageComponents/JoinUsFormSect
 
 const JoinUsPage = ({data}) => {
     const {markdownRemark: joinUsPageContent} = data;
-    console.log(joinUsPageContent)
     return (
         <Layout>
             <JoinUsBannerImage/>
-            <JoinUsFormSection />
+            <JoinUsFormSection verticleImage={joinUsPageContent.frontmatter.verticalImage} horizontalImage={joinUsPageContent.frontmatter.horizontalImage}/>
         </Layout>
     )
 }

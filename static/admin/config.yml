@@ -28,6 +28,8 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-post"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Full Name", name: "fullName", widget: "string"}
+      - {label: "Id", name: "id", widget: "string"}
       - {label: "Background Cover", name: "backgroundCover", widget: image}
       - {label: "Domain", name: "domain", widget: "string"}
       - {label: "Sub Title", name: "subTitle", widget: "string"}
@@ -36,7 +38,7 @@ collections:
       - {label: "Project Logo with State", name: "projectLogoWithState", widget: image}
       - {label: Overview, name: overview, widget: list, fields: [{label: Text, name: text, widget: string}]}
       - {label: Scale, name: scale, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
-      - {label: "Center Banner", name: "centerBanner", widget: image}
+      - {label: "Center Banner", name: "projectMiddleBannerImage", widget: image}
       - {label: Approach, name: approach, widget: list, fields: [{label: Text, name: text, widget: string}]}
       - {label: Impact, name: impact, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
       - {label: "Key Initiatives", name: keyInitiatives, widget: list, fields: [{label: "Image", name: "image", widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: object, fields: [{label: Text, name: text, widget: string}]}]}

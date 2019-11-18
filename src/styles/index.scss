@@ -521,3 +521,18 @@ a {
     }
   }
 }
+@media only screen and (max-width: 980px) {
+  .hide-for-small-only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .show-for-small-only {
+    display: none !important;
+  }
+}
+
+body {
+  font-family: 'Proxima Nova Regular';
+}
