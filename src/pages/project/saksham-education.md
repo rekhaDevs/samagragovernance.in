@@ -31,7 +31,7 @@ scale:
     label: Teachers
   - count: '15,00,000'
     label: Students
-centerBanner: /img/chemex.jpg
+projectMiddleBannerImage: /img/chemex.jpg
 approach:
   - text: >-
       Samagra’s approach to transforming school education combines both academic
