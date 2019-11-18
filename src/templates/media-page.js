@@ -66,10 +66,3 @@ export const mediaPageQuery = graphql`
     }
   }
 `
-// bannerImage {
-//     childImageSharp {
-//         fluid(maxWidth: 2048, quality: 100) {
-//         ...GatsbyImageSharpFluid
-//         }
-//     }
-// }

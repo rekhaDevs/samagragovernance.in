@@ -15,7 +15,7 @@ const TestimonialSlider = ({content}) => {
                 <div className="slider-wrapper col-12">
                     <div className="background hide-for-small-only"/>
                     <div className="slider-card">
-                        <img src={service.baseUrl + content.centerBanner.image} style={{width: '100%'}}/>
+                        <img src={content.centerBanner.image} style={{width: '100%'}}/>
                     </div>
                 </div>
             </div>

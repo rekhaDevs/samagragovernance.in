@@ -10,7 +10,7 @@ const CareerSectionSecond = ({content}) => {
                         {
                             content.mainContent.map((c) => {
                                 return <p>
-                                    {c}
+                                    {c.text}
                                 </p>
                             })
                         }

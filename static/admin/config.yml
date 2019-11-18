@@ -88,9 +88,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "careers-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner Image", name: bannerImage, widget: image}
+          - {label: "Center Banner Image", name: centerBanner, widget: object, fields: [{label: Image, name: image, widget: image}]}
           - {label: "Main Text", name: mainContent, widget: list, fields: [{label: "Text", name: text, widget: string}]}
           - {label: "Philosophy", name: philosophy, widget: object, fields: [{label: "Section One", name: sectionOne, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}, {label: "Section Two", name: sectionTwo, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]},{label: "Section Three", name: sectionThree, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}, {label: "Section Four", name: sectionFour, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}]}
-          - {label: "Center Banner Image", name: centerBanner, widget: object, fields: [{label: Image, name: image, widget: image}]}
           - {label: "Slides", name: slides, widget: list, fields: [{label: Image, name: image, widget: image},{label: Text, name: text, widget: string}]}
           - {label: "Roles", name: roles, widget: object, fields: [{label: Youtube Link, name: youtubeLink, widget: string}, {label: Responsibilities, name: items, widget: list, fields: [{label: Title, name: title, widget: text}, {label: Description, name: description, widget: text}]}]}
           - {label: "FAQ", name: faq, widget: list, fields: [{label: Question, name: question, widget: text}, {label: Answer, name: answer, widget: text}]}
@@ -102,3 +102,10 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner Image", name: bannerImage, widget: image}
           - {label: "Media Content", name: mediaContent, widget: list, fields: [{label: "Title", name: "title", widget: "string"},{label: "Project", name: "project", widget: "string"},{label: "Author", name: "author", widget: "string"},{label: "Link", name: "link", widget: "string"},{label: "Image", name: "image", widget: image},{label: "Date", name: "date", widget: "datetime"},{label: "Media House", name: "mediaHouse", widget: "string"}]}
+      - file: "src/pages/joinus/index.md"
+        label: "Join Us Page"
+        name: "joinus"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Banner Image", name: bannerImage, widget: image}

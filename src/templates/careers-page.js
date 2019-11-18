@@ -15,15 +15,14 @@ import CareerSectionFifth from "../components/CareerPageComponents/CareerSection
 
 const MediaPage = ({data}) => {
     const {markdownRemark: careerPageContent} = data;
-    console.log(careerPageContent);
     return (
         <Layout>
-            {/*<CareerBannerImage bannerImage={content.bannerImage}/>*/}
-            {/*<CareerSectionSecond content={content}/>*/}
-            {/*<CareerSectionThird content={content}/>*/}
-            {/*<TestimonialSlider content={content}/>*/}
-            {/*<PaginationSlider content={content}/>*/}
-            {/*<CareerSectionFifth content={content}/>*/}
+            <CareerBannerImage bannerContent={careerPageContent.frontmatter}/>
+            <CareerSectionSecond content={careerPageContent.frontmatter}/>
+            <CareerSectionThird content={careerPageContent.frontmatter}/>
+            {/*<TestimonialSlider content={careerPageContent.frontmatter}/>*/}
+            <PaginationSlider content={careerPageContent.frontmatter}/>
+            <CareerSectionFifth content={careerPageContent.frontmatter}/>
         </Layout>
     )
 }
@@ -41,15 +40,6 @@ export const mediaPageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
-        }
-        centerBanner {
-            image {
-               childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
         }
         
         mainContent {
@@ -105,33 +95,25 @@ export const mediaPageQuery = graphql`
             question
             answer
         }
+        roles {
+            youtubeLink
+            items {
+                title
+                description
+            }
+        }
+        slides {
+            image {
+                childImageSharp {
+                    fluid(maxWidth: 640, quality: 64) {
+                      ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            text
+        }
 
       }
     }
   }
 `
-// centerBanner {
-//     childImageSharp {
-//         fluid(maxWidth: 640, quality: 64) {
-//         ...GatsbyImageSharpFluid
-//         }
-//     }
-// }
-//
-// slides {
-//     image {
-//         childImageSharp {
-//             fluid(maxWidth: 640, quality: 64) {
-//             ...GatsbyImageSharpFluid
-//             }
-//         }
-//     }
-//     text
-// }
-// roles {
-//     youtubeLink
-//     items {
-//         title
-//         description
-//     }
-// }
