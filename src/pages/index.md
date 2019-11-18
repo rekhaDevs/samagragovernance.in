@@ -67,7 +67,7 @@ secondSection:
           governments accountable and deliver with minimum delays and maximum
           efficiency.
   ourModel:
-    image: /img/chemex.jpg
+    image: /img/home-our-vision.jpg
     title: Our Model
     description:
       - subTitle: Our Model
