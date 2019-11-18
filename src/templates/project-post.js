@@ -40,7 +40,7 @@ const ProjectPost = ({data}) => {
         project && project.title ? <Layout>
             <ProductBannerImage project={project}/>
             <ProductPageSecondSection project={project}/>
-            {/*<ProductPageKeyInitiatives project={project}/>*/}
+            <ProductPageKeyInitiatives project={project}/>
             {/*<OurPublicationsSection media={media}/>*/}
         </Layout> : <React.Fragment/>
     )

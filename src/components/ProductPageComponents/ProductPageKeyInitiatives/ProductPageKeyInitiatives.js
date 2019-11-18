@@ -26,7 +26,7 @@ export const ProductPageKeyInitiatives = ({project}) => {
                         </div>
 
                         <div className={'description'}>
-                            {keyObjectives[project.longestKeyInitiatives || 0].description}
+                            {keyObjectives[project.longestKeyInitiatives || 0].description.text}
                             <div style={{marginTop: '30px'}}>
                                 <CustomPagerButtons/>
                             </div>
@@ -39,7 +39,9 @@ export const ProductPageKeyInitiatives = ({project}) => {
                             key={index}
                             className={`content-inner-section ${index === activeKeyObjectiveIndex ? 'active-section' : 'inactive-section'}`}>
                             <div className={'image-section'}>
-                                <div className={'image-wrapper'} style={{backgroundImage: `url(${'http://luezoid.com:3399/' + kO.image})`}}>
+                                <div className={'image-wrapper'} style={{backgroundImage: `url(${
+                                        !!kO.image.childImageSharp ? kO.image.childImageSharp.fluid.src : ''
+                                    })`}}>
 
                                 </div>
                             </div>
@@ -49,7 +51,7 @@ export const ProductPageKeyInitiatives = ({project}) => {
                                 </div>
 
                                 <div className={'description'}>
-                                    {kO.description}
+                                    {kO.description.text}
                                     <div style={{marginTop: '30px'}}>
                                         <CustomPagerButtons pageChanged={(index) => setKeyObjectiveIndex(index)}
                                                             pages={keyObjectives.length}

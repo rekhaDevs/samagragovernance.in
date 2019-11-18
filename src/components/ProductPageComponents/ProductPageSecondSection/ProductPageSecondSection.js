@@ -78,7 +78,7 @@ export class ProductPageSecondSection extends React.Component {
                         <div className="slider-card"
                              style={{
                                  backgroundImage:  `url(${
-                                     !!project.centerBanner.childImageSharp ? project.centerBanner.childImageSharp.fluid.src : ''
+                                     !!project.projectMiddleBannerImage.childImageSharp ? project.projectMiddleBannerImage.childImageSharp.fluid.src : ''
                                  })`
                              }}>
                         </div>

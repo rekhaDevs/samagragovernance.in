@@ -10,8 +10,8 @@
     position: relative;
     background: rgba(0, 0, 0, 0.7);
     z-index: 0;
-  }
 
+  }
   .title {
     font-size: 35px;
     color: white;
@@ -42,40 +42,157 @@
       text-align: center;
     }
 
-    .image-section {
+    .right-section {
       flex: 1;
       background: #2b2b2b;
-      display: flex;
-      padding: 30px;
-      padding-bottom: 40px;
 
-      .description-wrapper {
-        flex: 1;
+      .project-name {
+        font-weight: 600;
+        position: relative;
+        padding: 10px;
+        text-align: left;
+        font-size: 16px;
+        padding-right: 20px;
+        display: flex;
 
-        .image-logo {
-          width: 90%;
-        }
-
-        .description {
-          text-align: left;
-          font-size: 16px;
-          font-weight: 400;
+        .text {
+          display: inline-block;
           color: white;
-          padding: 20px;
+          font-size: 18px;
+          padding-top: 20px;
+          padding-left: 10px;
+          font-weight: 600;
         }
 
-        .read-more-text {
-          font-size: 14px;
-          font-weight: 400;
-          color: #de6e3d;
-          text-align: left;
-          padding: 0 20px;
+        &.theme-yellow {
+          color: white;
+          background: rgba(242, 209, 84, 1);
+        }
+
+        .logo {
+          display: inline;
+          padding: 0 20px 0 0;
+
+          img {
+            height: 50px;
+          }
+        }
+
+        .project-tag-line {
+          display: inline-block;
+          flex: 1;
+
+          .text {
+            padding-left: 7px;
+            color: white;
+            font-weight: 400;
+          }
+
+          img {
+            float: right;
+            height: 70px;
+          }
         }
       }
 
-      .image-wrapper {
-        flex: 1;
-        background: #efefef;
+
+      .image-section {
+
+        display: flex;
+        padding: 0;
+        padding-bottom: 40px;
+
+        .description-wrapper {
+          flex: 1;
+          padding: 0 10px;
+
+          .overview {
+            padding: 10px;
+            text-align: left;
+            border-radius: 10px;
+
+            .para {
+              max-height: 286px;
+              overflow: hidden;
+              margin-bottom: 15px;
+            }
+
+            .title {
+              color: #666666;
+              font-weight: 600;
+              font-size: 20px;
+
+              line-height: 25px;
+            }
+
+            color: white;
+          }
+
+          .image-logo {
+            width: 90%;
+          }
+
+          .description {
+            text-align: left;
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+            padding: 20px;
+          }
+
+          .read-more-text {
+            font-size: 14px;
+            font-weight: 400;
+            color: #de6e3d;
+            text-align: left;
+          }
+        }
+
+        .image-wrapper {
+          flex: 1;
+          padding: 10px;
+          padding-right: 20px;
+
+          .scale-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+            color: #666666;
+
+            .title {
+              text-align: center;
+              font-size: 30px;
+              color: #343434;
+              font-weight: 600;
+            }
+
+            .list {
+              .list-item {
+                text-align: center;
+
+                &:not(:last-child) {
+                  border-bottom: 1px solid #dddddd;
+                }
+
+                padding: 10px;
+
+                .count {
+                  font-size: 32px;
+                  font-weight: 800;
+                  padding: 0 10px;
+                  font-family: 'impact' !important;
+                  letter-spacing: 2px;
+                }
+
+                .description {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
       }
     }
 
@@ -104,11 +221,14 @@
   }
 
   .content-section-small {
-    margin-top: 50px;
+    margin-top: 10px;
 
     .card-outer-wrapper {
       padding: 10px;
       padding-bottom: 0;
+
+      margin-bottom: 50px;
+      margin-top: 5px;
 
       .card-wrapper {
 
@@ -131,17 +251,20 @@
           max-height: 163px;
 
           img {
-            width: 90%;
-            height: 138px;
+            height: 50px;
           }
         }
 
         .description {
-          text-align: center;
+          text-align: left;
           font-size: 14px;
           font-weight: 400;
           color: $theme-text-normal;
           margin: 30px 0;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 6;
+          -webkit-box-orient: vertical;
         }
 
         //.bottom-slide-pagination-wrapper {
@@ -172,8 +295,8 @@
     .text-section-wrapper {
       .list-item {
         font-size: 20px;
-        font-weight: 500;
-        color: white;
+        color: #888888;
+        font-weight: 600;
         text-align: left;
         padding: 0 15px;
       }
@@ -182,17 +305,20 @@
 
   @media only screen and (max-width: 980px) {
     .title {
-      font-size: 28px;
+      font-size: 20px !important;
       line-height: 34px;
       padding: 0 10px;
-      padding-top: 40px;
     }
     .sub-title {
-      padding: 0 10px;
+      padding: 0;
       margin-top: 10px;
+      color: #777777;
+      font-weight: 600;
+      text-align: left;
     }
     .translucent-dark-overlay {
       padding-top: 20px;
+      padding-bottom: 20px;
     }
     .content-section {
       margin-top: 20px !important;
@@ -212,6 +338,11 @@
   height: 10px;
   border-radius: 5px;
   background: #de6e3d;
+
+  &.white {
+    background: #ffffff;
+  }
+
   display: inline-block;
   margin: 0 3px;
 
@@ -276,4 +407,26 @@
   100% {
     width: 10px;
   }
+}
+
+.home-domain-page-indicator-active {
+  background: #DE6E3D !important;
+}
+
+.home-domain-page-indicator {
+  width: 10px;
+  height: 10px;
+  background: #eeeeee;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.home-domain-bullets {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  justify-content: center;
+  padding: 10px 50px 40px 10px;
 }

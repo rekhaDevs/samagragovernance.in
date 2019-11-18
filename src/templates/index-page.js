@@ -7,6 +7,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import {HomeTopSlider} from "../components/HomeComponents/HomeTopSlider/HomeTopSlider";
 import {HomeSecondSection} from "../components/HomeComponents/HomeSecondSection/HomeSecondSection";
+import HomeThirdSection from "../components/HomeComponents/HomeThirdSection/HomeThirdSection";
 
 export const IndexPageTemplate = ({
                                       title,
@@ -28,6 +29,7 @@ const IndexPage = ({data}) => {
                     <HomeSecondSection homeContent={frontmatter}/>
                 </React.Fragment> : <span/>
             }
+            <HomeThirdSection/>
         </Layout>
     )
 }

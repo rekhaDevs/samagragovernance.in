@@ -1,7 +1,6 @@
 import React from "react";
 import {HomeTopSliderBannerOne} from "./Banners/HomeTopSliderBannerOne/HomeTopSliderBannerOne";
-import {HomeTopSliderBannerSecond} from "./Banners/HomeTopSliderBannerSecond/HomeTopSliderBannerSecond";
-import {HomeTopSliderBannerThird} from "./Banners/HomeTopSliderBannerThird/HomeTopSliderBannerThird";
+import homeVideo from "../../../img/home_video.mp4";
 
 let firstBanner, secondBanner, thirdBanner, mainBanner;
 
@@ -21,13 +20,13 @@ export class HomeTopSlider extends React.Component {
 
     resetAnimations = (skip = 0) => {
         if (mainBanner)
-            clearTimeout(mainBanner)
+            clearTimeout(mainBanner);
         if (firstBanner)
-            clearTimeout(firstBanner)
+            clearTimeout(firstBanner);
         if (secondBanner)
-            clearTimeout(secondBanner)
+            clearTimeout(secondBanner);
         if (thirdBanner)
-            clearTimeout(thirdBanner)
+            clearTimeout(thirdBanner);
         if (skip === 4) {
             this.setState({firstBannerActive: true, secondBannerActive: true, thirdBannerActive: true});
             mainBanner = setTimeout(() => {
@@ -138,7 +137,9 @@ export class HomeTopSlider extends React.Component {
                         backgroundImage: 'linear-gradient(rgb(12,10,1), rgb(28,10,3))',
                         height: '100vh'
                     }} autoPlay={true}>
-                        {/*<source src={service.baseUrl + this.props.baseBanner.videoUrl} type="video/mp4"/>*/}
+                        <source src={
+                            homeVideo
+                        } type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>

@@ -20,7 +20,7 @@ const MediaPage = ({data}) => {
             <CareerBannerImage bannerContent={careerPageContent.frontmatter}/>
             <CareerSectionSecond content={careerPageContent.frontmatter}/>
             <CareerSectionThird content={careerPageContent.frontmatter}/>
-            {/*<TestimonialSlider content={careerPageContent.frontmatter}/>*/}
+            <TestimonialSlider content={careerPageContent.frontmatter}/>
             <PaginationSlider content={careerPageContent.frontmatter}/>
             <CareerSectionFifth content={careerPageContent.frontmatter}/>
         </Layout>
@@ -40,6 +40,15 @@ export const mediaPageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        centerBanner {
+           image {
+            childImageSharp {
+                fluid(maxWidth: 640, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+           }
         }
         
         mainContent {

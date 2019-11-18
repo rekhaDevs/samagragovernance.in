@@ -1,9 +1,11 @@
 import React from "react";
 import {Element, scroller} from "react-scroll/modules";
+import {PrimaryButton} from "../../../../PrimaryButton/PrimaryButton";
 // import {PrimaryButton} from "../../../../PrimaryButton/PrimaryButton";
 
 // import service from "utils/service";
 const service = {};
+
 export class HomeTopSliderBannerOne extends React.Component {
     constructor(props) {
         super(props);
@@ -21,6 +23,21 @@ export class HomeTopSliderBannerOne extends React.Component {
     componentDidMount() {
 
     }
+
+    getProjectUrl = (str) => {
+        const result = '/project/' + this.filterUrl(str);
+        return result;
+    }
+    filterUrl = (str) => {
+        let result = '';
+        str = str.replace(/ /g, '-').toLowerCase();
+        for (let i = 0; i < str.length; i++) {
+            if ('ascdfeghijklmnopqrstuvwxyz0123456789-'.indexOf(str[i]) > -1) {
+                result += str[i];
+            }
+        }
+        return result;
+    };
 
     componentWillReceiveProps(nextProps, nextContext) {
         if (nextProps && nextProps['bannerActive'] && !this.state.slideTitleVisible) {
@@ -125,14 +142,14 @@ export class HomeTopSliderBannerOne extends React.Component {
                                                      style={{
                                                          backgroundImage: `url(${
                                                              !!banner.slides[1].image.childImageSharp ? banner.slides[1].image.childImageSharp.fluid.src : ''
-                                                         })`,backgroundRepeat: 'no-repeat',
+                                                         })`, backgroundRepeat: 'no-repeat',
                                                          backgroundSize: 'cover'
                                                      }}/>
                                             <Element className="slider-content" name='slide-3'
                                                      style={{
                                                          backgroundImage: `url(${
                                                              !!banner.slides[2].image.childImageSharp ? banner.slides[2].image.childImageSharp.fluid.src : ''
-                                                         })`,backgroundRepeat: 'no-repeat',
+                                                         })`, backgroundRepeat: 'no-repeat',
                                                          backgroundSize: 'cover'
                                                      }}/>
                                         </div>
@@ -156,9 +173,9 @@ export class HomeTopSliderBannerOne extends React.Component {
 
 
                                         <div className="button-section">
-                                            {/*<PrimaryButton text={'EXPLORE MORE'} click={() => {*/}
-                                            {/*    window.location.href = this.props.banner.projectLink;*/}
-                                            {/*}}/>*/}
+                                            <PrimaryButton text={'EXPLORE MORE'} click={() => {
+                                                window.location.href = this.getProjectUrl(this.props.banner.projectName);
+                                            }}/>
                                         </div>
                                     </div>
                                 </div>
