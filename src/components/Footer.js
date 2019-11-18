@@ -50,7 +50,7 @@ export const FooterComponent = ({}) => {
                 <Link to={'/blog'}><a className="nav-link" href="/blogs">Blog</a></Link>
               </li>
               <li>
-                <Link to={'/career'}><a className="nav-link" href="/career">Careers</a></Link>
+                <Link to={'/careers'}><a className="nav-link" href="/career">Careers</a></Link>
               </li>
             </ul>
           </nav>

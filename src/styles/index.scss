@@ -14,8 +14,14 @@
 @import "./HomeTopSliderBannerOne";
 @import "./BlogDetails";
 @import "./PrimaryButton";
+@import "./CareerSectionFifth";
+@import "./CareerSectionSecond";
+@import "./CareerSectionThird";
+@import "./PaginationSlider";
+
 .media-page-banner {
   position: relative;
+
   .translucent-dark-overlay {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -44,6 +50,7 @@
       line-height: 150px;
     }
   }
+
   @media only screen and (max-width: 980px) {
     max-height: 270px !important;
   }

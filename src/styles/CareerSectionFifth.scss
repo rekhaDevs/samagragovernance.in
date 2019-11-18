@@ -1,0 +1,76 @@
+.samagra-roles-card {
+  border-radius: 8px;
+  border: solid 1px #d8d8d8;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.questions-accordion {
+  height: 700px;
+  overflow-y: scroll;
+
+  .samagra-roles-card {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+
+    .toggle-arrow {
+      position: absolute;
+      margin-top: -10.5px;
+      top: 50px;
+      right: 20px;
+      cursor: pointer;
+    }
+
+    &.isOpen {
+      height: 120px !important;
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        background-color: white;
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+}
+
+.roles-section {
+  max-height: 320px;
+
+  .role-item {
+    display: flex;
+    flex-direction: column;
+
+    &.active {
+      height: 100%;
+    }
+
+    .role-title {
+      width: 100%;
+      padding: 0 5px;
+
+      i {
+        float: right;
+      }
+    }
+
+    .role-description {
+      font-size: 15px;
+      flex: 1;
+      overflow-y: auto;
+      color: #888888;
+      padding: 10px;
+    }
+  }
+}
+
+.faq-title {
+  font-size: 80px;
+  @media only screen and (max-width: 980px) {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,50 @@
+.philosophy-section {
+  .size-2-2 {
+    width: 50vw;
+    height: calc((100vh - 75px) * 2 / 3);
+  }
+
+  .size-2-1 {
+    width: 50vw;
+    height: calc((100vh - 75px) / 3);
+  }
+
+  .size-4-1 {
+    width: 100%;
+    height: calc((100vh - 75px) / 3);
+  }
+
+  @media only screen and (max-width: 980px) {
+    .size-2-2 {
+      height: calc((100vh - 75px) * 2 / 3);
+    }
+
+    .size-2-1 {
+      height: calc((100vh - 75px) * 2 / 3);
+    }
+
+    .size-4-1 {
+      height: calc((100vh - 75px) * 2 / 3);
+    }
+  }
+}
+
+.overlay-philosophy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.philosophy-section-text {
+  position: absolute;
+  width: calc(100% - 96px);
+  z-index: 2;
+}
+
+.swiper-pagination {
+  bottom: -30px !important;
+  padding-right: 10px;
+}

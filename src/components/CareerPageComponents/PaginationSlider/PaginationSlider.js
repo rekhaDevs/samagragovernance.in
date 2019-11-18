@@ -1,0 +1,47 @@
+import React from "react";
+import Swiper from "react-id-swiper";
+
+const service = {};
+const PaginationSlider = ({content}) => {
+    const params = {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true,
+            bulletClass: 'life-at-samagra-page-indicator',
+            bulletActiveClass: 'life-at-samagra-page-indicator-active',
+            clickableClass: 'life-at-samagra-bullets'
+        },
+        slidesPerView: 1
+    };
+    return (
+        <div className={'container-fluid testimonial-slider'}>
+            <div className="row">
+                <div className="col-11 mx-auto pt-4">
+                    <div className={'f-80 fw-600 text-center my-5'}>
+                        Life @ Samagra
+                    </div>
+                </div>
+                <div className="col-12 mx-auto pt-4 px-0">
+                    <Swiper {...params} ContainerEl={'div'}>
+                        {
+                            content.slides.map((item, index) => {
+                                return <div className={'life-at-samagra'}>
+                                    <div className={'d-flex flex-wrap w-100 h-100 image-wrapper'} style={{backgroundImage: `url(${service.baseUrl + item.image})`,backgroundSize: 'cover',
+                                        backgroundPosition: 'center'}}>
+                                        <div className={'align-self-end f-40 mb-5 ml-5 text-white text-title'} style={{background: 'rgba(0,0,0,0.8)', padding: '0 20px'}}>
+                                            {item.text}
+                                        </div>
+                                    </div>
+                                </div>
+                            })
+                        }
+                    </Swiper>
+                </div>
+
+            </div>
+        </div>
+    )
+};
+
+export default PaginationSlider;

@@ -6,70 +6,122 @@ import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import {MediaRoll} from "../components/MediaRoll";
+import CareerBannerImage from "../components/CareerPageComponents/CareerBannerImage/CareerBanner";
+import CareerSectionSecond from "../components/CareerPageComponents/CareerSectionSecond/CareerSectionSecond";
+import CareerSectionThird from "../components/CareerPageComponents/CareerSectionThird/CareerSectionThird";
+import TestimonialSlider from "../components/CareerPageComponents/TestimonialSlider/TestimonialSlider";
+import PaginationSlider from "../components/CareerPageComponents/PaginationSlider/PaginationSlider";
+import CareerSectionFifth from "../components/CareerPageComponents/CareerSectionFifth/CareerSectionFifth";
 
 const MediaPage = ({data}) => {
-    const {markdownRemark: mediaPageContent} = data;
-    console.log(mediaPageContent);
+    const {markdownRemark: careerPageContent} = data;
+    console.log(careerPageContent);
     return (
         <Layout>
-            <div className={'home-top-slider-wrapper media-page-banner'}
-                 style={{
-                     height: '600px',
-                     backgroundImage: `url(https://api.samagragovernance.in/blog/blog-header-bg.jpg)`
-                 }}>
-                <div className="translucent-dark-overlay" style={{height: 'auto'}}>
-                </div>
-                <div className=" container content-section">
-                    <div className="title">
-                        {mediaPageContent.frontmatter.title}
-                    </div>
-                </div>
-            </div>
-            <div className="media-section container">
-                <MediaRoll media={mediaPageContent.frontmatter.mediaContent}/>
-            </div>
+            {/*<CareerBannerImage bannerImage={content.bannerImage}/>*/}
+            {/*<CareerSectionSecond content={content}/>*/}
+            {/*<CareerSectionThird content={content}/>*/}
+            {/*<TestimonialSlider content={content}/>*/}
+            {/*<PaginationSlider content={content}/>*/}
+            {/*<CareerSectionFifth content={content}/>*/}
         </Layout>
     )
 }
 
 export default MediaPage
 export const mediaPageQuery = graphql`
-  query MediaPageQuery {
-    markdownRemark(frontmatter: { templateKey: { eq: "media-page" } }) {
+  query CareersPageQuery {
+    markdownRemark(frontmatter: { templateKey: { eq: "careers-page" } }) {
       html
       frontmatter {
         title
         bannerImage {
-                   childImageSharp {
-                    fluid(maxWidth: 640, quality: 64) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
+           childImageSharp {
+            fluid(maxWidth: 640, quality: 64) {
+              ...GatsbyImageSharpFluid
             }
-        mediaContent {
-            title
-            project
-            author
-            link
-            
+          }
+        }
+        mainContent {
+            text
+        }
+        philosophy {
+            sectionOne {
+                image {
+                    childImageSharp {
+                        fluid(maxWidth: 640, quality: 64) {
+                          ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                title
+                description
+            }
+            sectionTwo {
+                image {
+                    childImageSharp {
+                        fluid(maxWidth: 640, quality: 64) {
+                          ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                title
+                description
+            }
+            sectionThree {
+                image {
+                    childImageSharp {
+                        fluid(maxWidth: 640, quality: 64) {
+                          ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                title
+                description
+            }
+            sectionFour {
+                image {
+                    childImageSharp {
+                        fluid(maxWidth: 640, quality: 64) {
+                          ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                title
+                description
+            }
+        }
+        
+        centerBanner {
+           childImageSharp {
+            fluid(maxWidth: 640, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        
+        slides {
             image {
-                   childImageSharp {
-                    fluid(maxWidth: 640, quality: 64) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
+               childImageSharp {
+                fluid(maxWidth: 640, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
-            date(formatString: "MMMM DD, YYYY")
-            mediaHouse
+            text
+        }
+        roles {
+            youtubeLink
+            items {
+                title
+                description
+            }
+        }
+        faq {
+            question
+            answer
         }
       }
     }
   }
 `
-// bannerImage {
-//     childImageSharp {
-//         fluid(maxWidth: 2048, quality: 100) {
-//         ...GatsbyImageSharpFluid
-//         }
-//     }
-// }

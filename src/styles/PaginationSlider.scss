@@ -1,0 +1,40 @@
+.life-at-samagra {
+  height: 600px !important;
+  background-color: #343434;
+
+  .image-wrapper {
+
+  }
+
+  @media only screen and (max-width: 980px) {
+    height: 220px !important;
+    .image-wrapper {
+    }
+    .text-title {
+      font-size: 17px !important;
+      margin: 45px 0 !important;
+    }
+  }
+}
+
+.life-at-samagra-page-indicator-active {
+  background: #DE6E3D !important;
+}
+
+.life-at-samagra-page-indicator {
+  width: 10px;
+  height: 10px;
+  background: #eeeeee;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.life-at-samagra-bullets {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  justify-content: flex-end;
+  padding: 10px 50px 40px 10px;
+}

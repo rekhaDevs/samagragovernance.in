@@ -1,0 +1,42 @@
+.testimonial-slider {
+
+  .second-section {
+    padding-top: 50px;
+
+    .slider-wrapper {
+      padding: 40px;
+      position: relative;
+
+      overflow: hidden;
+
+      .background {
+        position: absolute;
+        right: 0;
+
+        width: 300px;
+        top: 0;
+        height: 70%;
+        background: #efefef;
+        z-index: -1;
+      }
+
+      .slider-card {
+        border-radius: 10px;
+        box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+        margin: auto;
+        color: #666666;
+        background-size: cover;
+
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #343434;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+  }
+
+}
