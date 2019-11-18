@@ -13,11 +13,11 @@ subBanners:
         title: >-
           Learn how we are working with the Government of Haryana to transform
           school education in the state
-      - image: /img/flavor_wheel.jpg
+      - image: /img/home-banner-saksham-slide-2.jpg
         title: >-
           86% students in Grades 3, 5, 7 are now grade-level competent in Hindi
           & Math
-      - image: /img/chemex.jpg
+      - image: /img/home-banner-saksham-slide-3.jpg
         title: >-
           Merit-based recruitment and transparent transfer process for 1 lakh+
           teachers
@@ -26,13 +26,13 @@ subBanners:
       - text: Education
   - projectName: Adapt
     slides:
-      - image: /img/chemex.jpg
+      - image: /img/home-banner-agriculture-slide-1.jpg
         title: >-
           Learn how we are working with Government of Odisha to increase
           farmers' income in the state
-      - image: /img/flavor_wheel.jpg
+      - image: /img/home-banner-agriculture-slide-2.jpeg
         title: 'Livelihood assistance worth INR 2,500 crores to 51 lakh farmers'
-      - image: /img/chemex.jpg
+      - image: /img/home-banner-agriculture-slide-3.jpeg
         title: 90% reduction in crop loss area due to Customised Pest Advisory
     titleLines:
       - text: Transforming
