@@ -9,7 +9,7 @@ baseBanner:
 subBanners:
   - projectName: Saksham Education
     slides:
-      - image: /img/chemex.jpg
+      - image: /img/home-banner-saksham-slide-1.jpg
         title: >-
           Learn how we are working with the Government of Haryana to transform
           school education in the state
