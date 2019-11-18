@@ -21,5 +21,15 @@ philosophy:
     description: Description
     image: /img/chemex.jpg
     title: Title
+centerBanner:
+  image: /img/chemex.jpg
+slides:
+  - image: /img/blog-index.jpg
+    text: New TExt
+  - image: /img/chemex.jpg
+    text: Text
+roles:
+  items: []
+  youtubeLink: Youtube Link
 ---
 
