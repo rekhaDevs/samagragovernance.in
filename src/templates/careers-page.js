@@ -91,36 +91,6 @@ export const mediaPageQuery = graphql`
                 description
             }
         }
-        
-        centerBanner {
-           childImageSharp {
-            fluid(maxWidth: 640, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        
-        slides {
-            image {
-               childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-        }
-        roles {
-            youtubeLink
-            items {
-                title
-                description
-            }
-        }
-        faq {
-            question
-            answer
-        }
       }
     }
   }
