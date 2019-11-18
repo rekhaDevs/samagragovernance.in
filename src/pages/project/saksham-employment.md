@@ -26,7 +26,7 @@ scale:
     label: Youth entering the state's workforce annually
   - count: '167'
     label: Industrial Training Institutes
-centerBanner: /img/blog-index.jpg
+projectMiddleBannerImage: /img/chemex.jpg
 approach:
   - text: >-
       Unemployment is a concern across states. In general, it manifests in three
