@@ -6,25 +6,16 @@ import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import {MediaRoll} from "../components/MediaRoll";
+import JoinUsBannerImage from "../components/JoinUsPageComponents/JoinUsBannerImage/JoinUsBannerImage";
+import JoinUsFormSection from "../components/JoinUsPageComponents/JoinUsFormSection/JoinUsFormSection";
 
 const JoinUsPage = ({data}) => {
     const {markdownRemark: joinUsPageContent} = data;
-    console.log(joinUsPageContent);
+    console.log(joinUsPageContent)
     return (
         <Layout>
-            {/*<div className={'home-top-slider-wrapper media-page-banner'}*/}
-            {/*     style={{*/}
-            {/*         height: '600px',*/}
-            {/*         backgroundImage: `url(https://api.samagragovernance.in/blog/blog-header-bg.jpg)`*/}
-            {/*     }}>*/}
-            {/*    <div className="translucent-dark-overlay" style={{height: 'auto'}}>*/}
-            {/*    </div>*/}
-            {/*    <div className=" container content-section">*/}
-            {/*        <div className="title">*/}
-            {/*            {joinUsPageContent.frontmatter.title}*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <JoinUsBannerImage/>
+            <JoinUsFormSection/>
         </Layout>
     )
 }

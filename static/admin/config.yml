@@ -108,4 +108,5 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Banner Image", name: bannerImage, widget: image}
+          - {label: "Vertical Image", name: verticalImage, widget: image}
+          - {label: "Horizontal Image", name: horizontalImage, widget: image}
