@@ -42,6 +42,16 @@ export const mediaPageQuery = graphql`
             }
           }
         }
+        centerBanner {
+            image {
+               childImageSharp {
+                fluid(maxWidth: 640, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+        }
+        
         mainContent {
             text
         }
@@ -91,7 +101,37 @@ export const mediaPageQuery = graphql`
                 description
             }
         }
+        faq {
+            question
+            answer
+        }
+
       }
     }
   }
 `
+// centerBanner {
+//     childImageSharp {
+//         fluid(maxWidth: 640, quality: 64) {
+//         ...GatsbyImageSharpFluid
+//         }
+//     }
+// }
+//
+// slides {
+//     image {
+//         childImageSharp {
+//             fluid(maxWidth: 640, quality: 64) {
+//             ...GatsbyImageSharpFluid
+//             }
+//         }
+//     }
+//     text
+// }
+// roles {
+//     youtubeLink
+//     items {
+//         title
+//         description
+//     }
+// }

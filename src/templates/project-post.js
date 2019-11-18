@@ -74,13 +74,7 @@ export const pageQuery = graphql`
         approach {
             text
         }
-        centerBanner {
-            childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-        }
+       
         overview {
             text
         }
@@ -109,3 +103,10 @@ export const pageQuery = graphql`
     }
   }
 `
+// centerBanner {
+//     childImageSharp {
+//         fluid(maxWidth: 240, quality: 64) {
+//         ...GatsbyImageSharpFluid
+//         }
+//     }
+// }
