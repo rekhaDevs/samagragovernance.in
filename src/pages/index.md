@@ -39,15 +39,15 @@ subBanners:
       - text: Agriculture
   - projectName: Saksham Education
     slides:
-      - image: /img/chemex.jpg
+      - image: /img/home-banner-service-slide-1.jpg
         title: >-
           Learn how we are working with the Government of Haryana to overhaul
           public service delivery in the state
-      - image: /img/flavor_wheel.jpg
+      - image: /img/home-banner-service-slide-2.jpg
         title: >-
           501 government-to-citizen services across 36 departments on one
           platform
-      - image: /img/chemex.jpg
+      - image: /img/home-banner-service-slide-3.png
         title: >-
           6 million citizens use the platform annually giving an average rating
           of 4.3 on 5
