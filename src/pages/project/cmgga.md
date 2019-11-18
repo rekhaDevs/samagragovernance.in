@@ -29,7 +29,7 @@ scale:
     label: Districts
   - count: '94'
     label: CMMGAs
-centerBanner: /img/chemex.jpg
+projectMiddleBannerImage: /img/chemex.jpg
 approach:
   - text: >-
       The CMGGA programme was designed to be a structured, experiential learning
