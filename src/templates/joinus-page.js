@@ -32,7 +32,7 @@ const JoinUsPage = ({data}) => {
 export default JoinUsPage
 export const JoinUsPageQuery = graphql`
   query JoinUsPageQuery {
-    markdownRemark(frontmatter: { templateKey: { eq: "media-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "joinus-page" } }) {
       html
       frontmatter {
         title

@@ -17,7 +17,7 @@ const CareerSectionSecond = ({content}) => {
 
                     </div>
                     <div className={'text-center mt-4'}>
-                        <PrimaryButton classes={'py-3 text-uppercase'} click={()=>{window.location.href = '/join-us'}} text={'Join Us'}/>
+                        <PrimaryButton classes={'py-3 text-uppercase'} click={()=>{window.location.href = '/joinus'}} text={'Join Us'}/>
                     </div>
                     <div className={'fw-600 philosophy-title text-center mt-5 pt-4 mb-5'}>
                         People Philosophy

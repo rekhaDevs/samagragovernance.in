@@ -60,7 +60,7 @@ const CareerSectionFifth = ({content}) => {
                     <div className="row mt-5 pt-5">
                         <div className="col-12 text-center">
                             <PrimaryButton classes={'py-3 text-uppercase'} click={() => {
-                                window.location.href = '/join-us'
+                                window.location.href = '/joinus'
                             }} text={'Join Us'}/>
                         </div>
                         <div className="col-12 text-center my-5 py-4 faq-title">
