@@ -1,5 +1,6 @@
 ---
 templateKey: joinus-page
-title: Samagra in News
+title: Join Us
+bannerImage: /img/flavor_wheel.jpg
 ---
 
