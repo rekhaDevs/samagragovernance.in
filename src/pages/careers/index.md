@@ -29,7 +29,12 @@ slides:
   - image: /img/chemex.jpg
     text: Text
 roles:
-  items: []
+  items:
+    - description: Text
+      title: Title
   youtubeLink: Youtube Link
+faq:
+  - answer: Answet
+    question: Question
 ---
 
