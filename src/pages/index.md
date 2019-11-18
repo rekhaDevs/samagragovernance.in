@@ -1,57 +1,89 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+title: Samagra Governance
+description: Samagra Governance
 baseBanner:
   titleLines:
-    - text: New Text
+    - text: Transforming
+    - text: Governance
 subBanners:
-  - projectName: Project Name
+  - projectName: Saksham Education
     slides:
       - image: /img/chemex.jpg
-        title: Title
+        title: >-
+          Learn how we are working with the Government of Haryana to transform
+          school education in the state
       - image: /img/flavor_wheel.jpg
-        title: New Title
+        title: >-
+          86% students in Grades 3, 5, 7 are now grade-level competent in Hindi
+          & Math
       - image: /img/chemex.jpg
-        title: Title
+        title: >-
+          Merit-based recruitment and transparent transfer process for 1 lakh+
+          teachers
     titleLines:
-      - text: NEw Tag line
-  - projectName: Project Name
+      - text: Transforming
+      - text: Education
+  - projectName: Adapt
     slides:
       - image: /img/chemex.jpg
-        title: Title
+        title: >-
+          Learn how we are working with Government of Odisha to increase
+          farmers' income in the state
       - image: /img/flavor_wheel.jpg
-        title: New Title
+        title: 'Livelihood assistance worth INR 2,500 crores to 51 lakh farmers'
       - image: /img/chemex.jpg
-        title: Title
+        title: 90% reduction in crop loss area due to Customised Pest Advisory
     titleLines:
-      - text: NEw Tag line
-  - projectName: Project Name
+      - text: Transforming
+      - text: Agriculture
+  - projectName: Saksham Education
     slides:
       - image: /img/chemex.jpg
-        title: Title
+        title: >-
+          Learn how we are working with the Government of Haryana to overhaul
+          public service delivery in the state
       - image: /img/flavor_wheel.jpg
-        title: New Title
+        title: >-
+          501 government-to-citizen services across 36 departments on one
+          platform
       - image: /img/chemex.jpg
-        title: Title
+        title: >-
+          6 million citizens use the platform annually giving an average rating
+          of 4.3 on 5
     titleLines:
-      - text: NEw Tag line
+      - text: Transforming
+      - text: Service Delivery
 secondSection:
   ourApproach:
-    title: Approach
+    title: Our Approach
     description:
-      - subTitle: New Descriptiuon
-        text: New Description
+      - subTitle: Our Approach
+        text: >-
+          We combine a top-down management consulting approach for problem
+          structuring with a bottom-up understanding of the governance ecosystem
+          for designing solutions, while leveraging data and technology to
+          enable implementation of our solutions, with the objective of making
+          governments accountable and deliver with minimum delays and maximum
+          efficiency.
   ourModel:
     image: /img/chemex.jpg
-    title: Title
+    title: Our Model
     description:
-      - subTitle: New Sub Title
-        text: Decsrot
-  title: Second Section
+      - subTitle: Our Model
+        text: >-
+          We are a mission-driven governance consulting firm. We firmly believe
+          in governance being the primary lever of change to create large scale
+          impact in the country. We work with the senior political and
+          bureaucratic leadership of states to solve governance problems at
+          scale. From the time we are approached with a problem statement, we
+          cowork with the government to diagnose the challenge, design a
+          transformation roadmap and implement the same. The solutions we
+          develop are rooted in the realities of governance in India. All our
+          engagements are typically two-three year-long systemic transformation
+          programmes.
+  title: >-
+    We are working to improve the quality of life of citizens through better
+    governance
 ---
 
