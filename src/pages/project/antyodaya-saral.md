@@ -31,7 +31,7 @@ scale:
     label: Schemes and services
   - count: '50,00,000'
     label: Citizens in Haryana
-centerBanner: /img/chemex.jpg
+projectMiddleBannerImage: /img/chemex.jpg
 approach:
   - text: >-
       Our approach to streamlining public service delivery in Haryana was rooted
