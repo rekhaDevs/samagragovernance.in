@@ -17,7 +17,7 @@ team:
       In 2012, he set up Samagra so that he could translate his passion into a
       reality create impact at scale. He has shaped Samagra's values and
       approach to impact, and continues to steer it into the future.
-    image: /img/blog-index.jpg
+    image: /img/Gaurav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/gaurav-goel-07374680/'
     name: Gaurav Goel
     project: Founder & CEO
@@ -35,7 +35,7 @@ team:
       co-found Samagra. He joined Gaurav in this journey in 2015, and has been
       instrumental in driving Samagra's journey and growth both as an
       organisation and the impact it has been able to create
-    image: /img/blog-index.jpg
+    image: /img/Ankur.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankurbansal1/'
     name: Ankur Bansal
     project: Co-founder
@@ -50,7 +50,7 @@ team:
       defining the third pillar of Samagra's problem solving
       approach--leveraging data and technology to create impact at scale. Rahul
       drives the use of technology across all our engagements
-    image: '/img/blog-index.jpg,'
+    image: /img/Rahul.jpg
     linkedInProfile: 'https://www.linkedin.com/in/rahul10100/'
     name: Rahul Kulkarni
     project: Technology Expert
@@ -63,7 +63,7 @@ team:
       previously also worked at EY.\n\nHis belief that governance is the
       critical lever to creating sustainable and scalable solutions brought him
       to Samagra. He is currently part of the ADAPT team in Odisha.
-    image: /img/blog-index.jpg
+    image: /img/Aayush.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aayushkedia'
     name: Aayush Kedia
     project: ADAPT
