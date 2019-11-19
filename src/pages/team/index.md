@@ -51,6 +51,61 @@ team:
     project: Saksham Haryana-Skills & Employment
     bio: Ankit holds a Bachelor's degree in Computer Science and Engineering from Uttar Pradesh Technical University and a Master's in Management with a specialisation in Business Analytics from the Indian Institute of Science, Bengaluru. He started his career at HP Global Analytics as a Business Analyst in the Digital Marketing Analytics tower and moved on to work at SEBI as an Assistant Manager in the Investment Management Department. He then joined the Department of Finance and Planning, Government of Chhattisgarh as a Chief Minister’s Good Governance Fellow.\n\nThe zeal to create real impact on the ground by transforming governance and public administration brought Ankit to Samagra. He is currently part of the Saksham Haryana-Skills & Employment team.
     linkedInProfile: https://www.linkedin.com/in/ankitg17
+  - name: Ankit Jain
+    image: /img/blog-index.jpg
+    project: Saksham Haryana-Education
+    bio: Ankit holds a Bachelor's degrees in Metallurgical & Materials Engineering from IIT Kharagpur. He worked for 3 years with Rio Tinto India as process engineer and business analyst for an upcoming diamond mine in Madhya Pradesh. An interest in switching to the social impact sector led him to join the first cohort of the Chief Minister's Good Governance Associates (CMGGA) programme in Haryana. As a CMGGA, he spent one year working on improving the delivery of government programmes and piloting innovative governance changes in Jind district.\n\nWhile the CMGGA programme provided an in-depth understanding of the government's functioning at grassroot level, Ankit wanted to work at the state level to contribute towards effective and sustainable systemic change. With this in mind, Ankit joined Samagra to create impact at scale. He currently leads the Saksham Haryana-Education engagement.
+    linkedInProfile: https://www.linkedin.com/in/ankitjain0812
+  - name: Anshul Chaudhary
+    image: /img/blog-index.jpg
+    project: Saksham Haryana-Education
+    bio: Anshul holds a Bachelor's degree in engineering from Dr APJ Abdul Kalam Technical University. Previously, he worked as a Consultant for MP from Hyderabad, Asaduddin Owaisi and led the LEARN project focused on first-time voters of the constituency. Anshul has also worked as Manager, Government Affairs for India’s leading parking start-up Get My Parking where he worked with state governments, urban local bodies and Smart City consultants to assist in the formulation of parking policies. As a Policy in Action Fellow with Young Leaders for Active Citizenship (YLAC) he worked for Rajeev Shankarrao Satav, MP for Hingoli, on the “Study on Disability Rights and the Accessible India Campaign"". Anshul is also a national level quizzer and plans to write a quiz book for children.\n\nAn opportunity to solve complex governance challenges through a hands-on approach brought him to Samagra. Currently he is part of the Saksham Haryana-Education team.
+    linkedInProfile: https://www.linkedin.com/in/anshul-chaudhary-30623839
+  - name: Apoorva Murari
+    project: PWD - Odisha
+    image: /img/blog-index.jpg
+    bio: Apoorva holds a Bachelor's degree in Biomedical Engineering from the Bharati Vidyapeeth University. She is a Chevening Scholar with a Master's  degree in Development Studies from the Institute of Development Studies, Sussex. Previously, she worked with Teach For India managing fellowship recruitment. Before Samagra, she was a Campaign Lead at Indus Action driving the implementation of RTE Act Section 12 (1)(c) in Delhi. She worked to implement awareness campaigns and application support processes for low-income communities and school readiness camps for 3-6 year old children.\n\nAn opportunity to understand public administration systems brought Apoorva to Samagra.
+    linkedInProfile: https://www.linkedin.com/in/apoorva-murari-06056326
+  - name: Chakshu Gautam
+    project: Samagra Tech
+    image: /img/blog-index.jpg
+    bio: Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias College of Engineering and Technology and an MTech in Structural Engineering (Civil) from the IIT, Delhi. Prior to Samagra, he was working with an IoT start up, CarSense, as a Senior Software Developer. Before that he held the position of Assistant Professor at Amity University, Gurugram where he taught Civil and Structural Engineering.\n\nHis belief that employing technological tools can lead to better governance and improve the lives of citizens brought him to Samagra. Currently he is part of the Samagra Tech team.
+    linkedInProfile: https://www.linkedin.com/in/chakshu-gautam-6918736b
+  - name: Chirag Bhandari
+    project: CMGGA
+    image: /img/blog-index.jpg
+    bio: Chirag holds a Bachelor's degree in Chemical Engineering from IIT, Bombay. He worked as an analytics consultant with Fractal Analytics before becoming a tech entrepreneur. Chirag started a company in the travel domain and subsequently helped build the insurance startup Coverfox Insurance ground up. He led teams in digital marketing, sales and analytics and last led strategy for Coverfox as the Chief of Staff. \n\nAn opportunity to use his entrepreneurial experience to deliver large scale and deep impact programmes brought him to Samagra. Currently he leads the CMGGA engagement in Haryana.
+    linkedInProfile: e i
+  - name: Divya Ahuja
+    image: /img/blog-index.jpg
+    project: Saksham Haryana-Skills & Employment
+    bio: Divya holds Bachelor's degree in Commerce from Lady Shri Ram College for Women. Previously, she has worked as an Analyst at KPMG India in the Deal Advisory arm. Her interest in the development sector grew from short stints in policy and social work in college.\n\nAn opportunity to create real impact and build a career path in the social sector brought her to Samagra. Currently she is part of the Saksham Haryana-Skills & Employment team.
+    linkedInProfile: https://www.linkedin.com/in/divya-ahuja-86271188
+  - name: Divya Goel
+    project: Samarth
+    image: /img/blog-index.jpg
+    bio: Divya holds a Bachelor's degree in Mathematics and Scientific Computing from IIT, Kanpur. She completed the Young India Fellowship from Ashoka University. As a student she worked with various social sector organisations. She also holds a Professional Diploma in Movement Art from the Attakkalari Centre for Movement Arts, Bengaluru.\n\nSamagra's commitment to both scale and tangible impact by working with the government brought her here. Currently she is part of the Samarth team in Himachal Pradesh.
+    linkedInProfile: https://www.linkedin.com/in/divya-goel-64122365
+  - name: Gayatri Chandrasekaran
+    image: /img/blog-index.jpg
+    project: Communications Strategy
+    bio: Gayatri holds a Bachelor's degree in Economics and Political Science from St Stephen's College, University of Delhi and a Post-Graduate Diploma in Journalism from the Asian College of Journalism, Chennai. She also has a Master's in International Relations from the School of Advanced International Studies (SAIS), Johns Hopkins University. Prior to Samagra, she was working at IDFC Institute as Manager for Communications & Strategy. Gayatri has previously also worked at Mint as a copy editor and opinion writer. While at Mint, she used to write on foreign policy and security issues, primarily focused on the Indian subcontinent. \n\nAn opportunity to work at the intersection of public policy and communication brought her to Samagra.
+    linkedInProfile: https://www.linkedin.com/in/gayatri-chandrasekaran-17a25590
+  - name: Hardik Rathod
+    project: CMGGA
+    image: /img/blog-index.jpg
+    bio: Hardik holds a dual degree in Chemical Engineering from IIT, Bombay. Before joining Samagra, he has worked as a Product Manager in UpGrad.com, an Ed-Tech Startup, and Housing.com. He also worked with various fintech startups as an advisor focusing on growth. He also co-founded Aasaanjobs.com and was responsible for the firm's operations and business development. He entered the policy space through the Young Leaders for Active Citizenship (YLAC) fellowship, during which he worked on analysing and developing a Skill Development Policy for a Lok Sabha MP.\n\nAn opportunity to work at the intersection of technology and policy brought him to Samagra. Currently he is part of the CMGGA team in Haryana.
+    linkedInProfile: https://www.linkedin.com/in/hardik-rathod-b2386234
+  - name: Harsh Garg
+    project: DHC
+    image: /img/blog-index.jpg
+    bio: Harsh hold's a Bachelor's degree in Business Studies from Shaheed Sukhdev College of Business Studies, Delhi University. During his time at college, he was actively involved with Enactus, and represented India at the Enactus World Cup 2018, where his team got the second position for their work in the sanitation and education space. In addition to this, he also worked as a campaign leader for Teach for India in his college and interned at Social Cops.\n\nHis passion towards creating social impact and bringing about a positive change in the world brought him to Samagra. Currently he is part of the Digital Haryana Cell.
+    linkedInProfile: https://www.linkedin.com/in/harshgarg96
+  - name: Helen Creighton
+    project: CMGGA
+    image: /img/blog-index.jpg
+    bio: Helen holds a Bachelor's degree in Economics from the University of Cambridge. She worked in think tanks both in New Delhi and London before joining the UK Civil Service. She first worked as an Economist in the Energy and Climate department and later as a Senior Policy Advisor in the Department for Exiting the European Union.\n\nAn opportunity to expand her understanding of different governance models and to explore innovative ways of improving citizens' daily lives brought her to Samagra. Currently she is part of the CMGGA team in Haryana.
+    linkedInProfile: https://www.linkedin.com/in/helen-creighton-5856b685
     
 ---
 
