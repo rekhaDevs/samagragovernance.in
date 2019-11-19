@@ -111,6 +111,11 @@ team:
     image: /img/blog-index.jpg
     bio: Kalpesh holds a Dual Degree (Mining Engineering and MBA) from IIT, Indian School of Mines, Dhanbad. Previously, he worked as a Business Analyst at Analytics Quotient where he focused on building business development and growth metrics for an automobile client.\n\nAn interest in working with the political and bureaucratic leadership to create scalable impact brought him to Samagra. Currently he is part of the ADAPT team in Odisha.
     linkedInProfile: https://www.linkedin.com/in/kalpesh-agrawal
+  - name: Mohit Bahri
+    image: /img/blog-index.jpg
+    project: Samarth
+    bio: Mohit holds a Bachelor's degree in Pharmaceutical Sciences from the University of Delhi  and Master's degree in International Business from Symbiosis, Pune. Mohit has 15 years of work experience spanning multiple functions–strategy consulting, business development and sales. Prior to Samagra, he worked as an Associate Director at KPMG, where his work was focused on business development through eminence building and client development activities. In the past, Mohit has worked with IMS Consulting Group (now IQVIA), PharmARC and Aventis Pharma (now Sanofi). He also founded a healthcare focussed solution, called medeel.com, to help patients access affordable healthcare solutions.\n\nAn interest in working in the social sector and creating scalable, impactful solutions for governance problems brought him to Samagra. Currently he leads the Samarth engagement in Himachal Pradesh.
+    linkedInProfile: https://www.linkedin.com/in/mohitbahri
   - name: Prasanna A
     project: Creatives
     image: /img/blog-index.jpg
