@@ -52,7 +52,7 @@ export const pageQuery = graphql`
             slides {
                 image {
                     childImageSharp {
-                        fluid(maxWidth: 240, quality: 64) {
+                        fluid(maxWidth: 1024, quality: 100) {
                           ...GatsbyImageSharpFluid
                         }
                       }
