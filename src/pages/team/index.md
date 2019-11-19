@@ -116,6 +116,26 @@ team:
     project: Samarth
     bio: Mohit holds a Bachelor's degree in Pharmaceutical Sciences from the University of Delhi  and Master's degree in International Business from Symbiosis, Pune. Mohit has 15 years of work experience spanning multiple functions–strategy consulting, business development and sales. Prior to Samagra, he worked as an Associate Director at KPMG, where his work was focused on business development through eminence building and client development activities. In the past, Mohit has worked with IMS Consulting Group (now IQVIA), PharmARC and Aventis Pharma (now Sanofi). He also founded a healthcare focussed solution, called medeel.com, to help patients access affordable healthcare solutions.\n\nAn interest in working in the social sector and creating scalable, impactful solutions for governance problems brought him to Samagra. Currently he leads the Samarth engagement in Himachal Pradesh.
     linkedInProfile: https://www.linkedin.com/in/mohitbahri
-
+  - name: Nikhil Nadiger
+    image: /img/blog-index.jpg
+    project: Saksham Haryana-Skills & Employment
+    bio: Nikhil holds Bachelor's degree in Information Science from School of Engineering & Technology, Jain University. Before joining Samagra, Nikhil set up India's first radical mime entity, PunchTantraa. Post that, as part of the Teach for India Fellowship he worked in low-income schools in Hyderabad and Bengaluru as a school teacher.\n\nAn opportunity to create impact at scale through better governance brought him to Samagra. Currently he leads the Saksham Haryana-Skills & Employment engagement. 
+    linkedInProfile: https://www.linkedin.com/in/nikhil-nadiger
+  - name: Pragya Mathur
+    project: Samarth
+    image: /img/blog-index.jpg
+    bio: Pragya hold a Bachelor's degree in Economics from Miranda House, University of Delhi. She has previously interned at CollarFolk, a start up in Gurgaon and conceptualized a self-guided social entrepreneurship project called ‘Pravah’, on stopping the use of plastic straws. Pragya also completed a course on ‘Re-thinking the Obvious: Rhetoric of Development’ at Miranda House in collaboration with The George Washington University. \n\nAn opportunity to create positive impact in the lives of people and an interest in public policy brings Pragya to Samagra. Currently she is part of the Samarth team in Himachal Pradesh.
+    linkedInProfile: https://www.linkedin.com/in/pragya-mathur-678779126
+  - name: Prasanna A
+    project: Creatives
+    image: /img/blog-index.jpg
+    bio: Prasanna holds a Bachelor's degree in Statistics from St. Joseph's College, Trichy and a Master's in Computer Applications from Adaikalamatha College, Thanjavur. He has worked extensively in the consulting and investment banking industries and produced high-end business-to-business and consumer-facing designs. He has worked with one of the Big 3 Consulting firms and two of the top-10 Investment Banking companies.\n\nHe works as a graphics designer at Samagra.
+    linkedInProfile: https://www.linkedin.com/in/a-lourdu-pownraj-prasanna-786a1a132
+  - name: Prerna Bhandari
+    image: /img/blog-index.jpg
+    project: ADAPT
+    bio: Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College for Women, University of Delhi. An interest in creating social impact drove her to lead the research and development team of Enactus as part of which she conducted in depth onground research and back-end analysis of community development projects. She has also interned as a policy researcher with the Deputy Chief Minister's Office, Government of Delhi, where she undertook the process of streamlining and monitoring the MLALAD funds of 11 revenue districts of Delhi and recommended policy level interventions for improved functioning of the Delhi Urban Development Authority.\n\nAn opportunity to employ her proble-solving skills to create sustainable impact brought her to Samagra. Currently she is part of the ADAPT team in Odisha.
+    linkedInProfile: https://www.linkedin.com/in/prerna-bhandari-112298141
+ 
 ---
 
