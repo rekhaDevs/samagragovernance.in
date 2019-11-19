@@ -256,7 +256,7 @@ team:
       security issues, primarily focused on the Indian subcontinent. \n\nAn
       opportunity to work at the intersection of public policy and communication
       brought her to Samagra.
-    image: /img/blog-index.jpg
+    image: /img/Gayatri.jpg
     linkedInProfile: 'https://www.linkedin.com/in/gayatri-chandrasekaran-17a25590'
     name: Gayatri Chandrasekaran
     project: Communications Strategy
@@ -271,7 +271,7 @@ team:
       and developing a Skill Development Policy for a Lok Sabha MP.\n\nAn
       opportunity to work at the intersection of technology and policy brought
       him to Samagra. Currently he is part of the CMGGA team in Haryana.
-    image: /img/blog-index.jpg
+    image: /img/Hardik.jpg
     linkedInProfile: 'https://www.linkedin.com/in/hardik-rathod-b2386234'
     name: Hardik Rathod
     project: CMGGA
@@ -285,7 +285,7 @@ team:
       interned at Social Cops.\n\nHis passion towards creating social impact and
       bringing about a positive change in the world brought him to Samagra.
       Currently he is part of the Digital Haryana Cell.
-    image: /img/blog-index.jpg
+    image: /img/Harsh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/harshgarg96'
     name: Harsh Garg
     project: DHC
@@ -298,7 +298,7 @@ team:
       understanding of different governance models and to explore innovative
       ways of improving citizens' daily lives brought her to Samagra. Currently
       she is part of the CMGGA team in Haryana.
-    image: /img/blog-index.jpg
+    image: /img/Helan.jpg
     linkedInProfile: 'https://www.linkedin.com/in/helen-creighton-5856b685'
     name: Helen Creighton
     project: CMGGA
@@ -309,7 +309,7 @@ team:
       growth metrics for an automobile client.\n\nAn interest in working with
       the political and bureaucratic leadership to create scalable impact
       brought him to Samagra. Currently he is part of the ADAPT team in Odisha.
-    image: /img/blog-index.jpg
+    image: /img/Kalpesh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/kalpesh-agrawal'
     name: Kalpesh Agrawal
     project: ADAPT
@@ -327,7 +327,7 @@ team:
       in the social sector and creating scalable, impactful solutions for
       governance problems brought him to Samagra. Currently he leads the Samarth
       engagement in Himachal Pradesh.
-    image: /img/blog-index.jpg
+    image: /img/Mohit.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mohitbahri'
     name: Mohit Bahri
     project: Samarth
@@ -339,7 +339,7 @@ team:
       Hyderabad and Bengaluru as a school teacher.\n\nAn opportunity to create
       impact at scale through better governance brought him to Samagra.
       Currently he leads the Saksham Haryana-Skills & Employment engagement.
-    image: /img/blog-index.jpg
+    image: /img/Nikhil.jpg
     linkedInProfile: 'https://www.linkedin.com/in/nikhil-nadiger'
     name: Nikhil Nadiger
     project: Saksham Haryana-Skills & Employment
@@ -353,7 +353,7 @@ team:
       University. \n\nAn opportunity to create positive impact in the lives of
       people and an interest in public policy brings Pragya to Samagra.
       Currently she is part of the Samarth team in Himachal Pradesh.
-    image: /img/blog-index.jpg
+    image: /img/pragya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/pragya-mathur-678779126'
     name: Pragya Mathur
     project: Samarth
@@ -365,7 +365,7 @@ team:
       and consumer-facing designs. He has worked with one of the Big 3
       Consulting firms and two of the top-10 Investment Banking companies.\n\nHe
       works as a graphics designer at Samagra.
-    image: /img/blog-index.jpg
+    image: /img/Prasanna.jpg
     linkedInProfile: 'https://www.linkedin.com/in/a-lourdu-pownraj-prasanna-786a1a132'
     name: Prasanna A
     project: Creatives
@@ -382,7 +382,7 @@ team:
       Authority.\n\nAn opportunity to employ her proble-solving skills to create
       sustainable impact brought her to Samagra. Currently she is part of the
       ADAPT team in Odisha.
-    image: /img/blog-index.jpg
+    image: /img/Prerna.jpg
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
     project: ADAPT
@@ -390,7 +390,7 @@ team:
       Raju worked with Punj Lloyd as a administrative assistant in Libya, and
       with Walt Disney as a Office Coordinator.\n\nHe works with Samagra as
       Office Manager.
-    image: /img/blog-index.jpg
+    image: /img/Raju.jpg
     linkedInProfile: NA
     name: Raju Ram
     project: NA
@@ -404,7 +404,7 @@ team:
       belief that employing open-source tools and technology in governance can
       lead to significant improvement in the lives of citizens brought him to
       Samagra. Currently he is part of the Samagra Tech team.
-    image: /img/blog-index.jpg
+    image: /img/rishabh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/rishabh0402'
     name: Rishabh
     project: Samagra Tech
@@ -416,7 +416,7 @@ team:
       transitioning to the development sector and facilitating sustainable
       change on the ground brought her to Samagra. Currently she is part of the
       Saksham Haryana-Education team.
-    image: /img/blog-index.jpg
+    image: /img/sagari.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sagari-handa-5a86157a'
     name: Sagari Handa
     project: Saksham Haryana-Education
@@ -435,7 +435,7 @@ team:
       across multiple departments.\n\nHer belief that working with the
       government is essential for driving change on the ground brought her to
       Samagra.\n\n
-    image: /img/blog-index.jpg
+    image: /img/Shailiza.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shailiza-mayal-97a48279'
     name: Shailiza Mayal
     project: Samarth
@@ -452,7 +452,7 @@ team:
       development sector and the role of governance in systemic reforms brought
       her to Samagra. Currently she is part of the Saksham Haryana-Education
       team.
-    image: /img/blog-index.jpg
+    image: /img/shifali.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shifali-thakkur-942948b9'
     name: Shifali Thakkur
     project: Saksham Haryana-Education
@@ -471,7 +471,7 @@ team:
       projects.\n\nHer belief that employing business tools can lead to better
       governance and help device sustainable solutions for citizens brought her
       to Samagra. Currently she is part of the ADAPT team in Odisha.
-    image: /img/blog-index.jpg
+    image: /img/Shilpa.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shilpa-baweja-a3346868'
     name: Shilpa Baweja
     project: ADAPT
@@ -489,7 +489,7 @@ team:
       starting from the grassroots to district-level implementation. An
       opportunity to use his past work experience to create impac at scale
       brought him to Samagra. Currently he is part of the Digital Haryana Cell.
-    image: /img/blog-index.jpg
+    image: /img/shubam.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bansalshubham09'
     name: Shubham Bansal
     project: DHC
@@ -507,7 +507,7 @@ team:
       channel to solve grass-root problems in a sustainable manner.\n\nAn
       opportunity to leverage technology to create social impact brought her to
       Samagra. Currently she is part of the Digital Haryana Cell.
-    image: /img/blog-index.jpg
+    image: /img/Suditi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/suditi-bansal-722704152'
     name: Suditi Bansal
     project: DHC
@@ -522,7 +522,7 @@ team:
       standardized measurements across Pratham's flagship Read India
       programme.\n\nHis passion to transform citizen-government experiences at
       scale brought him to Samagra. Currently he leads the Samagra Tech team.
-    image: /img/blog-index.jpg
+    image: /img/Sukhpreet.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sukhpreetsekhon'
     name: Sukhpreet Sekhon
     project: Samagra Tech
@@ -535,7 +535,7 @@ team:
       drive to create visible on-the-ground social impact brought him to
       Samagra. Currently he is part of the Saksham Haryana-Skills & Employment
       team.
-    image: /img/blog-index.jpg
+    image: /img/Sunny.jpg
     linkedInProfile: 'https://www.linkedin.com/in/kollasunny'
     name: Sunny Roy Kolla
     project: Saksham Haryana-Skills & Employment
@@ -547,7 +547,7 @@ team:
       the gaps in Indian governance first-hand.\n\nAn opportunity to drive
       impact at scale through good governance brought her to Samagra. Currently
       she leads the Digital Haryana Cell.
-    image: /img/blog-index.jpg
+    image: /img/Ujjwal.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
     project: DHC
@@ -558,11 +558,11 @@ team:
       interest in the social sector developed during her journey as a Teach for
       India Fellow (2014-16).\nShe joined Samagra so she could design and
       implement scalable solutions to development challenges. Currently, she is
-      part of the Samarth team in Himachal Pradesh '
-    image: '/img/blog-index.jpg,'
-    linkedInProfile: 'https://www.linkedin.com/in/umang-manchanda-15402548/'''
-    name: Umang Manchanda'
-    project: Samarth'
+      part of the Samarth team in Himachal Pradesh 
+    image: /img/Umang.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/umang-manchanda-15402548/'
+    name: Umang Manchanda
+    project: Samarth
   - bio: >-
       Utkarsh holds a Bachelor's degree in Computer Science Engineering from
       NIT, Jalandhar in Computer Science Engineering. Previously, he has worked
@@ -576,7 +576,7 @@ team:
       complex governance problems by using his technology, consulting and
       entrepreneurial skills brought him to Samagra. Currently he leads the
       ADAPT engagement in Odisha.
-    image: /img/blog-index.jpg
+    image: /img/Utkarsh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
     project: ADAPT
