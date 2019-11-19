@@ -124,7 +124,7 @@ team:
   - name: Pragya Mathur
     project: Samarth
     image: /img/blog-index.jpg
-    bio: Pragya hold a Bachelor's degree in Economics from Miranda House, University of Delhi. She has previously interned at CollarFolk, a start up in Gurgaon and conceptualized a self-guided social entrepreneurship project called 'Pravah', on stopping the use of plastic straws. Pragya also completed a course on 'Re-thinking the Obvious: Rhetoric of Development' at Miranda House in collaboration with The George Washington University. \n\nAn opportunity to create positive impact in the lives of people and an interest in public policy brings Pragya to Samagra. Currently she is part of the Samarth team in Himachal Pradesh.
+    bio: Pragya hold a Bachelor's degree in Economics from Miranda House, University of Delhi. She has previously interned at CollarFolk, a start up in Gurgaon and conceptualized a self guided social entrepreneurship project called 'Pravah', on stopping the use of plastic straws. Pragya also completed a course on 'Re-thinking the Obvious: Rhetoric of Development' at Miranda House in collaboration with The George Washington University. \n\nAn opportunity to create positive impact in the lives of people and an interest in public policy brings Pragya to Samagra. Currently she is part of the Samarth team in Himachal Pradesh.
     linkedInProfile: https://www.linkedin.com/in/pragya-mathur-678779126
   - name: Prasanna A
     project: Creatives
