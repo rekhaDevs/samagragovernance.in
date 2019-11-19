@@ -590,7 +590,7 @@ team:
       Samagra’s work, which both designs and implements governance reforms,
       brought him here. Currently he is part of the Saksham Haryana-Education
       team.
-    image: /img/blog-index.jpg
+    image: /img/vansh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/vansh-chaudhary-42a8a7155'
     name: Vansh Chaudhary
     project: Saksham Haryana-Education
@@ -600,7 +600,7 @@ team:
       governance and rural development ecosystem.\n\nAn opportunity to
       understand governments and help change lives for the better brought him to
       Samagra.
-    image: /img/blog-index.jpg
+    image: /img/Venkat.jpg
     linkedInProfile: 'https://www.linkedin.com/in/venkataraman-ganesh'
     name: Venkataraman Ganesh
     project: PWD - Odisha
@@ -614,7 +614,7 @@ team:
       developing data-driven accountability tools.\n\nHer passion to create
       scalable and sustainable change by working with the government brought her
       to Samagra. Currently she is part of the Saksham Haryana-Education team.
-    image: /img/blog-index.jpg
+    image: /img/Yuganshi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
     project: Saksham Haryana-Education
