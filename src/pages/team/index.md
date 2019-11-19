@@ -187,7 +187,7 @@ team:
       for low-income communities and school readiness camps for 3-6 year old
       children.\n\nAn opportunity to understand public administration systems
       brought Apoorva to Samagra.
-    image: /img/blog-index.jpg
+    image: /img/Apoorva.jpg
     linkedInProfile: 'https://www.linkedin.com/in/apoorva-murari-06056326'
     name: Apoorva Murari
     project: PWD - Odisha
@@ -201,7 +201,7 @@ team:
       that employing technological tools can lead to better governance and
       improve the lives of citizens brought him to Samagra. Currently he is part
       of the Samagra Tech team.
-    image: /img/blog-index.jpg
+    image: /img/Chakshu.jpg
     linkedInProfile: 'https://www.linkedin.com/in/chakshu-gautam-6918736b'
     name: Chakshu Gautam
     project: Samagra Tech
@@ -215,7 +215,7 @@ team:
       opportunity to use his entrepreneurial experience to deliver large scale
       and deep impact programmes brought him to Samagra. Currently he leads the
       CMGGA engagement in Haryana.
-    image: /img/blog-index.jpg
+    image: /img/chirag.jpg
     linkedInProfile: e i
     name: Chirag Bhandari
     project: CMGGA
@@ -227,7 +227,7 @@ team:
       real impact and build a career path in the social sector brought her to
       Samagra. Currently she is part of the Saksham Haryana-Skills & Employment
       team.
-    image: /img/blog-index.jpg
+    image: /img/Divya-A.jpg
     linkedInProfile: 'https://www.linkedin.com/in/divya-ahuja-86271188'
     name: Divya Ahuja
     project: Saksham Haryana-Skills & Employment
@@ -240,7 +240,7 @@ team:
       commitment to both scale and tangible impact by working with the
       government brought her here. Currently she is part of the Samarth team in
       Himachal Pradesh.
-    image: /img/blog-index.jpg
+    image: /img/Divya-G.jpg
     linkedInProfile: 'https://www.linkedin.com/in/divya-goel-64122365'
     name: Divya Goel
     project: Samarth
