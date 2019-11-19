@@ -136,6 +136,85 @@ team:
     project: ADAPT
     bio: Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College for Women, University of Delhi. An interest in creating social impact drove her to lead the research and development team of Enactus as part of which she conducted in depth onground research and back-end analysis of community development projects. She has also interned as a policy researcher with the Deputy Chief Minister's Office, Government of Delhi, where she undertook the process of streamlining and monitoring the MLALAD funds of 11 revenue districts of Delhi and recommended policy level interventions for improved functioning of the Delhi Urban Development Authority.\n\nAn opportunity to employ her proble-solving skills to create sustainable impact brought her to Samagra. Currently she is part of the ADAPT team in Odisha.
     linkedInProfile: https://www.linkedin.com/in/prerna-bhandari-112298141
- 
+  - name: Raju Ram
+    project: NA
+    image: /img/blog-index.jpg
+    bio: Raju worked with Punj Lloyd as a administrative assistant in Libya, and with Walt Disney as a Office Coordinator.\n\nHe works with Samagra as Office Manager.
+    linkedInProfile: NA
+  - name: Rishabh 
+    project: Samagra Tech
+    image: /img/blog-index.jpg
+    bio: Rishabh holds a dual degree in Computer Science and Engineering from the National Institute of Technology Hamirpur, Himachal Pradesh. He is a two-time Google Summer of Code student (2019, 2018), where he contributed to the open-source projects of The Libreswan Project. He has over 150 commits in Mozilla, The Libreswan Project, phpBB, Awesome CSS, PublicLab, Sendgrid, and has over 1900 open-source commits in other projects. His belief that employing open-source tools and technology in governance can lead to significant improvement in the lives of citizens brought him to Samagra. Currently he is part of the Samagra Tech team.  
+    linkedInProfile: https://www.linkedin.com/in/rishabh0402
+  - name: Sagari Handa
+    project: Saksham Haryana-Education
+    image: /img/blog-index.jpg
+    bio: Sagari holds a Bachelor's and Master's degree in Environmental Engineering from Delhi Technological University and Stanford University, respectively. After graduating from Stanford, she worked at Geosyntec Consultants, an environmental consulting company, in Seattle. \n\nHer interest in transitioning to the development sector and facilitating sustainable change on the ground brought her to Samagra. Currently she is part of the Saksham Haryana-Education team.
+    linkedInProfile: https://www.linkedin.com/in/sagari-handa-5a86157a
+  - name: Shailiza Mayal
+    project: Samarth
+    image: /img/blog-index.jpg
+    bio: Shailiza holds a Bachelor's degree in Electronics Engineering from Savitribai Phule Pune University. After graduating, she worked as a Business Operations Associate with ZS Associates. She is a Young India Fellow and has worked with the Office of Maheish Girri (former Member of Parliament, East Delhi) on the implementation of rain water harvesting projects in the residential areas of East Delhi. Before joining Samagra, Shailiza was a part of the Chief Minister’s Good Governance Associate programme with the Government of Haryana and worked in Karnal district. During her time as a CMGGA, she worked on strengthening the implementation of the Chief Minister's flagship programmes, improving citizen delivery services, and assisting the administration on various strategy projects across multiple departments.\n\nHer belief that working with the government is essential for driving change on the ground brought her to Samagra.\n\n
+    linkedInProfile: https://www.linkedin.com/in/shailiza-mayal-97a48279
+  - name: Shifali Thakkur
+    project: Saksham Haryana-Education
+    image: /img/blog-index.jpg
+    bio: Shifali holds a Bachelor's degree in Electronics and Communication Engineering from Amity School of Engineering & Technology and a Master's in Education from Tata Institute of Social Sciences. After working at BA Continuum  and Evalueserve, her deep-seated interest in the social sector led her to join the Teach For India Fellowship. During her time as a TFI Fellow, she taught primary grades in a low-income private school in Pune. Post the Fellowship, she continued with Teach For India and led regional fundraising and managed the alumni network and government school relations. \n\nAn opportunity to expand her understanding of the development sector and the role of governance in systemic reforms brought her to Samagra. Currently she is part of the Saksham Haryana-Education team.
+    linkedInProfile: https://www.linkedin.com/in/shifali-thakkur-942948b9
+  - name: Shilpa Baweja
+    project: ADAPT
+    image: /img/blog-index.jpg
+    bio: Shilpa holds a Bachelor's degree in Business/Mangerial Economics from Maharaja Agrasen College, University of Delhi and MBA from the Indian School of Business, Hyderabad. Prior to Samagra, she was working with the Government of Andhra Pradesh as a part of their Vision Management Unit, where she was responsible for monitoring the performance of departments and districts on the CM key priorities. She has worked across diverse sectors including consulting, non-profit and government. She has previously worked at EY where she was engaged in conducting internal risk management for the organization. Her passion to work in the development space led her to take up Fellowship at Make a Difference and then join WWF-India as a Program Manager where she led their citizen engagement projects.\n\nHer belief that employing business tools can lead to better governance and help device sustainable solutions for citizens brought her to Samagra. Currently she is part of the ADAPT team in Odisha.
+    linkedInProfile: https://www.linkedin.com/in/shilpa-baweja-a3346868
+  - name: Shubham Bansal
+    project: DHC
+    image: /img/blog-index.jpg
+    bio: Shubham holds a Bachelor's degree in Electronics and Communication Engineering from Thapar University. Post a six-month stint as an intern with EY, he signed up to do the Gandhi Fellowship. During the fellowship, Shubham worked on the leadership development of headmasters in 25 schools in Thane, Maharashtra. Starting in July 2018, he worked as a Chief Minister's Good Governance Associate in Yamunanagar district of Haryana for one year. As a CMGGA, Shubham worked on improving the public service delivery system in the state and gained a granular understanding of how government programmes are implemented.\n\nShubham's fascination for the public sector has pushed him to work at various levels of governance, starting from the grassroots to district-level implementation. An opportunity to use his past work experience to create impac at scale brought him to Samagra. Currently he is part of the Digital Haryana Cell.
+    linkedInProfile: https://www.linkedin.com/in/bansalshubham09
+  - name: Suditi Bansal
+    project: DHC
+    image: /img/blog-index.jpg
+    bio: Suditi holds a Bachelor's degree in Computer Science from Vellore Institute of Technology. Her desire to work towards equal opportunity for everyone led her to work actively with organizations like Edforall and Teach For India which aim to improve the quality of education in government schools. Prior to Samagra, she worked as a software consultant at Microsoft for two and half years. During her time at Microsoft, she designed and developed software for clients with varying needs. Her belief that technological interventions have the power to solve complex issues got strengthened here. At the same time, she also started exploring the policy and governance space and saw it is as a potentially effective channel to solve grass-root problems in a sustainable manner.\n\nAn opportunity to leverage technology to create social impact brought her to Samagra. Currently she is part of the Digital Haryana Cell.
+    linkedInProfile: https://www.linkedin.com/in/suditi-bansal-722704152
+  - name: Sukhpreet Sekhon
+    project: Samagra Tech
+    image: /img/blog-index.jpg
+    bio: Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of Commerce, Universityof Delhi. Previously, he has worked with KPMG to provide integrity intelligence for M&A transactions to Fortune 500 companies and Private Equities. Prior to Samagra, he worked as the Senior Research Associate (Team Lead) at Pratham where he set up and built a Monitoring, Measurement & Evaluation team of over 60 people across 17 states with the mandate to design and manage the implementation of standardized measurements across Pratham's flagship Read India programme.\n\nHis passion to transform citizen-government experiences at scale brought him to Samagra. Currently he leads the Samagra Tech team.
+    linkedInProfile: https://www.linkedin.com/in/sukhpreetsekhon
+  - name: Sunny Roy Kolla
+    image: /img/blog-index.jpg
+    project: Saksham Haryana-Skills & Employment
+    bio: Sunny holds a Bachelor's degree in Electrical Engineering from Vellore Institute of Technology and a Master's in Public Policy and Governance from Tata Institute of Social Sciences. He has a worked with the Government of Andhra Pradesh, where he was part of the Vision Management team that envisioned and designed an action plan for Vision 2029.\n\nThe drive to create visible on-the-ground social impact brought him to Samagra. Currently he is part of the Saksham Haryana-Skills & Employment team.
+    linkedInProfile: https://www.linkedin.com/in/kollasunny
+  - name: Ujjwal Relan
+    project: DHC
+    image: /img/blog-index.jpg
+    bio: Ujjwal holds a Bachelor's degree in Computer Engineering from Netaji Subhas Institute of Technology. She worked with Microsoft and Directi before pursuing the Young India Fellowship. During the Fellowship, she got a chance to work with government schools in Uttar Pradesh and experience the gaps in Indian governance first-hand.\n\nAn opportunity to drive impact at scale through good governance brought her to Samagra. Currently she leads the Digital Haryana Cell.
+    linkedInProfile: https://www.linkedin.com/in/ujjwal-relan-981b814a
+  - name: Umang Manchanda'
+    image: /img/blog-index.jpg, 
+    project: Samarth'
+    bio: Umang holds an MBA from the Indian School of Business and a Bachelor's degree in Commerce from SRCC. Prior to joining Samagra, she worked as a Marketing and Communication Manager at Sterlite Power. She developed an interest in the social sector developed during her journey as a Teach for India Fellow (2014-16).\nShe joined Samagra so she could design and implement scalable solutions to development challenges. Currently, she is part of the Samarth team in Himachal Pradesh '
+    linkedInProfile: https://www.linkedin.com/in/umang-manchanda-15402548/'
+  - name: Utkarsh Vijay
+    project: ADAPT
+    image: /img/blog-index.jpg
+    bio: Utkarsh holds a Bachelor's degree in Computer Science Engineering from NIT, Jalandhar in Computer Science Engineering. Previously, he has worked as Technology Consultant with Indus Valley Partners and Boston Consulting Group. During his stint with IVP and BCG, he was extensively involved in solving some complex business problems through technology in the Finance and Industrial Goods sector. After leaving BCG, he co-founded Indian Lawyers Forum with a Supreme Court Lawyer to solve the problem of information asymmetry in the Indian judiciary by disseminating information from courts to lawyers at a large scale.\n\nAn opportunity to solve complex governance problems by using his technology, consulting and entrepreneurial skills brought him to Samagra. Currently he leads the ADAPT engagement in Odisha.
+    linkedInProfile: https://www.linkedin.com/in/uvijay
+  - name: Vansh Chaudhary
+    project: Saksham Haryana-Education
+    image: /img/blog-index.jpg
+    bio: Vansh holds a Bachelor's degree in Economics and International Relations from Ashoka University. During his time in college, he interned at the Centre for Policy Research, the Direct Benefit Transfer Mission, and Swaniti Initiative. He has also worked as a research volunteer in rural Jharkhand on a field survey that assessed the efficacy of public service delivery by Common Service Centres. \n\nThe impact-oriented nature of Samagra’s work, which both designs and implements governance reforms, brought him here. Currently he is part of the Saksham Haryana-Education team.
+    linkedInProfile: https://www.linkedin.com/in/vansh-chaudhary-42a8a7155
+  - name: Venkataraman Ganesh
+    project: PWD - Odisha
+    image: /img/blog-index.jpg
+    bio: Venkataraman holds an integrated Master's degree in Development Studies from IIT, Madras. He was an active member of IIT Madras' student governance and rural development ecosystem.\n\nAn opportunity to understand governments and help change lives for the better brought him to Samagra.
+    linkedInProfile: https://www.linkedin.com/in/venkataraman-ganesh
+  - name: Yuganshi Sharma
+    project: Saksham Haryana-Education
+    image: /img/blog-index.jpg
+    bio: Yuganshi holds a Bachelor's degree in Economics from Hindu College, University of Delhi. During college, she was actively involved with Enactus, and worked on multiple social entrepreneurship projects on financial inclusion and skilling. Prior to Samagra, she worked in the Social Impact practice at Boston Consulting Group where she collaborated with state governments on improving health and education outcomes by developing data-driven accountability tools.\n\nHer passion to create scalable and sustainable change by working with the government brought her to Samagra. Currently she is part of the Saksham Haryana-Education team.
+    linkedInProfile: https://www.linkedin.com/in/yuganshi-sharma-1bab5273    
 ---
 
