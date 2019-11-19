@@ -116,16 +116,6 @@ team:
     project: Samarth
     bio: Mohit holds a Bachelor's degree in Pharmaceutical Sciences from the University of Delhi  and Master's degree in International Business from Symbiosis, Pune. Mohit has 15 years of work experience spanning multiple functions–strategy consulting, business development and sales. Prior to Samagra, he worked as an Associate Director at KPMG, where his work was focused on business development through eminence building and client development activities. In the past, Mohit has worked with IMS Consulting Group (now IQVIA), PharmARC and Aventis Pharma (now Sanofi). He also founded a healthcare focussed solution, called medeel.com, to help patients access affordable healthcare solutions.\n\nAn interest in working in the social sector and creating scalable, impactful solutions for governance problems brought him to Samagra. Currently he leads the Samarth engagement in Himachal Pradesh.
     linkedInProfile: https://www.linkedin.com/in/mohitbahri
-  - name: Nikhil Nadiger
-    image: /img/blog-index.jpg
-    project: Saksham Haryana-Skills & Employment
-    bio: Nikhil holds Bachelor's degree in Information Science from School of Engineering & Technology, Jain University. Before joining Samagra, Nikhil set up India's first radical mime entity, PunchTantraa. Post that, as part of the Teach for India Fellowship he worked in low-income schools in Hyderabad and Bengaluru as a school teacher.\n\nAn opportunity to create impact at scale through better governance brought him to Samagra. Currently he leads the Saksham Haryana-Skills & Employment engagement. 
-    linkedInProfile: https://www.linkedin.com/in/nikhil-nadiger
-  - name: Pragya Mathur
-    project: Samarth
-    image: /img/blog-index.jpg
-    bio: Pragya hold a Bachelor's degree in Economics from Miranda House, University of Delhi. She has previously interned at CollarFolk, a start up in Gurgaon and conceptualized a self-guided social entrepreneurship project called ‘Pravah’, on stopping the use of plastic straws. Pragya also completed a course on ‘Re-thinking the Obvious: Rhetoric of Development’ at Miranda House in collaboration with The George Washington University. \n\nAn opportunity to create positive impact in the lives of people and an interest in public policy brings Pragya to Samagra. Currently she is part of the Samarth team in Himachal Pradesh.
-    linkedInProfile: https://www.linkedin.com/in/pragya-mathur-678779126
 
 ---
 
