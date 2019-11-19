@@ -79,7 +79,7 @@ team:
       working on the ground and create systemic change at scale brought him to
       Samagra. Currently he is part of the Saksham Haryana-Skills & Employment
       team.
-    image: /img/blog-index.jpg
+    image: /img/aakash.jpg
     linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
     name: Aakash Tyagi
     project: Saksham Haryana-Skills & Employment
@@ -91,7 +91,7 @@ team:
       constituency.\n\nAn opportunity to work with the executive and
       understanding governance from the perspective of  implementation bring her
       to Samagra.
-    image: /img/blog-index.jpg
+    image: /img/Aishwarya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aishwarya-rao-thammineedi-a18aba118'
     name: Aishwarya Rao
     project: PWD - Odisha
@@ -103,7 +103,7 @@ team:
       implementing Swachh Bharat Mission in the district.\n\nHis passion for
       ensuring last mile delivery of government-to-citizen services brought him
       to Samagra. He is currently part of the CMGGA team in Haryana.
-    image: /img/blog-index.jpg
+    image: /img/Aneesh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aneeshmugulur'
     name: Aneesh Mugulur
     project: CMGGA
@@ -119,7 +119,7 @@ team:
       to create scalable, impactful solutions to governance problems brought him
       to Samagra. Currently he leads our engagement with the Public Works
       Department in Odisha.
-    image: /img/blog-index.jpg
+    image: /img/Anish.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anish-choudhury-16b28216'
     name: Anish Choudhary
     project: PWD - Odisha
@@ -135,7 +135,7 @@ team:
       create real impact on the ground by transforming governance and public
       administration brought Ankit to Samagra. He is currently part of the
       Saksham Haryana-Skills & Employment team.
-    image: /img/blog-index.jpg
+    image: /img/Ankit-G.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
     project: Saksham Haryana-Skills & Employment
@@ -153,7 +153,7 @@ team:
       effective and sustainable systemic change. With this in mind, Ankit joined
       Samagra to create impact at scale. He currently leads the Saksham
       Haryana-Education engagement.
-    image: /img/blog-index.jpg
+    image: /img/Ankit.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitjain0812'
     name: Ankit Jain
     project: Saksham Haryana-Education
@@ -172,7 +172,7 @@ team:
       opportunity to solve complex governance challenges through a hands-on
       approach brought him to Samagra. Currently he is part of the Saksham
       Haryana-Education team.
-    image: /img/blog-index.jpg
+    image: /img/Anshul.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anshul-chaudhary-30623839'
     name: Anshul Chaudhary
     project: Saksham Haryana-Education
