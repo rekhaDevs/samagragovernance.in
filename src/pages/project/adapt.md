@@ -3,12 +3,12 @@ templateKey: project-post
 title: ADAPT
 fullName: Analytics for Decision Making & Agriculture Policy Transformation
 id: ADAPT
-backgroundCover: /img/chemex.jpg
+backgroundCover: /img/adapt-header-bg.jpg
 domain: Agriculture
 subTitle: Samagra
 state: Haryana
 tagLine: Increasing the income of farmers in Odisha by improving their productivity
-projectLogoWithState: /img/chemex.jpg
+projectLogoWithState: /img/adapt-logo.png
 overview:
   - text: >-
       ADAPT is a partnership between the Government of Odisha, Bill & Melinda
@@ -29,7 +29,7 @@ scale:
     label: Government Officials
   - count: '65,00,000'
     label: Farmers
-projectMiddleBannerImage: /img/chemex.jpg
+projectMiddleBannerImage: /img/adapt-cover.jpg
 approach:
   - text: >-
       Our approach to improving agricultural productivity in Odisha is centred
@@ -60,7 +60,7 @@ keyInitiatives:
         particular scheme, season, soil variety or crop. Farmers can use the
         Dashboard to access data to assess seasonal variations, soil health, and
         inputs needed.
-    image: /img/chemex.jpg
+    image: /img/adapt-initiative-1.png
     title: Decision Support System
   - description:
       text: >-
@@ -69,7 +69,7 @@ keyInitiatives:
         app, farmers can raise pest-related queries in real time. To receive
         customized solutions from agricultural experts, they just click a
         picture of the pest and share it on the app.
-    image: /img/chemex.jpg
+    image: /img/adapt-initiative-2.jpg
     title: Pest Surveillance App
   - description:
       text: >-
@@ -82,7 +82,7 @@ keyInitiatives:
         as well as adoption of government schemes, conduct field and impact
         assessments, collect data on pests, irrigation, seeds, etc, as well as
         farmers to create farmer profiles.
-    image: /img/chemex.jpg
+    image: /img/adapt-initiative-3.jpg
     title: Agriculture Internship Programme
 ---
 
