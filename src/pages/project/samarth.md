@@ -3,12 +3,12 @@ templateKey: project-post
 title: Samarth
 fullName: Samarth Himachal Pradesh
 id: SAMARTH
-backgroundCover: /img/chemex.jpg
+backgroundCover: /img/samarth-header-bg.jpg
 domain: Education
 subTitle: Samagra
 state: Himachal Pradesh
 tagLine: Transforming the government school system in Himachal Pradesh
-projectLogoWithState: /img/chemex.jpg
+projectLogoWithState: /img/samarth-logo.png
 overview:
   - text: >-
       Samarth is the Government of Himachal Pradesh’s flagship programme focused
@@ -25,7 +25,7 @@ scale:
     label: Teachers
   - count: '8,00,000'
     label: Students
-projectMiddleBannerImage: /img/chemex.jpg
+projectMiddleBannerImage: /img/samarth-cover.jpeg
 approach:
   - text: >-
       Samagra’s approach to transforming school education combines both academic
@@ -63,7 +63,7 @@ keyInitiatives:
         schools before the commencement of the academic year in 2016. This
         initiative has been successful in each academic year since then and
         delivery of textbooks on time has become the norm in the Department.
-    image: /img/chemex.jpg
+    image: /img/samarth-initiative-1.jpeg
     title: Timely Textbook delivery
   - description:
       text: >-
@@ -85,7 +85,7 @@ keyInitiatives:
         materials and the option of interacting directly with experts. At
         present, over 42,000 teachers have the app on their mobile, enabling
         them to upskill themselves and teach better.
-    image: /img/chemex.jpg
+    image: /img/samarth-initiative-2.jpeg
     title: Teacher Training
   - description:
       text: >-
@@ -99,7 +99,7 @@ keyInitiatives:
         Selected teachers receive a signed letter of appreciation from the
         Director of Elementary Education and their achievement is shared through
         social media and communication platforms such as WhatsApp.
-    image: /img/chemex.jpg
+    image: /img/samarth-initiative-3.jpg
     title: Teacher Recognition
   - description:
       text: >-
@@ -120,7 +120,7 @@ keyInitiatives:
         information regarding important events in the school, and 3) a mobile
         application to track monitoring and mentoring visits by over 3,000
         officials to schools.
-    image: /img/chemex.jpg
+    image: /img/samarth-initiative-4.jpg
     title: Open Source Technology
 ---
 
