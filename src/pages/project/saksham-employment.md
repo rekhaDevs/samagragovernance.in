@@ -3,12 +3,12 @@ templateKey: project-post
 title: Saksham Employment
 fullName: Saksham Haryana Skills and Employment
 id: SAKSHAM_EMPLOYMENT
-backgroundCover: /img/flavor_wheel.jpg
+backgroundCover: /img/saksham-header-bg.jpg
 domain: Employment
 subTitle: Samagra
 state: Haryana
 tagLine: Linking youth to employment opportunities in Haryana
-projectLogoWithState: /img/coffee.png
+projectLogoWithState: /img/saksham-logo.png
 overview:
   - text: >-
       One of the biggest challenges facing our country is generating employment
@@ -26,7 +26,7 @@ scale:
     label: Youth entering the state's workforce annually
   - count: '167'
     label: Industrial Training Institutes
-projectMiddleBannerImage: /img/chemex.jpg
+projectMiddleBannerImage: /img/saksham-employment-cover.jpg
 approach:
   - text: >-
       Unemployment is a concern across states. In general, it manifests in three
@@ -65,7 +65,7 @@ keyInitiatives:
         than 17 lakh people applied for these jobs and criss-crossed across the
         state to write the recruitment exam. New trains had to be brought into
         service to facilitate this sudden increase in intra-state travel.
-    image: /img/blog-index.jpg
+    image: /img/saksham-initiative-1.jpg
     title: Government Recruitment
   - description:
       text: >-
@@ -84,7 +84,7 @@ keyInitiatives:
         doing business for all operators in the market and not just Ola or Uber.
         Based on the success of this model, the Government has entered into
         similar partnerships with other aggregators such as Swiggy and Zomato.
-    image: /img/blog-index.jpg
+    image: /img/saksham-initiative-2.jpg
     title: Partnering with Aggregators
   - description:
       text: >-
@@ -97,7 +97,7 @@ keyInitiatives:
         position rests with Haryana. When the Saksham Haryana programme began in
         2017, the number of apprentices per lakh population was 87, currently it
         stands at over 270 and continues to rise.
-    image: /img/blog-index.jpg
+    image: /img/saksham-initiative-3.jpg
     title: Apprenticeships
 ---
 
