@@ -30,6 +30,7 @@ collections:
       - {label: "Media House", name: "mediaHouse", widget: "string"}
       - {label: "Project Id", name: "projectId", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Author", name: "author", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Tag", name: "tag", widget: "string"}
       - {label: "Display on Home", name: "displayOnHomePage", widget: "boolean"}
