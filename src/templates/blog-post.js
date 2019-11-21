@@ -16,7 +16,9 @@ export const BlogPostTemplate = ({
                                      helmet,
                                  }) => {
     const PostContent = contentComponent || Content
-    console.log(content);
+    if (!content){
+        return <div/>
+    }
     return (
         <section className="section">
             {helmet || ''}
@@ -104,7 +106,7 @@ export const pageQuery = graphql`
         author
         authorImage {
             childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
+                fluid(maxWidth: 640, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

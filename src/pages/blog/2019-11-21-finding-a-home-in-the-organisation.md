@@ -4,7 +4,7 @@ title: Finding a Home in the Organisation
 author: Vibhuti Gour
 projectId: '0'
 authorImage: /img/male_avatar.png
-date: 2019-09-19T06:55:06.685Z
+date: 2019-09-19
 description: >-
   Is it possible for the members of a growing organisation operating from
   isolated locations to feel like a single, cohesive unit working towards a
