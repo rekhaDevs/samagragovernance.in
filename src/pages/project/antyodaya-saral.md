@@ -3,12 +3,12 @@ templateKey: project-post
 title: Antyodaya Saral
 fullName: Antyodaya Saral
 id: SARAL
-backgroundCover: /img/chemex.jpg
+backgroundCover: /img/saral-header-bg.jpg
 domain: Service Delivery
 subTitle: SARAL
 state: Haryana
 tagLine: Streamlining public service delivery in Haryana
-projectLogoWithState: /img/chemex.jpg
+projectLogoWithState: /img/saral-logo.png
 overview:
   - text: >-
       Imagine a citizen seeking information on or wanting to apply to a
@@ -31,7 +31,7 @@ scale:
     label: Schemes and services
   - count: '50,00,000'
     label: Citizens in Haryana
-projectMiddleBannerImage: /img/chemex.jpg
+projectMiddleBannerImage: /img/saral-cover.JPG
 approach:
   - text: >-
       Our approach to streamlining public service delivery in Haryana was rooted
@@ -73,7 +73,7 @@ keyInitiatives:
         efficient, paperless and citizen-responsive service delivery system.
         More than 50 lakh applications have been received through this platform
         till date.
-    image: /img/chemex.jpg
+    image: /img/saral-initiative-1.png
     title: Integrated Service Delivery Platform
   - description:
       text: >-
@@ -82,7 +82,7 @@ keyInitiatives:
         paradigm shift in access to government for citizens living in the most
         remote parts of the state. Simultaneously it ensures that a citizen
         living in the village is as empowered as one in a city.
-    image: /img/chemex.jpg
+    image: /img/saral-initiative-2.jpg
     title: Grassroots Service Delivery
   - description:
       text: >-
@@ -98,7 +98,7 @@ keyInitiatives:
         automatic IVRS-based feedback call is made to each applicant. This
         allows citizens to provide feedback on their experience using the online
         portal or at a service centre. 
-    image: /img/chemex.jpg
+    image: /img/saral-initiative-3.png
     title: Fixing Accountability
   - description:
       text: >-
@@ -106,7 +106,7 @@ keyInitiatives:
         scheme-related queries and grievances for 2.5 crore residents. The
         helpline is operational from 7am-9pm from Monday to Saturday. The
         helpline receives more than 1 lakh calls per month.
-    image: /img/chemex.jpg
+    image: /img/saral-initiative-4.jpg
     title: Service Delivery Helpline
 ---
 
