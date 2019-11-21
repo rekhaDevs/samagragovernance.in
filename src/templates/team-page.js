@@ -22,7 +22,7 @@ const TeamPage = ({data}) => {
                 <div className={'home-top-slider-wrapper  team-banner'}
                      style={{
                          height: '600px', backgroundImage: `url(${
-                             !!post.frontmatter.bannerImage.childImageSharp ? post.frontmatter.bannerImage.childImageSharp.fluid.src : ''
+                             !!(post.frontmatter.bannerImage && post.frontmatter.bannerImage.childImageSharp) ? post.frontmatter.bannerImage.childImageSharp.fluid.src : ''
                          })`, backgroundPosition: 'center'
                      }}>
                     <div className="translucent-dark-overlay" style={{height: 'auto'}}>
@@ -40,7 +40,7 @@ const TeamPage = ({data}) => {
 
                 <div className="team-section container">
                     {
-                        team[showPopup] ? <div className="popup" id={'team-popup'}>
+                        team[showPopup] && team[showPopup].image ? <div className="popup" id={'team-popup'}>
                                 <div className="overlay" onClick={() => setShowPopup(-1)}/>
                                 <div className="popup-content-section">
                                     <div className="cross-button" onClick={() => setShowPopup(-1)}>
@@ -50,7 +50,7 @@ const TeamPage = ({data}) => {
                                         <div className="image-section"
                                              style={{
                                                  backgroundImage: `url(${
-                                                     !!team[showPopup].frontmatter.bannerImage.childImageSharp ? team[showPopup].frontmatter.bannerImage.childImageSharp.fluid.src : ''
+                                                     !!team[showPopup].image.childImageSharp ? team[showPopup].image.childImageSharp.fluid.src : ''
                                                  })`
                                              }}>
 
@@ -60,7 +60,7 @@ const TeamPage = ({data}) => {
                                                 {team[showPopup].name}
                                             </div>
                                             <div className="designation">
-                                                {team[showPopup].project}
+                                                {team[showPopup].project !== 'NA' ? team[showPopup].project : ''}
                                             </div>
                                             {
                                                 team[showPopup].linkedInProfile ?
@@ -103,7 +103,7 @@ const TeamPage = ({data}) => {
                                         className={`team-card-wrapper ${((index + 2) % 3 === 0) ? 'with-margin' : ''}`}>
                                         <div className="image-section" style={{
                                             backgroundImage: `url(${
-                                                !!member.image.childImageSharp ? member.image.childImageSharp.fluid.src : ''
+                                                !!(member.image && member.image.childImageSharp) ? member.image.childImageSharp.fluid.src : ''
                                             })`
                                         }}>
 
@@ -113,7 +113,7 @@ const TeamPage = ({data}) => {
                                                 {member.name}
                                             </div>
                                             <div className="designation">
-                                                {member.project}
+                                                {member.project !== 'NA' ? member.project : ''}
                                             </div>
                                             {
                                                 member.linkedInProfile ?
