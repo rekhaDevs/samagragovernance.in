@@ -3,12 +3,12 @@ templateKey: project-post
 title: CMGGA
 fullName: Chief Minister Good Governance Associates
 id: CMGGA
-backgroundCover: /img/chemex.jpg
+backgroundCover: /img/cmgga-header-bg.jpg
 domain: CM's Fellowship
 subTitle: Samagra
 state: Haryana
 tagLine: Catalyzing governance through young professionals
-projectLogoWithState: /img/chemex.jpg
+projectLogoWithState: /img/cmgga-logo.png
 overview:
   - text: >-
       The Chief Minister’s Good Governance Associates (CMGGA) Programme is a
@@ -29,7 +29,7 @@ scale:
     label: Districts
   - count: '94'
     label: CMMGAs
-projectMiddleBannerImage: /img/chemex.jpg
+projectMiddleBannerImage: /img/cmgga-cover.jpg
 approach:
   - text: >-
       The CMGGA programme was designed to be a structured, experiential learning
@@ -59,7 +59,7 @@ keyInitiatives:
         officers make plans, organise structured reviews and consolidate
         feedback from the ground for the state government to design
         interventions.
-    image: /img/chemex.jpg
+    image: /img/cmgga-initiative-1.jpg
     title: School Education
   - description:
       text: >-
@@ -74,7 +74,7 @@ keyInitiatives:
         more than 500 schemes and services across 36 government departments.
         Associates have been the driving force behind operationalizing the
         service delivery centres.
-    image: /img/chemex.jpg
+    image: /img/cmgga-initiative-2.jpeg
     title: Operationalizing Service Delivery
   - description:
       text: >-
@@ -85,7 +85,7 @@ keyInitiatives:
         Associates established and institutionalised a weekly district level
         review mechanism which supports Deputy Commissioners in redressing
         complaints, resulting in an increased grievance disposal rate of 70-80%.
-    image: /img/chemex.jpg
+    image: /img/cmgga-initiative-3.jpeg
     title: Grievance Redressal
 ---
 
