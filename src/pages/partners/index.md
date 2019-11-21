@@ -25,5 +25,66 @@ partners:
       partnership between the Government of Haryana and Ashoka University,
       designed and managed by Samagra.
     image: /img/Ashoka.jpg
+  - description: >-
+      ADAPT is a partnership between the Government of Odisha, Bill & Melinda
+      Gates Foundation and Samagra.
+    image: /img/BMGF_Logo.jpg
+  - description: >-
+      Michael & Susan Dell Foundation supports Samagra's education and
+      employment engagements.
+    image: /img/MSDF.jpg
+  - description: >-
+      HeroMotoCorp is collaborating with Samagra as part of the Digital Haryana
+      to design and implement the digital roadmap of the state.
+    image: /img/hero-motocorp-logo.png
+  - description: >-
+      Gray Matters conducts an independent assessment of government school
+      students in Haryana as part of the Saksham Haryana-Education engagement.
+    image: /img/Gray Matters.png
+  - description: >-
+      Educational Initiatives conducts an independent assessment of government
+      school students in Haryana as part of the Saksham Haryana-Education
+      engagement
+    image: /img/EI.png
+  - description: >-
+      Centre for Science of Student Learning and Samagra have collaborated on
+      student assessment reforms in Andhra Pradesh
+    image: /img/CSSL.png
+  - description: >-
+      ID Insight is collaboaring with Samagra on conducting an impact assessment
+      for the Samarth engagement
+    image: /img/IDinsight.png
+  - description: >-
+      Ola is an industry partner for the Saksham Haryana-Skills & Employment
+      engagement.
+    image: /img/Ola.jpg
+  - description: >-
+      Uber is an industry partner for the Saksham Haryana-Skills & Employment
+      engagement.
+    image: /img/Uber.jpg
+  - description: >-
+      Zomato is an industry partner for the Saksham Haryana-Skills & Employment
+      engagement.
+    image: /img/Zomato.png
+  - description: >-
+      Swiggy is an industry partner for the Saksham Haryana-Skills & Employment
+      engagement.
+    image: /img/Swiggy.png
+  - description: >-
+      ISPP and Samagra have partnered to conduct guest lectures and workshops
+      for ISPP students.
+    image: /img/ISPP Logo.jpg
+  - description: >-
+      Samagra uses ISRO's GIS Platform 'Bhuvan' for the geo-governance
+      initiatives under Digital Haryana.
+    image: /img/isro.jpg
+  - description: >-
+      Samagra has partnered with ChalkLit to develop teacher training content as
+      part of the Saksham Haryana-Education engagement.
+    image: /img/ChalkLit.png
+  - description: >-
+      Samagra has partnered with TheTeacherApp to develop teacher training
+      content as part of the Samarth engagement.
+    image: /img/TTA.png
 ---
 
