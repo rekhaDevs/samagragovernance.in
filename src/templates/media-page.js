@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
-import {MediaRoll} from "../components/MediaRoll";
+import MediaRoll from "../components/MediaRoll";
 
 const MediaPage = ({data}) => {
     const {markdownRemark: mediaPageContent} = data;
@@ -26,7 +26,7 @@ const MediaPage = ({data}) => {
                 </div>
             </div>
             <div className="media-section container">
-                <MediaRoll media={mediaPageContent.frontmatter.mediaContent}/>
+                <MediaRoll/>
             </div>
         </Layout>
     )
@@ -46,22 +46,6 @@ export const mediaPageQuery = graphql`
                     }
                   }
             }
-        mediaContent {
-            title
-            project
-            author
-            link
-            
-            image {
-                   childImageSharp {
-                    fluid(maxWidth: 640, quality: 64) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-            }
-            date(formatString: "MMMM DD, YYYY")
-            mediaHouse
-        }
       }
     }
   }
