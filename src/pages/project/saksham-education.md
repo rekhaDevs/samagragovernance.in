@@ -3,12 +3,12 @@ templateKey: project-post
 title: Saksham Education
 fullName: Saksham Haryana Education
 id: SAKSHAM_EDUCATION
-backgroundCover: /img/chemex.jpg
+backgroundCover: /img/saksham-header-bg.jpg
 domain: Education
 subTitle: Transforming the government school system in Haryana
 state: Haryana
 tagLine: Transforming the government school system in Haryana
-projectLogoWithState: /img/chemex.jpg
+projectLogoWithState: /img/saksham-logo.png
 overview:
   - text: >-
       How does a state go about transforming its entire education system? This
@@ -31,7 +31,7 @@ scale:
     label: Teachers
   - count: '15,00,000'
     label: Students
-projectMiddleBannerImage: /img/chemex.jpg
+projectMiddleBannerImage: /img/saksham-education-cover.jpg
 approach:
   - text: >-
       Samagra’s approach to transforming school education combines both academic
@@ -65,7 +65,7 @@ keyInitiatives:
         primary schools across the state. Remedial classes are conducted during
         the first 45 minutes of a school day, with the schedule of lessons
         aligned with content taught in the classroom.
-    image: /img/chemex.jpg
+    image: /img/saksham-key-initiatives-remedials.png
     title: Remedial Programme
   - description:
       text: >-
@@ -83,7 +83,7 @@ keyInitiatives:
         system, from the Chief Minister to a teacher. This data is used
         extensively during review meetings conducted at the state, district and
         block levels to identify problems areas that require corrective action.
-    image: /img/chemex.jpg
+    image: /img/saksham-key-initiatives-monitoring.png
     title: Review and Monitoring
   - description:
       text: >-
@@ -96,7 +96,7 @@ keyInitiatives:
         block, district and state level. This provides an accurate picture of
         student performance to all stakeholders and helps build transparency and
         public accountability.
-    image: /img/chemex.jpg
+    image: /img/saksham-key-initiatives-dashboard.png
     title: Student Performance Dashboard
   - description:
       text: >-
@@ -113,7 +113,7 @@ keyInitiatives:
         their glory lies in their hands. After 8 rounds of Ghoshna assessments
         between December 2017 and May 2019, 90% of the blocks in Haryana (107
         out of 119 blocks) are now Saksham.
-    image: /img/chemex.jpg
+    image: /img/saksham-key-initiatives-third-party-assessment.png
     title: Third-party assessment
 ---
 
