@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Finding a Home in the Organisation
 author: Vibhuti Gour
 projectId: '0'
-authorImage: /img/Aakash.jpg
+authorImage: /img/male_avatar.png
 date: 2019-09-19T06:55:06.685Z
 description: >-
   Is it possible for the members of a growing organisation operating from
