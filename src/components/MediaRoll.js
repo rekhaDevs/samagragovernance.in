@@ -65,6 +65,9 @@ export default () => (
                     title
                     projectId
                     author
+                    link
+                    displayOnHomePage
+                    mediaHouse
                     image {
                         childImageSharp {
                             fluid(maxWidth: 640, quality: 64) {
