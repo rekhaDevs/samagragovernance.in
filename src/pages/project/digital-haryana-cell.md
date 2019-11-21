@@ -3,12 +3,12 @@ templateKey: project-post
 title: Digital Haryana Cell
 fullName: Digital Haryana Cell
 id: DIGITAL
-backgroundCover: /img/chemex.jpg
+backgroundCover: /img/digital-haryana-header-bg.jpeg
 domain: Digital
 subTitle: DIGITAL
 state: Haryana
 tagLine: Designing and implementing Haryana's digital roadmap
-projectLogoWithState: /img/chemex.jpg
+projectLogoWithState: /img/dhc-logo.png
 overview:
   - text: >-
       Digital Haryana is an initiative of the Chief Minister's Office of
@@ -23,7 +23,7 @@ scale:
     label: Digital projects
   - count: '3,00,000'
     label: Government officials
-projectMiddleBannerImage: /img/chemex.jpg
+projectMiddleBannerImage: /img/digital-haryana-cover.jpg
 approach:
   - text: >-
       Our approach in this engagement has three elements. At the core of this
@@ -57,7 +57,7 @@ keyInitiatives:
         complaint, the government has three days to acknowledge the complaint
         and another seven days for resolving it. Users can also check the status
         of their complaint on the app.
-    image: /img/chemex.jpg
+    image: /img/digital-haryana-initiative-1.jpg
     title: Harpath
   - description:
       text: >-
@@ -70,7 +70,7 @@ keyInitiatives:
         including teachers are being brought online. This will ensure secure
         digital records of all staff members, easily accessible for both the
         Department of Education and employees.
-    image: /img/chemex.jpg
+    image: /img/digital-haryana-initiative-2.jpg
     title: Saksham Tech
 ---
 
