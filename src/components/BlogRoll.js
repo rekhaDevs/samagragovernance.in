@@ -31,7 +31,7 @@ class BlogRoll extends React.Component {
                                             {post.frontmatter.title}
                                         </div>
                                         <div className="posted-on">
-                                            by {post.author} on {post.timestamp}
+                                            by {post.frontmatter.author} on {post.frontmatter.date}
                                         </div>
 
                                         <div className="read-more">
@@ -75,6 +75,7 @@ export default () => (
               frontmatter {
                 title
                 templateKey
+                author
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
                   childImageSharp {
