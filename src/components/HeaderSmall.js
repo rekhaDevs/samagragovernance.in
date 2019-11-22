@@ -14,29 +14,6 @@ export class HeaderSmall extends React.Component {
 
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll, true);
-        // axios.get(`${service.baseUrl}projects`).then(res => {
-        //     let domains = [];
-        //     res.data.projects.forEach((project) => {
-        //         let found = false;
-        //         project.projectUrl = `/projects/${this.filterUrl(project.domain)}/${this.filterUrl(project.title)}`;
-        //         domains.forEach((domain) => {
-        //             if (domain.name === project['domain']) {
-        //                 found = true;
-        //                 domain.projects.push(project);
-        //                 domain.projects = domain.projects.sort(function (a, b) {
-        //                     return b.title > a.title ? -1 : 1;
-        //                 });
-        //             }
-        //         });
-        //         if (!found) {
-        //             domains.push({name: project['domain'], activeProjectIndex: 0, projects: [project]})
-        //             domains = domains.sort(function (a, b) {
-        //                 return b.name > a.name ? -1 : 1;
-        //             });
-        //         }
-        //     });
-        //     this.setState({projects: domains});
-        // });
         const {data} = this.props;
         const {edges: projects} = data.allMarkdownRemark;
         let domains = [];

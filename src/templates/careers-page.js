@@ -36,7 +36,7 @@ export const mediaPageQuery = graphql`
         title
         bannerImage {
            childImageSharp {
-            fluid(maxWidth: 640, quality: 64) {
+            fluid(maxWidth: 1440, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -44,7 +44,7 @@ export const mediaPageQuery = graphql`
         centerBanner {
            image {
             childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
+                fluid(maxWidth: 1440, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -91,7 +91,7 @@ export const mediaPageQuery = graphql`
             sectionFour {
                 image {
                     childImageSharp {
-                        fluid(maxWidth: 640, quality: 64) {
+                        fluid(maxWidth: 1440, quality: 100) {
                           ...GatsbyImageSharpFluid
                         }
                     }
@@ -114,7 +114,7 @@ export const mediaPageQuery = graphql`
         slides {
             image {
                 childImageSharp {
-                    fluid(maxWidth: 640, quality: 64) {
+                    fluid(maxWidth: 1440, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                 }
