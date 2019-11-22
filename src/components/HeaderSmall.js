@@ -154,7 +154,7 @@ export class HeaderSmall extends React.Component {
                             }} className="nav-link" href="/media">Media</a></Link>
                         </div>
                         <div className={"header-list-item"}>
-                            <Link to={'/blogs'}><a onClick={() => {
+                            <Link to={'/blog'}><a onClick={() => {
                                 this.setState({popupOpened: 'inactive'})
                             }} className="nav-link" href="/blogs">Blog</a></Link>
                         </div>
