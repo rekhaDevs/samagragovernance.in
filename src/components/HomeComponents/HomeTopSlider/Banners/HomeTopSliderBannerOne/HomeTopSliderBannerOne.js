@@ -98,7 +98,11 @@ export class HomeTopSliderBannerOne extends React.Component {
         return (
             <div id={'home-top-slider-banner-one'} className={`${bannerActive ? 'active' : ''} `}>
                 <div className="translucent-dark-overlay-banner"
-                     style={{backgroundImage: `url(${service.baseUrl + banner.slides[0].imageUrl})`}}>
+                     style={{
+                         backgroundImage: `url(${
+                             !!banner.slides[0].image.childImageSharp ? banner.slides[0].image.childImageSharp.fluid.src : ''
+                         })`
+                     }}>
                     <div className="translucent-dark-overlay"/>
                     <div className={'container'}>
                         <div className={'slider-content'}>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo-colored.png'
+import logoInverted from '../img/logo.png'
 import HeaderDropdown from "./HeaderDropdown";
 
 const Navbar = class extends React.Component {
@@ -77,7 +78,7 @@ const Navbar = class extends React.Component {
             <nav className="nav-wrapper nav justify-content-between">
               <Link to={'/'}>
                 <a className="nav-link active navbar-brand" style={{paddingTop: 0}} href="#">
-                  <img className={'logo'} src={showInverted ? logo : logo}/>
+                  <img className={'logo'} src={showInverted ?  logo : logoInverted}/>
                 </a>
               </Link>
               <ul className={'nav justify-content-end'}>

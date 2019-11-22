@@ -1,0 +1,164 @@
+.header-small-wrapper {
+  background: white;
+  padding: 10px;
+  box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);
+
+  .up-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.7;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .header-small-inner-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    .logo {
+      flex: 1;
+
+      img {
+        height: 45px;
+      }
+    }
+
+    .toggle {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      color: #343434;
+    }
+  }
+
+  .headerPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: white;
+    display: none;
+    overflow-y: auto;
+
+    .cross {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: #888888;
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    &.active {
+      display: initial;
+      opacity: 1;
+      -webkit-animation-name: menuFadeIn; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: .3s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-timing-function: ease-in-out;
+      animation-name: menuFadeIn;
+      animation-timing-function: ease-in-out;
+      animation-duration: .3s;
+      @-webkit-keyframes menuFadeIn {
+        0% {
+          opacity: 0;
+          display: initial;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      /* Standard syntax */
+      @keyframes menuFadeIn {
+        0% {
+          opacity: 0;
+          display: initial;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+
+    &.inactive {
+      display: none;
+      opacity: 0;
+      -webkit-animation-name: menuFadeOut; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: .3s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-timing-function: ease-in-out;
+      animation-name: menuFadeOut;
+      animation-timing-function: ease-in-out;
+      animation-duration: .3s;
+      @-webkit-keyframes menuFadeOut {
+        0% {
+          opacity: 1;
+          display: initial;
+        }
+        100% {
+          opacity: 0;
+          display: none;
+        }
+      }
+
+      /* Standard syntax */
+      @keyframes menuFadeOut {
+        0% {
+          opacity: 1;
+          display: initial;
+        }
+        100% {
+          opacity: 0;
+          display: none;
+        }
+      }
+    }
+  }
+
+  .header-list {
+    .header-list-item {
+      cursor: pointer;
+      border-bottom: 1px solid #efefef;
+
+      a {
+        color: #343434;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .sub-header-list {
+        background: #efefef;
+        padding-left: 20px;
+
+        .sub-header-list-item {
+
+          padding-bottom: 10px;
+
+          &:not(:last-child) {
+            border-bottom: 1px solid #dddddd;
+          }
+
+          .sub-sub-header-list {
+            background: #dddddd;
+            margin-left: 20px;
+
+            .sub-sub-header-list-item {
+              &:not(:last-child) {
+                border-bottom: 1px solid #aaaaaa;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

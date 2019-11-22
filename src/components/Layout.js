@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import {withPrefix} from 'gatsby'
+import HeaderSmall from "./HeaderSmall";
 
 const TemplateWrapper = ({children}) => {
     const {title, description} = useSiteMetadata()
@@ -12,8 +13,8 @@ const TemplateWrapper = ({children}) => {
         <div>
             <Helmet>
                 <html lang="en"/>
-                <title>{title}</title>
-                <meta name="description" content={description}/>
+                <title>Samagra Governance</title>
+                <meta name="description" content={'Samagra Governance'}/>
 
                 <link
                     rel="apple-touch-icon"
@@ -41,7 +42,7 @@ const TemplateWrapper = ({children}) => {
                 <meta name="theme-color" content="#fff"/>
 
                 <meta property="og:type" content="business.business"/>
-                <meta property="og:title" content={title}/>
+                <meta property="og:title" content={'Samagra Governance'}/>
                 <meta property="og:url" content="/"/>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
                       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -55,7 +56,8 @@ const TemplateWrapper = ({children}) => {
                     content={`${withPrefix('/')}img/og-image.jpg`}
                 />
             </Helmet>
-            <Navbar/>
+            <span className={'hide-for-small-only'}><Navbar/></span>
+            <span className={'show-for-small-only'}><HeaderSmall/></span>
             <div>{children}</div>
             <Footer/>
         </div>

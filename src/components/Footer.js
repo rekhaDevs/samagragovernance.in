@@ -3,9 +3,9 @@ import { Link } from 'gatsby'
 
 import logo from '../img/logo.svg'
 import logoColored from "../img/logo-colored.png";
-import facebookIconActive from "../img/S-facebook.png";
-import linkedInIconActive from "../img/S-linkedin.png";
-import youtubeIconActive from "../img/S-youtube.png";
+import facebookIconActive from "../img/facebook.png";
+import linkedInIconActive from "../img/linkedin.png";
+import youtubeIconActive from "../img/youtube.png";
 
 const Footer = class extends React.Component {
   render() {

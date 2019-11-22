@@ -155,7 +155,7 @@ export class HomeTopSlider extends React.Component {
                                         </div>
                                     }) : <span/>
                                 }
-                                <div className="sub-title">
+                                <div className="sub-homeetitle">
                                     {
                                         this.props.baseBanner.subTitle
                                     }

@@ -88,7 +88,7 @@ export const pageQuery = graphql`
         }
         projectMiddleBannerImage {
            childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
+            fluid(maxWidth: 1024, quality: 100) {
               ...GatsbyImageSharpFluid
                 }
             }
@@ -96,7 +96,7 @@ export const pageQuery = graphql`
         keyInitiatives {
             image {
                 childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 640, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
