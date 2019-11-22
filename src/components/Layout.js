@@ -8,13 +8,21 @@ import {withPrefix} from 'gatsby'
 import HeaderSmall from "./HeaderSmall";
 import ReactGA from 'react-ga';
 
-const TemplateWrapper = ({children}) => {
-    const {title, description} = useSiteMetadata()
 
-    ReactGA.initialize('UA-117691729-3');
-    ReactGA.pageview(window.location.pathname);
-    return (
-        <div>
+class LayoutWrapper extends React.Component {
+    constructor(props){
+        super(props)
+    }
+    componentDidMount() {
+        if (window){
+            ReactGA.initialize('UA-117691729-3');
+            ReactGA.pageview(window.location.pathname);
+        }
+
+    }
+
+    render() {
+        return   <div>
             <Helmet>
                 <html lang="en"/>
                 <title>Samagra Governance</title>
@@ -62,10 +70,10 @@ const TemplateWrapper = ({children}) => {
             </Helmet>
             <span className={'hide-for-small-only'}><Navbar/></span>
             <span className={'show-for-small-only'}><HeaderSmall/></span>
-            <div>{children}</div>
+            <div>{this.props.children}</div>
             <Footer/>
         </div>
-    )
+    }
 }
+export default LayoutWrapper;
 
-export default TemplateWrapper
