@@ -23,7 +23,7 @@ export const HeaderDropDownComponent = ({data}) => {
         changeFocus(true)
     };
     const {edges: projects} = data.allMarkdownRemark;
-    const domains = [];
+    let domains = [];
     projects.forEach((project) => {
         let found = false;
         project.projectUrl = project.node.fields.slug;
@@ -31,10 +31,16 @@ export const HeaderDropDownComponent = ({data}) => {
             if (domain.name === project.node.frontmatter['domain']) {
                 found = true;
                 domain.projects.push(project);
+                domain.projects = domain.projects.sort(function (a, b) {
+                    return b.node.frontmatter.title > a.node.frontmatter.title ? -1 : 1;
+                });
             }
         });
         if (!found) {
             domains.push({name: project.node.frontmatter['domain'], activeProjectIndex: 0, projects: [project]})
+            domains = domains.sort(function (a, b) {
+                return b.name > a.name ? -1 : 1;
+            });
         }
     });
 

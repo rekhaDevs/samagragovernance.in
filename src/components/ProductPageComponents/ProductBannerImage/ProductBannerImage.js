@@ -3,7 +3,6 @@ import React from "react";
 
 const service = {};
 export const ProductBannerImage = ({project}) => {
-    console.log(project)
     return (
 
         <div className={'product-page-banner project-banner'}

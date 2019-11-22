@@ -12,23 +12,6 @@ const Navbar = class extends React.Component {
   }
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll, true);
-    // axios.get(`${service.baseUrl}projects`).then(res => {
-    //   const domains = [];
-    //   res.data.projects.forEach((project) => {
-    //     let found = false;
-    //     project.projectUrl = `/${this.filterUrl(project.domain)}/${this.filterUrl(project.title)}`;
-    //     domains.forEach((domain) => {
-    //       if (domain.name === project['domain']) {
-    //         found = true;
-    //         domain.projects.push(project);
-    //       }
-    //     });
-    //     if (!found) {
-    //       domains.push({name: project['domain'], activeProjectIndex: 0, projects: [project]})
-    //     }
-    //   });
-    //   this.setState({projects: domains});
-    // });
   }
   toggleHamburger = () => {
     // toggle the active boolean in the state

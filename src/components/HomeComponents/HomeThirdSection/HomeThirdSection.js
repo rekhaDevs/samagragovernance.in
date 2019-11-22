@@ -7,7 +7,7 @@ import Swiper from "react-id-swiper";
 
 const HomeThirdSectionContent = ({data}) => {
     const {edges: projectData} = data.allMarkdownRemark;
-    const items = [];
+    let items = [];
     projectData.forEach((project) => {
         let found = false;
         project.projectUrl = project.node.fields.slug;
@@ -15,10 +15,16 @@ const HomeThirdSectionContent = ({data}) => {
             if (domain.name === project.node.frontmatter['domain']) {
                 found = true;
                 domain.projects.push(project);
+                domain.projects = domain.projects.sort(function (a, b) {
+                    return b.node.frontmatter.title > a.node.frontmatter.title ? -1 : 1;
+                });
             }
         });
         if (!found) {
             items.push({name: project.node.frontmatter['domain'], activeProjectIndex: 0, projects: [project]})
+            items = items.sort(function (a, b) {
+                return b.name > a.name ? -1 : 1;
+            });
         }
     });
 
@@ -167,32 +173,6 @@ const HomeThirdSectionContent = ({data}) => {
                                     : null
                             }
                         </div>
-                    </div>
-                </div>
-                <div className={'content-section-small show-for-small-only'}>
-                    <div className={'swiper-section'}>
-                        {/*<Swiper {...paramsTitle} ContainerEl={'div'} getSwiper={(node) => {*/}
-                        {/*    swiperTitleInstance = node;*/}
-                        {/*}}>*/}
-                        {/*    {*/}
-                        {/*        items.map((item, index) => {*/}
-                        {/*            return <div>*/}
-                        {/*                <SlideItemTitle index={index} key={index} item={item}/>*/}
-                        {/*            </div>*/}
-                        {/*        })*/}
-                        {/*    }*/}
-                        {/*</Swiper>*/}
-                        {/*<Swiper {...params} ContainerEl={'div'} getSwiper={(node) => {*/}
-                        {/*    swiperInstance = node;*/}
-                        {/*}}>*/}
-                        {/*    {*/}
-                        {/*        projects.map((item, index) => {*/}
-                        {/*            return <div>*/}
-                        {/*                <SlideItem key={index} item={item}/>*/}
-                        {/*            </div>*/}
-                        {/*        })*/}
-                        {/*    }*/}
-                        {/*</Swiper>*/}
                     </div>
                 </div>
             </div>

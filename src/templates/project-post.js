@@ -8,7 +8,7 @@ import Content, {HTMLContent} from '../components/Content'
 import ProductBannerImage from "../components/ProductPageComponents/ProductBannerImage/ProductBannerImage";
 import {ProductPageSecondSection} from "../components/ProductPageComponents/ProductPageSecondSection/ProductPageSecondSection";
 import {ProductPageKeyInitiatives} from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
-import {OurPublicationsSection} from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
+import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
 
 export const ProjectPostTemplate = ({
                                         content,
@@ -41,7 +41,7 @@ const ProjectPost = ({data}) => {
             <ProductBannerImage project={project}/>
             <ProductPageSecondSection project={project}/>
             <ProductPageKeyInitiatives project={project}/>
-            {/*<OurPublicationsSection media={media}/>*/}
+            <OurPublicationsSection projectId={project.id}/>
         </Layout> : <React.Fragment/>
     )
 }
@@ -57,6 +57,7 @@ export const pageQuery = graphql`
         subTitle
         state
         tagLine
+        id
         backgroundCover  {
             childImageSharp {
                 fluid(maxWidth: 1024, quality: 100) {

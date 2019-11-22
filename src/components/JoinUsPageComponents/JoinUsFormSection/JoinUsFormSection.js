@@ -1,7 +1,9 @@
 import React, {useState} from "react";
 import {PrimaryButton} from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
-const service = {};
+const service = {
+    baseUrl: 'http://api.samagragovernance.in/'
+};
 
 export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
     const reachingOptions = [
@@ -496,7 +498,9 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
                                         .catch(function (error) {
                                         });
                                 }} text={'Submit'}/>
-                                <div style={{fontSize: '12px',marginTop:'25px', textAlign: 'center', color: '#fff'}} href="mailto:careers@samagragovernance.in">Have questions? Email us at <span style={{cursor: 'pointer', color: '#ec672c'}}>careers@samagragovernance.in</span></div>
+                                <div style={{ marginTop:'25px'}}>
+                                    <a style={{fontSize: '12px',width: '100%', textAlign: 'center', color: '#fff'}} href="mailto:careers@samagragovernance.in">Have questions? Email us at <span style={{cursor: 'pointer', color: '#ec672c'}}>careers@samagragovernance.in</span></a>
+                                </div>
                             </div>
                         </div>
                         : <div className={'thank-you-message'}>
