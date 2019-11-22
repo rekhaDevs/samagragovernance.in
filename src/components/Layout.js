@@ -53,7 +53,7 @@ const TemplateWrapper = ({children}) => {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"/>
                 <meta
                     property="og:image"
-                    content={`${withPrefix('/')}img/og-image.jpg`}
+                    content={`${withPrefix('/')}img/logo-colored.png`}
                 />
             </Helmet>
             <span className={'hide-for-small-only'}><Navbar/></span>
