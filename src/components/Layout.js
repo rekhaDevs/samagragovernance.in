@@ -6,9 +6,13 @@ import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import {withPrefix} from 'gatsby'
 import HeaderSmall from "./HeaderSmall";
+import ReactGA from 'react-ga';
 
 const TemplateWrapper = ({children}) => {
     const {title, description} = useSiteMetadata()
+
+    ReactGA.initialize('UA-117691729-3');
+    ReactGA.pageview(window.location.pathname);
     return (
         <div>
             <Helmet>
