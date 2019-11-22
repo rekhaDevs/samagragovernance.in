@@ -538,3 +538,9 @@ a {
 body, p {
   font-family: 'Proxima Nova Regular';
 }
+
+.soft-hide-form-small-only {
+  @media only screen and (max-width: 980px) {
+    opacity: 0;
+  }
+}

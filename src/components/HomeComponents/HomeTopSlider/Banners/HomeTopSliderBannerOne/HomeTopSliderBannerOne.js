@@ -1,10 +1,7 @@
 import React from "react";
 import {Element, scroller} from "react-scroll/modules";
 import {PrimaryButton} from "../../../../PrimaryButton/PrimaryButton";
-// import {PrimaryButton} from "../../../../PrimaryButton/PrimaryButton";
 
-// import service from "utils/service";
-const service = {};
 
 export class HomeTopSliderBannerOne extends React.Component {
     constructor(props) {
@@ -23,21 +20,6 @@ export class HomeTopSliderBannerOne extends React.Component {
     componentDidMount() {
 
     }
-
-    getProjectUrl = (str) => {
-        const result = '/project/' + this.filterUrl(str);
-        return result;
-    }
-    filterUrl = (str) => {
-        let result = '';
-        str = str.replace(/ /g, '-').toLowerCase();
-        for (let i = 0; i < str.length; i++) {
-            if ('ascdfeghijklmnopqrstuvwxyz0123456789-'.indexOf(str[i]) > -1) {
-                result += str[i];
-            }
-        }
-        return result;
-    };
 
     componentWillReceiveProps(nextProps, nextContext) {
         if (nextProps && nextProps['bannerActive'] && !this.state.slideTitleVisible) {
@@ -98,72 +80,61 @@ export class HomeTopSliderBannerOne extends React.Component {
         return (
             <div id={'home-top-slider-banner-one'} className={`${bannerActive ? 'active' : ''} `}>
                 <div className="translucent-dark-overlay-banner"
-                     style={{
-                         backgroundImage: `url(${
+                     style={{backgroundImage: `url(${
                              !!banner.slides[0].image.childImageSharp ? banner.slides[0].image.childImageSharp.fluid.src : ''
-                         })`
-                     }}>
+                         })`}}>
                     <div className="translucent-dark-overlay"/>
                     <div className={'container'}>
-                        <div className={'slider-content'}>
+                        <div className={'slider-content '}>
                             <div className={'left-text-section'}>
                                 <div className={`title ${slideTitleVisible ? 'visible' : ''}`}>
-                                    {this.props.baseBanner && this.props.baseBanner.titleLines ?
-                                        this.props.banner.titleLines.map((line) => {
+                                    {banner && banner.titleLines ?
+                                        banner.titleLines.map((line) => {
                                             return <div>
-                                                {line}
+                                                {line.text}
                                             </div>
                                         }) : <span/>
                                     }
                                 </div>
-                                <div className={`slider-wrapper ${showSlider ? 'visible' : ''}`}>
-                                    <div className="slider">
-                                        <div className="animated-section-wrapper">
+                                <div className={`slider-wrapper  ${showSlider ? 'visible' : ''}`}>
+                                    <div className="slider soft-hide-form-small-only">
+                                        <div className="animated-section-wrapper soft-hide-form-small-only">
                                             <div className={`animated-section ${scrollTo === 2 ? 'sliding-out' : ''}`}>
                                                 <div className="inner-text">
-                                                    {this.props.baseBanner && this.props.baseBanner.titleLines ?
-                                                        this.props.banner.titleLines.map((line) => {
+                                                    {banner && banner.titleLines ?
+                                                        banner.titleLines.map((line) => {
                                                             return <div>
-                                                                {line}
+                                                                {line.text}
                                                             </div>
                                                         }) : <span/>
                                                     }
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className={`slider-inner-wrapper ${showSlider ? 'added-padding' : ''}`}
+                                        <div className={`slider-inner-wrapper soft-hide-form-small-only ${showSlider ? 'added-padding' : ''}`}
                                              id='slider-container'>
                                             <div className="scrolling-section"/>
-                                            <Element className="slider-content" name='slide-1'
-                                                     style={{
-                                                         backgroundImage: `url(${
-                                                             !!banner.slides[0].image.childImageSharp ? banner.slides[0].image.childImageSharp.fluid.src : ''
-                                                         })`,
-                                                         backgroundRepeat: 'no-repeat',
-                                                         backgroundSize: 'cover'
-                                                     }}/>
-                                            <Element className="slider-content" name='slide-2'
-                                                     style={{
-                                                         backgroundImage: `url(${
-                                                             !!banner.slides[1].image.childImageSharp ? banner.slides[1].image.childImageSharp.fluid.src : ''
-                                                         })`, backgroundRepeat: 'no-repeat',
-                                                         backgroundSize: 'cover'
-                                                     }}/>
-                                            <Element className="slider-content" name='slide-3'
-                                                     style={{
-                                                         backgroundImage: `url(${
-                                                             !!banner.slides[2].image.childImageSharp ? banner.slides[2].image.childImageSharp.fluid.src : ''
-                                                         })`, backgroundRepeat: 'no-repeat',
-                                                         backgroundSize: 'cover'
-                                                     }}/>
+                                            {
+                                                banner.slides.map((slide , index) => {
+                                                    return  <Element className="slider-content" name={'slide-' + index + 1}
+                                                                      style={{
+                                                                          backgroundImage: `url(${
+                                                                              !!slide.image.childImageSharp ? slide.image.childImageSharp.fluid.src : ''
+                                                                          })`,
+                                                                          backgroundRepeat: 'no-repeat',
+                                                                          backgroundSize: 'cover'
+                                                                      }}/>
+                                                })
+                                            }
+
                                         </div>
                                     </div>
-                                    <div className="slider-overlay"/>
+                                    <div className="slider-overlay soft-hide-form-small-only" />
                                     <div className={'content-section'}>
 
                                         <div
                                             className={`content-text`}>
-                                            {this.props.banner.slides.map((slide, index) => {
+                                            {banner.slides.map((slide, index) => {
                                                 return <div
                                                     key={index}
                                                     className={`inner-content-text  ${selectedTextIndex === index ? 'visible' : 'hidden'}`}>

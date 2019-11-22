@@ -51,6 +51,9 @@ export const pageQuery = graphql`
         }
         subBanners {
             projectName
+            titleLines {
+                text
+            }
             slides {
                 image {
                     childImageSharp {
