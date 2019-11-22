@@ -4,7 +4,7 @@ title: Why data analytics is central to education reforms
 author: Harsh Garg
 projectId: Organisation
 authorImage: /img/Harsh.jpg
-date: 2018-11-04T07:37:07.800Z
+date: 2019-11-04T07:37:07.800Z
 description: >-
   The scale and complexity of the learning challenge in India makes the use of
   data critical for undertaking informed and targeted reform efforts.
