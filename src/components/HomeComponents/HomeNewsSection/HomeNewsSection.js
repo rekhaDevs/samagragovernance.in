@@ -46,7 +46,7 @@ export const HomeNewsSection = ({data}) => {
                                      })`}}/>
                                 <div className={'content-section'}>
                                     <div className={'heading'} style={{minHeight: '40px'}}>
-                                        {news.node.frontmatter.text}
+                                        {news.node.frontmatter.title}
                                     </div>
                                     <div className={'timestamp'}>
                                         {news.node.frontmatter.date}
