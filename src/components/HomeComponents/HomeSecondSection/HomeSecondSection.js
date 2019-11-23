@@ -40,12 +40,12 @@ export class HomeSecondSection extends React.Component {
 
     render() {
         const {firstSectionAnimation, secondSectionAnimation} = this.state;
-        console.log(this.props.homeContent);
+        const {homeContent} = this.props;
         return (
 
             <div className={'home-second-section-wrapper'}>
                 <div className={'title'} style={{padding: '0 20px'}}>
-                    {this.props.homeContent.secondSection.title}
+                    {homeContent.secondSection.title}
                 </div>
                 {/*<div className={'sub-title'}>*/}
                 {/*    We work with the system to make it better.*/}
@@ -54,16 +54,20 @@ export class HomeSecondSection extends React.Component {
                     <div className={'image-section'}>
                         <div className="image-background-section"/>
                         <div className={`image-wrapper ${(firstSectionAnimation ? 'enable-animation' : '')}`}
-                             style={{backgroundImage: `url(${visionImage})`}}>
+                             style={{
+                                 backgroundImage: `url(${
+                                     !!(homeContent.secondSection.ourModel.image && homeContent.secondSection.ourModel.image.childImageSharp) ? homeContent.secondSection.ourModel.image.childImageSharp.fluid.src : ''
+                                 })`
+                             }}>
 
                         </div>
                     </div>
                     <div className={'text-section'} id={'our-vision-text-section'}>
                         <div className={'title'}>
-                            {this.props.homeContent.secondSection.ourModel.title}
+                            {homeContent.secondSection.ourModel.title}
                         </div>
                         <div className={'description'}>
-                            {this.props.homeContent.secondSection.ourModel.description.map((desription) => {
+                            {homeContent.secondSection.ourModel.description.map((desription) => {
                                 return <div>
                                     {desription.subtitle ? <div className={'sub-title'} style={{
                                         marginBottom: '15px',
@@ -98,11 +102,11 @@ export class HomeSecondSection extends React.Component {
                     </div>
                     <div className={'text-section'} id={'our-approach-text-section'}>
                         <div className={'title'}>
-                            {this.props.homeContent.secondSection.ourApproach.title}
+                            {homeContent.secondSection.ourApproach.title}
                         </div>
 
                         <div className={'description'}>
-                            {this.props.homeContent.secondSection.ourApproach.description.map((desription) => {
+                            {homeContent.secondSection.ourApproach.description.map((desription) => {
                                 return <div>
                                     {desription.subtitle ? <div className={'sub-title'} style={{
                                         marginBottom: '15px',
