@@ -56,7 +56,6 @@ subBanners:
       - text: Service Delivery
 secondSection:
   ourApproach:
-    title: Our Approach
     description:
       - subTitle: Our Approach
         text: >-
@@ -66,6 +65,8 @@ secondSection:
           enable implementation of our solutions, with the objective of making
           governments accountable and deliver with minimum delays and maximum
           efficiency.
+    image: /img/Approach.png
+    title: Our Approach
   ourModel:
     image: /img/home-our-vision.jpg
     title: Our Model
