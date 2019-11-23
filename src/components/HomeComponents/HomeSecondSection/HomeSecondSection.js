@@ -85,7 +85,9 @@ export class HomeSecondSection extends React.Component {
                     <div className={`image-section `}>
                         <div className={`image-wrapper`}
                              id={'our-image-approach-wrapper'}
-                             style={{backgroundImage: `url(${approachImage})`}}>
+                             style={{backgroundImage: `url(${
+                                     !!(homeContent.secondSection.ourApproach.image && homeContent.secondSection.ourApproach.image.childImageSharp) ? homeContent.secondSection.ourApproach.image.childImageSharp.fluid.src : ''
+                                 })`}}>
                             {
                                 this.state.enableVideo ?
                                     <video controls={false} loop={false} style={{

@@ -73,6 +73,13 @@ export const pageQuery = graphql`
                 text
                 subTitle
             }
+             image {
+              childImageSharp {
+                fluid(maxWidth: 640, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
          }
          ourModel {
             image {
