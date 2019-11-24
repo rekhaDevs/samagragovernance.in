@@ -48,7 +48,7 @@ export const BlogPostTemplate = ({
                     !!content.authorImage &&
                     !!content.authorImage.childImageSharp
                       ? content.authorImage.childImageSharp.fluid.src
-                      : ""
+                      : content.authorImage
                   })`,
                   backgroundPosition: "center",
                   backgroundSize: "cover"
