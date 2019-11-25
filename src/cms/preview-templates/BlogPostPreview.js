@@ -10,7 +10,7 @@ const BlogPostPreview = ({ entry, widgetFor }) => (
         title: entry.getIn(["data", "title"]),
         authorImage: entry.getIn(["data", "authorImage"]),
         author: entry.getIn(["data", "author"]),
-        date: entry.getIn(["data", "date"])
+        date: widgetFor("date")
       }}
       description={entry.getIn(["data", "description"])}
       tags={entry.getIn(["data", "tags"])}
