@@ -14,7 +14,7 @@ team:
       solving diverse corporate problem statements. While he was enjoying his
       stint at McKinsey, he knew that eventually he wanted to work towards
       improving the lives of citizens by engaging with the governance process.
-      In 2012, he set up Samagra so that he could translate his passion into a
+      In 2012, he set up Samagra so that he could translate his passion into
       reality and create impact at scale. He has shaped Samagra's values and
       approach to impact, and continues to steer it into the future.
     image: /img/Gaurav.jpg
