@@ -15,7 +15,7 @@ team:
       stint at McKinsey, he knew that eventually he wanted to work towards
       improving the lives of citizens by engaging with the governance process.
       In 2012, he set up Samagra so that he could translate his passion into a
-      reality create impact at scale. He has shaped Samagra's values and
+      reality and create impact at scale. He has shaped Samagra's values and
       approach to impact, and continues to steer it into the future.
     image: /img/Gaurav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/gaurav-goel-07374680/'
