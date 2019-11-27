@@ -40,7 +40,7 @@ export const ProductPageKeyInitiatives = ({project}) => {
                             className={`content-inner-section ${index === activeKeyObjectiveIndex ? 'active-section' : 'inactive-section'}`}>
                             <div className={'image-section'}>
                                 <div className={'image-wrapper'} style={{backgroundImage: `url(${
-                                        !!kO.image.childImageSharp ? kO.image.childImageSharp.fluid.src : ''
+                                        !!kO.image.childImageSharp ? kO.image.childImageSharp.fluid.src : kO.image
                                     })`}}>
 
                                 </div>

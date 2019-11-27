@@ -42,7 +42,7 @@ export const HomeNewsSection = ({data}) => {
                                 onMouseEnter={() => setHoveredIndex(index)}>
                                 <div className={`image-section`}
                                      style={{backgroundImage: `url(${
-                                             !!news.node.frontmatter.image.childImageSharp ? news.node.frontmatter.image.childImageSharp.fluid.src : ''
+                                             !!news.node.frontmatter.image.childImageSharp ? news.node.frontmatter.image.childImageSharp.fluid.src : news.node.frontmatter.image
                                      })`}}/>
                                 <div className={'content-section'}>
                                     <div className={'heading'} style={{minHeight: '40px'}}>

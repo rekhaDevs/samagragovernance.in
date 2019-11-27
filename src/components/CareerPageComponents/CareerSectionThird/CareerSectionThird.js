@@ -43,7 +43,7 @@ const ImageCard = ({imageUrl, heading, subHeading, classes, styles}) => {
     return (
         <div className={`${classes ? classes : ''} text-white p-5 w-100 d-flex flex-wrap`}
              style={{backgroundImage: `url(${
-                     !!imageUrl.childImageSharp ? imageUrl.childImageSharp.fluid.src : ''
+                     !!imageUrl.childImageSharp ? imageUrl.childImageSharp.fluid.src : imageUrl
                  })`, ...styles, backgroundSize: 'cover',
                  backgroundPosition: 'center'}}>
             <div className="overlay-philosophy"/>

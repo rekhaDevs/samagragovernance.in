@@ -11,7 +11,7 @@ export const ProductBannerImage = ({project}) => {
                  overflow: 'hidden',
                  maxHeight: '100vh',
                  backgroundImage: `url(${
-                     !!(project.backgroundCover && project.backgroundCover.childImageSharp) ? project.backgroundCover.childImageSharp.fluid.src : ''
+                     !!(project.backgroundCover && project.backgroundCover.childImageSharp) ? project.backgroundCover.childImageSharp.fluid.src : project.backgroundCover
                  })`
              }}>
             <div className="dummy-header-background"/>
@@ -27,7 +27,7 @@ export const ProductBannerImage = ({project}) => {
                             {project.tagLine || ''}
                         </div>
                         <img
-                            src={!!project.projectLogoWithState.childImageSharp ? project.projectLogoWithState.childImageSharp.fluid.src : ''}/>
+                            src={!!project.projectLogoWithState.childImageSharp ? project.projectLogoWithState.childImageSharp.fluid.src : project.projectLogoWithState}/>
                     </div>
                 </div>
             </div>

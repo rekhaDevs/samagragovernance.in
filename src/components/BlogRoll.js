@@ -21,7 +21,7 @@ class BlogRoll extends React.Component {
 
                                             <div className="image-wrapper"
                                                  style={{backgroundImage: `url(${
-                                                     post.frontmatter.featuredimage.childImageSharp.fluid.src})`}}>
+                                                     post.frontmatter.featuredimage.childImageSharp.fluid.src || post.frontmatter.featuredimage})`}}>
 
                                             </div>
                                             : null

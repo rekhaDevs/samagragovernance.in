@@ -81,7 +81,7 @@ export class HomeTopSliderBannerOne extends React.Component {
             <div id={'home-top-slider-banner-one'} className={`${bannerActive ? 'active' : ''} `}>
                 <div className="translucent-dark-overlay-banner"
                      style={{backgroundImage: `url(${
-                             !!banner.slides[0].image.childImageSharp ? banner.slides[0].image.childImageSharp.fluid.src : ''
+                             !!banner.slides[0].image.childImageSharp ? banner.slides[0].image.childImageSharp.fluid.src : banner.slides[0].image
                          })`}}>
                     <div className="translucent-dark-overlay"/>
                     <div className={'container'}>
@@ -119,7 +119,7 @@ export class HomeTopSliderBannerOne extends React.Component {
                                                     return  <Element className="slider-content" name={'slide-' + index + 1}
                                                                       style={{
                                                                           backgroundImage: `url(${
-                                                                              !!slide.image.childImageSharp ? slide.image.childImageSharp.fluid.src : ''
+                                                                              !!slide.image.childImageSharp ? slide.image.childImageSharp.fluid.src : slide.image
                                                                           })`,
                                                                           backgroundRepeat: 'no-repeat',
                                                                           backgroundSize: 'cover'

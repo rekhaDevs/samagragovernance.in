@@ -29,7 +29,7 @@ const PaginationSlider = ({content}) => {
                             content.slides.map((item, index) => {
                                 return <div className={'life-at-samagra'} style={{width: '100%'}}>
                                     <div className={'d-flex flex-wrap w-100 h-100 image-wrapper'} style={{backgroundImage: `url(${
-                                            !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : ''
+                                            !!item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image
                                     })`,backgroundSize: 'cover',
                                         backgroundPosition: 'center'}}>
                                         <div className={'align-self-end f-40 mb-5 ml-5 text-white text-title'} style={{background: 'rgba(0,0,0,0.8)', padding: '0 20px'}}>
