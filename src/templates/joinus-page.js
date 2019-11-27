@@ -5,19 +5,28 @@ import Helmet from 'react-helmet'
 import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
-import {MediaRoll} from "../components/MediaRoll";
 import JoinUsBannerImage from "../components/JoinUsPageComponents/JoinUsBannerImage/JoinUsBannerImage";
 import JoinUsFormSection from "../components/JoinUsPageComponents/JoinUsFormSection/JoinUsFormSection";
+
+
+export const JoinUsPreviewTemplate = ({joinUsPageContent}) => {
+    return (
+        <React.Fragment>
+            <JoinUsBannerImage/>
+            <JoinUsFormSection verticleImage={joinUsPageContent.verticalImage}
+                               horizontalImage={joinUsPageContent.horizontalImage}/>
+        </React.Fragment>
+    )
+};
 
 const JoinUsPage = ({data}) => {
     const {markdownRemark: joinUsPageContent} = data;
     return (
         <Layout>
-            <JoinUsBannerImage/>
-            <JoinUsFormSection verticleImage={joinUsPageContent.frontmatter.verticalImage} horizontalImage={joinUsPageContent.frontmatter.horizontalImage}/>
+            <JoinUsPreviewTemplate joinUsPageContent={joinUsPageContent.frontmatter}/>
         </Layout>
     )
-}
+};
 
 export default JoinUsPage
 export const JoinUsPageQuery = graphql`
@@ -43,4 +52,4 @@ export const JoinUsPageQuery = graphql`
       }
     }
   }
-`
+`;

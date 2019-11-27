@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {PrimaryButton} from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
+
 const service = {
     baseUrl: 'http://api.samagragovernance.in/'
 };
@@ -117,8 +118,10 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
 
             <div className="container">
                 <div className="row mb-5">
-                    <img src={horizontalImage.childImageSharp.fluid.src} className={'hide-for-small-only'} style={{maxWidth: '600px', margin: 'auto'}} width={'100%'} alt=""/>
-                    <img src={verticleImage.childImageSharp.fluid.src} className={'show-for-small-only'} width={'100%'} alt=""/>
+                    <img src={horizontalImage.childImageSharp.fluid.src} className={'hide-for-small-only'}
+                         style={{maxWidth: '600px', margin: 'auto'}} width={'100%'} alt=""/>
+                    <img src={verticleImage.childImageSharp.fluid.src} className={'show-for-small-only'} width={'100%'}
+                         alt=""/>
                 </div>
             </div>
             <div className={'join-us-form'}>
@@ -324,7 +327,9 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
                             </div>
                             <div className="col-md-6 col-xs-12">
                                 <fieldset className={'form-group'}>
-                                    <label> Upload Resume  <span className={`${formObject['resumeFileError'] ? 'invalid-size' : ''}`}>(pdf only, max size 1mb)</span> <span className={'required-mark'}>*</span></label>
+                                    <label> Upload Resume <span
+                                        className={`${formObject['resumeFileError'] ? 'invalid-size' : ''}`}>(pdf only, max size 1mb)</span>
+                                        <span className={'required-mark'}>*</span></label>
                                     <div className="input-group">
                                         <input type="text"
                                                value={formObject['resumeFileName']}
@@ -377,8 +382,10 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
                             </div>
                             <div className="col-12 mt-3">
                                 <fieldset className={'form-group'}>
-                                    <label> Statement of Purpose <span className={`${formObject['statementFileError'] ? 'invalid-size' : ''}`}>(pdf only, max size 1mb)</span> <span
-                                        className={'required-mark'}>*</span></label>
+                                    <label> Statement of Purpose <span
+                                        className={`${formObject['statementFileError'] ? 'invalid-size' : ''}`}>(pdf only, max size 1mb)</span>
+                                        <span
+                                            className={'required-mark'}>*</span></label>
                                     <p>Q1. How does Samagra align with your goals? (max 200 words)</p>
                                     <p>Q2. Why do you believe yourself to be a good fit for Samagra? (max 300 words)</p>
                                     <div className="input-group mt-3">
@@ -452,16 +459,16 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
                                                     <div
                                                         style={{padding: '0 10px'}}>{(activeOption === reachingOptions.length - 1 && activeOption === index) ?
                                                         <input
-                                                        onChange={(e) => {
-                                                            const formObjectTemp = {
-                                                                ...formObject
-                                                            };
-                                                            formObjectTemp['leadFromOther'] = e.target.value;
-                                                            setFormObject(formObjectTemp);
-                                                        }}
-                                                        type="text"
-                                                        className={'form-control'}
-                                                        placeholder={'Other'}/> : <span/>}</div>
+                                                            onChange={(e) => {
+                                                                const formObjectTemp = {
+                                                                    ...formObject
+                                                                };
+                                                                formObjectTemp['leadFromOther'] = e.target.value;
+                                                                setFormObject(formObjectTemp);
+                                                            }}
+                                                            type="text"
+                                                            className={'form-control'}
+                                                            placeholder={'Other'}/> : <span/>}</div>
                                                 </div>
                                             })
                                         }
@@ -498,8 +505,12 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
                                         .catch(function (error) {
                                         });
                                 }} text={'Submit'}/>
-                                <div style={{ marginTop:'25px'}}>
-                                    <a style={{fontSize: '12px',width: '100%', textAlign: 'center', color: '#fff'}} href="mailto:careers@samagragovernance.in">Have questions? Email us at <span style={{cursor: 'pointer', color: '#ec672c'}}>careers@samagragovernance.in</span></a>
+                                <div style={{marginTop: '25px'}}>
+                                    <a style={{fontSize: '12px', width: '100%', textAlign: 'center', color: '#fff'}}
+                                       href="mailto:careers@samagragovernance.in">Have questions? Email us at <span style={{
+                                        cursor: 'pointer',
+                                        color: '#ec672c'
+                                    }}>careers@samagragovernance.in</span></a>
                                 </div>
                             </div>
                         </div>

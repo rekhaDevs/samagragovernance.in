@@ -8,6 +8,7 @@ import cloudinary from "netlify-cms-media-library-cloudinary";
 import uploadcare from "netlify-cms-media-library-uploadcare";
 import ProjectPagePreview from "./preview-templates/ProjectPagePreview";
 import MediaPagePreview from "./preview-templates/MediaPagePreview";
+import JoinUsPreview from "./preview-templates/JoinUsPreview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -20,3 +21,4 @@ CMS.registerPreviewTemplate("blog", BlogPostPreview);
 CMS.registerPreviewTemplate("project", ProjectPagePreview);
 CMS.registerPreviewTemplate("media", MediaPagePreview);
 CMS.registerPreviewTemplate("team", TeamPagePreview);
+CMS.registerPreviewTemplate("joinus", JoinUsPreview);
