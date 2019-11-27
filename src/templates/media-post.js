@@ -3,10 +3,11 @@ import Helmet from 'react-helmet'
 import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content';
+import {MediaRollItem} from "../components/MediaRoll";
 
-export const MediaPostTemplatePreview = () => {
+export const MediaPostTemplatePreview = ({data}) => {
     return (
-        <div></div>
+        <MediaRollItem data={data}/>
     )
 };
 
@@ -22,46 +23,8 @@ export const MediaPostTemplate = ({
     return (
         <section className="section">
             {helmet || ''}
-            {/*<div className="container content">*/}
-            {/*    <div className="columns">*/}
-            {/*        <div className="column is-10 is-offset-1">*/}
-            {/*            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">*/}
-            {/*                {title}*/}
-            {/*            </h1>*/}
-            {/*            <p>{description}</p>*/}
-            {/*            <PostContent content={content}/>*/}
-            {/*            {tags && tags.length ? (*/}
-            {/*                <div style={{marginTop: `4rem`}}>*/}
-            {/*                    <h4>Tags</h4>*/}
-            {/*                    <ul className="taglist">*/}
-            {/*                        {tags.map(tag => (*/}
-            {/*                            <li key={tag + `tag`}>*/}
-            {/*                                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>*/}
-            {/*                            </li>*/}
-            {/*                        ))}*/}
-            {/*                    </ul>*/}
-            {/*                </div>*/}
-            {/*            ) : null}*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
             <div className={'container blog-detail-section'}>
                 <div className="row">
-                    {/*<div className="col-md-12 ">*/}
-                    {/*    <div className="author-section">*/}
-                    {/*        <div className="image">*/}
-
-                    {/*        </div>*/}
-                    {/*        <div className="details">*/}
-                    {/*            <div className="name">*/}
-                    {/*                {blog.author}*/}
-                    {/*            </div>*/}
-                    {/*            <div className="timestamp">*/}
-                    {/*                {blog.timestamp}*/}
-                    {/*            </div>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
                     <div className="col-md-12 col-sm-12" style={{paddingTop: '80px'}}>
                         <PostContent content={content}/>
                     </div>

@@ -15,6 +15,7 @@ const TeamPagePreviewTemplate = ({data}) => {
 };
 export const TeamPage = ({data}) => {
     const {markdownRemark: post} = data;
+    console.log(data, '=====');
     const team = post.frontmatter.team || [];
     const [hoveredMember, setHoveredMember] = React.useState(-1);
     const [socialHovered, setSocialHovered] = React.useState(false);
@@ -29,7 +30,7 @@ export const TeamPage = ({data}) => {
                  style={{
                      height: '600px', backgroundImage: `url(${
                          !!(post.frontmatter.bannerImage && post.frontmatter.bannerImage.childImageSharp) ? post.frontmatter.bannerImage.childImageSharp.fluid.src : post.frontmatter.bannerImage
-                         })`, backgroundPosition: 'center'
+                     })`, backgroundPosition: 'center'
                  }}>
                 <div className="translucent-dark-overlay" style={{height: 'auto'}}>
                 </div>
@@ -57,7 +58,7 @@ export const TeamPage = ({data}) => {
                                          style={{
                                              backgroundImage: `url(${
                                                  !!team[showPopup].image.childImageSharp ? team[showPopup].image.childImageSharp.fluid.src : team[showPopup].image
-                                                 })`
+                                             })`
                                          }}>
 
                                     </div>
@@ -110,7 +111,7 @@ export const TeamPage = ({data}) => {
                                     <div className="image-section" style={{
                                         backgroundImage: `url(${
                                             !!(member.image && member.image.childImageSharp) ? member.image.childImageSharp.fluid.src : member.image
-                                            })`
+                                        })`
                                     }}>
 
                                     </div>

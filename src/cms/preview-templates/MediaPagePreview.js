@@ -5,7 +5,6 @@ import {ProjectPostTemplate} from "../../templates/project-post";
 
 const MediaPagePreview = ({entry, widgetFor}) => {
     const data = entry.getIn(['data']).toJS();
-    console.log('datadatadatadatadata', data);
     if (data) {
         return (
             <MediaPagePreviewTemplate mediaPageContent={data}/>

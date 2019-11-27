@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 import React from "react";
 import {ProjectPostTemplate} from "../../templates/project-post";
 import {MediaPostTemplatePreview} from "../../templates/media-post";
+
 const MediaPostPreview = ({entry, getAsset}) => {
-    const data = entry.getIn(['data']).toJS();
+    let data = entry.getIn(['data']).toJS();
+    data.date = data.date.toString();
     if (data) {
         return (
-            <h1>
-                No Preview Available
-            </h1>
+            <MediaPostTemplatePreview data={data}/>
         )
     } else {
         return <div>Loading...</div>
