@@ -180,7 +180,7 @@ const HomeThirdSectionContent = ({data, previewData}) => {
     )
 };
 
-export default () => (
+export default (previewData) => (
     <StaticQuery
         query={graphql`
       query ProjectListQuery {
@@ -257,7 +257,7 @@ export default () => (
         }
       }
     `}
-        render={(data, count) => <HomeThirdSectionContent data={data}/>}
+        render={(data, count) => <HomeThirdSectionContent previewData={previewData} data={data}/>}
     />
 )
 
