@@ -34,7 +34,7 @@ export const OurPublicationsSection = ({data, projectId}) => {
                                          style={
                                              {
                                                  backgroundImage: `url(${
-                                                     !!publication.node.frontmatter.image.childImageSharp ? publication.node.frontmatter.image.childImageSharp.fluid.src : ''
+                                                     !!publication.node.frontmatter.image.childImageSharp ? publication.node.frontmatter.image.childImageSharp.fluid.src : publication.node.frontmatter.image
                                                  })`,
                                                  backgroundSize: 'cover',
                                                  backgroundPosition: 'center'
@@ -68,7 +68,7 @@ export const OurPublicationsSection = ({data, projectId}) => {
                                          {
 
                                              backgroundImage: `url(${
-                                                 !!(publication.node.frontmatter.featuredimage && publication.node.frontmatter.featuredimage.childImageSharp) ? publication.node.frontmatter.featuredimage.childImageSharp.fluid.src : ''
+                                                 !!(publication.node.frontmatter.featuredimage && publication.node.frontmatter.featuredimage.childImageSharp) ? publication.node.frontmatter.featuredimage.childImageSharp.fluid.src : publication.node.frontmatter.featuredimage
                                              })`,
                                              backgroundSize: 'cover',
                                              backgroundPosition: 'center'

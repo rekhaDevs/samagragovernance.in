@@ -29,7 +29,7 @@ export const TeamPage = ({data}) => {
             <div className={'home-top-slider-wrapper  team-banner'}
                  style={{
                      height: '600px', backgroundImage: `url(${
-                         !!(post.frontmatter.bannerImage && post.frontmatter.bannerImage.childImageSharp) ? post.frontmatter.bannerImage.childImageSharp.fluid.src : ''
+                         !!(post.frontmatter.bannerImage && post.frontmatter.bannerImage.childImageSharp) ? post.frontmatter.bannerImage.childImageSharp.fluid.src : post.frontmatter.bannerImage
                          })`, backgroundPosition: 'center'
                  }}>
                 <div className="translucent-dark-overlay" style={{height: 'auto'}}>
@@ -57,7 +57,7 @@ export const TeamPage = ({data}) => {
                                     <div className="image-section"
                                          style={{
                                              backgroundImage: `url(${
-                                                 !!team[showPopup].image.childImageSharp ? team[showPopup].image.childImageSharp.fluid.src : ''
+                                                 !!team[showPopup].image.childImageSharp ? team[showPopup].image.childImageSharp.fluid.src : team[showPopup].image
                                                  })`
                                          }}>
 
@@ -110,7 +110,7 @@ export const TeamPage = ({data}) => {
                                     className={`team-card-wrapper ${((index + 2) % 3 === 0) ? 'with-margin' : ''}`}>
                                     <div className="image-section" style={{
                                         backgroundImage: `url(${
-                                            !!(member.image && member.image.childImageSharp) ? member.image.childImageSharp.fluid.src : ''
+                                            !!(member.image && member.image.childImageSharp) ? member.image.childImageSharp.fluid.src : member.image
                                             })`
                                     }}>
 

@@ -56,7 +56,7 @@ export class HomeSecondSection extends React.Component {
                         <div className={`image-wrapper ${(firstSectionAnimation ? 'enable-animation' : '')}`}
                              style={{
                                  backgroundImage: `url(${
-                                     !!(homeContent.secondSection.ourModel.image && homeContent.secondSection.ourModel.image.childImageSharp) ? homeContent.secondSection.ourModel.image.childImageSharp.fluid.src : ''
+                                     !!(homeContent.secondSection.ourModel.image && homeContent.secondSection.ourModel.image.childImageSharp) ? homeContent.secondSection.ourModel.image.childImageSharp.fluid.src : homeContent.secondSection.ourModel.image
                                  })`
                              }}>
 
@@ -86,7 +86,7 @@ export class HomeSecondSection extends React.Component {
                         <div className={`image-wrapper`}
                              id={'our-image-approach-wrapper'}
                              style={{backgroundImage: `url(${
-                                     !!(homeContent.secondSection.ourApproach.image && homeContent.secondSection.ourApproach.image.childImageSharp) ? homeContent.secondSection.ourApproach.image.childImageSharp.fluid.src : ''
+                                     !!(homeContent.secondSection.ourApproach.image && homeContent.secondSection.ourApproach.image.childImageSharp) ? homeContent.secondSection.ourApproach.image.childImageSharp.fluid.src : homeContent.secondSection.ourApproach.image
                                  })`}}>
                             {
                                 this.state.enableVideo ?

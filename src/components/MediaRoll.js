@@ -17,7 +17,7 @@ class MediaRoll extends React.Component {
                             <div className="blog-wrapper">
                                 <div className="image-wrapper" style={{
                                     backgroundImage: `url(${
-                                        !!m.node.frontmatter.image.childImageSharp ? m.node.frontmatter.image.childImageSharp.fluid.src : ''
+                                        !!m.node.frontmatter.image.childImageSharp ? m.node.frontmatter.image.childImageSharp.fluid.src : m.node.frontmatter.image
                                     })`,
                                     backgroundSize: 'cover',
                                     backgroundPosition: 'center'

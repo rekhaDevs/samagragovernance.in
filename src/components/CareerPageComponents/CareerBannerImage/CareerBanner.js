@@ -4,7 +4,7 @@ const CareerBannerImage = ({bannerContent}) => {
     return (
         <div className={'home-top-slider-wrapper media-page-banner'}
              style={{height: '600px', backgroundImage: `url(${
-                     !!bannerContent.bannerImage.childImageSharp ? bannerContent.bannerImage.childImageSharp.fluid.src : ''
+                     !!bannerContent.bannerImage.childImageSharp ? bannerContent.bannerImage.childImageSharp.fluid.src : bannerContent.bannerImage
                  })`}}>
             <div className="translucent-dark-overlay" style={{height: 'auto'}}>
             </div>
