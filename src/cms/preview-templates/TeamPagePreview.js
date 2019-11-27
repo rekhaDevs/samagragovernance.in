@@ -1,12 +1,29 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { AboutPageTemplate } from '../../templates/about-page'
-import {TeamPageTemplate} from "../../templates/team-page";
+import {TeamPage} from "../../templates/team-page";
 
 const TeamPagePreview = ({ entry, widgetFor }) => (
-  <TeamPageTemplate
-    title={entry.getIn(['data', 'title'])}
-    content={widgetFor('body')}
+  <TeamPage
+    data={{
+          markdownRemark: {
+            frontmatter: {
+              title: entry.getIn(["data", "title"]),
+              bannerImage: entry.getIn(["data", "bannerImage"]),
+              subTitle: entry.getIn(["data", "subTitle"]),
+              team: [
+                {
+                  image: entry.getIn(["data", "team", "image"]),
+                  name: entry.getIn(["data", "team", "name"]),
+                  bio: entry.getIn(["data", "team", "bio"]),
+                  project: entry.getIn(["data", "team", "project"]),
+                  linkedInProfile: entry.getIn(["data", "team", "linkedInProfile"]),
+                }
+              ]
+            }
+          }
+        }
+    }
   />
 )
 

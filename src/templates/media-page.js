@@ -7,11 +7,10 @@ import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import MediaRoll from "../components/MediaRoll";
 
-const MediaPage = ({data}) => {
-    const {markdownRemark: mediaPageContent} = data;
-    console.log(mediaPageContent);
+
+export const MediaPagePreviewTemplate = ({mediaPageContent}) => {
     return (
-        <Layout>
+        <React.Fragment>
             <div className={'home-top-slider-wrapper media-page-banner'}
                  style={{
                      height: '600px',
@@ -21,16 +20,25 @@ const MediaPage = ({data}) => {
                 </div>
                 <div className=" container content-section">
                     <div className="title">
-                        {mediaPageContent.frontmatter.title}
+                        {mediaPageContent.title}
                     </div>
                 </div>
             </div>
             <div className="media-section container">
                 <MediaRoll/>
             </div>
+        </React.Fragment>
+    )
+};
+
+const MediaPage = ({data}) => {
+    const {markdownRemark: mediaPageContent} = data;
+    return (
+        <Layout>
+            <MediaPagePreviewTemplate mediaPageContent={mediaPageContent.frontmatter}/>
         </Layout>
     )
-}
+};
 
 export default MediaPage
 export const mediaPageQuery = graphql`
@@ -49,4 +57,4 @@ export const mediaPageQuery = graphql`
       }
     }
   }
-`
+`;
