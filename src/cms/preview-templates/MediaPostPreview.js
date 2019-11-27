@@ -9,7 +9,11 @@ const MediaPostPreview = ({entry, getAsset}) => {
     data.date = data.date.toString();
     if (data) {
         return (
-            <MediaPostTemplatePreview data={data}/>
+            <div className={'media-section'}>
+                <div className="row">
+                    <MediaPostTemplatePreview data={data}/>
+                </div>
+            </div>
         )
     } else {
         return <div>Loading...</div>

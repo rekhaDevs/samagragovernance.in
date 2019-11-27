@@ -15,7 +15,6 @@ const TeamPagePreviewTemplate = ({data}) => {
 };
 export const TeamPage = ({data}) => {
     const {markdownRemark: post} = data;
-    console.log(data, '=====');
     const team = post.frontmatter.team || [];
     const [hoveredMember, setHoveredMember] = React.useState(-1);
     const [socialHovered, setSocialHovered] = React.useState(false);
