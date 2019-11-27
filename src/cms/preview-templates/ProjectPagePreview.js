@@ -1,19 +1,13 @@
 import {BlogPostTemplate} from "../../templates/blog-post";
 import PropTypes from "prop-types";
 import React from "react";
-import ProjectPost from "../../templates/project-post";
-
+import {ProjectPostTemplate} from "../../templates/project-post";
 const ProjectPagePreview = ({entry, getAsset}) => {
     const data = entry.getIn(['data']).toJS()
-    console.log(data);
     if (data) {
         return (
-            <ProjectPost
-                data={{
-                    markdownRemark: {
-                        frontmatter: data
-                    }
-                }}
+            <ProjectPostTemplate
+                project={data}
             />
         )
     } else {

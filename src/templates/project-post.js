@@ -1,34 +1,20 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import {kebabCase} from 'lodash'
-import Helmet from 'react-helmet'
-import {graphql, Link} from 'gatsby'
+import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
-import Content, {HTMLContent} from '../components/Content'
+import Content from '../components/Content'
 import ProductBannerImage from "../components/ProductPageComponents/ProductBannerImage/ProductBannerImage";
 import {ProductPageSecondSection} from "../components/ProductPageComponents/ProductPageSecondSection/ProductPageSecondSection";
 import {ProductPageKeyInitiatives} from "../components/ProductPageComponents/ProductPageKeyInitiatives/ProductPageKeyInitiatives";
 import OurPublicationsSection from "../components/ProductPageComponents/OurPublicationsSection/OurPublicationsSection";
 
-export const ProjectPostTemplate = ({
-                                        content,
-                                        contentComponent,
-                                        description,
-                                        tags,
-                                        title,
-                                        helmet,
-                                    }) => {
-    const PostContent = contentComponent || Content
+export const ProjectPostTemplate = ({project}) => {
+
     return (
-        <section className="section">
-            {helmet || ''}
-            <div className={'container blog-detail-section'}>
-                <div className="row">
-                    <div className="col-md-12 col-sm-12" style={{paddingTop: '80px'}}>
-                        <PostContent content={content}/>
-                    </div>
-                </div>
-            </div>
+        <section>
+            <ProductBannerImage project={project}/>
+            <ProductPageSecondSection project={project}/>
+            <ProductPageKeyInitiatives project={project}/>
+            <OurPublicationsSection projectId={project.id}/>
         </section>
     )
 };
@@ -36,16 +22,12 @@ const ProjectPost = ({data}) => {
     const {markdownRemark: item} = data;
 
     const project = item.frontmatter;
-    console.log(project, '===========');
     return (
         project && project.title ? <Layout>
-            <ProductBannerImage project={project}/>
-            <ProductPageSecondSection project={project}/>
-            <ProductPageKeyInitiatives project={project}/>
-            <OurPublicationsSection projectId={project.id}/>
+            <ProjectPostTemplate project={project}/>
         </Layout> : <React.Fragment/>
     )
-}
+};
 
 export default ProjectPost
 
@@ -111,7 +93,7 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
 // centerBanner {
 //     childImageSharp {
 //         fluid(maxWidth: 240, quality: 64) {
