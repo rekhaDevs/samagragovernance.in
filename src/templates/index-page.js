@@ -11,27 +11,25 @@ import HomeThirdSection from "../components/HomeComponents/HomeThirdSection/Home
 import HomeNewsSection from "../components/HomeComponents/HomeNewsSection/HomeNewsSection";
 
 export const IndexPageTemplate = ({
-                                      title,
-                                      mainContent,
-                                      description
+                                      data
                                   }) => (
-    <div>
-        Hello
-    </div>
+    <React.Fragment>
+        {
+            data && data.subBanners ? <React.Fragment>
+                <HomeTopSlider baseBanner={data.baseBanner} subBanners={data.subBanners}/>
+                <HomeSecondSection homeContent={data}/>
+            </React.Fragment> : <span/>
+        }
+        <HomeThirdSection/>
+        <HomeNewsSection/>
+    </React.Fragment>
 );
 
 const IndexPage = ({data}) => {
     const {frontmatter} = data.markdownRemark;
     return (
         <Layout>
-            {
-                frontmatter && frontmatter.subBanners ? <React.Fragment>
-                    <HomeTopSlider baseBanner={frontmatter.baseBanner} subBanners={frontmatter.subBanners}/>
-                    <HomeSecondSection homeContent={frontmatter}/>
-                </React.Fragment> : <span/>
-            }
-            <HomeThirdSection/>
-            <HomeNewsSection/>
+            <IndexPageTemplate data={frontmatter}/>
         </Layout>
     )
 }

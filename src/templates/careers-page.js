@@ -1,10 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import {kebabCase} from 'lodash'
-import Helmet from 'react-helmet'
-import {graphql, Link} from 'gatsby'
+import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
-import Content, {HTMLContent} from '../components/Content'
 import {MediaRoll} from "../components/MediaRoll";
 import CareerBannerImage from "../components/CareerPageComponents/CareerBannerImage/CareerBanner";
 import CareerSectionSecond from "../components/CareerPageComponents/CareerSectionSecond/CareerSectionSecond";
@@ -13,19 +9,27 @@ import TestimonialSlider from "../components/CareerPageComponents/TestimonialSli
 import PaginationSlider from "../components/CareerPageComponents/PaginationSlider/PaginationSlider";
 import CareerSectionFifth from "../components/CareerPageComponents/CareerSectionFifth/CareerSectionFifth";
 
+export const CareerPagePreviewTemplate = ({careerPageContent}) => {
+    return (
+        <React.Fragment>
+            <CareerBannerImage bannerContent={careerPageContent}/>
+            <CareerSectionSecond content={careerPageContent}/>
+            <CareerSectionThird content={careerPageContent}/>
+            <TestimonialSlider content={careerPageContent}/>
+            <PaginationSlider content={careerPageContent}/>
+            <CareerSectionFifth content={careerPageContent}/>
+        </React.Fragment>
+    )
+};
+
 const MediaPage = ({data}) => {
     const {markdownRemark: careerPageContent} = data;
     return (
         <Layout>
-            <CareerBannerImage bannerContent={careerPageContent.frontmatter}/>
-            <CareerSectionSecond content={careerPageContent.frontmatter}/>
-            <CareerSectionThird content={careerPageContent.frontmatter}/>
-            <TestimonialSlider content={careerPageContent.frontmatter}/>
-            <PaginationSlider content={careerPageContent.frontmatter}/>
-            <CareerSectionFifth content={careerPageContent.frontmatter}/>
+            <CareerPagePreviewTemplate careerPageContent={careerPageContent.frontmatter}/>
         </Layout>
     )
-}
+};
 
 export default MediaPage
 export const mediaPageQuery = graphql`
@@ -125,4 +129,4 @@ export const mediaPageQuery = graphql`
       }
     }
   }
-`
+`;

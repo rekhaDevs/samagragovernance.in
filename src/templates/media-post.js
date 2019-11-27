@@ -1,20 +1,24 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import {kebabCase} from 'lodash'
 import Helmet from 'react-helmet'
-import {graphql, Link} from 'gatsby'
+import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
-import Content, {HTMLContent} from '../components/Content'
+import Content, {HTMLContent} from '../components/Content';
+
+export const MediaPostTemplatePreview = () => {
+    return (
+        <div></div>
+    )
+};
 
 export const MediaPostTemplate = ({
-                                     content,
-                                     contentComponent,
-                                     description,
-                                     tags,
-                                     title,
-                                     helmet,
-                                 }) => {
-    const PostContent = contentComponent || Content
+                                      content,
+                                      contentComponent,
+                                      description,
+                                      tags,
+                                      title,
+                                      helmet,
+                                  }) => {
+    const PostContent = contentComponent || Content;
     return (
         <section className="section">
             {helmet || ''}
@@ -89,7 +93,7 @@ const MediaPost = ({data}) => {
             />
         </Layout>
     )
-}
+};
 
 export default MediaPost
 
@@ -105,4 +109,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

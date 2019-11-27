@@ -9,6 +9,9 @@ import uploadcare from "netlify-cms-media-library-uploadcare";
 import ProjectPagePreview from "./preview-templates/ProjectPagePreview";
 import MediaPagePreview from "./preview-templates/MediaPagePreview";
 import JoinUsPreview from "./preview-templates/JoinUsPreview";
+import MediaPostPreview from "./preview-templates/MediaPostPreview";
+import PartnerPagePreview from "./preview-templates/PartnerPagePreview";
+import CareerPagePreview from "./preview-templates/CareersPagePreview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -22,3 +25,6 @@ CMS.registerPreviewTemplate("project", ProjectPagePreview);
 CMS.registerPreviewTemplate("media", MediaPagePreview);
 CMS.registerPreviewTemplate("team", TeamPagePreview);
 CMS.registerPreviewTemplate("joinus", JoinUsPreview);
+CMS.registerPreviewTemplate("mediacontent", MediaPostPreview);
+CMS.registerPreviewTemplate("partner", PartnerPagePreview);
+CMS.registerPreviewTemplate("careers", CareerPagePreview);

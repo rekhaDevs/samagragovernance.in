@@ -2,10 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
-import Content, {HTMLContent} from '../components/Content'
 
 import PaertnersBannerImage from "../components/PartnersPageComponents/PaertnersBannerImage/PaertnersBannerImage";
 import PartnersSectionSecond from "../components/PartnersPageComponents/PartnersSectionSecond/PartnersSectionSecond";
+
+export const PartnerPagePreviewTemplate = ({post}) => {
+    return (
+        <React.Fragment>
+            <PaertnersBannerImage bannerImage={post.bannerImage}/>
+            <PartnersSectionSecond content={post}/>
+        </React.Fragment>
+    )
+};
 
 const PartnerPage = ({data}) => {
     const {markdownRemark: post} = data;
@@ -14,8 +22,7 @@ const PartnerPage = ({data}) => {
     }
     return (
         <Layout>
-            <PaertnersBannerImage bannerImage={post.frontmatter.bannerImage}/>
-            <PartnersSectionSecond content={post.frontmatter}/>
+            <PartnerPagePreviewTemplate post={post.frontmatter}/>
         </Layout>
     )
 };
@@ -62,4 +69,4 @@ export const aboutPageQuery = graphql`
       }
     }
   }
-`
+`;

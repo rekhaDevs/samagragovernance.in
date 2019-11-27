@@ -118,9 +118,9 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
 
             <div className="container">
                 <div className="row mb-5">
-                    <img src={horizontalImage.childImageSharp.fluid.src} className={'hide-for-small-only'}
+                    <img src={horizontalImage || horizontalImage.childImageSharp.fluid.src} className={'hide-for-small-only'}
                          style={{maxWidth: '600px', margin: 'auto'}} width={'100%'} alt=""/>
-                    <img src={verticleImage.childImageSharp.fluid.src} className={'show-for-small-only'} width={'100%'}
+                    <img src={verticleImage || verticleImage.childImageSharp.fluid.src} className={'show-for-small-only'} width={'100%'}
                          alt=""/>
                 </div>
             </div>
