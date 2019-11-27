@@ -15,3 +15,4 @@ CMS.registerPreviewTemplate("about", AboutPagePreview);
 // CMS.registerPreviewTemplate('team', TeamPagePreview)
 CMS.registerPreviewTemplate("products", ProductPagePreview);
 CMS.registerPreviewTemplate("blog", BlogPostPreview);
+CMS.registerPreviewTemplate("team", TeamPagePreview);
