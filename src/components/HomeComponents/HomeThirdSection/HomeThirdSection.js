@@ -81,7 +81,6 @@ const HomeThirdSectionContent = ({data}) => {
             initialSlide: 0
         }
     );
-    console.log(items, '----------------', stateItems);
     return (
         stateItems && stateItems[activeItem] ? <div className={'home-third-section-wrapper'}
                                                     style={{backgroundImage: `url(${stateItems[activeItem].image})`}}>

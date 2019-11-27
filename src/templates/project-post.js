@@ -36,6 +36,7 @@ const ProjectPost = ({data}) => {
     const {markdownRemark: item} = data;
 
     const project = item.frontmatter;
+    console.log(project, '===========');
     return (
         project && project.title ? <Layout>
             <ProductBannerImage project={project}/>

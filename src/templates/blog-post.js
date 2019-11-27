@@ -18,7 +18,6 @@ export const BlogPostTemplate = ({
   htmlContent,
   helmet
 }) => {
-  console.log(content, contentComponent, description, tags, title, htmlContent);
   const PostContent = contentComponent || Content;
   if (!content) {
     return <div />;
