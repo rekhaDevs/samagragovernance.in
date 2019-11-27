@@ -19,3 +19,4 @@ CMS.registerPreviewTemplate("products", ProductPagePreview);
 CMS.registerPreviewTemplate("blog", BlogPostPreview);
 CMS.registerPreviewTemplate("project", ProjectPagePreview);
 CMS.registerPreviewTemplate("media", MediaPagePreview);
+CMS.registerPreviewTemplate("team", TeamPagePreview);
