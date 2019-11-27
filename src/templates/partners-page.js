@@ -9,7 +9,7 @@ import PartnersSectionSecond from "../components/PartnersPageComponents/Partners
 export const PartnerPagePreviewTemplate = ({post}) => {
     return (
         <React.Fragment>
-            <PaertnersBannerImage bannerImage={post.bannerImage}/>
+            <PaertnersBannerImage title={post.title} bannerImage={post.bannerImage}/>
             <PartnersSectionSecond content={post}/>
         </React.Fragment>
     )

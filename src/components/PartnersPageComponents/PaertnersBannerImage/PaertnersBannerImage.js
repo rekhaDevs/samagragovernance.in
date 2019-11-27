@@ -1,6 +1,6 @@
 import React from "react";
 
-export const PaertnersBannerImage = ({bannerImage}) => {
+export const PaertnersBannerImage = ({bannerImage, title}) => {
     return (
 
         <div className={'home-top-slider-wrapper partner-banner'}
@@ -15,7 +15,7 @@ export const PaertnersBannerImage = ({bannerImage}) => {
 
                 </div>
                 <div className="title">
-                    Our Partners
+                    {title}
                 </div>
             </div>
         </div>

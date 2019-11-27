@@ -22,7 +22,6 @@ export const TeamPage = ({data}) => {
     if (!post.frontmatter.bannerImage) {
         return '';
     }
-    console.log(post.frontmatter);
     return (
 
         <div>
