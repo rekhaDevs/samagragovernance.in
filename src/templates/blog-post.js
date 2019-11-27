@@ -30,7 +30,7 @@ export const BlogPostTemplate = ({
         <div
           className="translucent-dark-overlay"
           style={{ height: "auto" }}
-        ></div>
+        />
         <div className=" container content-section">
           <div className="title">
             {content && content.title ? content.title : "Our Blog"}
@@ -52,8 +52,7 @@ export const BlogPostTemplate = ({
                   })`,
                   backgroundPosition: "center",
                   backgroundSize: "cover"
-                }}
-              ></div>
+                }}/>
               <div className="details">
                 <div className="name">{content.author}</div>
                 <div className="timestamp">{content.date}</div>
