@@ -110,7 +110,7 @@ const HomeThirdSectionContent = ({data, previewData}) => {
                             </div>
                             <div className="project-tag-line">
                                 <img
-                                    src={stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.projectLogoWithState ? (stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.projectLogoWithState.childImageSharp.fluid.src
+                                    src={stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.projectLogoWithState && stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.projectLogoWithState.childImageSharp ? (stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.projectLogoWithState.childImageSharp.fluid.src
                                     ) : stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.projectLogoWithState}/>
                             </div>
                         </div>
