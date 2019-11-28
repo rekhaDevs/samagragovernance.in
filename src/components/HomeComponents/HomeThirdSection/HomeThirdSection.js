@@ -7,7 +7,6 @@ import Swiper from "react-id-swiper";
 
 const HomeThirdSectionContent = ({data, previewData}) => {
     const {edges: projectData} = previewData ? previewData.allMarkdownRemark : data.allMarkdownRemark;
-    console.log(previewData, data);
     let items = [];
     projectData.forEach((project) => {
         let found = false;

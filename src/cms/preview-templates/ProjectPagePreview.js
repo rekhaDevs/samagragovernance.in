@@ -10,17 +10,16 @@ const ProjectPagePreview = ({entry, getAsset}) => {
         allMarkdownRemark: {
             edges: [
                 {
-                    fields: {
-                        slug: ''
-                    },
                     node: {
+                        fields: {
+                            slug: ''
+                        },
                         frontmatter: data
                     }
                 }
             ]
         }
     };
-    console.log('preview Data 1 =====', previewData)
     if (data) {
         return (
             <React.Fragment>
