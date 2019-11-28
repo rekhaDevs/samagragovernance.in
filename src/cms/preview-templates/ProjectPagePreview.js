@@ -6,26 +6,28 @@ import HomeThirdSection from "../../components/HomeComponents/HomeThirdSection/H
 
 const ProjectPagePreview = ({entry, getAsset}) => {
     const data = entry.getIn(['data']).toJS()
+    const previewData = {
+        allMarkdownRemark: {
+            edges: [
+                {
+                    fields: {
+                        slug: ''
+                    },
+                    node: {
+                        frontmatter: data
+                    }
+                }
+            ]
+        }
+    };
+    console.log('preview Data 1 =====', previewData)
     if (data) {
         return (
             <React.Fragment>
                 <ProjectPostTemplate
                     project={data}
                 />
-                <HomeThirdSection previewData={{
-                    allMarkdownRemark: {
-                        edges: [
-                            {
-                                fields: {
-                                    slug: ''
-                                },
-                                node: {
-                                    frontmatter: data
-                                }
-                            }
-                        ]
-                    }
-                }}/>
+                <HomeThirdSection previewData={previewData}/>
             </React.Fragment>
         )
     } else {
