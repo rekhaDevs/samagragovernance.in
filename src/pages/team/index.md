@@ -552,18 +552,6 @@ team:
     name: Ujjwal Relan
     project: DHC
   - bio: >-
-      Umang holds an MBA from the Indian School of Business and a Bachelor's
-      degree in Commerce from SRCC. Prior to joining Samagra, she worked as a
-      Marketing and Communication Manager at Sterlite Power. She developed an
-      interest in the social sector developed during her journey as a Teach for
-      India Fellow (2014-16).\nShe joined Samagra so she could design and
-      implement scalable solutions to development challenges. Currently, she is
-      part of the Samarth team in Himachal Pradesh 
-    image: /img/Umang.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/umang-manchanda-15402548/'
-    name: Umang Manchanda
-    project: Samarth
-  - bio: >-
       Utkarsh holds a Bachelor's degree in Computer Science Engineering from
       NIT, Jalandhar in Computer Science Engineering. Previously, he has worked
       as Technology Consultant with Indus Valley Partners and Boston Consulting
