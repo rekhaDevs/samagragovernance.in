@@ -2,7 +2,7 @@ import {BlogPostTemplate} from "../../templates/blog-post";
 import PropTypes from "prop-types";
 import React from "react";
 import {ProjectPostTemplate} from "../../templates/project-post";
-import HomeThirdSection from "../../components/HomeComponents/HomeThirdSection/HomeThirdSection";
+import {HomeThirdSectionContent} from "../../components/HomeComponents/HomeThirdSection/HomeThirdSection";
 
 const ProjectPagePreview = ({entry, getAsset}) => {
     const data = entry.getIn(['data']).toJS()
@@ -20,13 +20,14 @@ const ProjectPagePreview = ({entry, getAsset}) => {
             ]
         }
     };
+    console.log(previewData, '-------------> 1');
     if (data) {
         return (
             <React.Fragment>
                 <ProjectPostTemplate
                     project={data}
                 />
-                <HomeThirdSection previewData={previewData}/>
+                <HomeThirdSectionContent previewData={previewData}/>
             </React.Fragment>
         )
     } else {

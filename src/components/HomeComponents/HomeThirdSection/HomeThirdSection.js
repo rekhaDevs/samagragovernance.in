@@ -5,7 +5,8 @@ import {graphql, StaticQuery} from "gatsby";
 import Swiper from "react-id-swiper";
 
 
-const HomeThirdSectionContent = ({data, previewData}) => {
+export const HomeThirdSectionContent = ({data, previewData}) => {
+    console.log(previewData, '---------->')
     const {edges: projectData} = previewData ? previewData.allMarkdownRemark : data.allMarkdownRemark;
     let items = [];
     projectData.forEach((project) => {
