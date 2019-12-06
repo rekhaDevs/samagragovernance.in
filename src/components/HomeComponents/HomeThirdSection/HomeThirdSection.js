@@ -8,6 +8,7 @@ import Swiper from "react-id-swiper";
 export const HomeThirdSectionContent = ({data, previewData}) => {
     console.log(previewData, '---------->')
     const {edges: projectData} = previewData ? previewData.allMarkdownRemark : data.allMarkdownRemark;
+    console.log(projectData, '----==============>');
     let items = [];
     projectData.forEach((project) => {
         let found = false;
@@ -28,7 +29,7 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
             });
         }
     });
-
+    console.log(items, '===================>>>>>>>>>>>');
     const [activeItem, setActiveItem] = useState(
         0
     );
