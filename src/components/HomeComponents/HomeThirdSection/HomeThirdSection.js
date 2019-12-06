@@ -6,9 +6,7 @@ import Swiper from "react-id-swiper";
 
 
 export const HomeThirdSectionContent = ({data, previewData}) => {
-    console.log(previewData, '---------->')
     const {edges: projectData} = previewData ? previewData.allMarkdownRemark : data.allMarkdownRemark;
-    console.log(projectData, '----==============>');
     let items = [];
     projectData.forEach((project) => {
         let found = false;
@@ -29,7 +27,6 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
             });
         }
     });
-    console.log(items, '===================>>>>>>>>>>>');
     const [activeItem, setActiveItem] = useState(
         0
     );
@@ -59,7 +56,7 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
                     if (swiperTitleInstance) {
                         let titleIndex = 0;
                         items.forEach((item, index) => {
-                            if (item.name === projects[swiperInstance.activeIndex].domain) {
+                            if (item.name === projects[swiperInstance.activeIndex].node.frontmatter.domain) {
                                 titleIndex = index;
                             }
                         });
@@ -176,6 +173,32 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
                         </div>
                     </div>
                 </div>
+                <div className={'content-section-small show-for-small-only'}>
+                    <div className={'swiper-section'}>
+                        <Swiper {...paramsTitle} ContainerEl={'div'} getSwiper={(node) => {
+                            swiperTitleInstance = node;
+                        }}>
+                            {
+                                items.map((item, index) => {
+                                    return <div>
+                                        <SlideItemTitle index={index} key={index} item={item}/>
+                                    </div>
+                                })
+                            }
+                        </Swiper>
+                        <Swiper {...params} ContainerEl={'div'} getSwiper={(node) => {
+                            swiperInstance = node;
+                        }}>
+                            {
+                                projects.map((item, index) => {
+                                    return <div>
+                                        <SlideItem key={index} item={item}/>
+                                    </div>
+                                })
+                            }
+                        </Swiper>
+                    </div>
+                </div>
             </div>
         </div> : <div/>
     )
@@ -262,27 +285,28 @@ export default ({previewData}) => (
     />
 )
 
+
 const SlideItem = ({classes, item}) => {
     return (
         <div className="card-outer-wrapper">
             <div className="card-wrapper">
                 <div className="title">
-                    {item.title}
+                    {item.node.frontmatter.title}
                 </div>
                 <div className="image">
                     <img
-                        src={item.projectLogoWithState}/>
+                        src={item.node.frontmatter.projectLogoWithState.childImageSharp ? item.node.frontmatter.projectLogoWithState.childImageSharp.fluid.src : item.node.frontmatter.projectLogoWithState}/>
                 </div>
                 <div className="description">
                     <div className="sub-title">
                         Overview
                     </div>
                     {
-                        item.overview[0]
+                        item.node.frontmatter.overview[0].text
                     }
                 </div>
                 <PrimaryButton text={'EXPLORE MORE'} click={() => {
-                    window.location.href = `/projects/${filterUrl(item.domain)}/${filterUrl(item.title)}`;
+                    window.location.href = item.node.fields.slug;
                 }}/>
             </div>
         </div>
