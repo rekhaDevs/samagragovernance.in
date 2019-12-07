@@ -2,6 +2,10 @@
 templateKey: index-page
 title: Samagra Governance
 description: Samagra Governance
+media:
+  - mediaItem: >-
+      1 Stop, 556 Schemes: Haryana Govt’s Unique System Can Revolutionise How
+      India Works
 baseBanner:
   titleLines:
     - text: Transforming
