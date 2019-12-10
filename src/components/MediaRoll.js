@@ -27,7 +27,7 @@ export const MediaRollItem = ({data}) => {
             <div className="blog-wrapper">
                 <div className="image-wrapper" style={{
                     backgroundImage: `url(${
-                        !!data.image.childImageSharp ? data.image.childImageSharp.fluid.src : data.image
+                        !!(data.image && data.image.childImageSharp) ? data.image.childImageSharp.fluid.src : data.image
                     })`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
