@@ -28,6 +28,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-post"}
       - {label: "Title", name: "title", widget: "string"}
+      - { name: id, widget: hidden, default: "{{uuid}}" }
       - {label: "Media House", name: "mediaHouse", widget: "string"}
       - {label: "Project Id", name: "projectId", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
@@ -66,7 +67,6 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - { name: id, widget: hidden, default: "{{uuid}}" }
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
           - {label: Media, name: media, widget: list, fields: [{label: "Media", name: "mediaItem", widget: "relation", collection: "mediacontent", searchFields: ["title"],displayFields: ["title"], valueField: "uuid"}]}
