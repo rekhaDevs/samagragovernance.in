@@ -27,7 +27,6 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-post"}
-      - { name: id, widget: hidden, default: "{{uuid}}" }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Media House", name: "mediaHouse", widget: "string"}
       - {label: "Project Id", name: "projectId", widget: "string"}
@@ -69,7 +68,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
-          - {label: Media, name: media, widget: list, fields: [{label: "Media", name: "mediaItem", widget: "relation", collection: "mediacontent", searchFields: ["title"],displayFields: ["title"], valueField: "uuid"}]}
+          - {label: Media, name: media, widget: list, fields: [{label: "Media", name: "mediaItem", widget: "relation", collection: "mediacontent", searchFields: ["title"],displayFields: ["title"], valueField: "title"}]}
           - {label: Base Banner, name: baseBanner, widget: object, fields: [{label: "Title Lines", name: "titleLines", widget: list, fields: [{label: Text, name: text, widget: string}]}]}
           - {label: "Sub Banners", name: subBanners, widget: list, fields: [{label: "Title Lines", name: "titleLines", widget: list, fields: [{label: Text, name: text, widget: string}]}, {label: "Project Name", name: "projectName", widget: "string"}, {label: "Slides", name: "slides", widget: list, fields: [{label: "Image", name: image, widget: image}, {label: "Title", name: title, widget: string}]}]}
           - {label: "Second Section" ,name: secondSection, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Our Model", name: ourModel, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: list, fields: [{label: Sub Title, name: subTitle, widget: string}, {label: Text, name: text, widget: text}]}]}, {label: "Our Approach", name: ourApproach, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Video PlaceholderImage, name: image, widget: image}, {label: Description, name: description, widget: list, fields: [{label: Sub Title, name: subTitle, widget: string}, {label: Text, name: text, widget: text}]}]}]}
