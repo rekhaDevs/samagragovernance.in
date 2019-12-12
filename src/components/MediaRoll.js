@@ -9,6 +9,7 @@ class MediaRoll extends React.Component {
         const {data} = this.props;
         const {allMarkdownRemark: mediaPageContent} = data;
         const media = mediaPageContent.edges;
+        console.log(media);
         return (
             <div className={'row'}>
                 {
@@ -71,6 +72,7 @@ export default () => (
                     title
                     projectId
                     author
+                    id
                     link
                     displayOnHomePage
                     mediaHouse

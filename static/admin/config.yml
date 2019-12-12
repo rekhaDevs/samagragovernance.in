@@ -27,7 +27,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-post"}
-      - { name: id, widget: hidden, default: "{{year}}-{{month}}-{{day}}-{{slug}}" }
+      - { name: id, widget: hidden, default: "{{uuid}}" }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Media House", name: "mediaHouse", widget: "string"}
       - {label: "Project Id", name: "projectId", widget: "string"}
