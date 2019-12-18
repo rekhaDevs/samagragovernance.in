@@ -7,498 +7,435 @@ const service = {
 };
 
 export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
-    const reachingOptions = [
-        'Word of Mouth',
-        'Samagra Team Member',
-        'LinkedIn',
-        'Samagra Website',
-        'Campus Placements',
-        'Recruitment Agency',
-        'Facebook',
-        'Other '
-    ];
+    // const reachingOptions = [];
+    console.log(verticleImage, horizontalImage);
     const [showForm, setShowForm] = useState(true);
     const [formObject, setFormObject] = useState({});
     const [submitted, setSubmitted] = useState(false);
     const [activeOption, setActiveOption] = useState(-1);
-    const validFullName = () => {
-        return formObject && formObject['fullName']
-    };
-    const validPhoneNumber = () => {
-        return formObject && formObject['contactNumber'] && !isNaN(parseInt(formObject['contactNumber'])) && formObject['contactNumber'].length === 10;
-    };
-    const validEmail = () => {
 
-        return formObject && formObject['email'] && (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(formObject['email']));
-    };
-    const validCurrentLocation = () => {
-        return formObject && formObject['currentLocation']
-    };
-    const validInstitute = (key) => {
-        if (formObject && formObject[key] && formObject[key] === 'Others' && formObject[key + 'Name']) {
+    const VALID_TEXT = (element) => {
+        if (!element.required) {
             return true;
         }
-
-        return formObject && formObject[key] && formObject[key] !== 'Others';
+        return formObject && formObject[element.key]
     };
-    const validText = (key) => {
-        return formObject && formObject[key]
-    };
-    const validMonths = () => {
-        return formObject && formObject['experienceInMonths'] && !isNaN(parseInt(formObject['experienceInMonths']));
-    };
-    const validLink = (key, nullable = false) => {
-        if (nullable && !formObject[key]) {
+    const VALID_NUMBER = (element) => {
+        if (!element.required) {
             return true;
         }
-        return formObject && formObject[key] && formObject[key].match("^(http:\\/\\/www\\.|https:\\/\\/www\\.|http:\\/\\/|https:\\/\\/)?[a-z0-9]+([\\-\\./:]{1}[a-z0-9]+)*\\.[a-z]{2,5}(:[0-9]{1,5})?(\\/.*)?$");
+        return formObject && formObject[element.key]
     };
-    const ugUniversity = [
-        'Ashoka University',
-        'Birla Institute of Technology and Science',
-        'College of Business Studies',
-        'Columbia University',
-        'Delhi College of Engineering',
-        'Faculty of Management Studies',
-        'Harvard Kennedy School',
-        'IIIT Hyderabad',
-        'IIM Ahemdabad',
-        'IIM Bangalore',
-        'IIM Calcutta',
-        'IIT Bombay',
-        'IIT Delhi',
-        'IIT Kanpur',
-        'IIT Kharagpur',
-        'IIT Madras',
-        'IIT Roorkee',
-        'IIT(ISM) Dhanbad',
-        'Indian School of Business',
-        'Lady Shri Ram College',
-        'Lee Kuan Yew School of Public Policy',
-        'National Law School of India University',
-        'National University of Juridical Sciences',
-        'Princeton University',
-        'Shri Ram College of Commerce',
-        'Yale University',
-        'Others'
-    ];
-    const pgUniversity = [
-        'Not Applicable',
-        'Ashoka University',
-        'Birla Institute of Technology and Science',
-        'College of Business Studies',
-        'Columbia University',
-        'Delhi College of Engineering',
-        'Faculty of Management Studies',
-        'Harvard Kennedy School',
-        'IIIT Hyderabad',
-        'IIM Ahemdabad',
-        'IIM Bangalore',
-        'IIM Calcutta',
-        'IIT Bombay',
-        'IIT Delhi',
-        'IIT Kanpur',
-        'IIT Kharagpur',
-        'IIT Madras',
-        'IIT Roorkee',
-        'IIT(ISM) Dhanbad',
-        'Indian School of Business',
-        'Lady Shri Ram College',
-        'Lee Kuan Yew School of Public Policy',
-        'National Law School of India University',
-        'National University of Juridical Sciences',
-        'Princeton University',
-        'Shri Ram College of Commerce',
-        'Yale University',
-        'Others'
-    ];
+    const VALID_LINK = (element) => {
+        if (!element.required) {
+            return true;
+        }
+        return formObject && formObject[element.key] && formObject[element.key].match("^(http:\\/\\/www\\.|https:\\/\\/www\\.|http:\\/\\/|https:\\/\\/)?[a-z0-9]+([\\-\\./:]{1}[a-z0-9]+)*\\.[a-z]{2,5}(:[0-9]{1,5})?(\\/.*)?$");
+    };
+    const VALID_FILE = (element) => {
+        if (!element.required) {
+            return true;
+        }
+        formObject[element.fileErrorKey] = element && formObject && !formObject[element.key];
+        return element && formObject && formObject[element.key];
+    };
+    const VALID_OPTION = (element) => {
+        if (!element.required) {
+            return true;
+        }
+        return (formObject && element && (formObject[element.key] || (element.otherOptionAvailable && formObject[element.otherOptionAvailable.key])));
+    };
 
+    const formsElements = [{
+        key: 'fullName',
+        type: 'text',
+        label: 'Full Name',
+        required: true,
+        placeholder: 'Enter your full name',
+        validation: VALID_TEXT
+    }, {
+        key: 'contactNumber',
+        type: 'text',
+        label: 'Contact Number',
+        required: true,
+        placeholder: 'Enter your contact number',
+        validation: VALID_TEXT
+    }, {
+        key: 'email',
+        type: 'text',
+        label: 'Email',
+        required: true,
+        placeholder: 'Enter your email',
+        validation: VALID_TEXT
+    }, {
+        key: 'currentLocation',
+        type: 'text',
+        label: 'Current Location',
+        required: true,
+        placeholder: 'Enter current location',
+        validation: VALID_TEXT
+    }, {
+        key: 'ugInstitute',
+        type: 'select',
+        label: 'Undergraduate Institute',
+        required: true,
+        otherOptionAvailable: {
+            key: 'ugInstituteName',
+            activateOn: 'Others',
+            label: 'Institute Name',
+            placeholder: 'Institute Name'
+        },
+        options: [
+            'Ashoka University',
+            'Birla Institute of Technology and Science',
+            'College of Business Studies',
+            'Columbia University',
+            'Delhi College of Engineering',
+            'Faculty of Management Studies',
+            'Harvard Kennedy School',
+            'IIIT Hyderabad',
+            'IIM Ahemdabad',
+            'IIM Bangalore',
+            'IIM Calcutta',
+            'IIT Bombay',
+            'IIT Delhi',
+            'IIT Kanpur',
+            'IIT Kharagpur',
+            'IIT Madras',
+            'IIT Roorkee',
+            'IIT(ISM) Dhanbad',
+            'Indian School of Business',
+            'Lady Shri Ram College',
+            'Lee Kuan Yew School of Public Policy',
+            'National Law School of India University',
+            'National University of Juridical Sciences',
+            'Princeton University',
+            'Shri Ram College of Commerce',
+            'Yale University'
+        ],
+        placeholder: 'Select Institute',
+        validation: VALID_OPTION
+    }, {
+        key: 'pgInstitute',
+        type: 'select',
+        label: 'Post Graduate Institute',
+        required: true,
+        otherOptionAvailable: {
+            key: 'pgInstituteName',
+            activateOn: 'Others',
+            label: 'Institute Name',
+            placeholder: 'Institute Name'
+        },
+        options: [
+            'Not Applicable',
+            'Ashoka University',
+            'Birla Institute of Technology and Science',
+            'College of Business Studies',
+            'Columbia University',
+            'Delhi College of Engineering',
+            'Faculty of Management Studies',
+            'Harvard Kennedy School',
+            'IIIT Hyderabad',
+            'IIM Ahemdabad',
+            'IIM Bangalore',
+            'IIM Calcutta',
+            'IIT Bombay',
+            'IIT Delhi',
+            'IIT Kanpur',
+            'IIT Kharagpur',
+            'IIT Madras',
+            'IIT Roorkee',
+            'IIT(ISM) Dhanbad',
+            'Indian School of Business',
+            'Lady Shri Ram College',
+            'Lee Kuan Yew School of Public Policy',
+            'National Law School of India University',
+            'National University of Juridical Sciences',
+            'Princeton University',
+            'Shri Ram College of Commerce',
+            'Yale University'
+        ],
+        placeholder: 'Select Institute',
+        validation: VALID_OPTION
+    }, {
+        key: 'currentOrganization',
+        type: 'text',
+        label: 'Current Organization/Institution',
+        required: true,
+        placeholder: 'Enter Organization',
+        validation: VALID_TEXT
+    }, {
+        key: 'experienceInMonths',
+        type: 'text',
+        label: 'Total Professional Experience (in months)',
+        required: true,
+        placeholder: 'Enter Organization',
+        validation: VALID_NUMBER
+    }, {
+        key: 'linkedInProfile',
+        type: 'text',
+        label: 'LinkedIn Profile',
+        required: false,
+        placeholder: 'Enter your linkedin profile link',
+        validation: VALID_LINK
+    }, {
+        key: 'blogLink',
+        type: 'text',
+        label: 'Blogs/Reference Links',
+        required: false,
+        placeholder: 'Enter your any blog/reference links',
+        validation: VALID_LINK
+    }, {
+        key: 'resume',
+        type: 'file',
+        label: 'Upload Resume',
+        required: true,
+        fileKeyName: 'resumeFileName',
+        fileErrorKey: 'resumeFileError',
+        actionName: 'Upload',
+        placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)',
+        validation: VALID_FILE
+    }, {
+        key: 'statementFile',
+        type: 'file',
+        fileKeyName: 'statementFileName',
+        fileErrorKey: 'statementFileError',
+        label: 'Statement of Purpose',
+        questions: ['Q1. How does Samagra align with your goals? (max 200 words)',
+            'Q2. Why do you believe yourself to be a good fit for Samagra? (max 300 words)'],
+        required: true,
+        actionName: 'Upload',
+        placeholder: 'Upload a PDF containing separate answers to the following two questions (Filename: SOP_Firstname Lastname):',
+        validation: VALID_FILE
+    }, {
+        key: 'leadFrom',
+        type: 'radio',
+        label: 'Where did you hear about Samagra?',
+        required: true,
+        options: ['Word of Mouth',
+            'Samagra Team Member',
+            'LinkedIn',
+            'Samagra Website',
+            'Campus Placements',
+            'Recruitment Agency',
+            'Facebook'],
+        otherOptionAvailable: {
+            key: 'leadFromOther',
+            activateOn: 'Other',
+            label: 'Other',
+            placeholder: 'Other',
+        },
+        placeholder: 'Upload a PDF containing separate answers to the following two questions (Filename: SOP_Firstname Lastname):',
+        validation: VALID_OPTION
+    }];
+
+
+    const renderInput = (element) => {
+        switch (element.type) {
+            case 'text':
+                return <div className="col-md-4 col-sm-6 col-xs-12">
+                    <fieldset className={'form-group'}>
+                        <label>{element.label} {element.required ?
+                            <span className={'required-mark'}>*</span> : null}</label>
+                        <input type="text"
+                               onChange={(e) => {
+                                   const formObjectTemp = {
+                                       ...formObject
+                                   };
+                                   formObjectTemp[element.key] = e.target.value;
+                                   setFormObject(formObjectTemp);
+                               }}
+                               className={`form-control ${submitted && !element['validation'](element) ? 'invalid' : ''}`}
+                               placeholder={element.placeholder}/>
+                    </fieldset>
+                </div>;
+            case 'select':
+                return <div className="col-md-4 col-sm-6 col-xs-12">
+                    <fieldset className={'form-group'}>
+                        <label>{element.label} {element.required ?
+                            <span className={'required-mark'}>*</span> : null}</label> <select
+                        onChange={(e) => {
+                            const formObjectTemp = {
+                                ...formObject
+                            };
+                            formObjectTemp[element.key] = e.target.value;
+                            setFormObject(formObjectTemp);
+                        }}
+                        className={`form-control ${submitted && !element['validation'](element) ? 'invalid' : ''}`}>
+                        <option>{element.placeholder}</option>
+                        {
+                            element.options.map((u) => {
+                                return <option value={u}>{u}</option>
+                            })
+                        }
+                        {
+                            element.otherOptionAvailable ? <option
+                                value={element.otherOptionAvailable.activateOn}>{element.otherOptionAvailable.activateOn}</option> : null
+                        }
+                    </select>
+                    </fieldset>
+                </div>;
+            case 'file':
+                return <div className="col-6" style={{padding: '0 15px'}}>
+                    <fieldset className={'form-group'}>
+                        <label> {element.label} <span
+                            className={`${formObject[element.fileErrorKey] ? 'invalid-size' : ''}`}>(pdf only, max size 1mb) </span>
+                            <span
+                                className={'required-mark'}>*</span></label>
+                        {
+                            element.questions ? <div className={'mb-4'}>
+                                {
+                                    element.questions.map((question) => {
+                                        return <p>{question}</p>
+                                    })
+                                }
+                            </div> : null
+                        }
+                        <div className="input-group">
+                            <input type="text"
+                                   value={formObject[element.fileKeyName]}
+                                   className={`form-control ${submitted && !element['validation'](element) ? 'invalid' : ''}`}
+                                   placeholder={'No file selected'}/>
+                            <input type="file" className={'file-input'} accept={'.pdf'}
+                                   onChange={(e) => {
+                                       const files = Array.from(e.target.files);
+                                       const formData = new FormData();
+                                       const formObjectTemp = {
+                                           ...formObject
+                                       };
+                                       formData.append('file', files[0]);
+                                       fetch(`${service.baseUrl}image-upload`, {
+                                           method: 'POST',
+                                           body: formData
+                                       })
+                                           .then(res => {
+                                               if (res && res.status === 422) {
+                                                   formObjectTemp[element.fileErrorKey] = true;
+                                                   setFormObject(formObjectTemp);
+                                                   throw Error('File size Exceeded');
+                                               } else {
+                                                   formObjectTemp[element.fileErrorKey] = false;
+                                                   return res.json();
+                                               }
+                                           })
+                                           .then(image => {
+                                               formObjectTemp[element.key] = service.baseUrl + 'uploads/' + image.key;
+                                               formObjectTemp[element.fileKeyName] = image.name;
+                                               setFormObject(formObjectTemp);
+                                           }).catch((e) => {
+                                           console.error((e));
+                                       })
+
+                                   }}/>
+                            <div className="input-group-append">
+                                        <span className="input-group-text" style={{
+                                            background: '#ec672c',
+                                            color: 'white',
+                                            paddingLeft: '50px',
+                                            paddingRight: '50px',
+                                            border: 'none'
+                                        }}>{element.actionName}</span>
+                            </div>
+
+                        </div>
+                        <span className={'hint'}>
+                            {element.placeholder}
+                                    </span>
+                    </fieldset>
+                </div>;
+            case 'radio' :
+                return <div className="col-12">
+                    <fieldset className={'form-group'}>
+                        <label> {element.label} <span
+                            className={'required-mark'}>*</span></label>
+                        <div className="row reaching-options">
+                            {
+                                element.options.map((option, index) => {
+                                    return <div className={'option col-md-4 col-sm-6 col-xs-12'}
+                                                onClick={() => {
+                                                    setActiveOption(index);
+                                                    const formObjectTemp = {
+                                                        ...formObject
+                                                    };
+                                                    formObjectTemp[element.key] = option;
+                                                    setFormObject(formObjectTemp);
+                                                }}>
+                                        <div
+                                            className={`selection ${activeOption === index ? 'active' : ''}`}>
+
+                                        </div>
+                                        <div>{option}</div>
+                                    </div>
+                                })
+                            }
+                            {element.otherOptionAvailable ?
+                                <div className={'option col-md-4 col-sm-6 col-xs-12'}
+                                     onClick={() => {
+                                         setActiveOption(element.otherOptionAvailable.activateOn)
+                                     }}>
+                                    <div
+                                        className={`selection ${activeOption === element.otherOptionAvailable.activateOn ? 'active' : ''}`}>
+
+                                    </div>
+                                    <div>{element.otherOptionAvailable.activateOn}</div>
+                                    <div
+                                        style={{padding: '0 10px'}}>{(activeOption === element.otherOptionAvailable.activateOn) ?
+                                        <input
+                                            onChange={(e) => {
+                                                const formObjectTemp = {
+                                                    ...formObject
+                                                };
+                                                formObjectTemp[element.otherOptionAvailable.key] = e.target.value;
+                                                formObjectTemp[element.key] = e.target.value;
+                                                setFormObject(formObjectTemp);
+                                            }}
+                                            type="text"
+                                            className={'form-control'}
+                                            placeholder={'Other'}/> : <span/>}</div>
+                                </div> : null
+                            }
+                        </div>
+                    </fieldset>
+                </div>
+        }
+    };
     return (
         <div style={{paddingTop: '100px'}} className={'join-us-page-wrapper'}>
 
             <div className="container">
                 <div className="row mb-5">
-                    <img src={horizontalImage || horizontalImage.childImageSharp.fluid.src} className={'hide-for-small-only'}
-                         style={{maxWidth: '600px', margin: 'auto'}} width={'100%'} alt=""/>
-                    <img src={verticleImage || verticleImage.childImageSharp.fluid.src} className={'show-for-small-only'} width={'100%'}
+                    <img
+                        src={horizontalImage.childImageSharp ? horizontalImage.childImageSharp.fluid.src : horizontalImage}
+                        className={'hide-for-small-only'}
+                        style={{maxWidth: '600px', margin: 'auto'}} width={'100%'} alt=""/>
+                    <img src={verticleImage.childImageSharp ? verticleImage.childImageSharp.fluid.src : verticleImage}
+                         className={'show-for-small-only'} width={'100%'}
                          alt=""/>
                 </div>
             </div>
             <div className={'join-us-form'}>
+
                 <div className="container">
-                    {showForm ? <div className="row">
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label>Full Name <span className={'required-mark'}>*</span></label>
-                                    <input type="text" onChange={(e) => {
-                                        const formObjectTemp = {
-                                            ...formObject
-                                        };
-                                        formObjectTemp['fullName'] = e.target.value;
-                                        setFormObject(formObjectTemp);
-                                    }}
-                                           className={`form-control ${submitted && !validFullName() ? 'invalid' : ''}`}
-                                           placeholder={'Enter your full name'}/>
-                                </fieldset>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label>Contact Number <span className={'required-mark'}>*</span></label>
-                                    <input
-                                        onChange={(e) => {
-                                            const formObjectTemp = {
-                                                ...formObject
-                                            };
-                                            formObjectTemp['contactNumber'] = e.target.value;
-                                            setFormObject(formObjectTemp);
-                                        }}
-                                        type="text"
-                                        className={`form-control ${submitted && !validPhoneNumber() ? 'invalid' : ''}`}
-                                        placeholder={'Enter your contact number'}/>
-                                </fieldset>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label>Email <span className={'required-mark'}>*</span></label>
-                                    <input
-                                        onChange={(e) => {
-                                            const formObjectTemp = {
-                                                ...formObject
-                                            };
-                                            formObjectTemp['email'] = e.target.value;
-                                            setFormObject(formObjectTemp);
-                                        }}
-                                        type="email"
-                                        className={`form-control ${submitted && !validEmail() ? 'invalid' : ''}`}
-                                        placeholder={'Enter your email'}/>
-                                </fieldset>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label>Current Location <span className={'required-mark'}>*</span></label>
-                                    <input
-                                        onChange={(e) => {
-                                            const formObjectTemp = {
-                                                ...formObject
-                                            };
-                                            formObjectTemp['currentLocation'] = e.target.value;
-                                            setFormObject(formObjectTemp);
-                                        }}
-                                        type="text"
-                                        className={`form-control ${submitted && !validCurrentLocation() ? 'invalid' : ''}`}
-                                        placeholder={'Enter current location'}/>
-                                </fieldset>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label>Undergraduate Institute <span className={'required-mark'}>*</span></label>
-                                    <select
-                                        onChange={(e) => {
-                                            const formObjectTemp = {
-                                                ...formObject
-                                            };
-                                            formObjectTemp['ugInstitute'] = e.target.value;
-                                            setFormObject(formObjectTemp);
-                                        }}
-                                        className={`form-control ${submitted && !validInstitute('ugInstitute') ? 'invalid' : ''}`}>
-                                        <option>Please select Institute</option>
-                                        {
-                                            ugUniversity.map((u) => {
-                                                return <option value={u}>{u}</option>
-                                            })
-                                        }
-                                    </select>
-                                </fieldset>
-                            </div>
-                            {formObject['ugInstitute'] && formObject['ugInstitute'] === 'Others' ?
-                                <div className="col-md-4 col-sm-6 col-xs-12">
-                                    <fieldset className={'form-group'}>
-                                        <label>UG Institute Name<span className={'required-mark'}>*</span></label>
-                                        <input
-                                            onChange={(e) => {
-                                                const formObjectTemp = {
-                                                    ...formObject
-                                                };
-                                                formObjectTemp['ugInstituteName'] = e.target.value;
-                                                setFormObject(formObjectTemp);
-                                            }}
-                                            type="text"
-                                            className={`form-control ${submitted && !validInstitute('ugInstitute') ? 'invalid' : ''}`}
-                                            placeholder={'Institute Name'}/>
-                                    </fieldset>
-                                </div> : <span/>
+                    {showForm ?
+                        <div className="row">
+                            {
+                                formsElements.map((fE) => {
+                                    return renderInput(fE);
+                                })
                             }
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label>Post Graduate Institute <span className={'required-mark'}>*</span></label>
-                                    <select
-                                        onChange={(e) => {
-                                            const formObjectTemp = {
-                                                ...formObject
-                                            };
-                                            formObjectTemp['pgInstitute'] = e.target.value;
-                                            setFormObject(formObjectTemp);
-                                        }}
-                                        className={`form-control ${submitted && !validInstitute('pgInstitute') ? 'invalid' : ''}`}>
-                                        <option>Please select Institute</option>
-                                        {
-                                            pgUniversity.map((u) => {
-                                                return <option value={u}>{u}</option>
-                                            })
-                                        }
-                                    </select>
-                                </fieldset>
-                            </div>
-                            {formObject['pgInstitute'] && formObject['pgInstitute'] === 'Others' ?
-                                <div className="col-md-4 col-sm-6 col-xs-12">
-                                    <fieldset className={'form-group'}>
-                                        <label>UG Institute Name<span className={'required-mark'}>*</span></label>
-                                        <input
-                                            onChange={(e) => {
-                                                const formObjectTemp = {
-                                                    ...formObject
-                                                };
-                                                formObjectTemp['pgInstituteName'] = e.target.value;
-                                                setFormObject(formObjectTemp);
-                                            }}
-                                            type="text"
-                                            className={`form-control ${submitted && !validInstitute('pgInstitute') ? 'invalid' : ''}`}
-                                            placeholder={'Institute Name'}/>
-                                    </fieldset>
-                                </div> : <span/>
-                            }
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label>Current Organization/Institution <span
-                                        className={'required-mark'}>*</span></label>
-                                    <input onChange={(e) => {
-                                        const formObjectTemp = {
-                                            ...formObject
-                                        };
-                                        formObjectTemp['currentOrganization'] = e.target.value;
-                                        setFormObject(formObjectTemp);
-                                    }} type="text"
-                                           className={`form-control ${submitted && !validText('currentOrganization') ? 'invalid' : ''}`}
-                                           placeholder={'Enter current organization'}/>
-                                </fieldset>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label>Total Professional Experience (in months) <span
-                                        className={'required-mark'}>*</span></label>
-                                    <input onChange={(e) => {
-                                        const formObjectTemp = {
-                                            ...formObject
-                                        };
-                                        formObjectTemp['experienceInMonths'] = e.target.value;
-                                        setFormObject(formObjectTemp);
-                                    }} type="text"
-                                           className={`form-control ${submitted && !validMonths() ? 'invalid' : ''}`}
-                                           placeholder={'Enter your total experience'}/>
-                                </fieldset>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label> LinkedIn Profile</label>
-                                    <input onChange={(e) => {
-                                        const formObjectTemp = {
-                                            ...formObject
-                                        };
-                                        formObjectTemp['linkedInProfile'] = e.target.value;
-                                        setFormObject(formObjectTemp);
-                                    }} type="text"
-                                           className={`form-control ${submitted && !validLink('linkedInProfile', true) ? 'invalid' : ''}`}
-                                           placeholder={'Enter your linkedin profile link'}/>
-                                </fieldset>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label> Blogs/Reference Links</label>
-                                    <input onChange={(e) => {
-                                        const formObjectTemp = {
-                                            ...formObject
-                                        };
-                                        formObjectTemp['blogLink'] = e.target.value;
-                                        setFormObject(formObjectTemp);
-                                    }} type="text"
-                                           className={`form-control ${submitted && !validLink('blogLink', true) ? 'invalid' : ''}`}
-                                           placeholder={'Enter your any blog/reference links'}/>
-                                </fieldset>
-                            </div>
-                            <div className="col-md-6 col-xs-12">
-                                <fieldset className={'form-group'}>
-                                    <label> Upload Resume <span
-                                        className={`${formObject['resumeFileError'] ? 'invalid-size' : ''}`}>(pdf only, max size 1mb)</span>
-                                        <span className={'required-mark'}>*</span></label>
-                                    <div className="input-group">
-                                        <input type="text"
-                                               value={formObject['resumeFileName']}
-                                               className={`form-control ${submitted && !validLink('resume') ? 'invalid' : ''}`}
-                                               placeholder={'No file selected'}/>
-                                        <input type="file" className={'file-input'} accept={'.pdf'} onChange={(e) => {
-                                            const files = Array.from(e.target.files);
-                                            const formData = new FormData();
-                                            const formObjectTemp = {
-                                                ...formObject
-                                            };
-                                            formData.append('file', files[0]);
-                                            fetch(`${service.baseUrl}image-upload`, {
-                                                method: 'POST',
-                                                body: formData
-                                            })
-                                                .then(res => {
-                                                    if (res && res.status === 422) {
-                                                        formObjectTemp['resumeFileError'] = true;
-                                                        setFormObject(formObjectTemp);
-                                                        throw Error('File size Exceeded');
-                                                    } else {
-                                                        formObjectTemp['resumeFileError'] = false;
-                                                        return res.json();
-                                                    }
-                                                })
-                                                .then(image => {
-                                                    formObjectTemp['resume'] = service.baseUrl + 'uploads/' + image.key;
-                                                    formObjectTemp['resumeFileName'] = image.name;
-                                                    setFormObject(formObjectTemp);
-                                                }).catch((e) => {
-                                                console.error((e));
-                                            })
-                                        }}/>
-                                        <div className="input-group-append">
-                                        <span className="input-group-text" style={{
-                                            background: '#ec672c',
-                                            color: 'white',
-                                            paddingLeft: '50px',
-                                            paddingRight: '50px',
-                                            border: 'none'
-                                        }}>Upload</span>
-                                        </div>
-                                        <span className={'hint'}>
-                                        Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)
-                                    </span>
-                                    </div>
-
-                                </fieldset>
-                            </div>
-                            <div className="col-12 mt-3">
-                                <fieldset className={'form-group'}>
-                                    <label> Statement of Purpose <span
-                                        className={`${formObject['statementFileError'] ? 'invalid-size' : ''}`}>(pdf only, max size 1mb)</span>
-                                        <span
-                                            className={'required-mark'}>*</span></label>
-                                    <p>Q1. How does Samagra align with your goals? (max 200 words)</p>
-                                    <p>Q2. Why do you believe yourself to be a good fit for Samagra? (max 300 words)</p>
-                                    <div className="input-group mt-3">
-                                        <input type="text"
-                                               value={formObject['statementFileName']}
-                                               className={`form-control ${submitted && !validLink('statementFile') ? 'invalid' : ''}`}
-                                               placeholder={'No file selected'}/>
-                                        <input type="file" className={'file-input'} accept={'.pdf'} onChange={(e) => {
-                                            const files = Array.from(e.target.files);
-                                            const formData = new FormData();
-                                            const formObjectTemp = {
-                                                ...formObject
-                                            };
-                                            formData.append('file', files[0]);
-                                            fetch(`${service.baseUrl}image-upload`, {
-                                                method: 'POST',
-                                                body: formData
-                                            })
-                                                .then(res => {
-                                                    if (res && res.status === 422) {
-                                                        formObjectTemp['statementFileError'] = true;
-                                                        setFormObject(formObjectTemp);
-                                                        throw Error('File size Exceeded');
-                                                    } else {
-                                                        formObjectTemp['statementFileError'] = false;
-                                                        return res.json();
-                                                    }
-                                                })
-                                                .then(image => {
-                                                    formObjectTemp['statementFile'] = service.baseUrl + 'uploads/' + image.key;
-                                                    formObjectTemp['statementFileName'] = image.name;
-                                                    setFormObject(formObjectTemp);
-                                                }).catch((e) => {
-                                                console.error((e));
-                                            })
-
-                                        }}/>
-                                        <div className="input-group-append">
-                                        <span className="input-group-text" style={{
-                                            background: '#ec672c',
-                                            color: 'white',
-                                            paddingLeft: '50px',
-                                            paddingRight: '50px',
-                                            border: 'none'
-                                        }}>Upload</span>
-                                        </div>
-
-                                    </div>
-                                    <span className={'hint'}>
-                                        Upload a PDF containing separate answers to the following two questions (Filename: SOP_Firstname Lastname):
-                                    </span>
-                                </fieldset>
-                            </div>
-
-                            <div className="col-12">
-                                <fieldset className={'form-group'}>
-                                    <label> Where did you hear about Samagra? <span
-                                        className={'required-mark'}>*</span></label>
-                                    <div className="row reaching-options">
-                                        {
-                                            reachingOptions.map((option, index) => {
-                                                return <div className={'option col-md-4 col-sm-6 col-xs-12'}
-                                                            onClick={() => {
-                                                                setActiveOption(index)
-                                                            }}>
-                                                    <div
-                                                        className={`selection ${activeOption === index ? 'active' : ''}`}>
-
-                                                    </div>
-                                                    <div>{option}</div>
-                                                    <div
-                                                        style={{padding: '0 10px'}}>{(activeOption === reachingOptions.length - 1 && activeOption === index) ?
-                                                        <input
-                                                            onChange={(e) => {
-                                                                const formObjectTemp = {
-                                                                    ...formObject
-                                                                };
-                                                                formObjectTemp['leadFromOther'] = e.target.value;
-                                                                setFormObject(formObjectTemp);
-                                                            }}
-                                                            type="text"
-                                                            className={'form-control'}
-                                                            placeholder={'Other'}/> : <span/>}</div>
-                                                </div>
-                                            })
-                                        }
-                                    </div>
-                                </fieldset>
-                            </div>
                             <div className="col-12 " style={{textAlign: 'center', marginTop: '30px'}}>
                                 <PrimaryButton click={() => {
                                     setSubmitted(true);
-
-                                    const formObjectTemp = {
-                                        ...formObject
-                                    };
-                                    formObjectTemp['leadFrom'] = '';
-                                    if (reachingOptions[activeOption] && activeOption !== reachingOptions.length - 1) {
-                                        formObjectTemp['leadFrom'] = reachingOptions[activeOption];
-                                    } else if (activeOption === reachingOptions.length - 1) {
-
-                                        console.log(formObjectTemp);
-                                        formObjectTemp['leadFrom'] = formObjectTemp['leadFromOther'];
+                                    let validForm = true;
+                                    formsElements.forEach((element) => {
+                                        if (!element['validation'](element)) {
+                                            validForm = false;
+                                        }
+                                    });
+                                    if (!validForm) {
+                                        return;
                                     }
-
-                                    setFormObject(formObjectTemp);
-                                    if (!validFullName() || !validLink('linkedInProfile', true) || !validLink('blogLink', true) || !validPhoneNumber() || !validLink('statementFile') || !validLink('resume') || !validInstitute('pgInstitute') || !validInstitute('ugInstitute') || !validEmail() || !validCurrentLocation() || !validText('currentOrganization') || !formObjectTemp['leadFrom']) {
-                                        return
-                                    }
-
-                                    // const bodyFormData = new FormData();
-
-                                    axios.post(service.baseUrl + 'form/submit', formObjectTemp, {headers: {'Content-Type': 'application/json'}})
+                                    axios.post(service.baseUrl + 'form/submit', formObject, {headers: {'Content-Type': 'application/json'}})
                                         .then(function (response) {
                                             setShowForm(false);
                                         })
@@ -507,17 +444,19 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
                                 }} text={'Submit'}/>
                                 <div style={{marginTop: '25px'}}>
                                     <a style={{fontSize: '12px', width: '100%', textAlign: 'center', color: '#fff'}}
-                                       href="mailto:careers@samagragovernance.in">Have questions? Email us at <span style={{
-                                        cursor: 'pointer',
-                                        color: '#ec672c'
-                                    }}>careers@samagragovernance.in</span></a>
+                                       href="mailto:careers@samagragovernance.in">Have questions? Email us at <span
+                                        style={{
+                                            cursor: 'pointer',
+                                            color: '#ec672c'
+                                        }}>careers@samagragovernance.in</span></a>
                                 </div>
                             </div>
                         </div>
                         : <div className={'thank-you-message'}>
                             Thank you
                             <div className="sub-title">
-                                We have received your application. Our recruitment team will reach out to you shortly.
+                                We have received your application. Our recruitment team will reach out to you
+                                shortly.
                             </div>
                             <div className="sub-title">
                                 In case you'd like to get regular updates on our work, please follow us on <a
