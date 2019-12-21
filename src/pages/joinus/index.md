@@ -117,5 +117,12 @@ formsElements:
     required: true
     type: text
     validation: VALID_LINK
+  - actionName: Upload
+    label: Upload Resume
+    placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)'
+    questions: []
+    required: true
+    type: file
+    validation: VALID_FILE
 ---
 
