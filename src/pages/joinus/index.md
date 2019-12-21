@@ -9,5 +9,10 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
+  - label: Contact Number
+    placeholder: Enter your contact number
+    required: true
+    type: text
+    validation: VALID_TEXT
 ---
 
