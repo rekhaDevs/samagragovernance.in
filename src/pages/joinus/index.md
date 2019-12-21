@@ -97,5 +97,10 @@ formsElements:
     required: true
     type: select
     validation: VALID_OPTION
+  - label: Current Organization/Institution
+    placeholder: Enter Organization
+    required: true
+    type: text
+    validation: VALID_TEXT
 ---
 
