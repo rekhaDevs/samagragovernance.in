@@ -137,5 +137,24 @@ formsElements:
     required: true
     type: file
     validation: VALID_FILE
+  - label: Where did you hear about Samagra?
+    options:
+      - text: Word of Mouth
+      - text: Samagra Team Member
+      - text: LinkedIn
+      - text: Samagra Website
+      - text: Campus Placements
+      - text: Recruitment Agency
+      - text: Facebook
+    otherOptionAvailable:
+      activateOn: Other
+      label: Other
+      placeholder: Other
+    placeholder: >-
+      Upload a PDF containing separate answers to the following two questions
+      (Filename: SOP_Firstname Lastname):
+    required: true
+    type: radio
+    validation: VALID_OPTION
 ---
 
