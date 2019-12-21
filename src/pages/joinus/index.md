@@ -107,5 +107,10 @@ formsElements:
     required: true
     type: text
     validation: VALID_NUMBER
+  - label: LinkedIn Profile
+    placeholder: Enter your linkedin profile link
+    required: true
+    type: text
+    validation: VALID_LINK
 ---
 
