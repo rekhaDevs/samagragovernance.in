@@ -102,5 +102,10 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
+  - label: Total Professional Experience (in months)
+    placeholder: Enter Organization
+    required: true
+    type: text
+    validation: VALID_NUMBER
 ---
 
