@@ -60,5 +60,42 @@ formsElements:
     required: true
     type: select
     validation: VALID_OPTION
+  - label: Post Graduate Institute
+    options:
+      - text: Not Applicable
+      - text: Ashoka University
+      - text: Birla Institute of Technology and Science
+      - text: College of Business Studies
+      - text: Columbia University
+      - text: Delhi College of Engineering
+      - text: Faculty of Management Studies
+      - text: Harvard Kennedy School
+      - text: IIIT Hyderabad
+      - text: IIM Ahemdabad
+      - text: IIM Bangalore
+      - text: IIM Calcutta
+      - text: IIT Bombay
+      - text: IIT Delhi
+      - text: IIT Kanpur
+      - text: IIT Kharagpur
+      - text: IIT Madras
+      - text: IIT Roorkee
+      - text: IIT(ISM) Dhanbad
+      - text: Indian School of Business
+      - text: Lady Shri Ram College
+      - text: Lee Kuan Yew School of Public Policy
+      - text: National Law School of India University
+      - text: National University of Juridical Sciences
+      - text: Princeton University
+      - text: Shri Ram College of Commerce
+      - text: Yale University
+    otherOptionAvailable:
+      activateOn: activateOn
+      label: Institute Name
+      placeholder: Institute Name
+    placeholder: Select Institute
+    required: true
+    type: select
+    validation: VALID_OPTION
 ---
 
