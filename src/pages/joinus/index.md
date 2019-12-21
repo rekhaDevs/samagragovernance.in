@@ -112,5 +112,10 @@ formsElements:
     required: true
     type: text
     validation: VALID_LINK
+  - label: Blogs/Reference Links
+    placeholder: Enter your any blog/reference links
+    required: true
+    type: text
+    validation: VALID_LINK
 ---
 
