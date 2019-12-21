@@ -19,5 +19,10 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
+  - label: Current Location
+    placeholder: Enter current location
+    required: true
+    type: text
+    validation: VALID_TEXT
 ---
 
