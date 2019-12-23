@@ -109,12 +109,12 @@ formsElements:
     validation: VALID_NUMBER
   - label: LinkedIn Profile
     placeholder: Enter your linkedin profile link
-    required: true
+    required: false
     type: text
     validation: VALID_LINK
   - label: Blogs/Reference Links
     placeholder: Enter your any blog/reference links
-    required: true
+    required: false
     type: text
     validation: VALID_LINK
   - actionName: Upload
