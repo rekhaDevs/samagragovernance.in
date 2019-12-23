@@ -14,6 +14,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     const [submitted, setSubmitted] = useState(false);
     const [activeOption, setActiveOption] = useState(-1);
 
+    const formsElements = joinUsPageContent.formsElements || [];
     const VALID_TEXT = (element) => {
         if (!element.required) {
             return true;
@@ -46,190 +47,190 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
         return (formObject && element && (formObject[element.key] || (element.otherOptionAvailable && formObject[element.otherOptionAvailable.key])));
     };
 
-    const formsElements = [{
-        key: 'fullName',
-        type: 'text',
-        label: 'Full Name',
-        required: true,
-        placeholder: 'Enter your full name',
-        validation: VALID_TEXT
-    }, {
-        key: 'contactNumber',
-        type: 'text',
-        label: 'Contact Number',
-        required: true,
-        placeholder: 'Enter your contact number',
-        validation: VALID_TEXT
-    }, {
-        key: 'email',
-        type: 'text',
-        label: 'Email',
-        required: true,
-        placeholder: 'Enter your email',
-        validation: VALID_TEXT
-    }, {
-        key: 'currentLocation',
-        type: 'text',
-        label: 'Current Location',
-        required: true,
-        placeholder: 'Enter current location',
-        validation: VALID_TEXT
-    }, {
-        key: 'ugInstitute',
-        type: 'select',
-        label: 'Undergraduate Institute',
-        required: true,
-        otherOptionAvailable: {
-            key: 'ugInstituteName',
-            activateOn: 'Others',
-            label: 'Institute Name',
-            placeholder: 'Institute Name'
-        },
-        options: [
-            'Ashoka University',
-            'Birla Institute of Technology and Science',
-            'College of Business Studies',
-            'Columbia University',
-            'Delhi College of Engineering',
-            'Faculty of Management Studies',
-            'Harvard Kennedy School',
-            'IIIT Hyderabad',
-            'IIM Ahemdabad',
-            'IIM Bangalore',
-            'IIM Calcutta',
-            'IIT Bombay',
-            'IIT Delhi',
-            'IIT Kanpur',
-            'IIT Kharagpur',
-            'IIT Madras',
-            'IIT Roorkee',
-            'IIT(ISM) Dhanbad',
-            'Indian School of Business',
-            'Lady Shri Ram College',
-            'Lee Kuan Yew School of Public Policy',
-            'National Law School of India University',
-            'National University of Juridical Sciences',
-            'Princeton University',
-            'Shri Ram College of Commerce',
-            'Yale University'
-        ],
-        placeholder: 'Select Institute',
-        validation: VALID_OPTION
-    }, {
-        key: 'pgInstitute',
-        type: 'select',
-        label: 'Post Graduate Institute',
-        required: true,
-        otherOptionAvailable: {
-            key: 'pgInstituteName',
-            activateOn: 'Others',
-            label: 'Institute Name',
-            placeholder: 'Institute Name'
-        },
-        options: [
-            'Not Applicable',
-            'Ashoka University',
-            'Birla Institute of Technology and Science',
-            'College of Business Studies',
-            'Columbia University',
-            'Delhi College of Engineering',
-            'Faculty of Management Studies',
-            'Harvard Kennedy School',
-            'IIIT Hyderabad',
-            'IIM Ahemdabad',
-            'IIM Bangalore',
-            'IIM Calcutta',
-            'IIT Bombay',
-            'IIT Delhi',
-            'IIT Kanpur',
-            'IIT Kharagpur',
-            'IIT Madras',
-            'IIT Roorkee',
-            'IIT(ISM) Dhanbad',
-            'Indian School of Business',
-            'Lady Shri Ram College',
-            'Lee Kuan Yew School of Public Policy',
-            'National Law School of India University',
-            'National University of Juridical Sciences',
-            'Princeton University',
-            'Shri Ram College of Commerce',
-            'Yale University'
-        ],
-        placeholder: 'Select Institute',
-        validation: VALID_OPTION
-    }, {
-        key: 'currentOrganization',
-        type: 'text',
-        label: 'Current Organization/Institution',
-        required: true,
-        placeholder: 'Enter Organization',
-        validation: VALID_TEXT
-    }, {
-        key: 'experienceInMonths',
-        type: 'text',
-        label: 'Total Professional Experience (in months)',
-        required: true,
-        placeholder: 'Enter Organization',
-        validation: VALID_NUMBER
-    }, {
-        key: 'linkedInProfile',
-        type: 'text',
-        label: 'LinkedIn Profile',
-        required: false,
-        placeholder: 'Enter your linkedin profile link',
-        validation: VALID_LINK
-    }, {
-        key: 'blogLink',
-        type: 'text',
-        label: 'Blogs/Reference Links',
-        required: false,
-        placeholder: 'Enter your any blog/reference links',
-        validation: VALID_LINK
-    }, {
-        key: 'resume',
-        type: 'file',
-        label: 'Upload Resume',
-        required: true,
-        fileKeyName: 'resumeFileName',
-        fileErrorKey: 'resumeFileError',
-        actionName: 'Upload',
-        placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)',
-        validation: VALID_FILE
-    }, {
-        key: 'statementFile',
-        type: 'file',
-        fileKeyName: 'statementFileName',
-        fileErrorKey: 'statementFileError',
-        label: 'Statement of Purpose',
-        questions: ['Q1. How does Samagra align with your goals? (max 200 words)',
-            'Q2. Why do you believe yourself to be a good fit for Samagra? (max 300 words)'],
-        required: true,
-        actionName: 'Upload',
-        placeholder: 'Upload a PDF containing separate answers to the following two questions (Filename: SOP_Firstname Lastname):',
-        validation: VALID_FILE
-    }, {
-        key: 'leadFrom',
-        type: 'radio',
-        label: 'Where did you hear about Samagra?',
-        required: true,
-        options: ['Word of Mouth',
-            'Samagra Team Member',
-            'LinkedIn',
-            'Samagra Website',
-            'Campus Placements',
-            'Recruitment Agency',
-            'Facebook'],
-        otherOptionAvailable: {
-            key: 'leadFromOther',
-            activateOn: 'Other',
-            label: 'Other',
-            placeholder: 'Other',
-        },
-        placeholder: 'Upload a PDF containing separate answers to the following two questions (Filename: SOP_Firstname Lastname):',
-        validation: VALID_OPTION
-    }];
+    // const formsElements = [{
+    //     key: 'fullName',
+    //     type: 'text',
+    //     label: 'Full Name',
+    //     required: true,
+    //     placeholder: 'Enter your full name',
+    //     validation: VALID_TEXT
+    // }, {
+    //     key: 'contactNumber',
+    //     type: 'text',
+    //     label: 'Contact Number',
+    //     required: true,
+    //     placeholder: 'Enter your contact number',
+    //     validation: VALID_TEXT
+    // }, {
+    //     key: 'email',
+    //     type: 'text',
+    //     label: 'Email',
+    //     required: true,
+    //     placeholder: 'Enter your email',
+    //     validation: VALID_TEXT
+    // }, {
+    //     key: 'currentLocation',
+    //     type: 'text',
+    //     label: 'Current Location',
+    //     required: true,
+    //     placeholder: 'Enter current location',
+    //     validation: VALID_TEXT
+    // }, {
+    //     key: 'ugInstitute',
+    //     type: 'select',
+    //     label: 'Undergraduate Institute',
+    //     required: true,
+    //     otherOptionAvailable: {
+    //         key: 'ugInstituteName',
+    //         activateOn: 'Others',
+    //         label: 'Institute Name',
+    //         placeholder: 'Institute Name'
+    //     },
+    //     options: [
+    //         'Ashoka University',
+    //         'Birla Institute of Technology and Science',
+    //         'College of Business Studies',
+    //         'Columbia University',
+    //         'Delhi College of Engineering',
+    //         'Faculty of Management Studies',
+    //         'Harvard Kennedy School',
+    //         'IIIT Hyderabad',
+    //         'IIM Ahemdabad',
+    //         'IIM Bangalore',
+    //         'IIM Calcutta',
+    //         'IIT Bombay',
+    //         'IIT Delhi',
+    //         'IIT Kanpur',
+    //         'IIT Kharagpur',
+    //         'IIT Madras',
+    //         'IIT Roorkee',
+    //         'IIT(ISM) Dhanbad',
+    //         'Indian School of Business',
+    //         'Lady Shri Ram College',
+    //         'Lee Kuan Yew School of Public Policy',
+    //         'National Law School of India University',
+    //         'National University of Juridical Sciences',
+    //         'Princeton University',
+    //         'Shri Ram College of Commerce',
+    //         'Yale University'
+    //     ],
+    //     placeholder: 'Select Institute',
+    //     validation: VALID_OPTION
+    // }, {
+    //     key: 'pgInstitute',
+    //     type: 'select',
+    //     label: 'Post Graduate Institute',
+    //     required: true,
+    //     otherOptionAvailable: {
+    //         key: 'pgInstituteName',
+    //         activateOn: 'Others',
+    //         label: 'Institute Name',
+    //         placeholder: 'Institute Name'
+    //     },
+    //     options: [
+    //         'Not Applicable',
+    //         'Ashoka University',
+    //         'Birla Institute of Technology and Science',
+    //         'College of Business Studies',
+    //         'Columbia University',
+    //         'Delhi College of Engineering',
+    //         'Faculty of Management Studies',
+    //         'Harvard Kennedy School',
+    //         'IIIT Hyderabad',
+    //         'IIM Ahemdabad',
+    //         'IIM Bangalore',
+    //         'IIM Calcutta',
+    //         'IIT Bombay',
+    //         'IIT Delhi',
+    //         'IIT Kanpur',
+    //         'IIT Kharagpur',
+    //         'IIT Madras',
+    //         'IIT Roorkee',
+    //         'IIT(ISM) Dhanbad',
+    //         'Indian School of Business',
+    //         'Lady Shri Ram College',
+    //         'Lee Kuan Yew School of Public Policy',
+    //         'National Law School of India University',
+    //         'National University of Juridical Sciences',
+    //         'Princeton University',
+    //         'Shri Ram College of Commerce',
+    //         'Yale University'
+    //     ],
+    //     placeholder: 'Select Institute',
+    //     validation: VALID_OPTION
+    // }, {
+    //     key: 'currentOrganization',
+    //     type: 'text',
+    //     label: 'Current Organization/Institution',
+    //     required: true,
+    //     placeholder: 'Enter Organization',
+    //     validation: VALID_TEXT
+    // }, {
+    //     key: 'experienceInMonths',
+    //     type: 'text',
+    //     label: 'Total Professional Experience (in months)',
+    //     required: true,
+    //     placeholder: 'Enter Organization',
+    //     validation: VALID_NUMBER
+    // }, {
+    //     key: 'linkedInProfile',
+    //     type: 'text',
+    //     label: 'LinkedIn Profile',
+    //     required: false,
+    //     placeholder: 'Enter your linkedin profile link',
+    //     validation: VALID_LINK
+    // }, {
+    //     key: 'blogLink',
+    //     type: 'text',
+    //     label: 'Blogs/Reference Links',
+    //     required: false,
+    //     placeholder: 'Enter your any blog/reference links',
+    //     validation: VALID_LINK
+    // }, {
+    //     key: 'resume',
+    //     type: 'file',
+    //     label: 'Upload Resume',
+    //     required: true,
+    //     fileKeyName: 'resumeFileName',
+    //     fileErrorKey: 'resumeFileError',
+    //     actionName: 'Upload',
+    //     placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)',
+    //     validation: VALID_FILE
+    // }, {
+    //     key: 'statementFile',
+    //     type: 'file',
+    //     fileKeyName: 'statementFileName',
+    //     fileErrorKey: 'statementFileError',
+    //     label: 'Statement of Purpose',
+    //     questions: ['Q1. How does Samagra align with your goals? (max 200 words)',
+    //         'Q2. Why do you believe yourself to be a good fit for Samagra? (max 300 words)'],
+    //     required: true,
+    //     actionName: 'Upload',
+    //     placeholder: 'Upload a PDF containing separate answers to the following two questions (Filename: SOP_Firstname Lastname):',
+    //     validation: VALID_FILE
+    // }, {
+    //     key: 'leadFrom',
+    //     type: 'radio',
+    //     label: 'Where did you hear about Samagra?',
+    //     required: true,
+    //     options: ['Word of Mouth',
+    //         'Samagra Team Member',
+    //         'LinkedIn',
+    //         'Samagra Website',
+    //         'Campus Placements',
+    //         'Recruitment Agency',
+    //         'Facebook'],
+    //     otherOptionAvailable: {
+    //         key: 'leadFromOther',
+    //         activateOn: 'Other',
+    //         label: 'Other',
+    //         placeholder: 'Other',
+    //     },
+    //     placeholder: 'Upload a PDF containing separate answers to the following two questions (Filename: SOP_Firstname Lastname):',
+    //     validation: VALID_OPTION
+    // }];
 
-
+    console.log(joinUsPageContent);
     const renderInput = (element) => {
         switch (element.type) {
             case 'text':
@@ -265,11 +266,11 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                         <option>{element.placeholder}</option>
                         {
                             element.options.map((u) => {
-                                return <option value={u}>{u}</option>
+                                return <option value={u.text || u}>{u.text || u}</option>
                             })
                         }
                         {
-                            element.otherOptionAvailable ? <option
+                            element.otherOptionAvailable && element.otherOptionAvailable.activateOn ? <option
                                 value={element.otherOptionAvailable.activateOn}>{element.otherOptionAvailable.activateOn}</option> : null
                         }
                     </select>
@@ -286,7 +287,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                             element.questions ? <div className={'mb-4'}>
                                 {
                                     element.questions.map((question) => {
-                                        return <p>{question}</p>
+                                        return <p>{question.text || question}</p>
                                     })
                                 }
                             </div> : null
@@ -364,7 +365,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                             className={`selection ${activeOption === index ? 'active' : ''}`}>
 
                                         </div>
-                                        <div>{option}</div>
+                                        <div>{option.text || option}</div>
                                     </div>
                                 })
                             }
