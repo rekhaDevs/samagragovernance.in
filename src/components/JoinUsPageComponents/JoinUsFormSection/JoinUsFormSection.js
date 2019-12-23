@@ -6,9 +6,9 @@ const service = {
     baseUrl: 'http://api.samagragovernance.in/'
 };
 
-export const JoinUsFormSection = ({verticleImage, horizontalImage}) => {
+export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent}) => {
     // const reachingOptions = [];
-    console.log(verticleImage, horizontalImage);
+    console.log(joinUsPageContent);
     const [showForm, setShowForm] = useState(true);
     const [formObject, setFormObject] = useState({});
     const [submitted, setSubmitted] = useState(false);

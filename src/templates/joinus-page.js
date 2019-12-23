@@ -13,7 +13,7 @@ export const JoinUsPreviewTemplate = ({joinUsPageContent}) => {
     return (
         <React.Fragment>
             <JoinUsBannerImage/>
-            <JoinUsFormSection verticleImage={joinUsPageContent.verticalImage}
+            <JoinUsFormSection joinUsPageContent={joinUsPageContent} verticleImage={joinUsPageContent.verticalImage}
                                horizontalImage={joinUsPageContent.horizontalImage}/>
         </React.Fragment>
     )
@@ -48,6 +48,25 @@ export const JoinUsPageQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
+        }
+        formsElements {
+            label
+            required
+            placeholder
+            type
+            validation
+            otherOptionAvailable {
+                activateOn
+                label
+                placeholder
+            }
+            options {
+                text
+            }
+            actionName
+            questions {
+                text
+            }
         }
       }
     }
