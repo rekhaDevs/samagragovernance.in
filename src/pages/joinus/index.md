@@ -54,7 +54,7 @@ formsElements:
       - text: Yale University
     otherOptionAvailable:
       activateOn: Others
-      label: Institute Name
+      label: UG Institute Name
       placeholder: Institute Name
     placeholder: Select Institute
     required: true
@@ -91,7 +91,7 @@ formsElements:
       - text: Yale University
     otherOptionAvailable:
       activateOn: activateOn
-      label: Institute Name
+      label: PG Institute Name
       placeholder: Institute Name
     placeholder: Select Institute
     required: true
