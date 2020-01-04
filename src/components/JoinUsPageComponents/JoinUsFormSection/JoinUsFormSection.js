@@ -9,12 +9,26 @@ const service = {
 export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent}) => {
     // const reachingOptions = [];
     console.log(joinUsPageContent);
+    const camelCase = (str) => {
+        return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
+            return index == 0 ? word.toLowerCase() : word.toUpperCase();
+        }).replace(/\s+/g, '');
+    }
     const [showForm, setShowForm] = useState(true);
     const [formObject, setFormObject] = useState({});
     const [submitted, setSubmitted] = useState(false);
     const [activeOption, setActiveOption] = useState(-1);
 
     const formsElements = joinUsPageContent.formsElements || [];
+    formsElements.forEach((fE) => {
+        fE['key'] = camelCase(fE.label);
+        if (fE['otherOptionAvailable']) {
+            fE['otherOptionAvailable'].key = camelCase(fE['otherOptionAvailable']['label']);
+        }
+        if (fE['type'] === 'file') {
+            fE['fileErrorKey'] = fE.key + 'Error';
+        }
+    });
     const VALID_TEXT = (element) => {
         if (!element.required) {
             return true;
@@ -44,9 +58,24 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
         if (!element.required) {
             return true;
         }
-        return (formObject && element && (formObject[element.key] || (element.otherOptionAvailable && formObject[element.otherOptionAvailable.key])));
+        return (formObject && element && (formObject[element.key] || (element.otherOptionAvailable && element.otherOptionAvailable.key && formObject[element.otherOptionAvailable.key] && formObject[element.key] === element.otherOptionAvailable.activatedOn)));
     };
-
+    const customValidation = (element) => {
+        if (element && element.validation) {
+            switch (element.validation) {
+                case 'VALID_TEXT':
+                    return VALID_TEXT(element);
+                case 'VALID_NUMBER':
+                    return VALID_NUMBER(element);
+                case 'VALID_LINK':
+                    return VALID_LINK(element);
+                case 'VALID_FILE':
+                    return VALID_FILE(element);
+                case 'VALID_OPTION':
+                    return VALID_OPTION(element);
+            }
+        }
+    };
     // const formsElements = [{
     //     key: 'fullName',
     //     type: 'text',
@@ -230,7 +259,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     //     validation: VALID_OPTION
     // }];
 
-    console.log(joinUsPageContent);
+    console.log(formsElements);
     const renderInput = (element) => {
         switch (element.type) {
             case 'text':
@@ -246,36 +275,58 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                    formObjectTemp[element.key] = e.target.value;
                                    setFormObject(formObjectTemp);
                                }}
-                               className={`form-control ${submitted && !element['validation'](element) ? 'invalid' : ''}`}
+                               className={`form-control ${submitted && !customValidation(element) ? 'invalid' : ''}`}
                                placeholder={element.placeholder}/>
                     </fieldset>
                 </div>;
             case 'select':
-                return <div className="col-md-4 col-sm-6 col-xs-12">
-                    <fieldset className={'form-group'}>
-                        <label>{element.label} {element.required ?
-                            <span className={'required-mark'}>*</span> : null}</label> <select
-                        onChange={(e) => {
-                            const formObjectTemp = {
-                                ...formObject
-                            };
-                            formObjectTemp[element.key] = e.target.value;
-                            setFormObject(formObjectTemp);
-                        }}
-                        className={`form-control ${submitted && !element['validation'](element) ? 'invalid' : ''}`}>
-                        <option>{element.placeholder}</option>
-                        {
-                            element.options.map((u) => {
-                                return <option value={u.text || u}>{u.text || u}</option>
-                            })
-                        }
-                        {
-                            element.otherOptionAvailable && element.otherOptionAvailable.activateOn ? <option
-                                value={element.otherOptionAvailable.activateOn}>{element.otherOptionAvailable.activateOn}</option> : null
-                        }
-                    </select>
-                    </fieldset>
-                </div>;
+                return <React.Fragment>
+                    <div className="col-md-4 col-sm-6 col-xs-12">
+                        <fieldset className={'form-group'}>
+                            <label>{element.label} {element.required ?
+                                <span className={'required-mark'}>*</span> : null}</label> <select
+                            onChange={(e) => {
+                                const formObjectTemp = {
+                                    ...formObject
+                                };
+                                formObjectTemp[element.key] = e.target.value;
+                                setFormObject(formObjectTemp);
+                            }}
+                            className={`form-control ${submitted && !customValidation(element) ? 'invalid' : ''}`}>
+                            <option>{element.placeholder}</option>
+                            {
+                                element.options.map((u) => {
+                                    return <option value={u.text || u}>{u.text || u}</option>
+                                })
+                            }
+                            {
+                                element.otherOptionAvailable && element.otherOptionAvailable.activateOn ? <option
+                                    value={element.otherOptionAvailable.activateOn}>{element.otherOptionAvailable.activateOn}</option> : null
+                            }
+                        </select>
+                        </fieldset>
+                    </div>
+                    {
+                        element.otherOptionAvailable && element.otherOptionAvailable.activateOn && formObject[element.key] === element.otherOptionAvailable.activateOn ?
+                            <div className="col-md-4 col-sm-6 col-xs-12">
+                                <fieldset className={'form-group'}>
+                                    <label>{element.otherOptionAvailable.label}
+                                        <span className={'required-mark'}>*</span></label>
+                                    <input type="text"
+                                           onChange={(e) => {
+                                               const formObjectTemp = {
+                                                   ...formObject
+                                               };
+                                               formObjectTemp[element.otherOptionAvailable.key] = e.target.value;
+                                               setFormObject(formObjectTemp);
+                                           }}
+                                           className={`form-control ${submitted && !customValidation(element) ? 'invalid' : ''}`}
+                                           placeholder={element.otherOptionAvailable.placeholder}/>
+                                </fieldset>
+                            </div>
+                            : null
+                    }
+                </React.Fragment>;
             case 'file':
                 return <div className="col-6" style={{padding: '0 15px'}}>
                     <fieldset className={'form-group'}>
@@ -295,7 +346,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                         <div className="input-group">
                             <input type="text"
                                    value={formObject[element.fileKeyName]}
-                                   className={`form-control ${submitted && !element['validation'](element) ? 'invalid' : ''}`}
+                                   className={`form-control ${submitted && !customValidation(element) ? 'invalid' : ''}`}
                                    placeholder={'No file selected'}/>
                             <input type="file" className={'file-input'} accept={'.pdf'}
                                    onChange={(e) => {
@@ -429,19 +480,20 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                     setSubmitted(true);
                                     let validForm = true;
                                     formsElements.forEach((element) => {
-                                        if (!element['validation'](element)) {
+                                        if (!customValidation(element)) {
                                             validForm = false;
                                         }
                                     });
                                     if (!validForm) {
                                         return;
                                     }
-                                    axios.post(service.baseUrl + 'form/submit', formObject, {headers: {'Content-Type': 'application/json'}})
-                                        .then(function (response) {
-                                            setShowForm(false);
-                                        })
-                                        .catch(function (error) {
-                                        });
+                                    console.log('Valid');
+                                    // axios.post(service.baseUrl + 'form/submit', formObject, {headers: {'Content-Type': 'application/json'}})
+                                    //     .then(function (response) {
+                                    //         setShowForm(false);
+                                    //     })
+                                    //     .catch(function (error) {
+                                    //     });
                                 }} text={'Submit'}/>
                                 <div style={{marginTop: '25px'}}>
                                     <a style={{fontSize: '12px', width: '100%', textAlign: 'center', color: '#fff'}}

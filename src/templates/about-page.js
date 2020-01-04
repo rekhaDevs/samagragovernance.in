@@ -36,11 +36,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-      />
+
     </Layout>
   )
 }

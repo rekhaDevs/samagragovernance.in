@@ -79,6 +79,17 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/tech.md"
+        label: "Tech Page"
+        name: "tech"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Background Cover", name: "backgroundCover", widget: image}
+          - {label: Overview, name: overview, widget: list, fields: [{label: Text, name: text, widget: string}]}
+          - {label: Count, name: count, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
+          - {label: "Our Innovations", name: ourInnovations, widget: list, fields: [{label: "Image", name: "image", widget: image}, {label: Title, name: title, widget: string}, {label: Playstore Link, name: playstoreLink, widget: string, required: false},{label: Appsotre Link, name: appstoreLink, widget: string, required: false}, {label: Description, name: description, widget: object, fields: [{label: Text, name: text, widget: string}]}]}
+          - {label: Design Principles, name: designPrinciples, widget: list, fields: [{label: Text, name: text, widget: string}, {label: "Image", name: "image", widget: image}]}
       - file: "src/pages/team/index.md"
         label: "Team Page"
         name: "team"
