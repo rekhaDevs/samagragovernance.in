@@ -72,13 +72,6 @@ collections:
           - {label: Base Banner, name: baseBanner, widget: object, fields: [{label: "Title Lines", name: "titleLines", widget: list, fields: [{label: Text, name: text, widget: string}]}]}
           - {label: "Sub Banners", name: subBanners, widget: list, fields: [{label: "Title Lines", name: "titleLines", widget: list, fields: [{label: Text, name: text, widget: string}]}, {label: "Project Name", name: "projectName", widget: "string"}, {label: "Slides", name: "slides", widget: list, fields: [{label: "Image", name: image, widget: image}, {label: "Title", name: title, widget: string}]}]}
           - {label: "Second Section" ,name: secondSection, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Our Model", name: ourModel, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: list, fields: [{label: Sub Title, name: subTitle, widget: string}, {label: Text, name: text, widget: text}]}]}, {label: "Our Approach", name: ourApproach, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Video PlaceholderImage, name: image, widget: image}, {label: Description, name: description, widget: list, fields: [{label: Sub Title, name: subTitle, widget: string}, {label: Text, name: text, widget: text}]}]}]}
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/tech.md"
         label: "Tech Page"
         name: "tech"
