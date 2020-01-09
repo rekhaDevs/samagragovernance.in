@@ -42,6 +42,14 @@ approach:
       system administratively more efficient (by ensuring optimum teacher
       availability in schools, robust review and monitoring mechanisms, ongoing
       mentoring and training support for teachers).
+readMore:
+  - text: >-
+      Haryana Holds the Blueprint For Improving Govt Schools Across India. We
+      Tell You Why.
+  - text: 80% Haryana declared ‘Saksham’ for achieving grade-level competency
+  - text: >-
+      How Haryana transformed dismal student learning outcomes in its government
+      schools
 impact:
   - count: '14'
     label: of 22 districts grade-competent
