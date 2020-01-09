@@ -51,6 +51,12 @@ approach:
       Antyodaya Saral platform is available on a public dashboard that shows the
       performance of departments and districts with respect to processing time
       for applications.
+readMore:
+  - text: Haryana police unveils six citizen services with online portal SARAL
+  - text: >-
+      1 Stop, 556 Schemes: Haryana Govt’s Unique System Can Revolutionise How
+      India Works.
+  - text: Haryana puts 485 services online
 impact:
   - count: 500+
     label: Government Departments

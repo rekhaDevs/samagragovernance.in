@@ -43,6 +43,10 @@ approach:
       This serves as an invaluable opportunity for youth to understand how the
       wheels of governance move on the ground and for the government to involve
       more youth in public administration.
+readMore:
+  - text: 'Grievance redressal, top priority: Khattar'
+  - text: Women’s safety focus area of CMGGA programme
+  - text: Haryana govt to start 4th batch of CMGGA programme
 impact:
   - count: '19'
     label: states have been represented across 4 batches of CMGGAs

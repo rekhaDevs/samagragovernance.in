@@ -44,6 +44,12 @@ approach:
       industry demands as well as link unemployed youth across the state to
       employment opportunities. These initiatives show immediate results and
       also have lesser financial implications for the government.
+readMore:
+  - text: CM to launch skill development initiatives
+  - text: >-
+      Ola to Create 3,500 Job Opportunities as Part of Govt of Haryana’s
+      “Saksham Saarthi” Project
+  - text: 'Saksham Haryana-Skills & Employment: A walk down memory lane'
 impact:
   - count: 1st
     label: in the country in terms of apprencticeships

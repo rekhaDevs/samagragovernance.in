@@ -33,7 +33,7 @@ impact:
     label: >-
       Monitoring visits conducted by department officials using the Saksham
       Samiksha app in Haryana
-  - count: +
+  - count: 1500+
     label: >-
       Daily form submissions during peak cropping season from high pest
       incidence areas in Odisha

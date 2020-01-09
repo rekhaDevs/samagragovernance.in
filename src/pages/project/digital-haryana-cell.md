@@ -36,6 +36,10 @@ approach:
       government. Linking these two elements are enablers that focus on managing
       state servers, building the capacity of government departments and
       improving the overall digital literacy of citizens.
+readMore:
+  - text: Haryana starts online process to transfer school teachers
+  - text: Harpath mobile app becoming popular
+  - text: Digital Haryana Roadmap to enable easy governance
 impact:
   - count: '74,339'
     label: complaints for fixing potholes redressed

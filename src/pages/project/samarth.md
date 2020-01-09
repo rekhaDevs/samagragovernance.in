@@ -37,6 +37,14 @@ approach:
       making the education system administratively more efficient (ensuring
       timely delivery of textbooks to schools, robust review and monitoring
       mechanisms, ongoing mentoring and training support for teachers).
+readMore:
+  - text: >-
+      Enabling technology in classrooms can have large impact on overall
+      ecosystem
+  - text: >-
+      Using simple user-friendly technology, Himachal Pradesh revamps its
+      education processes, teacher training, and more
+  - text: 'The first 15 days at my first job: Why Samagra was the right choice'
 impact:
   - count: 1st
     label: state to ensure timely delivery of textbooks in 2016
