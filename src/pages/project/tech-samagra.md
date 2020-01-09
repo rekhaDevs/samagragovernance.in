@@ -20,7 +20,7 @@ scale:
     label: Decision Support Systems
 projectMiddleBannerImage: /img/samarth-assessment-dashboard.png
 approach:
-  - text: "At Samagra, we embarked on a journey to engineer reusable and modular solutions\_using existing OpenSource technology\_for different governments. The objective is to work closely with governments take governance use cases through a governance focussed technology life cycle from use case definition to final handover to the government teams."
+  - text: "At Samagra, we are building configurable and scalable lego blocks using existing opensource technologies. Powered with these lego blocks we collaborate with governments to identify and abstract product requirements, build and test products, launch and\_finally hand these products\_to government technology teams. Through this governance focussed technology life cycle we enable government stakeholders to reimagine transformative governance use cases that can be collaboratively implemented at scale using opensource\_technologies."
 impact:
   - count: '1,50,000+'
     label: SMS sent by school teachers to parents in Himachal
