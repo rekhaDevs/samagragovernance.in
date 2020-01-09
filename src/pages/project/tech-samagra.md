@@ -90,5 +90,18 @@ keyInitiatives:
         Agriculture Minister on 4 July 2019.
     image: /img/adapt-ki.png
     title: Associates Program
+  - description:
+      text: >-
+        Shiksha Saathi is a mobile solution that is used to drive all monitoring
+        visits for the education department in Himachal Pradesh. Education
+        department officials at different levels use this application to capture
+        data from their visits. The data is directly linked to a set of
+        dashboards that are used for driving different periodic reviews. The key
+        innovation in this application is that non-technical government
+        officials can seamlessly configure multiple sections of the applications
+        such as user management, form creation, form access control thereby
+        creating higher buy-in and sustainability of the product once deployed.
+    image: /img/samarth-saathi.png
+    title: Samarth Shiksha Saathi
 ---
 
