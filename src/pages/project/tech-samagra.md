@@ -24,15 +24,15 @@ approach:
 impact:
   - count: '1,50,000+'
     label: SMS sent by school teachers to parents in Himachal
-  - count: +
-    label: >-
-      Daily form submissions during peak cropping season from high pest
-      incidence areas in Odisha
   - count: '20,000+'
     label: >-
       Monitoring visits conducted by department officials using the Saksham
       Samiksha app in Haryana
   - count: +
+    label: >-
+      Daily form submissions during peak cropping season from high pest
+      incidence areas in Odisha
+  - count: '19,000+'
     label: >-
       Monitoring visits conducted by department officials using the Shiksha
       Saathi app in HP
