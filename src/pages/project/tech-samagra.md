@@ -53,7 +53,7 @@ keyInitiatives:
         and an engagement experience unmatched by most private schools in the
         country. Launched by the Himachal Pradesh Chief Minister on 30 July
         2019.
-    image: /img/esamwad.png
+    image: /img/esamwad-ki.png
     title: E-Samwad
   - description:
       text: >-
