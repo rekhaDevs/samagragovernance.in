@@ -44,7 +44,9 @@ approach:
       on seed treatment and soil health, irrigation and insurance is
       disseminated to farmers.
 readMore:
-  - text: A Stakeholder Approach to Waste Management
+  - text: >-
+      1 Stop, 556 Schemes: Haryana Govt’s Unique System Can Revolutionise How
+      India Works.
   - text: Encountering Heroes within the System
   - text: Finding a Home in the Organisation
 impact:
