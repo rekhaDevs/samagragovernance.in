@@ -23,7 +23,7 @@ approach:
   - text: "At Samagra, we are building configurable and scalable lego blocks using existing opensource technologies. Powered with these lego blocks we collaborate with governments to identify and abstract product requirements, build and test products, launch and\_finally hand these products\_to government technology teams. Through this governance focussed technology life cycle we enable government stakeholders to reimagine transformative governance use cases that can be collaboratively implemented at scale using opensource\_technologies."
 impact:
   - count: '1,50,000+'
-    label: SMS sent by school teachers to parents in Himachal
+    label: SMSs sent by school teachers to parents in Himachal Pradesh
   - count: '20,000+'
     label: >-
       Monitoring visits conducted by department officials using the Saksham
@@ -43,26 +43,24 @@ keyInitiatives:
     title: 'E-Samwad, Himachal Pradesh'
   - description:
       text: >-
-        Saksham Samiksha is a mobile solution that is used to drive all
-        monitoring visits for the education department in Haryana. Education
-        department officials at different levels use this application to capture
-        data from their visits. The data is directly linked to a set of
-        dashboards that are used for driving different periodic reviews. The key
-        innovation in this application is that non-technical government
-        officials can seamlessly configure multiple sections of the applications
-        such as user management, form creation, form access control thereby
-        creating higher buy-in and sustainability of the product once deployed.
-        Launched by the Haryana Chief Minister on 26 July 2019.
+        Saksham Samiksha is a configurable data input mobile solution with
+        workflow management for complex screen navigation that enables state
+        education department officials in Haryana at different levels to capture
+        data from all the different monitoring visits. The data is directly
+        linked to a decision support system that is further used for driving
+        periodic administrative reviews. Launched by the Haryana Chief Minister
+        on 26 July 2019.
     image: /img/sh-ki-2.png
     title: 'Saksham Samiksha, Haryana'
   - description:
       text: >-
-        Samarth Assessment dashboard configurable dashboards that is being used
-        by Himachal Pradesh state education departments to visualize the student
-        assessment data. Incoming data is wired with configurable dashboards
-        that non-technical government officials can seamlessly configure. Our
-        consulting program teams work closely with the government officials to
-        drive this process of functional handovers.
+        Samarth Assessment dashboard is configurable decision support system
+        that is used by state education department in Himachal Pradesh to
+        visualize the student assessment data. Incoming data from different
+        sources is wired with configurable dashboards that non-technical
+        government officials can seamlessly configure. Our consulting program
+        teams work closely with the government officials to drive effective
+        functional handovers.
     image: /img/samarth-ki.png
     title: 'Samarth Assessment dashboard, Himachal Pradesh'
   - description:
