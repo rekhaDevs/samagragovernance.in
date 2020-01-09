@@ -55,16 +55,9 @@ keyInitiatives:
     image: /img/sh-ki-2.png
     title: 'Saksham Samiksha, Haryana'
   - description:
-      text: >-
-        Samarth Assessment dashboard is configurable decision support system
-        that is used by state education department in Himachal Pradesh to
-        visualize the student assessment data. Incoming data from different
-        sources is wired with configurable dashboards that non-technical
-        government officials can seamlessly configure. Our consulting program
-        teams work closely with the government officials to drive effective
-        functional handovers.
+      text: "Samarth Assessment Decision Support System is used by state education department in Himachal Pradesh to visualize incoming student assessment data of government schools from different sources on\_configurable dashboards that non-technical government officials can seamlessly configure. Our consulting program teams work closely with the government officials to drive effective functional handovers."
     image: /img/samarth-ki.png
-    title: 'Samarth Assessment dashboard, Himachal Pradesh'
+    title: 'Samarth Assessment Decision Support System, Himachal Pradesh'
   - description:
       text: >-
         Associate Program application is a monitoring focussed mobile solution
