@@ -64,7 +64,7 @@ keyInitiatives:
         country. Launched by the Himachal Pradesh Chief Minister on 30 July
         2019.
     image: /img/esamwad-ki.png
-    title: E-Samwad
+    title: 'E-Samwad, Himachal Pradesh'
   - description:
       text: >-
         Saksham Samiksha is a mobile solution that is used to drive all
@@ -78,7 +78,7 @@ keyInitiatives:
         creating higher buy-in and sustainability of the product once deployed.
         Launched by the Haryana Chief Minister on 26 July 2019.
     image: /img/sh-ki-2.png
-    title: Saksham Samiksha
+    title: 'Saksham Samiksha, Haryana'
   - description:
       text: >-
         Samarth Assessment dashboard configurable dashboards that is being used
@@ -88,7 +88,7 @@ keyInitiatives:
         consulting program teams work closely with the government officials to
         drive this process of functional handovers.
     image: /img/samarth-ki.png
-    title: 'Samarth Assessment dashboard '
+    title: 'Samarth Assessment dashboard, Himachal Pradesh'
   - description:
       text: >-
         Associate Program application is a monitoring focussed mobile solution
@@ -99,7 +99,7 @@ keyInitiatives:
         decisions during the cropping seasons. Launched by the Odisha
         Agriculture Minister on 4 July 2019.
     image: /img/adapt-ki.png
-    title: Associates Program
+    title: 'Associates Program, Odisha'
   - description:
       text: >-
         Shiksha Saathi is a mobile solution that is used to drive all monitoring
@@ -112,6 +112,6 @@ keyInitiatives:
         such as user management, form creation, form access control thereby
         creating higher buy-in and sustainability of the product once deployed.
     image: /img/samarth-saathi.png
-    title: Samarth Shiksha Saathi
+    title: 'Samarth Shiksha Saathi, Himachal Pradesh'
 ---
 
