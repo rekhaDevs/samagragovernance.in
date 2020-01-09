@@ -3,12 +3,12 @@ templateKey: project-post
 title: Tech@Samagra
 fullName: Technology @Samagra
 id: Tech
-backgroundCover: /img/samarth-assessment-dashboard.png
+backgroundCover: /img/cover.jpg
 domain: Technology
 subTitle: Samagra
 state: India
 tagLine: Enabling scalable innovation through reusable technology
-projectLogoWithState: /img/apple-touch-icon.png
+projectLogoWithState: /img/logo.png
 overview:
   - text: >-
       Today, technology has become the backbone for driving large scale systemic
@@ -32,7 +32,7 @@ scale:
     label: Mobile applications
   - count: '100,000'
     label: Government users
-projectMiddleBannerImage: /img/samarth-assessment-dashboard.png
+projectMiddleBannerImage: /img/cover.jpg
 approach:
   - text: "At Samagra, we embarked on a journey to engineer reusable and modular solutions\_using existing OpenSource technology\_for different governments. The objective is to work closely with governments take governance use cases through a governance focussed technology life cycle from use case definition to final handover to the government teams."
 impact:
