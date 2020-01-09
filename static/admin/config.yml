@@ -56,6 +56,7 @@ collections:
       - {label: Scale, name: scale, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
       - {label: "Center Banner", name: "projectMiddleBannerImage", widget: image}
       - {label: Approach, name: approach, widget: list, fields: [{label: Text, name: text, widget: string}]}
+      - {label: Read More, name: readMore, widget: list, fields: [{label: Blog Title, collection: blog ,displayFields: ['title', 'author'],searchFields: ['title', 'author'], name: text, valueField: title, widget: relation}]}
       - {label: Impact, name: impact, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
       - {label: "Key Initiatives", name: keyInitiatives, widget: list, fields: [{label: "Image", name: "image", widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: object, fields: [{label: Text, name: text, widget: string}]}]}
   - name: "pages"
