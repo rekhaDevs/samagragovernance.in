@@ -45,7 +45,11 @@ impact:
   - count: '20000'
     label: >-
       Monitoring visits conducted by department officials using the Saksham
-      Samiksha app
+      Samiksha app in Haryana
+  - count: xx
+    label: >-
+      Monitoring visits conducted by department officials using the Shiksha
+      Saathi app in HP
 keyInitiatives:
   - description:
       text: >-
