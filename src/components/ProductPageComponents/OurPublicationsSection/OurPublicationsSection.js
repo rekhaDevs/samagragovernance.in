@@ -11,9 +11,11 @@ export const OurPublicationsSection = ({data, projectId, readMore}) => {
     const {allMarkdownRemark: mediaPageContent} = data;
     const allPublications = mediaPageContent.edges;
     const readMoreTitles = [];
-    readMore.forEach(r => {
-        readMoreTitles.push(r.text);
-    });
+    if (readMore) {
+        readMore.forEach(r => {
+            readMoreTitles.push(r.text);
+        });
+    }
     const filteredPublications = allPublications.filter(function (item) {
         return readMoreTitles.indexOf(item.node.frontmatter.title) > -1;
     }).splice(0, 3);
