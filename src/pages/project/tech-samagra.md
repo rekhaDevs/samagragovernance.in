@@ -7,7 +7,7 @@ backgroundCover: /img/cover.jpg
 domain: Technology
 subTitle: Samagra
 state: India
-tagLine: Enabling scalable innovation through reusable technology
+tagLine: Enabling scalable innovation through reusable opensource technology
 projectLogoWithState: /img/logo.png
 overview:
   - text: >-
