@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {graphql, StaticQuery} from "gatsby";
 
 const service = {};
-export const OurPublicationsSection = ({data, projectId}) => {
+export const OurPublicationsSection = ({data, projectId, readMore}) => {
 
     const [hoveredIndex, setHoveredIndex] = useState(
         -1
@@ -10,9 +10,13 @@ export const OurPublicationsSection = ({data, projectId}) => {
     // const publicationsObject = media;
     const {allMarkdownRemark: mediaPageContent} = data;
     const allPublications = mediaPageContent.edges;
+    const readMoreTitles = [];
+    readMore.forEach(r => {
+        readMoreTitles.push(r.text);
+    });
     const filteredPublications = allPublications.filter(function (item) {
-        return item.node.frontmatter.projectId === projectId;
-    }).splice(0,3);
+        return readMoreTitles.indexOf(item.node.frontmatter.title) > -1;
+    }).splice(0, 3);
     return (
         <div className={'home-news-section-wrapper our-publication-section-wrapper container'}
              style={{paddingTop: '50px'}}>
@@ -24,7 +28,8 @@ export const OurPublicationsSection = ({data, projectId}) => {
 
                     filteredPublications.map((publication, index) => {
                         if (!publication.node.frontmatter.featuredimage)
-                            return <a href={publication.node.frontmatter.link} target="_blank" className={'col-md-4 col-sm-6 col-xs-12'}>
+                            return <a href={publication.node.frontmatter.link} target="_blank"
+                                      className={'col-md-4 col-sm-6 col-xs-12'}>
                                 <div
                                     className={`card-wrapper  ${hoveredIndex === index ? 'hovered' : ''}`}
                                     onMouseLeave={() => setHoveredIndex(-1)}
@@ -83,8 +88,8 @@ export const OurPublicationsSection = ({data, projectId}) => {
                                         {
                                             publication.node.frontmatter.author
                                         } &nbsp;|&nbsp;{
-                                            publication.node.frontmatter.date
-                                        }&nbsp;|&nbsp;Blog
+                                        publication.node.frontmatter.date
+                                    }&nbsp;|&nbsp;Blog
                                     </div>
                                 </div>
                             </div>
@@ -107,13 +112,12 @@ function getSlug(str) {
     return result;
 }
 
-export default ({projectId}) => (
+export default ({projectId, readMore}) => (
     <StaticQuery
         query={graphql`
       query OurPublicationRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: {projectId: {ne : "0"}, templateKey: { in: ["media-post", "blog-post"] } } }
+          filter: { frontmatter: {templateKey: { in: ["blog-post"] } } }
         ) {
           edges {
             node {
@@ -149,6 +153,6 @@ export default ({projectId}) => (
         }
       }
     `}
-        render={(data, count) => <OurPublicationsSection data={data} projectId={projectId}/>}
+        render={(data, count) => <OurPublicationsSection data={data} projectId={projectId} readMore={readMore}/>}
     />
 )

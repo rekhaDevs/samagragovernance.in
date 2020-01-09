@@ -14,13 +14,14 @@ export const ProjectPostTemplate = ({project}) => {
             <ProductBannerImage project={project}/>
             <ProductPageSecondSection project={project}/>
             <ProductPageKeyInitiatives project={project}/>
-            <OurPublicationsSection projectId={project.id}/>
+            <OurPublicationsSection readMore={project.readMore} projectId={project.id}/>
         </section>
     )
 };
 const ProjectPost = ({data}) => {
     const {markdownRemark: item} = data;
 
+    console.log(data);
     const project = item.frontmatter;
     return (
         project && project.title ? <Layout>
@@ -41,6 +42,10 @@ export const pageQuery = graphql`
         state
         tagLine
         id
+        readMore {
+        
+            text
+        }
         backgroundCover  {
             childImageSharp {
                 fluid(maxWidth: 1024, quality: 64) {
