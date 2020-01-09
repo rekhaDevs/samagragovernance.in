@@ -38,17 +38,7 @@ impact:
       Saathi app in HP
 keyInitiatives:
   - description:
-      text: >-
-        ESamwad is a mobile solution that is used by government school teachers
-        in Himachal Pradesh to update parents through an SMS about their childs’
-        attendance, homework completion status, assessment results. It also
-        enables teachers to send SMS based updates to parents to inform them
-        about upcoming school holidays, examination announcements or a parent
-        teacher meeting. By enabling this use case parents of children studying
-        in government schools in Himachal Pradesh can receive proactive updates
-        and an engagement experience unmatched by most private schools in the
-        country. Launched by the Himachal Pradesh Chief Minister on 30 July
-        2019.
+      text: "ESamwad is an intelligent personalized communication tool used by\_government school teachers in Himachal Pradesh to share student attendance, homework completion status, assessment results and other school announcements with parents through a personalized SMS. By enabling this use case parents of children studying in government schools in Himachal Pradesh can receive proactive updates and an engagement experience unmatched by majority of\_private schools in India today. Launched by the Himachal Pradesh Chief Minister on 30 July 2019."
     image: /img/esamwad-ki.png
     title: 'E-Samwad, Himachal Pradesh'
   - description:
