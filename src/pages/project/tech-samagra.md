@@ -22,17 +22,17 @@ projectMiddleBannerImage: /img/samarth-assessment-dashboard.png
 approach:
   - text: "At Samagra, we embarked on a journey to engineer reusable and modular solutions\_using existing OpenSource technology\_for different governments. The objective is to work closely with governments take governance use cases through a governance focussed technology life cycle from use case definition to final handover to the government teams."
 impact:
-  - count: '150000'
+  - count: '1,50,000+'
     label: SMS sent by school teachers to parents in Himachal
-  - count: xx
+  - count: +
     label: >-
       Daily form submissions during peak cropping season from high pest
       incidence areas in Odisha
-  - count: '20000'
+  - count: '20,000+'
     label: >-
       Monitoring visits conducted by department officials using the Saksham
       Samiksha app in Haryana
-  - count: xx
+  - count: +
     label: >-
       Monitoring visits conducted by department officials using the Shiksha
       Saathi app in HP
