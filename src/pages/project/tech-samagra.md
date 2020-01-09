@@ -31,7 +31,7 @@ scale:
   - count: '4'
     label: Configurable mobile applications
   - count: '6'
-    label: Configurable dashboards
+    label: Decision Support Systems
 projectMiddleBannerImage: /img/samarth-assessment-dashboard.png
 approach:
   - text: "At Samagra, we embarked on a journey to engineer reusable and modular solutions\_using existing OpenSource technology\_for different governments. The objective is to work closely with governments take governance use cases through a governance focussed technology life cycle from use case definition to final handover to the government teams."
