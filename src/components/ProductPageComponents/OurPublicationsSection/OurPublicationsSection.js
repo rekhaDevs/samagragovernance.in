@@ -16,9 +16,16 @@ export const OurPublicationsSection = ({data, projectId, readMore}) => {
             readMoreTitles.push(r.text);
         });
     }
-    const filteredPublications = allPublications.filter(function (item) {
-        return readMoreTitles.indexOf(item.node.frontmatter.title) > -1;
-    }).splice(0, 3);
+
+    const filteredPublications = [];
+    readMoreTitles.forEach((rMT) => {
+        const filteredPublication = allPublications.filter(function (item) {
+            return rMT.indexOf(item.node.frontmatter.title) > -1;
+        });
+        if (filteredPublication && filteredPublication.length) {
+            filteredPublications.push(filteredPublication[0]);
+        }
+    });
     return (
         <div className={'home-news-section-wrapper our-publication-section-wrapper container'}
              style={{paddingTop: '50px'}}>
@@ -119,7 +126,7 @@ export default ({projectId, readMore}) => (
         query={graphql`
       query OurPublicationRollQuery {
         allMarkdownRemark(
-          filter: { frontmatter: {templateKey: { in: ["blog-post"] } } }
+          filter: { frontmatter: {templateKey: { in: ["media-post", "blog-post"] } } }
         ) {
           edges {
             node {
