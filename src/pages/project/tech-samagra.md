@@ -46,10 +46,12 @@ keyInitiatives:
         Saksham Samiksha is a configurable data input mobile solution with
         workflow management for complex screen navigation that enables state
         education department officials in Haryana at different levels to capture
-        data from all the different monitoring visits. The data is directly
-        linked to a decision support system that is further used for driving
-        periodic administrative reviews. Launched by the Haryana Chief Minister
-        on 26 July 2019.
+        data from all the different monitoring visits. The key innovation in
+        this application is that non-technical government officials can
+        seamlessly configure authentication of user, roles of users and data
+        input designs. The data is directly linked to a decision support system
+        that is further used for driving periodic administrative reviews.
+        Launched by the Haryana Chief Minister on 26 July 2019.
     image: /img/sh-ki-2.png
     title: 'Saksham Samiksha, Haryana'
   - description:
@@ -75,16 +77,7 @@ keyInitiatives:
     image: /img/adapt-ki.png
     title: 'Associates Program, Odisha'
   - description:
-      text: >-
-        Shiksha Saathi is a mobile solution that is used to drive all monitoring
-        visits for the education department in Himachal Pradesh. Education
-        department officials at different levels use this application to capture
-        data from their visits. The data is directly linked to a set of
-        dashboards that are used for driving different periodic reviews. The key
-        innovation in this application is that non-technical government
-        officials can seamlessly configure multiple sections of the applications
-        such as user management, form creation, form access control thereby
-        creating higher buy-in and sustainability of the product once deployed.
+      text: "Shiksha Saathi\_is a configurable data input mobile solution with workflow management for complex screen navigation that enables state education department officials in Himachal Pradesh\_at different levels to capture data from all the different monitoring visits. The key innovation in this application is that non-technical government officials can seamlessly configure authentication of user, roles of users and data input designs. The data is directly linked to a decision support system that is further used for driving periodic administrative reviews.\_"
     image: /img/samarth-saathi.png
     title: 'Samarth Shiksha Saathi, Himachal Pradesh'
 ---
