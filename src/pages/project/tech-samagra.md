@@ -42,6 +42,10 @@ impact:
     label: >-
       Daily form submissions during peak cropping season from high pest
       incidence areas in Odisha
+  - count: '20000'
+    label: >-
+      Monitoring visits conducted by department officials using the Saksham
+      Samiksha app
 keyInitiatives:
   - description:
       text: >-
