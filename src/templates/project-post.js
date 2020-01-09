@@ -20,8 +20,6 @@ export const ProjectPostTemplate = ({project}) => {
 };
 const ProjectPost = ({data}) => {
     const {markdownRemark: item} = data;
-
-    console.log(data);
     const project = item.frontmatter;
     return (
         project && project.title ? <Layout>
@@ -46,6 +44,7 @@ export const pageQuery = graphql`
         
             text
         }
+        keyInitiativesTitle
         backgroundCover  {
             childImageSharp {
                 fluid(maxWidth: 1024, quality: 64) {

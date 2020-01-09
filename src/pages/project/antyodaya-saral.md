@@ -6,6 +6,7 @@ id: SARAL
 backgroundCover: /img/saral-header-bg.jpg
 domain: Service Delivery
 subTitle: SARAL
+keyInitiativesTitle: Key Initiatives
 state: Haryana
 tagLine: Streamlining public service delivery in Haryana
 projectLogoWithState: /img/saral-logo.png

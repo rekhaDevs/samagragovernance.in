@@ -7,6 +7,7 @@ backgroundCover: /img/saksham-header-bg.jpg
 domain: Employment
 subTitle: Samagra
 state: Haryana
+keyInitiativesTitle: Key Initiatives
 tagLine: Linking youth to employment opportunities in Haryana
 projectLogoWithState: /img/saksham-logo.png
 overview:

@@ -7,6 +7,7 @@ backgroundCover: /img/samarth-header-bg.jpg
 domain: Education
 subTitle: Samagra
 state: Himachal Pradesh
+keyInitiativesTitle: Key Initiatives
 tagLine: Transforming the government school system in Himachal Pradesh
 projectLogoWithState: /img/samarth-logo.png
 overview:

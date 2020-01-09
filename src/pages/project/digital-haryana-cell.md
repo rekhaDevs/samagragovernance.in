@@ -7,6 +7,7 @@ backgroundCover: /img/digital-haryana-header-bg.jpeg
 domain: Digital
 subTitle: DIGITAL
 state: Haryana
+keyInitiativesTitle: Key Initiatives
 tagLine: Designing and implementing Haryana's digital roadmap
 projectLogoWithState: /img/dhc-logo.png
 overview:

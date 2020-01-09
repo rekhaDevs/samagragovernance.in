@@ -10,7 +10,7 @@ export const ProductPageKeyInitiatives = ({project}) => {
     return (
         <div className={'product-page-key-initiatives-section-wrapper'}>
             <div className={'title-big'}>
-                Key Initiatives
+                {project.keyInitiativesTitle ? keyInitiativesTitle : 'Key Initiatives'}
             </div>
             <div className={'content-section'}>
                 <div className="gray-background hide-for-small-only"/>
@@ -39,9 +39,11 @@ export const ProductPageKeyInitiatives = ({project}) => {
                             key={index}
                             className={`content-inner-section ${index === activeKeyObjectiveIndex ? 'active-section' : 'inactive-section'}`}>
                             <div className={'image-section'}>
-                                <div className={'image-wrapper'} style={{backgroundImage: `url(${
+                                <div className={'image-wrapper'} style={{
+                                    backgroundImage: `url(${
                                         !!kO.image.childImageSharp ? kO.image.childImageSharp.fluid.src : kO.image
-                                    })`}}>
+                                    })`
+                                }}>
 
                                 </div>
                             </div>

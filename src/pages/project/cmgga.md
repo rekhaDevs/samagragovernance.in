@@ -7,6 +7,7 @@ backgroundCover: /img/cmgga-header-bg.jpg
 domain: CM's Fellowship
 subTitle: Samagra
 state: Haryana
+keyInitiativesTitle: Key Initiatives
 tagLine: Catalyzing governance through young professionals
 projectLogoWithState: /img/cmgga-logo.png
 overview:

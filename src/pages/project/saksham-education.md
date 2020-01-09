@@ -7,6 +7,7 @@ backgroundCover: /img/saksham-header-bg.jpg
 domain: Education
 subTitle: Transforming the government school system in Haryana
 state: Haryana
+keyInitiativesTitle: Key Initiatives
 tagLine: Transforming the government school system in Haryana
 projectLogoWithState: /img/saksham-logo.png
 overview:

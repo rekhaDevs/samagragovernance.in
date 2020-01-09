@@ -7,6 +7,7 @@ backgroundCover: /img/adapt-header-bg.jpg
 domain: Agriculture
 subTitle: Samagra
 state: Haryana
+keyInitiativesTitle: Key Initiatives
 tagLine: Increasing the income of farmers in Odisha by improving their productivity
 projectLogoWithState: /img/adapt-logo.png
 overview:
