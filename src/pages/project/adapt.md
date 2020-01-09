@@ -45,10 +45,12 @@ approach:
       disseminated to farmers.
 readMore:
   - text: >-
-      1 Stop, 556 Schemes: Haryana Govt’s Unique System Can Revolutionise How
-      India Works.
-  - text: Encountering Heroes within the System
-  - text: Finding a Home in the Organisation
+      How this social enterprise is helping the Odisha govt boost agricultural
+      productivity in the State
+  - text: >-
+      This State’s Solutions May Be The Answer Farmers Across India Are Looking
+      For
+  - text: 'Universal basic income: How Odisha’s KALIA took off in less than 6 weeks'
 impact:
   - count: 40+
     label: Scheme Monthly Progress Reports digitised
