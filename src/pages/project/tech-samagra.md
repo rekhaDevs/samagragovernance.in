@@ -10,21 +10,7 @@ state: India
 tagLine: Enabling scalable innovation through reusable opensource technology
 projectLogoWithState: /img/logo.png
 overview:
-  - text: >-
-      Today, technology has become the backbone for driving large scale systemic
-      governance reforms. Through our deep experience of working closely with
-      the administrative and political leadership in the state we have observed
-      that all governments are anxious to build or use technology applications
-      to streamline their functioning. However, governments lack an
-      understanding of the technology life cycle, lack end user focus in their
-      technology applications, have a challenge to sustain products after they
-      are deployed and often spend high budgets on building simple technology
-      applications. At Samagra, we envisage a future where citizens are active
-      contributors and equal participants towards good governance. To enable
-      this change the technology used by the government is end user centric,
-      engineered with high reusability and scalability, and is managed through a
-      collaborative partnership of diverse stakeholders within and outside the
-      government.
+  - text: "Today, technology has become the backbone for driving large scale systemic governance reforms. Through our deep experience of working closely with the administrative and political leadership in the state we have observed that all governments are anxious to build or use technology applications to streamline governance functions. However, often during implementation of these projects nuanced\_understanding of governance technology life cycle, end user focus,and\_post deployment sustainability of products is not considered adequately. At Samagra, we envisage a future where citizens are active contributors and equal participants in enabling technology enabled governance reforms. To enable this change we at Samagra are following a lego block approach to build scalable and reusable\_opensource\_technology products for\_and collaboratively with the governments."
 scale:
   - count: '3'
     label: State Governments
