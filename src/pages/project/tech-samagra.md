@@ -77,7 +77,7 @@ keyInitiatives:
         such as user management, form creation, form access control thereby
         creating higher buy-in and sustainability of the product once deployed.
         Launched by the Haryana Chief Minister on 26 July 2019.
-    image: /img/saksham-samiksha.png
+    image: /img/sh-ki-2.png
     title: Saksham Samiksha
   - description:
       text: >-
