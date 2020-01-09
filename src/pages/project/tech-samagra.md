@@ -60,12 +60,12 @@ keyInitiatives:
     title: 'Samarth Assessment Decision Support System, Himachal Pradesh'
   - description:
       text: >-
-        Associate Program application is a monitoring focussed mobile solution
-        that has been used by the state agriculture department of Odisha to
-        monitor critical on-ground activities such as pest incidence tracking,
-        fertilizer positioning, etc during the cropping seasons. Data from this
-        application is used by the state department to take rapid timely
-        decisions during the cropping seasons. Launched by the Odisha
+        Associate Program application is a configurable monitoring focussed
+        mobile solution that has been used by the state agriculture department
+        of Odisha to monitor critical on-ground activities such as pest
+        incidence tracking and input positioning during the cropping seasons.
+        Data from this application is used by the state department to take rapid
+        timely decisions during the cropping seasons. Launched by the Odisha
         Agriculture Minister on 4 July 2019.
     image: /img/adapt-ki.png
     title: 'Associates Program, Odisha'
