@@ -77,7 +77,7 @@ keyInitiatives:
         that non-technical government officials can seamlessly configure. Our
         consulting program teams work closely with the government officials to
         drive this process of functional handovers.
-    image: /img/samarth-assessment-dashboard.png
+    image: /img/samarth-ki.png
     title: 'Samarth Assessment dashboard '
   - description:
       text: >-
@@ -88,7 +88,7 @@ keyInitiatives:
         application is used by the state department to take rapid timely
         decisions during the cropping seasons. Launched by the Odisha
         Agriculture Minister on 4 July 2019.
-    image: /img/associates-program.png
+    image: /img/adapt-ki.png
     title: Associates Program
 ---
 
