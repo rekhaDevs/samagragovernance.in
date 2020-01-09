@@ -37,9 +37,11 @@ approach:
   - text: "At Samagra, we embarked on a journey to engineer reusable and modular solutions\_using existing OpenSource technology\_for different governments. The objective is to work closely with governments take governance use cases through a governance focussed technology life cycle from use case definition to final handover to the government teams."
 impact:
   - count: '150000'
-    label: SMS sent by HP school teachers to parents
+    label: SMS sent by school teachers to parents in Himachal
   - count: xx
-    label: Schools visited for monitoring in Haryana using the Saksham Samiksha app
+    label: >-
+      Daily form submissions during peak cropping season from high pest
+      incidence areas in Odisha
 keyInitiatives:
   - description:
       text: >-
