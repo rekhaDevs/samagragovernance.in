@@ -29,9 +29,13 @@ export const OurPublicationsSection = ({data, projectId, readMore}) => {
     return (
         <div className={'home-news-section-wrapper our-publication-section-wrapper container'}
              style={{paddingTop: '50px'}}>
-            <div className={'title'}>
-                Read More
-            </div>
+            {
+                filteredPublications.length ?
+                    <div className={'title'}>
+                        Read More
+                    </div>
+                    : null
+            }
             <div className={'cards-section row'}>
                 {
 

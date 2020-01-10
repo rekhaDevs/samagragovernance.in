@@ -13,7 +13,10 @@ export const ProjectPostTemplate = ({project}) => {
         <section>
             <ProductBannerImage project={project}/>
             <ProductPageSecondSection project={project}/>
-            <ProductPageKeyInitiatives project={project}/>
+            {
+                project.keyInitiatives ? <ProductPageKeyInitiatives project={project}/> : null
+            }
+
             <OurPublicationsSection readMore={project.readMore} projectId={project.id}/>
         </section>
     )
