@@ -375,7 +375,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                }
                                            })
                                            .then(image => {
-                                               formObjectTemp[element.key] = service.baseUrl + 'uploads/' + image.key;
+                                               formObjectTemp[element.key] = image.key;
                                                formObjectTemp[element.fileKeyName] = image.name;
                                                setFormObject(formObjectTemp);
                                            }).catch((e) => {
