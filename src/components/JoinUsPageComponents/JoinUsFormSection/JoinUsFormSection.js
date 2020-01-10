@@ -5,10 +5,11 @@ import axios from "axios";
 const service = {
     baseUrl: 'http://api.samagragovernance.in/'
 };
+// const fileUploadURL = 'https://us-central1-samagragovernance-in.cloudfunctions.net/api/image-upload';
+const fileUploadURL = service.baseUrl + 'image-upload';
 
 export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent}) => {
     // const reachingOptions = [];
-    console.log(joinUsPageContent);
     const camelCase = (str) => {
         return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
             return index == 0 ? word.toLowerCase() : word.toUpperCase();
@@ -56,10 +57,13 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
         return element && formObject && formObject[element.key];
     };
     const VALID_OPTION = (element) => {
+
         if (!element.required) {
             return true;
         }
-        return (formObject && element && (formObject[element.key] || (element.otherOptionAvailable && element.otherOptionAvailable.key && formObject[element.otherOptionAvailable.key] && formObject[element.key] === element.otherOptionAvailable.activatedOn)));
+        return (formObject && element && (!!(formObject[element.key] && !element.otherOptionAvailable) ||
+            !!(formObject[element.key] && element.otherOptionAvailable && formObject[element.key] !== element.otherOptionAvailable.activateOn) ||
+            !!(element.otherOptionAvailable && element.otherOptionAvailable.key && formObject[element.otherOptionAvailable.key] && formObject[element.key] === element.otherOptionAvailable.activateOn)));
     };
     const customValidation = (element) => {
         if (element && element.validation) {
@@ -260,7 +264,6 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     //     validation: VALID_OPTION
     // }];
 
-    console.log(formsElements);
     const renderInput = (element) => {
         switch (element.type) {
             case 'text':
@@ -357,7 +360,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                            ...formObject
                                        };
                                        formData.append('file', files[0]);
-                                       fetch(`${service.baseUrl}image-upload`, {
+                                       fetch(fileUploadURL, {
                                            method: 'POST',
                                            body: formData
                                        })
@@ -410,7 +413,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                     const formObjectTemp = {
                                                         ...formObject
                                                     };
-                                                    formObjectTemp[element.key] = option;
+                                                    formObjectTemp[element.key] = option.text;
                                                     setFormObject(formObjectTemp);
                                                 }}>
                                         <div
@@ -485,17 +488,23 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                             validForm = false;
                                         }
                                     });
-                                    console.log(formObject);
+                                    let reqObject = JSON.parse(JSON.stringify(formObject));
                                     if (!validForm) {
-                                        return;
+                                        // return;
                                     }
-                                    console.log('Valid');
-                                    // axios.post(service.baseUrl + 'form/submit', formObject, {headers: {'Content-Type': 'application/json'}})
-                                    //     .then(function (response) {
-                                    //         setShowForm(false);
-                                    //     })
-                                    //     .catch(function (error) {
-                                    //     });
+                                    formsElements.forEach((element) => {
+                                        if (element.type === 'select' && element.otherOptionAvailable && element.otherOptionAvailable.activateOn && formObject[element.key] === element.otherOptionAvailable.activateOn) {
+                                            reqObject[element.key] = reqObject[element.otherOptionAvailable.key];
+                                        }
+                                    });
+
+                                    console.log('Valid', reqObject);
+                                    axios.post(service.baseUrl + 'form/submit', reqObject, {headers: {'Content-Type': 'application/json'}})
+                                        .then(function (response) {
+                                            setShowForm(false);
+                                        })
+                                        .catch(function (error) {
+                                        });
                                 }} text={'Submit'}/>
                                 <div style={{marginTop: '25px'}}>
                                     <a style={{fontSize: '12px', width: '100%', textAlign: 'center', color: '#fff'}}
