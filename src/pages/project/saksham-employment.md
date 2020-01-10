@@ -1,14 +1,13 @@
 ---
 templateKey: project-post
-title: Saksham Employment
-fullName: Saksham Haryana Skills and Employment
+title: Saksham Haryana Skills & Employment
+fullName: Saksham Haryana Skills & Employment
 id: SAKSHAM_EMPLOYMENT
 backgroundCover: /img/saksham-header-bg.jpg
-domain: Employment
+domain: Skills & Employment
 subTitle: Samagra
 state: Haryana
-keyInitiativesTitle: Key Initiatives
-tagLine: Linking youth to employment opportunities in Haryana
+tagLine: 'Linking youth to employment opportunities '
 projectLogoWithState: /img/saksham-logo.png
 overview:
   - text: >-
@@ -57,6 +56,7 @@ impact:
     label: youth on boarded by Ola and Uber
   - count: '60,000'
     label: government job appointments made within 2 years
+keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
       text: >-
