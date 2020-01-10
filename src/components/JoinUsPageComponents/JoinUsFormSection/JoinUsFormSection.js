@@ -22,6 +22,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     const formsElements = joinUsPageContent.formsElements || [];
     formsElements.forEach((fE) => {
         fE['key'] = camelCase(fE.label);
+        fE['fileKeyName'] = camelCase(fE.label) + 'FileName';
         if (fE['otherOptionAvailable']) {
             fE['otherOptionAvailable'].key = camelCase(fE['otherOptionAvailable']['label']);
         }
@@ -484,6 +485,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                             validForm = false;
                                         }
                                     });
+                                    console.log(formObject);
                                     if (!validForm) {
                                         return;
                                     }
