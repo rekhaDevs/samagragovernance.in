@@ -7,7 +7,6 @@ backgroundCover: /img/cover.jpg
 domain: Technology
 subTitle: Samagra
 state: India
-keyInitiativesTitle: Key Initiatives
 tagLine: Enabling scalable innovation through reusable opensource technology
 projectLogoWithState: /img/logo.png
 overview:
@@ -33,7 +32,7 @@ impact:
     label: >-
       Monitoring visits conducted by department officials using the Saksham
       Samiksha app in Haryana
-  - count: 1500+
+  - count: '1,500+'
     label: >-
       Daily form submissions during peak cropping season from high pest
       incidence areas in Odisha
