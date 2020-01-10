@@ -1,4 +1,4 @@
-# www.amagragovernance.in
+# www.samagragovernance.in
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0ff2fb63-5ace-408f-b756-18cac54a7537/deploy-status)](https://app.netlify.com/sites/samagra/deploys)
 
