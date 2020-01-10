@@ -32,9 +32,9 @@ team:
       Previously, he has held senior roles in PwC and Zuna Capital in India,
       Australia, US and New Zealand. Ankur's belief that governance is the most
       effective lever of change in India led him to move back to the country and
-      co-found Samagra. He joined Gaurav in this journey in 2015, and has been
-      instrumental in driving Samagra's journey and growth both as an
-      organisation and the impact it has been able to create
+      co-found Samagra. He has been instrumental in driving Samagra's journey
+      and growth both as an organisation and the impact it has been able to
+      create
     image: /img/Ankur.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankurbansal1/'
     name: Ankur Bansal
