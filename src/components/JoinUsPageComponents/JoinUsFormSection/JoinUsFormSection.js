@@ -498,8 +498,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                         }
                                     });
 
-                                    console.log('Valid', reqObject);
-                                    axios.post(service.baseUrl + 'form/submit', reqObject, {headers: {'Content-Type': 'application/json'}})
+                                    axios.post('https://us-central1-samagragovernance-in.cloudfunctions.net/api/form-submit', reqObject, {headers: {'Content-Type': 'application/json'}})
                                         .then(function (response) {
                                             setShowForm(false);
                                         })
