@@ -52,25 +52,30 @@ export class ProductPageSecondSection extends React.Component {
                             }
                         </div>
                     </div>
-                    <div className="scale-wrapper col-md-6 col-sm-12">
-                        <div className="background"/>
-                        <div className="scale-card">
-                            <div className="list">
-                                {
-                                    project.scale.map((s) => {
-                                        return <div className="list-item">
-                                            <div className="count">
-                                                {s.count}
-                                            </div>
-                                            <div className={'description'}>
-                                                {s.label}
-                                            </div>
-                                        </div>
-                                    })
-                                }
+                    {
+                        project.scale ?
+                            <div className="scale-wrapper col-md-6 col-sm-12">
+                                <div className="background"/>
+                                <div className="scale-card">
+                                    <div className="list">
+                                        {
+                                            project.scale.map((s) => {
+                                                return <div className="list-item">
+                                                    <div className="count">
+                                                        {s.count}
+                                                    </div>
+                                                    <div className={'description'}>
+                                                        {s.label}
+                                                    </div>
+                                                </div>
+                                            })
+                                        }
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                            : null
+                    }
+
                 </div>
                 <div className="second-section row">
                     <div className="slider-wrapper col-12">
