@@ -90,7 +90,7 @@ formsElements:
       - text: Shri Ram College of Commerce
       - text: Yale University
     otherOptionAvailable:
-      activateOn: activateOn
+      activateOn: Others
       label: PG Institute Name
       placeholder: Institute Name
     placeholder: Select Institute
