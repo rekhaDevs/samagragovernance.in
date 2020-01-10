@@ -10,7 +10,7 @@ export const ProductPageKeyInitiatives = ({project}) => {
     return (
         <div className={'product-page-key-initiatives-section-wrapper'}>
             <div className={'title-big'}>
-                {project.keyInitiativesTitle ? keyInitiativesTitle : 'Key Initiatives'}
+                {project.keyInitiativesTitle ? project.keyInitiativesTitle : 'Key Initiatives'}
             </div>
             <div className={'content-section'}>
                 <div className="gray-background hide-for-small-only"/>
