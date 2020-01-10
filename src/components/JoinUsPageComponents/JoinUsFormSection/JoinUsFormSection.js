@@ -490,7 +490,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                     });
                                     let reqObject = JSON.parse(JSON.stringify(formObject));
                                     if (!validForm) {
-                                        // return;
+                                        return;
                                     }
                                     formsElements.forEach((element) => {
                                         if (element.type === 'select' && element.otherOptionAvailable && element.otherOptionAvailable.activateOn && formObject[element.key] === element.otherOptionAvailable.activateOn) {
