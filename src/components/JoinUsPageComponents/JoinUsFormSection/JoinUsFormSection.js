@@ -5,8 +5,8 @@ import axios from "axios";
 const service = {
     baseUrl: 'http://api.samagragovernance.in/'
 };
-// const fileUploadURL = 'https://us-central1-samagragovernance-in.cloudfunctions.net/api/image-upload';
-const fileUploadURL = service.baseUrl + 'image-upload';
+const fileUploadURL = 'https://us-central1-samagragovernance-in.cloudfunctions.net/api/image-upload';
+// const fileUploadURL = service.baseUrl + 'image-upload';
 
 export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent}) => {
     // const reachingOptions = [];
