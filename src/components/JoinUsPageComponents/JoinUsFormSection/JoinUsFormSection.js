@@ -19,7 +19,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     const [formObject, setFormObject] = useState({});
     const [submitted, setSubmitted] = useState(false);
     const [activeOption, setActiveOption] = useState(-1);
-
+    const [loaderKey, setLoaderKey] = useState({});
     const formsElements = joinUsPageContent.formsElements || [];
     formsElements.forEach((fE) => {
         fE['key'] = camelCase(fE.label);
@@ -81,188 +81,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
             }
         }
     };
-    // const formsElements = [{
-    //     key: 'fullName',
-    //     type: 'text',
-    //     label: 'Full Name',
-    //     required: true,
-    //     placeholder: 'Enter your full name',
-    //     validation: VALID_TEXT
-    // }, {
-    //     key: 'contactNumber',
-    //     type: 'text',
-    //     label: 'Contact Number',
-    //     required: true,
-    //     placeholder: 'Enter your contact number',
-    //     validation: VALID_TEXT
-    // }, {
-    //     key: 'email',
-    //     type: 'text',
-    //     label: 'Email',
-    //     required: true,
-    //     placeholder: 'Enter your email',
-    //     validation: VALID_TEXT
-    // }, {
-    //     key: 'currentLocation',
-    //     type: 'text',
-    //     label: 'Current Location',
-    //     required: true,
-    //     placeholder: 'Enter current location',
-    //     validation: VALID_TEXT
-    // }, {
-    //     key: 'ugInstitute',
-    //     type: 'select',
-    //     label: 'Undergraduate Institute',
-    //     required: true,
-    //     otherOptionAvailable: {
-    //         key: 'ugInstituteName',
-    //         activateOn: 'Others',
-    //         label: 'Institute Name',
-    //         placeholder: 'Institute Name'
-    //     },
-    //     options: [
-    //         'Ashoka University',
-    //         'Birla Institute of Technology and Science',
-    //         'College of Business Studies',
-    //         'Columbia University',
-    //         'Delhi College of Engineering',
-    //         'Faculty of Management Studies',
-    //         'Harvard Kennedy School',
-    //         'IIIT Hyderabad',
-    //         'IIM Ahemdabad',
-    //         'IIM Bangalore',
-    //         'IIM Calcutta',
-    //         'IIT Bombay',
-    //         'IIT Delhi',
-    //         'IIT Kanpur',
-    //         'IIT Kharagpur',
-    //         'IIT Madras',
-    //         'IIT Roorkee',
-    //         'IIT(ISM) Dhanbad',
-    //         'Indian School of Business',
-    //         'Lady Shri Ram College',
-    //         'Lee Kuan Yew School of Public Policy',
-    //         'National Law School of India University',
-    //         'National University of Juridical Sciences',
-    //         'Princeton University',
-    //         'Shri Ram College of Commerce',
-    //         'Yale University'
-    //     ],
-    //     placeholder: 'Select Institute',
-    //     validation: VALID_OPTION
-    // }, {
-    //     key: 'pgInstitute',
-    //     type: 'select',
-    //     label: 'Post Graduate Institute',
-    //     required: true,
-    //     otherOptionAvailable: {
-    //         key: 'pgInstituteName',
-    //         activateOn: 'Others',
-    //         label: 'Institute Name',
-    //         placeholder: 'Institute Name'
-    //     },
-    //     options: [
-    //         'Not Applicable',
-    //         'Ashoka University',
-    //         'Birla Institute of Technology and Science',
-    //         'College of Business Studies',
-    //         'Columbia University',
-    //         'Delhi College of Engineering',
-    //         'Faculty of Management Studies',
-    //         'Harvard Kennedy School',
-    //         'IIIT Hyderabad',
-    //         'IIM Ahemdabad',
-    //         'IIM Bangalore',
-    //         'IIM Calcutta',
-    //         'IIT Bombay',
-    //         'IIT Delhi',
-    //         'IIT Kanpur',
-    //         'IIT Kharagpur',
-    //         'IIT Madras',
-    //         'IIT Roorkee',
-    //         'IIT(ISM) Dhanbad',
-    //         'Indian School of Business',
-    //         'Lady Shri Ram College',
-    //         'Lee Kuan Yew School of Public Policy',
-    //         'National Law School of India University',
-    //         'National University of Juridical Sciences',
-    //         'Princeton University',
-    //         'Shri Ram College of Commerce',
-    //         'Yale University'
-    //     ],
-    //     placeholder: 'Select Institute',
-    //     validation: VALID_OPTION
-    // }, {
-    //     key: 'currentOrganization',
-    //     type: 'text',
-    //     label: 'Current Organization/Institution',
-    //     required: true,
-    //     placeholder: 'Enter Organization',
-    //     validation: VALID_TEXT
-    // }, {
-    //     key: 'experienceInMonths',
-    //     type: 'text',
-    //     label: 'Total Professional Experience (in months)',
-    //     required: true,
-    //     placeholder: 'Enter Organization',
-    //     validation: VALID_NUMBER
-    // }, {
-    //     key: 'linkedInProfile',
-    //     type: 'text',
-    //     label: 'LinkedIn Profile',
-    //     required: false,
-    //     placeholder: 'Enter your linkedin profile link',
-    //     validation: VALID_LINK
-    // }, {
-    //     key: 'blogLink',
-    //     type: 'text',
-    //     label: 'Blogs/Reference Links',
-    //     required: false,
-    //     placeholder: 'Enter your any blog/reference links',
-    //     validation: VALID_LINK
-    // }, {
-    //     key: 'resume',
-    //     type: 'file',
-    //     label: 'Upload Resume',
-    //     required: true,
-    //     fileKeyName: 'resumeFileName',
-    //     fileErrorKey: 'resumeFileError',
-    //     actionName: 'Upload',
-    //     placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)',
-    //     validation: VALID_FILE
-    // }, {
-    //     key: 'statementFile',
-    //     type: 'file',
-    //     fileKeyName: 'statementFileName',
-    //     fileErrorKey: 'statementFileError',
-    //     label: 'Statement of Purpose',
-    //     questions: ['Q1. How does Samagra align with your goals? (max 200 words)',
-    //         'Q2. Why do you believe yourself to be a good fit for Samagra? (max 300 words)'],
-    //     required: true,
-    //     actionName: 'Upload',
-    //     placeholder: 'Upload a PDF containing separate answers to the following two questions (Filename: SOP_Firstname Lastname):',
-    //     validation: VALID_FILE
-    // }, {
-    //     key: 'leadFrom',
-    //     type: 'radio',
-    //     label: 'Where did you hear about Samagra?',
-    //     required: true,
-    //     options: ['Word of Mouth',
-    //         'Samagra Team Member',
-    //         'LinkedIn',
-    //         'Samagra Website',
-    //         'Campus Placements',
-    //         'Recruitment Agency',
-    //         'Facebook'],
-    //     otherOptionAvailable: {
-    //         key: 'leadFromOther',
-    //         activateOn: 'Other',
-    //         label: 'Other',
-    //         placeholder: 'Other',
-    //     },
-    //     placeholder: 'Upload a PDF containing separate answers to the following two questions (Filename: SOP_Firstname Lastname):',
-    //     validation: VALID_OPTION
-    // }];
+
 
     const renderInput = (element) => {
         switch (element.type) {
@@ -360,6 +179,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                            ...formObject
                                        };
                                        formData.append('file', files[0]);
+                                       loaderKey[element.key] = true;
+                                       setLoaderKey(loaderKey);
                                        fetch(fileUploadURL, {
                                            method: 'POST',
                                            body: formData
@@ -378,25 +199,35 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                formObjectTemp[element.key] = image.key;
                                                formObjectTemp[element.fileKeyName] = image.name;
                                                setFormObject(formObjectTemp);
+                                               setTimeout(() => {
+                                                   const lK = JSON.parse(JSON.stringify(loaderKey));
+                                                   lK[element.key] = false;
+                                                   setLoaderKey(lK);
+                                               }, 200);
                                            }).catch((e) => {
                                            console.error((e));
+                                           setTimeout(() => {
+                                               const lK = JSON.parse(JSON.stringify(loaderKey));
+                                               lK[element.key] = false;
+                                               setLoaderKey(lK);
+                                           }, 200);
                                        })
-
                                    }}/>
                             <div className="input-group-append">
-                                        <span className="input-group-text" style={{
-                                            background: '#ec672c',
-                                            color: 'white',
-                                            paddingLeft: '50px',
-                                            paddingRight: '50px',
-                                            border: 'none'
-                                        }}>{element.actionName}</span>
+                                       <span className="input-group-text" style={{
+                                           background: '#ec672c',
+                                           color: 'white',
+                                           paddingLeft: '30px',
+                                           paddingRight: '30px',
+                                           border: 'none'
+                                       }}>{loaderKey[element.key] ? <div className="samagra-loader"></div> : null}
+                                           {element.actionName}</span>
                             </div>
 
                         </div>
                         <span className={'hint'}>
-                            {element.placeholder}
-                                    </span>
+                                       {element.placeholder}
+                                       </span>
                     </fieldset>
                 </div>;
             case 'radio' :
@@ -498,13 +329,25 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                         }
                                     });
 
+                                    loaderKey['formSubmit'] = true;
+                                    setLoaderKey(loaderKey);
                                     axios.post('https://us-central1-samagragovernance-in.cloudfunctions.net/api/form-submit', reqObject, {headers: {'Content-Type': 'application/json'}})
                                         .then(function (response) {
                                             setShowForm(false);
+                                            setTimeout(() => {
+                                                const lK = JSON.parse(JSON.stringify(loaderKey));
+                                                lK['formSubmit'] = false;
+                                                setLoaderKey(lK);
+                                            }, 200);
                                         })
                                         .catch(function (error) {
+                                            setTimeout(() => {
+                                                const lK = JSON.parse(JSON.stringify(loaderKey));
+                                                lK['formSubmit'] = false;
+                                                setLoaderKey(lK);
+                                            }, 200);
                                         });
-                                }} text={'Submit'}/>
+                                }} text={'Submit'}>{loaderKey['formSubmit'] ? <div className="samagra-loader"></div> : null}</PrimaryButton>
                                 <div style={{marginTop: '25px'}}>
                                     <a style={{fontSize: '12px', width: '100%', textAlign: 'center', color: '#fff'}}
                                        href="mailto:careers@samagragovernance.in">Have questions? Email us at <span

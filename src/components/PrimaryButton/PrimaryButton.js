@@ -5,6 +5,6 @@ export const PrimaryButton = ({classes, text, children, click, style, type}) => 
         <button style={{...style}}
                 onClick={click}
                 type={type ? type : 'button'}
-                className={`${classes ? classes : ''} btn-theme-primary`}>{text ? text : ''} {children}</button>
+                className={`${classes ? classes : ''} btn-theme-primary`}>{children} {text ? text : ''}</button>
     )
 };

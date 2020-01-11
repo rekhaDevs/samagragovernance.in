@@ -24,6 +24,7 @@
 @import "./TestimonialSlider";
 @import "./HeaderSmall";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
 .media-page-banner {
   position: relative;
 
@@ -192,6 +193,7 @@ code {
   font-weight: normal;
   src: local('Proxima Nova Regular'), url('../fonts/ProximaNova-Regular.woff') format('woff');
 }
+
 * {
   font-family: 'Proxima Nova Regular' !important;
 }
@@ -523,6 +525,7 @@ a {
     }
   }
 }
+
 @media only screen and (max-width: 980px) {
   .hide-for-small-only {
     display: none !important;
