@@ -133,8 +133,8 @@ team:
       then joined the Department of Finance and Planning, Government of
       Chhattisgarh as a Chief Minister’s Good Governance Fellow.\n\nThe zeal to
       create real impact on the ground by transforming governance and public
-      administration brought Ankit to Samagra. He is currently part of the
-      Saksham Haryana-Skills & Employment team.
+      administration brought Ankit to Samagra. Currently he leads the Saksham
+      Haryana-Skills & Employment engagement in Haryana.
     image: /img/Ankit-G.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
@@ -338,11 +338,11 @@ team:
       of the Teach for India Fellowship he worked in low-income schools in
       Hyderabad and Bengaluru as a school teacher.\n\nAn opportunity to create
       impact at scale through better governance brought him to Samagra.
-      Currently he leads the Saksham Haryana-Skills & Employment engagement.
+      Currently he leads the Skill India engagement.
     image: /img/Nikhil.jpg
     linkedInProfile: 'https://www.linkedin.com/in/nikhil-nadiger'
     name: Nikhil Nadiger
-    project: Saksham Haryana-Skills & Employment
+    project: Skill India
   - bio: >-
       Pragya hold a Bachelor's degree in Economics from Miranda House,
       University of Delhi. She has previously interned at CollarFolk, a start up
