@@ -84,18 +84,6 @@ team:
     name: Aakash Tyagi
     project: Saksham Haryana-Skills & Employment
   - bio: >-
-      Aishwarya holds a Bachelor's degree in Electronics and Communication
-      Engineering from Vellore Institute of Technology. As a part of the LAMP
-      Fellowship (2016-17), she worked as a Legislative Assistant to Meenakshi
-      Lekhi, Member of Parliament from the New Delhi Lok Sabha
-      constituency.\n\nAn opportunity to work with the executive and
-      understanding governance from the perspective of  implementation bring her
-      to Samagra.
-    image: /img/Aishwarya.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/aishwarya-rao-thammineedi-a18aba118'
-    name: Aishwarya Rao
-    project: PWD - Odisha
-  - bio: >-
       Aneesh holds a Bachelor's degree in Industrial Engineering from R.V
       College of Engineering, Bangalore. Prior to joining Samagra, he worked at
       Your Story Media in its growth hacking team. He was also worked as a
