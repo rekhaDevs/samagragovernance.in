@@ -232,6 +232,19 @@ team:
     name: Divya Ahuja
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Divya holds a Master's degree in Public Policy from National Law School,
+      Bangalore and a Bachelor's degree in Political Science from Kirorimal
+      College, University of Delhi. Before joining Samagra, she was working as a
+      Business Analyst with the strategy consulting practice at Deloitte,
+      primarily serving healthcare and life sciences clients in North American
+      and European markets. A strong motivation to work as a catalyst for
+      changing the status quo and enhancing service delivery on ground by
+      partnering with state governments, brought Divya to Samagra.
+    image: /img/divya-dua.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/divya-dua-890107135/'
+    name: Divya Dua
+    project: ' '
+  - bio: >-
       Divya holds a Bachelor's degree in Mathematics and Scientific Computing
       from IIT, Kanpur. She completed the Young India Fellowship from Ashoka
       University. As a student she worked with various social sector
@@ -313,6 +326,21 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/kalpesh-agrawal'
     name: Kalpesh Agrawal
     project: ADAPT
+  - bio: >-
+      Kushal holds a Bachelor's degree in Business Administration from NMIMS
+      University, Mumbai and was part of the Young India Fellowship cohort of
+      2018 at Ashoka University. Before joining Samagra, he was working as a
+      Research Analyst at Locus Investment Group, assisting the team in
+      deploying a combination of domestic and foreign capital in public markets
+      and the venture capital space, primarily tracking consumer-related sectors
+      of the Indian economy. A strong interest in politics and the belief that
+      creating a positive impact at scale through governance is the fastest
+      route to India’s development brought Kushal to Samagra. Currently he is
+      part of the Samarth team in Himachal Pradesh.
+    image: /img/kushal.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/kushal-agarwal-38ab72a1/'
+    name: Kushal Agarwal
+    project: Samarth
   - bio: >-
       Mohit holds a Bachelor's degree in Pharmaceutical Sciences from the
       University of Delhi  and Master's degree in International Business from
