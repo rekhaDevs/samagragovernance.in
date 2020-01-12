@@ -81,7 +81,7 @@ team:
       team.
     image: /img/aakash.jpg
     linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
-    name: Aakash Tyagi
+    name: Akash Tyagi
     project: Saksham Haryana-Skills & Employment
   - bio: >-
       Aneesh holds a Bachelor's degree in Industrial Engineering from R.V
