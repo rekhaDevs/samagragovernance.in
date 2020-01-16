@@ -1,13 +1,12 @@
 ---
 templateKey: project-post
-title: Saksham Education
-fullName: Saksham Haryana Education
+title: Saksham Haryana - Education
+fullName: Saksham Haryana - Education
 id: SAKSHAM_EDUCATION
 backgroundCover: /img/saksham-header-bg.jpg
 domain: Education
 subTitle: Transforming the government school system in Haryana
 state: Haryana
-keyInitiativesTitle: Key Initiatives
 tagLine: Transforming the government school system in Haryana
 projectLogoWithState: /img/saksham-logo.png
 overview:
@@ -58,6 +57,7 @@ impact:
     label: 'students in Grade 3, 5 and 7 grade-competent'
   - count: '107'
     label: of 119 blocks grade-competent
+keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
       text: >-
