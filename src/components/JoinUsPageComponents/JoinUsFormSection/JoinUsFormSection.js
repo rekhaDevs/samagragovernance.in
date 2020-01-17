@@ -11,10 +11,13 @@ const fileUploadURL = 'https://us-central1-samagragovernance-in.cloudfunctions.n
 export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent}) => {
     // const reachingOptions = [];
     const camelCase = (str) => {
+        if (!str) {
+            return '';
+        }
         return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
             return index == 0 ? word.toLowerCase() : word.toUpperCase();
         }).replace(/\s+/g, '');
-    }
+    };
     const [showForm, setShowForm] = useState(true);
     const [formObject, setFormObject] = useState({});
     const [submitted, setSubmitted] = useState(false);
