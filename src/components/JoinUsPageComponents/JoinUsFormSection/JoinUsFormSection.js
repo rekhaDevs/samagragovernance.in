@@ -180,7 +180,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                        };
                                        formData.append('file', files[0]);
                                        loaderKey[element.key] = true;
-                                       setLoaderKey(loaderKey);
+                                       setLoaderKey(JSON.parse(JSON.stringify(loaderKey)));
                                        fetch(fileUploadURL, {
                                            method: 'POST',
                                            body: formData
@@ -330,7 +330,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                     });
 
                                     loaderKey['formSubmit'] = true;
-                                    setLoaderKey(loaderKey);
+                                    setLoaderKey(JSON.parse(JSON.stringify(loaderKey)));
                                     axios.post('https://us-central1-samagragovernance-in.cloudfunctions.net/api/form-submit', reqObject, {headers: {'Content-Type': 'application/json'}})
                                         .then(function (response) {
                                             setShowForm(false);
@@ -347,7 +347,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                 setLoaderKey(lK);
                                             }, 200);
                                         });
-                                }} text={'Submit'}>{loaderKey['formSubmit'] ? <div className="samagra-loader"></div> : null}</PrimaryButton>
+                                }} text={'Submit'}>{loaderKey['formSubmit'] ?
+                                    <div className="samagra-loader"></div> : null}</PrimaryButton>
                                 <div style={{marginTop: '25px'}}>
                                     <a style={{fontSize: '12px', width: '100%', textAlign: 'center', color: '#fff'}}
                                        href="mailto:careers@samagragovernance.in">Have questions? Email us at <span
