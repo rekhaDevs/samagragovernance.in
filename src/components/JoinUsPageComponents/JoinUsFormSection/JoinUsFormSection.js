@@ -41,7 +41,19 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
         if (!element.required) {
             return true;
         }
-        return formObject && formObject[element.key]
+        return formObject && formObject[element.key] && !isNaN(formObject[element.key])
+    };
+    const VALID_CONTACT = (element) => {
+        if (!element.required) {
+            return true;
+        }
+        return VALID_NUMBER(element) && formObject[element.key].length === 10;
+    };
+    const VALID_EMAIL = (element) => {
+        if (!element.required) {
+            return true;
+        }
+        return formObject && formObject[element.key] && /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(formObject[element.key]);
     };
     const VALID_LINK = (element) => {
         if (!element.required) {
@@ -78,6 +90,10 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                     return VALID_FILE(element);
                 case 'VALID_OPTION':
                     return VALID_OPTION(element);
+                case 'VALID_CONTACT':
+                    return VALID_CONTACT(element);
+                case 'VALID_EMAIL':
+                    return VALID_EMAIL(element);
             }
         }
     };
