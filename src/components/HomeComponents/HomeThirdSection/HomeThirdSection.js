@@ -80,6 +80,7 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
             initialSlide: 0
         }
     );
+
     return (
         stateItems && stateItems[activeItem] ? <div className={'home-third-section-wrapper'}
                                                     style={{backgroundImage: `url(${stateItems[activeItem].image})`}}>
@@ -117,41 +118,46 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
                         <div className={'image-section'}>
                             <div className="description-wrapper">
 
-                                <div className="overview">
-                                    <div className="para">
-                                        {
-                                            stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.overview.map((o) => {
-                                                return <p>
-                                                    {o.text}
-                                                </p>
-                                            })
-                                        }
-                                    </div>
-                                    <a href={stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].projectUrl}>
-                                        <div className="read-more-text">
-                                            Read More
-                                        </div>
-                                    </a>
-                                </div>
+                                {
+                                    stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.overview ?
+                                        <div className="overview">
+                                            <div className="para">
+                                                {
+                                                    stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.overview.map((o) => {
+                                                        return <p>
+                                                            {o.text}
+                                                        </p>
+                                                    })
+                                                }
+                                            </div>
+                                            <a href={stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].projectUrl}>
+                                                <div className="read-more-text">
+                                                    Read More
+                                                </div>
+                                            </a>
+                                        </div> : null
 
+                                }
                             </div>
                             <div className="image-wrapper">
-                                <div className="scale-card">
-                                    <div className="list">
-                                        {
-                                            stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.scale.map((s) => {
-                                                return <div className="list-item">
-                                                    <div className="count">
-                                                        {s.count}
+                                {stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.scale ?
+                                    <div className="scale-card">
+                                        <div className="list">
+                                            {
+                                                stateItems[activeItem].projects[stateItems[activeItem].activeProjectIndex].node.frontmatter.scale.map((s) => {
+                                                    return <div className="list-item">
+                                                        <div className="count">
+                                                            {s.count}
+                                                        </div>
+                                                        <div className={'description'}>
+                                                            {s.label}
+                                                        </div>
                                                     </div>
-                                                    <div className={'description'}>
-                                                        {s.label}
-                                                    </div>
-                                                </div>
-                                            })
-                                        }
-                                    </div>
-                                </div>
+                                                })
+                                            }
+                                        </div>
+                                    </div> : null
+                                }
                             </div>
                             {
                                 stateItems[activeItem].projects && stateItems[activeItem].projects.length && stateItems[activeItem].projects.length > 1 ?
