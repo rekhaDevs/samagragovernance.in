@@ -7,7 +7,6 @@ backgroundCover: /img/adapt-header-bg.jpg
 domain: Agriculture
 subTitle: Samagra
 state: Haryana
-keyInitiativesTitle: Key Initiatives
 tagLine: Increasing the income of farmers in Odisha by improving their productivity
 projectLogoWithState: /img/adapt-logo.png
 overview:
@@ -46,8 +45,8 @@ approach:
       disseminated to farmers.
 readMore:
   - text: >-
-      How this social enterprise is helping the Odisha govt boost agricultural
-      productivity in the State
+      India’s agriculture departments are complex. But Odisha is using data to
+      fix it
   - text: >-
       This State’s Solutions May Be The Answer Farmers Across India Are Looking
       For
@@ -59,6 +58,7 @@ impact:
     label: reduction in crop loss due to Customised Pest Advisory
   - count: '51,00,000'
     label: KALIA beneficiaries identified within 4 months
+keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
       text: >-

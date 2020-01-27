@@ -43,13 +43,11 @@ approach:
       availability in schools, robust review and monitoring mechanisms, ongoing
       mentoring and training support for teachers).
 readMore:
+  - text: How Haryana made government school education a political priority
   - text: >-
       Haryana Holds the Blueprint For Improving Govt Schools Across India. We
       Tell You Why.
   - text: 80% Haryana declared ‘Saksham’ for achieving grade-level competency
-  - text: >-
-      How Haryana transformed dismal student learning outcomes in its government
-      schools
 impact:
   - count: '14'
     label: of 22 districts grade-competent
