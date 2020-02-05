@@ -6,7 +6,6 @@ id: SARAL
 backgroundCover: /img/saral-header-bg.jpg
 domain: Service Delivery
 subTitle: SARAL
-keyInitiativesTitle: Key Initiatives
 state: Haryana
 tagLine: Streamlining public service delivery in Haryana
 projectLogoWithState: /img/saral-logo.png
@@ -30,7 +29,7 @@ scale:
     label: Government Departments
   - count: '550'
     label: Schemes and services
-  - count: '50,00,000'
+  - count: 2.5 crore
     label: Citizens in Haryana
 projectMiddleBannerImage: /img/saral-cover.JPG
 approach:
@@ -64,6 +63,7 @@ impact:
     label: schemes and services
   - count: 14%
     label: reduction in average application processing time
+keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
       text: >-
