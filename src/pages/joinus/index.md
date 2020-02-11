@@ -34,40 +34,29 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
-  - label: Post Graduate Institute
+  - label: Current College
     options:
-      - text: Not Applicable
-      - text: Ashoka University
-      - text: Birla Institute of Technology and Science
-      - text: College of Business Studies
       - text: Columbia University
-      - text: Delhi College of Engineering
-      - text: Faculty of Management Studies
-      - text: Harvard Kennedy School
-      - text: IIIT Hyderabad
-      - text: IIM Ahemdabad
-      - text: IIM Bangalore
-      - text: IIM Calcutta
-      - text: IIT Bombay
-      - text: IIT Delhi
-      - text: IIT Kanpur
-      - text: IIT Kharagpur
-      - text: IIT Madras
-      - text: IIT Roorkee
-      - text: IIT(ISM) Dhanbad
-      - text: Indian School of Business
-      - text: Lady Shri Ram College
-      - text: Lee Kuan Yew School of Public Policy
-      - text: National Law School of India University
-      - text: National University of Juridical Sciences
+      - text: 'Columbia University, School of International and Public Affairs'
+      - text: Harvard University
+      - text: 'Harvard University, Harvard Business School'
+      - text: 'Harvard University, Harvard Graduate School of Education'
+      - text: 'Harvard University, Harvard Kennedy School'
       - text: Princeton University
-      - text: Shri Ram College of Commerce
+      - text: >-
+          Princeton University, Woodrow Wilson School of Public and
+          International Affairs
+      - text: University of Pennsylvania
+      - text: 'University of Pennsylvania, The Wharton School'
       - text: Yale University
+      - text: 'Yale University, Graduate School of Arts and Sciences'
+      - text: 'Yale University, Jackson Institute for Global Affairs'
+      - text: 'Yale University, Yale School of Management'
     otherOptionAvailable:
       activateOn: Others
-      label: PG Institute Name
-      placeholder: Institute Name
-    placeholder: Select Institute
+      label: College Name
+      placeholder: College Name
+    placeholder: Current College
     required: true
     type: select
     validation: VALID_OPTION
@@ -111,24 +100,5 @@ formsElements:
     required: true
     type: file
     validation: VALID_FILE
-  - label: Where did you hear about Samagra?
-    options:
-      - text: Word of Mouth
-      - text: Samagra Team Member
-      - text: LinkedIn
-      - text: Samagra Website
-      - text: Campus Placements
-      - text: Recruitment Agency
-      - text: Facebook
-    otherOptionAvailable:
-      activateOn: Other
-      label: Other
-      placeholder: Other
-    placeholder: >-
-      Upload a PDF containing separate answers to the following two questions
-      (Filename: SOP_Firstname Lastname):
-    required: true
-    type: radio
-    validation: VALID_OPTION
 ---
 
