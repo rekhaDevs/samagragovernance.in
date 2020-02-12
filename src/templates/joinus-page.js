@@ -37,14 +37,14 @@ export const JoinUsPageQuery = graphql`
         title
         verticalImage {
              childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
+                fluid(maxWidth: 768, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
         }
         horizontalImage {
              childImageSharp {
-                fluid(maxWidth: 640, quality: 64) {
+                fluid(maxWidth: 768, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
