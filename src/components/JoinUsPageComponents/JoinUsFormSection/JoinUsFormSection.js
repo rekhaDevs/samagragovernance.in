@@ -170,7 +170,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                     }
                 </React.Fragment>;
             case 'file':
-                return <div className="col-6" style={{padding: '0 15px'}}>
+                return <div className="col-12" style={{padding: '0 15px'}}>
                     <fieldset className={'form-group'}>
                         <label> {element.label} <span
                             className={`${formObject[element.fileErrorKey] ? 'invalid-size' : ''}`}>(pdf only, max size 1mb) </span>
