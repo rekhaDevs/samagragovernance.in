@@ -34,7 +34,7 @@ partners:
       employment engagements.
     image: /img/MSDF.jpg
   - description: Omidyar supports Samagra's Skill India engagement
-    image: /img/on-logo-1.png
+    image: /img/resized-on-logo.png
   - description: >-
       HeroMotoCorp is collaborating with Samagra as part of Digital Haryana to
       design and implement the digital roadmap of the state
