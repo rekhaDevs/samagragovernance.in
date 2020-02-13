@@ -33,6 +33,8 @@ partners:
       Michael & Susan Dell Foundation supports Samagra's education and
       employment engagements.
     image: /img/MSDF.jpg
+  - description: Omidyar supports Samagra's Skill India engagement
+    image: /img/on-logo-1.png
   - description: >-
       Educational Initiatives conducts an independent assessment of government
       school students in Haryana as part of the Saksham Haryana-Education
@@ -78,7 +80,5 @@ partners:
       Samagra has partnered with TheTeacherApp to develop teacher training
       content as part of the Samarth engagement.
     image: /img/TTA.png
-  - description: Omidyar supports Samagra's Skill India engagement
-    image: /img/on-logo-1.png
 ---
 
