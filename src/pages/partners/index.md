@@ -33,6 +33,8 @@ partners:
       Michael & Susan Dell Foundation supports Samagra's education and
       employment engagements.
     image: /img/MSDF.jpg
+  - description: Omidyar supports Samagra's Skill India engagement
+    image: /img/on-logo.png
   - description: >-
       HeroMotoCorp is collaborating with Samagra as part of the Digital Haryana
       to design and implement the digital roadmap of the state.
@@ -86,7 +88,5 @@ partners:
       Samagra has partnered with TheTeacherApp to develop teacher training
       content as part of the Samarth engagement.
     image: /img/TTA.png
-  - description: Omidyar supports Samagra's Skill India engagement
-    image: /img/on-logo.png
 ---
 
