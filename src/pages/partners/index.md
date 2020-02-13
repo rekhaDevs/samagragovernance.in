@@ -40,10 +40,6 @@ partners:
       to design and implement the digital roadmap of the state.
     image: /img/hero-motocorp-logo.png
   - description: >-
-      Gray Matters conducts an independent assessment of government school
-      students in Haryana as part of the Saksham Haryana-Education engagement.
-    image: /img/Gray Matters.png
-  - description: >-
       Educational Initiatives conducts an independent assessment of government
       school students in Haryana as part of the Saksham Haryana-Education
       engagement
