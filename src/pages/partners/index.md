@@ -36,6 +36,10 @@ partners:
   - description: Omidyar supports Samagra's Skill India engagement
     image: /img/on-logo-1.png
   - description: >-
+      HeroMotoCorp is collaborating with Samagra as part of Digital Haryana to
+      design and implement the digital roadmap of the state
+    image: /img/hero-motocorp-logo.png
+  - description: >-
       Educational Initiatives conducts an independent assessment of government
       school students in Haryana as part of the Saksham Haryana-Education
       engagement
