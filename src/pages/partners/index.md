@@ -86,5 +86,7 @@ partners:
       Samagra has partnered with TheTeacherApp to develop teacher training
       content as part of the Samarth engagement.
     image: /img/TTA.png
+  - description: Omidyar supports Samagra's Skill India engagement
+    image: /img/on-logo.png
 ---
 
