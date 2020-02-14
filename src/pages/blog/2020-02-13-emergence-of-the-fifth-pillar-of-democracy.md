@@ -42,6 +42,6 @@ Several fellowship programmes at the Centre and state level are providing a stru
 
 In the last few years, firms such as Samagra and BCG’s social sector practice, have carved a niche for themselves within the private sector. Cutting across domains such as education, agriculture, health, skilling, employment, e-governance etc., these firms work with governments to provide a clear and structured approach to fundamentally transform governance and service delivery. For instance, BCG’s social sector practice has been at the forefront of education reforms in Rajasthan, Samagra has been working with the Governments of Haryana and Himachal Pradesh to systemically transform their education systems as well as the Government of Odisha to design and implement the state’s flagship KALIA scheme.
 
-These firms are providing a structured a career path for professionals to work with the government in a sustainable manner. On the other hand, their fresh perspective and unique skill sets can help the Executive bridge gaps in service delivery. 
+These firms are providing a structured a career path for professionals to work with the government in a sustainable manner. Their fresh perspective and unique skill sets can help the Executive bridge gaps in service delivery. 
 
 In sum, the fifth pillar presents an unprecedented opportunity for citizens to actively participate in democracy by working with the system. In the coming years, its need and importance is only likely to increase.
