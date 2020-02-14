@@ -315,6 +315,20 @@ team:
     name: Kalpesh Agrawal
     project: ADAPT
   - bio: >-
+      Krittika holds a Bachelor’s degree in Management Studies from Shaheed
+      Sukhdev College of Business Studies,  University of Delhi. Before joining
+      Samagra, she was working with the Marketing, Sales and Pricing practice at
+      Boston Consulting Group (BCG).
+
+
+      An opportunity to design and implement innovative, scalable solutions to
+      solve complex governance challenges facing India brought Krittika to
+      Samagra. 
+    image: /img/krittika.png
+    linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
+    name: Krittika Takiar
+    project: '  '
+  - bio: >-
       Kushal holds a Bachelor's degree in Business Administration from NMIMS
       University, Mumbai and was part of the Young India Fellowship cohort of
       2018 at Ashoka University. Before joining Samagra, he was working as a
