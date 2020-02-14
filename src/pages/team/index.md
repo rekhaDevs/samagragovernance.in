@@ -178,7 +178,7 @@ team:
     image: /img/Apoorva.jpg
     linkedInProfile: 'https://www.linkedin.com/in/apoorva-murari-06056326'
     name: Apoorva Murari
-    project: PWD - Odisha
+    project: '  '
   - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
@@ -593,7 +593,7 @@ team:
     image: /img/Venkat.jpg
     linkedInProfile: 'https://www.linkedin.com/in/venkataraman-ganesh'
     name: Venkataraman Ganesh
-    project: PWD - Odisha
+    project: Skill India
   - bio: >-
       Yuganshi holds a Bachelor's degree in Economics from Hindu College,
       University of Delhi. During college, she was actively involved with
