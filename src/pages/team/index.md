@@ -26,7 +26,7 @@ team:
       Finance from Unitec Institute of Technology and Masters of Commercial Law
       from University of Auckland. He completed his Chartered Accountancy from
       Chartered Accountants Australia and New Zealand. Prior to Samagra, Ankur
-      worked with Michael & Susan Dell Foundation, leading the health and
+      worked with Michael & Susan Dell Foundation, leading their health and
       education portfolios. He was involved in conceptualizing large-scale
       programmes and created a roadmap for future investments in these sectors.
       Previously, he has held senior roles in PwC and Zuna Capital in India,
@@ -144,7 +144,7 @@ team:
     image: /img/Ankit.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitjain0812'
     name: Ankit Jain
-    project: Saksham Haryana-Education
+    project: ' '
   - bio: >-
       Anshul holds a Bachelor's degree in engineering from Dr APJ Abdul Kalam
       Technical University. Previously, he worked as a Consultant for MP from
@@ -297,12 +297,12 @@ team:
       Energy and Climate department and later as a Senior Policy Advisor in the
       Department for Exiting the European Union.\n\nAn opportunity to expand her
       understanding of different governance models and to explore innovative
-      ways of improving citizens' daily lives brought her to Samagra. Currently
-      she is part of the CMGGA team in Haryana.
+      ways of improving citizens' daily lives brought her to Samagra. She
+      currently leads the Saksham Haryana-Education engagement.
     image: /img/Helan.jpg
     linkedInProfile: 'https://www.linkedin.com/in/helen-creighton-5856b685'
     name: Helen Creighton
-    project: CMGGA
+    project: Saksham Haryana-Education
   - bio: >-
       Kalpesh holds a Dual Degree (Mining Engineering and MBA) from IIT, Indian
       School of Mines, Dhanbad. Previously, he worked as a Business Analyst at
@@ -410,20 +410,6 @@ team:
     linkedInProfile: NA
     name: Raju Ram
     project: NA
-  - bio: >-
-      Rishabh holds a dual degree in Computer Science and Engineering from the
-      National Institute of Technology Hamirpur, Himachal Pradesh. He is a
-      two-time Google Summer of Code student (2019, 2018), where he contributed
-      to the open-source projects of The Libreswan Project. He has over 150
-      commits in Mozilla, The Libreswan Project, phpBB, Awesome CSS, PublicLab,
-      Sendgrid, and has over 1900 open-source commits in other projects. His
-      belief that employing open-source tools and technology in governance can
-      lead to significant improvement in the lives of citizens brought him to
-      Samagra. Currently he is part of the Samagra Tech team.
-    image: /img/rishabh.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/rishabh0402'
-    name: Rishabh
-    project: Samagra Tech
   - bio: >-
       Sagari holds a Bachelor's and Master's degree in Environmental Engineering
       from Delhi Technological University and Stanford University, respectively.
