@@ -615,7 +615,7 @@ team:
       financial inclusion and skilling. Prior to Samagra, she worked in the
       Social Impact practice at Boston Consulting Group where she collaborated
       with state governments on improving health and education outcomes by
-      developing data-driven accountability tools.\n\nHer passion to create
+      developing data-driven accountability tools. Her passion to create
       scalable and sustainable change by working with the government brought her
       to Samagra. Currently she is part of the Saksham Haryana-Education team.
     image: /img/Yuganshi.jpg
