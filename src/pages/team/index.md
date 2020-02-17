@@ -101,9 +101,9 @@ team:
   - bio: >-
       Aneesh holds a Bachelor's degree in Industrial Engineering from R.V
       College of Engineering, Bangalore. Prior to joining Samagra, he worked at
-      Your Story Media in its growth hacking team. He was also worked as a
+      Your Story Media in its growth hacking team. He has also worked as a
       consultant to the Deputy Commissioner of Chikmaglur, Karnataka for
-      implementing Swachh Bharat Mission in the district.\n\nHis passion for
+      implementing Swachh Bharat Mission in the district. His passion for
       ensuring last mile delivery of government-to-citizen services brought him
       to Samagra. He is currently part of the CMGGA team in Haryana.
     image: /img/Aneesh.jpg
