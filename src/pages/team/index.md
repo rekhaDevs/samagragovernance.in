@@ -68,6 +68,21 @@ team:
     name: Aayush Kedia
     project: ADAPT
   - bio: >-
+      Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
+      dual degree in Mechanical Engineering from Indian Institute of Technology,
+      Kanpur. Before joining Samagra, he was working with IBM as a strategy and
+      operations consultant, where he got hands-on experience in shaping the
+      digital strategies for several leading Indian corporates. Through his
+      professional and educational experience he has worked on projects ranging
+      from strategy development to implementation, while consistently focusing
+      on the end-user. An opportunity to improve the lives of citizens by
+      creating impact at scale brought him to Samagra. Currently he is part of
+      the Saksham Haryana-Skills & Employment team.
+    image: /img/abhay-singh.png
+    linkedInProfile: 'https://www.linkedin.com/in/abhay-kumar-singh-y9010/'
+    name: Abhay Singh
+    project: Saksham Haryana-Skills & Employment
+  - bio: >-
       Akash holds a Bachelor's degree in Paper Technology from IIT Roorkee.
       Driven by an interest in understanding sectoral reforms in education, he
       joined the Teach For India fellowship. Teaching English and Social studies
@@ -211,8 +226,8 @@ team:
       Divya holds Bachelor's degree in Commerce from Lady Shri Ram College for
       Women. Previously, she has worked as an Analyst at KPMG India in the Deal
       Advisory arm. Her interest in the development sector grew from short
-      stints in policy and social work in college. An opportunity to create real
-      impact and build a career path in the social sector brought her to
+      stints in policy and social work in college.\n\nAn opportunity to create
+      real impact and build a career path in the social sector brought her to
       Samagra. Currently she is part of the Saksham Haryana-Skills & Employment
       team.
     image: /img/Divya-A.jpg
