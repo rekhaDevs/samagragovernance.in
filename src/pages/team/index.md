@@ -211,8 +211,8 @@ team:
       Divya holds Bachelor's degree in Commerce from Lady Shri Ram College for
       Women. Previously, she has worked as an Analyst at KPMG India in the Deal
       Advisory arm. Her interest in the development sector grew from short
-      stints in policy and social work in college.\n\nAn opportunity to create
-      real impact and build a career path in the social sector brought her to
+      stints in policy and social work in college. An opportunity to create real
+      impact and build a career path in the social sector brought her to
       Samagra. Currently she is part of the Saksham Haryana-Skills & Employment
       team.
     image: /img/Divya-A.jpg
