@@ -111,22 +111,6 @@ team:
     name: Aneesh Mugulur
     project: CMGGA
   - bio: >-
-      Anish holds a Bachelor's degree in Manufacturing Process and Automation
-      from Netaji Subhas Institute of Technology and an MBA from IIM Ahmedabad.
-      Anish has more than 11 years of work experience as a strategy specialist,
-      built on 8 years in management consulting and in senior leadership roles
-      at large Indian corporates.\n\nBefore coming to Samagra, he was Vice
-      President Strategy at Lodha Group, where he was driving strategic
-      initiatives for business growth and operations improvement. Prior to that,
-      Anish was Manager at AT Kearney. An interest in working with governments
-      to create scalable, impactful solutions to governance problems brought him
-      to Samagra. Currently he leads our engagement with the Public Works
-      Department in Odisha.
-    image: /img/Anish.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/anish-choudhury-16b28216'
-    name: Anish Choudhary
-    project: PWD - Odisha
-  - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
       specialisation in Business Analytics from the Indian Institute of Science,
