@@ -115,6 +115,13 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Banner Image", name: bannerImage, widget: image}
+      - file: "src/pages/footer/index.md"
+        label: "Footer Page"
+        name: "footer"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "footer-page"}
+          - {label: "Bottom Trademark", name: "bottomTrademark", widget: "string"}
+          - {label: "Bottom Trademark Link", name: "bottomTrademarkLink", widget: "string"}
       - file: "src/pages/joinus/index.md"
         label: "Join Us Page"
         name: "joinus"
