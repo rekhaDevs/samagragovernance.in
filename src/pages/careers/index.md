@@ -54,16 +54,7 @@ slides:
     text: We are a fun bunch
 roles:
   items:
-    - description: >-
-        Associates and Senior Associates take ownership of 3-5 workstreams (mini
-        projects within a large program) and manage them end-to-end. They work
-        as part of a 3-5 member team led by a Manager or a Senior Manager and
-        are supported by a Vice President or Senior Vice President. The role
-        involves a combination of content diagnosis, solution design and
-        facilitating implementation through first principle problem solving,
-        leveraging organisational learnings, extensive stakeholder discussions,
-        data analysis, field-work etc. Associates and Senior Associates receive
-        close hand-holding from the Manager/Senior Manager.
+    - description: "Associates and Senior Associates take ownership of 3-5 workstreams (mini projects within a large program) and manage them end-to-end. They work as part of a 3-5 member team led by a Manager or a Senior Manager and are supported by a Vice President or Senior Vice President. The role involves a combination of content diagnosis, solution design and facilitating implementation through first principles problem solving,leveraging organisational learnings, extensive stakeholder discussions, data analysis, field-work etc.\_ Associates and Senior Associates receive close hand-holding from the Manager/Senior Manager."
       title: Associate & Senior Associate
     - description: >-
         Consultants and Senior Consultants take ownership of 3-5 workstreams
@@ -71,12 +62,12 @@ roles:
         work as part of a 3-5 member team led by a Manager or a Senior Manager
         and are supported by a Vice President or Senior Vice President. The role
         involves a combination of content diagnosis, solution design, and
-        facilitating implementation through first principle problem solving,
-        leveraging organisational learnings, extensive stakeholder discussions,
-        data analysis, field-work etc. Consultants and Senior Consultants are
-        expected to work with limited hand-holding from the Manager/Senior
-        Manager. Senior Consultants sometimes get an opportunity to step-up and
-        play the role of a Manager.
+        facilitating implementation through first principles problem
+        solving,leveraging organisational learnings, extensive stakeholder
+        discussions, data analysis, field-work etc. Consultants and Senior
+        Consultants are expected to work with limited hand-holding from the
+        Manager/Senior Manager. Senior Consultants sometimes get an opportunity
+        to step-up and play the role of a Manager.
       title: Consultant & Senior Consultant
     - description: >-
         Managers and Senior Managers take ownership of a state-wide
@@ -91,15 +82,14 @@ roles:
         the organisation.
       title: Manager & Senior Manager
     - description: >-
-        Vice Presidents and Senior Vice Presidents take ownership of multiple
-        statewide transformation programs and are responsible for aligning the
-        state leadership on the objectives and approach of the programme, as
-        well as delivering on the programme through full-time teams. They build
-        long term relationships with senior government leaders and thought
-        leaders in the impact ecosystem. They develop expertise across multiple
-        domains. They mentor 20-25 team members and nurture leaders within the
-        organisation. They take proactive ownership of the organisational
-        journey.
+        VicePresidents and Senior Vice Presidents take ownership of multiple
+        state-wide transformation programmes and are responsible for aligning
+        the state leadership on the objectives and approach of the programme, as
+        well as ensuring delivery. They build long term relationships with
+        senior government leaders and thought leaders in the impact ecosystem.
+        They develop expertise across multiple domains. They mentor 20-25 team
+        members and nurture leaders within the organisation. They take proactive
+        ownership of the organisational journey.
       title: Vice President & Senior Vice President
   youtubeLink: 'https://www.youtube.com/embed/tXBOtxGGwog'
 faq:

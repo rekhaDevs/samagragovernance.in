@@ -26,7 +26,7 @@ team:
       Finance from Unitec Institute of Technology and Masters of Commercial Law
       from University of Auckland. He completed his Chartered Accountancy from
       Chartered Accountants Australia and New Zealand. Prior to Samagra, Ankur
-      worked with Michael & Susan Dell Foundation, leading the health and
+      worked with Michael & Susan Dell Foundation, leading their health and
       education portfolios. He was involved in conceptualizing large-scale
       programmes and created a roadmap for future investments in these sectors.
       Previously, he has held senior roles in PwC and Zuna Capital in India,
@@ -68,6 +68,21 @@ team:
     name: Aayush Kedia
     project: ADAPT
   - bio: >-
+      Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
+      dual degree in Mechanical Engineering from Indian Institute of Technology,
+      Kanpur. Before joining Samagra, he was working with IBM as a strategy and
+      operations consultant, where he got hands-on experience in shaping the
+      digital strategies for several leading Indian corporates. Through his
+      professional and educational experience he has worked on projects ranging
+      from strategy development to implementation, while consistently focusing
+      on the end-user. An opportunity to improve the lives of citizens by
+      creating impact at scale brought him to Samagra. Currently he is part of
+      the Saksham Haryana-Skills & Employment team.
+    image: /img/abhay-singh.png
+    linkedInProfile: 'https://www.linkedin.com/in/abhay-kumar-singh-y9010/'
+    name: Abhay Singh
+    project: Saksham Haryana-Skills & Employment
+  - bio: >-
       Akash holds a Bachelor's degree in Paper Technology from IIT Roorkee.
       Driven by an interest in understanding sectoral reforms in education, he
       joined the Teach For India fellowship. Teaching English and Social studies
@@ -86,31 +101,15 @@ team:
   - bio: >-
       Aneesh holds a Bachelor's degree in Industrial Engineering from R.V
       College of Engineering, Bangalore. Prior to joining Samagra, he worked at
-      Your Story Media in its growth hacking team. He was also worked as a
+      Your Story Media in its growth hacking team. He has also worked as a
       consultant to the Deputy Commissioner of Chikmaglur, Karnataka for
-      implementing Swachh Bharat Mission in the district.\n\nHis passion for
+      implementing Swachh Bharat Mission in the district. His passion for
       ensuring last mile delivery of government-to-citizen services brought him
       to Samagra. He is currently part of the CMGGA team in Haryana.
     image: /img/Aneesh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aneeshmugulur'
     name: Aneesh Mugulur
     project: CMGGA
-  - bio: >-
-      Anish holds a Bachelor's degree in Manufacturing Process and Automation
-      from Netaji Subhas Institute of Technology and an MBA from IIM Ahmedabad.
-      Anish has more than 11 years of work experience as a strategy specialist,
-      built on 8 years in management consulting and in senior leadership roles
-      at large Indian corporates.\n\nBefore coming to Samagra, he was Vice
-      President Strategy at Lodha Group, where he was driving strategic
-      initiatives for business growth and operations improvement. Prior to that,
-      Anish was Manager at AT Kearney. An interest in working with governments
-      to create scalable, impactful solutions to governance problems brought him
-      to Samagra. Currently he leads our engagement with the Public Works
-      Department in Odisha.
-    image: /img/Anish.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/anish-choudhury-16b28216'
-    name: Anish Choudhary
-    project: PWD - Odisha
   - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
@@ -144,7 +143,7 @@ team:
     image: /img/Ankit.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitjain0812'
     name: Ankit Jain
-    project: Saksham Haryana-Education
+    project: ' '
   - bio: >-
       Anshul holds a Bachelor's degree in engineering from Dr APJ Abdul Kalam
       Technical University. Previously, he worked as a Consultant for MP from
@@ -178,7 +177,7 @@ team:
     image: /img/Apoorva.jpg
     linkedInProfile: 'https://www.linkedin.com/in/apoorva-murari-06056326'
     name: Apoorva Murari
-    project: PWD - Odisha
+    project: '  '
   - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
@@ -297,12 +296,12 @@ team:
       Energy and Climate department and later as a Senior Policy Advisor in the
       Department for Exiting the European Union.\n\nAn opportunity to expand her
       understanding of different governance models and to explore innovative
-      ways of improving citizens' daily lives brought her to Samagra. Currently
-      she is part of the CMGGA team in Haryana.
+      ways of improving citizens' daily lives brought her to Samagra. She
+      currently leads the Saksham Haryana-Education engagement.
     image: /img/Helan.jpg
     linkedInProfile: 'https://www.linkedin.com/in/helen-creighton-5856b685'
     name: Helen Creighton
-    project: CMGGA
+    project: Saksham Haryana-Education
   - bio: >-
       Kalpesh holds a Dual Degree (Mining Engineering and MBA) from IIT, Indian
       School of Mines, Dhanbad. Previously, he worked as a Business Analyst at
@@ -314,6 +313,20 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/kalpesh-agrawal'
     name: Kalpesh Agrawal
     project: ADAPT
+  - bio: >-
+      Krittika holds a Bachelor’s degree in Management Studies from Shaheed
+      Sukhdev College of Business Studies,  University of Delhi. Before joining
+      Samagra, she was working with the Marketing, Sales and Pricing practice at
+      Boston Consulting Group (BCG).
+
+
+      An opportunity to design and implement innovative, scalable solutions to
+      solve complex governance challenges facing India brought Krittika to
+      Samagra. 
+    image: /img/krittika.png
+    linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
+    name: Krittika Takiar
+    project: '  '
   - bio: >-
       Kushal holds a Bachelor's degree in Business Administration from NMIMS
       University, Mumbai and was part of the Young India Fellowship cohort of
@@ -410,20 +423,6 @@ team:
     linkedInProfile: NA
     name: Raju Ram
     project: NA
-  - bio: >-
-      Rishabh holds a dual degree in Computer Science and Engineering from the
-      National Institute of Technology Hamirpur, Himachal Pradesh. He is a
-      two-time Google Summer of Code student (2019, 2018), where he contributed
-      to the open-source projects of The Libreswan Project. He has over 150
-      commits in Mozilla, The Libreswan Project, phpBB, Awesome CSS, PublicLab,
-      Sendgrid, and has over 1900 open-source commits in other projects. His
-      belief that employing open-source tools and technology in governance can
-      lead to significant improvement in the lives of citizens brought him to
-      Samagra. Currently he is part of the Samagra Tech team.
-    image: /img/rishabh.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/rishabh0402'
-    name: Rishabh
-    project: Samagra Tech
   - bio: >-
       Sagari holds a Bachelor's and Master's degree in Environmental Engineering
       from Delhi Technological University and Stanford University, respectively.
@@ -607,7 +606,7 @@ team:
     image: /img/Venkat.jpg
     linkedInProfile: 'https://www.linkedin.com/in/venkataraman-ganesh'
     name: Venkataraman Ganesh
-    project: PWD - Odisha
+    project: Skill India
   - bio: >-
       Yuganshi holds a Bachelor's degree in Economics from Hindu College,
       University of Delhi. During college, she was actively involved with
@@ -615,7 +614,7 @@ team:
       financial inclusion and skilling. Prior to Samagra, she worked in the
       Social Impact practice at Boston Consulting Group where she collaborated
       with state governments on improving health and education outcomes by
-      developing data-driven accountability tools.\n\nHer passion to create
+      developing data-driven accountability tools. Her passion to create
       scalable and sustainable change by working with the government brought her
       to Samagra. Currently she is part of the Saksham Haryana-Education team.
     image: /img/Yuganshi.jpg

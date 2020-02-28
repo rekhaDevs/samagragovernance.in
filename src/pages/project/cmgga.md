@@ -7,7 +7,6 @@ backgroundCover: /img/cmgga-header-bg.jpg
 domain: CM's Fellowship
 subTitle: Samagra
 state: Haryana
-keyInitiativesTitle: Key Initiatives
 tagLine: Catalyzing governance through young professionals
 projectLogoWithState: /img/cmgga-logo.png
 overview:
@@ -44,14 +43,17 @@ approach:
       wheels of governance move on the ground and for the government to involve
       more youth in public administration.
 readMore:
+  - text: >-
+      CMs of Arunachal, Delhi, Nagaland have fellowships to work with youth. Why
+      Haryana stands out
   - text: 'Grievance redressal, top priority: Khattar'
   - text: Women’s safety focus area of CMGGA programme
-  - text: Haryana govt to start 4th batch of CMGGA programme
 impact:
   - count: '19'
     label: states have been represented across 4 batches of CMGGAs
   - count: '115'
     label: service delivery centres operationalized
+keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
       text: >-
