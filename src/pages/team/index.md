@@ -164,35 +164,6 @@ team:
     name: Anshul Chaudhary
     project: Saksham Haryana-Education
   - bio: >-
-      Apoorva holds a Bachelor's degree in Biomedical Engineering from the
-      Bharati Vidyapeeth University. She is a Chevening Scholar with a Master's 
-      degree in Development Studies from the Institute of Development Studies,
-      Sussex. Previously, she worked with Teach For India managing fellowship
-      recruitment. Before Samagra, she was a Campaign Lead at Indus Action
-      driving the implementation of RTE Act Section 12 (1)(c) in Delhi. She
-      worked to implement awareness campaigns and application support processes
-      for low-income communities and school readiness camps for 3-6 year old
-      children.\n\nAn opportunity to understand public administration systems
-      brought Apoorva to Samagra.
-    image: /img/Apoorva.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/apoorva-murari-06056326'
-    name: Apoorva Murari
-    project: '  '
-  - bio: >-
-      Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
-      College of Engineering and Technology and an MTech in Structural
-      Engineering (Civil) from the IIT, Delhi. Prior to Samagra, he was working
-      with an IoT start up, CarSense, as a Senior Software Developer. Before
-      that he held the position of Assistant Professor at Amity University,
-      Gurugram where he taught Civil and Structural Engineering.\n\nHis belief
-      that employing technological tools can lead to better governance and
-      improve the lives of citizens brought him to Samagra. Currently he is part
-      of the Samagra Tech team.
-    image: /img/Chakshu.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/chakshu-gautam-6918736b'
-    name: Chakshu Gautam
-    project: Samagra Tech
-  - bio: >-
       Chirag holds a Bachelor's degree in Chemical Engineering from IIT, Bombay.
       He worked as an analytics consultant with Fractal Analytics before
       becoming a tech entrepreneur. Chirag started a company in the travel
@@ -621,5 +592,10 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
     project: Saksham Haryana-Education
+  - bio: "Neetisha holds a Master’s degree in Public Administration in International Development (MPA/ID) from Harvard Kennedy School and a Bachelor's degree in Metallurgical Engineering from IIT Kanpur. She previously worked as a Prime Minister’s Rural Development Fellow (PMRDF) for three years in a district in Jharkhand affected by left-wing extremism. As part of the fellowship, she supported the district administration in implementing flagship schemes and programmes. Prior to that, she worked as an oilfield engineer with Schlumberger.\n\_\nAn opportunity to design and implement systemic reforms which can have lasting impact at scale brought her to Samagra. Currently, she is part of the CMGGA team in Haryana.\n"
+    image: /img/neetisha.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/neetishabesra/'
+    name: Neetisha Besra
+    project: CMGGA
 ---
 
