@@ -331,6 +331,11 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/mohitbahri'
     name: Mohit Bahri
     project: Samarth
+  - bio: "Neetisha holds a Master’s degree in Public Administration in International Development (MPA/ID) from Harvard Kennedy School and a Bachelor's degree in Metallurgical Engineering from IIT Kanpur. She previously worked as a Prime Minister’s Rural Development Fellow (PMRDF) for three years in a district in Jharkhand affected by left-wing extremism. As part of the fellowship, she supported the district administration in implementing flagship schemes and programmes. Prior to that, she worked as an oilfield engineer with Schlumberger.\n\_\nAn opportunity to design and implement systemic reforms which can have lasting impact at scale brought her to Samagra. Currently, she is part of the CMGGA team in Haryana.\n"
+    image: /img/neetisha.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/neetishabesra/'
+    name: Neetisha Besra
+    project: CMGGA
   - bio: >-
       Nikhil holds Bachelor's degree in Information Science from School of
       Engineering & Technology, Jain University. Before joining Samagra, Nikhil
@@ -592,10 +597,5 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
     project: Saksham Haryana-Education
-  - bio: "Neetisha holds a Master’s degree in Public Administration in International Development (MPA/ID) from Harvard Kennedy School and a Bachelor's degree in Metallurgical Engineering from IIT Kanpur. She previously worked as a Prime Minister’s Rural Development Fellow (PMRDF) for three years in a district in Jharkhand affected by left-wing extremism. As part of the fellowship, she supported the district administration in implementing flagship schemes and programmes. Prior to that, she worked as an oilfield engineer with Schlumberger.\n\_\nAn opportunity to design and implement systemic reforms which can have lasting impact at scale brought her to Samagra. Currently, she is part of the CMGGA team in Haryana.\n"
-    image: /img/neetisha.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/neetishabesra/'
-    name: Neetisha Besra
-    project: CMGGA
 ---
 
