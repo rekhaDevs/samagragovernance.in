@@ -224,7 +224,7 @@ team:
       she was working at IDFC Institute as Manager for Communications &
       Strategy. Gayatri has previously also worked at Mint as a copy editor and
       opinion writer. While at Mint, she used to write on foreign policy and
-      security issues, primarily focused on the Indian subcontinent. \n\nAn
+      security issues, primarily focused on the Indian subcontinent. An
       opportunity to work at the intersection of public policy and communication
       brought her to Samagra.
     image: /img/Gayatri.jpg
