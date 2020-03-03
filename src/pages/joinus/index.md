@@ -1,8 +1,8 @@
 ---
 templateKey: joinus-page
 title: Join Us
-verticalImage: /img/timelines.jpg
-horizontalImage: /img/timelines.jpg
+verticalImage: /img/Vertical.jpg
+horizontalImage: /img/Horizontal.jpg
 formsElements:
   - label: Full Name
     placeholder: Enter your full name
