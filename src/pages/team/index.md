@@ -138,8 +138,8 @@ team:
       an in-depth understanding of the government's functioning at grassroot
       level, Ankit wanted to work at the state level to contribute towards
       effective and sustainable systemic change. With this in mind, Ankit joined
-      Samagra to create impact at scale. He currently leads the Misssion Prerna
-      engagement.
+      Samagra to create impact at scale. He currently leads the Mission Prerna
+      engagement in Uttar Pradesh.
     image: /img/Ankit.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitjain0812'
     name: Ankit Jain
