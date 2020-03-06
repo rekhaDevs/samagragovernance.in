@@ -134,11 +134,11 @@ team:
       join the first cohort of the Chief Minister's Good Governance Associates
       (CMGGA) programme in Haryana. As a CMGGA, he spent one year working on
       improving the delivery of government programmes and piloting innovative
-      governance changes in Jind district.\n\nWhile the CMGGA programme provided
-      an in-depth understanding of the government's functioning at grassroot
-      level, Ankit wanted to work at the state level to contribute towards
-      effective and sustainable systemic change. With this in mind, Ankit joined
-      Samagra to create impact at scale. He currently leads the Mission Prerna
+      governance changes in Jind district. While the CMGGA programme provided an
+      in-depth understanding of the government's functioning at grassroot level,
+      Ankit wanted to work at the state level to contribute towards effective
+      and sustainable systemic change. With this in mind, Ankit joined Samagra
+      to create impact at scale. He currently leads the Mission Prerna
       engagement in Uttar Pradesh.
     image: /img/Ankit.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitjain0812'
