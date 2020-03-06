@@ -7,7 +7,7 @@ backgroundCover: /img/samagragovernance_missionprerna.jpg
 domain: Education
 subTitle: Samagra
 state: Uttar Pradesh
-tagLine: Imparting foundational learning to primary school students in Uttar Pradesh
+tagLine: Imparting foundational learning to primary students in Uttar Pradesh
 projectLogoWithState: /img/mission-prerna.png
 overview:
   - text: >-
