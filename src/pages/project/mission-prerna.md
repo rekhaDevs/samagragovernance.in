@@ -29,7 +29,7 @@ scale:
     label: Teachers
   - count: 1.2 crore
     label: Students
-projectMiddleBannerImage: /img/samagragovernance_cm.jpeg
+projectMiddleBannerImage: /img/samagraup_cm.jpeg
 approach:
   - text: >-
       Samagra’s approach to transforming school education combines both academic
