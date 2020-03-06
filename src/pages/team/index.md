@@ -138,12 +138,12 @@ team:
       an in-depth understanding of the government's functioning at grassroot
       level, Ankit wanted to work at the state level to contribute towards
       effective and sustainable systemic change. With this in mind, Ankit joined
-      Samagra to create impact at scale. He currently leads the Saksham
-      Haryana-Education engagement.
+      Samagra to create impact at scale. He currently leads the Misssion Prerna
+      engagement.
     image: /img/Ankit.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitjain0812'
     name: Ankit Jain
-    project: ' '
+    project: ' Mission Prerna'
   - bio: >-
       Anshul holds a Bachelor's degree in engineering from Dr APJ Abdul Kalam
       Technical University. Previously, he worked as a Consultant for MP from
@@ -197,11 +197,12 @@ team:
       primarily serving healthcare and life sciences clients in North American
       and European markets. A strong motivation to work as a catalyst for
       changing the status quo and enhancing service delivery on ground by
-      partnering with state governments, brought Divya to Samagra.
+      partnering with state governments, brought Divya to Samagra. Currently,
+      she is part of the Mission Prerna team in Uttar Pradesh.
     image: /img/divya-dua.jpg
     linkedInProfile: 'https://www.linkedin.com/in/divya-dua-890107135/'
     name: Divya Dua
-    project: ' '
+    project: ' Mission Prerna'
   - bio: >-
       Divya holds a Bachelor's degree in Mathematics and Scientific Computing
       from IIT, Kanpur. She completed the Young India Fellowship from Ashoka
@@ -423,13 +424,13 @@ team:
       During her time as a CMGGA, she worked on strengthening the implementation
       of the Chief Minister's flagship programmes, improving citizen delivery
       services, and assisting the administration on various strategy projects
-      across multiple departments.\n\nHer belief that working with the
-      government is essential for driving change on the ground brought her to
-      Samagra.\n\n
+      across multiple departments. Her belief that working with the government
+      is essential for driving change on the ground brought her to Samagra.
+      Currently, she is part of the Mission Prerna team in Uttar Pradesh.
     image: /img/Shailiza.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shailiza-mayal-97a48279'
     name: Shailiza Mayal
-    project: Samarth
+    project: Mission Prerna
   - bio: >-
       Shifali holds a Bachelor's degree in Electronics and Communication
       Engineering from Amity School of Engineering & Technology and a Master's
@@ -592,10 +593,11 @@ team:
       with state governments on improving health and education outcomes by
       developing data-driven accountability tools. Her passion to create
       scalable and sustainable change by working with the government brought her
-      to Samagra. Currently she is part of the Saksham Haryana-Education team.
+      to Samagra. Currently, she is part of the Mission Prerna team in Uttar
+      Pradesh.
     image: /img/Yuganshi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
-    project: Saksham Haryana-Education
+    project: Mission Prerna
 ---
 
