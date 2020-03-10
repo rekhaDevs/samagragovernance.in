@@ -378,6 +378,22 @@ team:
     name: Prasanna A
     project: Creatives
   - bio: >-
+      Praveen holds Bachelor's degree in Chemical Engineering from Indian
+      Institute of Technology, Delhi. Before joining Samagra, he was working
+      with CARS24 as General Manager. He was part of the core strategy team and
+      played a pivotal role in setting up the consumer financing vertical at the
+      firm. Previously, he also worked with Indian Political Action Committee
+      (I-PAC) during the 2017 Punjab assembly elections.
+
+
+      A deep interest in socio-political issues and an opportunity to solve
+      complex governance problems which can create impact at scale brought
+      Praveen to Samagra.
+    image: /img/praveen.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/praveen-chauhan-a7b6401a/'
+    name: Praveen Chauhan
+    project: Mission Prerna
+  - bio: >-
       Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College
       for Women, University of Delhi. An interest in creating social impact
       drove her to lead the research and development team of Enactus as part of
@@ -600,22 +616,6 @@ team:
     image: /img/Yuganshi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
-    project: Mission Prerna
-  - bio: >-
-      Praveen holds Bachelor's degree in Chemical Engineering from Indian
-      Institute of Technology, Delhi. Before joining Samagra, he was working
-      with CARS24 as General Manager. He was part of the core strategy team and
-      played a pivotal role in setting up the consumer financing vertical at the
-      firm. Previously, he also worked with Indian Political Action Committee
-      (I-PAC) during the 2017 Punjab assembly elections.
-
-
-      A deep interest in socio-political issues and an opportunity to solve
-      complex governance problems which can create impact at scale brought
-      Praveen to Samagra.
-    image: /img/praveen.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/praveen-chauhan-a7b6401a/'
-    name: Praveen Chauhan
     project: Mission Prerna
 ---
 
