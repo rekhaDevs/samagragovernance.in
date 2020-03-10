@@ -369,8 +369,10 @@ team:
       College, Thanjavur. He has worked extensively in the consulting and
       investment banking industries and produced high-end business-to-business
       and consumer-facing designs. He has worked with one of the Big 3
-      Consulting firms and two of the top-10 Investment Banking companies.\n\nHe
-      works as a graphics designer at Samagra.
+      Consulting firms and two of the top-10 Investment Banking companies.
+
+
+      Prasanna manages all creatives for Samagra.
     image: /img/Prasanna.jpg
     linkedInProfile: 'https://www.linkedin.com/in/a-lourdu-pownraj-prasanna-786a1a132'
     name: Prasanna A
