@@ -29,11 +29,13 @@ partners:
       ADAPT is a partnership between the Government of Odisha, Bill & Melinda
       Gates Foundation and Samagra.
     image: /img/BMGF_Logo.jpg
+  - description: Central Square Foundation supports Samagra's Mission Prerna engagement.
+    image: /img/CSF.jpg
   - description: >-
       Michael & Susan Dell Foundation supports Samagra's education and
       employment engagements.
     image: /img/MSDF.jpg
-  - description: Omidyar supports Samagra's Skill India engagement
+  - description: Omidyar supports Samagra's Skill India engagement.
     image: /img/resized-on-logo.png
   - description: >-
       HeroMotoCorp is collaborating with Samagra as part of Digital Haryana to

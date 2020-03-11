@@ -1,13 +1,12 @@
 ---
 templateKey: project-post
 title: Samarth
-fullName: Samarth Himachal Pradesh
+fullName: Samarth
 id: SAMARTH
 backgroundCover: /img/samarth-header-bg.jpg
 domain: Education
 subTitle: Samagra
 state: Himachal Pradesh
-keyInitiativesTitle: Key Initiatives
 tagLine: Transforming the government school system in Himachal Pradesh
 projectLogoWithState: /img/samarth-logo.png
 overview:
@@ -52,6 +51,7 @@ impact:
     label: students in Grades 1 to 5 grade-competent
   - count: '3,000+'
     label: state officials use a mobile app for monitoring schools
+keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
       text: >-

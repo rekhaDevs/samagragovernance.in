@@ -22,8 +22,8 @@ overview:
       Antyodaya Saral allows a citizen to apply for more than 500 schemes and
       services across 36 Government Departments. Besides the online platform,
       there are 115 physical touchpoints called Saral Kendras which provide the
-      same services, besides Common Service Centres across more than 6,000
-      villages in Haryana.
+      same services, and Common Service Centres across more than 6,000 villages
+      in Haryana.
 scale:
   - count: '36'
     label: Government Departments
