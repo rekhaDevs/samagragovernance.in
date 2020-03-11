@@ -12,8 +12,8 @@ export const FooterPageTemplate = ({data}) => {
 }
 
 const FooterPage = ({data}) => {
-    const {markdownRemark: post} = data;
 
+    console.log(data);
     return (
         <FooterComponent/>
     )

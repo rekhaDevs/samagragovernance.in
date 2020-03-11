@@ -24,26 +24,6 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
-  - actionName: Upload
-    label: Upload Resume
-    placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)'
-    questions: []
-    required: true
-    type: file
-    validation: VALID_FILE
-  - actionName: Upload
-    label: Statement of Purpose
-    placeholder: >-
-      Upload a PDF containing separate answers to the following two questions
-      (Filename: SOP_Firstname Lastname):
-    questions:
-      - text: Q1. How does Samagra align with your goals? (max 200 words)
-      - text: >-
-          Q2. Why do you believe yourself to be a good fit for Samagra? (max 300
-          words)
-    required: true
-    type: file
-    validation: VALID_FILE
   - label: Undergraduate Institute
     options: []
     otherOptionAvailable:
@@ -54,29 +34,40 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
-  - label: Current College
+  - label: Post Graduate Institute
     options:
+      - text: Not Applicable
+      - text: Ashoka University
+      - text: Birla Institute of Technology and Science
+      - text: College of Business Studies
       - text: Columbia University
-      - text: 'Columbia University, School of International and Public Affairs'
-      - text: Harvard University
-      - text: 'Harvard University, Harvard Business School'
-      - text: 'Harvard University, Harvard Graduate School of Education'
-      - text: 'Harvard University, Harvard Kennedy School'
+      - text: Delhi College of Engineering
+      - text: Faculty of Management Studies
+      - text: Harvard Kennedy School
+      - text: IIIT Hyderabad
+      - text: IIM Ahemdabad
+      - text: IIM Bangalore
+      - text: IIM Calcutta
+      - text: IIT Bombay
+      - text: IIT Delhi
+      - text: IIT Kanpur
+      - text: IIT Kharagpur
+      - text: IIT Madras
+      - text: IIT Roorkee
+      - text: IIT(ISM) Dhanbad
+      - text: Indian School of Business
+      - text: Lady Shri Ram College
+      - text: Lee Kuan Yew School of Public Policy
+      - text: National Law School of India University
+      - text: National University of Juridical Sciences
       - text: Princeton University
-      - text: >-
-          Princeton University, Woodrow Wilson School of Public and
-          International Affairs
-      - text: University of Pennsylvania
-      - text: 'University of Pennsylvania, The Wharton School'
+      - text: Shri Ram College of Commerce
       - text: Yale University
-      - text: 'Yale University, Graduate School of Arts and Sciences'
-      - text: 'Yale University, Jackson Institute for Global Affairs'
-      - text: 'Yale University, Yale School of Management'
     otherOptionAvailable:
       activateOn: Others
-      label: College Name
-      placeholder: College Name
-    placeholder: Current College
+      label: PG Institute Name
+      placeholder: Institute Name
+    placeholder: Select Institute
     required: true
     type: select
     validation: VALID_OPTION
@@ -100,5 +91,43 @@ formsElements:
     required: false
     type: text
     validation: VALID_LINK
+  - actionName: Upload
+    label: Upload Resume
+    placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)'
+    questions: []
+    required: true
+    type: file
+    validation: VALID_FILE
+  - actionName: Upload
+    label: Statement of Purpose
+    placeholder: >-
+      Upload a PDF containing separate answers to the following two questions
+      (Filename: SOP_Firstname Lastname):
+    questions:
+      - text: Q1. How does Samagra align with your goals? (max 200 words)
+      - text: >-
+          Q2. Why do you believe yourself to be a good fit for Samagra? (max 300
+          words)
+    required: true
+    type: file
+    validation: VALID_FILE
+  - label: Where did you hear about Samagra?
+    options:
+      - text: Word of Mouth
+      - text: Samagra Team Member
+      - text: LinkedIn
+      - text: Samagra Website
+      - text: Campus Placements
+      - text: Recruitment Agency
+      - text: Facebook
+    otherOptionAvailable:
+      activateOn: Other
+      label: Other
+      placeholder: Other
+    placeholder: >-
+      Upload a PDF containing separate answers to the following two questions
+      (Filename: SOP_Firstname Lastname):
+    required: true
+    type: radio
+    validation: VALID_OPTION
 ---
-

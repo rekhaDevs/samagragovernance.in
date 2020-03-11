@@ -4,7 +4,7 @@ import React from "react";
 import {ProjectPostTemplate} from "../../templates/project-post";
 import {CareerPagePreviewTemplate} from "../../templates/careers-page";
 const CareerPagePreview = ({entry, getAsset}) => {
-    const data = entry.getIn(['data']).toJS()
+    const data = entry.getIn(['data']).toJS();
     if (data) {
         return (
             <CareerPagePreviewTemplate careerPageContent={data}/>
@@ -12,7 +12,7 @@ const CareerPagePreview = ({entry, getAsset}) => {
     } else {
         return <div>Loading...</div>
     }
-}
+};
 
 CareerPagePreview.propTypes = {
     entry: PropTypes.shape({

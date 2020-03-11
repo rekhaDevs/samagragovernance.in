@@ -6,7 +6,6 @@ import {JoinUsPreviewTemplate} from "../../templates/joinus-page";
 
 const JoinUsPreview = ({entry, getAsset}) => {
     const data = entry.getIn(['data']).toJS();
-    console.log('data->JoinUsPreview', data);
     if (data) {
         return (
             <JoinUsPreviewTemplate
