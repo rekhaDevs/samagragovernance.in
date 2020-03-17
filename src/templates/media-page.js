@@ -6,7 +6,7 @@ import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import MediaRoll from "../components/MediaRoll";
-import backgroundImage from "../img/blog-header-bg.jpg";
+import backgroundImage from "../img/media-header-1.jpg";
 
 
 export const MediaPagePreviewTemplate = ({mediaPageContent}) => {
