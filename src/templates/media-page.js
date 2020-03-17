@@ -6,6 +6,7 @@ import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import MediaRoll from "../components/MediaRoll";
+import backgroundImage from "../img/blog-header-bg.jpg";
 
 
 export const MediaPagePreviewTemplate = ({mediaPageContent}) => {
@@ -14,7 +15,7 @@ export const MediaPagePreviewTemplate = ({mediaPageContent}) => {
             <div className={'home-top-slider-wrapper media-page-banner'}
                  style={{
                      height: '600px',
-                     backgroundImage: `url(https://api.samagragovernance.in/blog/blog-header-bg.jpg)`
+                     backgroundImage: `url(${backgroundImage})`
                  }}>
                 <div className="translucent-dark-overlay" style={{height: 'auto'}}>
                 </div>
