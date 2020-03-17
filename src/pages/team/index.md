@@ -550,6 +550,20 @@ team:
     name: Sunny Roy Kolla
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Tanvi holds a Bachelor’s degree in Computer Engineering from Netaji Subhas
+      Institute of Technology, New Delhi. Before joining Samagra, she was
+      working with the Proprietary Data Operations practice at Bain and Company,
+      primarily helping in creating one of Bain’s first data businesses. 
+
+
+      An opportunity to work on governance challenges from an implementation
+      perspective brought Tanvi to Samagra. Currently, she is part of the Skill
+      India engagement. 
+    image: /img/tanvi.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/tanvi-sharma-156a95100/'
+    name: Tanvi Sharma
+    project: Skill India
+  - bio: >-
       Ujjwal holds a Bachelor's degree in Computer Engineering from Netaji
       Subhas Institute of Technology. She worked with Microsoft and Directi
       before pursuing the Young India Fellowship. During the Fellowship, she got

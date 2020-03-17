@@ -1,0 +1,29 @@
+---
+templateKey: blog-post
+title: 'Incentivising merit: The missing link in government school transformation'
+author: Yuganshi Sharma
+projectId: Saksham Haryana-Education
+authorImage: /img/Yuganshi.jpg
+date: 2020-03-17T05:55:37.743Z
+description: >-
+  States should revisit their scholarships framework for government schools,
+  increase the spend on merit-based scholarships and make them aspirational
+featuredimage: /img/saksham-key-initiatives-third-party-assessment.png
+---
+On a visit to Babain in Kurukshetra district in Haryana, as I was interacting with students in Class 8, I met Rani. A shy 13 year-old, she proudly told me that she was chosen as the Class Monitor because she is the topper of the class. She went on to tell me that she plans on topping the class again this year to ensure she remains the monitor next year as well. When I spoke to Rani’s teacher he told me that she is one of the best-performing students in the school and could go on to have a bright future.
+
+Rani’s motivation to do well in school--becoming the class monitor--got me thinking about the support millions of students like Rani need in order to truly realize their potential. Over the last two decades, the Centre and states have done much to ensure equitable access to education. Through systemic reforms such as streamlining teacher transfers, teacher training, remedial classes, academic mentoring, states like Haryana and Himachal Pradesh have made great strides in improving the overall quality of education provided in government schools and bridging the learning gap students have developed over previous years. However, across states few measures are being taken to support and encourage the best-performing students to aspire for more ambitious goals. 
+
+If provided with the right tools these students can excel at school and beyond. Most of these students are first-generation learners which makes it even more important to provide them with the necessary resources be it in the form of funds or private coaching in order to help them achieve their goals successfully. If these children do well, it will make others in the community cognizant of the importance of educating their children as well as motivate their peers to do their best at school. In essence, the support provided to one promising student can have a positive multiplier effect.   
+
+Each state government in India runs its own schemes to provide scholarships and stipends to government school students. However, these schemes tend to be skewed towards need-based scholarships rather than merit-based ones. The underlying belief is that students need monetary support only to stay enrolled in school. For example, in Haryana, the Department of School Education alone spends nearly Rs 330 crore on scholarships and stipends. Most of these schemes target the economically weaker sections of the society and provide them with financial incentives aimed at encouraging them to continue their education. While this support is necessary, it doesn’t adequately help meritorious students. 
+
+From the Rs 330 crore that Haryana spends on scholarships and stipends, only Rs 3.5 crore is spent on scholarships that are purely merit-based. Further broken down, the scholarship amount given to class toppers in middle school under one of these merit-based scholarships is Rs 750 per year only. While this scholarship is sizeable in terms of the number of students it covers, the monetary support it provides doesn’t make students aspire towards receiving it. Even if a student were to receive this scholarship every year class Grade 6th to 12th, she would only be able to save around Rs 5,000 over six years. This amount is negligible when compared to what private coaching centers or what some colleges in India charge as fees. Even government universities such as University of Delhi charge at least 10,000 per annum as fees. 
+
+It is also important to note here that there do exist prestigious government scholarships such as NTSE which provide monetary support to meritorious students. However, these scholarships are open to students of both private and government schools. Given that private school students have access to better learning resources, more often than not, the recipients of these scholarships also tend to be predominantly from private schools.
+
+It is therefore imperative that states revisit their scholarships framework for government school students, increase the spend on merit-based scholarships and make them aspirational. States such as Haryana, Assam, Delhi and Himachal Pradesh have started launching comprehensive support programmes for meritorious students in their states. While some have introduced monetary incentives, others have launched coaching programmes. 
+
+For instance, last year, the Haryana Chief Minister announced the CM Saksham Scholarship worth Rs 12 crore for government school students who perform well. Under this scholarship, a student who performs consistently well in classes 6th to 12th can accumulate upto Rs 75,000 in scholarship amount. The state is also running a Super 100 programme that provides free residential coaching for engineering/ medical entrance exams to 100 students from all over the state. In Himachal Pradesh, students who secure admissions in prestigious engineering/ medical/ management colleges are being awarded a lump sum amount of Rs 75,000. Assam on the other hand has been running the Chief Minister’s Special Scholarship, a merit-based scholarship given to students of Class V and VIII whereby one lakh meritorious students get Rs 5,000 on clearing a written examination. There are many more such examples in the country that can be looked upon for inspiration. 
+
+Overall, while these programmes may only impact a small number of children, their success stories could prove catalytic for making any public school transformation programme a success.
