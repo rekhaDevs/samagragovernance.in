@@ -44,6 +44,10 @@ approach:
       accountability initiatives such as cascaded review and monitoring
       mechanisms and third-party assessments, to keep track of progress and
       carry out timely corrective action.
+readMore:
+  - text: >-
+      The Uttar Pradesh government is revolutionising primary education in the
+      state
 keyInitiativesTitle: ' '
 ---
 
