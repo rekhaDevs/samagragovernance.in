@@ -6,41 +6,25 @@ projectId: Saksham Haryana - Skills & Employment
 authorImage: /img/Divya-A.jpg
 date: 2020-03-20T11:49:33.339Z
 description: >-
-  30,000 students graduate from the ITIs of Haryana every year, sit for
+  35,000 students graduate from the ITIs of Haryana every year, sit for
   interviews but either do not join the firm that selects them or if they do,
   don’t continue in the job for long.
 featuredimage: /img/samagragovernance_iti.jpg
 ---
 Mohan Bhargava is a 21-year-old Industrial Training Institute (ITI) graduate from the Rohtak district of Haryana. He got enrolled in the  electrician course in his district ITI about two years back. ITIs provide skill training through one or two year vocational courses in trades such as carpenter, painter and computer operator, among various others. Typically, tenth pass students apply to ITIs.
 
-
-
-“I was looking for a job early in my career after finishing school and hence went for an ITI degree,” says Mohan when asked about his rationale for choosing a professional skilling degree. He graduated from the ITI about a year back but is still unemployed, despite several  companies visiting his ITI for recruitment. Mohan applied to four of them and got selected by two. But he did not join either. Like Mohan, 30,000 other students graduate from the ITIs of Haryana every year, sit for interviews but either do not join the firm that selects them or if they do, don’t continue in the job for long. These students are part of 21% of the youth of Haryana who are currently unemployed. Haryana has the highest youth (15-29 years) unemployment rate in India (Source: PLFS Report 2019) and solving this conundrum is critical to increasing employment in the state.
-
-
+“I was looking for a job early in my career after finishing school and hence went for an ITI degree,” says Mohan when asked about his rationale for choosing a professional skilling degree. He graduated from the ITI about a year back but is still unemployed, despite several  companies visiting his ITI for recruitment. Mohan applied to four of them and got selected by two. But he did not join either. Like Mohan, 35,000 other students graduate from the ITIs of Haryana every year, sit for interviews but either do not join the firm that selects them or if they do, don’t continue in the job for long. These students are part of 21% of the youth of Haryana who are currently unemployed. Haryana has the highest youth (15-29 years) unemployment rate in India (Source: PLFS Report 2019) and solving this conundrum is critical to increasing employment in the state.
 
 To diagnose the issue, let’s start with some data points: Typically, of the 100 ITI students who apply at campus placements, 30 are selected, out of which only 10 join the company, and almost no student ends up continuing after three months. In other words, <1% of students finally join after the application stage. To understand the problem further, let us look at Mohan’s journey and the choices he made to become a skilled electrician. 
 
-
-
 When Mohan entered the ITI, he had no clarity on his career path. Though he learned the basics of the electrician course in the classroom, with limited industrial exposure he could not comprehend what his next step should be or how to assess opportunities for professional growth. Also, there was no mentor he could discuss these questions with or ask for advice. When he eventually received two job offers, he was dissatisfied with both either because the job profile was irrelevant to his training or the salary was less than Rs 10,000 a month and in Gurugram, which was far from Rohtak. Every year, almost all ITI graduates end up going through a similar process and do not join due to low salary, distant location or strenuous timings. This mismatch between student aspiration and what the industry offers fuels the high proportion of unemployed youth in the state. 
-
-
 
 As part of the Saksham Haryana-Skills and Employment engagement, we are working with the Government of Haryana to increase the placement rate of ITI graduates in the state to 50%. To achieve this target, we are using a dual approach--training students to increase the joining rate and publicizing relevant job roles that meet the expectations of the students.
 
-
-
 To increase the joining rate it is important to change the mindset of students and then prepare them for jobs. Here, three elements come into play - motivation, awareness, and preparation. Students should be motivated through examples of ITI alumni who have gone on to have successful careers. Additionally, helping them chart out a clear two and five-year career plan could motivate them to take the next step. Awareness involves communicating information about available jobs and the procedure to apply for them. And finally, preparation entails coaching students in professional skills and the interview process. All these three pieces collectively hold the promise of making private jobs more acceptable to ITI graduates and eventually kick starting their careers. Now the question is, how can students be trained on these three elements?
-
-
 
 There are two ways - in-person training through regular or concentrated workshops, or online training courses via WhatsApp and Youtube. The former is more personal and is ideal for covering topics in-depth while the latter helps in providing continuous training to   a large number of students easily. A combination of both  is ideal. The Government of Haryana has initiated both in-person and online training. The government has partnered with two organizations that specialise in training master trainers who can further work with students to bring about a change in their mindset. Almost one-third of the 170 ITIs have already been covered under this initiative. Simultaneously, the state also started a rigorous training course on WhatsApp, which has a reach of 13,000 students currently. The ITI trainers, who specialize in imparting these skills, are the intermediaries giving training workshops to students as well as forwarding messages to students on WhatsApp. 
 
-
-
 To bring relevant job roles, partnering with an online job application partner is an idea the government is exploring.  The rationale here is  that ITI students could make profiles on the online job portal and apply for the jobs that are most in alignment with their preference of salary, location and job description. The Government of Haryana is currently in the process of  joining hands with such a partner and has initiated an online placement drive.
-
-
 
 With these interventions, the state government is  making meaningful strides  towards achieving the 50% target that has been set for ITI placements this year. Improved student motivation and professional clarity will be big wins and can act as catalysts for higher placements. WhatsApp courses are already gaining traction with many students accessing the training material daily.  As you read this, thousands of students are reading the content related to behavioural skills sent to them on their ITI WhatsApp group.
