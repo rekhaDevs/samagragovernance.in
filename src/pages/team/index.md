@@ -164,6 +164,22 @@ team:
     name: Anshul Chaudhary
     project: Saksham Haryana-Education
   - bio: >-
+      Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
+      College of Engineering and Technology and an MTech in Structural
+      Engineering (Civil) from the IIT, Delhi. Prior to Samagra, he was working
+      with an IoT start up, CarSense, as a Senior Software Developer. Before
+      that he held the position of Assistant Professor at Amity University,
+      Gurugram where he taught Civil and Structural Engineering.
+
+
+      His belief that employing technological tools can lead to better
+      governance and improve the lives of citizens brought him to Samagra.
+      Currently he is part of the Tech@Samagra team.
+    image: /img/Chakshu.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/chakshu-gautam-6918736b/'
+    name: Chakshu Gautam
+    project: Tech@Samagra
+  - bio: >-
       Chirag holds a Bachelor's degree in Chemical Engineering from IIT, Bombay.
       He worked as an analytics consultant with Fractal Analytics before
       becoming a tech entrepreneur. Chirag started a company in the travel
@@ -523,19 +539,19 @@ team:
     project: DHC
   - bio: >-
       Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of
-      Commerce, Universityof Delhi. Previously, he has worked with KPMG to
+      Commerce, University of Delhi. Previously, he has worked with KPMG to
       provide integrity intelligence for M&A transactions to Fortune 500
       companies and Private Equities. Prior to Samagra, he worked as the Senior
       Research Associate (Team Lead) at Pratham where he set up and built a
       Monitoring, Measurement & Evaluation team of over 60 people across 17
       states with the mandate to design and manage the implementation of
-      standardized measurements across Pratham's flagship Read India
-      programme.\n\nHis passion to transform citizen-government experiences at
-      scale brought him to Samagra. Currently he leads the Samagra Tech team.
+      standardized measurements across Pratham's flagship Read India programme.
+      His passion to transform citizen-government experiences at scale brought
+      him to Samagra. Currently he leads the Tech@Samagra team.
     image: /img/Sukhpreet.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sukhpreetsekhon'
     name: Sukhpreet Sekhon
-    project: Samagra Tech
+    project: Tech@Samagra
   - bio: >-
       Sunny holds a Bachelor's degree in Electrical Engineering from Vellore
       Institute of Technology and a Master's in Public Policy and Governance
@@ -627,7 +643,7 @@ team:
       scalable and sustainable change by working with the government brought her
       to Samagra. Currently, she is part of the Mission Prerna team in Uttar
       Pradesh.
-    image: /img/Yuganshi.jpg
+    image: /img/Chakshu.jpg
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
     project: Mission Prerna
