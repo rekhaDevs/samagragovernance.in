@@ -643,7 +643,7 @@ team:
       scalable and sustainable change by working with the government brought her
       to Samagra. Currently, she is part of the Mission Prerna team in Uttar
       Pradesh.
-    image: /img/Chakshu.jpg
+    image: /img/Yuganshi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
     project: Mission Prerna
