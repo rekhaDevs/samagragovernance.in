@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: There is a demand side problem fuelling unemployment in Haryana | Here's why
+title: The unique unemployment problem in Haryana
 author: Divya Ahuja
 projectId: Saksham Haryana - Skills & Employment
 authorImage: /img/Divya-A.jpg
