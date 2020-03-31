@@ -58,10 +58,13 @@ formsElements:
       - text: Indian School of Business
       - text: Lady Shri Ram College
       - text: Lee Kuan Yew School of Public Policy
+      - text: London School of Economics & Political Science (LSE)
       - text: National Law School of India University
       - text: National University of Juridical Sciences
       - text: Princeton University
       - text: Shri Ram College of Commerce
+      - text: University of Cambridge
+      - text: University of Oxford
       - text: Yale University
     otherOptionAvailable:
       activateOn: Others
@@ -131,3 +134,4 @@ formsElements:
     type: radio
     validation: VALID_OPTION
 ---
+
