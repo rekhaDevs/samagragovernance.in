@@ -592,6 +592,19 @@ team:
     name: Ujjwal Relan
     project: DHC
   - bio: >-
+      Umang holds a Bachelor's degree in Information Technology from Punjab
+      Engineering College. He was previously working as a software engineer with
+      CaaStle, focused on Android development and R&D. Before joining Samagra,
+      he worked with Paytm as a Senior Software Engineer.
+
+
+      An opportunity to leverage the power of technology to transform governance
+      brought Umang to Samagra. Currently he is part of the Tech@Samagra team.
+    image: /img/umang_ctt.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/umang-bhola-194b6686/'
+    name: Umang Bhola
+    project: Tech@Samagra
+  - bio: >-
       Utkarsh holds a Bachelor's degree in Computer Science Engineering from
       NIT, Jalandhar in Computer Science Engineering. Previously, he has worked
       as Technology Consultant with Indus Valley Partners and Boston Consulting
