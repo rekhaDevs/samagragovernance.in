@@ -428,10 +428,10 @@ team:
     project: ADAPT
   - bio: >-
       Raju worked with Punj Lloyd as a administrative assistant in Libya, and
-      with Walt Disney as a Office Coordinator.\n\nHe works with Samagra as
-      Office Manager.
+      with Walt Disney as a Office Coordinator. He manages the daily
+      administrative operations of the Samagra office.
     image: /img/Raju.jpg
-    linkedInProfile: NA
+    linkedInProfile: ' '
     name: Raju Ram
     project: NA
   - bio: >-
