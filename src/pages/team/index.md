@@ -435,6 +435,16 @@ team:
     name: Raju Ram
     project: NA
   - bio: >-
+      Sanchita holds a Bachelor's degree in Home Science from Lady Irwin
+      college. Previously, Sanchita was working as Executive Assistant to the
+      Managing Director of Twitter India. An opportunity to contribute to
+      Samagra’s vision of transforming governance and improving the lives of
+      citizens brought her to Samagra. She is the firm's Office Manager.
+    image: /img/edited_sanchita.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/sanchita-dasgupta-4587a712/'
+    name: Sanchita Dasgupta
+    project: Office Manager
+  - bio: >-
       Sagari holds a Bachelor's and Master's degree in Environmental Engineering
       from Delhi Technological University and Stanford University, respectively.
       After graduating from Stanford, she worked at Geosyntec Consultants, an
