@@ -66,6 +66,10 @@ const Navbar = class extends React.Component {
               </Link>
               <ul className={'nav justify-content-end'}>
                 <HeaderDropdown/>
+
+                <li>
+                  <a className="nav-link" href="https://tech.samagragovernance.in">TECH</a>
+                </li>
                 <li>
                   <Link to={'/team'}><a className="nav-link" href="/team">TEAM</a></Link>
                 </li>
