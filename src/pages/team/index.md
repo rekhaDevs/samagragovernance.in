@@ -33,12 +33,12 @@ team:
       Australia, US and New Zealand. Ankur's belief that governance is the most
       effective lever of change in India led him to move back to the country and
       co-found Samagra. He has been instrumental in driving Samagra's journey
-      and growth both as an organisation and the impact it has been able to
-      create
+      and growth, both as an organisation and the impact it has been able to
+      create.
     image: /img/Ankur.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankurbansal1/'
     name: Ankur Bansal
-    project: Co-founder
+    project: Co-Founder
   - bio: >-
       Rahul is Technology Expert at Samagra. He holds a Master's degree in
       Engineering from Georgia Tech. Previously, he worked as a Product Manager
