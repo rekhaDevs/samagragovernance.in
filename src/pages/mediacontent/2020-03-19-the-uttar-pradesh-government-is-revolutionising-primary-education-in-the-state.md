@@ -8,7 +8,7 @@ author: Shantanu Gupta
 link: >-
   https://theprint.in/opinion/look-beyond-adityanaths-saffron-robe-his-govt-is-revolutionising-ups-primary-education/383509/
 tag: Mission Prerna
-displayOnHomePage: true
+displayOnHomePage: false
 image: /img/samagragovernance_missionprerna.jpg
 ---
 
