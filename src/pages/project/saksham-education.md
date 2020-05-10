@@ -3,7 +3,7 @@ templateKey: project-post
 title: Saksham Haryana - Education
 fullName: Saksham Haryana - Education
 id: SAKSHAM_EDUCATION
-backgroundCover: /img/saksham-header-bg.jpg
+backgroundCover: /img/saksham-header-b-1.jpg
 domain: Education
 subTitle: Transforming the government school system in Haryana
 state: Haryana
