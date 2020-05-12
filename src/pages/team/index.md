@@ -422,6 +422,22 @@ team:
     name: Raju Ram
     project: NA
   - bio: >-
+      Saloni holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, Delhi University. Before joining Samagra, she worked as a
+      Legislative Assistant to a Member of Parliament (LAMP Fellow 2019-20). Her
+      work primarily involved parliamentary research and interventions in a
+      multitude of areas such as economics, education, and infrastructure, among
+      others. 
+
+
+      Having understood the public policy ecosystem, the prospect of working at
+      scale and seeing how those policies get implemented on ground brought
+      Saloni to Samagra. Currently, she is part of the Samarth team.
+    image: /img/saloni.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/saloni-chaudhry-8b331a147/'
+    name: Saloni Chaudhry
+    project: Samarth
+  - bio: >-
       Sanchita holds a Bachelor's degree in Home Science from Lady Irwin
       college. Previously, Sanchita was working as Executive Assistant to the
       Managing Director of Twitter India. An opportunity to contribute to
@@ -657,21 +673,5 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
     project: Mission Prerna
-  - bio: >-
-      Saloni holds a Bachelor's degree in Commerce from Shri Ram College of
-      Commerce, Delhi University. Before joining Samagra, she worked as a
-      Legislative Assistant to a Member of Parliament (LAMP Fellow 2019-20). Her
-      work primarily involved parliamentary research and interventions in a
-      multitude of areas such as economics, education, and infrastructure, among
-      others. 
-
-
-      Having understood the public policy ecosystem, the prospect of working at
-      scale and seeing how those policies get implemented on ground brought
-      Saloni to Samagra. Currently, she is part of the Samarth team.
-    image: /img/saloni.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/saloni-chaudhry-8b331a147/'
-    name: Saloni Chaudhry
-    project: Samarth
 ---
 
