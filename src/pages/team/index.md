@@ -432,7 +432,8 @@ team:
 
       Having understood the public policy ecosystem, the prospect of working at
       scale and seeing how those policies get implemented on ground brought
-      Saloni to Samagra. Currently, she is part of the Samarth team.
+      Saloni to Samagra. Currently, she is part of the Samarth team in Himachal
+      Pradesh.
     image: /img/saloni.jpg
     linkedInProfile: 'https://www.linkedin.com/in/saloni-chaudhry-8b331a147/'
     name: Saloni Chaudhry
