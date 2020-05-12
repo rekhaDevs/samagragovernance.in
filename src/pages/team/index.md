@@ -220,19 +220,6 @@ team:
     name: Divya Dua
     project: ' Mission Prerna'
   - bio: >-
-      Divya holds a Bachelor's degree in Mathematics and Scientific Computing
-      from IIT, Kanpur. She completed the Young India Fellowship from Ashoka
-      University. As a student she worked with various social sector
-      organisations. She also holds a Professional Diploma in Movement Art from
-      the Attakkalari Centre for Movement Arts, Bengaluru.\n\nSamagra's
-      commitment to both scale and tangible impact by working with the
-      government brought her here. Currently she is part of the Samarth team in
-      Himachal Pradesh.
-    image: /img/Divya-G.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/divya-goel-64122365'
-    name: Divya Goel
-    project: Samarth
-  - bio: >-
       Gayatri holds a Bachelor's degree in Economics and Political Science from
       St Stephen's College, University of Delhi and a Post-Graduate Diploma in
       Journalism from the Asian College of Journalism, Chennai. She also has a
@@ -670,5 +657,21 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
     project: Mission Prerna
+  - bio: >-
+      Saloni holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, Delhi University. Before joining Samagra, she worked as a
+      Legislative Assistant to a Member of Parliament (LAMP Fellow 2019-20). Her
+      work primarily involved parliamentary research and interventions in a
+      multitude of areas such as economics, education, and infrastructure, among
+      others. 
+
+
+      Having understood the public policy ecosystem, the prospect of working at
+      scale and seeing how those policies get implemented on ground brought
+      Saloni to Samagra. Currently, she is part of the Samarth team.
+    image: /img/saloni.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/saloni-chaudhry-8b331a147/'
+    name: Saloni Chaudhry
+    project: Samarth
 ---
 
