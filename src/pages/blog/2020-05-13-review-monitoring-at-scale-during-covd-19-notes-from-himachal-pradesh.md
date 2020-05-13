@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Review & Monitoring at scale during Covd-19: Notes from Himachal Pradesh'
+title: 'Review & Monitoring at scale during Covid-19: Notes from Himachal Pradesh'
 author: Kushal Agarwal
 projectId: Samarth
 authorImage: /img/kushal.jpg
