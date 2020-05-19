@@ -24,7 +24,7 @@ Under [Saksham Haryana](https://www.samagragovernance.in/project/saksham-educati
 
 Students and parents are sending images of daily homework to teachers on WhatsApp, which is being checked and sent back with feedback. In addition, several government school teachers have taken the initiative of conducting classes using video conferencing tools such as Zoom and Facebook Live and conducting assessments using Google Forms. Owing to this direct contact, parents now receive regular updates about their child’s education and performance. 
 
-![](/img/sagari-blog__01__01.png)
+![](/img/sagari-blog_small.png)
 
 This new system of remote schooling, set up as a stop-gap arrangement, has certain critical elements which can continue to strengthen public education in the medium to long term. 
 
