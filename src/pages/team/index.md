@@ -231,7 +231,7 @@ team:
       security issues, primarily focused on the Indian subcontinent. An
       opportunity to work at the intersection of public policy and communication
       brought her to Samagra.
-    image: /img/Gayatri.jpg
+    image: /img/gayatri-c.jpg
     linkedInProfile: 'https://www.linkedin.com/in/gayatri-chandrasekaran-17a25590'
     name: Gayatri Chandrasekaran
     project: Communications Strategy
