@@ -24,7 +24,7 @@ Under [Saksham Haryana](https://www.samagragovernance.in/project/saksham-educati
 
 Students and parents are sending images of daily homework to teachers on WhatsApp, which is being checked and sent back with feedback. In addition, several government school teachers have taken the initiative of conducting classes using video conferencing tools such as Zoom and Facebook Live and conducting assessments using Google Forms. Owing to this direct contact, parents now receive regular updates about their child’s education and performance. 
 
-![](/img/sagari-blog_small1.png)
+![](/img/sagari-blog_small1.png "A WhatsApp conversation between students and teachers")
 
 
 
