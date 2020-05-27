@@ -27,6 +27,7 @@ export const HomeNewsSection = ({data}) => {
     );
     const {allMarkdownRemark: mediaPageContent} = data;
     const media = mediaPageContent.edges;
+    console.log(media);
     return (
         <div className={'home-news-section-wrapper'}>
             <div className={'title'}>
@@ -68,7 +69,7 @@ export default () => (
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           limit: 3
-          filter: { frontmatter: { templateKey: { eq: "media-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "media-post" } , displayOnHomePage: {eq: true} } }
         ) {
           edges {
             node {
