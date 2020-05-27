@@ -601,7 +601,7 @@ team:
       the gaps in Indian governance first-hand.\n\nAn opportunity to drive
       impact at scale through good governance brought her to Samagra. Currently
       she leads the Digital Haryana Cell.
-    image: /img/Ujjwal.jpg
+    image: /img/ujjwal_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
     project: DHC
