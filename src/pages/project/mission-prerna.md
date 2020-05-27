@@ -45,6 +45,10 @@ approach:
       mechanisms and third-party assessments, to keep track of progress and
       carry out timely corrective action.
 readMore:
+  - text: UP govt pushes massive education reform programmes
+  - text: >-
+      CM Adityanath’s 5-step plan for UP students under lockdown that other
+      states can emulate
   - text: >-
       The Uttar Pradesh government is revolutionising primary education in the
       state
