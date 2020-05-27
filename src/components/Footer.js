@@ -88,7 +88,7 @@ export const FooterComponent = ({}) => {
             </div>
             <div className={'bottom-copyright-section'}>
                 © 2019 Samagra Development Associates Pvt. Ltd &nbsp;&nbsp; <a
-                href="http://api.dss.luezoid.com/downloads/Samagra_CSR_Policy.pdf" target="_">CSR</a>
+                href="https://drive.google.com/open?id=1bC1ZORDHlQSw1O-n8VT8DV5uunufxzAY" target="_">CSR</a>
             </div>
         </div>
     )
