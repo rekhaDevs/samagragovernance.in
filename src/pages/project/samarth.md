@@ -38,12 +38,12 @@ approach:
       mechanisms, ongoing mentoring and training support for teachers).
 readMore:
   - text: >-
+      ‘Har Ghar Pathshala’: How Himachal Govt Made Online Classrooms Accessible
+      as Schools Shut
+  - text: 'Lockdown lessons: India’s affordable private schools face a reckoning'
+  - text: >-
       Enabling technology in classrooms can have large impact on overall
       ecosystem
-  - text: >-
-      Using simple user-friendly technology, Himachal Pradesh revamps its
-      education processes, teacher training, and more
-  - text: 'The first 15 days at my first job: Why Samagra was the right choice'
 impact:
   - count: 1st
     label: state to ensure timely delivery of textbooks in 2016
