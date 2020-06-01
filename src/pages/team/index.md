@@ -176,7 +176,7 @@ team:
     name: Anshul Chaudhary
     project: Saksham Haryana-Education
   - bio: >-
-      Bharat has a Bachelor's degree in Computer Science from Thapar Institute
+      Bharat holds a Bachelor's degree in Computer Science from Thapar Institute
       of Engineering Technology. He has previously interned with SocialCops and
       worked with the Ministry of Rural Development on improving access to
       real-time data for legislators to drive better policymaking. He has always
