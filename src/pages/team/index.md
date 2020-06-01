@@ -289,6 +289,23 @@ team:
     name: Helen Creighton
     project: Saksham Haryana-Education
   - bio: >-
+      Juhi holds a Bachelor's degree in Civil Engineering from NIT Kurukshetra.
+      After working in the corporate space for about 10 months, she made the
+      switch to the development sector, joining the Teach For India fellowship.
+      During the two years of her fellowship,  she taught 70 students in a Delhi
+      government school which drew students from a low-income community. Before
+      joining Samagra, she worked with the Chief Minister's Good Governance
+      Associates programme, Haryana, both as a Deputy Manager and as an
+      Associate. Through the CMGGA programme she got an opportunity to engage
+      deeply with the governance system, both at the district and state level.
+      An opportunity to work on relevant and diverse problem statements and
+      create systemic impact by working closely with the government brought her
+      to Samagra. 
+    image: /img/juhi_.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/juhi-nijhawan-85010464/'
+    name: Juhi Nijhawan
+    project: Mission Prerna
+  - bio: >-
       Kalpesh holds a Dual Degree (Mining Engineering and MBA) from IIT, Indian
       School of Mines, Dhanbad. Previously, he worked as a Business Analyst at
       Analytics Quotient where he focused on building business development and
