@@ -88,7 +88,8 @@ team:
       Consulting LLP and Axis Bank. Abhishek wants to design and implement
       sustainable solutions to governance challenges by leveraging his
       consulting skills. An opportunity to create positive impact in the lives
-      of citizens by working with government brought him to Samagra. 
+      of citizens by working with government brought him to Samagra. Currently
+      he is part of the Saksham Haryana-Skills & Employment team.
     image: /img/abhishek_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/abhishek-singh-976b47141/'
     name: Abhishek Singh
@@ -181,7 +182,8 @@ team:
       real-time data for legislators to drive better policymaking. He has always
       been interested in the intersection of policy, governance and technology.
       A strong will to contribute to nation-building and interest in policy and
-      technology brought him to Samagra. 
+      technology brought him to Samagra. Currently he is part of the
+      Tech@Samagra team.
     image: /img/bharat_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bharat-kashyap-india/'
     name: Bharat Kashyap
@@ -300,7 +302,8 @@ team:
       deeply with the governance system, both at the district and state level.
       An opportunity to work on relevant and diverse problem statements and
       create systemic impact by working closely with the government brought her
-      to Samagra. 
+      to Samagra. Currently, she is part of the Mission Prerna team in Uttar
+      Pradesh.
     image: /img/juhi_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/juhi-nijhawan-85010464/'
     name: Juhi Nijhawan
@@ -612,7 +615,7 @@ team:
       Institute of Technology and a Master's in Public Policy and Governance
       from Tata Institute of Social Sciences. He has a worked with the
       Government of Andhra Pradesh, where he was part of the Vision Management
-      team that envisioned and designed an action plan for Vision 2029.\n\nThe
+      team that envisioned and designed an action plan for Vision 2029. The
       drive to create visible on-the-ground social impact brought him to
       Samagra. Currently he is part of the Saksham Haryana-Skills & Employment
       team.
