@@ -83,6 +83,17 @@ team:
     name: Abhay Singh
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Abhishek holds a Bachelor’s Degree in Chemical Engineering from IIT
+      Kanpur. He has previously interned at Reserve Bank of India, Intueri
+      Consulting LLP and Axis Bank. Abhishek wants to design and implement
+      sustainable solutions to governance challenges by leveraging his
+      consulting skills. An opportunity to create positive impact in the lives
+      of citizens by working with government brought him to Samagra. 
+    image: /img/abhishek_.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/abhishek-singh-976b47141/'
+    name: Abhishek Singh
+    project: Saksham Haryana-Skills & Employment
+  - bio: >-
       Akash holds a Bachelor's degree in Paper Technology from IIT Roorkee.
       Driven by an interest in understanding sectoral reforms in education, he
       joined the Teach For India fellowship. Teaching English and Social studies
@@ -164,6 +175,18 @@ team:
     name: Anshul Chaudhary
     project: Saksham Haryana-Education
   - bio: >-
+      Bharat has a Bachelor's degree in Computer Science from Thapar Institute
+      of Engineering Technology. He has previously interned with SocialCops and
+      worked with the Ministry of Rural Development on improving access to
+      real-time data for legislators to drive better policymaking. He has always
+      been interested in the intersection of policy, governance and technology.
+      A strong will to contribute to nation-building and interest in policy and
+      technology brought him to Samagra. 
+    image: /img/bharat_.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/bharat-kashyap-india/'
+    name: Bharat Kashyap
+    project: Tech@Samagra
+  - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
       Engineering (Civil) from the IIT, Delhi. Prior to Samagra, he was working
@@ -193,18 +216,6 @@ team:
     linkedInProfile: e i
     name: Chirag Bhandari
     project: CMGGA
-  - bio: >-
-      Divya holds Bachelor's degree in Commerce from Lady Shri Ram College for
-      Women. Previously, she has worked as an Analyst at KPMG India in the Deal
-      Advisory arm. Her interest in the development sector grew from short
-      stints in policy and social work in college.\n\nAn opportunity to create
-      real impact and build a career path in the social sector brought her to
-      Samagra. Currently she is part of the Saksham Haryana-Skills & Employment
-      team.
-    image: /img/Divya-A.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/divya-ahuja-86271188'
-    name: Divya Ahuja
-    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Divya holds a Master's degree in Public Policy from National Law School,
       Bangalore and a Bachelor's degree in Political Science from Kirorimal
