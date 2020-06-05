@@ -288,7 +288,7 @@ team:
     image: /img/Harsh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/harshgarg96'
     name: Harsh Garg
-    project: DHC
+    project: Digital Haryana Cell
   - bio: >-
       Helen holds a Bachelor's degree in Economics from the University of
       Cambridge. She worked in think tanks both in New Delhi and London before
@@ -587,7 +587,7 @@ team:
     image: /img/shubam.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bansalshubham09'
     name: Shubham Bansal
-    project: DHC
+    project: Digital Haryana Cell
   - bio: >-
       Suditi holds a Bachelor's degree in Computer Science from Vellore
       Institute of Technology. Her desire to work towards equal opportunity for
@@ -605,7 +605,7 @@ team:
     image: /img/Suditi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/suditi-bansal-722704152'
     name: Suditi Bansal
-    project: DHC
+    project: Digital Haryana Cell
   - bio: >-
       Sukanya holds a Bachelor’s degree in Economics from St. Stephen’s College,
       University of Delhi and has previously interned at Boston Consulting Group
@@ -666,13 +666,13 @@ team:
       Subhas Institute of Technology. She worked with Microsoft and Directi
       before pursuing the Young India Fellowship. During the Fellowship, she got
       a chance to work with government schools in Uttar Pradesh and experience
-      the gaps in Indian governance first-hand.\n\nAn opportunity to drive
-      impact at scale through good governance brought her to Samagra. Currently
-      she leads the Digital Haryana Cell.
+      the gaps in Indian governance first-hand. An opportunity to drive impact
+      at scale through good governance brought her to Samagra. Currently she
+      leads the Digital Haryana Cell engagement.
     image: /img/ujjwal_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
-    project: DHC
+    project: Digital Haryana Cell
   - bio: >-
       Umang holds a Bachelor's degree in Information Technology from Punjab
       Engineering College. He was previously working as a software engineer with
