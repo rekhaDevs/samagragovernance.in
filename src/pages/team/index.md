@@ -465,6 +465,18 @@ team:
     name: Raju Ram
     project: NA
   - bio: >-
+      Rhythm holds a Bachelor's degree in Mechanical Engineering from Indian
+      Institute of Technology, Kanpur. He has previously interned with Bajaj
+      Auto Ltd to develop indigenous technologies as a part of the Research and
+      Development team. Rhythm believes that improving governance mechanisms is
+      crucial for the progress of a developing nation like India. An opportunity
+      to make use of his volunteer experience and analytical abilities brought
+      him to Samagra.  
+    image: /img/rhythm.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/rhythmpathak/'
+    name: Rhythm Pathak
+    project: Digital Haryana Cell
+  - bio: >-
       Saloni holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, Delhi University. Before joining Samagra, she worked as a
       Legislative Assistant to a Member of Parliament (LAMP Fellow 2019-20). Her
