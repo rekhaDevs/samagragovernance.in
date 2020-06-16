@@ -2,10 +2,7 @@ import React, {useState} from "react";
 import {PrimaryButton} from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
 
-const service = {
-    baseUrl: 'http://api.samagragovernance.in/'
-};
-const fileUploadURL = 'https://us-central1-samagragovernance-in.cloudfunctions.net/api/image-upload';
+const fileUploadURL = 'https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/image-upload';
 // const fileUploadURL = service.baseUrl + 'image-upload';
 
 export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent}) => {
@@ -350,7 +347,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
 
                                     loaderKey['formSubmit'] = true;
                                     setLoaderKey(JSON.parse(JSON.stringify(loaderKey)));
-                                    axios.post('https://us-central1-samagragovernance-in.cloudfunctions.net/api/form-submit', reqObject, {headers: {'Content-Type': 'application/json'}})
+                                    axios.post('https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/form-submit', reqObject, {headers: {'Content-Type': 'application/json'}})
                                         .then(function (response) {
                                             setShowForm(false);
                                             setTimeout(() => {
