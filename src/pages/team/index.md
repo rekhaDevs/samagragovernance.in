@@ -3,7 +3,7 @@ templateKey: team-page
 title: Our Team
 bannerImage: /img/team-banner.JPG
 subTitle: >-
-  We are a growing team of 40+ professionals. Our consultants come from diverse
+  We are a growing team of 45+ professionals. Our consultants come from diverse
   backgrounds, united in their commitment to creating impact at scale.
 team:
   - bio: >-
@@ -169,23 +169,19 @@ team:
     name: Ankit Jain
     project: ' Mission Prerna'
   - bio: >-
-      Anshul holds a Bachelor's degree in engineering from Dr APJ Abdul Kalam
-      Technical University. Previously, he worked as a Consultant for MP from
-      Hyderabad, Asaduddin Owaisi and led the LEARN project focused on
-      first-time voters of the constituency. Anshul has also worked as Manager,
-      Government Affairs for India’s leading parking start-up Get My Parking
-      where he worked with state governments, urban local bodies and Smart City
-      consultants to assist in the formulation of parking policies. As a Policy
-      in Action Fellow with Young Leaders for Active Citizenship (YLAC) he
-      worked for Rajeev Shankarrao Satav, MP for Hingoli, on the “Study on
-      Disability Rights and the Accessible India Campaign"". Anshul is also a
-      national level quizzer and plans to write a quiz book for children.\n\nAn
-      opportunity to solve complex governance challenges through a hands-on
-      approach brought him to Samagra. Currently he is part of the Saksham
-      Haryana-Education team.
-    image: /img/Anshul.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/anshul-chaudhary-30623839'
-    name: Anshul Chaudhary
+      Arjun holds a Bachelor's degree in Economics from Kirori Mal College. He
+      has previously interned with Delhi Commission for Protection of Child
+      Rights, Bajaj Capital and E&Y. Arjun has represented New Delhi in
+      national-level football tournaments and has also won numerous accolades at
+      debating tournaments across India. 
+
+
+      An opportunity to work in the social impact space coupled with the desire
+      to drive analytical, sustainable and data-driven change brought him to
+      Samagra. Currently he is part of the Saksham Haryana-Education team.
+    image: /img/arjun.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/arjun-shukla-032b32188/'
+    name: Arjun Shukla
     project: Saksham Haryana-Education
   - bio: >-
       Bharat holds a Bachelor's degree in Computer Science from Thapar Institute
@@ -709,7 +705,7 @@ team:
       Centre for Policy Research, the Direct Benefit Transfer Mission, and
       Swaniti Initiative. He has also worked as a research volunteer in rural
       Jharkhand on a field survey that assessed the efficacy of public service
-      delivery by Common Service Centres. \n\nThe impact-oriented nature of
+      delivery by Common Service Centres. The impact-oriented nature of
       Samagra’s work, which both designs and implements governance reforms,
       brought him here. Currently he is part of the Saksham Haryana-Education
       team.
