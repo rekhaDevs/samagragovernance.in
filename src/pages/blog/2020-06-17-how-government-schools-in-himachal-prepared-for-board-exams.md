@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: How government schools in Himachal prepared for board exams
+title: Himachal's strategy to improve board exam results
 author: Pragya Mathur
 projectId: Samarth
 authorImage: /img/Pragya.jpg
