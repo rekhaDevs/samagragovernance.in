@@ -10,42 +10,22 @@ featuredimage: /img/pragya-blog.jpeg
 ---
 Of the many exams students in India take throughout their academic journey, board exams are perhaps the most crucial. The results of these exams can have a bearing on the course and college to which a student gets admission after school. It is therefore critical for students to do well in these exams. 
 
-
-
 Himachal Pradesh is considered one of the better-performing states in India in terms of academic performance due to its high rank in the National Achievement Survey (NAS), conducted by the NCERT as well as Annual State of Education Report (ASER) published by Pratham. However, the state’s pass percentage in board examinations has not been good. The pass percentage of government schools has been declining for both classes 10 and 12. It fell from 62% in 2016 to 55% in 2019 for class 10 and from 79% to 62% during the same period for class 12. Meanwhile, some other states in India have shown an impressive improvement in their board pass percentages in the last one year. Punjab has managed to increase it from 66% in 2018 to 87% in 2019 for Class 12. In Delhi, the pass percentage for Class 12 has increased from 89% in 2018 to 92% in 2019. 
 
-
-
-Multiple factors like teacher vacancies and absence of a regular assessment framework in higher grades have resulted in this declining trend in pass percentage in Himachal Pradesh over the last 4 years. In September 2019, the Government of Himachal resolved to increase the overall pass percentage for Class 12 from 55% to 80% and for Class 10 from 62% to 80% in the 2020 Board examinations. After defining a quantifiable target for improvement, the state strategized how to mobilize the entire government school system to achieve it.
-
-
+Multiple factors like teacher vacancies and absence of a regular assessment framework in higher grades have resulted in this declining trend in pass percentage in Himachal Pradesh over the last 4 years. In September 2019, the Government of Himachal resolved to increase the overall pass percentage for Class 12 from 55% to 80% and for Class 10 from 60% to 80% in the 2020 Board examinations. After defining a quantifiable target for improvement, the state strategized how to mobilize the entire government school system to achieve it.
 
 Samagra’s Samarth team has been working with the Department of Education, Government of Himachal Pradesh to improve the quality of education in the state since 2016. Supported by the team, the Himachal government decided to conduct, for the first time ever, a state-wide pre-board examination for students in Class 10 and 12. The state’s Education Minister launched a state-wide holistic campaign entailing a standardised Pre-Board examination, followed by analysis of student performance and scheduling remedial classes for subjects which required more preparation. The examination was conducted in 2777 secondary schools for over 2 lakh students. The state needed to replicate the rigour and focus with which private schools prepare their students for these exams. A campaign centred around Pre-Boards allowed the state to do just that, not just at the school but also at the block, district and state level. The campaign generated an unprecedented level of momentum on the ground due to multiple factors. 
 
-
-
 First, meticulous and micro-level planning through various workshops enabled efficient division of responsibilities and coordination among three different governmental bodies, the SCERT (State Council of Educational Research and Training), the RMSA (Rashtriya Madhyamik Shiksha Abhiyan) and the Department of Higher Education. The SCERT designed and printed the question papers, the RMSA delivered them to schools across the state while the Department of Higher Education managed conduction of pre-boards smoothly. 
-
-
 
 Second, because the Education Minister was the face of the campaign there was greater media coverage of the pre-boards which created awareness about the initiative among parents as well. Involvement of the political leadership also compelled department officials and teachers to strive to achieve the aspirational goal of an 80% pass percentage.
 
-
-
 Third, involvement of the Deputy Commissioners (DC) at the district level helped in the creation of district-specific strategies to improve performance in the  Pre-Boards. The DCs had to deal with several challenges during this time ranging from heavy snowfall resulting in logistical difficulties to lack of teachers. The DC of Lahaul Spiti airlifted question papers for the exam from Solan and ensured their delivery to all schools in the remotest regions of the district. The DC of Kinnaur arranged for heating equipment in schools to ensure the comfort of students. In Sirmaur district, teacher vacancies were managed by deputing middle school teachers to secondary schools to conduct remedial classes. Chamba and Kangra districts went one step further and conducted a second set of district-level pre boards to further improve preparation. When aggregated, a total of 1.35 lakh extra classes and 1.4 lakh practice tests were planned across the state.
-
-
 
 Fourth, a robust review and monitoring mechanism was set up to track and accelerate progress. After the results of the pre-boards, all schools created a plan to improve their performance. Each district also identified their weakest schools. Department officials made regular visits to these schools to mentor, motivate and support them. The Department’s senior leadership took fortnightly reviews to monitor the progress being made in each district. 
 
-
-
 Fifth, the use of micro-technology and data enabled quick and easy collection of results, insightful visualization of the same and easy access to helpful resources. Data collection forms, the pre-boards results dashboard, the monitoring visits dashboard along with resources like previous year question papers, practice question banks, board exam pattern etc., were made available on a centralized [website](https://sites.google.com/view/himachalpre-board/home) available for public viewing.
 
-
-
 A concentrated campaign centred around pre-boards helped direct the focus of the entire education system, from the Education Minister right down to students, towards a single goal--improving the pass percentage in board exams.  
-
-
 
 Last week, the [results](https://indianexpress.com/article/education/hpbose-himachal-10th-result-2020-breaks-the-jinx-pass-percentage-rises-first-time-since-2016-hpresults-nic-in-hpbose-org-6450698/) of the class 10 board exams were released. The pass percentage this year stood at 68.11%, a 7 percentage point increase from 60.79% last year. With this, Himachal has reversed its four-year trend of declining pass percentage in board exams. The results of the Class 12 exams are yet to be announced.
