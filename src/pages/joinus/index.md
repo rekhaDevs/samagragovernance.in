@@ -1,6 +1,8 @@
 ---
 templateKey: joinus-page
 title: Join Us
+infoText1: Join Us
+infoText2: Join Us
 verticalImage: /img/Vertical.jpg
 horizontalImage: /img/Horizontal.jpg
 formsElements:

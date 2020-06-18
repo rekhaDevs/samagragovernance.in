@@ -5,7 +5,7 @@ import axios from "axios";
 const fileUploadURL = 'https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/image-upload';
 // const fileUploadURL = service.baseUrl + 'image-upload';
 
-export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent}) => {
+export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent, infoText1, infoText2}) => {
     // const reachingOptions = [];
     const camelCase = (str) => {
         if (!str) {
@@ -306,6 +306,19 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
         <div style={{paddingTop: '100px'}} className={'join-us-page-wrapper'}>
 
             <div className="container">
+                {
+                    infoText1 ?
+
+                        <div className="row">
+                            <p style={{
+                                width: '100%',
+                                textAlign: 'center',
+                                fontSize: '30px',
+                                fontWeight: '600',
+                                color: '#444444'
+                            }}> {infoText1}</p>
+                        </div> : null
+                }
                 <div className="row mb-5">
                     <img
                         src={horizontalImage.childImageSharp ? horizontalImage.childImageSharp.fluid.src : horizontalImage}
@@ -315,6 +328,19 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                          className={'show-for-small-only'} width={'100%'}
                          alt=""/>
                 </div>
+                {
+                    infoText2 ?
+
+                        <div className="row">
+                            <p style={{
+                                width: '100%',
+                                textAlign: 'center',
+                                fontSize: '26px',
+                                fontWeight: '600',
+                                color: '#444444'
+                            }}> {infoText2}</p>
+                        </div> : null
+                }
             </div>
             <div className={'join-us-form'}>
 

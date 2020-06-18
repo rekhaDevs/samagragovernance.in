@@ -13,7 +13,7 @@ class BlogRoll extends React.Component {
                 <div className="row">
                     {
                         posts.map(({node: post}) => {
-                            return <a className="col-lg-3 col-md-4 col-sm-6 col-xs-1" key={post.id}
+                            return <a className="col-lg-3 col-md-4 col-sm-6 col-xs-1" key={post.id} target={'_blank'}
                                       href={post.fields.slug}>
                                 <div className="blog-wrapper">
                                     {
