@@ -111,6 +111,22 @@ team:
     name: Akash Tyagi
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Aditi holds a Bachelor's degree in Electronics and Telecommunication
+      Engineering from Sardar Patel Institute of Technology, Mumbai University.
+      She is also a candidate for the CFA Level 3 examination. Before joining
+      Samagra, she was working with the Embassy of Israel in India as the
+      Economic Associate to the Ambassador. Her work experience also includes
+      working as an Analyst in advisory and product management verticals in
+      Treasury services at JP Morgan Chase Bank primarily in the Asia Pacific
+      market. A strong inclination to work on data-driven approaches to solve
+      governance and grassroot challenges and an opportunity to  create impact
+      at scale brought her to Samagra. Currently, she is part of the CMGGA team
+      in Haryana.
+    image: /img/edited_aditi_headshot.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/aditi-phadnis93/'
+    name: Aditi Phadnis
+    project: CMGGA
+  - bio: >-
       Aneesh holds a Bachelor's degree in Industrial Engineering from R.V
       College of Engineering, Bangalore. Prior to joining Samagra, he worked at
       Your Story Media in its growth hacking team. He has also worked as a
@@ -122,6 +138,18 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/aneeshmugulur'
     name: Aneesh Mugulur
     project: CMGGA
+  - bio: >-
+      Ananya holds a Bachelor's degree in Management from Shaheed Sukhdev
+      College of Business Studies, Delhi University. Ananya has previously
+      interned at NITI Aayog and Ernst & Young. Ananya co-founded the Rotaract
+      Club of her college and was also part of the street play society. An
+      opportunity to bring about impact at scale for citizens by working with
+      government brought her to Samagra. Currently, she is part of the ADAPT
+      team in Odisha.
+    image: /img/edited_ananya.jpg
+    linkedInProfile: 'https://www.linkedin.com/feed/update/urn:li:activity:6680824251118944256/'
+    name: Ananya Jain
+    project: ADAPT
   - bio: >-
       Anish holds a Bachelor's degree in Economics from Ramjas College, Delhi
       University. He has previously worked as an Analyst with Boston Consulting
@@ -374,6 +402,11 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/mohitbahri'
     name: Mohit Bahri
     project: Samarth
+  - bio: "Mukund holds a Bachelor's degree in Physical Sciences from St. Stephen's College, Delhi and a Post Graduate Diploma in Liberal Studies under the Young India Fellowship program at Ashoka University. Previously, he has worked at Bain, and with BCG as a specialist consultant. Prior to joining Samagra, he was working as an educator and public speaking coach collaborating with international faculty members and leading Indian universities. Working towards creating impact at scale\_through better\_governance, and an\_opportunity\_to work in close consultation with elected public leaders and senior government\_officials brought him to Samagra. Currently, he is part of the Samarth team in Himachal Pradesh."
+    image: /img/edited_mukund.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/mukundmarodia/'
+    name: Mukund Marodia
+    project: Samarth
   - bio: "Neetisha holds a Master’s degree in Public Administration in International Development (MPA/ID) from Harvard Kennedy School and a Bachelor's degree in Metallurgical Engineering from IIT Kanpur. She previously worked as a Prime Minister’s Rural Development Fellow (PMRDF) for three years in a district in Jharkhand affected by left-wing extremism. As part of the fellowship, she supported the district administration in implementing flagship schemes and programmes. Prior to that, she worked as an oilfield engineer with Schlumberger.\n\_\nAn opportunity to design and implement systemic reforms which can have lasting impact at scale brought her to Samagra. Currently, she is part of the CMGGA team in Haryana.\n"
     image: /img/neetisha.jpg
     linkedInProfile: 'https://www.linkedin.com/in/neetishabesra/'
@@ -547,25 +580,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/shifali-thakkur-942948b9'
     name: Shifali Thakkur
     project: Saksham Haryana-Education
-  - bio: >-
-      Shilpa holds a Bachelor's degree in Business/Mangerial Economics from
-      Maharaja Agrasen College, University of Delhi and MBA from the Indian
-      School of Business, Hyderabad. Prior to Samagra, she was working with the
-      Government of Andhra Pradesh as a part of their Vision Management Unit,
-      where she was responsible for monitoring the performance of departments
-      and districts on the CM key priorities. She has worked across diverse
-      sectors including consulting, non-profit and government. She has
-      previously worked at EY where she was engaged in conducting internal risk
-      management for the organization. Her passion to work in the development
-      space led her to take up Fellowship at Make a Difference and then join
-      WWF-India as a Program Manager where she led their citizen engagement
-      projects.\n\nHer belief that employing business tools can lead to better
-      governance and help device sustainable solutions for citizens brought her
-      to Samagra. Currently she is part of the ADAPT team in Odisha.
-    image: /img/Shilpa.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/shilpa-baweja-a3346868'
-    name: Shilpa Baweja
-    project: ADAPT
   - bio: >-
       Shubham holds a Bachelor's degree in Electronics and Communication
       Engineering from Thapar University. Post a six-month stint as an intern
