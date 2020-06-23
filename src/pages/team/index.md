@@ -95,22 +95,6 @@ team:
     name: Abhishek Singh
     project: Saksham Haryana-Skills & Employment
   - bio: >-
-      Akash holds a Bachelor's degree in Paper Technology from IIT Roorkee.
-      Driven by an interest in understanding sectoral reforms in education, he
-      joined the Teach For India fellowship. Teaching English and Social studies
-      to 93 students in a school in Pune gave him insight into the reality of
-      government school classrooms. Post TFI, Akash worked as Lead Teacher with
-      iTeach Schools where he co-led a low-income PPP school with the aim of
-      creating a proof point for an inclusive, holistic and high-performing
-      low-income school. An opportunity to build on his previous experience
-      working on the ground and create systemic change at scale brought him to
-      Samagra. Currently he is part of the Saksham Haryana-Skills & Employment
-      team.
-    image: /img/aakash.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
-    name: Akash Tyagi
-    project: Saksham Haryana-Skills & Employment
-  - bio: >-
       Aditi holds a Bachelor's degree in Electronics and Telecommunication
       Engineering from Sardar Patel Institute of Technology, Mumbai University.
       She is also a candidate for the CFA Level 3 examination. Before joining
@@ -126,6 +110,22 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/aditi-phadnis93/'
     name: Aditi Phadnis
     project: CMGGA
+  - bio: >-
+      Akash holds a Bachelor's degree in Paper Technology from IIT Roorkee.
+      Driven by an interest in understanding sectoral reforms in education, he
+      joined the Teach For India fellowship. Teaching English and Social studies
+      to 93 students in a school in Pune gave him insight into the reality of
+      government school classrooms. Post TFI, Akash worked as Lead Teacher with
+      iTeach Schools where he co-led a low-income PPP school with the aim of
+      creating a proof point for an inclusive, holistic and high-performing
+      low-income school. An opportunity to build on his previous experience
+      working on the ground and create systemic change at scale brought him to
+      Samagra. Currently he is part of the Saksham Haryana-Skills & Employment
+      team.
+    image: /img/aakash.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
+    name: Akash Tyagi
+    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Ananya holds a Bachelor's degree in Management from Shaheed Sukhdev
       College of Business Studies, Delhi University. Ananya has previously
