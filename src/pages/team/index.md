@@ -127,18 +127,6 @@ team:
     name: Aditi Phadnis
     project: CMGGA
   - bio: >-
-      Aneesh holds a Bachelor's degree in Industrial Engineering from R.V
-      College of Engineering, Bangalore. Prior to joining Samagra, he worked at
-      Your Story Media in its growth hacking team. He has also worked as a
-      consultant to the Deputy Commissioner of Chikmaglur, Karnataka for
-      implementing Swachh Bharat Mission in the district. His passion for
-      ensuring last mile delivery of government-to-citizen services brought him
-      to Samagra. He is currently part of the CMGGA team in Haryana.
-    image: /img/Aneesh.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/aneeshmugulur'
-    name: Aneesh Mugulur
-    project: CMGGA
-  - bio: >-
       Ananya holds a Bachelor's degree in Management from Shaheed Sukhdev
       College of Business Studies, Delhi University. Ananya has previously
       interned at NITI Aayog and Ernst & Young. Ananya co-founded the Rotaract
@@ -150,6 +138,18 @@ team:
     linkedInProfile: 'https://www.linkedin.com/feed/update/urn:li:activity:6680824251118944256/'
     name: Ananya Jain
     project: ADAPT
+  - bio: >-
+      Aneesh holds a Bachelor's degree in Industrial Engineering from R.V
+      College of Engineering, Bangalore. Prior to joining Samagra, he worked at
+      Your Story Media in its growth hacking team. He has also worked as a
+      consultant to the Deputy Commissioner of Chikmaglur, Karnataka for
+      implementing Swachh Bharat Mission in the district. His passion for
+      ensuring last mile delivery of government-to-citizen services brought him
+      to Samagra. He is currently part of the CMGGA team in Haryana.
+    image: /img/Aneesh.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/aneeshmugulur'
+    name: Aneesh Mugulur
+    project: CMGGA
   - bio: >-
       Anish holds a Bachelor's degree in Economics from Ramjas College, Delhi
       University. He has previously worked as an Analyst with Boston Consulting
