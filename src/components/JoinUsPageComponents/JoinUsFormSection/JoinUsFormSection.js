@@ -313,7 +313,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                             <p style={{
                                 width: '100%',
                                 textAlign: 'center',
-                                fontSize: '14px',
+                                fontSize: '26px',
                                 fontWeight: '600',
                                 color: '#444444'
                             }}> {infoText1}</p>
