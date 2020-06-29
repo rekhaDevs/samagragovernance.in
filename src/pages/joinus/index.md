@@ -2,7 +2,10 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: Join Us
+infoText2: >-
+  Thank you for your interest in Samagra. We don't have any open positions at
+  present. In case you apply, your application will only be reviewed in the next
+  recruitment cycle.
 verticalImage: /img/Vertical.jpg
 horizontalImage: /img/Horizontal.jpg
 formsElements:
