@@ -27,7 +27,7 @@ By leveraging subject matter knowledge and proactive nature of university studen
 
 Owing to the success of the initiative, the department decided to provide more structure to the program and expand its scope beyond pest surveillance to all extension services such as information awareness dissemination, scheme adoption and field assessments. 
 
-In July 2019, the department launched a one of its kind student apprenticeship programme called “Agriculture Development Associates” under which 500 students from 3 agriculture universities in the state participated in a four-month apprenticeship with block officials in 120 most pest endemic blocks out of a total of 314 blocks across 30 districts. To effectively manage 500 students on ground, DA&FE, with the support from Samagra, designed and implemented the programme in a manner that would create maximum impact.
+In July 2019, the department launched a one of its kind student apprenticeship programme called “Agriculture Development Associates” under which 487 students from 3 agriculture universities in the state participated in a four-month apprenticeship with block officials in 120 most pest endemic blocks out of a total of 314 blocks across 30 districts. To effectively manage 487 students on ground, DA&FE, with the support from Samagra, designed and implemented the programme in a manner that would create maximum impact.
 
 The Agriculture Development Associates programme was aimed at strengthening the extension ecosystem during the peak agriculture season, which is Kharif in Odisha. The detailed programme design included induction training, a weekly activity calendar and even performance evaluation metrics for student associates. 
 
@@ -35,14 +35,16 @@ Samagra’s technology team created an app, using open source technology to capt
 
 ![A training session underway in Balipatna block, Koraput district. ](/img/picture2.jpg "A training session underway in Balipatna block, Koraput district. ")
 
+_A training session underway in Balipatna block, Koraput district._ 
+
 **Impact**
 
-Through the engagement of 500 student associates for a duration of 4 months, the department was able to achieve the following outcomes –
+Through the engagement of 487 student associates for a duration of 4 months, the department was able to achieve the following outcomes –
 
 * The associates were able to collect detailed information for 1 lakh + farmers who are now enrolled in the government’s customised agro advisory service initiative called “Ama Krushi” (My Farmer). This service is an IVRS based 2-way communication channel where the department sends in agro advisory to its registered farmers weekly and the farmers can dial the toll-free number to get their queries answered within 24 hours.
 * The department was able to successfully conduct pest surveillance in 50% of the total 6,798 Gram Panchayats (GPs) in the state as compared to 33% GPs in the preceding years.
 * The department, along with the support of student associates, was able to conduct 1000 + farmer awareness campaigns on topics such as plant protection and correct usage of agri inputs.
 * Extensive field surveys were conducted by associates to inspect the quality of subsidised agriculture inputs provided to farmers. The associates were able to trace down the retail points where substandard inputs was being sold to farmers.
-* The programme provided great exposure and practical knowledge of agricultural operations to 500 university students in a sector where structured internship opportunities are skewed. The associates got hands on experience on delivering government schemes and services to the farmers by working as department representatives for 4 months. 
+* The programme provided great exposure and practical knowledge of agricultural operations to 487 university students in a sector where structured internship opportunities are skewed. The associates got hands on experience on delivering government schemes and services to the farmers by working as department representatives for 4 months. 
 
 With positive feedback from all stakeholders over the last 2 years, the programme is a success story ready to be institutionalised as a critical element of Odisha’s agriculture extension delivery system.
