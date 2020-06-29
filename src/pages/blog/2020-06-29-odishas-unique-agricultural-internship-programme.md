@@ -6,7 +6,7 @@ projectId: ADAPT
 authorImage: /img/Prerna.jpg
 date: 2020-06-29T08:55:27.705Z
 description: >-
-  By leveraging subject matter knowledge and proactiveness of university
+  By leveraging subject matter knowledge and proactive nature of university
   students, the government was able to reduce preventable crop loss in 2018-19
   by more than 90% to 10,456 Ha from 1,28,318 Ha in 2017. 
 featuredimage: /img/feature-image.jpg
