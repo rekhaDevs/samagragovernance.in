@@ -45,6 +45,6 @@ Through the engagement of 487 student associates for a duration of 4 months, the
 * The department was able to successfully conduct pest surveillance in 50% of the total 6,798 Gram Panchayats (GPs) in the state as compared to 33% GPs in the preceding years.
 * The department, along with the support of student associates, was able to conduct 1000 + farmer awareness campaigns on topics such as plant protection and correct usage of agri inputs.
 * Extensive field surveys were conducted by associates to inspect the quality of subsidised agriculture inputs provided to farmers. The associates were able to trace down the retail points where substandard inputs was being sold to farmers.
-* The programme provided great exposure and practical knowledge of agricultural operations to 487 university students in a sector where structured internship opportunities are skewed. The associates got hands on experience on delivering government schemes and services to the farmers by working as department representatives for 4 months. 
+* The programme provided great exposure and practical knowledge of agricultural operations to 487 university students in a sector where structured internship opportunities are skewed. The associates got hands on experience on delivering government schemes and services to the farmers by working as department representatives for 4 months.
 
 With positive feedback from all stakeholders over the last 2 years, the programme is a success story ready to be institutionalised as a critical element of Odisha’s agriculture extension delivery system.
