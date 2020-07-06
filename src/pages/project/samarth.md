@@ -37,10 +37,10 @@ approach:
       timely delivery of textbooks to schools, robust review and monitoring
       mechanisms, ongoing mentoring and training support for teachers).
 readMore:
+  - text: How Himachal Pradesh improved 2020 board exam results
   - text: >-
       ‘Har Ghar Pathshala’: How Himachal Govt Made Online Classrooms Accessible
       as Schools Shut
-  - text: 'Lockdown lessons: India’s affordable private schools face a reckoning'
   - text: >-
       Enabling technology in classrooms can have large impact on overall
       ecosystem
