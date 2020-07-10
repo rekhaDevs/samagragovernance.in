@@ -3,7 +3,7 @@ templateKey: team-page
 title: Our Team
 bannerImage: /img/team-banner.JPG
 subTitle: >-
-  We are a growing team of 45+ professionals. Our consultants come from diverse
+  We are a growing team of 50+ professionals. Our consultants come from diverse
   backgrounds, united in their commitment to creating impact at scale.
 team:
   - bio: >-
