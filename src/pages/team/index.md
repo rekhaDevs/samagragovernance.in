@@ -545,6 +545,19 @@ team:
     name: Sagari Handa
     project: Saksham Haryana-Education
   - bio: >-
+      Saket holds a Bachelor's degree Information Science engineering from BMS
+      College of Engineering. He has previously worked in TCS and Samsung
+      Research India. As part of the Teach for India Fellowship Saket taught 40
+      girl students in a government school in Delhi. Before joining Samagra, he
+      worked at CollPoll, an ed-tech start up as a Product Manager. The belief
+      that the path towards equity is through governance and an opportunity to
+      realize this goal at scale brought Saket to Samagra. Currently he is part
+      of the Tech@Samagra team.
+    image: /img/saket.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/saket-sinha-2992a924/'
+    name: Saket Sinha
+    project: Tech@Samagra
+  - bio: >-
       Shailiza holds a Bachelor's degree in Electronics Engineering from
       Savitribai Phule Pune University. After graduating, she worked as a
       Business Operations Associate with ZS Associates. She is a Young India
