@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Making skilling more effective: An explainer'
+title: 'Making skilling schemes more effective: An explainer'
 author: Abhay Singh
 projectId: Saksham Haryana - Skills & Employment
 authorImage: /img/abhay-singh.png
