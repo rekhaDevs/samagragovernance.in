@@ -623,6 +623,20 @@ team:
     name: Shubham Bansal
     project: Digital Haryana Cell
   - bio: >-
+      Srishti holds a Bachelor's degree in Civil Engineering from Delhi
+      Technological University. Previously, she worked with Boston Consulting
+      Group (BCG) as a Research Analyst. During her tenure at BCG, she worked on
+      a number of engagements with large multinationals and government bodies in
+      close collaboration with consulting teams.
+
+
+      A strong desire to be a part of the change that Samagra is bringing about
+      in the lives of citizens at large brought her to the firm.
+    image: /img/edited_srishti.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/srishti-dahiya-98aa47110/'
+    name: Srishti Dahiya
+    project: ' '
+  - bio: >-
       Suditi holds a Bachelor's degree in Computer Science from Vellore
       Institute of Technology. Her desire to work towards equal opportunity for
       everyone led her to work actively with organizations like Edforall and
