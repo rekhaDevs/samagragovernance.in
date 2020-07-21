@@ -511,6 +511,31 @@ team:
     name: Rhythm Pathak
     project: Digital Haryana Cell
   - bio: >-
+      Sagari holds a Bachelor's and Master's degree in Environmental Engineering
+      from Delhi Technological University and Stanford University, respectively.
+      After graduating from Stanford, she worked at Geosyntec Consultants, an
+      environmental consulting company, in Seattle. \n\nHer interest in
+      transitioning to the development sector and facilitating sustainable
+      change on the ground brought her to Samagra. Currently she is part of the
+      Saksham Haryana-Education team.
+    image: /img/sagari.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/sagari-handa-5a86157a'
+    name: Sagari Handa
+    project: Saksham Haryana-Education
+  - bio: >-
+      Saket holds a Bachelor's degree Information Science engineering from BMS
+      College of Engineering. He has previously worked in TCS and Samsung
+      Research India. As part of the Teach for India Fellowship Saket taught 40
+      girl students in a government school in Delhi. Before joining Samagra, he
+      worked at CollPoll, an ed-tech start up as a Product Manager. The belief
+      that the path towards equity is through governance and an opportunity to
+      realize this goal at scale brought Saket to Samagra. Currently he is part
+      of the Tech@Samagra team.
+    image: /img/saket.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/saket-sinha-2992a924/'
+    name: Saket Sinha
+    project: Tech@Samagra
+  - bio: >-
       Saloni holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, Delhi University. Before joining Samagra, she worked as a
       Legislative Assistant to a Member of Parliament (LAMP Fellow 2019-20). Her
@@ -537,31 +562,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/sanchita-dasgupta-4587a712/'
     name: Sanchita Dasgupta
     project: Office Manager
-  - bio: >-
-      Sagari holds a Bachelor's and Master's degree in Environmental Engineering
-      from Delhi Technological University and Stanford University, respectively.
-      After graduating from Stanford, she worked at Geosyntec Consultants, an
-      environmental consulting company, in Seattle. \n\nHer interest in
-      transitioning to the development sector and facilitating sustainable
-      change on the ground brought her to Samagra. Currently she is part of the
-      Saksham Haryana-Education team.
-    image: /img/sagari.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/sagari-handa-5a86157a'
-    name: Sagari Handa
-    project: Saksham Haryana-Education
-  - bio: >-
-      Saket holds a Bachelor's degree Information Science engineering from BMS
-      College of Engineering. He has previously worked in TCS and Samsung
-      Research India. As part of the Teach for India Fellowship Saket taught 40
-      girl students in a government school in Delhi. Before joining Samagra, he
-      worked at CollPoll, an ed-tech start up as a Product Manager. The belief
-      that the path towards equity is through governance and an opportunity to
-      realize this goal at scale brought Saket to Samagra. Currently he is part
-      of the Tech@Samagra team.
-    image: /img/saket.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/saket-sinha-2992a924/'
-    name: Saket Sinha
-    project: Tech@Samagra
   - bio: >-
       Shailiza holds a Bachelor's degree in Electronics Engineering from
       Savitribai Phule Pune University. After graduating, she worked as a
