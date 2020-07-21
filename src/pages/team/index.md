@@ -587,6 +587,24 @@ team:
     name: Shifali Thakkur
     project: Saksham Haryana-Education
   - bio: >-
+      Shivam holds a Bachelor's degree in Economics from Kirori Mal College,
+      Delhi University, and a Post-Graduate Diploma in Liberal Studies under the
+      Young India Fellowship at Ashoka University. Before joining Samagra, he
+      worked at the intersection of gender equality and reproductive health at
+      an international public health advocacy firm, Global Health Strategies.
+      Passionate about the social sector, he also actively mentors young
+      students who want to chart out a path in the sector, under his initiative
+      Impact Connect. 
+
+
+      The opportunity to gain hands-on experience on end-to-end governance
+      consulting projects coupled with the ability to create impact at scale
+      brought him to Samagra. Currently, he is part of the ADAPT team in Odisha.
+    image: /img/edited_shivam.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shivam-shukla-b7a0b7121/'
+    name: Shivam Shukla
+    project: ADAPT
+  - bio: >-
       Shubham holds a Bachelor's degree in Electronics and Communication
       Engineering from Thapar University. Post a six-month stint as an intern
       with EY, he signed up to do the Gandhi Fellowship. During the fellowship,
