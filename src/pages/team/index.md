@@ -663,6 +663,11 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/kollasunny'
     name: Sunny Roy Kolla
     project: Saksham Haryana-Skills & Employment
+  - bio: "Susheel holds a Bachelor's degree in Sociology from St. Andrew's College, Mumbai, and a Post-Graduate Diploma in Liberal Studies under the Young India Fellowship at Ashoka University. Susheel has had a longstanding interest in governance and policy implementation, leading him to work with organisations such as the Informed Voter Project and Praja Foundation during his undergraduate studies in Mumbai. His experience at the Young India Fellowship reinforced these ideas and also led him to explore the role of technology and data-based decision-making in governance.\_\n\nHis search for the intersection between technology and governance, and his quest to contribute in creating impact at scale brought Susheel to Samagra. Currently, he is part of the Samarth team in Himachal Pradesh."
+    image: /img/edited_susheel.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/susheel-varghese-13b3ab151/'
+    name: Susheel Varghese
+    project: Samarth
   - bio: >-
       Tanvi holds a Bachelor’s degree in Computer Engineering from Netaji Subhas
       Institute of Technology, New Delhi. Before joining Samagra, she was
