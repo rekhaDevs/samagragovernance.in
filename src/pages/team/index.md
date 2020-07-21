@@ -156,18 +156,6 @@ team:
     name: Aneesh Mugulur
     project: CMGGA
   - bio: >-
-      Anish holds a Bachelor's degree in Economics from Ramjas College, Delhi
-      University. He has previously worked as an Analyst with Boston Consulting
-      Group, where he focused on identifying improvement opportunities and
-      increasing efficiencies for MNCs across Apparel Retail, Banking,
-      Industrial Goods, Energy and Telecom. An interest in data-driven strategy
-      and a zeal to use his skills to create meaningful impact for citizens
-      brought him to Samagra. 
-    image: /img/anish_.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/anish-mendiratta-234501100/'
-    name: Anish Mendiratta
-    project: ' '
-  - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
       specialisation in Business Analytics from the Indian Institute of Science,
