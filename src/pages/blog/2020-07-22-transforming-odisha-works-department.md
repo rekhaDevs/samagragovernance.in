@@ -29,7 +29,7 @@ Diagnosing the construction process was a critical component of our work, especi
 
 Parallely, the team also focussed on the enablers that were required for a project to be executed successfully. The first, was the organizational component - the organization structure of OWD, the HR policies and practices it used, and the governance mechanisms that were in place for successfully executing projects. 
 
-![](/img/vg2.jpg)
+![](/img/vg3.png)
 
 The second enabler the team focussed on was the technology and data systems being used by the department. How good and well-utilized was the project tracking portal where the department officials could get to know the status of projects? How up to date was the asset management system, which could help OWD in project selection and identification of infrastructure requiring maintenance? Finally, how user-friendly were the contractor-facing websites--the one stop point for any contractor interested to work with OWD? 
 
