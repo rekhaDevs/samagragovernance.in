@@ -21,7 +21,11 @@ This was a very critical component, given that project costs and timelines are d
 
 Diagnosing the construction process was a critical component of our work, especially given that time and cost overruns in the construction stage is a problem that has plagued the Indian infrastructure sector. The final component of the value chain, maintenance, was one of the most critical to understand for two reasons. First, good maintenance process and practices prolonged the life of infrastructure, hence reducing the costs incurred. Secondly, maintenance was one of the few citizen-facing avenues of OWD where citizens could directly interact with OWD officials. 
 
-![](/img/vg_.png)
+![](/img/vg_1.png)
+
+```
+
+```
 
 Parallely, the team also focussed on the enablers that were required for a project to be executed successfully. The first, was the organizational component - the organization structure of OWD, the HR policies and practices it used, and the governance mechanisms that were in place for successfully executing projects. 
 
