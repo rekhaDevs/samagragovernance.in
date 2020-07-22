@@ -21,7 +21,7 @@ This was a very critical component, given that project costs and timelines are d
 
 Diagnosing the construction process was a critical component of our work, especially given that time and cost overruns in the construction stage is a problem that has plagued the Indian infrastructure sector. The final component of the value chain, maintenance, was one of the most critical to understand for two reasons. First, good maintenance process and practices prolonged the life of infrastructure, hence reducing the costs incurred. Secondly, maintenance was one of the few citizen-facing avenues of OWD where citizens could directly interact with OWD officials. 
 
-![](/img/vg.png)
+![](/img/vg_.png)
 
 Parallely, the team also focussed on the enablers that were required for a project to be executed successfully. The first, was the organizational component - the organization structure of OWD, the HR policies and practices it used, and the governance mechanisms that were in place for successfully executing projects. 
 
@@ -49,7 +49,7 @@ Q: How easy can it be to reduce cost overruns in a significant number of project
 
 The team’s final recommendation for reducing cost-overruns incorporated all the three options mentioned in the question above, in addition to a few more. However, the answer to the question is: Very easy - release a government order. 
 
-Diagnosis revealed that a substantial number of projects are delayed due to issues in pre-construction clearances. Road construction projects, for example, require trees to be cut, electricity poles and water supply lines to be relocated, and where necessary, private land to be acquired. The power to provide clearances for these activities are not with OWD - multiple departments like revenue, forest, electricity etc. are involved. If any of these departments delay clearances, the project gets stalled. Our diagnosis  also revealed that in many cases delays during the construction phase are not caused by the contractor. Faulty design blueprints, bureaucratic red-tape within OWD or even unexpected weather phenomena could force the work to stop. In both these cases, the cost of the project increases due to the increase in price of raw materials and compensation that is to be owed to the contractor. 
+Diagnosis revealed that a substantial number of projects are delayed due to issues in pre-construction clearances. Road construction projects, for example, require trees to be cut, electricity poles and water supply lines to be relocated, and where necessary, private land to be acquired. The power to provide clearances for these activities are not with OWD - multiple departments like revenue, forest, electricity etc. are involved. If any of these departments delay clearances, the project gets stalled. Our diagnosis  also revealed that in many cases delays during the construction phase are _not_ caused by the contractor. Faulty design blueprints, bureaucratic red-tape within OWD or even unexpected weather phenomena could force the work to stop. In both these cases, the cost of the project increases due to the increase in price of raw materials and compensation that is to be owed to the contractor. 
 
 To fix this problem, the team decided to change the policy governing the approvals process: the team recommended that onboarding of the contractor be initiated only when there is complete certainty that the pre-construction clearances would be provided within 90 days. This was to be ensured by adding another approvals layer from the Chief Engineer into the existing approvals process.
 
