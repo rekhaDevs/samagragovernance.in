@@ -65,16 +65,18 @@ Diagnosis revealed that a substantial number of projects are delayed due to issu
 
 To fix this problem, the team decided to change the policy governing the approvals process: the team recommended that onboarding of the contractor be initiated only when there is complete certainty that the pre-construction clearances would be provided within 90 days. This was to be ensured by adding another approvals layer from the Chief Engineer into the existing approvals process. 
 
+_This is the existing approvals process:_
+
 ![](/img/owd-5.png)
 
 ```
-                                                                               Existing approvals process
+
 ```
+
+_This is the recommended approvals process:_
 
 ![](/img/owd-6.png)
 
-```
-                                                                               Recommended approvals process
-```
+    
 
 Over a period of 4 months, the team completed its diagnosis and provided OWD with 36 key recommendations to transform the department, several of which are currently under implementation. The project proved to be an enriching experience given the critical insights that we gained in a new governance domain and the meaningful manner in which we could contribute towards the transformation of the Odisha Works Department.
