@@ -11,10 +11,6 @@ description: >-
   currently under implementation.
 featuredimage: /img/sumit-naudiyal-si-curg8kxe-unsplash.jpg
 ---
-
-
-
-
 State Public Works Departments (SPWDs) are an essential, if often ignored, cog in the governance machinery of the country. As the departments in charge of creating and maintaining critical infrastructure like public roads and buildings, SPWDs play a critical role in ensuring that other departments like education, health and tourism can effectively provide their services to citizens. An improvement in the efficiency of SPWD administration saves taxpayer money, which can then be diverted to other resource-starved departments. Equally importantly, effective provisioning of high-quality infrastructure improves the quality of life of citizens and plays a critical role in economic development. 
 
 Last year, the Odisha Works Department (OWD) gave Samagra the mandate to design an approach for transforming the department in line with the Odisha Chief Minister’s 5T (Technology, Teamwork, Transparency, Time, Transformation) framework for improving governance in the state. Broadly, this meant breaking down the mandate into three objectives: to improve timeliness, reduce costs and improve citizen satisfaction with OWD projects. What followed was four months of intense diagnosis and solutioning.
@@ -72,9 +68,13 @@ To fix this problem, the team decided to change the policy governing the approva
 ![](/img/owd-5.png)
 
 ```
-                                                                                                    Existing approvals process
+                                                                               Existing approvals process
 ```
 
 ![](/img/owd-6.png)
+
+```
+                                                                               Recommended approvals process
+```
 
 Over a period of 4 months, the team completed its diagnosis and provided OWD with 36 key recommendations to transform the department, several of which are currently under implementation. The project proved to be an enriching experience given the critical insights that we gained in a new governance domain and the meaningful manner in which we could contribute towards the transformation of the Odisha Works Department.
