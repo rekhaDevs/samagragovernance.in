@@ -363,21 +363,6 @@ team:
     name: Krittika Takiar
     project: '  '
   - bio: >-
-      Kushal holds a Bachelor's degree in Business Administration from NMIMS
-      University, Mumbai and was part of the Young India Fellowship cohort of
-      2018 at Ashoka University. Before joining Samagra, he was working as a
-      Research Analyst at Locus Investment Group, assisting the team in
-      deploying a combination of domestic and foreign capital in public markets
-      and the venture capital space, primarily tracking consumer-related sectors
-      of the Indian economy. A strong interest in politics and the belief that
-      creating a positive impact at scale through governance is the fastest
-      route to India’s development brought Kushal to Samagra. Currently he is
-      part of the Samarth team in Himachal Pradesh.
-    image: /img/kushal.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/kushal-agarwal-38ab72a1/'
-    name: Kushal Agarwal
-    project: Samarth
-  - bio: >-
       Mohit holds a Bachelor's degree in Pharmaceutical Sciences from the
       University of Delhi  and Master's degree in International Business from
       Symbiosis, Pune. Mohit has 15 years of work experience spanning multiple
@@ -400,11 +385,11 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/mukundmarodia/'
     name: Mukund Marodia
     project: Samarth
-  - bio: "Neetisha holds a Master’s degree in Public Administration in International Development (MPA/ID) from Harvard Kennedy School and a Bachelor's degree in Metallurgical Engineering from IIT Kanpur. She previously worked as a Prime Minister’s Rural Development Fellow (PMRDF) for three years in a district in Jharkhand affected by left-wing extremism. As part of the fellowship, she supported the district administration in implementing flagship schemes and programmes. Prior to that, she worked as an oilfield engineer with Schlumberger.\n\_\nAn opportunity to design and implement systemic reforms which can have lasting impact at scale brought her to Samagra. Currently, she is part of the CMGGA team in Haryana.\n"
+  - bio: "Neetisha holds a Master’s degree in Public Administration in International Development (MPA/ID) from Harvard Kennedy School and a Bachelor's degree in Metallurgical Engineering from IIT Kanpur. She previously worked as a Prime Minister’s Rural Development Fellow (PMRDF) for three years in a district in Jharkhand affected by left-wing extremism. As part of the fellowship, she supported the district administration in implementing flagship schemes and programmes. Prior to that, she worked as an oilfield engineer with Schlumberger.\n\_\nAn opportunity to design and implement systemic reforms which can have lasting impact at scale brought her to Samagra. Currently, she is part of the Saksham Haryana-Skills & Employment team.\n"
     image: /img/neetisha.jpg
     linkedInProfile: 'https://www.linkedin.com/in/neetishabesra/'
     name: Neetisha Besra
-    project: CMGGA
+    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Nikhil holds Bachelor's degree in Information Science from School of
       Engineering & Technology, Jain University. Before joining Samagra, Nikhil
