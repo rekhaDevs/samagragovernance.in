@@ -104,12 +104,12 @@ team:
       Treasury services at JP Morgan Chase Bank primarily in the Asia Pacific
       market. A strong inclination to work on data-driven approaches to solve
       governance and grassroot challenges and an opportunity to  create impact
-      at scale brought her to Samagra. Currently, she is part of the CMGGA team
-      in Haryana.
+      at scale brought her to Samagra. Currently, she is part of the Saksham
+      Haryana-Education team.
     image: /img/edited_aditi_headshot.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aditi-phadnis93/'
     name: Aditi Phadnis
-    project: CMGGA
+    project: Saksham Haryana-Education
   - bio: "Aditya holds an MBA from the University of Oxford and BTech in Mechanical Engineering from YMCA Faridabad. He previously worked as an Associate Equity\_Analyst (Team Lead) at Trefis for 4 years where he\_was catering to top investment banks by analyzing sell-side securities of global internet, e-commerce and telecom companies listed on NYSE and NASDAQ.\_As an undergrad, he was keen to join the Indian civil services and attempted the\_examination\_three times, giving final interviews on all three occasions. An opportunity to apply his problem solving and people skills to improve governance and create impact at scale brought him to Samagra. Currently he leads the Digital Haryana engagement."
     image: /img/new-pic_aditya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/adityachopra770/'
@@ -199,7 +199,7 @@ team:
 
       An opportunity to work in the social impact space coupled with the desire
       to drive analytical, sustainable and data-driven change brought him to
-      Samagra. Currently he is part of the Saksham Haryana-Education team.
+      Samagra. Currently, he is part of the Saksham Haryana-Education team.
     image: /img/arjun.jpg
     linkedInProfile: 'https://www.linkedin.com/in/arjun-shukla-032b32188/'
     name: Arjun Shukla
