@@ -18,7 +18,9 @@ To understand this better, let us look at the instructional hours available to a
 
 ![](/img/up.png)
 
- **_Illustration 1: Teacher time on non-teaching task analysis over 1 week_**
+```
+                                          Illustration 1: Teacher time on non-teaching task analysis over 1 week
+```
 
 _(Image is strictly representational and not to scale; *Some annual and monthly activities are pro-rated to get weekly time spent)_ 
 
@@ -38,11 +40,9 @@ A common activity across categories (per Illustration 1) is managing school and 
 
 An analysis of these record-keeping activities revealed three things: 
 
-1.	Same data gets captured across multiple registers leading to duplicity of records and increased time and effort. For example, there are separate distribution registers for textbooks, school bags, components of the uniform (shoes, socks sweater), etc., distributed in the school. Each of this requires a fresh entry of student details (serial number, class, guardian details) every time a new item has to be distributed.
-
-2.	Some recorded data is neither relevant from a review/ inspection perspective in the short term nor of critical long-term value. For example, schools maintain student MDM record data that requires students to sign against their name post the meal. With MDM quality related information captured in a separate register and also through an IVR calling system, student level data is never requested for review.  
-
-3.	Relevant data is recorded in cumbersome formats increasing time invested by the teacher. For example, to manage school finances, teachers maintain composite grant and cash flow registers amongst others. Both these registers have formats that are difficult to follow and maintain, specifically from an inspection perspective. 
+1. Same data gets captured across multiple registers leading to duplicity of records and increased time and effort. For example, there are separate distribution registers for textbooks, school bags, components of the uniform (shoes, socks sweater), etc., distributed in the school. Each of this requires a fresh entry of student details (serial number, class, guardian details) every time a new item has to be distributed.
+2. Some recorded data is neither relevant from a review/ inspection perspective in the short term nor of critical long-term value. For example, schools maintain student MDM record data that requires students to sign against their name post the meal. With MDM quality related information captured in a separate register and also through an IVR calling system, student level data is never requested for review.  
+3. Relevant data is recorded in cumbersome formats increasing time invested by the teacher. For example, to manage school finances, teachers maintain composite grant and cash flow registers amongst others. Both these registers have formats that are difficult to follow and maintain, specifically from an inspection perspective. 
 
 A natural solution that one will arrive at after looking at the above examples, will be digital maintenance of records. While that is possible, given the digital maturity of the system, complete online maintenance is still far out. Therefore, after careful consideration, registers can either be revoked, merged with another register or issued a new centralised format. This can lead to a compact list with under 15 registers that schools can maintain. This reform can reduce the time spent on record-keeping across categories by almost half. 
 
