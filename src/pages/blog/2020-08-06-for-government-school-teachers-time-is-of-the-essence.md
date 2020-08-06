@@ -19,7 +19,7 @@ To understand this better, let us look at the instructional hours available to a
 ![](/img/up.png)
 
 ```
-                                          Illustration 1: Teacher time on non-teaching task analysis over 1 week
+                                                            Illustration 1: Teacher time on non-teaching task analysis over 1 week
 ```
 
 _(Image is strictly representational and not to scale; *Some annual and monthly activities are pro-rated to get weekly time spent)_ 
