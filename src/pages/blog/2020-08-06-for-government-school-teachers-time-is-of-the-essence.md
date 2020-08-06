@@ -16,11 +16,11 @@ While one would assume that the time allocated to these activities would affect 
 
 To understand this better, let us look at the instructional hours available to a teacher in a week. With 6 school days of 6 hours each, the teacher has 36 hours to teach in a week. Of these naturally some hours will go in routine school activities such as conducting the morning assembly, attendance, a recess etc, even in best-in- class systems. However, there is still merit in understating how these 36 hours are consumed across teaching and non-teaching tasks and the actual hours left with the teacher to teach. This has been explained in Illustration 1.
 
-![](/img/up.png)
+```
+Teacher time on non-teaching task analysis over 1 week
+```
 
-```
-                                                            Illustration 1: Teacher time on non-teaching task analysis over 1 week
-```
+![](/img/up.png)
 
 _(Image is strictly representational and not to scale; *Some annual and monthly activities are pro-rated to get weekly time spent)_ 
 
