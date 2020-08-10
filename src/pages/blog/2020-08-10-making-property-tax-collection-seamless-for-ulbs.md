@@ -22,7 +22,7 @@ This can be changed through a two-step process:
 
 ![](/img/am-ulb.png)
 
-   2. Strengthening tax collection: There are two aspects to this: 
+2. Strengthening tax collection: There are two aspects to this: 
 
 * The medium of payment: Creating a tech-enabled payment mechanism will make the payment process seamless and faster. Ideally, citizens should be able to pay their property tax by just entering the unique property number assigned to their property. Currently, property owners have to fill in a lot of details such as an address, owner details, ward details and then pay using limited online payments options.  
 * Collection campaign: To ensure compliance, it is necessary for ULBs to communicate with citizens actively and nudge them towards tax payment on time. This can be done by sending them regular SMSs with reminders about upcoming payment deadlines, announcing incentives for on-time payment and penalties for delayed payment. Such measures can go a long way in mitigating information asymmetry and improving tax collection.
