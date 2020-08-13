@@ -15,25 +15,22 @@ overview:
       released its Vision 2025 document. This was an effort towards outlining a
       forward-looking vision that lays out the strategic priorities for the
       Ministry in the coming five years, corresponding opportunity areas and a
-      framework to help prioritise them. Samagra’s Skill India team is working
-      with MSDE to convert this vision into an action plan for implementation.
-      The strategic priorities of the Ministry over the next five years are
-      improving the delivery of skill training in existing institutions,
-      promoting apprenticeship as an essential part of skilling, integrating
-      general and vocational education, catalyzing demand for formal skilling
-      and entrepreneurship, converging skilling schemes across ministries and
-      assuring quality through effective regulation and governance.
+      framework to help prioritise them. Starting in November 2019, Samagra’s
+      Skill India team started working with MSDE to help convert this vision
+      into an action plan for implementation.
 projectMiddleBannerImage: /img/msde-second-banner.jpg
 approach:
   - text: >-
-      Based on insights from the Vision 2025 document and consultations with
-      ministry officials and subject matter experts, a list of 20 initiatives
-      have been identified for implementation. The ownership of each of these
-      initiatives rests with a senior official within MSDE. Samagra is
-      co-working with these officials to design the initiatives. Individual
-      initiatives would further be linked and converted into a coherent unified
-      roadmap. Lastly, a review structure will be designed for the
-      implementation phase and establishing accountability.
+      Based on insights from the Vision 2025 document, consultations with
+      ministry officials and subject matter experts, data analysis and extensive
+      field visits, the team identified 20 initiatives for implementation. The
+      ownership of each of these initiatives rested with a senior official
+      within MSDE with whom Samagra co-worked to design the initiatives.
+      Further, the team supported the senior leadership at MSDE to embed the
+      implementation plans of all the initiatives into the Government of India's
+      Sectoral Group milestones. Sectoral groups are led by Secretaries of
+      Ministries which share a common sector and collaborate to implement a
+      cohesive strategy.
 keyInitiativesTitle: ' '
 ---
 
