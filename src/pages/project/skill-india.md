@@ -4,7 +4,7 @@ title: Skill India
 fullName: Skill India
 id: Skill
 backgroundCover: /img/samagragovernance-msde-first-banner.jpg
-domain: Skills & Employment
+domain: Past Projects
 subTitle: Samagra
 state: India
 tagLine: Creating an implementation roadmap for Vision 2025
