@@ -4,7 +4,7 @@ title: CMGGA
 fullName: Chief Minister Good Governance Associates
 id: CMGGA
 backgroundCover: /img/cmgga-header-bg.jpg
-domain: CM's Fellowship
+domain: Past Projects
 subTitle: Samagra
 state: Haryana
 tagLine: Catalyzing governance through young professionals
@@ -12,16 +12,19 @@ projectLogoWithState: /img/cmgga-logo.png
 overview:
   - text: >-
       The Chief Minister’s Good Governance Associates (CMGGA) Programme is a
-      partnership between the Government of Haryana and Ashoka University,
-      designed and managed by Samagra. Designed as an experiential programme,
-      CMGGA aims to recruit young men and women to work with the district
-      administrations in Haryana as representatives of the Chief Minister of the
-      state. Associates are posted in each of the 22 districts of Haryana for a
-      12-month period where they represent the Chief Minister’s Office and work
-      closely with the Deputy Commissioner and other district officials. Through
-      the period of their engagement, the Associates interact periodically with
-      the Chief Minister to present the work done and assist in the
-      decision-making process at the highest levels of government at the state.
+      partnership between the Government of Haryana and Ashoka University.
+      Starting in 2016, when the programme was launched, Samagra co-managed the
+      programme with Ashoka University till 2020. CMGGA recruits young
+      professionals to work with the district administrations in Haryana as
+      representatives of the Chief Minister of the state. Associates are posted
+      in each of the 22 districts of Haryana for a 12-month period where they
+      work closely with the Deputy Commissioner and other district officials.
+      Through the period of their engagement, the Associates interact
+      periodically with the Chief Minister to present the work done and assist
+      in the decision-making process at the highest levels of government at the
+      state. From the time of its inception, Samagra was closely involved in
+      designing the Fellowship as an experiential learning opportunity that
+      would be useful for the government as well as selected candidates. 
 scale:
   - count: '4'
     label: Batches
@@ -32,16 +35,14 @@ scale:
 projectMiddleBannerImage: /img/cmgga-cover.jpg
 approach:
   - text: >-
-      The CMGGA programme was designed to be a structured, experiential learning
-      opportunity that would be useful for the government as well as the
-      selected candidates. During the one year programme, CMGGAs are provided
-      clearly defined work modules with specific objectives. The idea is to
-      ensure they are actively involved in driving the Chief Minister’s
-      priorities in a structured manner with requisite mentorship, instead of
-      spending the year finding their own way across the bureaucratic labyrinth.
-      This serves as an invaluable opportunity for youth to understand how the
-      wheels of governance move on the ground and for the government to involve
-      more youth in public administration.
+      During the one-year programme for each of the four cohorts, CMGGAs were
+      provided clearly defined work modules with specific objectives under
+      requisite mentorship. This was done to ensure they support implementation
+      of the Chief Minister’s priorities in a structured manner. Through weekly
+      progress calls, Slack channels, fortnightly calls with an assigned “buddy”
+      from the programme team and a week long forum every 7 weeks, the programme
+      ensured their skill building, professional development, cross learning for
+      associates while creating impact on ground.
 readMore:
   - text: >-
       CMs of Arunachal, Delhi, Nagaland have fellowships to work with youth. Why
