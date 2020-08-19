@@ -53,6 +53,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-post"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Domain New", name: "domainNew", collection: "projectdomain" ,displayFields: ['title'],searchFields: ['title'], valueField: title, widget: relation, required: false }
       - {label: "Full Name", name: "fullName", widget: "string"}
       - {label: "Id", name: "id", widget: "string"}
       - {label: "Background Cover", name: "backgroundCover", widget: image}
