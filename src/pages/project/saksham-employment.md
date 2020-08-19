@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: Saksham Haryana - Skills & Employment
+domainNew: Skills & Employment
 fullName: Saksham Haryana - Skills & Employment
 id: SAKSHAM_EMPLOYMENT
 backgroundCover: /img/saksham-header-bg.jpg
