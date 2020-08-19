@@ -23,6 +23,7 @@ class LayoutWrapper extends React.Component {
     }
 
     render() {
+        console.log('here');
         let title = 'Samagra Governance';
         let description = 'Samagra Governance';
         let image = `${withPrefix('/')}img/logo-colored.png`;
