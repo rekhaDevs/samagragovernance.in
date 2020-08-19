@@ -25,11 +25,13 @@ class LayoutWrapper extends React.Component {
     render() {
         let title = 'Samagra Governance';
         let description = 'Samagra Governance';
+        let image = `${withPrefix('/')}img/logo-colored.png`;
         if (this.props.children && this.props.children.props && this.props.children.props.content) {
-            console.log(this.props.children.props.content);
-
-            title = title || this.props.children.props.content.title;
-            description = description || this.props.children.props.content.description;
+            title = this.props.children.props.content.title || title;
+            description = this.props.children.props.content.description || description;
+            if (this.props.children.props.content.featuredimage) {
+                image = `${withPrefix('/')}img/${this.props.children.props.content.featuredimage.childImageSharp.fluid.src.split('/')[this.props.children.props.content.featuredimage.childImageSharp.fluid.src.split('/').length - 1]}` || image;
+            }
         }
         return <div>
             <Helmet>
@@ -71,9 +73,9 @@ class LayoutWrapper extends React.Component {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"/>
                 <meta
                     property="og:image"
-                    content={`${withPrefix('/')}img/logo-colored.png`}
+                    content={image}
                 />
-                <meta name="twitter:image" content={`${withPrefix('/')}img/logo-colored.png`}/>
+                <meta name="twitter:image" content={image}/>
 
             </Helmet>
             <span className={'hide-for-small-only'}><Navbar/></span>
