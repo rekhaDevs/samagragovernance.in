@@ -22,15 +22,18 @@ overview:
       Teamwork, Transparency, Time, Transformation) framework for improving
       governance in the state. Broadly, this meant breaking down the mandate
       into three objectives: to improve timeliness, reduce costs and improve
-      citizen satisfaction with OWD projects. Over four months, the Samagra team
-      diagnosed OWD's complete project execution value chain, from selection of
-      the right projects, project financing, project design, tendering,
-      construction, to maintenance. Simultaneously, the team also assessed the
-      Department's organization structure, HR policies and processes, and
-      governance mechanisms. The team completed its diagnosis and provided OWD
-      with 36 key recommendations to transform the department, several of which
-      are currently under implementation.
+      citizen satisfaction with OWD projects.
 projectMiddleBannerImage: /img/owd-banner-2.jpg
+approach:
+  - text: >-
+      Over four months, the Samagra team diagnosed OWD's complete project
+      execution value chain, from selection of the right projects, project
+      financing, project design, tendering, construction, to maintenance.
+      Simultaneously, the team also assessed the Department's organization
+      structure, HR policies and processes, and governance mechanisms. The team
+      completed its diagnosis and provided OWD with 36 key recommendations to
+      transform the department, several of which are currently under
+      implementation.
 keyInitiativesTitle: ' '
 ---
 
