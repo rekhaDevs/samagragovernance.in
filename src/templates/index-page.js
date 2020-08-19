@@ -11,6 +11,7 @@ import HomeThirdSection from "../components/HomeComponents/HomeThirdSection/Home
 import HomeNewsSection from "../components/HomeComponents/HomeNewsSection/HomeNewsSection";
 
 export const IndexPageTemplate = ({
+                                      parentDomains,
                                       data
                                   }) => (
     <React.Fragment>
@@ -20,19 +21,46 @@ export const IndexPageTemplate = ({
                 <HomeSecondSection homeContent={data}/>
             </React.Fragment> : <span/>
         }
-        <HomeThirdSection/>
+        <HomeThirdSection parentDomains={parentDomains}/>
         <HomeNewsSection/>
     </React.Fragment>
 );
 
-const IndexPage = ({data}) => {
-    const {frontmatter} = data.markdownRemark;
-    console.log(frontmatter);
-    return (
-        <Layout>
-            <IndexPageTemplate data={frontmatter}/>
+// const IndexPage = ({data}) => {
+//     return (
+//         <Layout>
+//             <IndexPageTemplate data={frontmatter}/>
+//         </Layout>
+//     )
+// };
+
+class IndexPage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            domains: []
+        }
+    }
+
+    componentDidMount() {
+        const self = this;
+        if (window.localStorage.getItem('domains')) {
+            const domains = [];
+            JSON.parse(window.localStorage.getItem('domains')).forEach((d) => {
+                domains.push({...d.node.frontmatter})
+            });
+            self.setState({domains: JSON.parse(JSON.stringify(domains))})
+        }
+    }
+
+    render() {
+        const {frontmatter} = this.props.data.markdownRemark;
+
+        return <Layout>
+            <IndexPageTemplate parentDomains={this.state.domains} data={frontmatter}/>
         </Layout>
-    )
+    }
+
 }
 
 export default IndexPage

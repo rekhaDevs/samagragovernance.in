@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
 import {graphql, StaticQuery} from "gatsby";
 
-export const HeaderDropDownComponent = ({data}) => {
+export const HeaderDropDownComponent = ({data, parentDomains}) => {
     let loosingFocusTimeout;
 
+    console.log('--------------');
+    console.log(parentDomains);
     const [focused, changeFocus] = useState(
         false
     );
@@ -28,7 +30,7 @@ export const HeaderDropDownComponent = ({data}) => {
         let found = false;
         project.projectUrl = project.node.fields.slug;
         domains.forEach((domain) => {
-            if (domain.name === project.node.frontmatter['domain']) {
+            if (domain.name === project.node.frontmatter['domainNew']) {
                 found = true;
                 domain.projects.push(project);
                 domain.projects = domain.projects.sort(function (a, b) {
@@ -37,12 +39,23 @@ export const HeaderDropDownComponent = ({data}) => {
             }
         });
         if (!found) {
-            domains.push({name: project.node.frontmatter['domain'], activeProjectIndex: 0, projects: [project]})
-            domains = domains.sort(function (a, b) {
-                return b.name > a.name ? -1 : 1;
+            parentDomains.forEach((pD) => {
+                if (pD.title === project.node.frontmatter['domainNew'] && (pD.displayOnHeader === true || pD.displayOnHeader === 'true')) {
+                    domains.push({
+                        name: project.node.frontmatter['domainNew'],
+                        activeProjectIndex: 0,
+                        displayOrder: pD.displayOrder,
+                        projects: [project]
+                    });
+                    domains = domains.sort(function (a, b) {
+                        return b.displayOrder > a.displayOrder ? -1 : 1;
+                    });
+                }
             });
+
         }
     });
+
 
     return (
         <li onMouseEnter={() => setFocus()} onMouseLeave={() => looseFocus()}
@@ -83,7 +96,7 @@ export const HeaderDropDownComponent = ({data}) => {
     )
 };
 
-export default () => (
+export default ({domains}) => (
     <StaticQuery
         query={graphql`
       query ProjectHeaderListQuery {
@@ -102,12 +115,13 @@ export default () => (
                 title
                 templateKey
                 domain
+                domainNew
               }
             }
           }
         }
       }
     `}
-        render={(data, count) => <HeaderDropDownComponent data={data}/>}
+        render={(data, count) => <HeaderDropDownComponent parentDomains={domains} data={data}/>}
     />
 )

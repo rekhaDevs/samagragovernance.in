@@ -5,14 +5,14 @@ import {graphql, StaticQuery} from "gatsby";
 import Swiper from "react-id-swiper";
 
 
-export const HomeThirdSectionContent = ({data, previewData}) => {
+export const HomeThirdSectionContent = ({parentDomains, data, previewData}) => {
     const {edges: projectData} = previewData ? previewData.allMarkdownRemark : data.allMarkdownRemark;
     let items = [];
     projectData.forEach((project) => {
         let found = false;
         project.projectUrl = project.node.fields.slug;
         items.forEach((domain) => {
-            if (domain.name === project.node.frontmatter['domain']) {
+            if (domain.name === project.node.frontmatter['domainNew']) {
                 found = true;
                 domain.projects.push(project);
                 domain.projects = domain.projects.sort(function (a, b) {
@@ -21,9 +21,18 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
             }
         });
         if (!found) {
-            items.push({name: project.node.frontmatter['domain'], activeProjectIndex: 0, projects: [project]})
-            items = items.sort(function (a, b) {
-                return b.name > a.name ? -1 : 1;
+            parentDomains.forEach((pD) => {
+                if (pD.title === project.node.frontmatter['domainNew'] && (pD.displayOnHomeSlider === true || pD.displayOnHomeSlider === 'true')) {
+                    items.push({
+                        name: project.node.frontmatter['domainNew'],
+                        activeProjectIndex: 0,
+                        displayOrder: pD.displayOrder,
+                        projects: [project]
+                    });
+                    items = items.sort(function (a, b) {
+                        return b.displayOrder > a.displayOrder ? -1 : 1;
+                    });
+                }
             });
         }
     });
@@ -34,9 +43,13 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
     items.forEach((item) => {
         projects = [...projects, ...item.projects];
     });
+
     const [stateItems, setStateItems] = useState(
-        items
+        JSON.parse(JSON.stringify(items))
     );
+    console.log('items');
+    console.log(items.length);
+    console.log(stateItems);
 
     let swiperInstance;
     let swiperTitleInstance;
@@ -211,7 +224,7 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
     )
 };
 
-export default ({previewData}) => (
+export default ({previewData, parentDomains}) => (
     <StaticQuery
         query={graphql`
       query ProjectListQuery {
@@ -229,6 +242,7 @@ export default ({previewData}) => (
               frontmatter {
                 title
                 domain
+                domainNew
                 fullName
                 subTitle
                 state
@@ -288,7 +302,8 @@ export default ({previewData}) => (
         }
       }
     `}
-        render={(data, count) => <HomeThirdSectionContent previewData={previewData} data={data}/>}
+        render={(data, count) => parentDomains.length ? <HomeThirdSectionContent parentDomains={parentDomains} previewData={previewData}
+                                                          data={data}/> : <></>}
     />
 )
 

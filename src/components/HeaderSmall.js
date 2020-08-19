@@ -13,6 +13,12 @@ export class HeaderSmall extends React.Component {
     }
 
     componentDidMount() {
+        const parentDomains = [];
+        if (window.localStorage.getItem('domains')) {
+            JSON.parse(window.localStorage.getItem('domains')).forEach((d) => {
+                parentDomains.push({...d.node.frontmatter})
+            });
+        }
         window.addEventListener('scroll', this.handleScroll, true);
         const {data} = this.props;
         const {edges: projects} = data.allMarkdownRemark;
@@ -21,7 +27,7 @@ export class HeaderSmall extends React.Component {
             let found = false;
             project.projectUrl = project.node.fields.slug;
             domains.forEach((domain) => {
-                if (domain.name === project.node.frontmatter['domain']) {
+                if (domain.name === project.node.frontmatter['domainNew']) {
                     found = true;
                     domain.projects.push(project);
                     domain.projects = domain.projects.sort(function (a, b) {
@@ -30,9 +36,18 @@ export class HeaderSmall extends React.Component {
                 }
             });
             if (!found) {
-                domains.push({name: project.node.frontmatter['domain'], activeProjectIndex: 0, projects: [project]})
-                domains = domains.sort(function (a, b) {
-                    return b.name > a.name ? -1 : 1;
+                parentDomains.forEach((pD) => {
+                    if (pD.title === project.node.frontmatter['domainNew'] && (pD.displayOnHeader === true || pD.displayOnHeader === 'true')) {
+                        domains.push({
+                            name: project.node.frontmatter['domainNew'],
+                            activeProjectIndex: 0,
+                            displayOrder: pD.displayOrder,
+                            projects: [project]
+                        });
+                        domains = domains.sort(function (a, b) {
+                            return b.displayOrder > a.displayOrder ? -1 : 1;
+                        });
+                    }
                 });
             }
         });
@@ -194,6 +209,7 @@ export default () => (
                 title
                 templateKey
                 domain
+                domainNew
               }
             }
           }

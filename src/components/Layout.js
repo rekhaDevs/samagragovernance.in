@@ -103,6 +103,8 @@ export default ({children}) => (
               frontmatter {
                 title
                 displayOrder
+                displayOnHeader
+                displayOnHomeSlider
               }
             }
           }

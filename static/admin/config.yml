@@ -28,8 +28,8 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-domain-post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Display On Header", name: "displayOnHeader", widget: "boolean", default: true},
-      - {label: "Display On Home Slider", name: "displayOnHeader", widget: "boolean", default: true},
+      - {label: "Display On Header", name: "displayOnHeader", widget: "boolean", default: true}
+      - {label: "Display On Home Slider", name: "displayOnHomeSlider", widget: "boolean", default: true}
       - {label: "Display Order", name: "displayOrder", widget: "string"}
   - name: "mediacontent"
     label: "Media"

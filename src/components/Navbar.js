@@ -8,14 +8,22 @@ import HeaderDropdown from "./HeaderDropdown";
 const Navbar = class extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {showInverted: false, projects: []};
+        this.state = {showInverted: false, projects: [], domains: []};
     }
 
     componentDidMount() {
         if (typeof window !== 'undefined') {
             window.addEventListener('scroll', this.handleScroll, true);
+            const self = this;
             if (window.localStorage.getItem('domains')) {
-                console.log(JSON.parse(window.localStorage.getItem('domains')));
+                setTimeout(() => {
+                    const domains = [];
+
+                    JSON.parse(window.localStorage.getItem('domains')).forEach((d) => {
+                        domains.push({...d.node.frontmatter})
+                    })
+                    self.setState({domains: domains})
+                }, 10);
             }
         }
     }
@@ -60,8 +68,7 @@ const Navbar = class extends React.Component {
     };
 
     render() {
-        const {showInverted, projects} = this.state;
-
+        const {showInverted, projects, domains} = this.state;
         return (
             <div className={`header-wrapper  ${showInverted ? 'inverted-fixed' : ''} `}>
                 <div className={"container"}>
@@ -72,7 +79,7 @@ const Navbar = class extends React.Component {
                             </a>
                         </Link>
                         <ul className={'nav justify-content-end'}>
-                            <HeaderDropdown/>
+                            <HeaderDropdown domains={domains}/>
 
                             <li>
                                 <a className="nav-link" href="https://tech.samagragovernance.in">TECH</a>
