@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: Samarth
+domainNew: Education
 fullName: Samarth
 id: SAMARTH
 backgroundCover: /img/samarth-header-bg.jpg
