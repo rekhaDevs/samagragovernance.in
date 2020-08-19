@@ -29,7 +29,6 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Display Order", name: "displayOrder", widget: "string"}
-      - {label: "Display on Home", name: "display", widget: "boolean"}
   - name: "mediacontent"
     label: "Media"
     folder: "src/pages/mediacontent"
