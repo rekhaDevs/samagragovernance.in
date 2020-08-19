@@ -20,7 +20,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "project-domain"
+  - name: "projectdomain"
     label: "Project Domain"
     folder: "src/pages/project-domain"
     create: true

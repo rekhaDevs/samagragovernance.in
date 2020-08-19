@@ -10,11 +10,12 @@ import ReactGA from 'react-ga';
 
 
 class LayoutWrapper extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
     }
+
     componentDidMount() {
-        if (window){
+        if (window) {
             ReactGA.initialize('UA-117691729-3');
             ReactGA.pageview(window.location.pathname);
         }
@@ -22,7 +23,8 @@ class LayoutWrapper extends React.Component {
     }
 
     render() {
-        return   <div>
+        console.log(this.props);
+        return <div>
             <Helmet>
                 <html lang="en"/>
                 <title>Samagra Governance</title>
@@ -72,5 +74,6 @@ class LayoutWrapper extends React.Component {
         </div>
     }
 }
+
 export default LayoutWrapper;
 
