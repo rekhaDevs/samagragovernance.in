@@ -21,11 +21,6 @@ videos:
     videoUrl: 'https://www.youtube.com/embed/IwDQv3Yt5wI'
 partners:
   - description: >-
-      The Chief Minister’s Good Governance Associates (CMGGA) Programme is a
-      partnership between the Government of Haryana and Ashoka University,
-      designed and managed by Samagra.
-    image: /img/Ashoka.jpg
-  - description: >-
       ADAPT is a partnership between the Government of Odisha, Bill & Melinda
       Gates Foundation and Samagra.
     image: /img/BMGF_Logo.jpg
