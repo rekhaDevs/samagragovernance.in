@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: Saksham Haryana - Education
+domainNew: Education
 fullName: Saksham Haryana - Education
 id: SAKSHAM_EDUCATION
 backgroundCover: /img/saksham-header-b-1.jpg
