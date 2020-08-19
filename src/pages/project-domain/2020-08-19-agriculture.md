@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: project-domain-post
 title: Agriculture
 displayOrder: '1'
 ---

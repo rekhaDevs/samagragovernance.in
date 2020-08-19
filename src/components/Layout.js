@@ -4,7 +4,8 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
-import {withPrefix} from 'gatsby'
+import {graphql, StaticQuery, withPrefix} from 'gatsby'
+
 import HeaderSmall from "./HeaderSmall";
 import ReactGA from 'react-ga';
 
@@ -15,15 +16,16 @@ class LayoutWrapper extends React.Component {
     }
 
     componentDidMount() {
-        if (window) {
+        if (typeof window !== 'undefined') {
             ReactGA.initialize('UA-117691729-3');
             ReactGA.pageview(window.location.pathname);
+            const {edges: domains} = this.props.projects.allMarkdownRemark;
+            window.localStorage.setItem('domains', JSON.stringify(domains));
         }
 
     }
 
     render() {
-        console.log('here');
         let title = 'Samagra Governance';
         let description = 'Samagra Governance';
         let image = `${withPrefix('/')}img/logo-colored.png`;
@@ -87,5 +89,25 @@ class LayoutWrapper extends React.Component {
     }
 }
 
-export default LayoutWrapper;
-
+export default ({children}) => (
+    <StaticQuery
+        query={graphql`
+      query ProjectDomainListQuery {
+        allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "project-domain-post" } } }
+        ) {
+          edges {
+            node {
+              excerpt(pruneLength: 400)
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    `}
+        render={(data, count) => <LayoutWrapper projects={data} children={children}/>}
+    />
+)
