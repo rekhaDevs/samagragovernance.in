@@ -37,6 +37,7 @@ export const HomeThirdSectionContent = ({data, previewData}) => {
     const [stateItems, setStateItems] = useState(
         items
     );
+
     let swiperInstance;
     let swiperTitleInstance;
     const params = {

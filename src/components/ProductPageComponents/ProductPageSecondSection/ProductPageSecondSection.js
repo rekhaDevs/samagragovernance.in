@@ -37,21 +37,23 @@ export class ProductPageSecondSection extends React.Component {
         return (
             <div className={'product-page-second-section-wrapper'} style={{overflow: 'hidden'}}>
                 <div className={`first-section row ${firstSectionAnimation ? 'visible' : ''}`}>
-                    <div className="objective-wrapper col-md-6 col-sm-12">
-                        <div className="background"/>
-                        <div className="objective-card">
-                            <div className="title">
-                                Overview
+                    {
+                        project.overview && <div className="objective-wrapper col-md-6 col-sm-12">
+                            <div className="background"/>
+                            <div className="objective-card">
+                                <div className="title">
+                                    Overview
+                                </div>
+                                {
+                                    project.overview.map((o) => {
+                                        return <p>
+                                            {o.text}
+                                        </p>
+                                    })
+                                }
                             </div>
-                            {
-                                project.overview.map((o) => {
-                                    return <p>
-                                        {o.text}
-                                    </p>
-                                })
-                            }
                         </div>
-                    </div>
+                    }
                     {
                         project.scale ?
                             <div className="scale-wrapper col-md-6 col-sm-12">
@@ -90,21 +92,23 @@ export class ProductPageSecondSection extends React.Component {
                     </div>
                 </div>
                 <div className={`third-section row ${thirdSectionAnimation ? 'visible' : ''}`}>
-                    <div className="approach-wrapper col-md-6 col-sm-12">
-                        <div className="background"/>
-                        <div className="approach-card">
-                            <div className="title">
-                                Approach
+                    {
+                        project.approach && <div className="approach-wrapper col-md-6 col-sm-12">
+                            <div className="background"/>
+                            <div className="approach-card">
+                                <div className="title">
+                                    Approach
+                                </div>
+                                {
+                                    project.approach.map((o) => {
+                                        return <p>
+                                            {o.text}
+                                        </p>
+                                    })
+                                }
                             </div>
-                            {
-                                project.approach.map((o) => {
-                                    return <p>
-                                        {o.text}
-                                    </p>
-                                })
-                            }
                         </div>
-                    </div>
+                    }
                     {
                         project.impact ?
                             <div className="impact-wrapper col-md-6 col-sm-12">

@@ -20,6 +20,16 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "project-domain"
+    label: "Project Domain"
+    folder: "src/pages/project-domain"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Display Order", name: "displayOrder", widget: "string"}
+      - {label: "Display on Home", name: "displayOnHomePage", widget: "boolean"}
   - name: "mediacontent"
     label: "Media"
     folder: "src/pages/mediacontent"
