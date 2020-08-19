@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: Antyodaya Saral
+domainNew: Service Delivery
 fullName: Antyodaya Saral
 id: SARAL
 backgroundCover: /img/saral-header-bg.jpg
