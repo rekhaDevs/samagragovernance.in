@@ -1,13 +1,13 @@
 ---
 templateKey: project-post
 title: Digital Haryana Cell
+domainNew: Digital
 fullName: Digital Haryana Cell
 id: DIGITAL
 backgroundCover: /img/digital-haryana-header-bg.jpeg
 domain: Digital
 subTitle: DIGITAL
 state: Haryana
-keyInitiativesTitle: Key Initiatives
 tagLine: Designing and implementing Haryana's digital roadmap
 projectLogoWithState: /img/dhc-logo.png
 overview:
@@ -47,6 +47,7 @@ impact:
     label: roads mapped for grievance redressal app
   - count: '1,15,000'
     label: teacher service books digitized
+keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
       text: >-
