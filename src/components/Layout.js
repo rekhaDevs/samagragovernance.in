@@ -23,12 +23,18 @@ class LayoutWrapper extends React.Component {
     }
 
     render() {
-        console.log(this.props);
+        console.log(this.props.children.props.content);
+        let title = 'Samagra Governance';
+        let description = 'Samagra Governance';
+        if (this.props.children && this.props.children.props && this.props.children.props.content) {
+            title = title || this.props.children.props.content.title;
+            description = description || this.props.children.props.content.description;
+        }
         return <div>
             <Helmet>
                 <html lang="en"/>
-                <title>Samagra Governance</title>
-                <meta name="description" content={'Samagra Governance'}/>
+                <title>{title}</title>
+                <meta name="description" content={description}/>
 
                 <link
                     rel="apple-touch-icon"
@@ -56,7 +62,7 @@ class LayoutWrapper extends React.Component {
                 <meta name="theme-color" content="#fff"/>
 
                 <meta property="og:type" content="business.business"/>
-                <meta property="og:title" content={'Samagra Governance'}/>
+                <meta property="og:title" content={title}/>
                 <meta property="og:url" content="/"/>
                 <link rel="stylesheet"
                       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
