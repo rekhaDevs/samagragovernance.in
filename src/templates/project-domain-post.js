@@ -10,8 +10,6 @@ import React from "react";
 import { kebabCase } from "lodash";
 
 const ProjectDomain = ({ data }) => {
-  const { markdownRemark: post } = data;
-
   return (
    <></>
   );

@@ -102,6 +102,7 @@ export default ({children}) => (
               excerpt(pruneLength: 400)
               frontmatter {
                 title
+                displayOrder
               }
             }
           }
