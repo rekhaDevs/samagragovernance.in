@@ -23,10 +23,11 @@ class LayoutWrapper extends React.Component {
     }
 
     render() {
-        console.log(this.props.children.props.content);
         let title = 'Samagra Governance';
         let description = 'Samagra Governance';
         if (this.props.children && this.props.children.props && this.props.children.props.content) {
+            console.log(this.props.children.props.content);
+
             title = title || this.props.children.props.content.title;
             description = description || this.props.children.props.content.description;
         }
@@ -72,6 +73,8 @@ class LayoutWrapper extends React.Component {
                     property="og:image"
                     content={`${withPrefix('/')}img/logo-colored.png`}
                 />
+                <meta name="twitter:image" content={`${withPrefix('/')}img/logo-colored.png`}/>
+
             </Helmet>
             <span className={'hide-for-small-only'}><Navbar/></span>
             <span className={'show-for-small-only'}><HeaderSmall/></span>
