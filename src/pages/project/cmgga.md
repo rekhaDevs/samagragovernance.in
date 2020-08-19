@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: CMGGA
+domainNew: Past Projects
 fullName: Chief Minister Good Governance Associates
 id: CMGGA
 backgroundCover: /img/cmgga-header-bg.jpg
