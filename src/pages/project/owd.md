@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: OWD
+domainNew: Past Projects
 fullName: Odisha Works Department
 id: OWD
 backgroundCover: /img/owd.jpg
