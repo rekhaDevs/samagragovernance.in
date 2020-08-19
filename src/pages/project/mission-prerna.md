@@ -1,6 +1,7 @@
 ---
 templateKey: project-post
 title: Mission Prerna
+domainNew: Education
 fullName: Mission Prerna
 id: Mission Prerna
 backgroundCover: /img/samagragovernance_missionprerna.jpg
