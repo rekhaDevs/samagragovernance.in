@@ -24,6 +24,13 @@ overview:
       governance in the state. Broadly, this meant breaking down the mandate
       into three objectives: to improve timeliness, reduce costs and improve
       citizen satisfaction with OWD projects.
+scale:
+  - count: '1450'
+    label: Ongoing projects
+  - count: '1,500'
+    label: Officers & Engineers
+  - count: '4,100 crore'
+    label: Annual budget (2018-19)
 projectMiddleBannerImage: /img/owd-banner-2.jpg
 approach:
   - text: >-
