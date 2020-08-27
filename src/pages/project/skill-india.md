@@ -19,6 +19,11 @@ overview:
       framework to help prioritise them. Starting in November 2019, Samagra’s
       Skill India team started working with MSDE to help convert this vision
       into an action plan for implementation.
+scale:
+  - count: '15,000'
+    label: Industrial Training Institutes
+  - count: 1 crore
+    label: People trained annually
 projectMiddleBannerImage: /img/msde-second-banner.jpg
 approach:
   - text: >-
