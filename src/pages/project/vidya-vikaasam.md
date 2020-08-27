@@ -41,6 +41,11 @@ approach:
 impact:
   - count: 1st
     label: State to set up assessment cell
-keyInitiativesTitle: ' '
+keyInitiativesTitle: Key Initiatives
+keyInitiatives:
+  - description:
+      text: "Successive large scale assessments showed that there was a fall in the learning levels of students in the state as they progressed through their years in school. This was a problem that affected the lives of students adversely, and the state found it imperative that measures be taken to address this issue in the short term. Towards this end, it was decided that a remedial programme named Gnana Dhaara shall be launched. This was a summer remedial programme that was targeted at students transitioning from Class 5 to Class 6, and Class 9 to Class 10. Gnana Dhaara had three objectives. First, curbing dropouts. A dropout predictive model designed by Microsoft for the state of Andhra Pradesh analysed that 82% of all dropouts occur due to difficulties faced in being able to cope up academically.\_Second, developing an academic bridge programme for transitioning students. And third, engaging students productively during summer."
+    image: /img/team_vv_on-ground-1-.jpg
+    title: Gnana Dhaara
 ---
 
