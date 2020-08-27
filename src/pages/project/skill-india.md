@@ -20,6 +20,8 @@ overview:
       Skill India team started working with MSDE to help convert this vision
       into an action plan for implementation.
 scale:
+  - count: '49'
+    label: Centrally-sponsored skilling schemes
   - count: '15,000'
     label: Industrial Training Institutes
   - count: 1 crore
