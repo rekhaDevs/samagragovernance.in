@@ -21,6 +21,8 @@ overview:
       being used by the department leadership for conducting reviews and taking
       policy decisions.
 scale:
+  - count: '5,500'
+    label: Schools
   - count: '25,000'
     label: Teachers
   - count: '17,00,000'
