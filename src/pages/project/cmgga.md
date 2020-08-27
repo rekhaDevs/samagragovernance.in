@@ -51,10 +51,12 @@ readMore:
   - text: 'Grievance redressal, top priority: Khattar'
   - text: Women’s safety focus area of CMGGA programme
 impact:
-  - count: '19'
-    label: states have been represented across 4 batches of CMGGAs
+  - count: '22'
+    label: 24*7 One Stop Centres operationalized
   - count: '115'
     label: service delivery centres operationalized
+  - count: '10,00,000'
+    label: students connected to teachers through class WhatsApp groups
 keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
