@@ -20,6 +20,11 @@ overview:
       higher levels of the school education department, with assessment data
       being used by the department leadership for conducting reviews and taking
       policy decisions.
+scale:
+  - count: '25,000'
+    label: Teachers
+  - count: '17,00,000'
+    label: Students
 projectMiddleBannerImage: /img/team_vv_meeting.jpg
 approach:
   - text: >-
