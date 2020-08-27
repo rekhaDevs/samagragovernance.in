@@ -38,6 +38,9 @@ approach:
       monitoring. Third, setting up systems to close the assessment feedback
       loop by sharing the results of high-quality assessments with teachers and
       parents for corrective action.
+impact:
+  - count: 1st
+    label: State to set up assessment cell
 keyInitiativesTitle: ' '
 ---
 
