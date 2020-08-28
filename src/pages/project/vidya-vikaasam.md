@@ -51,23 +51,5 @@ keyInitiatives:
       text: "Successive large scale assessments showed that there was a fall in the learning levels of students in the state as they progressed through their years in school. This was a problem that affected the lives of students adversely, and the state found it imperative that measures be taken to address this issue in the short term. Towards this end, it was decided that a remedial programme named Gnana Dhaara shall be launched. This was a summer remedial programme that was targeted at students transitioning from Class 5 to Class 6, and Class 9 to Class 10. Gnana Dhaara had three objectives. First, curbing dropouts. A dropout predictive model designed by Microsoft for the state of Andhra Pradesh analysed that 82% of all dropouts occur due to difficulties faced in being able to cope up academically.\_Second, developing an academic bridge programme for transitioning students. And third, engaging students productively during summer."
     image: /img/team_vv_on-ground-1-.jpg
     title: Gnana Dhaara
-  - description:
-      text: >-
-        Since the inception of the Continuous and Comprehensive Examination
-        (CCE) pattern in 2010, the state's Department of School Education had
-        been collecting formative and summative assessment data of students from
-        all the schools. However, little attempt was made towards systematically
-        using the data and deriving data backed insights on the performance of
-        students and gaps in learning till 2016-17, when a step in this
-        direction was taken through the digitization of the data collection
-        process. Steps towards using assessment data towards operational and
-        policy-related processes picked up steam with the Vidya Vikaasam
-        engagament, wherein it was decided that an Assessment Dashboard would be
-        developed which would provide assessment analytics to all concerned
-        stakeholders. Thus, a completely functional assessment dashboard that is
-        being regularly used by both the department and field personnel towards
-        a number of activities was created. 
-    image: /img/vv-dashboard.jpeg
-    title: Assessment Dashboard
 ---
 
