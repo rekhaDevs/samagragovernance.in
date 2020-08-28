@@ -41,6 +41,10 @@ approach:
 impact:
   - count: 1st
     label: State to set up assessment cell
+  - count: '98,989 '
+    label: Total assessment dashboard users
+  - count: '30,00,000 '
+    label: Students assessed
 keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
@@ -63,7 +67,7 @@ keyInitiatives:
         stakeholders. Thus, a completely functional assessment dashboard that is
         being regularly used by both the department and field personnel towards
         a number of activities was created. 
-    image: /img/whatsapp-image-2020-08-28-at-1.43.53-pm.jpeg
+    image: /img/vv-dashboard.jpeg
     title: Assessment Dashboard
 ---
 
