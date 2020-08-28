@@ -43,8 +43,6 @@ impact:
     label: State to set up assessment cell
   - count: '98,989 '
     label: Total assessment dashboard users
-  - count: '30,00,000 '
-    label: Students assessed
 keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
