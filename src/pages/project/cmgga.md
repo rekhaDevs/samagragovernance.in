@@ -27,10 +27,10 @@ overview:
       designing the Fellowship as an experiential learning opportunity that
       would be useful for the government as well as selected candidates. 
 scale:
-  - count: '4'
-    label: Batches
-  - count: '22'
-    label: Districts
+  - count: '36'
+    label: Departments
+  - count: '65 '
+    label: Projects
   - count: '94'
     label: CMMGAs
 projectMiddleBannerImage: /img/cmgga-cover.jpg
