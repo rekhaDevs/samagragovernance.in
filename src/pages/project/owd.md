@@ -1,9 +1,9 @@
 ---
 templateKey: project-post
-title: OWD
+title: Odisha Works Department
 domainNew: Past Projects
 fullName: Odisha Works Department
-id: OWD
+id: Odisha Works Department
 backgroundCover: /img/owd.jpg
 domain: Past Projects
 subTitle: Samagra
