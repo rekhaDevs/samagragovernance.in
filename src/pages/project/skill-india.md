@@ -42,6 +42,10 @@ approach:
 impact:
   - count: ' '
     label: Streamlining technology-based management of Apprenticeship
+  - count: ' '
+    label: >-
+      Developing a plan for transitioning towards learning outcomes-based
+      curriculum for ITIs
 keyInitiativesTitle: ' '
 ---
 
