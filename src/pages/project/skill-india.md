@@ -41,13 +41,11 @@ approach:
       cohesive strategy.
 impact:
   - count: ' '
-    label: Developing the design for a digital-first national skills regulator
+    label: Improving delivery in ITIs and promoting apprenticeship
   - count: ' '
-    label: Streamlining technology-based management for Apprenticeships
+    label: Mainstreaming skilling and formalizing entrepreneurship
   - count: ' '
-    label: >-
-      Developing plan to transition towards learning outcomes-based curriculum
-      for ITIs
+    label: Assuring quality via good governance and digital regulation
 keyInitiativesTitle: ' '
 ---
 
