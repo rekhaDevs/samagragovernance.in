@@ -41,6 +41,8 @@ approach:
       cohesive strategy.
 impact:
   - count: ' '
+    label: Developing the design for a digital-first national skills regulator
+  - count: ' '
     label: Streamlining technology-based management for Apprenticeships
   - count: ' '
     label: >-
