@@ -41,11 +41,11 @@ approach:
       cohesive strategy.
 impact:
   - count: ' '
-    label: Streamlining technology-based management of Apprenticeship
+    label: Streamlining technology-based management for Apprenticeships
   - count: ' '
     label: >-
-      Developing a plan for transitioning towards learning outcomes-based
-      curriculum for ITIs
+      Developing plan to transition towards learning outcomes-based curriculum
+      for ITIs
 keyInitiativesTitle: ' '
 ---
 
