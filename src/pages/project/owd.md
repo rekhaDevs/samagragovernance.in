@@ -46,7 +46,7 @@ impact:
   - count: ' '
     label: Developing a contractor database management system
   - count: ' '
-    label: Reorganizing responsibilities of officials based on workloads
+    label: Reorganizing roles and responsibilities based on workloads
   - count: '  '
     label: Streamlining and digitizing vendor payment cycle
 keyInitiativesTitle: ' '
