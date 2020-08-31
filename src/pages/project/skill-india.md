@@ -45,7 +45,7 @@ impact:
   - count: ' '
     label: Mainstreaming skilling & formalizing entrepreneurship
   - count: ' '
-    label: Assuring quality via good governance & digital regulation
+    label: Assuring quality via good governance & regulation
 keyInitiativesTitle: ' '
 ---
 
