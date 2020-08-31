@@ -43,9 +43,9 @@ impact:
   - count: ' '
     label: Improving delivery in ITIs and promoting apprenticeship
   - count: ' '
-    label: Mainstreaming skilling and formalizing entrepreneurship
+    label: Mainstreaming skilling & formalizing entrepreneurship
   - count: ' '
-    label: Assuring quality via good governance and digital regulation
+    label: Assuring quality via good governance & digital regulation
 keyInitiativesTitle: ' '
 ---
 
