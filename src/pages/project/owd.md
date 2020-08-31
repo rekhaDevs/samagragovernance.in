@@ -42,6 +42,9 @@ approach:
       completed its diagnosis and provided OWD with 36 key recommendations to
       transform the department, several of which are currently under
       implementation.
+impact:
+  - count: ' '
+    label: Designing a contractor database management system
 keyInitiativesTitle: ' '
 ---
 
