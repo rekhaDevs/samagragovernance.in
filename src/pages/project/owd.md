@@ -44,7 +44,11 @@ approach:
       implementation.
 impact:
   - count: ' '
-    label: Designing a contractor database management system
+    label: Developing a contractor database management system
+  - count: ' '
+    label: Reorganizing responsibilities based on workloads
+  - count: '  '
+    label: Streamlining and digitize vendor payment cycle
 keyInitiativesTitle: ' '
 ---
 
