@@ -56,7 +56,7 @@ impact:
   - count: '115'
     label: service delivery centres operationalized
   - count: '10,00,000'
-    label: students connected to teachers through WhatsApp
+    label: students connected to teachers via WhatsApp for e-learning
 keyInitiativesTitle: Key Initiatives
 keyInitiatives:
   - description:
