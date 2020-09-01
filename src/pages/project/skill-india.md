@@ -41,11 +41,11 @@ approach:
       cohesive strategy.
 impact:
   - count: ' '
-    label: Improving delivery in ITIs and promoting apprenticeship
+    label: Improving delivery of skilling in ITIs and promoting apprenticeship
   - count: ' '
-    label: Mainstreaming skilling & formalizing entrepreneurship
+    label: Mainstreaming skilling and formalizing entrepreneurship
   - count: ' '
-    label: Assuring quality via good governance & regulation
+    label: Assuring quality through good governance and regulation
 keyInitiativesTitle: ' '
 ---
 
