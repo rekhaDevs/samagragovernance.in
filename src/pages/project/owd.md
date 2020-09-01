@@ -48,7 +48,7 @@ impact:
   - count: ' '
     label: Reorganizing roles and responsibilities based on workloads
   - count: '  '
-    label: Streamlining and digitizing vendor payment cycle
+    label: Streamlining and digitizing the vendor payment cycle
 keyInitiativesTitle: ' '
 ---
 
