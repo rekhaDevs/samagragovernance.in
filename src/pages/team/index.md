@@ -487,7 +487,7 @@ team:
       Sagari holds a Bachelor's and Master's degree in Environmental Engineering
       from Delhi Technological University and Stanford University, respectively.
       After graduating from Stanford, she worked at Geosyntec Consultants, an
-      environmental consulting company, in Seattle. \n\nHer interest in
+      environmental consulting company, in Seattle. Her interest in
       transitioning to the development sector and facilitating sustainable
       change on the ground brought her to Samagra. Currently she is part of the
       Saksham Haryana-Education team.
