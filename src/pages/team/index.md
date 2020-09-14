@@ -616,11 +616,12 @@ team:
 
 
       A strong desire to be a part of the change that Samagra is bringing about
-      in the lives of citizens at large brought her to the firm.
+      in the lives of citizens at large brought her to the firm. Currently, she
+      is part of the Saksham Haryana-Education team.
     image: /img/edited_srishti.jpg
     linkedInProfile: 'https://www.linkedin.com/in/srishti-dahiya-98aa47110/'
     name: Srishti Dahiya
-    project: ' '
+    project: ' Saksham Haryana-Education'
   - bio: >-
       Suditi holds a Bachelor's degree in Computer Science from Vellore
       Institute of Technology. Her desire to work towards equal opportunity for
