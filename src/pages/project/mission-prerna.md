@@ -53,6 +53,19 @@ readMore:
   - text: >-
       The Uttar Pradesh government is revolutionising primary education in the
       state
-keyInitiativesTitle: ' '
+impact:
+  - count: '   '
+    label: >-
+      Supporting the state in setting a quantifiable target for improving
+      foundational literacy and numeracy
+  - count: '   '
+    label: >-
+      Working with academic partners to develop the instructional design and
+      pedagogy strategy for the state
+  - count: '    '
+    label: >-
+      Developing a tech tool to measure progress made by students on key
+      academic metrics
+keyInitiativesTitle: '  '
 ---
 
