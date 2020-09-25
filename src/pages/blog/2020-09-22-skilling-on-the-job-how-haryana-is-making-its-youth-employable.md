@@ -41,6 +41,10 @@ _\--On-site Safety Concerns:_ Wage workers, apprentices and DST trainees face th
 
 ![](/img/dst-3.jpeg)
 
+_A student getting trained_
+
+__
+
 _\--Ensuring a dedicated instructor for DST Unit:_ Ensuring trainees maintain discipline while on the industry premises is difficult, given that a workplace demands punctuality, proper etiquette and professionalism. Inculcating these attributes is  not prioritized in  ITIs. A dedicated trade instructor for each DST unit was mandated to ensure theoretical and practical training in ITI and the industry and also to ensure discipline while training on the industry premises.
 
 _\--Trainee discipline and motivation:_ Trainee discipline, punctuality and display of professionalism was an issue for most industry partners. Addressing these issues required giving trainees a sense of responsibility, competition and role modelling. All trainees had to mandatorily maintain on-the-job training (OJT) diaries to record what they learnt everyday. The trade instructor would ensure trainees filled these diaries at the end of each day. Best performing trainees were also recognized and appreciated by industry partners as “DST trainee of the month”, akin to being the best employee of the month. 
@@ -82,6 +86,8 @@ _\--Distance and transport matters to trainees:_ Often, due to a lack of industr
 2. Trade in question should address major production activity/service in the industry: Care should be taken to ensure that the trade selected should contribute to major production activity/service in the industry. For example, with an industry that manufactures textiles, trades such as sewing technology or dress-making would be most suitable, but not fitter or electrician, even though the industry is in need of people from that trade as well. This is important for two reasons, if a student is not getting trained in the key production activity or service, then chances are that he or she will not be able to learn much from the industry supervisors who are themselves providing a support function. Additionally, this also reduces the chances of the student getting placed in the same industry as they might not have many vacancies for support functions.
 
 ![](/img/dst-2.jpeg)
+
+_Training session in progress_
 
 3. Government shall invest in insurance, not the industry: All stakeholders, government and industries alike should prioritize safety of trainees. However, the government should provide insurance to trainees, and not burden industries on this front. The feedback from industry partners in Haryana in this regard has been highly positive. Industries should only focus on providing training on the shop floor and ensure safety of trainees at all times as a general practice.
 4. One DST Unit - One Trade Instructor: Given that trainees spend a substantial proportion of their time in the industry, the job of a trade instructor is most crucial to teach theory, assist in practical training and ensure safety, discipline of trainees. 
