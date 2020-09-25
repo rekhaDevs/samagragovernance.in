@@ -29,8 +29,9 @@ Haryana implemented DST in 72 units in the 2019-20 academic year, which constitu
 1. Who is responsible for DST implementation in a unit?
 2. Who is responsible for the safety of trainees?
 
-* _Detailing Roles and Responsibilities (R&R) of all stakeholders:_ Detailed R&R was prepared for every stakeholder to ensure high quality implementation. For example, the trade instructor would be responsible for training, maintaining discipline, attendance and safety of trainees, while the industry partner would be responsible for providing training support, a dedicated supervisor, access to the shop floor etc.
-* _On-site Safety Concerns:_ Wage workers, apprentices and DST trainees face the same risks on the shop floor. While wage workers and apprentices receive insurance support from the industry, DST trainees do not. Industries who partnered with ITIs for DST were reluctant to provide insurance to trainees as it would be an additional cost. At the same time, several industries were also reluctant to provide training to DST students on the shop floor due to safety concerns. Haryana’s Department of Skill Development provided insurance to all ITI trainees undergoing DST, thus easing the pressure on industries. Haryana has been the only state to provide insurance to DST trainees.
+_\--Detailing Roles and Responsibilities (R&R) of all stakeholders:_ Detailed R&R was prepared for every stakeholder to ensure high quality implementation. For example, the trade instructor would be responsible for training, maintaining discipline, attendance and safety of trainees, while the industry partner would be responsible for providing training support, a dedicated supervisor, access to the shop floor etc.
+
+_\--On-site Safety Concerns:_ Wage workers, apprentices and DST trainees face the same risks on the shop floor. While wage workers and apprentices receive insurance support from the industry, DST trainees do not. Industries who partnered with ITIs for DST were reluctant to provide insurance to trainees as it would be an additional cost. At the same time, several industries were also reluctant to provide training to DST students on the shop floor due to safety concerns. Haryana’s Department of Skill Development provided insurance to all ITI trainees undergoing DST, thus easing the pressure on industries. Haryana has been the only state to provide insurance to DST trainees.
 
 **Learning and Discipline**
 
@@ -39,8 +40,6 @@ Haryana implemented DST in 72 units in the 2019-20 academic year, which constitu
 5. What topics are covered in the ITI and industry premises?
 
 ![](/img/dst-3.jpeg)
-
-_A student getting trained_
 
 __
 
@@ -85,8 +84,6 @@ _\--Distance and transport matters to trainees:_ Often, due to a lack of industr
 2. Trade in question should address major production activity/service in the industry: Care should be taken to ensure that the trade selected should contribute to major production activity/service in the industry. For example, with an industry that manufactures textiles, trades such as sewing technology or dress-making would be most suitable, but not fitter or electrician, even though the industry is in need of people from that trade as well. This is important for two reasons, if a student is not getting trained in the key production activity or service, then chances are that he or she will not be able to learn much from the industry supervisors who are themselves providing a support function. Additionally, this also reduces the chances of the student getting placed in the same industry as they might not have many vacancies for support functions.
 
 ![](/img/dst-2.jpeg)
-
-_Training session in progress_
 
 3. Government shall invest in insurance, not the industry: All stakeholders, government and industries alike should prioritize safety of trainees. However, the government should provide insurance to trainees, and not burden industries on this front. The feedback from industry partners in Haryana in this regard has been highly positive. Industries should only focus on providing training on the shop floor and ensure safety of trainees at all times as a general practice.
 4. One DST Unit - One Trade Instructor: Given that trainees spend a substantial proportion of their time in the industry, the job of a trade instructor is most crucial to teach theory, assist in practical training and ensure safety, discipline of trainees. 
