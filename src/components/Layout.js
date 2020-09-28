@@ -29,6 +29,10 @@ class LayoutWrapper extends React.Component {
         let title = 'Samagra Governance';
         let description = 'Samagra Governance';
         let image = `${withPrefix('/')}img/logo-colored.png`;
+        console.log('==============')
+        console.log(image);
+        console.log(this.props);
+
         if (this.props.children && this.props.children.props && this.props.children.props.content) {
             title = this.props.children.props.content.title || title;
             description = this.props.children.props.content.description || description;
@@ -37,6 +41,8 @@ class LayoutWrapper extends React.Component {
                 image = this.props.children.props.content.featuredimage.childImageSharp.fluid.src;
             }
         }
+        console.log(image);
+        console.log('==============')
         return <div>
             <Helmet>
                 <html lang="en"/>
