@@ -29,9 +29,11 @@ class LayoutWrapper extends React.Component {
         let title = 'Samagra Governance';
         let description = 'Samagra Governance';
         let image = `${withPrefix('/')}img/logo-colored.png`;
+       console.log(this.props.children.props);
         if (this.props.children && this.props.children.props && this.props.children.props.content) {
             title = this.props.children.props.content.title || title;
             description = this.props.children.props.content.description || description;
+
             if (this.props.children.props.content.featuredimage) {
                 image = `${withPrefix('/')}img/${this.props.children.props.content.featuredimage.childImageSharp.fluid.src.split('/')[this.props.children.props.content.featuredimage.childImageSharp.fluid.src.split('/').length - 1]}` || image;
             }
