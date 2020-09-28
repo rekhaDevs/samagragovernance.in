@@ -68,6 +68,11 @@ class LayoutWrapper extends React.Component {
                 />
 
                 <link
+                    rel="canonical"
+                    href={`/`}
+                />
+
+                <link
                     rel="mask-icon"
                     href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
                     color="#ff4400"
