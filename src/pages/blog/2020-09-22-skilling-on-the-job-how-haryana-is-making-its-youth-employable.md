@@ -40,7 +40,7 @@ Haryana implemented DST in 72 units in the 2019-20 academic year, which constitu
 
 ![](/img/dst-3.jpeg)
 
-__
+_Training under progress_
 
 _\--Ensuring a dedicated instructor for DST Unit:_ Ensuring trainees maintain discipline while on the industry premises is difficult, given that a workplace demands punctuality, proper etiquette and professionalism. Inculcating these attributes is  not prioritized in  ITIs. A dedicated trade instructor for each DST unit was mandated to ensure theoretical and practical training in ITI and the industry and also to ensure discipline while training on the industry premises.
 
