@@ -29,8 +29,9 @@ Haryana implemented DST in 72 units in the 2019-20 academic year, which constitu
 1. Who is responsible for DST implementation in a unit?
 2. Who is responsible for the safety of trainees?
 
-* _Detailing Roles and Responsibilities (R&R) of all stakeholders:_ Detailed R&R was prepared for every stakeholder to ensure high quality implementation. For example, the trade instructor would be responsible for training, maintaining discipline, attendance and safety of trainees, while the industry partner would be responsible for providing training support, a dedicated supervisor, access to the shop floor etc.
-* _On-site Safety Concerns:_ Wage workers, apprentices and DST trainees face the same risks on the shop floor. While wage workers and apprentices receive insurance support from the industry, DST trainees do not. Industries who partnered with ITIs for DST were reluctant to provide insurance to trainees as it would be an additional cost. At the same time, several industries were also reluctant to provide training to DST students on the shop floor due to safety concerns. Haryana’s Department of Skill Development provided insurance to all ITI trainees undergoing DST, thus easing the pressure on industries. Haryana has been the only state to provide insurance to DST trainees.
+_\--Detailing Roles and Responsibilities (R&R) of all stakeholders:_ Detailed R&R was prepared for every stakeholder to ensure high quality implementation. For example, the trade instructor would be responsible for training, maintaining discipline, attendance and safety of trainees, while the industry partner would be responsible for providing training support, a dedicated supervisor, access to the shop floor etc.
+
+_\--On-site Safety Concerns:_ Wage workers, apprentices and DST trainees face the same risks on the shop floor. While wage workers and apprentices receive insurance support from the industry, DST trainees do not. Industries who partnered with ITIs for DST were reluctant to provide insurance to trainees as it would be an additional cost. At the same time, several industries were also reluctant to provide training to DST students on the shop floor due to safety concerns. Haryana’s Department of Skill Development provided insurance to all ITI trainees undergoing DST, thus easing the pressure on industries. Haryana has been the only state to provide insurance to DST trainees.
 
 **Learning and Discipline**
 
@@ -39,8 +40,6 @@ Haryana implemented DST in 72 units in the 2019-20 academic year, which constitu
 5. What topics are covered in the ITI and industry premises?
 
 ![](/img/dst-3.jpeg)
-
-_Training under progress_
 
 _\--Ensuring a dedicated instructor for DST Unit:_ Ensuring trainees maintain discipline while on the industry premises is difficult, given that a workplace demands punctuality, proper etiquette and professionalism. Inculcating these attributes is  not prioritized in  ITIs. A dedicated trade instructor for each DST unit was mandated to ensure theoretical and practical training in ITI and the industry and also to ensure discipline while training on the industry premises.
 
