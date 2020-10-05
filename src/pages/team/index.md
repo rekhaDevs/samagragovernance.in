@@ -234,20 +234,6 @@ team:
     name: Chakshu Gautam
     project: Tech@Samagra
   - bio: >-
-      Chirag holds a Bachelor's degree in Chemical Engineering from IIT, Bombay.
-      He worked as an analytics consultant with Fractal Analytics before
-      becoming a tech entrepreneur. Chirag started a company in the travel
-      domain and subsequently helped build the insurance startup Coverfox
-      Insurance ground up. He led teams in digital marketing, sales and
-      analytics and last led strategy for Coverfox as the Chief of Staff. \n\nAn
-      opportunity to use his entrepreneurial experience to deliver large scale
-      and deep impact programmes brought him to Samagra. Currently he leads the
-      CMGGA engagement in Haryana.
-    image: /img/chirag.jpg
-    linkedInProfile: e i
-    name: Chirag Bhandari
-    project: CMGGA
-  - bio: >-
       Divya holds a Master's degree in Public Policy from National Law School,
       Bangalore and a Bachelor's degree in Political Science from Kirorimal
       College, University of Delhi. Before joining Samagra, she was working as a
