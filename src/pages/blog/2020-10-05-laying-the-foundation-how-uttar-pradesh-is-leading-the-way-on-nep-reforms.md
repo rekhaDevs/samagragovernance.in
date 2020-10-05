@@ -34,7 +34,7 @@ In September 2019, the Chief Minister of Uttar Pradesh, Yogi Adityanath, launche
 
 ![](/img/prerna-lakshya_edited.png.jpg)
 
-- - -
+
 
 **Developing a learning outcomes framework to enable goal attainment** 
 
