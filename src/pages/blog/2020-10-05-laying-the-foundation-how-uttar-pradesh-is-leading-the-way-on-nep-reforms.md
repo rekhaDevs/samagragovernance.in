@@ -12,7 +12,6 @@ featuredimage: /img/mission-prerna_classroom-1.png
 ---
 According to the [Annual Status of Education Report](http://img.asercentre.org/docs/ASER%202019/ASER2019%20report%20/aserreport2019earlyyearsfinal.pdf) (ASER) 2019  more than 90% of children in the age group 4-8 are enrolled in some type of educational institution, these include pre-schools (Anganwadis, LKG or UKG classes) or schools (government or private). At the same time the report highlights that 39% students in grade 1 cannot identify or read letters, 45.8% students in grade 2 can only identify and read letters but cannot read whole words, and only 50% students in grade 3 can even read a grade 1-level text. It also mentions that, 26.9% students in grade 1 cannot identify and count numbers between 1-9, 38.7% students in grade 2 and 27.8% in grade 3 cannot identify and count numbers above 9 (i.e., 10-99). 
 
-
 Given this context, it is clear that while successive governments have been able to ensure the physical presence of students inside classrooms, this hasn’t necessarily ensured adequate learning inside them. 
 The statistics highlighted above are measured against specific skills such as the skill of reading and identifying letters or the skill of identifying numbers. These skills comprise what is called foundational literacy and numeracy (FLN) skills. Foundational literacy would include reading and comprehension skills such as identifying letters, reading of non-words, oral reading fluency, listening with comprehension etc. Foundational literacy in numeracy would include skills related to ‘number sense’ such as identification of numbers, finding missing numbers, solving addition and subtraction problems among other things.
 These skills form the basis for all future learning that the child then undertakes. It is as a consequence of students failing to acquire these FLN skills during the initial years of schooling, that the learning crisis in classrooms takes root, as the gap between what a student is taught and what she can comprehend steadily widens.
@@ -22,9 +21,7 @@ These skills form the basis for all future learning that the child then undertak
 The recently released [National Education Policy](https://www.mhrd.gov.in/sites/upload_files/mhrd/files/NEP_Final_English_0.pdf) (NEP) 2020   by the Ministry of Education, Government of India draws an outline for the country to achieve FLN skills. It states that the "…highest priority of the education system will be to achieve universal foundational literacy and numeracy in primary school by 2025". It calls for a national mission around attainment of FLN skills to be set up by the Ministry with clearly determined short-term goals.  The policy amongst other things highlights competencies important for both literacy and numeracy, urges states to ensure ideal pupil to teacher ratio (25:1), increase access to early childhood care and education, get local community to commit to education. While all the listed focus areas merit attention, strictly from an academic standpoint to transform a classroom, 3 areas listed in the NEP particularly become important: 
 
 1. Curriculum focus on FLN skills: Increasing focus on foundational literacy and numeracy inside the classrooms with emphasis on reading, writing and numeracy. This will be supplemented by continuous formative/adaptive assessments to track individual progress. 
-
 2. Teacher training on FLN skills: A shift in teaching pedagogy would require teachers to be trained and supported to through continuous professional development and training. 
-
 3. Introduction of supplementary reading material: Interesting and inspirational text to be made available for students in local and other Indian languages to provide enough material for students to build reading and comprehension abilities. 
 
 Even as different states strategize on how to achieve foundational literacy for their students, one state is already paving the way by implementing several FLN-focused reforms for its government schools. 
@@ -37,7 +34,7 @@ In September 2019, the Chief Minister of Uttar Pradesh, Yogi Adityanath, launche
 
 ![](/img/prerna-lakshya_edited.png.jpg)
 
-****
+- - -
 
 **Developing a learning outcomes framework to enable goal attainment** 
 
@@ -47,7 +44,7 @@ To make the ‘Prerna Soochi’ completely suitable to the needs of classrooms i
 
 ![](/img/prerna-soochi-1_edited.png.jpg)
 
-![](/img/prerna-soochi-2_edited.png.jpg)
+![](/img/prerna-soochi-2_.png.jpg)
 
 **Helping teachers adapt to learning outcomes-based teaching** 
 
