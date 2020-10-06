@@ -13,12 +13,8 @@ import ReactGA from 'react-ga';
 class LayoutWrapper extends React.Component {
     constructor(props) {
         super(props);
-        let href = '/';
-        if (typeof window !== "undefined") {
-            href = window.location.href;
-        }
         this.state = {
-            href: href
+            href: this.props.slug || '/'
         }
     }
 
@@ -30,7 +26,24 @@ class LayoutWrapper extends React.Component {
             const {edges: domains} = this.props.projects.allMarkdownRemark;
             window.localStorage.setItem('domains', JSON.stringify(domains));
         }
+    }
 
+    stringToSlug = (str) => {
+        str = str.replace(/^\s+|\s+$/g, ''); // trim
+        str = str.toLowerCase();
+
+        // remove accents, swap ñ for n, etc
+        var from = "àáäâèéëêìíïîòóöôùúüûñç·/_,:;";
+        var to = "aaaaeeeeiiiioooouuuunc------";
+        for (var i = 0, l = from.length; i < l; i++) {
+            str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+        }
+
+        str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+            .replace(/\s+/g, '-') // collapse whitespace and replace by -
+            .replace(/-+/g, '-'); // collapse dashes
+
+        return str;
     }
 
     render() {
@@ -46,6 +59,7 @@ class LayoutWrapper extends React.Component {
                 image = this.props.children.props.content.featuredimage.childImageSharp.fluid.src;
             }
         }
+        console.log(this.props);
         return <div>
             <Helmet>
                 <html lang="en"/>
@@ -104,7 +118,7 @@ class LayoutWrapper extends React.Component {
     }
 }
 
-export default ({children}) => (
+export default ({children, slug}) => (
     <StaticQuery
         query={graphql`
       query ProjectDomainListQuery {
@@ -126,6 +140,6 @@ export default ({children}) => (
         }
       }
     `}
-        render={(data, count) => <LayoutWrapper projects={data} children={children}/>}
+        render={(data, count) => <LayoutWrapper projects={data} slug={slug} children={children}/>}
     />
 )
