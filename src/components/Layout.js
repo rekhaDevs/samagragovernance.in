@@ -12,8 +12,16 @@ import ReactGA from 'react-ga';
 
 class LayoutWrapper extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
+        let href = '/';
+        if (typeof window !== "undefined") {
+            href = window.location.href;
+        }
+        this.state{
+            href: href
+        }
     }
+
 
     componentDidMount() {
         if (typeof window !== 'undefined') {
@@ -26,13 +34,10 @@ class LayoutWrapper extends React.Component {
     }
 
     render() {
+        let {href} = this.state;
         let title = 'Samagra Governance';
         let description = 'Samagra Governance';
         let image = `${withPrefix('/')}img/logo-colored.png`;
-        console.log('==============')
-        console.log(image);
-        console.log(this.props);
-
         if (this.props.children && this.props.children.props && this.props.children.props.content) {
             title = this.props.children.props.content.title || title;
             description = this.props.children.props.content.description || description;
@@ -41,8 +46,6 @@ class LayoutWrapper extends React.Component {
                 image = this.props.children.props.content.featuredimage.childImageSharp.fluid.src;
             }
         }
-        console.log(image);
-        console.log('==============')
         return <div>
             <Helmet>
                 <html lang="en"/>
@@ -69,7 +72,7 @@ class LayoutWrapper extends React.Component {
 
                 <link
                     rel="canonical"
-                    href={`/`}
+                    href={href}
                 />
 
                 <link
