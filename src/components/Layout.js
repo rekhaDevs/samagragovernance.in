@@ -17,7 +17,7 @@ class LayoutWrapper extends React.Component {
         if (typeof window !== "undefined") {
             href = window.location.href;
         }
-        this.state{
+        this.state = {
             href: href
         }
     }
