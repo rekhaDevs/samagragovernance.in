@@ -234,20 +234,6 @@ team:
     name: Chakshu Gautam
     project: Tech@Samagra
   - bio: >-
-      Chirag holds a Bachelor's degree in Chemical Engineering from IIT, Bombay.
-      He worked as an analytics consultant with Fractal Analytics before
-      becoming a tech entrepreneur. Chirag started a company in the travel
-      domain and subsequently helped build the insurance startup Coverfox
-      Insurance ground up. He led teams in digital marketing, sales and
-      analytics and last led strategy for Coverfox as the Chief of Staff. \n\nAn
-      opportunity to use his entrepreneurial experience to deliver large scale
-      and deep impact programmes brought him to Samagra. Currently he leads the
-      CMGGA engagement in Haryana.
-    image: /img/chirag.jpg
-    linkedInProfile: e i
-    name: Chirag Bhandari
-    project: CMGGA
-  - bio: >-
       Divya holds a Master's degree in Public Policy from National Law School,
       Bangalore and a Bachelor's degree in Political Science from Kirorimal
       College, University of Delhi. Before joining Samagra, she was working as a
@@ -675,12 +661,11 @@ team:
       Government of Andhra Pradesh, where he was part of the Vision Management
       team that envisioned and designed an action plan for Vision 2029. The
       drive to create visible on-the-ground social impact brought him to
-      Samagra. Currently he is part of the Saksham Haryana-Skills & Employment
-      team.
+      Samagra. Currently he is part of the ADAPT team in Odisha.
     image: /img/Sunny.jpg
     linkedInProfile: 'https://www.linkedin.com/in/kollasunny'
     name: Sunny Roy Kolla
-    project: Saksham Haryana-Skills & Employment
+    project: ADAPT
   - bio: "Susheel holds a Bachelor's degree in Sociology from St. Andrew's College, Mumbai, and a Post-Graduate Diploma in Liberal Studies under the Young India Fellowship at Ashoka University. Susheel has had a longstanding interest in governance and policy implementation, leading him to work with organisations such as the Informed Voter Project and Praja Foundation during his undergraduate studies in Mumbai. His experience at the Young India Fellowship reinforced these ideas and also led him to explore the role of technology and data-based decision-making in governance.\_\n\nHis search for the intersection between technology and governance, and his quest to contribute in creating impact at scale brought Susheel to Samagra. Currently, he is part of the Samarth team in Himachal Pradesh."
     image: /img/edited_susheel.jpg
     linkedInProfile: 'https://www.linkedin.com/in/susheel-varghese-13b3ab151/'
@@ -694,12 +679,12 @@ team:
 
 
       An opportunity to work on governance challenges from an implementation
-      perspective brought Tanvi to Samagra. Currently, she is part of the Skill
-      India engagement. 
+      perspective brought Tanvi to Samagra. Currently, she is part of the
+      Mission Prerna team in Uttar Pradesh. 
     image: /img/tanvi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/tanvi-sharma-156a95100/'
     name: Tanvi Sharma
-    project: Skill India
+    project: Mission Prerna
   - bio: >-
       Ujjwal holds a Bachelor's degree in Computer Engineering from Netaji
       Subhas Institute of Technology. She worked with Microsoft and Directi

@@ -51,7 +51,7 @@ _\--Creating an Academic Calendar:_ Every DST trade unit had to prepare an acade
 
 6. What is the issue-resolution mechanism between the ITI and industry partners?
 
-_\--Setting up DST Management Committees:_ A DST Management Committee (DST-MC) was constituted for all 72 units with representatives from ITI, industry premises and Joint Director, District Industries Centre (JD-DIC), with JD-DIC as the chairman of the committee. Every DST-MC has to meet once a month to discuss progress on DST implementation. Aspects such as trainee discipline, course completion, attendance would also be discussed and problems if any, would be solved in the meeting.
+_--Setting up DST Management Committees:_ A DST Management Committee (DST-MC) was constituted for all 72 units with representatives from ITI, industry premises and Joint Director, District Industries Centre (JD-DIC), with JD-DIC as the chairman of the committee. Every DST-MC has to meet once a month to discuss progress on DST implementation. Aspects such as trainee discipline, course completion, attendance would also be discussed and problems if any, would be solved in the meeting.
 
 _\--Regular Reviews:_ A monthly and quarterly review mechanism was put in place to ensure quality implementation and problem solving. Monthly and quarterly reviews would be chaired by the Director and Secretaries of Dept. of Skill Development and all implementing stakeholders (concerned ITI staff and industry partners) would participate. Aspects of implementation such as adherence to academic calendar,  availability of full-time trade instructor and industry supervisor, issues faced by industry such as trainee discipline would be discussed in the monthly and quarterly reviews. 
 
