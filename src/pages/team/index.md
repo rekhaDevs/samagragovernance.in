@@ -436,19 +436,19 @@ team:
       Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College
       for Women, University of Delhi. An interest in creating social impact
       drove her to lead the research and development team of Enactus as part of
-      which she conducted in depth onground research and back-end analysis of
+      which she conducted in depth on-ground research and back-end analysis of
       community development projects. She has also interned as a policy
       researcher with the Deputy Chief Minister's Office, Government of Delhi,
       where she undertook the process of streamlining and monitoring the MLALAD
       funds of 11 revenue districts of Delhi and recommended policy level
       interventions for improved functioning of the Delhi Urban Development
-      Authority.\n\nAn opportunity to employ her proble-solving skills to create
-      sustainable impact brought her to Samagra. Currently she is part of the
-      ADAPT team in Odisha.
+      Authority. An opportunity to employ her problem-solving skills to create
+      sustainable impact brought her to Samagra. Currently, she is part of the
+      Saksham Haryana-Education team.
     image: /img/Prerna.jpg
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
-    project: ADAPT
+    project: Saksham Haryana-Education
   - bio: >-
       Raju worked with Punj Lloyd as a administrative assistant in Libya, and
       with Walt Disney as a Office Coordinator. He manages the daily
