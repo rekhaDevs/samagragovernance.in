@@ -9,9 +9,9 @@ domain: Agriculture
 subTitle: Samagra
 state: Odisha
 tagLine: >-
-  Increasing income of Odisha farmers by improving Fisheries & Animal Husbandry
-  productivity
-projectLogoWithState: /img/logo-fard.png
+  Improving Fisheries & Animal Husbandry productivity to increase income of
+  farmers 
+projectLogoWithState: /img/fard-for-website.png
 overview:
   - text: >-
       ADAPT-F&ARD is a partnership between the Government of Odisha, Bill &
