@@ -271,13 +271,13 @@ team:
       Aasaanjobs.com and was responsible for the firm's operations and business
       development. He entered the policy space through the Young Leaders for
       Active Citizenship (YLAC) fellowship, during which he worked on analysing
-      and developing a Skill Development Policy for a Lok Sabha MP.\n\nAn
+      and developing a Skill Development Policy for a Lok Sabha MP. An
       opportunity to work at the intersection of technology and policy brought
-      him to Samagra. Currently he is part of the CMGGA team in Haryana.
+      him to Samagra. He is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/Hardik.jpg
     linkedInProfile: 'https://www.linkedin.com/in/hardik-rathod-b2386234'
     name: Hardik Rathod
-    project: CMGGA
+    project: ADAPT-F&ARD
   - bio: >-
       Harsh hold's a Bachelor's degree in Business Studies from Shaheed Sukhdev
       College of Business Studies, Delhi University. During his time at college,
@@ -343,11 +343,11 @@ team:
 
       An opportunity to design and implement innovative, scalable solutions to
       solve complex governance challenges facing India brought Krittika to
-      Samagra. 
+      Samagra. She is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/krittika.png
     linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
     name: Krittika Takiar
-    project: '  '
+    project: ADAPT-F&ARD
   - bio: >-
       Mohit holds a Bachelor's degree in Pharmaceutical Sciences from the
       University of Delhi  and Master's degree in International Business from
@@ -534,12 +534,12 @@ team:
       of the Chief Minister's flagship programmes, improving citizen delivery
       services, and assisting the administration on various strategy projects
       across multiple departments. Her belief that working with the government
-      is essential for driving change on the ground brought her to Samagra.
-      Currently, she is part of the Mission Prerna team in Uttar Pradesh.
+      is essential for driving change on the ground brought her to Samagra. She
+      currently leads the ADAPT-F&ARD team in Odisha. 
     image: /img/Shailiza.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shailiza-mayal-97a48279'
     name: Shailiza Mayal
-    project: Mission Prerna
+    project: ADAPT-F&ARD
   - bio: >-
       Shifali holds a Bachelor's degree in Electronics and Communication
       Engineering from Amity School of Engineering & Technology and a Master's
@@ -619,13 +619,13 @@ team:
       that technological interventions have the power to solve complex issues
       got strengthened here. At the same time, she also started exploring the
       policy and governance space and saw it is as a potentially effective
-      channel to solve grass-root problems in a sustainable manner.\n\nAn
+      channel to solve grass-root problems in a sustainable manner. An
       opportunity to leverage technology to create social impact brought her to
-      Samagra. Currently she is part of the Digital Haryana Cell.
+      Samagra. She is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/Suditi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/suditi-bansal-722704152'
     name: Suditi Bansal
-    project: Digital Haryana Cell
+    project: ADAPT-F&ARD
   - bio: >-
       Sukanya holds a Bachelor’s degree in Economics from St. Stephen’s College,
       University of Delhi and has previously interned at Boston Consulting Group
@@ -760,11 +760,10 @@ team:
       with state governments on improving health and education outcomes by
       developing data-driven accountability tools. Her passion to create
       scalable and sustainable change by working with the government brought her
-      to Samagra. Currently, she is part of the Mission Prerna team in Uttar
-      Pradesh.
+      to Samagra. She is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/Yuganshi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
-    project: Mission Prerna
+    project: ADAPT-F&ARD
 ---
 
