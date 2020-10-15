@@ -9,7 +9,7 @@ domain: Agriculture
 subTitle: Samagra
 state: Haryana
 tagLine: Increasing the income of farmers in Odisha by improving their productivity
-projectLogoWithState: /img/adapt-logo.png
+projectLogoWithState: /img/adapt-for-website.png
 overview:
   - text: >-
       ADAPT is a partnership between the Government of Odisha, Bill & Melinda
