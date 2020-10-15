@@ -2,17 +2,15 @@
 templateKey: project-post
 title: ADAPT-F&ARD
 domainNew: Agriculture
-fullName: >-
-  Analytics for Decision Making & Agriculture Policy Transformation-Fisheries
-  and Animal Resources Development
+fullName: ADAPT-Fisheries and Animal Resources Development
 id: ADAPT-F&ARD
 backgroundCover: /img/img_20200914_084637.jpg
 domain: Agriculture
 subTitle: Samagra
 state: Odisha
 tagLine: >-
-  Increasing the income of Odisha farmers by improving their Fisheries & Animal
-  Husbandry productivity
+  Increasing income of Odisha farmers by improving Fisheries & Animal Husbandry
+  productivity
 projectLogoWithState: /img/logo-fard.png
 overview:
   - text: >-
