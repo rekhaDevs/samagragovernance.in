@@ -8,7 +8,7 @@ backgroundCover: /img/img_20200914_084637.jpg
 domain: Agriculture
 subTitle: Samagra
 state: Odisha
-tagLine: 'Improving productivity from livestock, fisheries to raise farmer income'
+tagLine: Improving productivity from livestock & fisheries to raise farmer income
 projectLogoWithState: /img/fard-for-website.png
 overview:
   - text: >-
