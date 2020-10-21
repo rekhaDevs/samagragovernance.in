@@ -14,17 +14,9 @@ In December 2018, I packed up my London based UK Civil Service job and relocated
 
 The first question from many upon my arrival was, understandably, but why are you here? A good question to which there are multiple possible answers. 
 
-1. 
-
-**Governance:**  Coming from the civil service, I was keen to understand how the Indian governance system worked, what I might learn from it and how I might, in my own very small way, contribute towards improving it.
-
-2. 
-
-**Management consulting:** Alongside understanding governance, I was also keen to develop the hard and soft skills that a stint in management consulting offers.
-
-3. 
-
-**Personal challenge:** Probably most of all, I wanted to put myself into a completely new situation, to really push myself and see how I would deal with new challenges. 
+1. **Governance:**  Coming from the civil service, I was keen to understand how the Indian governance system worked, what I might learn from it and how I might, in my own very small way, contribute towards improving it.
+2. **Management consulting:** Alongside understanding governance, I was also keen to develop the hard and soft skills that a stint in management consulting offers.
+3. **Personal challenge:** Probably most of all, I wanted to put myself into a completely new situation, to really push myself and see how I would deal with new challenges. 
 
 Now that I am almost leaving, I can step back to ask myself a question - how far have I met these goals? And what are the takeaways from the nearly 100 weeks I have spent in Haryana?
 
