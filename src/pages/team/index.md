@@ -144,18 +144,6 @@ team:
     name: Ananya Jain
     project: ADAPT
   - bio: >-
-      Aneesh holds a Bachelor's degree in Industrial Engineering from R.V
-      College of Engineering, Bangalore. Prior to joining Samagra, he worked at
-      Your Story Media in its growth hacking team. He has also worked as a
-      consultant to the Deputy Commissioner of Chikmaglur, Karnataka for
-      implementing Swachh Bharat Mission in the district. His passion for
-      ensuring last mile delivery of government-to-citizen services brought him
-      to Samagra. He is currently part of the CMGGA team in Haryana.
-    image: /img/Aneesh.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/aneeshmugulur'
-    name: Aneesh Mugulur
-    project: CMGGA
-  - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
       specialisation in Business Analytics from the Indian Institute of Science,
@@ -292,19 +280,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/harshgarg96'
     name: Harsh Garg
     project: Digital Haryana Cell
-  - bio: >-
-      Helen holds a Bachelor's degree in Economics from the University of
-      Cambridge. She worked in think tanks both in New Delhi and London before
-      joining the UK Civil Service. She first worked as an Economist in the
-      Energy and Climate department and later as a Senior Policy Advisor in the
-      Department for Exiting the European Union.\n\nAn opportunity to expand her
-      understanding of different governance models and to explore innovative
-      ways of improving citizens' daily lives brought her to Samagra. She
-      currently leads the Saksham Haryana-Education engagement.
-    image: /img/Helan.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/helen-creighton-5856b685'
-    name: Helen Creighton
-    project: Saksham Haryana-Education
   - bio: >-
       Juhi holds a Bachelor's degree in Civil Engineering from NIT Kurukshetra.
       After working in the corporate space for about 10 months, she made the
