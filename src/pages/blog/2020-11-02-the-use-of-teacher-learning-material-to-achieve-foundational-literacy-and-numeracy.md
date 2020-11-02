@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: >-
-  Leveraging Teacher Learning Material to achieve Foundational Literacy and
+  Leveraging Teaching Learning Material to achieve Foundational Literacy and
   Numeracy
 author: Divya Dua
 projectId: Mission Prerna
@@ -12,13 +12,13 @@ description: >-
   ensured a holistic academic design strategy.
 featuredimage: /img/mission-prerna_classroom.png
 ---
-Uttar Pradesh, under its Mission Prerna program is working towards improving the quality of education in its 1.5 lakh primary schools. The state aims to achieve universal Foundational Literacy and Numeracy (FLN) by 2022 for its 1.2 crore students. Quantifiable goals for achievement of foundational literacy across bhasha (language) and ganit (numeracy) have been articulated in the ‘Prerna Lakshya’ (see illustration 1). The state has developed a comprehensive academic strategy to prepare the classrooms for a major transformation to achieve this target. A couple of key elements of this strategy include making classrooms resource rich and empowering the teachers with the right ‘tool kit’ to achieve the targeted learning outcomes for students.
+Uttar Pradesh, under its Mission Prerna programme is working towards improving the quality of education in its 1.5 lakh primary schools. The state aims to achieve universal Foundational Literacy and Numeracy (FLN) by 2022 for its 1.2 crore students. Quantifiable goals for achievement of foundational literacy across bhasha (language) and ganit (numeracy) have been articulated in the ‘Prerna Lakshya’ (see illustration 1). The state has developed a comprehensive academic strategy to prepare the classrooms for a major transformation to achieve this target. A couple of key elements of this strategy include making classrooms resource rich and empowering the teachers with the right ‘tool kit’ to achieve the targeted learning outcomes for students.
 
 ![](/img/prerna-lakshya_edited.png.jpg)
 
-**Understanding the Problem and Developing Appropriate Teacher-Learning Material (TLM)**
+**Understanding the problem and developing appropriate Teaching Learning Material (TLM)**
 
-Classroom transformation programs can often take an overly ambitious route and introduce materials that in theory fulfil the learning needs of children, but in practice don’t deliver on the promise. A diagnostic study was conducted in Uttar Pradesh to understand why this happens. The study analysed student learning levels and teaching-learning materials being used in classrooms.
+Classroom transformation programmes can often take an overly ambitious route and introduce materials that in theory fulfil the learning needs of children, but in practice don’t deliver on the promise. A diagnostic study was conducted in Uttar Pradesh to understand why this happens. The study analysed student learning levels and teaching-learning materials being used in classrooms.
 
 The diagnostic study revealed a few important patterns that informed the development of appropriate classroom material. Some of the gaps it highlighted included: little to no relation of the content with the child’s environment; standardised level of difficulty which does not account for the children's varied learning levels; and no relation with pre-existing material inside the classroom, etc.
 
