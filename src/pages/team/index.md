@@ -356,13 +356,13 @@ team:
       Engineering & Technology, Jain University. Before joining Samagra, Nikhil
       set up India's first radical mime entity, PunchTantraa. Post that, as part
       of the Teach for India Fellowship he worked in low-income schools in
-      Hyderabad and Bengaluru as a school teacher.\n\nAn opportunity to create
+      Hyderabad and Bengaluru as a school teacher. An opportunity to create
       impact at scale through better governance brought him to Samagra.
-      Currently he leads the Skill India engagement.
+      Currently he is part of the Mission Prerna engagement in Uttar Pradesh.
     image: /img/Nikhil.jpg
     linkedInProfile: 'https://www.linkedin.com/in/nikhil-nadiger'
     name: Nikhil Nadiger
-    project: Skill India
+    project: Mission Prerna
   - bio: >-
       Pragya hold a Bachelor's degree in Economics from Miranda House,
       University of Delhi. She has previously interned at CollarFolk, a start up
