@@ -358,7 +358,7 @@ team:
       of the Teach for India Fellowship he worked in low-income schools in
       Hyderabad and Bengaluru as a school teacher. An opportunity to create
       impact at scale through better governance brought him to Samagra.
-      Currently he is part of the Mission Prerna engagement in Uttar Pradesh.
+      Currently he is part of the Mission Prerna team in Uttar Pradesh.
     image: /img/Nikhil.jpg
     linkedInProfile: 'https://www.linkedin.com/in/nikhil-nadiger'
     name: Nikhil Nadiger
