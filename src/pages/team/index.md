@@ -160,24 +160,6 @@ team:
     name: Ankit Goel
     project: Saksham Haryana-Skills & Employment
   - bio: >-
-      Ankit holds a Bachelor's degrees in Metallurgical & Materials Engineering
-      from IIT Kharagpur. He worked for 3 years with Rio Tinto India as process
-      engineer and business analyst for an upcoming diamond mine in Madhya
-      Pradesh. An interest in switching to the social impact sector led him to
-      join the first cohort of the Chief Minister's Good Governance Associates
-      (CMGGA) programme in Haryana. As a CMGGA, he spent one year working on
-      improving the delivery of government programmes and piloting innovative
-      governance changes in Jind district. While the CMGGA programme provided an
-      in-depth understanding of the government's functioning at grassroot level,
-      Ankit wanted to work at the state level to contribute towards effective
-      and sustainable systemic change. With this in mind, Ankit joined Samagra
-      to create impact at scale. He currently leads the Mission Prerna
-      engagement in Uttar Pradesh.
-    image: /img/Ankit.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/ankitjain0812'
-    name: Ankit Jain
-    project: ' Mission Prerna'
-  - bio: >-
       Arjun holds a Bachelor's degree in Economics from Kirori Mal College. He
       has previously interned with Delhi Commission for Protection of Child
       Rights, Bajaj Capital and E&Y. Arjun has represented New Delhi in
@@ -298,17 +280,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/juhi-nijhawan-85010464/'
     name: Juhi Nijhawan
     project: Mission Prerna
-  - bio: >-
-      Kalpesh holds a Dual Degree (Mining Engineering and MBA) from IIT, Indian
-      School of Mines, Dhanbad. Previously, he worked as a Business Analyst at
-      Analytics Quotient where he focused on building business development and
-      growth metrics for an automobile client.\n\nAn interest in working with
-      the political and bureaucratic leadership to create scalable impact
-      brought him to Samagra. Currently he is part of the ADAPT team in Odisha.
-    image: /img/Kalpesh.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/kalpesh-agrawal'
-    name: Kalpesh Agrawal
-    project: ADAPT
   - bio: >-
       Krittika holds a Bachelor’s degree in Management Studies from Shaheed
       Sukhdev College of Business Studies,  University of Delhi. Before joining
@@ -719,13 +690,13 @@ team:
   - bio: >-
       Venkataraman holds an integrated Master's degree in Development Studies
       from IIT, Madras. He was an active member of IIT Madras' student
-      governance and rural development ecosystem.\n\nAn opportunity to
-      understand governments and help change lives for the better brought him to
-      Samagra.
+      governance and rural development ecosystem. An opportunity to understand
+      governments and help change lives for the better brought him to Samagra.
+      He is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/Venkat.jpg
     linkedInProfile: 'https://www.linkedin.com/in/venkataraman-ganesh'
     name: Venkataraman Ganesh
-    project: Skill India
+    project: ADAPT-F&ARD
   - bio: >-
       Yuganshi holds a Bachelor's degree in Economics from Hindu College,
       University of Delhi. During college, she was actively involved with
