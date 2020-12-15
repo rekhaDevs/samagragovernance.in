@@ -144,18 +144,6 @@ team:
     name: Ananya Jain
     project: ADAPT
   - bio: >-
-      Aneesh holds a Bachelor's degree in Industrial Engineering from R.V
-      College of Engineering, Bangalore. Prior to joining Samagra, he worked at
-      Your Story Media in its growth hacking team. He has also worked as a
-      consultant to the Deputy Commissioner of Chikmaglur, Karnataka for
-      implementing Swachh Bharat Mission in the district. His passion for
-      ensuring last mile delivery of government-to-citizen services brought him
-      to Samagra. He is currently part of the CMGGA team in Haryana.
-    image: /img/Aneesh.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/aneeshmugulur'
-    name: Aneesh Mugulur
-    project: CMGGA
-  - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
       specialisation in Business Analytics from the Indian Institute of Science,
@@ -171,24 +159,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
     project: Saksham Haryana-Skills & Employment
-  - bio: >-
-      Ankit holds a Bachelor's degrees in Metallurgical & Materials Engineering
-      from IIT Kharagpur. He worked for 3 years with Rio Tinto India as process
-      engineer and business analyst for an upcoming diamond mine in Madhya
-      Pradesh. An interest in switching to the social impact sector led him to
-      join the first cohort of the Chief Minister's Good Governance Associates
-      (CMGGA) programme in Haryana. As a CMGGA, he spent one year working on
-      improving the delivery of government programmes and piloting innovative
-      governance changes in Jind district. While the CMGGA programme provided an
-      in-depth understanding of the government's functioning at grassroot level,
-      Ankit wanted to work at the state level to contribute towards effective
-      and sustainable systemic change. With this in mind, Ankit joined Samagra
-      to create impact at scale. He currently leads the Mission Prerna
-      engagement in Uttar Pradesh.
-    image: /img/Ankit.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/ankitjain0812'
-    name: Ankit Jain
-    project: ' Mission Prerna'
   - bio: >-
       Arjun holds a Bachelor's degree in Economics from Kirori Mal College. He
       has previously interned with Delhi Commission for Protection of Child
@@ -271,13 +241,13 @@ team:
       Aasaanjobs.com and was responsible for the firm's operations and business
       development. He entered the policy space through the Young Leaders for
       Active Citizenship (YLAC) fellowship, during which he worked on analysing
-      and developing a Skill Development Policy for a Lok Sabha MP.\n\nAn
+      and developing a Skill Development Policy for a Lok Sabha MP. An
       opportunity to work at the intersection of technology and policy brought
-      him to Samagra. Currently he is part of the CMGGA team in Haryana.
+      him to Samagra. He is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/Hardik.jpg
     linkedInProfile: 'https://www.linkedin.com/in/hardik-rathod-b2386234'
     name: Hardik Rathod
-    project: CMGGA
+    project: ADAPT-F&ARD
   - bio: >-
       Harsh hold's a Bachelor's degree in Business Studies from Shaheed Sukhdev
       College of Business Studies, Delhi University. During his time at college,
@@ -292,19 +262,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/harshgarg96'
     name: Harsh Garg
     project: Digital Haryana Cell
-  - bio: >-
-      Helen holds a Bachelor's degree in Economics from the University of
-      Cambridge. She worked in think tanks both in New Delhi and London before
-      joining the UK Civil Service. She first worked as an Economist in the
-      Energy and Climate department and later as a Senior Policy Advisor in the
-      Department for Exiting the European Union.\n\nAn opportunity to expand her
-      understanding of different governance models and to explore innovative
-      ways of improving citizens' daily lives brought her to Samagra. She
-      currently leads the Saksham Haryana-Education engagement.
-    image: /img/Helan.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/helen-creighton-5856b685'
-    name: Helen Creighton
-    project: Saksham Haryana-Education
   - bio: >-
       Juhi holds a Bachelor's degree in Civil Engineering from NIT Kurukshetra.
       After working in the corporate space for about 10 months, she made the
@@ -324,17 +281,6 @@ team:
     name: Juhi Nijhawan
     project: Mission Prerna
   - bio: >-
-      Kalpesh holds a Dual Degree (Mining Engineering and MBA) from IIT, Indian
-      School of Mines, Dhanbad. Previously, he worked as a Business Analyst at
-      Analytics Quotient where he focused on building business development and
-      growth metrics for an automobile client.\n\nAn interest in working with
-      the political and bureaucratic leadership to create scalable impact
-      brought him to Samagra. Currently he is part of the ADAPT team in Odisha.
-    image: /img/Kalpesh.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/kalpesh-agrawal'
-    name: Kalpesh Agrawal
-    project: ADAPT
-  - bio: >-
       Krittika holds a Bachelor’s degree in Management Studies from Shaheed
       Sukhdev College of Business Studies,  University of Delhi. Before joining
       Samagra, she was working with the Marketing, Sales and Pricing practice at
@@ -343,11 +289,11 @@ team:
 
       An opportunity to design and implement innovative, scalable solutions to
       solve complex governance challenges facing India brought Krittika to
-      Samagra. 
+      Samagra. She is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/krittika.png
     linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
     name: Krittika Takiar
-    project: '  '
+    project: ADAPT-F&ARD
   - bio: >-
       Mohit holds a Bachelor's degree in Pharmaceutical Sciences from the
       University of Delhi  and Master's degree in International Business from
@@ -381,13 +327,13 @@ team:
       Engineering & Technology, Jain University. Before joining Samagra, Nikhil
       set up India's first radical mime entity, PunchTantraa. Post that, as part
       of the Teach for India Fellowship he worked in low-income schools in
-      Hyderabad and Bengaluru as a school teacher.\n\nAn opportunity to create
+      Hyderabad and Bengaluru as a school teacher. An opportunity to create
       impact at scale through better governance brought him to Samagra.
-      Currently he leads the Skill India engagement.
+      Currently he is part of the Mission Prerna team in Uttar Pradesh.
     image: /img/Nikhil.jpg
     linkedInProfile: 'https://www.linkedin.com/in/nikhil-nadiger'
     name: Nikhil Nadiger
-    project: Skill India
+    project: Mission Prerna
   - bio: >-
       Pragya hold a Bachelor's degree in Economics from Miranda House,
       University of Delhi. She has previously interned at CollarFolk, a start up
@@ -436,19 +382,19 @@ team:
       Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College
       for Women, University of Delhi. An interest in creating social impact
       drove her to lead the research and development team of Enactus as part of
-      which she conducted in depth onground research and back-end analysis of
+      which she conducted in depth on-ground research and back-end analysis of
       community development projects. She has also interned as a policy
       researcher with the Deputy Chief Minister's Office, Government of Delhi,
       where she undertook the process of streamlining and monitoring the MLALAD
       funds of 11 revenue districts of Delhi and recommended policy level
       interventions for improved functioning of the Delhi Urban Development
-      Authority.\n\nAn opportunity to employ her proble-solving skills to create
-      sustainable impact brought her to Samagra. Currently she is part of the
-      ADAPT team in Odisha.
+      Authority. An opportunity to employ her problem-solving skills to create
+      sustainable impact brought her to Samagra. Currently, she is part of the
+      Saksham Haryana-Education team.
     image: /img/Prerna.jpg
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
-    project: ADAPT
+    project: Saksham Haryana-Education
   - bio: >-
       Raju worked with Punj Lloyd as a administrative assistant in Libya, and
       with Walt Disney as a Office Coordinator. He manages the daily
@@ -534,12 +480,12 @@ team:
       of the Chief Minister's flagship programmes, improving citizen delivery
       services, and assisting the administration on various strategy projects
       across multiple departments. Her belief that working with the government
-      is essential for driving change on the ground brought her to Samagra.
-      Currently, she is part of the Mission Prerna team in Uttar Pradesh.
+      is essential for driving change on the ground brought her to Samagra. She
+      currently leads the ADAPT-F&ARD team in Odisha. 
     image: /img/Shailiza.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shailiza-mayal-97a48279'
     name: Shailiza Mayal
-    project: Mission Prerna
+    project: ADAPT-F&ARD
   - bio: >-
       Shifali holds a Bachelor's degree in Electronics and Communication
       Engineering from Amity School of Engineering & Technology and a Master's
@@ -619,13 +565,13 @@ team:
       that technological interventions have the power to solve complex issues
       got strengthened here. At the same time, she also started exploring the
       policy and governance space and saw it is as a potentially effective
-      channel to solve grass-root problems in a sustainable manner.\n\nAn
+      channel to solve grass-root problems in a sustainable manner. An
       opportunity to leverage technology to create social impact brought her to
-      Samagra. Currently she is part of the Digital Haryana Cell.
+      Samagra. She is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/Suditi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/suditi-bansal-722704152'
     name: Suditi Bansal
-    project: Digital Haryana Cell
+    project: ADAPT-F&ARD
   - bio: >-
       Sukanya holds a Bachelor’s degree in Economics from St. Stephen’s College,
       University of Delhi and has previously interned at Boston Consulting Group
@@ -744,13 +690,13 @@ team:
   - bio: >-
       Venkataraman holds an integrated Master's degree in Development Studies
       from IIT, Madras. He was an active member of IIT Madras' student
-      governance and rural development ecosystem.\n\nAn opportunity to
-      understand governments and help change lives for the better brought him to
-      Samagra.
+      governance and rural development ecosystem. An opportunity to understand
+      governments and help change lives for the better brought him to Samagra.
+      He is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/Venkat.jpg
     linkedInProfile: 'https://www.linkedin.com/in/venkataraman-ganesh'
     name: Venkataraman Ganesh
-    project: Skill India
+    project: ADAPT-F&ARD
   - bio: >-
       Yuganshi holds a Bachelor's degree in Economics from Hindu College,
       University of Delhi. During college, she was actively involved with
@@ -760,11 +706,10 @@ team:
       with state governments on improving health and education outcomes by
       developing data-driven accountability tools. Her passion to create
       scalable and sustainable change by working with the government brought her
-      to Samagra. Currently, she is part of the Mission Prerna team in Uttar
-      Pradesh.
+      to Samagra. She is currently part of the ADAPT-F&ARD team in Odisha.
     image: /img/Yuganshi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
-    project: Mission Prerna
+    project: ADAPT-F&ARD
 ---
 

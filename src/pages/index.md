@@ -69,7 +69,7 @@ secondSection:
           enable implementation of our solutions, with the objective of making
           governments accountable and deliver with minimum delays and maximum
           efficiency.
-    image: /img/Approach.png
+    image: /img/revised-approach_high-res.png
     title: Our Approach
   ourModel:
     image: /img/home-our-vision.jpg

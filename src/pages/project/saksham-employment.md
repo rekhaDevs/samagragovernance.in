@@ -45,11 +45,9 @@ approach:
       employment opportunities. These initiatives show immediate results and
       also have lesser financial implications for the government.
 readMore:
+  - text: How rethinking vocational training can help in economic recovery
   - text: 'This is how Haryana govt gave jobs to 45,000 people in 18 months'
   - text: CM to launch skill development initiatives
-  - text: >-
-      Ola to Create 3,500 Job Opportunities as Part of Govt of Haryana’s
-      “Saksham Saarthi” Project
 impact:
   - count: 1st
     label: in the country in terms of apprencticeships
