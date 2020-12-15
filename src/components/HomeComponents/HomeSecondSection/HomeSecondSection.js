@@ -1,7 +1,7 @@
 import React from "react";
 import visionImage from '../../../img/home-page/home-our-vision.jpg';
 import approachImage from '../../../img/home-page/Approach.png';
-import approachVideo from '../../../img/our_approach.mp4';
+import approachVideo from '../../../img/approach_view.mp4';
 
 export class HomeSecondSection extends React.Component {
 
