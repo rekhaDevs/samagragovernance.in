@@ -8,7 +8,7 @@ date: 2020-12-18T11:20:23.611Z
 description: >-
   Himachal Pradesh is actively trying to improve parent engagement in their
   child's education
-featuredimage: /img/samarth-parent-samagra.png
+featuredimage: /img/parent-samarth-samagra.jpg
 ---
 In 2018, the Department of Education of Himachal Pradesh found itself at a crossroads. While the state was performing well academically, and had shown marked [improvements](https://img.asercentre.org/docs/ASER%202018/Release%20Material/aser2018pressreleaseenglish.pdf) in reading levels and arithmetic competencies, the involvement of parents in their child’s education was quite low. 
 
