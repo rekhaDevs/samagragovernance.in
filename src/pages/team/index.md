@@ -22,24 +22,6 @@ team:
     name: Gaurav Goel
     project: Founder & CEO
   - bio: >-
-      Ankur is the Co-Founder of Samagra. He holds a Bachelor’s degree in
-      Finance from Unitec Institute of Technology and Masters of Commercial Law
-      from University of Auckland. He completed his Chartered Accountancy from
-      Chartered Accountants Australia and New Zealand. Prior to Samagra, Ankur
-      worked with Michael & Susan Dell Foundation, leading their health and
-      education portfolios. He was involved in conceptualizing large-scale
-      programmes and created a roadmap for future investments in these sectors.
-      Previously, he has held senior roles in PwC and Zuna Capital in India,
-      Australia, US and New Zealand. Ankur's belief that governance is the most
-      effective lever of change in India led him to move back to the country and
-      co-found Samagra. He has been instrumental in driving Samagra's journey
-      and growth, both as an organisation and the impact it has been able to
-      create.
-    image: /img/Ankur.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/ankurbansal1/'
-    name: Ankur Bansal
-    project: Co-Founder
-  - bio: >-
       Rahul is Technology Expert at Samagra. He holds a Master's degree in
       Engineering from Georgia Tech. Previously, he worked as a Product Manager
       at National Instruments and was the first Product Manager at Google India.
@@ -294,24 +276,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
     name: Krittika Takiar
     project: ADAPT-F&ARD
-  - bio: >-
-      Mohit holds a Bachelor's degree in Pharmaceutical Sciences from the
-      University of Delhi  and Master's degree in International Business from
-      Symbiosis, Pune. Mohit has 15 years of work experience spanning multiple
-      functions–strategy consulting, business development and sales. Prior to
-      Samagra, he worked as an Associate Director at KPMG, where his work was
-      focused on business development through eminence building and client
-      development activities. In the past, Mohit has worked with IMS Consulting
-      Group (now IQVIA), PharmARC and Aventis Pharma (now Sanofi). He also
-      founded a healthcare focussed solution, called medeel.com, to help
-      patients access affordable healthcare solutions.\n\nAn interest in working
-      in the social sector and creating scalable, impactful solutions for
-      governance problems brought him to Samagra. Currently he leads the Samarth
-      engagement in Himachal Pradesh.
-    image: /img/Mohit.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/mohitbahri'
-    name: Mohit Bahri
-    project: Samarth
   - bio: "Mukund holds a Bachelor's degree in Physical Sciences from St. Stephen's College, Delhi and a Post Graduate Diploma in Liberal Studies under the Young India Fellowship program at Ashoka University. Previously, he has worked at Bain, and with BCG as a specialist consultant. Prior to joining Samagra, he was working as an educator and public speaking coach collaborating with international faculty members and leading Indian universities. Working towards creating impact at scale\_through better\_governance, and an\_opportunity\_to work in close consultation with elected public leaders and senior government\_officials brought him to Samagra. Currently, he is part of the Samarth team in Himachal Pradesh."
     image: /img/edited_mukund.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mukundmarodia/'
