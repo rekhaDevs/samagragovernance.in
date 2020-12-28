@@ -7,6 +7,9 @@ import linkedInSvgSelected from "../img/social/LinkedIn-selected.svg";
 
 
 const TeamPagePreviewTemplate = ({data}) => {
+    if (data && data.frontmatter && data.frontmatter.team && data.frontmatter.team.length) {
+        data.frontmatter.team.splice(2, 0, {});
+    }
     return (
         <Layout>
             <TeamPage data={data}/>
@@ -22,6 +25,7 @@ export const TeamPage = ({data}) => {
     if (!post.frontmatter.bannerImage) {
         return '';
     }
+
     return (
 
         <div>
@@ -101,6 +105,51 @@ export const TeamPage = ({data}) => {
                 <div className="row">
                     {
                         team.map((member, index) => {
+                            if (index === 2) {
+                                return <></>;
+                            }
+                            if (index < 2) {
+                                return <>
+                                    <div className="col-md-4 col-sm-6 col-xs-12"
+                                         style={{marginLeft: '8.33%', marginRight: '8.33%'}}>
+                                        <div
+                                            onClick={() => setShowPopup(index)}
+                                            onMouseLeave={() => setHoveredMember(-1)}
+                                            onMouseEnter={() => setHoveredMember(index)}
+                                            style={{marginTop: '0'}}
+                                            className={`team-card-wrapper ${((index + 2) % 3 === 0) ? 'with-margin' : ''}`}>
+                                            <div className="image-section" style={{
+                                                backgroundImage: `url(${
+                                                    !!(member.image && member.image.childImageSharp) ? member.image.childImageSharp.fluid.src : member.image
+                                                })`
+                                            }}>
+
+                                            </div>
+                                            <div className="content-section">
+                                                <div className="name">
+                                                    {member.name}
+                                                </div>
+                                                <div className="designation">
+                                                    {member.project !== 'NA' ? member.project : ''}
+                                                </div>
+                                                {
+                                                    member.linkedInProfile ?
+                                                        <div className="social" onClick={(e) => {
+                                                            e.preventDefault();
+                                                            e.stopPropagation();
+                                                            window.location.href = member.linkedInProfile;
+                                                        }}>
+                                                            <a href={member.linkedInProfile ? member.linkedInProfile : '#'}>
+                                                                <img
+                                                                    src={hoveredMember === index ? linkedInSvgSelected : linkedInSvg}/>
+                                                            </a>
+                                                        </div> : <span/>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </>;
+                            }
                             return <div className="col-md-4 col-sm-6 col-xs-12">
                                 <div
                                     onClick={() => setShowPopup(index)}
