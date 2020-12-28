@@ -7,9 +7,10 @@ import linkedInSvgSelected from "../img/social/LinkedIn-selected.svg";
 
 
 const TeamPagePreviewTemplate = ({data}) => {
-    if (data && data.frontmatter && data.frontmatter.team && data.frontmatter.team.length) {
-        data.frontmatter.team.splice(2, 0, {});
+    if (data && data.markdownRemark && data.markdownRemark.frontmatter && data.markdownRemark.frontmatter.team && data.markdownRemark.frontmatter.team && data.markdownRemark.frontmatter.team[2].name) {
+        data.markdownRemark.frontmatter.team.splice(2, 0, {});
     }
+    console.log(data);
     return (
         <Layout>
             <TeamPage data={data}/>
@@ -25,6 +26,7 @@ export const TeamPage = ({data}) => {
     if (!post.frontmatter.bannerImage) {
         return '';
     }
+
 
     return (
 
