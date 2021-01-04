@@ -216,21 +216,6 @@ team:
     name: Gayatri Chandrasekaran
     project: Communications Strategy
   - bio: >-
-      Hardik holds a dual degree in Chemical Engineering from IIT, Bombay.
-      Before joining Samagra, he has worked as a Product Manager in UpGrad.com,
-      an Ed-Tech Startup, and Housing.com. He also worked with various fintech
-      startups as an advisor focusing on growth. He also co-founded
-      Aasaanjobs.com and was responsible for the firm's operations and business
-      development. He entered the policy space through the Young Leaders for
-      Active Citizenship (YLAC) fellowship, during which he worked on analysing
-      and developing a Skill Development Policy for a Lok Sabha MP. An
-      opportunity to work at the intersection of technology and policy brought
-      him to Samagra. He is currently part of the ADAPT-F&ARD team in Odisha.
-    image: /img/Hardik.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/hardik-rathod-b2386234'
-    name: Hardik Rathod
-    project: ADAPT-F&ARD
-  - bio: >-
       Harsh hold's a Bachelor's degree in Business Studies from Shaheed Sukhdev
       College of Business Studies, Delhi University. During his time at college,
       he was actively involved with Enactus, and represented India at the
