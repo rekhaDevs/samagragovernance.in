@@ -22,7 +22,7 @@ team:
     name: Gaurav Goel
     project: Founder & CEO
   - bio: >-
-      Rahul is Technology Expert at Samagra. He holds a Master's degree in
+      Rahul is Chief Technologist at Samagra. He holds a Master's degree in
       Engineering from Georgia Tech. Previously, he worked as a Product Manager
       at National Instruments and was the first Product Manager at Google India.
       He has also worked as the Chief Product Officer at Sokrati. He is
