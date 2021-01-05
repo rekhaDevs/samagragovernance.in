@@ -35,7 +35,7 @@ team:
     image: /img/Rahul.jpg
     linkedInProfile: 'https://www.linkedin.com/in/rahul10100/'
     name: Rahul Kulkarni
-    project: Technology Expert
+    project: Chief Technologist
   - bio: >-
       Aayush holds an MBA from the Indian School of Business and a Bachelor's
       degree in Commerce from Shri Ram College of Commerce. Prior to Samagra, he
