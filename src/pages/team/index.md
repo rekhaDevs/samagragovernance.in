@@ -119,12 +119,12 @@ team:
       interned at NITI Aayog and Ernst & Young. Ananya co-founded the Rotaract
       Club of her college and was also part of the street play society. An
       opportunity to bring about impact at scale for citizens by working with
-      government brought her to Samagra. Currently, she is part of the ADAPT
-      team in Odisha.
+      government brought her to Samagra. Currently, she is part of the Mission
+      Prerna team in Uttar Pradesh.
     image: /img/edited_ananya.jpg
     linkedInProfile: 'https://www.linkedin.com/feed/update/urn:li:activity:6680824251118944256/'
     name: Ananya Jain
-    project: ADAPT
+    project: Mission Prerna
   - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
@@ -278,7 +278,7 @@ team:
       of the Teach for India Fellowship he worked in low-income schools in
       Hyderabad and Bengaluru as a school teacher. An opportunity to create
       impact at scale through better governance brought him to Samagra.
-      Currently he is part of the Mission Prerna team in Uttar Pradesh.
+      Currently, he leads the Mission Prerna programme in Uttar Pradesh.
     image: /img/Nikhil.jpg
     linkedInProfile: 'https://www.linkedin.com/in/nikhil-nadiger'
     name: Nikhil Nadiger
@@ -479,15 +479,16 @@ team:
       Minister's Good Governance Associate in Yamunanagar district of Haryana
       for one year. As a CMGGA, Shubham worked on improving the public service
       delivery system in the state and gained a granular understanding of how
-      government programmes are implemented.\n\nShubham's fascination for the
+      government programmes are implemented. Shubham's fascination for the
       public sector has pushed him to work at various levels of governance,
       starting from the grassroots to district-level implementation. An
-      opportunity to use his past work experience to create impac at scale
-      brought him to Samagra. Currently he is part of the Digital Haryana Cell.
+      opportunity to use his past work experience to create impact at scale
+      brought him to Samagra. Currently, he is part of the Mission Prerna team
+      in Uttar Pradesh.
     image: /img/shubam.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bansalshubham09'
     name: Shubham Bansal
-    project: Digital Haryana Cell
+    project: Mission Prerna
   - bio: >-
       Srishti holds a Bachelor's degree in Civil Engineering from Delhi
       Technological University. Previously, she worked with Boston Consulting
@@ -586,12 +587,12 @@ team:
       before pursuing the Young India Fellowship. During the Fellowship, she got
       a chance to work with government schools in Uttar Pradesh and experience
       the gaps in Indian governance first-hand. An opportunity to drive impact
-      at scale through good governance brought her to Samagra. Currently she
-      leads the Digital Haryana Cell engagement.
+      at scale through good governance brought her to Samagra. Currently, she is
+      Chief of Staff to the Founder & CEO of Samagra.
     image: /img/ujjwal_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
-    project: Digital Haryana Cell
+    project: Chief of Staff
   - bio: >-
       Umang holds a Bachelor's degree in Information Technology from Punjab
       Engineering College. He was previously working as a software engineer with
@@ -614,10 +615,10 @@ team:
       and Industrial Goods sector. After leaving BCG, he co-founded Indian
       Lawyers Forum with a Supreme Court Lawyer to solve the problem of
       information asymmetry in the Indian judiciary by disseminating information
-      from courts to lawyers at a large scale.\n\nAn opportunity to solve
-      complex governance problems by using his technology, consulting and
-      entrepreneurial skills brought him to Samagra. Currently he leads the
-      ADAPT engagement in Odisha.
+      from courts to lawyers at a large scale. An opportunity to solve complex
+      governance problems by using his technology, consulting and
+      entrepreneurial skills brought him to Samagra. Currently, he leads the
+      ADAPT programme in Odisha.
     image: /img/Utkarsh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
