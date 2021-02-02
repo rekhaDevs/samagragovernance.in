@@ -39,6 +39,8 @@ approach:
       Sectoral Group milestones. Sectoral groups are led by Secretaries of
       Ministries which share a common sector and collaborate to implement a
       cohesive strategy.
+readMore:
+  - text: Roots to government-private thought partnerships
 impact:
   - count: ' '
     label: Improving delivery of skilling in ITIs and promoting apprenticeship
