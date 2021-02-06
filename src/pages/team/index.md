@@ -107,12 +107,11 @@ team:
       creating a proof point for an inclusive, holistic and high-performing
       low-income school. An opportunity to build on his previous experience
       working on the ground and create systemic change at scale brought him to
-      Samagra. Currently he is part of the Saksham Haryana-Skills & Employment
-      team.
+      Samagra. Currently, he leads the Samarth programme in Himachal Pradesh.
     image: /img/aakash.jpg
     linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
     name: Akash Tyagi
-    project: Saksham Haryana-Skills & Employment
+    project: Samarth
   - bio: >-
       Ananya holds a Bachelor's degree in Management from Shaheed Sukhdev
       College of Business Studies, Delhi University. Ananya has previously
@@ -133,7 +132,7 @@ team:
       Analyst in the Digital Marketing Analytics tower and moved on to work at
       SEBI as an Assistant Manager in the Investment Management Department. He
       then joined the Department of Finance and Planning, Government of
-      Chhattisgarh as a Chief Minister’s Good Governance Fellow.\n\nThe zeal to
+      Chhattisgarh as a Chief Minister’s Good Governance Fellow. The zeal to
       create real impact on the ground by transforming governance and public
       administration brought Ankit to Samagra. Currently he leads the Saksham
       Haryana-Skills & Employment engagement in Haryana.
@@ -312,22 +311,6 @@ team:
     name: Prasanna A
     project: Creatives
   - bio: >-
-      Praveen holds Bachelor's degree in Chemical Engineering from Indian
-      Institute of Technology, Delhi. Before joining Samagra, he was working
-      with CARS24 as General Manager. He was part of the core strategy team and
-      played a pivotal role in setting up the consumer financing vertical at the
-      firm. Previously, he also worked with Indian Political Action Committee
-      (I-PAC) during the 2017 Punjab assembly elections.
-
-
-      A deep interest in socio-political issues and an opportunity to solve
-      complex governance problems which can create impact at scale brought
-      Praveen to Samagra.
-    image: /img/praveen.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/praveen-chauhan-a7b6401a/'
-    name: Praveen Chauhan
-    project: Mission Prerna
-  - bio: >-
       Prerna holds a Bachelor's degree in Philosophy from Lady Shri Ram College
       for Women, University of Delhi. An interest in creating social impact
       drove her to lead the research and development team of Enactus as part of
@@ -370,8 +353,8 @@ team:
       After graduating from Stanford, she worked at Geosyntec Consultants, an
       environmental consulting company, in Seattle. Her interest in
       transitioning to the development sector and facilitating sustainable
-      change on the ground brought her to Samagra. Currently she is part of the
-      Saksham Haryana-Education team.
+      change on the ground brought her to Samagra. Currently, she leads the
+      Saksham Haryana-Education programme.
     image: /img/sagari.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sagari-handa-5a86157a'
     name: Sagari Handa
@@ -435,23 +418,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/shailiza-mayal-97a48279'
     name: Shailiza Mayal
     project: ADAPT-F&ARD
-  - bio: >-
-      Shifali holds a Bachelor's degree in Electronics and Communication
-      Engineering from Amity School of Engineering & Technology and a Master's
-      in Education from Tata Institute of Social Sciences. After working at BA
-      Continuum  and Evalueserve, her deep-seated interest in the social sector
-      led her to join the Teach For India Fellowship. During her time as a TFI
-      Fellow, she taught primary grades in a low-income private school in Pune.
-      Post the Fellowship, she continued with Teach For India and led regional
-      fundraising and managed the alumni network and government school
-      relations. \n\nAn opportunity to expand her understanding of the
-      development sector and the role of governance in systemic reforms brought
-      her to Samagra. Currently she is part of the Saksham Haryana-Education
-      team.
-    image: /img/shifali.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/shifali-thakkur-942948b9'
-    name: Shifali Thakkur
-    project: Saksham Haryana-Education
   - bio: >-
       Shivam holds a Bachelor's degree in Economics from Kirori Mal College,
       Delhi University, and a Post-Graduate Diploma in Liberal Studies under the
