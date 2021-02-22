@@ -8,9 +8,7 @@ backgroundCover: /img/health-banner-4.jpeg
 domain: Health
 subTitle: Samagra
 state: Gujarat & Odisha
-tagLine: >-
-  Creating a multi-year roadmap to transform public healthcare service delivery
-  in Gujarat and Odisha
+tagLine: Creating a roadmap to transform public healthcare delivery in Gujarat & Odisha
 projectLogoWithState: /img/health-logo1.png
 overview:
   - text: >-
