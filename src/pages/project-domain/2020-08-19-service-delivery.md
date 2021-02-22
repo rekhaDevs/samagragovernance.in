@@ -3,6 +3,6 @@ templateKey: project-domain-post
 title: Service Delivery
 displayOnHeader: true
 displayOnHomeSlider: true
-displayOrder: '4'
+displayOrder: '5'
 ---
 
