@@ -8,7 +8,7 @@ backgroundCover: /img/health-banner-4.jpeg
 domain: Health
 subTitle: Samagra
 state: Gujarat & Odisha
-tagLine: Creating a roadmap for transforming public healthcare delivery
+tagLine: Creating a roadmap for improving public healthcare delivery
 projectLogoWithState: /img/health-logo2.png
 overview:
   - text: >-
@@ -18,8 +18,8 @@ overview:
       Health Collaborative'' formed by Bill & Melinda Gates Foundation and
       Piramal Foundation to improve the health outcomes of tribal and other
       marginalised communities. This diagnosis and design exercise is being
-      undertaken in Assam, Chhattisgarh, Jharkhand, Madhya Pradesh, Odisha and
-      Gujarat. These six states have a relatively higher tribal population in
+      undertaken in Assam, Gujarat, Jharkhand, Madhya Pradesh, Odisha and
+      Rajasthan. These six states have a relatively higher tribal population in
       the country. The end objective of the programme is to create a roadmap for
       transforming the public healthcare service delivery system in these six
       states using a state-driven systemic approach.
