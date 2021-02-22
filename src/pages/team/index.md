@@ -431,11 +431,12 @@ team:
 
       The opportunity to gain hands-on experience on end-to-end governance
       consulting projects coupled with the ability to create impact at scale
-      brought him to Samagra. Currently, he is part of the ADAPT team in Odisha.
+      brought him to Samagra. Currently, he is part of the Health Diagnosis &
+      Design team.
     image: /img/edited_shivam.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shivam-shukla-b7a0b7121/'
     name: Shivam Shukla
-    project: ADAPT
+    project: Health Diagnosis & Design
   - bio: >-
       Shubham holds a Bachelor's degree in Electronics and Communication
       Engineering from Thapar University. Post a six-month stint as an intern
@@ -597,12 +598,12 @@ team:
       Jharkhand on a field survey that assessed the efficacy of public service
       delivery by Common Service Centres. The impact-oriented nature of
       Samagra’s work, which both designs and implements governance reforms,
-      brought him here. Currently he is part of the Saksham Haryana-Education
+      brought him here. Currently, he is part of the Health Diagnosis & Design
       team.
     image: /img/vansh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/vansh-chaudhary-42a8a7155'
     name: Vansh Chaudhary
-    project: Saksham Haryana-Education
+    project: Health Diagnosis & Design
   - bio: >-
       Venkataraman holds an integrated Master's degree in Development Studies
       from IIT, Madras. He was an active member of IIT Madras' student
@@ -622,10 +623,10 @@ team:
       with state governments on improving health and education outcomes by
       developing data-driven accountability tools. Her passion to create
       scalable and sustainable change by working with the government brought her
-      to Samagra. She is currently part of the ADAPT-F&ARD team in Odisha.
+      to Samagra. Currently, she is part of the Health Diagnosis & Design team.
     image: /img/Yuganshi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
-    project: ADAPT-F&ARD
+    project: Health Diagnosis & Design
 ---
 
