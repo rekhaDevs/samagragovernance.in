@@ -30,6 +30,8 @@ scale:
     label: States
   - count: '1,70,000'
     label: Healthcare workers
+  - count: 10 crore
+    label: Citizens
 projectMiddleBannerImage: /img/health-banner-2.jpg
 approach:
   - text: >-
