@@ -53,7 +53,7 @@ impact:
     label: 'Enhancing accountability through monitoring & incentivisation '
   - count: ' '
     label: >-
-      Facilitating ongoing care from time of diagnosis to completion of
+      Facilitating continuum of care from time of diagnosis to completion of
       treatment
 keyInitiativesTitle: '  '
 ---
