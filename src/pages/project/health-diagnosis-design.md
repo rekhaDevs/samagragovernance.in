@@ -9,7 +9,7 @@ domain: Health
 subTitle: Samagra
 state: Gujarat & Odisha
 tagLine: Creating a roadmap for public healthcare delivery in Gujarat & Odisha
-projectLogoWithState: /img/health-logo1.png
+projectLogoWithState: /img/health-logo2.png
 overview:
   - text: >-
       Samagra is conducting a 6-month diagnosis & design exercise in Gujarat and
