@@ -155,7 +155,7 @@ export class HeaderSmall extends React.Component {
                         </div>
 
                         <div className={"header-list-item"}>
-                            <a href={'https://tech.samagragovernance.in'} className="nav-link">Tech</a>
+                            <a href={'https://tech.samagragovernance.in'} className="nav-link">Digital</a>
                         </div>
                         <div className={"header-list-item"}>
                             <Link to={'/team'}><a onClick={() => {

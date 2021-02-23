@@ -82,7 +82,7 @@ const Navbar = class extends React.Component {
                             <HeaderDropdown domains={domains}/>
 
                             <li>
-                                <a className="nav-link" href="https://tech.samagragovernance.in">TECH</a>
+                                <a className="nav-link" href="https://tech.samagragovernance.in">DIGITAL</a>
                             </li>
                             <li>
                                 <Link to={'/team'}><a className="nav-link" href="/team">TEAM</a></Link>
