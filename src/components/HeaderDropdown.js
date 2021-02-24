@@ -60,7 +60,7 @@ export const HeaderDropDownComponent = ({data, parentDomains}) => {
     return (
         <li onMouseEnter={() => setFocus()} onMouseLeave={() => looseFocus()}
             className={`${focused ? 'focused' : ''}`}>
-            <a className="nav-link" href="#">OUR WORK</a>
+            <a className="nav-link" href="#">Our Work</a>
             <div className={'sub-menu'} style={{width: '700px'}}>
                 <div className={"head-items-wrapper"}>
                     {
