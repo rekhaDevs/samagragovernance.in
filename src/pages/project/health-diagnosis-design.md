@@ -13,16 +13,16 @@ projectLogoWithState: /img/health-logo2.png
 overview:
   - text: >-
       Samagra is conducting a 6-month diagnosis & design exercise in Gujarat and
-      Odisha with the aim to improve the accessibility, quality and speed of
-      care in the public healthcare facilities. This is part of the “Tribal
-      Health Collaborative'' formed by Bill & Melinda Gates Foundation and
-      Piramal Foundation to improve the health outcomes of tribal and other
-      marginalised communities. This diagnosis and design exercise is being
-      undertaken in Assam, Gujarat, Jharkhand, Madhya Pradesh, Odisha and
-      Rajasthan. These six states have a relatively higher tribal population in
-      the country. The end objective of the programme is to create a roadmap for
-      transforming the public healthcare service delivery system in these six
-      states using a state-driven systemic approach.
+      Odisha with the aim of improving accessibility, quality and speed of care
+      in the public healthcare facilities. This is part of the “Tribal Health
+      Collaborative'' formed by Bill & Melinda Gates Foundation and Piramal
+      Foundation to improve health outcomes of tribal and other marginalised
+      communities. This diagnosis and design exercise is being undertaken in
+      Assam, Gujarat, Jharkhand, Madhya Pradesh, Odisha and Rajasthan. These six
+      states have a relatively higher tribal population in the country. The end
+      objective of the programme is to create a roadmap for transforming the
+      public healthcare service delivery system in these six states using a
+      state-driven systemic approach.
 scale:
   - count: '2'
     label: States
