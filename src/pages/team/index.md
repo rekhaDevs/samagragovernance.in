@@ -162,12 +162,12 @@ team:
       real-time data for legislators to drive better policymaking. He has always
       been interested in the intersection of policy, governance and technology.
       A strong will to contribute to nation-building and interest in policy and
-      technology brought him to Samagra. Currently he is part of the
-      Tech@Samagra team.
+      technology brought him to Samagra. Currently he is part of the SamagraX
+      team.
     image: /img/bharat_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bharat-kashyap-india/'
     name: Bharat Kashyap
-    project: Tech@Samagra
+    project: SamagraX
   - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
@@ -179,11 +179,11 @@ team:
 
       His belief that employing technological tools can lead to better
       governance and improve the lives of citizens brought him to Samagra.
-      Currently he is part of the Tech@Samagra team.
+      Currently he is part of the SamagraX team.
     image: /img/Chakshu.jpg
     linkedInProfile: 'https://www.linkedin.com/in/chakshu-gautam-6918736b/'
     name: Chakshu Gautam
-    project: Tech@Samagra
+    project: SamagraX
   - bio: >-
       Divya holds a Master's degree in Public Policy from National Law School,
       Bangalore and a Bachelor's degree in Political Science from Kirorimal
@@ -367,11 +367,11 @@ team:
       worked at CollPoll, an ed-tech start up as a Product Manager. The belief
       that the path towards equity is through governance and an opportunity to
       realize this goal at scale brought Saket to Samagra. Currently he is part
-      of the Tech@Samagra team.
+      of the SamagraX team.
     image: /img/saket.jpg
     linkedInProfile: 'https://www.linkedin.com/in/saket-sinha-2992a924/'
     name: Saket Sinha
-    project: Tech@Samagra
+    project: SamagraX
   - bio: >-
       Saloni holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, Delhi University. Before joining Samagra, she worked as a
@@ -512,11 +512,11 @@ team:
       states with the mandate to design and manage the implementation of
       standardized measurements across Pratham's flagship Read India programme.
       His passion to transform citizen-government experiences at scale brought
-      him to Samagra. Currently he leads the Tech@Samagra team.
+      him to Samagra. Currently he leads the SamagraX team.
     image: /img/Sukhpreet.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sukhpreetsekhon'
     name: Sukhpreet Sekhon
-    project: Tech@Samagra
+    project: SamagraX
   - bio: >-
       Sunny holds a Bachelor's degree in Electrical Engineering from Vellore
       Institute of Technology and a Master's in Public Policy and Governance
@@ -568,11 +568,11 @@ team:
 
 
       An opportunity to leverage the power of technology to transform governance
-      brought Umang to Samagra. Currently he is part of the Tech@Samagra team.
+      brought Umang to Samagra. Currently he is part of the SamagraX team.
     image: /img/umang_ctt.jpg
     linkedInProfile: 'https://www.linkedin.com/in/umang-bhola-194b6686/'
     name: Umang Bhola
-    project: Tech@Samagra
+    project: SamagraX
   - bio: >-
       Utkarsh holds a Bachelor's degree in Computer Science Engineering from
       NIT, Jalandhar in Computer Science Engineering. Previously, he has worked
