@@ -302,7 +302,7 @@ team:
       project called 'Pravah', on stopping the use of plastic straws. Pragya
       also completed a course on 'Re-thinking the Obvious: Rhetoric of
       Development' at Miranda House in collaboration with The George Washington
-      University. \n\nAn opportunity to create positive impact in the lives of
+      University. An opportunity to create positive impact in the lives of
       people and an interest in public policy brings Pragya to Samagra.
       Currently she is part of the Samarth team in Himachal Pradesh.
     image: /img/pragya.jpg
