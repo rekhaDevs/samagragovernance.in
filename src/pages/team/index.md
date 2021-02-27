@@ -141,6 +141,19 @@ team:
     name: Ankit Goel
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Anusheela holds a Bachelor's degree in Psychology (Hons) from Lady Shri
+      Ram College For Women, Delhi University. Before joining Samagra, she was
+      working as a Projects Executive at ECHO India, which works towards
+      capacity building in health and education. Passionate about the
+      development sector, she has also worked with the United Nations and
+      Government of Delhi. Her strong belief in using governance as a lever for
+      societal change brought her to Samagra. Currently she is part of the
+      Samarth team in Himachal Pradesh.
+    image: /img/anusheela_website.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/anusheela-ghosh/'
+    name: Anusheela Ghosh
+    project: Samarth
+  - bio: >-
       Arjun holds a Bachelor's degree in Economics from Kirori Mal College. He
       has previously interned with Delhi Commission for Protection of Child
       Rights, Bajaj Capital and E&Y. Arjun has represented New Delhi in
