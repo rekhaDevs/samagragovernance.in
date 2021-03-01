@@ -42,13 +42,13 @@ team:
       worked with Blue Vector, a creative agency based out of Gurgaon, that he
       co-founded. He assumed various cross-functional roles at the start-up and
       his last project involved conceptualising a marketing tech product. He has
-      previously also worked at EY.\n\nHis belief that governance is the
-      critical lever to creating sustainable and scalable solutions brought him
-      to Samagra. He is currently part of the ADAPT team in Odisha.
+      previously also worked at EY. His belief that governance is the critical
+      lever to creating sustainable and scalable solutions brought him to
+      Samagra. Currently, he is part of the SamagraX team.
     image: /img/Aayush.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aayushkedia'
     name: Aayush Kedia
-    project: ADAPT
+    project: SamagraX
   - bio: >-
       Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
       dual degree in Mechanical Engineering from Indian Institute of Technology,
