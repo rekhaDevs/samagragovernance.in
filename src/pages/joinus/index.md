@@ -106,16 +106,23 @@ formsElements:
     required: true
     type: file
     validation: VALID_FILE
-  - actionName: Upload
-    label: Statement of Purpose
+  - actionName: 'Upload '
+    label: >-
+      Upload Video: Q1. Why do you want to work with Samagra? Q2. What is your
+      greatest strength and your greatest weakness?
+    options: []
+    otherOptionAvailable:
+      activateOn: '  '
+      label: '  '
+      placeholder: ' '
     placeholder: >-
-      Upload a PDF containing separate answers to the following two questions
-      (Filename: SOP_Firstname Lastname):
-    questions:
-      - text: Q1. How does Samagra align with your goals? (max 200 words)
-      - text: >-
-          Q2. Why do you believe yourself to be a good fit for Samagra? (max 300
-          words)
+      Upload a video containing answers to the two questions listed above.
+      Please ensure that the video is recorded against a white background with
+      visual and audio clarity. Do not exceed the specified time limit of 90
+      seconds. (Filename: Video_Firstname Lastname):
+
+       
+    questions: []
     required: true
     type: file
     validation: VALID_FILE
