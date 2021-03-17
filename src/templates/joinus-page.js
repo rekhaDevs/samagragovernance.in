@@ -66,9 +66,7 @@ export const JoinUsPageQuery = graphql`
                 text
             }
             actionName
-            questions {
-                text
-            }
+            
         }
       }
     }
