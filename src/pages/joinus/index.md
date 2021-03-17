@@ -2,10 +2,7 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: >-
-  Thank you for your interest in Samagra. We don't have any open positions at
-  present. In case you apply, your application will only be reviewed in the next
-  recruitment cycle.
+infoText2: ' Thank you for your interest in Samagra. The entire application process can take between 4 to 6 weeks from the date of application.'
 verticalImage: /img/recruitment-diagram_vf.jpg
 horizontalImage: /img/recruitment-diagram_vf.jpg
 formsElements:
