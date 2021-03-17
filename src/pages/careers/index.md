@@ -152,20 +152,20 @@ faq:
   - answer: >-
       Most teams comprise of 3-5 Associates and Consultants led by a Senior
       Manager/Manager and supervised by a Senior Vice President/Vice President.
-    question: 10. What is a typical team structure for a Samagra project?
+    question: 10. What is a typical team structure for a Samagra programme?
   - answer: >-
-      An individual is typically staffed on an engagement for 9-12 months. Team
+      An individual is typically staffed on a programme for 9-12 months. Team
       members are then staffed on different projects to enable diverse
       experiences and variety of work across domains.
-    question: 11. How long do consultants typically stay on an engagement?
+    question: 11. How long do consultants typically stay on a programme?
   - answer: >-
-      Delhi is the base location for all projects. Through the week, teams are
+      Delhi is the base location for all programmes. Through the week, teams are
       stationed at the client location with frequent travel to Delhi for review
       meetings and problem solving sessions. The time spent on ground varies
       based on the engagement lifecycle. During the diagnosis phase, the team
       spends a lot of time on ground to gain a bottom up understanding of the
       problem statement and understand ground situation. In more mature stages
-      of the project, teams work at the state office to align political and
+      of the programme, teams work at the state office to align political and
       bureaucratic leadership, with field visits as and when required.
     question: >-
       12. How much time will I spend in office and on ground? How much travel
