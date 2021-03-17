@@ -135,33 +135,29 @@ faq:
       No, any expenses incurred by the candidate as a part of the process will
       be borne by the candidate himself/herself.
     question: 7. Will Samagra bear travel costs to Delhi for my in-person interview?
-  - answer: 'Currently, Samagra does not hire interns.'
-    question: >-
-      8. I have not yet graduated, can I apply to a summer internship at
-      Samagra?
   - answer: >-
       Your compensation depends on multiple factors such as past experience,
       educational background, the role you are being considered for etc. We will
       discuss this with each candidate before making the final offer. Our
       compensation levels are roughly 70% of the compensation levels of
       corporate firms.
-    question: 9. What is the compensation structure at Samagra?
+    question: 8. What is the compensation structure at Samagra?
   - answer: >-
       We believe that learning on the job is the best way to train oneself for a
       role. We have a detailed onboarding plan for all new joinees which
       provides an in depth understanding about Samagra as an organization, its
       various projects. The new joinee also receives ample mentorship from
       his/her manager and the Samagra leadership.
-    question: 10. What kind of training will I be provided if I get selected?
+    question: 9. What kind of training will I be provided if I get selected?
   - answer: >-
       Most teams comprise of 3-5 Associates and Consultants led by a Senior
       Manager/Manager and supervised by a Senior Vice President/Vice President.
-    question: 11. What is a typical team structure for a Samagra project?
+    question: 10. What is a typical team structure for a Samagra project?
   - answer: >-
       An individual is typically staffed on an engagement for 9-12 months. Team
       members are then staffed on different projects to enable diverse
       experiences and variety of work across domains.
-    question: 12. How long do consultants typically stay on an engagement?
+    question: 11. How long do consultants typically stay on an engagement?
   - answer: >-
       Delhi is the base location for all projects. Through the week, teams are
       stationed at the client location with frequent travel to Delhi for review
@@ -172,7 +168,7 @@ faq:
       of the project, teams work at the state office to align political and
       bureaucratic leadership, with field visits as and when required.
     question: >-
-      13. How much time will I spend in office and on ground? How much travel
+      12. How much time will I spend in office and on ground? How much travel
       can I expect?
 ---
 
