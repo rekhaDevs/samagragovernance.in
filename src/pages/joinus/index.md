@@ -6,8 +6,8 @@ infoText2: >-
   Thank you for your interest in Samagra. We don't have any open positions at
   present. In case you apply, your application will only be reviewed in the next
   recruitment cycle.
-verticalImage: /img/Vertical.jpg
-horizontalImage: /img/Horizontal.jpg
+verticalImage: /img/recruitment-diagram_vf.jpg
+horizontalImage: /img/recruitment-diagram_vf.jpg
 formsElements:
   - label: Full Name
     placeholder: Enter your full name
