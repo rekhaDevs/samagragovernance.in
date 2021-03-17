@@ -105,7 +105,7 @@ formsElements:
     validation: VALID_FILE
   - actionName: 'Upload '
     label: >-
-      Upload Video*:<p> Q1. Why do you want to work with Samagra? </p> <p>Q2.
+      Upload Video:<p> Q1. Why do you want to work with Samagra? </p> <p>Q2.
       What is your greatest strength and your greatest weakness?</p>
     options: []
     otherOptionAvailable:
