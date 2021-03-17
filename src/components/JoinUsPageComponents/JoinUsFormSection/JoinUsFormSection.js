@@ -169,8 +169,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
             case 'file':
                 return <div className="col-12" style={{padding: '0 15px'}}>
                     <fieldset className={'form-group'}>
-                        <label> <span
-                            className={`${formObject[element.fileErrorKey] ? 'invalid-size' : ''}`}>{element.label} </span>
+                        <label> {element.label} <span
+                            className={`${formObject[element.fileErrorKey] ? 'invalid-size' : ''}`}>{element.contentDescription} </span>
                             <span
                                 className={'required-mark'}>*</span></label>
                         {
