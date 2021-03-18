@@ -98,18 +98,14 @@ formsElements:
     validation: VALID_LINK
   - actionName: Upload
     label: Upload Resume
-    contentDescription: mb3
     placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)'
     questions: []
     required: true
     type: file
     validation: VALID_FILE
   - actionName: 'Upload '
-    label: >-
-      Upload Video: Q1. Why do you want to work with Samagra? Q2. What is your
-      greatest strength and your greatest weakness?
+    label: Upload Video
     options: []
-    contentDescription: mb3
     otherOptionAvailable:
       activateOn: '  '
       label: '  '
@@ -121,7 +117,9 @@ formsElements:
       seconds. (Filename: Video_Firstname Lastname):
 
        
-    questions: []
+    questions:
+      - text: Q1. Why do you want to work with Samagra?
+      - text: Q2. What is your greatest strength and your greatest weakness?
     required: true
     type: file
     validation: VALID_FILE
