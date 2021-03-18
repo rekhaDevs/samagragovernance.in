@@ -272,6 +272,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                     return <div className={'option col-md-4 col-sm-6 col-xs-12'}
                                                 onClick={() => {
                                                     setActiveOption(index);
+                                                    console.log(index,'=======')
                                                     const formObjectTemp = {
                                                         ...formObject
                                                     };
