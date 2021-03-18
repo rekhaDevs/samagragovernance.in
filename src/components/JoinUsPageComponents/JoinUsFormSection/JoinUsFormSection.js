@@ -317,6 +317,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                 </div>
         }
     };
+    console.log(formObject);
     return (
         <div style={{paddingTop: '100px'}} className={'join-us-page-wrapper'}>
 
