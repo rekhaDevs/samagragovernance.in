@@ -16,6 +16,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
         }).replace(/\s+/g, '');
     };
     const [showForm, setShowForm] = useState(true);
+    const [videoError, setVideoError] = useState('');
+    const [videoProgress, setVideoProgress] = useState(0);
     const [formObject, setFormObject] = useState({});
     const [submitted, setSubmitted] = useState(false);
     const [activeOption, setActiveOption] = useState(-1);
@@ -352,6 +354,83 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                     return renderInput(fE);
                                 })
                             }
+                            <div className="col-12" style={{padding: '0 15px'}}>
+                                <fieldset className={'form-group'}>
+                                    <label> Upload &nbsp;<span
+                                        className={`${videoError ? 'invalid-size' : ''}`}>(mp4, mov, avi, wmv, flv only, max size 300 mb, max length of video 90 seconds) </span>
+                                        <span
+                                            className={'required-mark'}>*</span></label>
+                                    {
+                                        <div className={'mb-4'}>
+                                            <p>Question 1</p>
+                                            <p>Question 2</p>
+                                        </div>
+                                    }
+                                    <div className="input-group">
+                                        <input type="text"
+                                               value={formObject['introVideo']}
+                                               className={`form-control ${submitted && !formObject['introVideo'] ? 'invalid' : ''}`}
+                                               placeholder={'No file selected'}/>
+                                        <input type="file" className={'file-input'} multiple={false}
+                                               onChange={(e) => {
+                                                   const files = Array.from(e.target.files);
+                                                   // const formData = new FormData();
+                                                   setVideoProgress(0);
+                                                   const config = {
+                                                       onUploadProgress: function (progressEvent) {
+                                                           let percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total)
+                                                           setVideoProgress(percentCompleted)
+                                                           console.log(percentCompleted);
+                                                       }
+                                                   };
+
+                                                   let data = new FormData();
+                                                   data.append('file', files[0]);
+                                                   axios.post('http://luezoid.com:8282/upload', data, config)
+                                                       .then(res => {
+                                                           if (res.data && res.data.fileName) {
+                                                               const formObjectTemp = {
+                                                                   ...formObject
+                                                               };
+                                                               formObjectTemp['statementOfPurpose'] = res.data.fileName;
+                                                           }
+
+                                                       })
+                                                       .catch(err => {
+                                                           if (err.response && err.response.data && err.response.data.message) {
+                                                               setVideoError(err.response.data.message);
+                                                           } else {
+                                                               setVideoError('Unable to upload');
+                                                           }
+                                                           setVideoProgress(0);
+                                                       })
+                                               }}/>
+                                        <div className="input-group-append">
+                                       <span className="input-group-text" style={{
+                                           background: '#ec672c',
+                                           color: 'white',
+                                           paddingLeft: '30px',
+                                           paddingRight: '30px',
+                                           border: 'none'
+                                       }}>{videoProgress ? <>{videoProgress}%
+                                           <div className="samagra-loader"></div>
+                                       </> : 'Upload'}
+                                           </span>
+                                        </div>
+
+
+                                    </div>
+                                    <span className={'hint'}>
+                                       Place Holder
+                                       </span>
+                                    <span
+                                        className={`${videoError ? 'invalid-size' : ''}`}>
+                                        {
+                                            videoError
+                                        }
+                                    </span>
+                                </fieldset>
+                            </div>
                             <div className="col-12 " style={{textAlign: 'center', marginTop: '30px'}}>
                                 <PrimaryButton click={() => {
                                     setSubmitted(true);
@@ -363,6 +442,9 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                     });
                                     let reqObject = JSON.parse(JSON.stringify(formObject));
                                     if (!validForm) {
+                                        return;
+                                    }
+                                    if (videoProgress !== 100) {
                                         return;
                                     }
                                     formsElements.forEach((element) => {

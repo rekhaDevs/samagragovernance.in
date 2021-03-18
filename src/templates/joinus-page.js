@@ -57,6 +57,7 @@ export const JoinUsPageQuery = graphql`
             placeholder
             type
             validation
+            contentDescription
             otherOptionAvailable {
                 activateOn
                 label
