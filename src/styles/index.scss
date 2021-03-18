@@ -551,3 +551,37 @@ body, p {
 .fas, .fa {
   font: normal normal normal 44px/1 FontAwesome !important;
 }
+
+.__actionable-image-wrapper {
+  .action-wrapper {
+    position: absolute;
+    top: 42%;
+    left: 0;
+    z-index: 2000;
+    right: 0;
+    height: 17%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14%;
+
+    .action {
+      width: 16%;
+      height: 100%;
+    }
+  }
+}
+
+.image-animated {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 100;
+
+  &.active {
+    opacity: 1;
+  }
+}

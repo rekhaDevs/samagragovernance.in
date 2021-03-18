@@ -1,6 +1,11 @@
 import React, {useState} from "react";
 import {PrimaryButton} from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
+import Slide1 from '../../../img/slides/Slide1.jpg';
+import Slide2 from '../../../img/slides/Slide2.jpg';
+import Slide3 from '../../../img/slides/Slide3.jpg';
+import Slide4 from '../../../img/slides/Slide4.jpg';
+import Slide5 from '../../../img/slides/Slide5.jpg';
 
 const fileUploadURL = 'https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/image-upload';
 // const fileUploadURL = service.baseUrl + 'image-upload';
@@ -16,11 +21,19 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
         }).replace(/\s+/g, '');
     };
     const [showForm, setShowForm] = useState(true);
+    const slides = {
+        'default': Slide1,
+        'slide2': Slide2,
+        'slide3': Slide3,
+        'slide4': Slide4,
+        'slide5': Slide5,
+    };
     const [videoError, setVideoError] = useState('');
     const [videoProgress, setVideoProgress] = useState(0);
     const [formObject, setFormObject] = useState({});
     const [submitted, setSubmitted] = useState(false);
     const [activeOption, setActiveOption] = useState(-1);
+    const [activeHoverIndex, setActiveHoverIndex] = useState(-1);
     const [loaderKey, setLoaderKey] = useState({});
     const formsElements = joinUsPageContent.formsElements || [];
     formsElements.forEach((fE) => {
@@ -321,14 +334,41 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                             }}> {infoText1}</p>
                         </div> : null
                 }
+
                 <div className="row mb-5">
-                    <img
-                        src={horizontalImage.childImageSharp ? horizontalImage.childImageSharp.fluid.src : horizontalImage}
-                        className={'hide-for-small-only'}
-                        style={{maxWidth: '700px', margin: 'auto'}} width={'100%'} alt=""/>
-                    <img src={verticleImage.childImageSharp ? verticleImage.childImageSharp.fluid.src : verticleImage}
-                         className={'show-for-small-only'} width={'100%'}
-                         alt=""/>
+                    <div style={{display: "inline-block", margin: 'auto', position: 'relative'}}
+                         className={'__actionable-image-wrapper'}>
+
+                        <div className="action-wrapper">
+                            {
+                                [1, 2, 3, 4].map((a, i) => {
+                                    return <div className="action" onMouseLeave={() => {
+                                        setActiveHoverIndex(-1);
+                                    }
+                                    } onMouseEnter={() => {
+                                        setActiveHoverIndex(i);
+                                    }}/>
+                                })
+                            }
+                        </div>
+                        {
+                            [2, 3, 4, 5].map((v) => {
+                                return <img
+                                    src={slides['slide' + v]}
+                                    className={`hide-for-small-only image-animated ${(v === activeHoverIndex + 2) ? 'active' : ''}`}
+                                    style={{maxWidth: '700px', margin: 'auto',}} width={'100%'} alt=""/>
+                            })
+                        }
+
+                        <img
+                            src={slides['default']}
+                            className={'hide-for-small-only'}
+                            style={{maxWidth: '700px', margin: 'auto'}} width={'100%'} alt=""/>
+                        <img
+                            src={slides['default']}
+                            className={'show-for-small-only'} width={'100%'}
+                            alt=""/>
+                    </div>
                 </div>
                 {
                     infoText2 ?
