@@ -114,6 +114,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     };
 
 
+    const [statementOfPurpose, setStatementOfPurpose] = useState('');
+    const [introVideo, setIntroVideo] = useState('');
     const renderInput = (element) => {
         switch (element.type) {
             case 'text':
@@ -272,7 +274,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                     return <div className={'option col-md-4 col-sm-6 col-xs-12'}
                                                 onClick={() => {
                                                     setActiveOption(index);
-                                                    console.log(index,'=======')
+                                                    console.log(index, '=======')
                                                     const formObjectTemp = {
                                                         ...formObject
                                                     };
@@ -423,7 +425,6 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                                        onUploadProgress: function (progressEvent) {
                                                                            let percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total)
                                                                            setVideoProgress(percentCompleted)
-                                                                           console.log(percentCompleted);
                                                                        }
                                                                    };
 
@@ -432,12 +433,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                                    axios.post('https://uploader.luezoid.com/upload', data, config)
                                                                        .then(res => {
                                                                            if (res.data && res.data.fileName) {
-                                                                               const formObjectTemp = {
-                                                                                   ...formObject
-                                                                               };
-                                                                               formObjectTemp['statementOfPurpose'] = res.data.fileName;
-                                                                               formObjectTemp['introVideo'] = res.data.name;
-                                                                               setFormObject(formObjectTemp);
+                                                                               setStatementOfPurpose(res.data.fileName);
+                                                                               setIntroVideo(res.data.name);
                                                                            }
 
                                                                        })
@@ -494,6 +491,10 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                             validForm = false;
                                         }
                                     });
+                                    if (!statementOfPurpose) {
+                                        setVideoError('Fiend Required!');
+                                        validForm = false;
+                                    }
                                     let reqObject = JSON.parse(JSON.stringify(formObject));
                                     if (!validForm) {
                                         return;
@@ -509,7 +510,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
 
                                     loaderKey['formSubmit'] = true;
                                     setLoaderKey(JSON.parse(JSON.stringify(loaderKey)));
-                                    axios.post('https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/form-submit', reqObject, {headers: {'Content-Type': 'application/json'}})
+                                    axios.post('https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/form-submit', {...reqObject, statementOfPurpose}, {headers: {'Content-Type': 'application/json'}})
                                         .then(function (response) {
                                             setShowForm(false);
                                             setTimeout(() => {
