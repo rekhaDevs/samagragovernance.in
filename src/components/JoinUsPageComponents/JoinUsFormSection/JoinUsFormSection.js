@@ -387,7 +387,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
 
                                                                    let data = new FormData();
                                                                    data.append('file', files[0]);
-                                                                   axios.post('https://uploader.luezoid.com:8282/upload', data, config)
+                                                                   axios.post('https://uploader.luezoid.com/upload', data, config)
                                                                        .then(res => {
                                                                            if (res.data && res.data.fileName) {
                                                                                const formObjectTemp = {
