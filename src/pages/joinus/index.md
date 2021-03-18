@@ -103,26 +103,6 @@ formsElements:
     required: true
     type: file
     validation: VALID_FILE
-  - actionName: 'Upload '
-    label: Upload Video
-    options: []
-    otherOptionAvailable:
-      activateOn: '  '
-      label: '  '
-      placeholder: ' '
-    placeholder: >-
-      Upload a video containing answers to the two questions listed above.
-      Please ensure that the video is recorded against a white background with
-      visual and audio clarity. Do not exceed the specified time limit of 90
-      seconds. (Filename: Video_Firstname Lastname):
-
-       
-    questions:
-      - text: Q1. Why do you want to work with Samagra?
-      - text: Q2. What is your greatest strength and your greatest weakness?
-    required: true
-    type: file
-    validation: VALID_FILE
   - label: Where did you hear about Samagra?
     options:
       - text: Word of Mouth
