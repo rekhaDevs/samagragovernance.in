@@ -325,7 +325,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                     <img
                         src={horizontalImage.childImageSharp ? horizontalImage.childImageSharp.fluid.src : horizontalImage}
                         className={'hide-for-small-only'}
-                        style={{maxWidth: '900px', margin: 'auto'}} width={'100%'} alt=""/>
+                        style={{maxWidth: '700px', margin: 'auto'}} width={'100%'} alt=""/>
                     <img src={verticleImage.childImageSharp ? verticleImage.childImageSharp.fluid.src : verticleImage}
                          className={'show-for-small-only'} width={'100%'}
                          alt=""/>
