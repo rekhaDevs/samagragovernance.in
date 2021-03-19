@@ -492,7 +492,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                         }
                                     });
                                     if (!statementOfPurpose) {
-                                        setVideoError('Fiend Required!');
+                                        setVideoError('Field Required!');
                                         validForm = false;
                                     }
                                     let reqObject = JSON.parse(JSON.stringify(formObject));
