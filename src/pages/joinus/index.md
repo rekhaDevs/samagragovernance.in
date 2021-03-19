@@ -3,7 +3,7 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: >-
-  To know more details of each step, please hover over the icons. The entire
+  To know more details about each step, please hover over the icons. The entire
   recruitment process can take between 4 to 6 weeks from the date of
   application.
 verticalImage: /img/recruitment-diagram_vf.jpg
