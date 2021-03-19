@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {PrimaryButton} from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
-import ImageRecruitment from '../../../img/slides/Image_recruitment.png';
+import ImageRecruitment from '../../../img/slides/Recruitment_vff_image.pptx.png';
 import Slide1 from '../../../img/slides/Slide1.jpg';
 import Slide2 from '../../../img/slides/Slide2.jpg';
 import Slide3 from '../../../img/slides/Slide3.jpg';
