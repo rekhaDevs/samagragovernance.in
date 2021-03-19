@@ -2,31 +2,39 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: ' Thank you for your interest in Samagra. The entire application process can take between 4 to 6 weeks from the date of application.'
+infoText2: >-
+  To know more details about each step, please hover over the icons. The entire
+  recruitment process can take between 4 to 6 weeks from the date of
+  application.
 verticalImage: /img/recruitment-diagram_vf.jpg
 horizontalImage: /img/recruitment-diagram_vf.jpg
 formsElements:
-  - label: Full Name
+  - contentDescription: ' '
+    label: Full Name
     placeholder: Enter your full name
     required: true
     type: text
     validation: VALID_TEXT
-  - label: Contact Number
+  - contentDescription: '   '
+    label: Contact Number
     placeholder: Enter your contact number
     required: true
     type: text
     validation: VALID_TEXT
-  - label: Email
+  - contentDescription: ' '
+    label: Email
     placeholder: Enter your email
     required: true
     type: text
     validation: VALID_TEXT
-  - label: Current Location
+  - contentDescription: '  '
+    label: Current Location
     placeholder: Enter current location
     required: true
     type: text
     validation: VALID_TEXT
-  - label: Undergraduate Institute
+  - contentDescription: '   '
+    label: Undergraduate Institute
     options: []
     otherOptionAvailable:
       activateOn: ''
@@ -36,7 +44,8 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
-  - label: Post Graduate Institute
+  - contentDescription: '  '
+    label: Post Graduate Institute
     options:
       - text: Not Applicable
       - text: Ashoka University
@@ -76,34 +85,40 @@ formsElements:
     required: true
     type: select
     validation: VALID_OPTION
-  - label: Last Employer
+  - contentDescription: ' '
+    label: Last Employer
     placeholder: Enter Organization
     required: true
     type: text
     validation: VALID_TEXT
-  - label: Total Professional Experience (in months)
+  - contentDescription: ' '
+    label: Total Professional Experience (in months)
     placeholder: Enter Organization
     required: true
     type: text
     validation: VALID_NUMBER
-  - label: LinkedIn Profile
+  - contentDescription: ' '
+    label: LinkedIn Profile
     placeholder: Enter your linkedin profile link
     required: false
     type: text
     validation: VALID_LINK
-  - label: Blogs/Reference Links
+  - contentDescription: ' '
+    label: Blogs/Reference Links
     placeholder: Enter your any blog/reference links
     required: false
     type: text
     validation: VALID_LINK
   - actionName: Upload
+    contentDescription: ' '
     label: Upload Resume
     placeholder: 'Please upload ONLY SINGLE PAGE PDF. (Filename: Resume_Firstname Lastname)'
     questions: []
     required: true
     type: file
     validation: VALID_FILE
-  - label: Where did you hear about Samagra?
+  - contentDescription: ' '
+    label: Where did you hear about Samagra?
     options:
       - text: Word of Mouth
       - text: Samagra Team Member
