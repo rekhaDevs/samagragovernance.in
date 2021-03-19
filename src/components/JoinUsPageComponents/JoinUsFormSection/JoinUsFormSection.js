@@ -412,8 +412,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                     }
                                                     <div className="input-group">
                                                         <input type="text"
-                                                               value={formObject['introVideo']}
-                                                               className={`form-control ${submitted && !formObject['introVideo'] ? 'invalid' : ''}`}
+                                                               value={introVideo}
+                                                               className={`form-control ${submitted && !introVideo ? 'invalid' : ''}`}
                                                                placeholder={'No file selected'}/>
                                                         <input type="file" className={'file-input'} multiple={false}
                                                                onChange={(e) => {
