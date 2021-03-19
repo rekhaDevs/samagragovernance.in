@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {PrimaryButton} from "../../PrimaryButton/PrimaryButton";
 import axios from "axios";
+import ImageRecruitment from '../../../img/slides/Image_recruitment.png';
 import Slide1 from '../../../img/slides/Slide1.jpg';
 import Slide2 from '../../../img/slides/Slide2.jpg';
 import Slide3 from '../../../img/slides/Slide3.jpg';
@@ -369,7 +370,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                             className={'hide-for-small-only'}
                             style={{maxWidth: '700px', margin: 'auto'}} width={'100%'} alt=""/>
                         <img
-                            src={slides['default']}
+                            src={ImageRecruitment}
                             className={'show-for-small-only'} width={'100%'}
                             alt=""/>
                     </div>
