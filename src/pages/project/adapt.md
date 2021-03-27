@@ -45,13 +45,13 @@ approach:
       on seed treatment and soil health, irrigation and insurance is
       disseminated to farmers.
 readMore:
+  - text: Lessons in direct income support from Odisha
   - text: >-
       India’s agriculture departments are complex. But Odisha is using data to
       fix it
   - text: >-
       This State’s Solutions May Be The Answer Farmers Across India Are Looking
       For
-  - text: 'Universal basic income: How Odisha’s KALIA took off in less than 6 weeks'
 impact:
   - count: 40+
     label: Scheme Monthly Progress Reports digitised
