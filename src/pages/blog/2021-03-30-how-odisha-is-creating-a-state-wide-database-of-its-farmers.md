@@ -6,8 +6,9 @@ projectId: ADAPT
 authorImage: /img/Utkarsh.jpg
 date: 2021-03-30T10:40:42.828Z
 description: >-
-  The Government of Odisha has conceptualized Krushak Odisha—a state-wide
-  comprehensive farmer database. 
+  The Government of Odisha's farmer database will contain the latest
+  demographic, financial, land record, and asset-related information of all the
+  state’s farmers.
 featuredimage: /img/Odisha-ADAPT-Feat.jpg
 ---
 Imagine you are opening the Swiggy/Zomato app to order food. Even before you place the order, the app reminds you what you ordered last time. It even shows you a customized list of recommended restaurants based on your food preference. You appreciate this personalized service and therefore use these apps regularly. 
