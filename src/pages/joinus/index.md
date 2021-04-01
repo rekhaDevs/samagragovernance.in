@@ -3,9 +3,8 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: >-
-  To know more details about each step, please hover over the icons. The entire
-  recruitment process can take between 4 to 6 weeks from the date of
-  application.
+  Thank you for your interest in Samagra. However, we currently don't have any
+  open positions. Please follow us on LinkedIn for recruitment updates.
 verticalImage: /img/recruitment-diagram_vf.jpg
 horizontalImage: /img/recruitment-diagram_vf.jpg
 formsElements:
