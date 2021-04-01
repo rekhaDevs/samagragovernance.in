@@ -470,6 +470,19 @@ team:
     name: Shubham Bansal
     project: Mission Prerna
   - bio: >-
+      Siddhant holds a Bachelor's degree in Mechanical Engineering from Vellore
+      Institute of Technology. Before joining Samagra, he was working as a
+      Management Consultant with EY's Business Consulting vertical, primarily
+      focused on supply chain and operations cost optimization for clients
+      across industries. His long-standing motivation to assist governments in
+      maximizing impact while working at the grassroots level towards societal
+      change brought him to Samagra. Currently, he is part of the ADAPT-F&ARD
+      team in Odisha.
+    image: /img/edited_siddhant.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/siddhant-agarwal-774a6b122/'
+    name: Siddhant Agarwal
+    project: ADAPT-F&ARD
+  - bio: >-
       Srishti holds a Bachelor's degree in Civil Engineering from Delhi
       Technological University. Previously, she worked with Boston Consulting
       Group (BCG) as a Research Analyst. During her tenure at BCG, she worked on
