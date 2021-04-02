@@ -601,17 +601,16 @@ team:
     project: SamagraX
   - bio: >-
       Utkarsh holds a Bachelor's degree in Computer Science Engineering from
-      NIT, Jalandhar in Computer Science Engineering. Previously, he has worked
-      as Technology Consultant with Indus Valley Partners and Boston Consulting
-      Group. During his stint with IVP and BCG, he was extensively involved in
-      solving some complex business problems through technology in the Finance
-      and Industrial Goods sector. After leaving BCG, he co-founded Indian
-      Lawyers Forum with a Supreme Court Lawyer to solve the problem of
-      information asymmetry in the Indian judiciary by disseminating information
-      from courts to lawyers at a large scale. An opportunity to solve complex
-      governance problems by using his technology, consulting and
-      entrepreneurial skills brought him to Samagra. Currently, he leads the
-      ADAPT programme in Odisha.
+      NIT, Jalandhar. Previously, he has worked as Technology Consultant with
+      Indus Valley Partners and Boston Consulting Group. During his stint with
+      IVP and BCG, he was extensively involved in solving some complex business
+      problems through technology in the Finance and Industrial Goods sector.
+      After leaving BCG, he co-founded Indian Lawyers Forum with a Supreme Court
+      Lawyer to solve the problem of information asymmetry in the Indian
+      judiciary by disseminating information from courts to lawyers at a large
+      scale. An opportunity to solve complex governance problems by using his
+      technology, consulting and entrepreneurial skills brought him to Samagra.
+      Currently, he leads the ADAPT programme in Odisha.
     image: /img/Utkarsh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
