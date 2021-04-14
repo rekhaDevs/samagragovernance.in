@@ -228,20 +228,6 @@ team:
     name: Gayatri Chandrasekaran
     project: Communications Strategy
   - bio: >-
-      Harsh hold's a Bachelor's degree in Business Studies from Shaheed Sukhdev
-      College of Business Studies, Delhi University. During his time at college,
-      he was actively involved with Enactus, and represented India at the
-      Enactus World Cup 2018, where his team got the second position for their
-      work in the sanitation and education space. In addition to this, he also
-      worked as a campaign leader for Teach for India in his college and
-      interned at Social Cops.\n\nHis passion towards creating social impact and
-      bringing about a positive change in the world brought him to Samagra.
-      Currently he is part of the Digital Haryana Cell.
-    image: /img/Harsh.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/harshgarg96'
-    name: Harsh Garg
-    project: Digital Haryana Cell
-  - bio: >-
       Juhi holds a Bachelor's degree in Civil Engineering from NIT Kurukshetra.
       After working in the corporate space for about 10 months, she made the
       switch to the development sector, joining the Teach For India fellowship.
@@ -497,24 +483,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/srishti-dahiya-98aa47110/'
     name: Srishti Dahiya
     project: ' Saksham Haryana-Education'
-  - bio: >-
-      Suditi holds a Bachelor's degree in Computer Science from Vellore
-      Institute of Technology. Her desire to work towards equal opportunity for
-      everyone led her to work actively with organizations like Edforall and
-      Teach For India which aim to improve the quality of education in
-      government schools. Prior to Samagra, she worked as a software consultant
-      at Microsoft for two and half years. During her time at Microsoft, she
-      designed and developed software for clients with varying needs. Her belief
-      that technological interventions have the power to solve complex issues
-      got strengthened here. At the same time, she also started exploring the
-      policy and governance space and saw it is as a potentially effective
-      channel to solve grass-root problems in a sustainable manner. An
-      opportunity to leverage technology to create social impact brought her to
-      Samagra. She is currently part of the ADAPT-F&ARD team in Odisha.
-    image: /img/Suditi.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/suditi-bansal-722704152'
-    name: Suditi Bansal
-    project: ADAPT-F&ARD
   - bio: >-
       Sukanya holds a Bachelor’s degree in Economics from St. Stephen’s College,
       University of Delhi and has previously interned at Boston Consulting Group
