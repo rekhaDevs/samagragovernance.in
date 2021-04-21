@@ -399,6 +399,22 @@ team:
     name: Sanchita Dasgupta
     project: Office Manager
   - bio: >-
+      Sanjana holds a Bachelor's degree in Economics (Hons) from Hindu College,
+      University of Delhi. Before joining Samagra, she was working as an Analyst
+      with EY's Business Consulting vertical, primarily focused on process
+      reviews and operational optimization across the business value chain for
+      clients from the consumer products sector.
+
+
+      Her passion to create scalable and sustainable impact by working with the
+      government and the desire to be a part of the difference that Samagra is
+      bringing about brought her to the firm. Currently, she is part of the
+      Samarth team in Himachal Pradesh.
+    image: /img/sanjana.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/sanjana-johri/'
+    name: Sanjana Johri
+    project: Samarth
+  - bio: >-
       Shailiza holds a Bachelor's degree in Electronics Engineering from
       Savitribai Phule Pune University. After graduating, she worked as a
       Business Operations Associate with ZS Associates. She is a Young India
