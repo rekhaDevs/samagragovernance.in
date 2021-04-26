@@ -92,11 +92,11 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/aditi-phadnis93/'
     name: Aditi Phadnis
     project: Saksham Haryana-Education
-  - bio: "Aditya holds an MBA from the University of Oxford and BTech in Mechanical Engineering from YMCA Faridabad. He previously worked as an Associate Equity\_Analyst (Team Lead) at Trefis for 4 years where he\_was catering to top investment banks by analyzing sell-side securities of global internet, e-commerce and telecom companies listed on NYSE and NASDAQ.\_As an undergrad, he was keen to join the Indian civil services and attempted the\_examination\_three times, giving final interviews on all three occasions. An opportunity to apply his problem solving and people skills to improve governance and create impact at scale brought him to Samagra. Currently he leads the Digital Haryana engagement."
+  - bio: "Aditya holds an MBA from the University of Oxford and BTech in Mechanical Engineering from YMCA Faridabad. He previously worked as an Associate Equity\_Analyst (Team Lead) at Trefis for 4 years where he\_was catering to top investment banks by analyzing sell-side securities of global internet, e-commerce and telecom companies listed on NYSE and NASDAQ.\_As an undergrad, he was keen to join the Indian civil services and attempted the\_examination\_three times, giving final interviews on all three occasions. An opportunity to apply his problem solving and people skills to improve governance and create impact at scale brought him to Samagra. \n\nAditya currently leads the Saksham Haryana-Education and Samarth programmes."
     image: /img/new-pic_aditya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/adityachopra770/'
     name: Aditya Chopra
-    project: Digital Haryana Cell
+    project: Saksham Haryana-Education & Samarth
   - bio: >-
       Akash holds a Bachelor's degree in Paper Technology from IIT Roorkee.
       Driven by an interest in understanding sectoral reforms in education, he
@@ -138,8 +138,10 @@ team:
       then joined the Department of Finance and Planning, Government of
       Chhattisgarh as a Chief Minister’s Good Governance Fellow. The zeal to
       create real impact on the ground by transforming governance and public
-      administration brought Ankit to Samagra. Currently he leads the Saksham
-      Haryana-Skills & Employment engagement in Haryana.
+      administration brought Ankit to Samagra. 
+
+
+      Ankit currently manages the Saksham Haryana-Skills & Employment programme.
     image: /img/Ankit-G.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
@@ -279,8 +281,10 @@ team:
       set up India's first radical mime entity, PunchTantraa. Post that, as part
       of the Teach for India Fellowship he worked in low-income schools in
       Hyderabad and Bengaluru as a school teacher. An opportunity to create
-      impact at scale through better governance brought him to Samagra.
-      Currently, he leads the Mission Prerna programme in Uttar Pradesh.
+      impact at scale through better governance brought him to Samagra. 
+
+
+      Nikhil currently manages the Mission Prerna programme in Uttar Pradesh.
     image: /img/Nikhil.jpg
     linkedInProfile: 'https://www.linkedin.com/in/nikhil-nadiger'
     name: Nikhil Nadiger
@@ -533,7 +537,10 @@ team:
       states with the mandate to design and manage the implementation of
       standardized measurements across Pratham's flagship Read India programme.
       His passion to transform citizen-government experiences at scale brought
-      him to Samagra. Currently he leads the SamagraX team.
+      him to Samagra. 
+
+
+      Sukhpreet currently manages the SamagraX team.
     image: /img/Sukhpreet.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sukhpreetsekhon'
     name: Sukhpreet Sekhon
@@ -575,12 +582,15 @@ team:
       before pursuing the Young India Fellowship. During the Fellowship, she got
       a chance to work with government schools in Uttar Pradesh and experience
       the gaps in Indian governance first-hand. An opportunity to drive impact
-      at scale through good governance brought her to Samagra. Currently, she is
-      Chief of Staff to the Founder & CEO of Samagra.
+      at scale through good governance brought her to Samagra. 
+
+
+      Ujjwal currently leads the Health Diagnosis & Design programme and is also
+      the Chief of Staff to the CEO. 
     image: /img/ujjwal_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
-    project: Chief of Staff
+    project: Health Diagnosis & Design & Chief of Staff
   - bio: >-
       Umang holds a Bachelor's degree in Information Technology from Punjab
       Engineering College. He was previously working as a software engineer with
@@ -604,12 +614,14 @@ team:
       Lawyer to solve the problem of information asymmetry in the Indian
       judiciary by disseminating information from courts to lawyers at a large
       scale. An opportunity to solve complex governance problems by using his
-      technology, consulting and entrepreneurial skills brought him to Samagra.
-      Currently, he leads the ADAPT programme in Odisha.
+      technology, consulting and entrepreneurial skills brought him to Samagra. 
+
+
+      Utkarsh currently leads the ADAPT-Agriculture and F&ARD programmes.
     image: /img/Utkarsh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
-    project: ADAPT
+    project: ADAPT-Agriculture & F&ARD
   - bio: >-
       Vansh holds a Bachelor's degree in Economics and International Relations
       from Ashoka University. During his time in college, he interned at the
