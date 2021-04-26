@@ -590,7 +590,7 @@ team:
     image: /img/ujjwal_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
-    project: Health Diagnosis & Design & Chief of Staff
+    project: Health Diagnosis & Design; Chief of Staff
   - bio: >-
       Umang holds a Bachelor's degree in Information Technology from Punjab
       Engineering College. He was previously working as a software engineer with
@@ -617,7 +617,8 @@ team:
       technology, consulting and entrepreneurial skills brought him to Samagra. 
 
 
-      Utkarsh currently leads the ADAPT-Agriculture and F&ARD programmes.
+      Utkarsh currently leads the ADAPT-Agriculture and F&ARD programmes in
+      Odisha.
     image: /img/Utkarsh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
