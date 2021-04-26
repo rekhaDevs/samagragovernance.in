@@ -107,7 +107,11 @@ team:
       creating a proof point for an inclusive, holistic and high-performing
       low-income school. An opportunity to build on his previous experience
       working on the ground and create systemic change at scale brought him to
-      Samagra. Currently, he leads the Samarth programme in Himachal Pradesh.
+      Samagra. 
+
+
+      Akash is the Program Coordinator of the Samarth team in Himachal Pradesh
+      and manages its daily operations.
     image: /img/aakash.jpg
     linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
     name: Akash Tyagi
@@ -352,8 +356,11 @@ team:
       After graduating from Stanford, she worked at Geosyntec Consultants, an
       environmental consulting company, in Seattle. Her interest in
       transitioning to the development sector and facilitating sustainable
-      change on the ground brought her to Samagra. Currently, she leads the
-      Saksham Haryana-Education programme.
+      change on the ground brought her to Samagra. 
+
+
+      Sagari is the Program Coordinator of the Saksham Haryana-Education team
+      and manages its daily operations.
     image: /img/sagari.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sagari-handa-5a86157a'
     name: Sagari Handa
@@ -427,8 +434,12 @@ team:
       of the Chief Minister's flagship programmes, improving citizen delivery
       services, and assisting the administration on various strategy projects
       across multiple departments. Her belief that working with the government
-      is essential for driving change on the ground brought her to Samagra. She
-      currently leads the ADAPT-F&ARD team in Odisha. 
+      is essential for driving change on the ground brought her to Samagra. 
+
+
+
+      Shailiza is the Program Coordinator of the ADAPT-F&ARD team in Odisha and
+      manages its daily operations.
     image: /img/Shailiza.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shailiza-mayal-97a48279'
     name: Shailiza Mayal
@@ -623,6 +634,30 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/venkataraman-ganesh'
     name: Venkataraman Ganesh
     project: ADAPT-F&ARD
+  - bio: >
+      Viren holds an MBA from S.P. Jain Institute of Management & Research.
+      Before joining Samagra, he was working as a Senior Manager with Kearney,
+      primarily focused on strategy and operations consulting for clients in the
+      consumer sectors.
+
+
+      Over the years, as his understanding of the governance system grew he
+      became increasingly restless. The pandemic gave him time to pause,
+      introspect and find the answer to a fundamental question: Do I want to
+      remain on the sidelines or actively contribute towards bringing about a
+      change in the system? He decided he wanted to do the latter. 
+
+
+      An opportunity to work with the system and create sustainable impact in
+      the lives of people brought him to Samagra. 
+
+
+      Viren is Vice President at Samagra and currently leads the Saksham
+      Haryana-Skills & Employment programme.
+    image: /img/edited_viren.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
+    name: Viren Bavishi
+    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Yuganshi holds a Bachelor's degree in Economics from Hindu College,
       University of Delhi. During college, she was actively involved with
@@ -632,7 +667,11 @@ team:
       with state governments on improving health and education outcomes by
       developing data-driven accountability tools. Her passion to create
       scalable and sustainable change by working with the government brought her
-      to Samagra. Currently, she is part of the Health Diagnosis & Design team.
+      to Samagra. 
+
+
+      Yuganshi is the Program Coordinator of the Health Diagnosis & Design team
+      and manages its daily operations.
     image: /img/Yuganshi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
     name: Yuganshi Sharma
