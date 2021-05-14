@@ -265,11 +265,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
     name: Krittika Takiar
     project: ADAPT-F&ARD
-  - bio: "Mukund holds a Bachelor's degree in Physical Sciences from St. Stephen's College, Delhi and a Post Graduate Diploma in Liberal Studies under the Young India Fellowship program at Ashoka University. Previously, he has worked at Bain, and with BCG as a specialist consultant. Prior to joining Samagra, he was working as an educator and public speaking coach collaborating with international faculty members and leading Indian universities. Working towards creating impact at scale\_through better\_governance, and an\_opportunity\_to work in close consultation with elected public leaders and senior government\_officials brought him to Samagra. Currently, he is part of the Samarth team in Himachal Pradesh."
-    image: /img/edited_mukund.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/mukundmarodia/'
-    name: Mukund Marodia
-    project: Samarth
   - bio: "Neetisha holds a Master’s degree in Public Administration in International Development (MPA/ID) from Harvard Kennedy School and a Bachelor's degree in Metallurgical Engineering from IIT Kanpur. She previously worked as a Prime Minister’s Rural Development Fellow (PMRDF) for three years in a district in Jharkhand affected by left-wing extremism. As part of the fellowship, she supported the district administration in implementing flagship schemes and programmes. Prior to that, she worked as an oilfield engineer with Schlumberger.\n\_\nAn opportunity to design and implement systemic reforms which can have lasting impact at scale brought her to Samagra. Currently, she is part of the Saksham Haryana-Skills & Employment team.\n"
     image: /img/neetisha.jpg
     linkedInProfile: 'https://www.linkedin.com/in/neetishabesra/'
