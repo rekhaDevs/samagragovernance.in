@@ -495,6 +495,20 @@ team:
     name: Siddhant Agarwal
     project: ADAPT-F&ARD
   - bio: >-
+      Simran holds a Master's degree in Economics from the Delhi School of
+      Economics and a Bachelor's degree in the same from Lady Shri Ram College
+      for Women, University of Delhi. Before joining Samagra, she worked as an
+      Account Manager in Procter & Gamble's sales function.
+
+
+      Her passion to bridge the gap between the haves and have nots, and belief
+      in governance as a lever of change brought her to Samagra. She is
+      currently part of the Saksham Haryana-Education team.
+    image: /img/edited_simran.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/baggasimran/'
+    name: Simran Bagga
+    project: Saksham Haryana-Education
+  - bio: >-
       Srishti holds a Bachelor's degree in Civil Engineering from Delhi
       Technological University. Previously, she worked with Boston Consulting
       Group (BCG) as a Research Analyst. During her tenure at BCG, she worked on
