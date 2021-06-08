@@ -509,21 +509,6 @@ team:
     name: Simran Bagga
     project: Saksham Haryana-Education
   - bio: >-
-      Srishti holds a Bachelor's degree in Civil Engineering from Delhi
-      Technological University. Previously, she worked with Boston Consulting
-      Group (BCG) as a Research Analyst. During her tenure at BCG, she worked on
-      a number of engagements with large multinationals and government bodies in
-      close collaboration with consulting teams.
-
-
-      A strong desire to be a part of the change that Samagra is bringing about
-      in the lives of citizens at large brought her to the firm. Currently, she
-      is part of the Saksham Haryana-Education team.
-    image: /img/edited_srishti.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/srishti-dahiya-98aa47110/'
-    name: Srishti Dahiya
-    project: ' Saksham Haryana-Education'
-  - bio: >-
       Sukanya holds a Bachelor’s degree in Economics from St. Stephen’s College,
       University of Delhi and has previously interned at Boston Consulting Group
       and Willis Towers Watson. Sukanya has always been passionate about gaining
@@ -646,16 +631,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/vansh-chaudhary-42a8a7155'
     name: Vansh Chaudhary
     project: Health Diagnosis & Design
-  - bio: >-
-      Venkataraman holds an integrated Master's degree in Development Studies
-      from IIT, Madras. He was an active member of IIT Madras' student
-      governance and rural development ecosystem. An opportunity to understand
-      governments and help change lives for the better brought him to Samagra.
-      He is currently part of the ADAPT-F&ARD team in Odisha.
-    image: /img/Venkat.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/venkataraman-ganesh'
-    name: Venkataraman Ganesh
-    project: ADAPT-F&ARD
   - bio: >
       Viren holds an MBA from S.P. Jain Institute of Management & Research.
       Before joining Samagra, he was working as a Senior Manager with Kearney,
