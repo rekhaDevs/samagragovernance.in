@@ -65,18 +65,6 @@ team:
     name: Abhay Singh
     project: Saksham Haryana-Skills & Employment
   - bio: >-
-      Abhishek holds a Bachelor’s Degree in Chemical Engineering from IIT
-      Kanpur. He has previously interned at Reserve Bank of India, Intueri
-      Consulting LLP and Axis Bank. Abhishek wants to design and implement
-      sustainable solutions to governance challenges by leveraging his
-      consulting skills. An opportunity to create positive impact in the lives
-      of citizens by working with government brought him to Samagra. Currently
-      he is part of the Saksham Haryana-Skills & Employment team.
-    image: /img/abhishek_.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/abhishek-singh-976b47141/'
-    name: Abhishek Singh
-    project: Saksham Haryana-Skills & Employment
-  - bio: >-
       Aditi holds a Bachelor's degree in Electronics and Telecommunication
       Engineering from Sardar Patel Institute of Technology, Mumbai University.
       She is also a candidate for the CFA Level 3 examination. Before joining
@@ -169,11 +157,12 @@ team:
 
       An opportunity to work in the social impact space coupled with the desire
       to drive analytical, sustainable and data-driven change brought him to
-      Samagra. Currently, he is part of the Saksham Haryana-Education team.
+      Samagra. Currently, he is part of the Saksham Haryana-Skills & Employment
+      team.
     image: /img/arjun.jpg
     linkedInProfile: 'https://www.linkedin.com/in/arjun-shukla-032b32188/'
     name: Arjun Shukla
-    project: Saksham Haryana-Education
+    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Bharat holds a Bachelor's degree in Computer Science from Thapar Institute
       of Engineering Technology. He has previously interned with SocialCops and
@@ -265,11 +254,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
     name: Krittika Takiar
     project: ADAPT-F&ARD
-  - bio: "Neetisha holds a Master’s degree in Public Administration in International Development (MPA/ID) from Harvard Kennedy School and a Bachelor's degree in Metallurgical Engineering from IIT Kanpur. She previously worked as a Prime Minister’s Rural Development Fellow (PMRDF) for three years in a district in Jharkhand affected by left-wing extremism. As part of the fellowship, she supported the district administration in implementing flagship schemes and programmes. Prior to that, she worked as an oilfield engineer with Schlumberger.\n\_\nAn opportunity to design and implement systemic reforms which can have lasting impact at scale brought her to Samagra. Currently, she is part of the Saksham Haryana-Skills & Employment team.\n"
-    image: /img/neetisha.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/neetishabesra/'
-    name: Neetisha Besra
-    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Nikhil holds Bachelor's degree in Information Science from School of
       Engineering & Technology, Jain University. Before joining Samagra, Nikhil
@@ -655,23 +639,5 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
     name: Viren Bavishi
     project: Saksham Haryana-Skills & Employment
-  - bio: >-
-      Yuganshi holds a Bachelor's degree in Economics from Hindu College,
-      University of Delhi. During college, she was actively involved with
-      Enactus, and worked on multiple social entrepreneurship projects on
-      financial inclusion and skilling. Prior to Samagra, she worked in the
-      Social Impact practice at Boston Consulting Group where she collaborated
-      with state governments on improving health and education outcomes by
-      developing data-driven accountability tools. Her passion to create
-      scalable and sustainable change by working with the government brought her
-      to Samagra. 
-
-
-      Yuganshi is the Program Coordinator of the Health Diagnosis & Design team
-      and manages its daily operations.
-    image: /img/Yuganshi.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/yuganshi-sharma-1bab5273'
-    name: Yuganshi Sharma
-    project: Health Diagnosis & Design
 ---
 
