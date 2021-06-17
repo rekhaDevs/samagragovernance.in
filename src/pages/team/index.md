@@ -74,8 +74,11 @@ team:
       Treasury services at JP Morgan Chase Bank primarily in the Asia Pacific
       market. A strong inclination to work on data-driven approaches to solve
       governance and grassroot challenges and an opportunity to  create impact
-      at scale brought her to Samagra. Currently, she is part of the Saksham
-      Haryana-Education team.
+      at scale brought her to Samagra. 
+
+
+      Aditi is the Program Coordinator of the Saksham Haryana-Education team and
+      manages its daily operations.
     image: /img/edited_aditi_headshot.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aditi-phadnis93/'
     name: Aditi Phadnis
@@ -249,11 +252,11 @@ team:
 
       An opportunity to design and implement innovative, scalable solutions to
       solve complex governance challenges facing India brought Krittika to
-      Samagra. She is currently part of the ADAPT-F&ARD team in Odisha.
+      Samagra. Currently, she is part of the Health Diagnosis & Design team.
     image: /img/krittika.png
     linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
     name: Krittika Takiar
-    project: ADAPT-F&ARD
+    project: Health Diagnosis & Design
   - bio: >-
       Nikhil holds Bachelor's degree in Information Science from School of
       Engineering & Technology, Jain University. Before joining Samagra, Nikhil
@@ -277,11 +280,11 @@ team:
       Development' at Miranda House in collaboration with The George Washington
       University. An opportunity to create positive impact in the lives of
       people and an interest in public policy brings Pragya to Samagra.
-      Currently she is part of the Samarth team in Himachal Pradesh.
+      Currently, she is part of the ADAPT-F&ARD team in Odisha.
     image: /img/pragya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/pragya-mathur-678779126'
     name: Pragya Mathur
-    project: Samarth
+    project: ADAPT-F&ARD
   - bio: >-
       Prasanna holds a Bachelor's degree in Statistics from St. Joseph's
       College, Trichy and a Master's in Computer Applications from Adaikalamatha
@@ -328,11 +331,11 @@ team:
       Development team. Rhythm believes that improving governance mechanisms is
       crucial for the progress of a developing nation like India. An opportunity
       to make use of his volunteer experience and analytical abilities brought
-      him to Samagra.  
+      him to Samagra. Currently, he is part of the ADAPT-F&ARD team in Odisha.
     image: /img/rhythm.jpg
     linkedInProfile: 'https://www.linkedin.com/in/rhythmpathak/'
     name: Rhythm Pathak
-    project: Digital Haryana Cell
+    project: ADAPT-F&ARD
   - bio: >-
       Sagari holds a Bachelor's and Master's degree in Environmental Engineering
       from Delhi Technological University and Stanford University, respectively.
@@ -342,12 +345,12 @@ team:
       change on the ground brought her to Samagra. 
 
 
-      Sagari is the Program Coordinator of the Saksham Haryana-Education team
-      and manages its daily operations.
+      Sagari is the Program Coordinator of the Saksham Haryana-Skills &
+      Employment team and manages its daily operations.
     image: /img/sagari.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sagari-handa-5a86157a'
     name: Sagari Handa
-    project: Saksham Haryana-Education
+    project: ' Saksham Haryana-Skills & Employment'
   - bio: >-
       Saket holds a Bachelor's degree Information Science engineering from BMS
       College of Engineering. He has previously worked in TCS and Samsung
@@ -372,12 +375,12 @@ team:
 
       Having understood the public policy ecosystem, the prospect of working at
       scale and seeing how those policies get implemented on ground brought
-      Saloni to Samagra. Currently, she is part of the Samarth team in Himachal
-      Pradesh.
+      Saloni to Samagra. Currently, she is part of the  Saksham Haryana-Skills &
+      Employment team.
     image: /img/saloni.jpg
     linkedInProfile: 'https://www.linkedin.com/in/saloni-chaudhry-8b331a147/'
     name: Saloni Chaudhry
-    project: Samarth
+    project: ' Saksham Haryana-Skills & Employment'
   - bio: >-
       Sanchita holds a Bachelor's degree in Home Science from Lady Irwin
       college. Previously, Sanchita was working as Executive Assistant to the
@@ -399,11 +402,11 @@ team:
       Her passion to create scalable and sustainable impact by working with the
       government and the desire to be a part of the difference that Samagra is
       bringing about brought her to the firm. Currently, she is part of the
-      Samarth team in Himachal Pradesh.
+      Saksham Haryana-Education team.
     image: /img/sanjana.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sanjana-johri/'
     name: Sanjana Johri
-    project: Samarth
+    project: Saksham Haryana-Education
   - bio: >-
       Shailiza holds a Bachelor's degree in Electronics Engineering from
       Savitribai Phule Pune University. After graduating, she worked as a
