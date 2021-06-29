@@ -316,6 +316,19 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
     project: Saksham Haryana-Education
+  - bio: >
+      Raghav holds a Bachelors' degree in Political Science and Economics from
+      Ashoka Univeristy. Before joining Samagra, he was working as a Legislative
+      Assistant to a Lok Sabha Member of Parliament, supporting multiple
+      development initiatives in the MP's constituency.
+
+
+      An opportunity to transform governance by combining consulting skills and
+      the power of technology brought him to Samagra. 
+    image: /img/edited-raghav.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
+    name: Raghav Katyal
+    project: ' '
   - bio: >-
       Raju worked with Punj Lloyd as a administrative assistant in Libya, and
       with Walt Disney as a Office Coordinator. He manages the daily
