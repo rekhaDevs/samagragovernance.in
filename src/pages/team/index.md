@@ -617,20 +617,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
     project: ADAPT-Agriculture & F&ARD
-  - bio: >-
-      Vansh holds a Bachelor's degree in Economics and International Relations
-      from Ashoka University. During his time in college, he interned at the
-      Centre for Policy Research, the Direct Benefit Transfer Mission, and
-      Swaniti Initiative. He has also worked as a research volunteer in rural
-      Jharkhand on a field survey that assessed the efficacy of public service
-      delivery by Common Service Centres. The impact-oriented nature of
-      Samagra’s work, which both designs and implements governance reforms,
-      brought him here. Currently, he is part of the Health Diagnosis & Design
-      team.
-    image: /img/vansh.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/vansh-chaudhary-42a8a7155'
-    name: Vansh Chaudhary
-    project: Health Diagnosis & Design
   - bio: >
       Viren holds an MBA from S.P. Jain Institute of Management & Research.
       Before joining Samagra, he was working as a Senior Manager with Kearney,
