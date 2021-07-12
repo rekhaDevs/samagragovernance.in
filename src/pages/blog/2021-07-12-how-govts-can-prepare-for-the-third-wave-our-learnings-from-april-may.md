@@ -13,7 +13,7 @@ featuredimage: /img/blog-quote-template-1-.png
 ---
 Even as the second wave of the Covid-19 pandemic seems to be receding in the country, the fears of an impending third wave loom large. Irrespective of declining active case numbers, the devastation caused by the pandemic over the last year is brutal and irreversible. As a country, if we want to lessen the adverse effects of the next wave, the time is ripe to look at the past few months, identify weak links, and proactively solve for them. 
 
-Between April and May, our team supported the Union and two state governments in different aspects of their pandemic response. Closely working with both levels of government gave us an insight into the key levers that can shape the effectiveness of a Covid-response strategy--_information, execution and capacity_. Government officials need access to relevant and reliable information to make timely decisions, those decisions have to be executed effectively, and finally, the system’s capacity to execute decisions has to be bolstered.
+Between April and May, our team supported the Union and two state governments in different aspects of their pandemic response. Closely working with both levels of government gave us an insight into the key levers that can shape the effectiveness of a Covid-response strategy--_information, execution and capacity_. Government officials need access to relevant and reliable _information_ to make timely decisions, those decisions have to be _executed_ effectively, and finally, the system’s _capacity_ to execute decisions has to be bolstered.
 
 _Information:_
 
@@ -35,14 +35,10 @@ _Execution:_
 
 Mumbai’s case management model offers important lessons in this regard. The Brihanmumbai Municipal Corporation (BMC) mandated testing labs to not give Covid reports to patients directly. Instead labs released reports to BMC at 12 am each night, then a BMC team worked on these reports overnight to filter people by severity (remove COVID negatives, remove those who have been positive for beyond 10 days, etc). At 8 in the morning, filtered results would be handed over to wards. The triaging team in these wards would inform the patients, visit their residence to assess their condition and then depending on severity, isolate the person or get them admitted to a care centre / health centre / hospital as needed. In case of severe emergencies, the visiting doctor determined the type of medical facility needed by the patient (non-oxygen bed, oxygen bed, ICU bed) depending on symptoms. This reduced the patient burden on all health facilities and ensured timely care. 
 
-
-
 _Capacity:_
 
 **4. System capacity:** For case management protocols to work effectively, it is important to ensure that the system has enough resources to tackle the crisis. States should evaluate and bolster system capacity in terms of 4 key resources: human resources, oxygen, medicines and ambulances. Final year MBBS students and nursing students can be trained to provide teleconsultation support to home-isolated patients, conduct triaging by visiting patients. Nursing students can also be trained for ICU management to support senior nurses in managing critical patients. Pharmaceutical students can also be directed to support districts in COVID management. States should use the current time, when the health infrastructure is not as stressed as it was in the last two months, to ramp up on essential medical supplies. 
 
 Simultaneously, states need to keep track of the needs of serious non-Covid patients, such as those who are either battling Cancer or are on dialysis, suffering from tuberculosis, pregnant women who require prenatal care, etc. From an administrative perspective, state governments should retain civil servants, who were closely involved in managing the second wave, in the same positions, or leverage their experience if and when a third wave hits. This would ensure that governments are ready to spring into action as soon as warning signs emerge, rather than having a new set of officials start afresh.
-
-
 
 These are some of the basic elements of a Covid response strategy that we should prioritize immediately. If we can get these right, then we might be able to lessen the impact of Covid-19 in the coming months.
