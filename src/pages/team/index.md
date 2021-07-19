@@ -444,6 +444,17 @@ team:
     name: Shailiza Mayal
     project: ADAPT-F&ARD
   - bio: >-
+      Shashwat holds a Bachelor's degree in Civil Engineering from Pandit
+      Deendayal Energy University. Prior to joining Samagra, he was working as
+      the National Head of Operations at AIESEC in India, focusing on leadership
+      development in youth. A strong desire to bring about systemic change while
+      working with the government brought him to Samagra. Currently, he is part
+      of the Saksham Haryana-Skills & Employment team.
+    image: /img/edited_shashwat.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shashwat-shah-32a1131b4/'
+    name: Shashwat Shah
+    project: Saksham Haryana-Skills & Employment
+  - bio: >-
       Shivam holds a Bachelor's degree in Economics from Kirori Mal College,
       Delhi University, and a Post-Graduate Diploma in Liberal Studies under the
       Young India Fellowship at Ashoka University. Before joining Samagra, he
