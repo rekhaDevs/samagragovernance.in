@@ -8,8 +8,7 @@ date: 2021-07-20T05:42:21.757Z
 description: >-
   In the case of some schemes, benefits are provided in phases when
   beneficiaries meet specific targets. Most schemes of the Fisheries and Animal
-  Resources Development (F&ARD) Department, Govt of Odisha fall under this
-  category.
+  Resources Development Department, Govt of Odisha fall under this category.
 featuredimage: /img/shailiza-blog.png
 ---
 One of the critical responsibilities of the central and the state governments is to design and implement schemes to provide socio-economic support to citizens. Almost all ministries and government departments use schemes to move their mission forward. For example, the Pradhan Mantri Kaushal Vikas Yojana is a flagship scheme of the Ministry of Skill Development & Entrepreneurship aimed at promoting industry-level skill development amongst youth. Similarly, the Mid Day Meal Scheme is the Ministry of Education’s endeavour to improve the nutritional status of school children. 
