@@ -46,6 +46,6 @@ While there's a lot to share from my observations on the Founder's lens, I want 
 
 **A worthwhile experience**
 
-Given the diversity, complexity and rigour required in this role, positioned at the helm of a growing firm, the journey has been full of challenges and learnings. Turning around proposal documents overnight, striking a fine balance between the CEO and people lens, assessing every small or big challenge faced by the firm with an ownership mindset, keeping stress at bay during the hard times and multitasking between a diverse range of priorities have been some of the key challenges in this role.
+Given the diversity, complexity and rigour required in this role, positioned at the helm of a growing firm, the journey has been full of challenges and learnings. Turning around presentations and documents overnight, striking a fine balance between the CEO and team member lens, assessing every small or big challenge faced by the firm with an ownership mindset, keeping stress at bay during the hard times and multitasking between a diverse range of priorities have been some of the key challenges in this role.
 
 Yet, the learnings have been infinitely more. Being Chief of Staff to the Founder and CEO of a growing firm with a mission that inspires me every day has been an immensely satisfying learning experience on the personal and professional front. To sum up, it has been a year of highs and lows, successes and failures, learnings and aspirations--a fulfilling glimpse into what building an organization looks like!
