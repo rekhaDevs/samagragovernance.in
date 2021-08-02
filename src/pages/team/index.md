@@ -338,6 +338,21 @@ team:
     name: Raju Ram
     project: NA
   - bio: >-
+      Rhythm holds a Master’s in Economics from Gokhale Institute of Politics
+      and Economics, Pune, and Policy Design and Management from the Indian
+      School of Public Policy (ISPP). Before joining Samagra, she was working
+      with the Government Of Punjab as a District Development Fellow in Amritsar
+      District. During this time, she was working hands-on with the district
+      administration on Covid-19 management, grievance redressal, service
+      delivery and process re-engineering initiatives. She has previously also
+      worked as forecasting analyst with The Smart Cube and a LAMP Fellow. Her
+      passion to improve the quality of life of citizens through evidence-based
+      interventions and systemic transformation brought her to Samagra.
+    image: /img/edited_rhythm_b.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/rhythm-behl-85b1278b/'
+    name: Rhythm Behl
+    project: ' '
+  - bio: >-
       Rhythm holds a Bachelor's degree in Mechanical Engineering from Indian
       Institute of Technology, Kanpur. He has previously interned with Bajaj
       Auto Ltd to develop indigenous technologies as a part of the Research and
