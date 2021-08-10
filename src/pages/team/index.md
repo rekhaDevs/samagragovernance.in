@@ -258,6 +258,23 @@ team:
     name: Krittika Takiar
     project: Health Diagnosis & Design
   - bio: >-
+      Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
+      University Jaipur. He is also a Young India Fellow from Ashoka University.
+      Before joining Samagra, he was working at Harappa Education as a Key
+      Account Manager, ensuring end-to-end project implementation for domestic
+      and international clients. He is also Joint Secretary at Gramiksha, an NGO
+      working in the field of education and youth development across six cities.
+      He also hosts a podcast focused on changing the narrative around
+      Generation Z. The prospect of creating sustainable impact while co-working
+      with the government, brought him to Samagra.
+
+
+      Currently, he is part of the Mission Prerna team in Uttar Pradesh.
+    image: /img/naman-gupta.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/naman6596/'
+    name: Naman Gupta
+    project: Mission Prerna
+  - bio: >-
       Nikhil holds Bachelor's degree in Information Science from School of
       Engineering & Technology, Jain University. Before joining Samagra, Nikhil
       set up India's first radical mime entity, PunchTantraa. Post that, as part
@@ -655,22 +672,5 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
     name: Viren Bavishi
     project: Saksham Haryana-Skills & Employment
-  - bio: >-
-      Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
-      University Jaipur. He is also a Young India Fellow from Ashoka University.
-      Before joining Samagra, he was working at Harappa Education as a Key
-      Account Manager, ensuring end-to-end project implementation for domestic
-      and international clients. He is also Joint Secretary at Gramiksha, an NGO
-      working in the field of education and youth development across six cities.
-      He also hosts a podcast focused on changing the narrative around
-      Generation Z. The prospect of creating sustainable impact while co-working
-      with the government, brought him to Samagra.
-
-
-      Currently, he is part of the Mission Prerna team in Uttar Pradesh.
-    image: /img/naman-gupta.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/naman6596/'
-    name: Naman Gupta
-    project: Mission Prerna
 ---
 
