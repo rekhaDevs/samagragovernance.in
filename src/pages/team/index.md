@@ -552,19 +552,6 @@ team:
     name: Simran Bagga
     project: Saksham Haryana-Education
   - bio: >-
-      Sukanya holds a Bachelor’s degree in Economics from St. Stephen’s College,
-      University of Delhi and has previously interned at Boston Consulting Group
-      and Willis Towers Watson. Sukanya has always been passionate about gaining
-      an in-depth understanding of the challenges that come in the way of
-      development in India and creating impact at scale, especially for the
-      underprivileged sections of society. An opportunity to work closely with
-      government to improve the quality of life of citizens and contribute to
-      tangible change across various governance domains brought her to Samagra.
-    image: /img/sukanya_.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/sukanya-nambiar-621a97141/'
-    name: Sukanya Nambiar
-    project: Saksham Haryana-Skills & Employment
-  - bio: >-
       Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Previously, he has worked with KPMG to
       provide integrity intelligence for M&A transactions to Fortune 500
