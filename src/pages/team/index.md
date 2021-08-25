@@ -299,9 +299,6 @@ team:
       of the Teach for India Fellowship he worked in low-income schools in
       Hyderabad and Bengaluru as a school teacher. An opportunity to create
       impact at scale through better governance brought him to Samagra. 
-
-
-      Nikhil currently manages the Mission Prerna programme in Uttar Pradesh.
     image: /img/Nikhil.jpg
     linkedInProfile: 'https://www.linkedin.com/in/nikhil-nadiger'
     name: Nikhil Nadiger
@@ -615,12 +612,11 @@ team:
       at scale through good governance brought her to Samagra. 
 
 
-      Ujjwal currently leads the Health Diagnosis & Design programme and is also
-      the Chief of Staff to the CEO. 
+      Ujjwal currently leads the Mission Prerna programme in Uttar Pradesh. 
     image: /img/ujjwal_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
-    project: Health Diagnosis & Design; Chief of Staff
+    project: Mission Prerna
   - bio: >-
       Umang holds a Bachelor's degree in Information Technology from Punjab
       Engineering College. He was previously working as a software engineer with
