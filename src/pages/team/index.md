@@ -203,12 +203,15 @@ team:
       primarily serving healthcare and life sciences clients in North American
       and European markets. A strong motivation to work as a catalyst for
       changing the status quo and enhancing service delivery on ground by
-      partnering with state governments, brought Divya to Samagra. Currently,
-      she is part of the Mission Prerna team in Uttar Pradesh.
+      partnering with state governments, brought Divya to Samagra. 
+
+
+      Divya is the Program Coordinator of the CEO's Office and manages its daily
+      operations.
     image: /img/divya-d.jpg
     linkedInProfile: 'https://www.linkedin.com/in/divya-dua-890107135/'
     name: Divya Dua
-    project: ' Mission Prerna'
+    project: CEO's Office
   - bio: >-
       Gayatri holds a Bachelor's degree in Economics and Political Science from
       St Stephen's College, University of Delhi and a Post-Graduate Diploma in
@@ -243,6 +246,21 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/juhi-nijhawan-85010464/'
     name: Juhi Nijhawan
     project: Mission Prerna
+  - bio: >-
+      Khyati holds a Master’s degree in Management from London Business School
+      and a Bachelor’s degree in Commerce from Hansraj College, University of
+      Delhi. She has previously worked as an Analyst with the strategy
+      consulting practice at Deloitte, working with IT and Healthcare clients
+      from India, Malaysia and United States.
+
+
+      An intent to work towards building a better India by creating systemic
+      change at scale brought her to Samagra. Currently, she is part of the
+      Saksham Haryana-Skills & Employment team.
+    image: /img/khyati.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/khyati-narula-297701105/'
+    name: Khyati Narula
+    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Krittika holds a Bachelor’s degree in Management Studies from Shaheed
       Sukhdev College of Business Studies,  University of Delhi. Before joining
