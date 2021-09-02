@@ -2,9 +2,7 @@
 templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
-infoText2: >-
-  Thank you for your interest in Samagra. However, we currently don't have any
-  open positions. Please follow us on LinkedIn for recruitment updates.
+infoText2: ' '
 verticalImage: /img/recruitment-diagram_vf.jpg
 horizontalImage: /img/recruitment-diagram_vf.jpg
 formsElements:
