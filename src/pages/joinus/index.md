@@ -37,7 +37,7 @@ formsElements:
       activateOn: ''
       label: ''
       placeholder: ''
-    placeholder: Select Institute
+    placeholder: Enter Institute
     required: true
     type: text
     validation: VALID_TEXT
