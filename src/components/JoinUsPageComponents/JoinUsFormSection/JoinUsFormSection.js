@@ -425,7 +425,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                                    const config = {
                                                                        onUploadProgress: function (progressEvent) {
                                                                            let percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total)
-                                                                           setVideoProgress(percentCompleted)
+                                                                           setVideoProgress(Math.min(99, percentCompleted));
                                                                        }
                                                                    };
 
@@ -436,6 +436,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                                            if (res.data && res.data.fileName) {
                                                                                setStatementOfPurpose(res.data.fileName);
                                                                                setIntroVideo(res.data.name);
+                                                                               setVideoProgress(100);
                                                                            }
 
                                                                        })
