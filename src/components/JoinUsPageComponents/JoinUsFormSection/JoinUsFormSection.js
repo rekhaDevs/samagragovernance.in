@@ -431,7 +431,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
 
                                                                    let data = new FormData();
                                                                    data.append('file', files[0]);
-                                                                   axios.post('https://recruitment-uploader.samagra.io/upload', data, config)
+                                                                   axios.post('https://uploader.luezoid.com/upload', data, config)
                                                                        .then(res => {
                                                                            if (res.data && res.data.fileName) {
                                                                                setStatementOfPurpose(res.data.fileName);
