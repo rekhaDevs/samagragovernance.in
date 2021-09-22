@@ -604,6 +604,21 @@ team:
     name: Tanvi Sharma
     project: Mission Prerna
   - bio: >-
+      Tarang holds a Bachelor's degree in Electronics and Communication
+      Engineering from Vellore Institute of Technology. After graduating, Tarang
+      joined ION a Client Services professional in the Operations department. He
+      primarily worked in the Fixed Income and Repo trading domain, providing
+      technical as well as business support to traders and gained hands-on
+      experience in using complex trading tools.
+       
+      An opportunity to create impact at scale and gain insight into governance
+      consulting brought Tarang to Samagra. Currently, he is part of the Saksham
+      Haryana-Education team.
+    image: /img/edited_tarang.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/tarang-khurana-16550a106/'
+    name: Tarang Khurana
+    project: Saksham Haryana-Education
+  - bio: >-
       Ujjwal holds a Bachelor's degree in Computer Engineering from Netaji
       Subhas Institute of Technology. She worked with Microsoft and Directi
       before pursuing the Young India Fellowship. During the Fellowship, she got
