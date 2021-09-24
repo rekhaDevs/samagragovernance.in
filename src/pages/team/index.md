@@ -58,12 +58,14 @@ team:
       professional and educational experience he has worked on projects ranging
       from strategy development to implementation, while consistently focusing
       on the end-user. An opportunity to improve the lives of citizens by
-      creating impact at scale brought him to Samagra. Currently he is part of
-      the Saksham Haryana-Skills & Employment team.
+      creating impact at scale brought him to Samagra. 
+
+
+      Currently, he is part of the Young Warrior team.
     image: /img/abhay-singh.png
     linkedInProfile: 'https://www.linkedin.com/in/abhay-kumar-singh-y9010/'
     name: Abhay Singh
-    project: Saksham Haryana-Skills & Employment
+    project: Young Warrior
   - bio: >-
       Aditi holds a Bachelor's degree in Electronics and Telecommunication
       Engineering from Sardar Patel Institute of Technology, Mumbai University.
@@ -132,11 +134,11 @@ team:
       administration brought Ankit to Samagra. 
 
 
-      Ankit currently manages the Saksham Haryana-Skills & Employment programme.
+      Ankit currently leads the Young Warrior programme. 
     image: /img/Ankit-G.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
-    project: Saksham Haryana-Skills & Employment
+    project: Young Warrior
   - bio: >-
       Anusheela holds a Bachelor's degree in Psychology (Hons) from Lady Shri
       Ram College For Women, Delhi University. Before joining Samagra, she was
@@ -348,7 +350,7 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
     project: Saksham Haryana-Education
-  - bio: >
+  - bio: >-
       Raghav holds a Bachelors' degree in Political Science and Economics from
       Ashoka Univeristy. Before joining Samagra, he was working as a Legislative
       Assistant to a Lok Sabha Member of Parliament, supporting multiple
@@ -357,10 +359,13 @@ team:
 
       An opportunity to transform governance by combining consulting skills and
       the power of technology brought him to Samagra. 
+
+
+      Currently, he is part of the Young Warrior team.
     image: /img/edited-raghav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
     name: Raghav Katyal
-    project: ' '
+    project: ' Young Warrior'
   - bio: >-
       Raju worked with Punj Lloyd as a administrative assistant in Libya, and
       with Walt Disney as a Office Coordinator. He manages the daily
@@ -380,10 +385,13 @@ team:
       worked as forecasting analyst with The Smart Cube and a LAMP Fellow. Her
       passion to improve the quality of life of citizens through evidence-based
       interventions and systemic transformation brought her to Samagra.
+
+
+      Currently, she is part of the Young Warrior team.
     image: /img/edited_rhythm_b.jpg
     linkedInProfile: 'https://www.linkedin.com/in/rhythm-behl-85b1278b/'
     name: Rhythm Behl
-    project: ' '
+    project: ' Young Warrior'
   - bio: >-
       Rhythm holds a Bachelor's degree in Mechanical Engineering from Indian
       Institute of Technology, Kanpur. He has previously interned with Bajaj
@@ -391,7 +399,10 @@ team:
       Development team. Rhythm believes that improving governance mechanisms is
       crucial for the progress of a developing nation like India. An opportunity
       to make use of his volunteer experience and analytical abilities brought
-      him to Samagra. Currently, he is part of the ADAPT-F&ARD team in Odisha.
+      him to Samagra. 
+
+
+      Currently, he is part of the ADAPT-F&ARD team in Odisha.
     image: /img/rhythm.jpg
     linkedInProfile: 'https://www.linkedin.com/in/rhythmpathak/'
     name: Rhythm Pathak
@@ -514,12 +525,14 @@ team:
 
       The opportunity to gain hands-on experience on end-to-end governance
       consulting projects coupled with the ability to create impact at scale
-      brought him to Samagra. Currently, he is part of the Health Diagnosis &
-      Design team.
+      brought him to Samagra. 
+
+
+      Currently, he is part of the Young Warrior team.
     image: /img/edited_shivam.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shivam-shukla-b7a0b7121/'
     name: Shivam Shukla
-    project: Health Diagnosis & Design
+    project: Young Warrior
   - bio: >-
       Shubham holds a Bachelor's degree in Electronics and Communication
       Engineering from Thapar University. Post a six-month stint as an intern
