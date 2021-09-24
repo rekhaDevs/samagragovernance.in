@@ -4,7 +4,7 @@ title: Young Warrior
 domainNew: 21st Century Skills
 fullName: Young Warrior
 id: Young Warrior
-backgroundCover: /img/jaikishan-patel-2ememvbyb-8-unsplash.jpg
+backgroundCover: /img/0_img-20210309-wa0040-1-.jpg
 domain: 21st Century Skills
 subTitle: Samagra
 state: India
