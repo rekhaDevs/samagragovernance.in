@@ -344,12 +344,32 @@ team:
       funds of 11 revenue districts of Delhi and recommended policy level
       interventions for improved functioning of the Delhi Urban Development
       Authority. An opportunity to employ her problem-solving skills to create
-      sustainable impact brought her to Samagra. Currently, she is part of the
-      Saksham Haryana-Education team.
+      sustainable impact brought her to Samagra. 
+
+
+      Currently, she is part of the SamagraX team.
     image: /img/Prerna.jpg
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
-    project: Saksham Haryana-Education
+    project: SamagraX
+  - bio: >
+      Radhay holds a Bachelor’s degree in Computer Science Engineering from
+      Thapar Institute of Engineering and Technology, Patiala. Before Samagra,
+      he was working at Centurylink (part of Lumen Technologies) as a full stack
+      developer. He was part of the data team there responsible for development
+      of microservices, REST APIs, data pipelines, dashboards. 
+
+
+      An opportunity to use his tech skills for good in the social impact space
+      and take on the next challenge in his professional journey brought him to
+      Samagra.
+
+
+      Currently, he is part of the SamagraX team.
+    image: /img/edit_radhay.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/radhayanand/'
+    name: Radhay Anand
+    project: SamagraX
   - bio: >-
       Raghav holds a Bachelors' degree in Political Science and Economics from
       Ashoka Univeristy. Before joining Samagra, he was working as a Legislative
@@ -533,6 +553,22 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/shivam-shukla-b7a0b7121/'
     name: Shivam Shukla
     project: Young Warrior
+  - bio: >-
+      Shruti is pursuing a Bachelor's degree in Computer Science Engineering
+      from JSS, Nodia. Before joining Samagra, she completed Google Summer of
+      Code 2021 contributing to FOSSology and has also worked with several
+      startups previously.
+       
+      Shruti is passionate about automation and contributing to OpenSource. An
+      opportunity to leverage her tech skills to build OpenSource products for
+      governments brought her to Samagra.
+
+
+      Currently, she is part of the SamagraX team.
+    image: /img/edited_shruti.jpeg.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shruti-ag/'
+    name: Shruti Agarwal
+    project: SamagraX
   - bio: >-
       Shubham holds a Bachelor's degree in Electronics and Communication
       Engineering from Thapar University. Post a six-month stint as an intern
