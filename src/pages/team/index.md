@@ -272,11 +272,11 @@ team:
 
       An opportunity to design and implement innovative, scalable solutions to
       solve complex governance challenges facing India brought Krittika to
-      Samagra. Currently, she is part of the Health Diagnosis & Design team.
+      Samagra. Currently, she is part of the Samarth team in Himachal Pradesh.
     image: /img/krittika.png
     linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
     name: Krittika Takiar
-    project: Health Diagnosis & Design
+    project: Samarth
   - bio: >-
       Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
       University Jaipur. He is also a Young India Fellow from Ashoka University.
