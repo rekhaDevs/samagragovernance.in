@@ -215,6 +215,23 @@ team:
     name: Divya Dua
     project: CEO's Office
   - bio: >-
+      Garima holds a Bachelor’s degree in International Relations with a
+      specialisation in Applied Quantitative Methods from University of Essex.
+      Before joining Samagra, she was working as Communications Associate and
+      Executive Assistant to the Founder-Director at The Antara Foundation, a
+      public health non-profit focused on improving maternal, child health and
+      nutrition indicators at scale. She was primarily responsible for managing
+      the office of the Founder-Director and implementing various communications
+      efforts. 
+
+
+      An opportunity to use creative communications tools to tell grassroots
+      impact stories brought her to Samagra.
+    image: /img/edited_garima.jpeg.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/garima-sood/'
+    name: Garima Sood
+    project: Communications Associate
+  - bio: >-
       Gayatri holds a Bachelor's degree in Economics and Political Science from
       St Stephen's College, University of Delhi and a Post-Graduate Diploma in
       Journalism from the Asian College of Journalism, Chennai. She also has a
