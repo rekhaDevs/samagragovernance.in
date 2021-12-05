@@ -169,19 +169,6 @@ team:
     name: Arjun Shukla
     project: Saksham Haryana-Skills & Employment
   - bio: >-
-      Bharat holds a Bachelor's degree in Computer Science from Thapar Institute
-      of Engineering Technology. He has previously interned with SocialCops and
-      worked with the Ministry of Rural Development on improving access to
-      real-time data for legislators to drive better policymaking. He has always
-      been interested in the intersection of policy, governance and technology.
-      A strong will to contribute to nation-building and interest in policy and
-      technology brought him to Samagra. Currently he is part of the SamagraX
-      team.
-    image: /img/bharat_.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/bharat-kashyap-india/'
-    name: Bharat Kashyap
-    project: SamagraX
-  - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
       Engineering (Civil) from the IIT, Delhi. Prior to Samagra, he was working
@@ -310,17 +297,6 @@ team:
     image: /img/naman-gupta.jpg
     linkedInProfile: 'https://www.linkedin.com/in/naman6596/'
     name: Naman Gupta
-    project: Mission Prerna
-  - bio: >-
-      Nikhil holds Bachelor's degree in Information Science from School of
-      Engineering & Technology, Jain University. Before joining Samagra, Nikhil
-      set up India's first radical mime entity, PunchTantraa. Post that, as part
-      of the Teach for India Fellowship he worked in low-income schools in
-      Hyderabad and Bengaluru as a school teacher. An opportunity to create
-      impact at scale through better governance brought him to Samagra. 
-    image: /img/Nikhil.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/nikhil-nadiger'
-    name: Nikhil Nadiger
     project: Mission Prerna
   - bio: >-
       Pragya hold a Bachelor's degree in Economics from Miranda House,
@@ -515,29 +491,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/sanjana-johri/'
     name: Sanjana Johri
     project: Saksham Haryana-Education
-  - bio: >-
-      Shailiza holds a Bachelor's degree in Electronics Engineering from
-      Savitribai Phule Pune University. After graduating, she worked as a
-      Business Operations Associate with ZS Associates. She is a Young India
-      Fellow and has worked with the Office of Maheish Girri (former Member of
-      Parliament, East Delhi) on the implementation of rain water harvesting
-      projects in the residential areas of East Delhi. Before joining Samagra,
-      Shailiza was a part of the Chief Minister’s Good Governance Associate
-      programme with the Government of Haryana and worked in Karnal district.
-      During her time as a CMGGA, she worked on strengthening the implementation
-      of the Chief Minister's flagship programmes, improving citizen delivery
-      services, and assisting the administration on various strategy projects
-      across multiple departments. Her belief that working with the government
-      is essential for driving change on the ground brought her to Samagra. 
-
-
-
-      Shailiza is the Program Coordinator of the ADAPT-F&ARD team in Odisha and
-      manages its daily operations.
-    image: /img/Shailiza.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/shailiza-mayal-97a48279'
-    name: Shailiza Mayal
-    project: ADAPT-F&ARD
   - bio: >-
       Shashwat holds a Bachelor's degree in Civil Engineering from Pandit
       Deendayal Energy University. Prior to joining Samagra, he was working as
