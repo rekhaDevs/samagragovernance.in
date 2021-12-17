@@ -253,6 +253,26 @@ team:
     name: Juhi Nijhawan
     project: Mission Prerna
   - bio: >-
+      Kanika holds a Master's degree in Economics (with a specialisation in
+      Applied Quantitative Finance) from Madras School of Economics, Chennai and
+      a Bachelor's degree in Economics from Sri Venkateswara College, Delhi
+      University. Before joining Samagra, she was working in EY's Risk Advisory
+      practice where she served clients across different industry sectors
+      (telecom, metal & mining, FMCG, Chemicals and Fintech) as well as
+      functional areas (process transformations, industry benchmarking, cost
+      optimisation and data analytics). 
+
+
+      A strong drive to enable inclusive growth brought Kanika to Samagra. She
+      intends to leverage her consulting and analytical skills to address
+      governance challenges in the country to accelerate positive change and
+      create impact at scale. Currently, she is part of the Saksham
+      Haryana–Education team. 
+    image: /img/img_7639.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/kanika-rana/'
+    name: Kanika Rana
+    project: Saksham Haryana-Education
+  - bio: >-
       Khyati holds a Master’s degree in Management from London Business School
       and a Bachelor’s degree in Commerce from Hansraj College, University of
       Delhi. She has previously worked as an Analyst with the strategy
