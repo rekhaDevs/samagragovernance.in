@@ -268,7 +268,7 @@ team:
       governance challenges in the country to accelerate positive change and
       create impact at scale. Currently, she is part of the Saksham
       Haryana–Education team. 
-    image: /img/img_7639.jpg
+    image: /img/kanika_edited.jpg
     linkedInProfile: 'https://www.linkedin.com/in/kanika-rana/'
     name: Kanika Rana
     project: Saksham Haryana-Education
