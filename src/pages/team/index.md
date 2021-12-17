@@ -479,12 +479,11 @@ team:
 
       Having understood the public policy ecosystem, the prospect of working at
       scale and seeing how those policies get implemented on ground brought
-      Saloni to Samagra. Currently, she is part of the  Saksham Haryana-Skills &
-      Employment team.
+      Saloni to Samagra. Currently, she is part of the SamagraX team.
     image: /img/saloni.jpg
     linkedInProfile: 'https://www.linkedin.com/in/saloni-chaudhry-8b331a147/'
     name: Saloni Chaudhry
-    project: ' Saksham Haryana-Skills & Employment'
+    project: SamagraX
   - bio: >-
       Sanchita holds a Bachelor's degree in Home Science from Lady Irwin
       college. Previously, Sanchita was working as Executive Assistant to the
@@ -572,12 +571,12 @@ team:
       public sector has pushed him to work at various levels of governance,
       starting from the grassroots to district-level implementation. An
       opportunity to use his past work experience to create impact at scale
-      brought him to Samagra. Currently, he is part of the Mission Prerna team
-      in Uttar Pradesh.
+      brought him to Samagra. Shubham is the Program Coordinator of the
+      ADAPT-F&ARD team in Odisha and manages its daily operations.
     image: /img/shubam.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bansalshubham09'
     name: Shubham Bansal
-    project: Mission Prerna
+    project: ADAPT- F&ARD
   - bio: >-
       Siddhant holds a Bachelor's degree in Mechanical Engineering from Vellore
       Institute of Technology. Before joining Samagra, he was working as a
