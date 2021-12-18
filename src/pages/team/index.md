@@ -1,7 +1,7 @@
 ---
 templateKey: team-page
 title: Our Team
-bannerImage: /img/team-banner.JPG
+bannerImage: /img/edited-copy-3.jpg
 subTitle: >-
   We are a growing team of 45+ professionals. Our consultants come from diverse
   backgrounds, united in their commitment to creating impact at scale.
