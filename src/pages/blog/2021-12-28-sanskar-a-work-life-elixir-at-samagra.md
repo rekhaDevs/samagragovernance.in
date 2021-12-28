@@ -8,7 +8,7 @@ date: 2021-12-28T13:55:16.496Z
 description: >-
   Sanskar is a thoughtfully designed, immersive experience meant to provide a
   360-degree view covering the journey of the firm and its people.
-featuredimage: /img/img_20211210_111413.jpg
+featuredimage: /img/blog-quote-template-2-.png
 ---
 It’s just been two months since I joined Samagra and I have already had more diverse and enriching experiences than I could have imagined. One such experience was attending Sanskar–our annual offsite. After three exciting days, I exited Sanskar with a sense of resolve and purpose–"My work truly touches the lives of millions of citizens". 
 
@@ -28,9 +28,7 @@ Creating impact by using governance as a lever of change is easier said than don
 
 The 'Celebrating Success' presentations are definitely something I carry with me as a source of motivation as I go back to my program location.
 
-![](/img/whatsapp-image-2021-12-13-at-8.49.15-pm.jpeg "With my Sanskar team")
-
-****
+- - -
 
 **Reconnect**
 
@@ -38,7 +36,7 @@ Sanskar successfully helped me break the ice with people beyond my program team.
 
 Vying for the honour of the best Sanskar team through quizzes, games and a talent show was a great way to bond with people I had not known well previously. Moreover, having people with varying experience levels in the team provided a much-needed mix of different perspectives during discussions.
 
-
+![](/img/img_20211210_111413.jpg)
 
 **Reflect**
 
