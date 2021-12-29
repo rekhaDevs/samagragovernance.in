@@ -185,6 +185,27 @@ team:
     name: Arjun Shukla
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Bhavya holds a Bachelor’s degree in Commerce from Jesus and Mary College,
+      University of Delhi and a Post-Graduate Diploma in Liberal Studies under
+      the Young India Fellowship at Ashoka University. She was previously
+      working at Leo Burnett as a Brand Strategy Associate.
+
+
+      Her experience of working at the grassroots as a part of Enactus and
+      subsequently building the first-ever makerspace manual for educators under
+      Project Prayogshala solidified her zeal to work in the social impact
+      space. 
+
+
+      A strong belief in governance as a key lever of change and the opportunity
+      to gain hands-on experience working with the government brought her to
+      Samagra. Currently, she is part of the Mission Prerna team in Uttar
+      Pradesh.
+    image: /img/edited_img_7713.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/bhavya-berlia-936a8b128/'
+    name: Bhavya Berlia
+    project: Mission Prerna
+  - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
       Engineering (Civil) from the IIT, Delhi. Prior to Samagra, he was working
