@@ -457,6 +457,22 @@ team:
     name: Rhythm Pathak
     project: ADAPT-F&ARD
   - bio: >-
+      Ria holds a Masters’ degree in Development Studies from Ambedkar
+      University and a Bachelor’s Degree in Political Science from Lady Shri Ram
+      College for Women, Delhi. Before joining Samagra she has actively worked
+      with a number of organizations in the development sector, on a range of
+      issues like food security, education, employment, and digital rights and
+      literacy. 
+
+
+      An opportunity to create measurable impact at scale, through contextual
+      solutions informed by a bottom-up understanding of governance structures,
+      brought Ria to Samagra.
+    image: /img/edited_img_7635.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/ria-goyal-2b3935189/'
+    name: Ria Goyal
+    project: ' '
+  - bio: >-
       Sagari holds a Bachelor's and Master's degree in Environmental Engineering
       from Delhi Technological University and Stanford University, respectively.
       After graduating from Stanford, she worked at Geosyntec Consultants, an
