@@ -67,6 +67,22 @@ team:
     name: Abhay Singh
     project: Young Warrior
   - bio: >-
+      Abhishek holds a Bachelor's degree in Law from the National Law School of
+      India University, Bangalore. Before joining Samagra, he worked as an
+      Associate with the General Corporate team at Khaitan & Co., primarily
+      assisting with the Mergers & Acquisitions, Regulatory, and Gaming practice
+      areas.
+
+
+      An opportunity to partner with government stakeholders to develop
+      efficient service delivery systems and improve the lives of citizens
+      brought Abhishek to Samagra. Currently, he is part of the Mission Prerna
+      team in Uttar Pradesh.
+    image: /img/edited_img_7686.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/abhishek-rao-479047159/'
+    name: Abhishek Rao
+    project: Mission Prerna
+  - bio: >-
       Aditi holds a Bachelor's degree in Electronics and Telecommunication
       Engineering from Sardar Patel Institute of Technology, Mumbai University.
       She is also a candidate for the CFA Level 3 examination. Before joining
