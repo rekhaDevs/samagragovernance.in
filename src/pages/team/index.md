@@ -559,6 +559,18 @@ team:
     name: Shruti Agarwal
     project: SamagraX
   - bio: >-
+      Shruti holds a Bachelor’s degree in Political Science from Kamala Nehru
+      College, University of Delhi. Before joining Samagra, she was working as a
+      Research Analyst at PRS Legislative Research, where she did research on
+      key Bills and policies for legislators. An opportunity to improve the
+      quality of life of citizens while co-working with state governments, using
+      technology and a management consulting approach brought her to Samagra.
+      Currently, she is part of the Samarth team in Himachal Pradesh.
+    image: /img/edited_img_7869.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shrutigupta1999/'
+    name: Shruti Gupta
+    project: Samarth
+  - bio: >-
       Shubham holds a Bachelor's degree in Electronics and Communication
       Engineering from Thapar University. Post a six-month stint as an intern
       with EY, he signed up to do the Gandhi Fellowship. During the fellowship,
