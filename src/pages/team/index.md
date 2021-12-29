@@ -749,10 +749,10 @@ team:
 
 
       Viren is Vice President at Samagra and currently leads the Saksham
-      Haryana-Skills & Employment programme.
+      Haryana-Skills & Employment and Mission Prerna programmes.
     image: /img/edited_viren.jpg
     linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
     name: Viren Bavishi
-    project: Saksham Haryana-Skills & Employment
+    project: Saksham Haryana-Skills & Employment & Mission Prerna
 ---
 
