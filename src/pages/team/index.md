@@ -78,7 +78,7 @@ team:
       efficient service delivery systems and improve the lives of citizens
       brought Abhishek to Samagra. Currently, he is part of the Mission Prerna
       team in Uttar Pradesh.
-    image: /img/edited_img_7686.jpg
+    image: /img/resized_edited_img_7686.jpg
     linkedInProfile: 'https://www.linkedin.com/in/abhishek-rao-479047159/'
     name: Abhishek Rao
     project: Mission Prerna
