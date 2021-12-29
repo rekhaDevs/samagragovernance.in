@@ -770,5 +770,20 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
     name: Viren Bavishi
     project: Saksham Haryana-Skills & Employment & Mission Prerna
+  - bio: >-
+      Swechcha holds a Master’s degree in Social Work from Madras School of
+      Social Work, University of Madras and a Bachelor’s degree in Mathematics
+      from Kamala Nehru College, University of Delhi. Before joining Samagra,she
+      was working as a Consultant and Program Implementer at Multiple Action
+      Research Group (MARG) where she was primarily involved in research,
+      documentation and data analysis work.
+
+
+      A strong motivation to work on governance issues and improving the quality
+      of life of citizens brought her to Samagra. 
+    image: /img/edited_img_7622.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/swechcha-ganapati-224aaabb/'
+    name: Swechcha Ganapati
+    project: Process Associate
 ---
 
