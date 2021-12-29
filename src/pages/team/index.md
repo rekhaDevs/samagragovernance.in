@@ -78,10 +78,10 @@ team:
       efficient service delivery systems and improve the lives of citizens
       brought Abhishek to Samagra. Currently, he is part of the Mission Prerna
       team in Uttar Pradesh.
-    image: /img/resized_edited_img_7686.jpg
+    image: /img/abhishekrao.jpg
     linkedInProfile: 'https://www.linkedin.com/in/abhishek-rao-479047159/'
-    name: Abhishek Rao
-    project: Mission Prerna
+    name: 'Abhishek Rao '
+    project: 'Mission Prerna '
   - bio: >-
       Aditi holds a Bachelor's degree in Electronics and Telecommunication
       Engineering from Sardar Patel Institute of Technology, Mumbai University.
@@ -184,6 +184,19 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/arjun-shukla-032b32188/'
     name: Arjun Shukla
     project: Saksham Haryana-Skills & Employment
+  - bio: >-
+      Ashish holds a dual degree in Computer Science & Engineering from Indian
+      Institute of Technology, Kharagpur. Before joining Samagra, he was working
+      as an Engineering Manager at Facebook (now Meta), primarily building
+      products for small and medium businesses. 
+       
+      An opportunity to use technology to improve governance and make a
+      meaningful impact in the lives of citizens brought Ashish to Samagra. He
+      is Engineering Manager at Samagra.
+    image: /img/edited_img_7692.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/ashishkumaryadav/'
+    name: Ashish Yadav
+    project: SamagraX
   - bio: >-
       Bhavya holds a Bachelor’s degree in Commerce from Jesus and Mary College,
       University of Delhi and a Post-Graduate Diploma in Liberal Studies under
@@ -444,6 +457,19 @@ team:
     linkedInProfile: ' '
     name: Raju Ram
     project: NA
+  - bio: >-
+      Rhea holds a Bachelor’s degree in Sociology from Maitreyi College,
+      University of Delhi. Before joining Samagra, she was working with Project
+      Raahat, a youth-led campaign against domestic violence.
+
+
+      The passion to drive systemic change at the grassroots by catalysing the
+      lever of governance brought her to Samagra. Currently, she is part of the
+      ADAPT-F&ARD team in Odisha.
+    image: /img/edited_img_7655.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/rhea-kad-027733193/?originalSubdomain=in'
+    name: Rhea Kad
+    project: ADAPT-F&ARD
   - bio: >-
       Rhythm holds a Master’s in Economics from Gokhale Institute of Politics
       and Economics, Pune, and Policy Design and Management from the Indian
