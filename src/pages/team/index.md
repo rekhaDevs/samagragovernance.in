@@ -17,7 +17,7 @@ team:
       In 2012, he set up Samagra so that he could translate his passion into
       reality and create impact at scale. He has shaped Samagra's values and
       approach to impact, and continues to steer it into the future.
-    image: /img/Gaurav.jpg
+    image: /img/gaurav_7534.jpg
     linkedInProfile: 'https://www.linkedin.com/in/gaurav-goel-07374680/'
     name: Gaurav Goel
     project: Founder & CEO
@@ -102,7 +102,7 @@ team:
     name: Aditi Phadnis
     project: Saksham Haryana-Education
   - bio: "Aditya holds an MBA from the University of Oxford and BTech in Mechanical Engineering from YMCA Faridabad. He previously worked as an Associate Equity\_Analyst (Team Lead) at Trefis for 4 years where he\_was catering to top investment banks by analyzing sell-side securities of global internet, e-commerce and telecom companies listed on NYSE and NASDAQ.\_As an undergrad, he was keen to join the Indian civil services and attempted the\_examination\_three times, giving final interviews on all three occasions. An opportunity to apply his problem solving and people skills to improve governance and create impact at scale brought him to Samagra. \n\nAditya currently leads the Saksham Haryana-Education and Samarth programmes."
-    image: /img/new-pic_aditya.jpg
+    image: /img/aditya_7618.jpg
     linkedInProfile: 'https://www.linkedin.com/in/adityachopra770/'
     name: Aditya Chopra
     project: Saksham Haryana-Education & Samarth
@@ -709,7 +709,7 @@ team:
 
 
       Sukhpreet currently manages the SamagraX team.
-    image: /img/Sukhpreet.jpg
+    image: /img/sukhpreet_7699.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sukhpreetsekhon'
     name: Sukhpreet Sekhon
     project: SamagraX
