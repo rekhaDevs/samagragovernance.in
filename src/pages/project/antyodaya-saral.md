@@ -52,13 +52,11 @@ approach:
       performance of departments and districts with respect to processing time
       for applications.
 readMore:
+  - text: 'Making it Happen: Antyodaya Saral'
   - text: How technology can show way forward to improve governance in India
   - text: >-
       COVID-19 highlights the need to transition towards paperless public
       service delivery
-  - text: >-
-      1 Stop, 556 Schemes: Haryana Govt’s Unique System Can Revolutionise How
-      India Works.
 impact:
   - count: 500+
     label: Government Departments
