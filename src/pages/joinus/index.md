@@ -92,7 +92,7 @@ formsElements:
     label: >-
       Total Professional Experience in months (excluding internships and
       fellowships)
-    placeholder: Enter Organization
+    placeholder: Enter Number of Months
     required: true
     type: text
     validation: VALID_NUMBER
