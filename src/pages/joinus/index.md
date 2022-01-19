@@ -3,7 +3,7 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: ' '
-verticalImage: /img/recruitment-diagram_vf.jpg
+verticalImage: /img/whatsapp-image-2022-01-19-at-5.53.08-pm.jpeg
 horizontalImage: /img/recruitment-diagram_vf.jpg
 formsElements:
   - contentDescription: ' '
