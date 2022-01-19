@@ -4,7 +4,7 @@ title: Join Us
 infoText1: Join Us
 infoText2: ' '
 verticalImage: /img/whatsapp-image-2022-01-19-at-5.53.08-pm.jpeg
-horizontalImage: /img/recruitment-diagram_vf.jpg
+horizontalImage: /img/whatsapp-image-2022-01-19-at-5.53.08-pm.jpeg
 formsElements:
   - contentDescription: ' '
     label: Full Name
