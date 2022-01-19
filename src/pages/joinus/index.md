@@ -89,11 +89,34 @@ formsElements:
     type: text
     validation: VALID_TEXT
   - contentDescription: ' '
-    label: Total Professional Experience (in months)
+    label: >-
+      Total Professional Experience in months (excluding internships and
+      fellowships)
     placeholder: Enter Organization
     required: true
     type: text
     validation: VALID_NUMBER
+  - contentDescription: ' Notice Period'
+    label: Notice Period
+    options:
+      - text: 1 month
+      - text: 2 months
+      - text: 3 months
+      - text: Not Applicable
+    placeholder: Select Duration
+    required: true
+    type: select
+    validation: VALID_OPTION
+  - contentDescription: Possibility of early exit from current organisation
+    label: Possibility of early exit from current organisation
+    options:
+      - text: 'Yes'
+      - text: 'No'
+      - text: Not Applicable
+    placeholder: Select Option
+    required: true
+    type: select
+    validation: VALID_OPTION
   - contentDescription: ' '
     label: LinkedIn Profile
     placeholder: Enter your linkedin profile link
