@@ -120,6 +120,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     const renderInput = (element) => {
         switch (element.type) {
             case 'text':
+                
                 return <div className="col-md-4 col-sm-6 col-xs-12">
                     <fieldset className={'form-group'}>
                         <label>{element.label} {element.required ?
@@ -322,7 +323,6 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                 </div>
         }
     };
-    console.log(formObject);
     return (
         <div style={{paddingTop: '100px'}} className={'join-us-page-wrapper'}>
 
@@ -358,11 +358,11 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                             }
                         </div>
                         <img
-                            src={verticleImage?.node?.frontmatter?.image?.childImageSharp?.fluid?.src}
+                            src={(verticleImage && verticleImage.childImageSharp && verticleImage.childImageSharp.fluid.src) ||(verticleImage && verticleImage.image) }
                             className={'hide-for-small-only'}
                             style={{maxWidth: '700px', margin: 'auto'}} width={'100%'} alt=""/>
                         <img
-                            src={verticleImage?.node?.frontmatter?.image?.childImageSharp?.fluid?.src}
+                            src={verticleImage && verticleImage.childImageSharp && verticleImage.childImageSharp.fluid.src ||(verticleImage && verticleImage.image)}
                             className={'show-for-small-only'} width={'100%'}
                             alt=""/>
                     </div>

@@ -10,6 +10,7 @@ import JoinUsFormSection from "../components/JoinUsPageComponents/JoinUsFormSect
 
 
 export const JoinUsPreviewTemplate = ({joinUsPageContent}) => {
+  console.log(joinUsPageContent);
     return (
         <React.Fragment>
             <JoinUsBannerImage/>
