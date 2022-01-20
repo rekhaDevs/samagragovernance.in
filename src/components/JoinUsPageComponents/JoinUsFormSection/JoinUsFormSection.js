@@ -128,13 +128,13 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                onChange={(e) => {
                                    const formObjectTemp = {
                                        ...formObject
-                                   };
+                                   }; 
                                    formObjectTemp[element.key] = e.target.value;
                                    setFormObject(formObjectTemp);
                                }}
                                className={`form-control ${submitted && !customValidation(element) ? 'invalid' : ''}`}
                                placeholder={element.placeholder}/>
-                               {element.contentDescription && <span class="hint">{element.contentDescription}}
+                               {element.contentDescription && <span class="hint">{element.contentDescription}</span>}
                     </fieldset>
                 </div>;
             case 'select':
