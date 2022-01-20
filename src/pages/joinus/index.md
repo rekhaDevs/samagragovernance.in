@@ -88,10 +88,8 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
-  - contentDescription: ' '
-    label: >-
-      Total Professional Experience in months (excluding internships and
-      fellowships)
+  - contentDescription: ' (excluding internships and fellowships)'
+    label: Total Professional Experience in months
     placeholder: Enter Number of Months
     required: true
     type: text
