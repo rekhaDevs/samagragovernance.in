@@ -134,6 +134,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                }}
                                className={`form-control ${submitted && !customValidation(element) ? 'invalid' : ''}`}
                                placeholder={element.placeholder}/>
+                               {element.contentDescription && <span class="hint">{element.contentDescription}}
                     </fieldset>
                 </div>;
             case 'select':
@@ -398,8 +399,6 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                     {
                                                         <div className={'mb-4'}>
                                                             <p>Share 1 experience where you have demonstrated ‘drive’. Drive is when you have consistently worked towards achieving a goal for an extended period of time (at least for a few months). Feel free to elaborate on the efforts you made and the hurdles you overcame in the process. This experience may be in the academic, co-curricular, extra-curricular or professional spheres.</p>
-//                                                             <p>Q2. What is your greatest strength and your greatest
-//                                                                 weakness?</p>
                                                         </div>
                                                     }
                                                     <div className="input-group">
