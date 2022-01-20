@@ -344,20 +344,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                 <div className="row mb-5">
                     <div style={{display: "inline-block", margin: 'auto', position: 'relative'}}
                          className={'__actionable-image-wrapper'}>
-
-                        <div className="action-wrapper">
-                            {
-                                [1, 2, 3, 4].map((a, i) => {
-                                    return <div className="action" onMouseLeave={() => {
-                                        setActiveHoverIndex(-1);
-                                    }
-                                    } onMouseEnter={() => {
-                                        setActiveHoverIndex(i);
-                                    }}/>
-                                })
-                            }
-                        </div>
-                        <img
+                    
+                       <img
                             src={(verticleImage && verticleImage.childImageSharp && verticleImage.childImageSharp.fluid.src) ||(verticleImage && verticleImage.image) }
                             className={'hide-for-small-only'}
                             style={{maxWidth: '700px', margin: 'auto'}} width={'100%'} alt=""/>
