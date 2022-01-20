@@ -135,7 +135,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                }}
                                className={`form-control ${submitted && !customValidation(element) ? 'invalid' : ''}`}
                                placeholder={element.placeholder}/>
-                               {element.contentDescription && <span class="hint">{element.contentDescription}</span>}
+                               {element.key === 'totalProfessionalExperienceInMonths' && <span class="hint">(excluding internships and fellowships)</span>}
                     </fieldset>
                 </div>;
             case 'select':
