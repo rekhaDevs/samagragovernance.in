@@ -406,9 +406,9 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                             className={'required-mark'}>*</span></label>
                                                     {
                                                         <div className={'mb-4'}>
-                                                            <p>Q1. Why do you want to work with Samagra?</p>
-                                                            <p>Q2. What is your greatest strength and your greatest
-                                                                weakness?</p>
+                                                            <p>Share 1 experience where you have demonstrated ‘drive’. Drive is when you have consistently worked towards achieving a goal for an extended period of time (at least for a few months). Feel free to elaborate on the efforts you made and the hurdles you overcame in the process. This experience may be in the academic, co-curricular, extra-curricular or professional spheres.</p>
+//                                                             <p>Q2. What is your greatest strength and your greatest
+//                                                                 weakness?</p>
                                                         </div>
                                                     }
                                                     <div className="input-group">
@@ -467,7 +467,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
 
                                                     </div>
                                                     <span className={'hint'}>
-                                       Upload a video containing answers to the two questions listed above. Please ensure that the video is recorded against a white background with visual and audio clarity. Do not exceed the specified time limit of 90 seconds. (Filename: Video_Firstname Lastname):
+                                        Please ensure that the video is recorded against a white background with visual and audio clarity. Do not exceed the specified time limit of 90 seconds. (Filename: Video_Firstname Lastname):
                                        </span>
                                                     <span
                                                         className={`${videoError ? 'invalid-size' : ''}`}>
