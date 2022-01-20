@@ -3,7 +3,7 @@ templateKey: joinus-page
 title: Join Us
 infoText1: Join Us
 infoText2: ' '
-verticalImage: /img/whatsapp-image-2022-01-19-at-5.53.08-pm.jpeg
+verticalImage: /img/recruitment-diagram_jan22_v1.jpg
 horizontalImage: /img/whatsapp-image-2022-01-19-at-5.53.08-pm.jpeg
 formsElements:
   - contentDescription: ' '
@@ -88,7 +88,7 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
-  - contentDescription: '(excluding internships and fellowships)'
+  - contentDescription: (excluding internships and fellowships)
     label: Total Professional Experience in months
     placeholder: Enter Number of Months
     required: true
