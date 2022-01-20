@@ -356,15 +356,6 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                 })
                             }
                         </div>
-//                         {
-//                             [2, 3, 4, 5].map((v) => {
-//                                 return <img
-//                                     src={slides['slide' + v]}
-//                                     className={`hide-for-small-only image-animated ${(v === activeHoverIndex + 2) ? 'active' : ''}`}
-//                                     style={{maxWidth: '700px', margin: 'auto',}} width={'100%'} alt=""/>
-//                             })
-//                         }
-
                         <img
                             src={verticleImage}
                             className={'hide-for-small-only'}
