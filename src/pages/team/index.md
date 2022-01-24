@@ -45,7 +45,7 @@ team:
       previously also worked at EY. His belief that governance is the critical
       lever to creating sustainable and scalable solutions brought him to
       Samagra. Currently, he is part of the SamagraX team.
-    image: /img/Aayush.jpg
+    image: /img/aayush_7903.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aayushkedia'
     name: Aayush Kedia
     project: SamagraX
@@ -62,7 +62,7 @@ team:
 
 
       Currently, he is part of the Young Warrior team.
-    image: /img/abhay-singh.png
+    image: /img/abhay_7665.jpg
     linkedInProfile: 'https://www.linkedin.com/in/abhay-kumar-singh-y9010/'
     name: Abhay Singh
     project: Young Warrior
@@ -97,7 +97,7 @@ team:
 
       Aditi is the Program Coordinator of the Saksham Haryana-Education team and
       manages its daily operations.
-    image: /img/edited_aditi_headshot.jpg
+    image: /img/aditi_7685.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aditi-phadnis93/'
     name: Aditi Phadnis
     project: Saksham Haryana-Education
@@ -121,7 +121,7 @@ team:
 
       Akash is the Program Coordinator of the Samarth team in Himachal Pradesh
       and manages its daily operations.
-    image: /img/aakash.jpg
+    image: /img/akash_7640.jpg
     linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
     name: Akash Tyagi
     project: Samarth
@@ -133,7 +133,7 @@ team:
       opportunity to bring about impact at scale for citizens by working with
       government brought her to Samagra. Currently, she is part of the Mission
       Prerna team in Uttar Pradesh.
-    image: /img/edited_ananya.jpg
+    image: /img/ananya_7677.jpg
     linkedInProfile: 'https://www.linkedin.com/feed/update/urn:li:activity:6680824251118944256/'
     name: Ananya Jain
     project: Mission Prerna
@@ -151,7 +151,7 @@ team:
 
 
       Ankit currently leads the Young Warrior programme. 
-    image: /img/Ankit-G.jpg
+    image: /img/ankit_7709.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
     project: Young Warrior
@@ -164,7 +164,7 @@ team:
       Government of Delhi. Her strong belief in using governance as a lever for
       societal change brought her to Samagra. Currently she is part of the
       Samarth team in Himachal Pradesh.
-    image: /img/anusheela_website.jpg
+    image: /img/anusheela_7528.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anusheela-ghosh/'
     name: Anusheela Ghosh
     project: Samarth
@@ -230,7 +230,7 @@ team:
       His belief that employing technological tools can lead to better
       governance and improve the lives of citizens brought him to Samagra.
       Currently he is part of the SamagraX team.
-    image: /img/Chakshu.jpg
+    image: /img/chakshu_7676.jpg
     linkedInProfile: 'https://www.linkedin.com/in/chakshu-gautam-6918736b/'
     name: Chakshu Gautam
     project: SamagraX
@@ -247,7 +247,7 @@ team:
 
       Divya is the Program Coordinator of the CEO's Office and manages its daily
       operations.
-    image: /img/divya-d.jpg
+    image: /img/divya_7706.jpg
     linkedInProfile: 'https://www.linkedin.com/in/divya-dua-890107135/'
     name: Divya Dua
     project: CEO's Office
