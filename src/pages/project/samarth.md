@@ -38,13 +38,11 @@ approach:
       timely delivery of textbooks to schools, robust review and monitoring
       mechanisms, ongoing mentoring and training support for teachers).
 readMore:
+  - text: Bridging the digital divide in education
   - text: How Himachal Pradesh improved 2020 board exam results
   - text: >-
       ‘Har Ghar Pathshala’: How Himachal Govt Made Online Classrooms Accessible
       as Schools Shut
-  - text: >-
-      Enabling technology in classrooms can have large impact on overall
-      ecosystem
 impact:
   - count: 1st
     label: state to ensure timely delivery of textbooks in 2016
