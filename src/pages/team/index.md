@@ -169,22 +169,6 @@ team:
     name: Anusheela Ghosh
     project: Samarth
   - bio: >-
-      Arjun holds a Bachelor's degree in Economics from Kirori Mal College. He
-      has previously interned with Delhi Commission for Protection of Child
-      Rights, Bajaj Capital and E&Y. Arjun has represented New Delhi in
-      national-level football tournaments and has also won numerous accolades at
-      debating tournaments across India. 
-
-
-      An opportunity to work in the social impact space coupled with the desire
-      to drive analytical, sustainable and data-driven change brought him to
-      Samagra. Currently, he is part of the Saksham Haryana-Skills & Employment
-      team.
-    image: /img/arjun.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/arjun-shukla-032b32188/'
-    name: Arjun Shukla
-    project: Saksham Haryana-Skills & Employment
-  - bio: >-
       Ashish holds a dual degree in Computer Science & Engineering from Indian
       Institute of Technology, Kharagpur. Before joining Samagra, he was working
       as an Engineering Manager at Facebook (now Meta), primarily building
