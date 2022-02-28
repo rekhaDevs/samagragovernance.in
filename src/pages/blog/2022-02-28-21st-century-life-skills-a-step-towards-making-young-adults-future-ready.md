@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: '21st Century Life Skills - A step towards making young adults future ready! '
+title: '21st Century Life Skills - A step towards making young adults future ready '
 author: Rhythm Behl
 projectId: Young Warrior
 authorImage: /img/edited_rhythm_b.jpg
