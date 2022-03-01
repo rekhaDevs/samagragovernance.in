@@ -353,6 +353,21 @@ team:
     name: Naman Gupta
     project: Mission Prerna
   - bio: >-
+      Namisha holds a Master’s degree in Development Economics from South Asian
+      University and a Bachelor’s degree in Economics from Gargi College,
+      University of Delhi. She has previously worked as a MEFF Consultant with
+      Nielsen, primarily designing media marketing strategy for FMCG giants and
+      retail chains in Asia Pacific markets.
+
+
+      A strong motivation to navigate and solve for India’s development puzzle
+      through institutionalisation and tech brought her to Samagra. Currently,
+      she is part of the Saksham Haryana-Skills & Employment team.
+    image: /img/namisha_7630.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/namisha-m-75a98014b/'
+    name: Namisha Mehra
+    project: Saksham Haryana-Skills & Employment
+  - bio: >-
       Pragya hold a Bachelor's degree in Economics from Miranda House,
       University of Delhi. She has previously interned at CollarFolk, a start up
       in Gurgaon and conceptualized a self-guided social entrepreneurship
