@@ -88,6 +88,16 @@ formsElements:
     required: true
     type: text
     validation: VALID_TEXT
+  - contentDescription: Applying for which role?
+    label: Applying for which role?
+    options:
+      - text: Product
+      - text: Engineering
+      - text: Consulting
+    placeholder: Select Option
+    required: true
+    type: select
+    validation: VALID_OPTION
   - contentDescription: (excluding internships and fellowships)
     label: Total Professional Experience in months
     placeholder: Enter Number of Months
