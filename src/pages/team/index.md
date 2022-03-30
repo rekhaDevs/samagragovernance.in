@@ -219,23 +219,6 @@ team:
     name: Chakshu Gautam
     project: SamagraX
   - bio: >-
-      Divya holds a Master's degree in Public Policy from National Law School,
-      Bangalore and a Bachelor's degree in Political Science from Kirorimal
-      College, University of Delhi. Before joining Samagra, she was working as a
-      Business Analyst with the strategy consulting practice at Deloitte,
-      primarily serving healthcare and life sciences clients in North American
-      and European markets. A strong motivation to work as a catalyst for
-      changing the status quo and enhancing service delivery on ground by
-      partnering with state governments, brought Divya to Samagra. 
-
-
-      Divya is the Program Coordinator of the CEO's Office and manages its daily
-      operations.
-    image: /img/divya_7706.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/divya-dua-890107135/'
-    name: Divya Dua
-    project: CEO's Office
-  - bio: >-
       Garima holds a Bachelor’s degree in International Relations with a
       specialisation in Applied Quantitative Methods from University of Essex.
       Before joining Samagra, she was working as Communications Associate and
