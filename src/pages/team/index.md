@@ -175,8 +175,8 @@ team:
       products for small and medium businesses. 
        
       An opportunity to use technology to improve governance and make a
-      meaningful impact in the lives of citizens brought Ashish to Samagra. He
-      is Engineering Manager at Samagra.
+      meaningful impact in the lives of citizens brought Ashish to Samagra.
+      Currently, he is part of the SamagraX team.
     image: /img/edited_img_7692.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ashishkumaryadav/'
     name: Ashish Yadav
@@ -235,6 +235,22 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/garima-sood/'
     name: Garima Sood
     project: Communications Associate
+  - bio: >-
+      Gautam holds a Master's degree in Data Analytics from Georgia Institute of
+      Technology, Atlanta and a Bachelor’s degree in Mechanical Engineering from
+      Sir M. Visvesvaraya Institute of Technology, Bengaluru. Before joining
+      Samagra, he was working as a data scientist at Mu Sigma Inc., building
+      data driven solutions for Fortune 100 retail companies. 
+       
+      An opportunity to tap into the potential of data science techniques in
+      understanding social issues and driving administrative decision-making,
+      coupled with the simple desire to impact lives and contribute
+      meaningfully, brought Gautam to Samagra. Currently, he is part of the
+      SamagraX team.
+    image: /img/gautam.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/gautam-rajeev-096ba6100/'
+    name: Gautam Rajeev
+    project: SamagraX
   - bio: >-
       Gayatri holds a Bachelor's degree in Economics and Political Science from
       St Stephen's College, University of Delhi and a Post-Graduate Diploma in
@@ -814,21 +830,5 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
     name: Viren Bavishi
     project: Saksham Haryana-Skills & Employment & Mission Prerna
-  - bio: >-
-      Gautam holds a Master's degree in Data Analytics from Georgia Institute of
-      Technology, Atlanta and a Bachelor’s degree in Mechanical Engineering from
-      Sir M. Visvesvaraya Institute of Technology, Bengaluru. Before joining
-      Samagra, he was working as a data scientist at Mu Sigma Inc., building
-      data driven solutions for Fortune 100 retail companies. 
-       
-      An opportunity to tap into the potential of data science techniques in
-      understanding social issues and driving administrative decision-making,
-      coupled with the simple desire to impact lives and contribute
-      meaningfully, brought Gautam to Samagra. Currently, he is part of the
-      SamagraX team.
-    image: /img/gautam.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/gautam-rajeev-096ba6100/'
-    name: Gautam Rajeev
-    project: SamagraX
 ---
 
