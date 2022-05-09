@@ -44,11 +44,11 @@ approach:
       availability in schools, robust review and monitoring mechanisms, ongoing
       mentoring and training support for teachers).
 readMore:
+  - text: Haryana becomes first state to adopt tablet-based personalised learning
   - text: How Haryana made government school education a political priority
   - text: >-
       Haryana Holds the Blueprint For Improving Govt Schools Across India. We
       Tell You Why.
-  - text: 80% Haryana declared ‘Saksham’ for achieving grade-level competency
 impact:
   - count: '14'
     label: of 22 districts grade-competent
