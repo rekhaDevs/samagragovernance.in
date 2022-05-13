@@ -91,9 +91,10 @@ formsElements:
   - contentDescription: Applying for which role?
     label: Applying for which role?
     options:
-      - text: Product
-      - text: Engineering
+      - text: CEO's Office
       - text: Consulting
+      - text: Engineering
+      - text: Product
     placeholder: Select Option
     required: true
     type: select

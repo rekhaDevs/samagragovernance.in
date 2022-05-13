@@ -175,8 +175,8 @@ team:
       products for small and medium businesses. 
        
       An opportunity to use technology to improve governance and make a
-      meaningful impact in the lives of citizens brought Ashish to Samagra. He
-      is Engineering Manager at Samagra.
+      meaningful impact in the lives of citizens brought Ashish to Samagra.
+      Currently, he is part of the SamagraX team.
     image: /img/edited_img_7692.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ashishkumaryadav/'
     name: Ashish Yadav
@@ -219,23 +219,6 @@ team:
     name: Chakshu Gautam
     project: SamagraX
   - bio: >-
-      Divya holds a Master's degree in Public Policy from National Law School,
-      Bangalore and a Bachelor's degree in Political Science from Kirorimal
-      College, University of Delhi. Before joining Samagra, she was working as a
-      Business Analyst with the strategy consulting practice at Deloitte,
-      primarily serving healthcare and life sciences clients in North American
-      and European markets. A strong motivation to work as a catalyst for
-      changing the status quo and enhancing service delivery on ground by
-      partnering with state governments, brought Divya to Samagra. 
-
-
-      Divya is the Program Coordinator of the CEO's Office and manages its daily
-      operations.
-    image: /img/divya_7706.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/divya-dua-890107135/'
-    name: Divya Dua
-    project: CEO's Office
-  - bio: >-
       Garima holds a Bachelor’s degree in International Relations with a
       specialisation in Applied Quantitative Methods from University of Essex.
       Before joining Samagra, she was working as Communications Associate and
@@ -253,6 +236,22 @@ team:
     name: Garima Sood
     project: Communications Associate
   - bio: >-
+      Gautam holds a Master's degree in Data Analytics from Georgia Institute of
+      Technology, Atlanta and a Bachelor’s degree in Mechanical Engineering from
+      Sir M. Visvesvaraya Institute of Technology, Bengaluru. Before joining
+      Samagra, he was working as a data scientist at Mu Sigma Inc., building
+      data driven solutions for Fortune 100 retail companies. 
+       
+      An opportunity to tap into the potential of data science techniques in
+      understanding social issues and driving administrative decision-making,
+      coupled with the simple desire to impact lives and contribute
+      meaningfully, brought Gautam to Samagra. Currently, he is part of the
+      SamagraX team.
+    image: /img/gautam.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/gautam-rajeev-096ba6100/'
+    name: Gautam Rajeev
+    project: SamagraX
+  - bio: >-
       Gayatri holds a Bachelor's degree in Economics and Political Science from
       St Stephen's College, University of Delhi and a Post-Graduate Diploma in
       Journalism from the Asian College of Journalism, Chennai. She also has a
@@ -268,24 +267,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/gayatri-chandrasekaran-17a25590'
     name: Gayatri Chandrasekaran
     project: Communications Strategy
-  - bio: >-
-      Juhi holds a Bachelor's degree in Civil Engineering from NIT Kurukshetra.
-      After working in the corporate space for about 10 months, she made the
-      switch to the development sector, joining the Teach For India fellowship.
-      During the two years of her fellowship,  she taught 70 students in a Delhi
-      government school which drew students from a low-income community. Before
-      joining Samagra, she worked with the Chief Minister's Good Governance
-      Associates programme, Haryana, both as a Deputy Manager and as an
-      Associate. Through the CMGGA programme she got an opportunity to engage
-      deeply with the governance system, both at the district and state level.
-      An opportunity to work on relevant and diverse problem statements and
-      create systemic impact by working closely with the government brought her
-      to Samagra. Currently, she is part of the Mission Prerna team in Uttar
-      Pradesh.
-    image: /img/juhi_.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/juhi-nijhawan-85010464/'
-    name: Juhi Nijhawan
-    project: Mission Prerna
   - bio: >-
       Kanika holds a Master's degree in Economics (with a specialisation in
       Applied Quantitative Finance) from Madras School of Economics, Chennai and
@@ -547,22 +528,6 @@ team:
     name: Saket Sinha
     project: SamagraX
   - bio: >-
-      Saloni holds a Bachelor's degree in Commerce from Shri Ram College of
-      Commerce, Delhi University. Before joining Samagra, she worked as a
-      Legislative Assistant to a Member of Parliament (LAMP Fellow 2019-20). Her
-      work primarily involved parliamentary research and interventions in a
-      multitude of areas such as economics, education, and infrastructure, among
-      others. 
-
-
-      Having understood the public policy ecosystem, the prospect of working at
-      scale and seeing how those policies get implemented on ground brought
-      Saloni to Samagra. Currently, she is part of the SamagraX team.
-    image: /img/saloni.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/saloni-chaudhry-8b331a147/'
-    name: Saloni Chaudhry
-    project: SamagraX
-  - bio: >-
       Sanchita holds a Bachelor's degree in Home Science from Lady Irwin
       college. Previously, Sanchita was working as Executive Assistant to the
       Managing Director of Twitter India. An opportunity to contribute to
@@ -572,22 +537,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/sanchita-dasgupta-4587a712/'
     name: Sanchita Dasgupta
     project: Office Manager
-  - bio: >-
-      Sanjana holds a Bachelor's degree in Economics (Hons) from Hindu College,
-      University of Delhi. Before joining Samagra, she was working as an Analyst
-      with EY's Business Consulting vertical, primarily focused on process
-      reviews and operational optimization across the business value chain for
-      clients from the consumer products sector.
-
-
-      Her passion to create scalable and sustainable impact by working with the
-      government and the desire to be a part of the difference that Samagra is
-      bringing about brought her to the firm. Currently, she is part of the
-      Saksham Haryana-Education team.
-    image: /img/sanjana.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/sanjana-johri/'
-    name: Sanjana Johri
-    project: Saksham Haryana-Education
   - bio: >-
       Shashwat holds a Bachelor's degree in Civil Engineering from Pandit
       Deendayal Energy University. Prior to joining Samagra, he was working as
