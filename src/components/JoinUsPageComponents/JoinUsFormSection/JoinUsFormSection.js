@@ -37,6 +37,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     const [activeHoverIndex, setActiveHoverIndex] = useState(-1);
     const [loaderKey, setLoaderKey] = useState({});
     const formsElements = joinUsPageContent.formsElements || [];
+    console.log(formsElements);
+    console.log('================');
     formsElements.forEach((fE) => {
         fE['key'] = camelCase(fE.label);
         fE['fileKeyName'] = camelCase(fE.label) + 'FileName';
@@ -47,6 +49,40 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
             fE['fileErrorKey'] = fE.key + 'Error';
         }
     });
+    const parentKey = formsElements.find((a) => a.label === 'Applying for which role?');
+    if(parentKey && formObject['applyingForWhichRole?'] === "Consulting"){
+        let index = -1;
+        let alreadyExists = false;
+        let  newKey = 'Would you be open to moving between Product and Consulting roles?';
+        formsElements.forEach((fE,_in) => {
+            if(fE.label === 'Applying for which role?'){
+                index= _in
+            }if(fE.label === newKey){
+                alreadyExists = true;
+            }
+        });
+        if(index >-1 && !alreadyExists){
+            formsElements.splice(index, 0,{
+                "label": newKey,
+                "required": true,
+                "placeholder": "Select Option",
+                "type": "select",
+                "validation": "VALID_OPTION",
+                "otherOptionAvailable": null,
+                "options": [
+                    {
+                        "text": "Yes"
+                    },
+                    {
+                        "text": "No"
+                    }
+                ],
+                "actionName": null,
+                "key": camelCase(newKey),
+                "fileKeyName":  camelCase(newKey) + 'FileName'
+            })
+        }
+    }
     const VALID_TEXT = (element) => {
         if (!element.required) {
             return true;
@@ -120,7 +156,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     const renderInput = (element) => {
         switch (element.type) {
             case 'text':
-                
+
                 return <div className="col-md-4 col-sm-6 col-xs-12">
                     <fieldset className={'form-group'}>
                         <label>{element.label} {element.required ?
@@ -129,13 +165,14 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                onChange={(e) => {
                                    const formObjectTemp = {
                                        ...formObject
-                                   }; 
+                                   };
                                    formObjectTemp[element.key] = e.target.value;
                                    setFormObject(formObjectTemp);
                                }}
                                className={`form-control ${submitted && !customValidation(element) ? 'invalid' : ''}`}
                                placeholder={element.placeholder}/>
-                               {element.key === 'totalProfessionalExperienceInMonths' && <span class="hint">(excluding internships and fellowships)</span>}
+                        {element.key === 'totalProfessionalExperienceInMonths' &&
+                        <span class="hint">(excluding internships and fellowships)</span>}
                     </fieldset>
                 </div>;
             case 'select':
@@ -344,13 +381,13 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                 <div className="row mb-5">
                     <div style={{display: "inline-block", margin: 'auto', position: 'relative'}}
                          className={'__actionable-image-wrapper'}>
-                    
-                       <img
-                            src={(verticleImage && verticleImage.childImageSharp && verticleImage.childImageSharp.fluid.src) ||(verticleImage && verticleImage.image) }
+
+                        <img
+                            src={(verticleImage && verticleImage.childImageSharp && verticleImage.childImageSharp.fluid.src) || (verticleImage && verticleImage.image)}
                             className={'hide-for-small-only'}
                             style={{maxWidth: '700px', margin: 'auto'}} width={'100%'} alt=""/>
                         <img
-                            src={verticleImage && verticleImage.childImageSharp && verticleImage.childImageSharp.fluid.src ||(verticleImage && verticleImage.image)}
+                            src={verticleImage && verticleImage.childImageSharp && verticleImage.childImageSharp.fluid.src || (verticleImage && verticleImage.image)}
                             className={'show-for-small-only'} width={'100%'}
                             alt=""/>
                     </div>
@@ -386,7 +423,14 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                             className={'required-mark'}>*</span></label>
                                                     {
                                                         <div className={'mb-4'}>
-                                                            <p>Share 1 experience where you have demonstrated ‘drive’. Drive is when you have consistently worked towards achieving a goal for an extended period of time (at least for a few months). Feel free to elaborate on the efforts you made and the hurdles you overcame in the process. This experience may be in the academic, co-curricular, extra-curricular or professional spheres.</p>
+                                                            <p>Share 1 experience where you have demonstrated ‘drive’.
+                                                                Drive is when you have consistently worked towards
+                                                                achieving a goal for an extended period of time (at
+                                                                least for a few months). Feel free to elaborate on the
+                                                                efforts you made and the hurdles you overcame in the
+                                                                process. This experience may be in the academic,
+                                                                co-curricular, extra-curricular or professional
+                                                                spheres.</p>
                                                         </div>
                                                     }
                                                     <div className="input-group">
@@ -490,7 +534,10 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
 
                                     loaderKey['formSubmit'] = true;
                                     setLoaderKey(JSON.parse(JSON.stringify(loaderKey)));
-                                    axios.post('https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/form-submit', {...reqObject, statementOfPurpose}, {headers: {'Content-Type': 'application/json'}})
+                                    axios.post('https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/form-submit', {
+                                        ...reqObject,
+                                        statementOfPurpose
+                                    }, {headers: {'Content-Type': 'application/json'}})
                                         .then(function (response) {
                                             setShowForm(false);
                                             setTimeout(() => {
