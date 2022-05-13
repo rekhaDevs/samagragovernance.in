@@ -50,19 +50,20 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
         }
     });
     const parentKey = formsElements.find((a) => a.label === 'Applying for which role?');
-    if(parentKey && formObject['applyingForWhichRole?'] === "Consulting"){
+    if (parentKey && formObject['applyingForWhichRole?'] === "Consulting") {
         let index = -1;
         let alreadyExists = false;
-        let  newKey = 'Would you be open to moving between Product and Consulting roles?';
-        formsElements.forEach((fE,_in) => {
-            if(fE.label === 'Applying for which role?'){
-                index= _in
-            }if(fE.label === newKey){
+        let newKey = 'Would you be open to moving between Product and Consulting roles?';
+        formsElements.forEach((fE, _in) => {
+            if (fE.label === 'Applying for which role?') {
+                index = _in + 1
+            }
+            if (fE.label === newKey) {
                 alreadyExists = true;
             }
         });
-        if(index >-1 && !alreadyExists){
-            formsElements.splice(index, 0,{
+        if (index > -1 && !alreadyExists) {
+            formsElements.splice(index, 0, {
                 "label": newKey,
                 "required": true,
                 "placeholder": "Select Option",
@@ -79,9 +80,28 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                 ],
                 "actionName": null,
                 "key": camelCase(newKey),
-                "fileKeyName":  camelCase(newKey) + 'FileName'
+                "fileKeyName": camelCase(newKey) + 'FileName'
             })
         }
+    } else {
+        let index = -1;
+        let alreadyExists = false;
+        let newKey = 'Would you be open to moving between Product and Consulting roles?';
+        formsElements.forEach((fE, _in) => {
+            if (fE.label === newKey) {
+                alreadyExists = true;
+                index = _in
+            }
+        });
+        if (index > -1 && alreadyExists) {
+            formsElements.splice(index, 1,)
+            const formObjectTemp = {
+                ...formObject
+            };
+            formObjectTemp[camelCase(newKey)] = '';
+            setFormObject(formObjectTemp);
+        }
+
     }
     const VALID_TEXT = (element) => {
         if (!element.required) {
