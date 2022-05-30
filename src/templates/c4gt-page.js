@@ -13,6 +13,7 @@ export const C4GTTemplate = ({content}) => {
     return (
         <React.Fragment>
             <CareerBannerImage bannerContent={content}/>
+            <CareerSectionSecond fromC4GT={true} content={content}/>
         </React.Fragment>
     )
 };
