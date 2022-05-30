@@ -303,20 +303,6 @@ team:
     name: Khyati Narula
     project: Saksham Haryana-Skills & Employment
   - bio: >-
-      Krittika holds a Bachelor’s degree in Management Studies from Shaheed
-      Sukhdev College of Business Studies,  University of Delhi. Before joining
-      Samagra, she was working with the Marketing, Sales and Pricing practice at
-      Boston Consulting Group (BCG).
-
-
-      An opportunity to design and implement innovative, scalable solutions to
-      solve complex governance challenges facing India brought Krittika to
-      Samagra. Currently, she is part of the Samarth team in Himachal Pradesh.
-    image: /img/krittika.png
-    linkedInProfile: 'https://www.linkedin.com/in/krittika-takiar-a3b857118/'
-    name: Krittika Takiar
-    project: Samarth
-  - bio: >-
       Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
       University Jaipur. He is also a Young India Fellow from Ashoka University.
       Before joining Samagra, he was working at Harappa Education as a Key
@@ -469,21 +455,6 @@ team:
     name: Rhythm Behl
     project: ' Young Warrior'
   - bio: >-
-      Rhythm holds a Bachelor's degree in Mechanical Engineering from Indian
-      Institute of Technology, Kanpur. He has previously interned with Bajaj
-      Auto Ltd to develop indigenous technologies as a part of the Research and
-      Development team. Rhythm believes that improving governance mechanisms is
-      crucial for the progress of a developing nation like India. An opportunity
-      to make use of his volunteer experience and analytical abilities brought
-      him to Samagra. 
-
-
-      Currently, he is part of the ADAPT-F&ARD team in Odisha.
-    image: /img/rhythm.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/rhythmpathak/'
-    name: Rhythm Pathak
-    project: ADAPT-F&ARD
-  - bio: >-
       Ria holds a Masters’ degree in Development Studies from Ambedkar
       University and a Bachelor’s Degree in Political Science from Lady Shri Ram
       College for Women, Delhi. Before joining Samagra she has actively worked
@@ -548,27 +519,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/shashwat-shah-32a1131b4/'
     name: Shashwat Shah
     project: Saksham Haryana-Skills & Employment
-  - bio: >-
-      Shivam holds a Bachelor's degree in Economics from Kirori Mal College,
-      Delhi University, and a Post-Graduate Diploma in Liberal Studies under the
-      Young India Fellowship at Ashoka University. Before joining Samagra, he
-      worked at the intersection of gender equality and reproductive health at
-      an international public health advocacy firm, Global Health Strategies.
-      Passionate about the social sector, he also actively mentors young
-      students who want to chart out a path in the sector, under his initiative
-      Impact Connect. 
-
-
-      The opportunity to gain hands-on experience on end-to-end governance
-      consulting projects coupled with the ability to create impact at scale
-      brought him to Samagra. 
-
-
-      Currently, he is part of the Young Warrior team.
-    image: /img/edited_shivam.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/shivam-shukla-b7a0b7121/'
-    name: Shivam Shukla
-    project: Young Warrior
   - bio: >-
       Shruti is pursuing a Bachelor's degree in Computer Science Engineering
       from JSS, Nodia. Before joining Samagra, she completed Google Summer of
