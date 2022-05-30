@@ -120,7 +120,7 @@ collections:
           - {label: "Slides", name: slides, widget: list, fields: [{label: Image, name: image, widget: image},{label: Text, name: text, widget: string}]}
           - {label: "Roles", name: roles, widget: object, fields: [{label: Youtube Link, name: youtubeLink, widget: string}, {label: Responsibilities, name: items, widget: list, fields: [{label: Title, name: title, widget: text}, {label: Description, name: description, widget: text}]}]}
           - {label: "FAQ", name: faq, widget: list, fields: [{label: Question, name: question, widget: text}, {label: Answer, name: answer, widget: text}]}
-      - file: "src/pages/C4GT/index.md"
+      - file: "src/pages/c4gt/index.md"
         label: "C4GT Page"
         name: "c4gt"
         fields:
