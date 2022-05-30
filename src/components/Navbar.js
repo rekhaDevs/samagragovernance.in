@@ -85,6 +85,9 @@ const Navbar = class extends React.Component {
                                 <a className="nav-link" href="https://tech.samagragovernance.in">SamagraX</a>
                             </li>
                             <li>
+                                <Link to={'/c4gt'}><a className="nav-link" href="/c4gt">Code for GovTech</a></Link>
+                            </li>
+                            <li>
                                 <Link to={'/team'}><a className="nav-link" href="/team">Team</a></Link>
                             </li>
                             <li>
