@@ -1,16 +1,15 @@
 ---
 templateKey: c4gt-page
-title: Careers @ Samagra
-bannerImage: /img/career-header-bg.jpg
+title: Code for GovTech
+bannerImage: /img/code-for-govtech-c4gt-.jpg
 centerBanner:
   image: /img/diverse.jpg
 mainContent:
   - text: >-
-      Do you want to work on the most challenging governance problems facing our
-      country? Are you passionate about building a stronger India but unsure
-      what the first step is? Join us on our journey to transform governance in
-      India and work with the best in the social impact sector. Samagra offers
-      its consultants a steep professional learning curve and an opportunity to
-      create real impact on the ground.
+      Code for GovTech (C4GT) is an annual summer coding program to create a
+      community that can build and contribute to global digital public
+      goods.     If you want to use Open Source GovTech to create impact, then
+      this is the opportunity for you!  ​  C4GT is being organised by Samagra
+      and supported by Omidyar Network India.
 ---
 
