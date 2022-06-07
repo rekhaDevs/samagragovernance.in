@@ -18,7 +18,11 @@ const CareerSectionSecond = ({content, fromC4GT}) => {
                     </div>
                     <div className={'text-center mt-4'}>
                         <PrimaryButton classes={'py-3 text-uppercase'} click={() => {
+                           if(fromC4GT){
                             window.open('https://www.codeforgovtech.in/apply');
+                           }else{
+                           window.location.href = '/joinus'
+                           }
                         }} text={'Apply'}/>
                     </div>
                     {<div className={'fw-600 philosophy-title text-center mt-5 pt-4 mb-5'}>
