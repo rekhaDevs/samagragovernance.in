@@ -497,14 +497,10 @@ team:
       environmental consulting company, in Seattle. Her interest in
       transitioning to the development sector and facilitating sustainable
       change on the ground brought her to Samagra. 
-
-
-      Sagari is the Program Coordinator of the Saksham Haryana-Skills &
-      Employment team and manages its daily operations.
     image: /img/sagari.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sagari-handa-5a86157a'
     name: Sagari Handa
-    project: ' Saksham Haryana-Skills & Employment'
+    project: ' SamagraX'
   - bio: >-
       Saket holds a Bachelor's degree Information Science engineering from BMS
       College of Engineering. He has previously worked in TCS and Samsung
