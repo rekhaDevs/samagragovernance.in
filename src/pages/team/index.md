@@ -334,11 +334,11 @@ team:
       with the government, brought him to Samagra.
 
 
-      Currently, he is part of the Mission Prerna team in Uttar Pradesh.
+      Currently, he is part of the SamagraX team.
     image: /img/naman-gupta.jpg
     linkedInProfile: 'https://www.linkedin.com/in/naman6596/'
     name: Naman Gupta
-    project: Mission Prerna
+    project: SamagraX
   - bio: >-
       Namisha holds a Master’s degree in Development Economics from South Asian
       University and a Bachelor’s degree in Economics from Gargi College,
@@ -430,7 +430,7 @@ team:
       the power of technology brought him to Samagra. 
 
 
-      Currently, he is part of the Mission Prerna team.
+      Currently, he is part of the Mission Prerna team in Uttar Pradesh
     image: /img/edited-raghav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
     name: Raghav Katyal
