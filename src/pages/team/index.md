@@ -430,11 +430,11 @@ team:
       the power of technology brought him to Samagra. 
 
 
-      Currently, he is part of the Young Warrior team.
+      Currently, he is part of the Mission Prerna team.
     image: /img/edited-raghav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
     name: Raghav Katyal
-    project: ' Young Warrior'
+    project: Mission Prerna
   - bio: >-
       Raju worked with Punj Lloyd as a administrative assistant in Libya, and
       with Walt Disney as a Office Coordinator. He manages the daily
