@@ -730,5 +730,25 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
     name: Viren Bavishi
     project: Saksham Haryana-Skills & Employment & Mission Prerna
+  - bio: >-
+      Deepshikha holds a Master's degree in Nutrition and Public Health from
+      S.N.D.T. Women's University, Mumbai and a Bachelor's degree in the same
+      discipline from Lady Irwin College, University of Delhi. Before joining
+      Samagra, she has actively worked in different capacities with bureaucrats
+      and politicians in policy research, advisory and consulting on a range of
+      issues such as maternal health, education, employment, etc. Previously,
+      she has worked with the Government of Haryana as a State Consultant in the
+      Women and Child Development Department and has also been a Chief
+      Minister’s Good Governance Associate. She has also been an India fellow as
+      part of the India Fellow Social Leadership Program where she worked in the
+      tribal regions of Rajasthan. 
+
+
+      A strong passion to create tangible and measurable impact at scale, brings
+      Deepshikha to Samagra.
+    image: /img/deepshikha.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/deepshikha-chhetri/'
+    name: ' Deepshikha Chhetri'
+    project: Saksham Haryana-Education
 ---
 
