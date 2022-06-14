@@ -161,12 +161,12 @@ team:
       capacity building in health and education. Passionate about the
       development sector, she has also worked with the United Nations and
       Government of Delhi. Her strong belief in using governance as a lever for
-      societal change brought her to Samagra. Currently she is part of the
-      Samarth team in Himachal Pradesh.
+      societal change brought her to Samagra. Currently she is part of the CEO's
+      Office.
     image: /img/anusheela_7528.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anusheela-ghosh/'
     name: Anusheela Ghosh
-    project: Samarth
+    project: CEO's Office
   - bio: >-
       Ashish holds a dual degree in Computer Science & Engineering from Indian
       Institute of Technology, Kharagpur. Before joining Samagra, he was working
