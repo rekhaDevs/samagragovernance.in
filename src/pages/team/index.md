@@ -697,11 +697,12 @@ team:
 
 
       An opportunity to leverage the power of technology to transform governance
-      brought Umang to Samagra. Currently he is part of the SamagraX team.
+      brought Umang to Samagra. Currently he is part of the Samarth team in
+      Himachal Pradesh.
     image: /img/umang_ctt.jpg
     linkedInProfile: 'https://www.linkedin.com/in/umang-bhola-194b6686/'
     name: Umang Bhola
-    project: SamagraX
+    project: Samarth
   - bio: >-
       Utkarsh holds a Bachelor's degree in Computer Science Engineering from
       NIT, Jalandhar. Previously, he has worked as Technology Consultant with
