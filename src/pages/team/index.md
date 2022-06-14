@@ -131,12 +131,11 @@ team:
       interned at NITI Aayog and Ernst & Young. Ananya co-founded the Rotaract
       Club of her college and was also part of the street play society. An
       opportunity to bring about impact at scale for citizens by working with
-      government brought her to Samagra. Currently, she is part of the Mission
-      Prerna team in Uttar Pradesh.
+      government brought her to Samagra.
     image: /img/ananya_7677.jpg
     linkedInProfile: 'https://www.linkedin.com/feed/update/urn:li:activity:6680824251118944256/'
     name: Ananya Jain
-    project: Mission Prerna
+    project: .
   - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
