@@ -626,7 +626,8 @@ team:
       him to Samagra. 
 
 
-      Sukhpreet currently manages the SamagraX team.
+      Sukhpreet is Vice President at Samagra and currently leads the SamagraX
+      team.
     image: /img/sukhpreet_7699.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sukhpreetsekhon'
     name: Sukhpreet Sekhon
@@ -689,11 +690,11 @@ team:
       at scale through good governance brought her to Samagra. 
 
 
-      Ujjwal currently leads the Mission Prerna programme in Uttar Pradesh. 
+      Ujjwal is currently Chief of Staff to the CEO.
     image: /img/ujjwal_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
-    project: Mission Prerna
+    project: Chief of Staff
   - bio: >-
       Umang holds a Bachelor's degree in Information Technology from Punjab
       Engineering College. He was previously working as a software engineer with
