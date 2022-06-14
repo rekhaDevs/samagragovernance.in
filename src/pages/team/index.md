@@ -720,12 +720,12 @@ team:
       technology, consulting and entrepreneurial skills brought him to Samagra. 
 
 
-      Utkarsh currently leads the ADAPT-Agriculture and F&ARD programmes in
-      Odisha.
+      Utkarsh is Vice President at Samagra and currently leads the ADAPT-F&ARD
+      programme in Odisha.
     image: /img/Utkarsh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
-    project: ADAPT-Agriculture & F&ARD
+    project: ADAPT-F&ARD
   - bio: >
       Viren holds an MBA from S.P. Jain Institute of Management & Research.
       Before joining Samagra, he was working as a Senior Manager with Kearney,
