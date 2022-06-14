@@ -44,11 +44,11 @@ team:
       his last project involved conceptualising a marketing tech product. He has
       previously also worked at EY. His belief that governance is the critical
       lever to creating sustainable and scalable solutions brought him to
-      Samagra. Currently, he is part of the SamagraX team.
+      Samagra. Currently, he is part of the CEO's Office.
     image: /img/aayush_7903.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aayushkedia'
     name: Aayush Kedia
-    project: SamagraX
+    project: CEO's Office
   - bio: >-
       Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
       dual degree in Mechanical Engineering from Indian Institute of Technology,
@@ -95,12 +95,12 @@ team:
       at scale brought her to Samagra. 
 
 
-      Aditi is the Program Coordinator of the Saksham Haryana-Education team and
-      manages its daily operations.
+      Aditi is the Program Coordinator of the CEO's Office and manages its daily
+      operations.
     image: /img/aditi_7685.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aditi-phadnis93/'
     name: Aditi Phadnis
-    project: Saksham Haryana-Education
+    project: CEO's Office
   - bio: "Aditya holds an MBA from the University of Oxford and BTech in Mechanical Engineering from YMCA Faridabad. He previously worked as an Associate Equity\_Analyst (Team Lead) at Trefis for 4 years where he\_was catering to top investment banks by analyzing sell-side securities of global internet, e-commerce and telecom companies listed on NYSE and NASDAQ.\_As an undergrad, he was keen to join the Indian civil services and attempted the\_examination\_three times, giving final interviews on all three occasions. An opportunity to apply his problem solving and people skills to improve governance and create impact at scale brought him to Samagra. \n\nAditya is Vice President at Samagra and currently leads the Saksham Haryana-Education and Samarth programmes."
     image: /img/aditya_7618.jpg
     linkedInProfile: 'https://www.linkedin.com/in/adityachopra770/'
@@ -361,12 +361,11 @@ team:
       also completed a course on 'Re-thinking the Obvious: Rhetoric of
       Development' at Miranda House in collaboration with The George Washington
       University. An opportunity to create positive impact in the lives of
-      people and an interest in public policy brings Pragya to Samagra.
-      Currently, she is part of the ADAPT-F&ARD team in Odisha.
+      people and an interest in public policy brings Pragya to Samagra. 
     image: /img/pragya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/pragya-mathur-678779126'
     name: Pragya Mathur
-    project: ADAPT-F&ARD
+    project: .
   - bio: >-
       Prasanna holds a Bachelor's degree in Statistics from St. Joseph's
       College, Trichy and a Master's in Computer Applications from Adaikalamatha
