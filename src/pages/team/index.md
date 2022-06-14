@@ -253,7 +253,7 @@ team:
     image: /img/edited_garima.jpeg.jpg
     linkedInProfile: 'https://www.linkedin.com/in/garima-sood/'
     name: Garima Sood
-    project: Communications Associate
+    project: Outreach Associate
   - bio: >-
       Gautam holds a Master's degree in Data Analytics from Georgia Institute of
       Technology, Atlanta and a Bachelor’s degree in Mechanical Engineering from
@@ -316,11 +316,11 @@ team:
 
       An intent to work towards building a better India by creating systemic
       change at scale brought her to Samagra. Currently, she is part of the
-      Saksham Haryana-Skills & Employment team.
+      CEO's Office.
     image: /img/khyati.jpg
     linkedInProfile: 'https://www.linkedin.com/in/khyati-narula-297701105/'
     name: Khyati Narula
-    project: Saksham Haryana-Skills & Employment
+    project: CEO's Office
   - bio: >-
       Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
       University Jaipur. He is also a Young India Fellow from Ashoka University.
