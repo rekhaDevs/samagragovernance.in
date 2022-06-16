@@ -655,6 +655,21 @@ team:
     name: Simran Bagga
     project: Saksham Haryana-Education
   - bio: >-
+      Sounak holds an MBA from Shailesh J. Mehta School of Management, IIT
+      Bombay and a Bachelor's degree in Mechanical Engineering from Jadavpur
+      University, Kolkata. Before joining Samagra, he was working as a Manager
+      in Procter & Gamble (P&G) where he worked on B2B sales, DTC, Indirect
+      Procurement etc.
+
+
+      An opportunity to create impact at the grassroot level brings Sounak to
+      Samagra. He intends to leverage his consulting experience and management
+      expertise to create impact at scale. 
+    image: /img/sounak.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/sounakkundu/'
+    name: Sounak Kundu
+    project: .
+  - bio: >-
       Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Previously, he has worked with KPMG to
       provide integrity intelligence for M&A transactions to Fortune 500
