@@ -232,7 +232,8 @@ team:
 
 
       A strong passion to create tangible and measurable impact at scale, brings
-      Deepshikha to Samagra.
+      Deepshikha to Samagra. Currently, she is part of the Saksham
+      Haryana–Education team.
     image: /img/deepshikha.jpg
     linkedInProfile: 'https://www.linkedin.com/in/deepshikha-chhetri/'
     name: ' Deepshikha Chhetri'
