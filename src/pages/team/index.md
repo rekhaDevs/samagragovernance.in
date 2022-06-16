@@ -551,6 +551,22 @@ team:
     name: Shipra Bihani
     project: .
   - bio: >-
+      Shraya holds a Bachelor's degree in Chemical Engineering from National
+      Institute of Technology Karnataka, Surathkal. Before joining Samagra, she
+      was working as a Customer & Application Development Engineer, South Asia
+      in the Chemicals division at ExxonMobil. Shraya has also been a fellow as
+      part of the Policy in Action Program with Young Leaders for Active
+      Citizenship (YLAC) and has also been a Global Governance Initiative (GGI)
+      Impact Scholar.
+
+
+      The penchant for problem solving while translating ideas on paper into
+      reality, brings Shraya to Samagra. 
+    image: /img/shraya.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shraya-sapru/'
+    name: Shraya Sapru
+    project: .
+  - bio: >-
       Shruti is pursuing a Bachelor's degree in Computer Science Engineering
       from JSS, Nodia. Before joining Samagra, she completed Google Summer of
       Code 2021 contributing to FOSSology and has also worked with several
