@@ -648,6 +648,23 @@ team:
     name: Shubham Bansal
     project: ADAPT- F&ARD
   - bio: >-
+      Shubhodeep holds a Bachelor’s degree in Manufacturing Engineering from
+      Birla Institute of Technology and Science, Pilani (BITS Pilani). Before
+      joining Samagra, he was working as a Principal Associate at Indian
+      Political Action Committee (I-PAC), primarily leading teams to devise
+      election-winning strategies for different political parties. 
+
+
+      A strong motivation to bring about a systemic and sustainable change in
+      governance brings Shubhodeep to Samagra. He intends to leverage his rich
+      on-ground experience of working with politicians, bureaucrats, and NGOs to
+      create impact at scale. Shubhodeep is the Program Coordinator of the
+      Saksham Haryana-Education team and manages its daily operations.
+    image: /img/shubhodeep.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/dattashubhodeep/'
+    name: Shubhodeep Datta
+    project: Saksham Haryana-Education
+  - bio: >-
       Siddhant holds a Bachelor's degree in Mechanical Engineering from Vellore
       Institute of Technology. Before joining Samagra, he was working as a
       Management Consultant with EY's Business Consulting vertical, primarily
