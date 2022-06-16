@@ -442,6 +442,20 @@ team:
     name: Raju Ram
     project: NA
   - bio: >-
+      Reetika holds an integrated Bachelor's and Master's Degree in Physics from
+      Birla Institute of Technology and Science, Pilani (BITS Pilani) and is a
+      CFA Level II candidate. Before joining Samagra, she was working as an AVP
+      in the Benchmark Administration team of Citi. 
+
+
+      A strong belief in governance being a key lever to drive change brings
+      Reetika to Samagra. She intends to leverage her professional and academic
+      experiences to create impact at scale.
+    image: /img/reetika.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/reetika-srivastava/'
+    name: Reetika Srivastava
+    project: Saksham Haryana-Skills & Employment
+  - bio: >-
       Rhea holds a Bachelor’s degree in Sociology from Maitreyi College,
       University of Delhi. Before joining Samagra, she was working with Project
       Raahat, a youth-led campaign against domestic violence.
