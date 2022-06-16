@@ -354,6 +354,26 @@ team:
     name: Namisha Mehra
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Nikhil holds an MBA from the Indian Institute of Management Ahmedabad
+      (IIMA), a Master’s degree in Public Administration from Indira Gandhi
+      National Open University (IGNOU), New Delhi and a Bachelor’s degree in
+      Information Technology from Krishna Institute of Engineering and
+      Technology, Ghaziabad. Before joining Samagra, he was working as an
+      Intelligence Officer with the Government of India (GoI), primarily
+      ensuring law enforcement and smooth rollout & implementation of Goods &
+      Services Tax (GST). 
+
+
+      An opportunity to converge technology and good governance practices to
+      create a meaningful impact in the lives of citizens, brings Nikhil to
+      Samagra. He intends to leverage his professional and academic experiences
+      to create impact at scale. Nikhil is the Program Coordinator of the
+      Saksham Haryana-Skills & Employment team and manages its daily operations.
+    image: /img/nikhil-s.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/nikhilsrivastava1991/'
+    name: Nikhil Srivastava
+    project: Saksham Haryana-Skills & Employment
+  - bio: >-
       Pragya hold a Bachelor's degree in Economics from Miranda House,
       University of Delhi. She has previously interned at CollarFolk, a start up
       in Gurgaon and conceptualized a self-guided social entrepreneurship
@@ -716,8 +736,8 @@ team:
 
 
       An opportunity to work on governance challenges from an implementation
-      perspective brought Tanvi to Samagra. Currently, she is part of the
-      Mission Prerna team in Uttar Pradesh. 
+      perspective brought Tanvi to Samagra. Tanvi is the Program Coordinator of
+      the Mission Prerna team in Uttar Pradesh and manages its daily operations.
     image: /img/tanvi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/tanvi-sharma-156a95100/'
     name: Tanvi Sharma
