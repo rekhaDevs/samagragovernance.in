@@ -746,5 +746,22 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
     name: Viren Bavishi
     project: Saksham Haryana-Skills & Employment & Mission Prerna
+  - bio: >-
+      Shipra holds an MPhil degree in Public Policy from the University of
+      Cambridge, UK and a Bachelor's degree in History from Lady Shri Ram
+      College for Women, University of Delhi. Before joining Samagra, she was
+      working as a Research Manager at Centre for Science of Student Learning
+      (CSSL), assessing cognitive and affective skill development among students
+      in South Asia and making recommendations for its improvement to
+      policymakers. 
+
+
+      A desire to solve some of society's most critical challenges and bring
+      about a meaningful change in people's lives at scale, brings Shipra to
+      Samagra.
+    image: /img/shipra.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shipra-bihani-a224a674/'
+    name: Shipra Bihani
+    project: .
 ---
 
