@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: What does it mean to be a Program Coordinator (PC) at Samagra?
+title: What does it mean to be a Program Coordinator?
 author: Abhay Singh
 projectId: Organisation
 authorImage: /img/abhay_7665.jpg
