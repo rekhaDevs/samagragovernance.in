@@ -14,9 +14,7 @@ My Samagra journey started in February 2020 as a Consultant in the Skilling and 
 
 At Samagra, the distinction between designation and role is made at the organisation and program level. While the designations are Associate & Sr. Associate, Consultant & Sr. Consultant, ​​Manager & Sr. Manager, Vice President & Sr. Vice President, within a team roles are defined as Program Associate (PA), Program Coordinator (PC) and Program Lead (PL).
 
-![](/img/screen-shot-2022-06-30-at-3.08.09-pm.png)
-
-As the above illustration depicts, the Program Coordinator is the fulcrum of a program. The PC has to interface with external stakeholders as well as senior and junior team members. The PC has to have both a strategic lens as well as manage the daily operations of the program to ensure time delivery of outcomes. Broadly speaking, a PC has five responsibilities:
+The Program Coordinator is the fulcrum of a program. The PC has to interface with external stakeholders as well as senior and junior team members. The PC has to have both a strategic lens as well as manage the daily operations of the program to ensure time delivery of outcomes. Broadly speaking, a PC has five responsibilities:
 
 1. Preempting, flagging and mitigating risks in a timely manner,
 2. Creating clarity for program associates on daily and long term objectives,
