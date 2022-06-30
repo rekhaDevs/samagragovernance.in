@@ -6,7 +6,7 @@ projectId: Organisation
 authorImage: /img/abhay_7665.jpg
 date: 2022-06-30T09:34:56.580Z
 description: N/A
-featuredimage: /img/screen-shot-2022-06-30-at-3.08.09-pm.png
+featuredimage: /img/abhay-blog.png
 ---
 My Samagra journey started in February 2020 as a Consultant in the Skilling and Employment program with the Government of Haryana. The program aims at facilitating employment linkages for the citizens of the state. As a Consultant I was managing 5-8 interventions, known as workstreams in Samagra, within the larger state program and was fully responsible for the delivery of these workstreams against predefined objectives. One and a half years into this journey, I was given the opportunity to step up as a Program Coordinator (PC) to lead a team on a new Samagra program, called Young Warrior NXT. This program focuses on identifying scalable training models for teaching life skills (such as communication, collaboration, problem solving etc.) to 14-18 year old students in the country. 
 
