@@ -859,6 +859,21 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
     project: ADAPT-F&ARD
+  - bio: >-
+      Vijeeth holds a Bachelor's degree in Commerce from Kirori Mal College,
+      University of Delhi. Before joining Samagra, he was leading a team at the
+      Jitin Chawla Centre for Career Development focused on expanding access to
+      foreign education and skill development in South Asian Markets.
+
+
+      A strong motivation to drive impact at the grassroots across a
+      comprehensive range of development markers, combined with a deep-rooted
+      interest for first-principle based problem solving, brings Vijeeth to
+      Samagra.
+    image: /img/vijeeth-website.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/vijeeth-srinivas-756873148/'
+    name: Vijeeth Srinivas
+    project: .
   - bio: >
       Viren holds an MBA from S.P. Jain Institute of Management & Research.
       Before joining Samagra, he was working as a Senior Manager with Kearney,
