@@ -303,6 +303,19 @@ team:
     name: Gayatri Chandrasekaran
     project: Communications Strategy
   - bio: >-
+      Govind holds a Bachelor’s degree in Economics from Hansraj College,
+      University of Delhi. Before joining Samagra, he was working as a
+      Legislative Assistant to a Rajya Sabha Member of Parliament supporting
+      multiple initiatives in the MP's constituency.
+
+
+      The urge to actualise implementation and the desire to engage with the
+      executive governance machinery, brings Govind to Samagra. 
+    image: /img/govind.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/govind-gupta-9559481b0/'
+    name: Govind Gupta
+    project: .
+  - bio: >-
       Khyati holds a Master’s degree in Management from London Business School
       and a Bachelor’s degree in Commerce from Hansraj College, University of
       Delhi. She has previously worked as an Analyst with the strategy
