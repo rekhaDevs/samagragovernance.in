@@ -503,6 +503,22 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/ria-goyal-2b3935189/'
     name: Ria Goyal
     project: ' '
+  - bio: >
+      Rinkle holds a Bachelor's degree in Commerce from Hansraj College,
+      University of Delhi. She is also a Young India Fellow from Ashoka
+      University. Before joining Samagra, she was working as a Manager at 9.9
+      Education, providing strategy & implementation support to launch and
+      operationalise higher education programs and institutions.
+
+
+      A strong desire to contribute towards large-scale social impact,
+      understand the ground realities while working alongside different
+      stakeholders, brings Rinkle to Samagra. She plans to leverage her
+      multidisciplinary experiences and creativity to create impact at scale.
+    image: /img/rinkle.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/rinkle-dang-b4a230a3/'
+    name: Rinkle Dang
+    project: .
   - bio: >-
       Sagari holds a Bachelor's and Master's degree in Environmental Engineering
       from Delhi Technological University and Stanford University, respectively.
