@@ -303,6 +303,19 @@ team:
     name: Khyati Narula
     project: CEO's Office
   - bio: >-
+      Manik holds a Bachelor's degree in Commerce from Hansraj College,
+      University of Delhi. He is also a licensed Certified Public Accountant.
+      Before joining Samagra, he was working as an Internal Auditor with Nokia.
+
+
+      A strong desire to bring about systemic change brings Manik to Samagra. He
+      plans to leverage his problem solving and stakeholder management skills to
+      create impact at scale.
+    image: /img/manik.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/manik05/'
+    name: Manik
+    project: Samarth
+  - bio: >-
       Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
       University Jaipur. He is also a Young India Fellow from Ashoka University.
       Before joining Samagra, he was working at Harappa Education as a Key
