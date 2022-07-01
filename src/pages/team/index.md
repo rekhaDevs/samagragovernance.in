@@ -196,6 +196,20 @@ team:
     name: Ashish Yadav
     project: SamagraX
   - bio: >-
+      Bhavya holds a Bachelor's degree in Mathematics from St. Stephen's
+      College, University of Delhi. Before joining Samagra, she was working as a
+      Business Analyst at Zomato, primarily in the supply side of the food
+      delivery and dine out business. 
+
+
+      A strong motivation to implement change on the ground and create
+      meaningful impact in the lives of citizens at scale, by engaging with the
+      governance process, brings Bhavya to Samagra.
+    image: /img/bhavya-a.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/bhavya-agrawal-1a13b9170/'
+    name: Bhavya Agrawal
+    project: .
+  - bio: >-
       Bhavya holds a Bachelor’s degree in Commerce from Jesus and Mary College,
       University of Delhi and a Post-Graduate Diploma in Liberal Studies under
       the Young India Fellowship at Ashoka University. She was previously
