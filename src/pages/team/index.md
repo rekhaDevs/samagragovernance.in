@@ -155,6 +155,21 @@ team:
     name: Ankit Goel
     project: Young Warrior
   - bio: >-
+      Anurag holds a Bachelor's degree in Engineering from NSUT, University of
+      Delhi. Before joining Samagra, he was working as an Analyst at Everest
+      Group in their strategic advisory practice, helping BFSI (Banking
+      Financial Services and Insurance) firms in their IT transformation and
+      strategic sourcing needs.
+
+
+      A strong desire to contribute towards improving public services and
+      enhancing quality of life of citizens coupled with a passion for tech and
+      governance, brings Anurag to Samagra. 
+    image: /img/anurag.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/anurag-bahadur-singh-2790b3142/'
+    name: Anurag Bahadur Singh
+    project: SamagraX
+  - bio: >-
       Anusheela holds a Bachelor's degree in Psychology (Hons) from Lady Shri
       Ram College For Women, Delhi University. Before joining Samagra, she was
       working as a Projects Executive at ECHO India, which works towards
