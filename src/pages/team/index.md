@@ -258,6 +258,17 @@ team:
     name: Chakshu Gautam
     project: SamagraX
   - bio: >-
+      Deepanshu holds a Bachelor's degree in Politics, Philosophy & Economics
+      from Ashoka University.
+       
+      An opportunity to contribute towards driving value for the public and
+      various stakeholders in the government and to create real impact at scale,
+      brings Deepanshu to Samagra.
+    image: /img/deepanshu.png
+    linkedInProfile: 'https://www.linkedin.com/in/deepanshu-singal-12489119b/'
+    name: Deepanshu Singal
+    project: .
+  - bio: >-
       Deepshikha holds a Master's degree in Nutrition and Public Health from
       S.N.D.T. Women's University, Mumbai and a Bachelor's degree in the same
       discipline from Lady Irwin College, University of Delhi. Before joining
