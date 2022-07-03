@@ -165,6 +165,9 @@ team:
       A strong desire to contribute towards improving public services and
       enhancing quality of life of citizens coupled with a passion for tech and
       governance, brings Anurag to Samagra. 
+
+
+      Currently, he is part of the SamagraX team.
     image: /img/anurag.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anurag-bahadur-singh-2790b3142/'
     name: Anurag Bahadur Singh
@@ -189,8 +192,8 @@ team:
       capacity building in health and education. Passionate about the
       development sector, she has also worked with the United Nations and
       Government of Delhi. Her strong belief in using governance as a lever for
-      societal change brought her to Samagra. Currently she is part of the CEO's
-      Office.
+      societal change brought her to Samagra. Currently, she is part of the
+      CEO's Office.
     image: /img/anusheela_7528.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anusheela-ghosh/'
     name: Anusheela Ghosh
@@ -236,7 +239,7 @@ team:
        
       An opportunity to work with stakeholders in the governance ecosystem and
       contribute towards improving the life of citizens, brings Bhavya to
-      Samagra.
+      Samagra. Currently, he is part of the CEO's Office.
     image: /img/bhavya-n.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bhavyanawalakha/'
     name: Bhavya Nawalakha
@@ -361,7 +364,8 @@ team:
       A deep interest in subnational governance and a penchant for problem
       solving brings Jayashankar to Samagra. He intends to leverage his academic
       grounding and hands-on experience in governance and developmental issues
-      to create impact at scale.
+      to create impact at scale. Currently, he is part of the Samarth team in
+      Himachal Pradesh.
     image: /img/jayashankar.png
     linkedInProfile: 'https://www.linkedin.com/in/jayashankar-vengathattil/'
     name: Jayashankar Vengathattil
@@ -389,7 +393,8 @@ team:
 
       A strong desire to bring about systemic change brings Manik to Samagra. He
       plans to leverage his problem solving and stakeholder management skills to
-      create impact at scale.
+      create impact at scale. Currently, he is part of the Samarth team in
+      Himachal Pradesh.
     image: /img/manik.jpg
     linkedInProfile: 'https://www.linkedin.com/in/manik05/'
     name: Manik
@@ -471,7 +476,8 @@ team:
 
 
       A strong passion for creating systemic change in governance while driving
-      impact at the grassroots, brings Praachi to Samagra.
+      impact at the grassroots, brings Praachi to Samagra. Currently, she is
+      part of the Samarth team in Himachal Pradesh.
     image: /img/praachi.png
     linkedInProfile: 'https://www.linkedin.com/in/praachi-bhatia/'
     name: Praachi Bhatia
@@ -541,8 +547,8 @@ team:
     name: Radhay Anand
     project: SamagraX
   - bio: >-
-      Raghav holds a Bachelors' degree in Political Science and Economics from
-      Ashoka Univeristy. Before joining Samagra, he was working as a Legislative
+      Raghav holds a Bachelor's degree in Political Science and Economics from
+      Ashoka University. Before joining Samagra, he was working as a Legislative
       Assistant to a Lok Sabha Member of Parliament, supporting multiple
       development initiatives in the MP's constituency.
 
