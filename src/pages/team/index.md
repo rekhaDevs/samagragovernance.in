@@ -170,19 +170,6 @@ team:
     name: Anurag Bahadur Singh
     project: SamagraX
   - bio: >-
-      Anusheela holds a Bachelor's degree in Psychology (Hons) from Lady Shri
-      Ram College For Women, Delhi University. Before joining Samagra, she was
-      working as a Projects Executive at ECHO India, which works towards
-      capacity building in health and education. Passionate about the
-      development sector, she has also worked with the United Nations and
-      Government of Delhi. Her strong belief in using governance as a lever for
-      societal change brought her to Samagra. Currently she is part of the CEO's
-      Office.
-    image: /img/anusheela_7528.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/anusheela-ghosh/'
-    name: Anusheela Ghosh
-    project: CEO's Office
-  - bio: >-
       Ashish holds a dual degree in Computer Science & Engineering from Indian
       Institute of Technology, Kharagpur. Before joining Samagra, he was working
       as an Engineering Manager at Facebook (now Meta), primarily building
@@ -195,6 +182,19 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/ashishkumaryadav/'
     name: Ashish Yadav
     project: SamagraX
+  - bio: >-
+      Anusheela holds a Bachelor's degree in Psychology (Hons) from Lady Shri
+      Ram College For Women, Delhi University. Before joining Samagra, she was
+      working as a Projects Executive at ECHO India, which works towards
+      capacity building in health and education. Passionate about the
+      development sector, she has also worked with the United Nations and
+      Government of Delhi. Her strong belief in using governance as a lever for
+      societal change brought her to Samagra. Currently she is part of the CEO's
+      Office.
+    image: /img/anusheela_7528.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/anusheela-ghosh/'
+    name: Anusheela Ghosh
+    project: CEO's Office
   - bio: >-
       Bhavya holds a Bachelor's degree in Mathematics from St. Stephen's
       College, University of Delhi. Before joining Samagra, she was working as a
@@ -230,6 +230,17 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/bhavya-berlia-936a8b128/'
     name: Bhavya Berlia
     project: Mission Prerna
+  - bio: >-
+      Bhavya holds a Bachelor’s degree in Management Studies from Shaheed
+      Sukhdev College of Business Studies, University of Delhi.
+       
+      An opportunity to work with stakeholders in the governance ecosystem and
+      contribute towards improving the life of citizens, brings Bhavya to
+      Samagra.
+    image: /img/bhavya-n.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/bhavyanawalakha/'
+    name: Bhavya Nawalakha
+    project: CEO's Office
   - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
@@ -357,6 +368,16 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/manik05/'
     name: Manik
     project: Samarth
+  - bio: >-
+      Mehul holds a Bachelor's degree in Economics from Hindu College,
+      University of Delhi.
+       
+      A strong passion for creating impact at scale through the ambit of
+      governance brings Mehul to Samagra.
+    image: /img/mehul.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/mehul-sehgal-a38337152/'
+    name: Mehul Sehgal
+    project: .
   - bio: >-
       Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
       University Jaipur. He is also a Young India Fellow from Ashoka University.
