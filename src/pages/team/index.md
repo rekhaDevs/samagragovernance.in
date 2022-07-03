@@ -405,6 +405,15 @@ team:
     name: Mehul Sehgal
     project: .
   - bio: >-
+      Mradul holds a Bachelor's degree in Civil Engineering from IIT Kanpur. A
+      strong motivation to contribute towards improving public service delivery
+      by co-working with the government and creating real impact at scale,
+      brings Mradul to Samagra.
+    image: /img/mradul-.png
+    linkedInProfile: 'https://www.linkedin.com/in/mradul-chaudhary/'
+    name: Mradul Chaudhary
+    project: .
+  - bio: >-
       Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
       University Jaipur. He is also a Young India Fellow from Ashoka University.
       Before joining Samagra, he was working at Harappa Education as a Key
