@@ -352,6 +352,21 @@ team:
     name: Govind Gupta
     project: .
   - bio: >-
+      Jayashankar holds a Master's degree in Development Studies from Tata
+      Institute of Social Sciences (TISS), Mumbai and a Bachelor's degree in
+      Commerce from Christ (Deemed to be University), Bengaluru. Before joining
+      Samagra, he was working as an associate with Janaagraha Centre for
+      Citizenship and Democracy with their Municipal Finance team.
+       
+      A deep interest in subnational governance and a penchant for problem
+      solving brings Jayashankar to Samagra. He intends to leverage his academic
+      grounding and hands-on experience in governance and developmental issues
+      to create impact at scale.
+    image: /img/jayashankar.png
+    linkedInProfile: 'https://www.linkedin.com/in/jayashankar-vengathattil/'
+    name: Jayashankar Vengathattil
+    project: Samarth
+  - bio: >-
       Khyati holds a Master’s degree in Management from London Business School
       and a Bachelor’s degree in Commerce from Hansraj College, University of
       Delhi. She has previously worked as an Analyst with the strategy
