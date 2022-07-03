@@ -442,6 +442,17 @@ team:
     name: Nikhil Srivastava
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Praachi holds a Bachelor's degree in Mathematics from St. Stephen's
+      College, University of Delhi.
+
+
+      A strong passion for creating systemic change in governance while driving
+      impact at the grassroots, brings Praachi to Samagra.
+    image: /img/praachi.png
+    linkedInProfile: 'https://www.linkedin.com/in/praachi-bhatia/'
+    name: Praachi Bhatia
+    project: Samarth
+  - bio: >-
       Pragya hold a Bachelor's degree in Economics from Miranda House,
       University of Delhi. She has previously interned at CollarFolk, a start up
       in Gurgaon and conceptualized a self-guided social entrepreneurship
