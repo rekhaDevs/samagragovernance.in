@@ -53,8 +53,10 @@ approach:
       for applications.
 readMore:
   - text: How Antyodaya Saral is simplifying everyday life in Haryana
+  - text: >-
+      How the Government is Planning to Build a Unified Portal for Citizens’
+      Services
   - text: 'Making it Happen: Antyodaya Saral'
-  - text: How technology can show way forward to improve governance in India
 impact:
   - count: 500+
     label: Government Departments
