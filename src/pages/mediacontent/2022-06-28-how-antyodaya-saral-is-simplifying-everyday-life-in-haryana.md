@@ -8,7 +8,7 @@ author: Gaurav Goel
 link: >-
   http://www.governancenow.com/views/columns/how-antyodaya-saral-is-simplifying-everyday-life-in-haryana
 tag: Antyodaya Saral
-displayOnHomePage: true
+displayOnHomePage: false
 image: /img/saral-kendra-2.jpg
 ---
 
