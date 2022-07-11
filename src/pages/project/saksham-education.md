@@ -44,11 +44,9 @@ approach:
       availability in schools, robust review and monitoring mechanisms, ongoing
       mentoring and training support for teachers).
 readMore:
-  - text: Haryana becomes first state to adopt tablet-based personalised learning
+  - text: 'E-Adhigam: Pedagogy lessons from Haryana for India'
+  - text: What the NAS results tell us about school education in India
   - text: How Haryana made government school education a political priority
-  - text: >-
-      Haryana Holds the Blueprint For Improving Govt Schools Across India. We
-      Tell You Why.
 impact:
   - count: '14'
     label: of 22 districts grade-competent
