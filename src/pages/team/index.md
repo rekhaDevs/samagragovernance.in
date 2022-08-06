@@ -199,20 +199,6 @@ team:
     name: Anusheela Ghosh
     project: CEO's Office
   - bio: >-
-      Bhavya holds a Bachelor's degree in Mathematics from St. Stephen's
-      College, University of Delhi. Before joining Samagra, she was working as a
-      Business Analyst at Zomato, primarily in the supply side of the food
-      delivery and dine out business. 
-
-
-      A strong motivation to implement change on the ground and create
-      meaningful impact in the lives of citizens at scale, by engaging with the
-      governance process, brings Bhavya to Samagra.
-    image: /img/bhavya-a.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/bhavya-agrawal-1a13b9170/'
-    name: Bhavya Agrawal
-    project: .
-  - bio: >-
       Bhavya holds a Bachelor’s degree in Commerce from Jesus and Mary College,
       University of Delhi and a Post-Graduate Diploma in Liberal Studies under
       the Young India Fellowship at Ashoka University. She was previously
@@ -584,19 +570,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/reetika-srivastava/'
     name: Reetika Srivastava
     project: Saksham Haryana-Skills & Employment
-  - bio: >-
-      Rhea holds a Bachelor’s degree in Sociology from Maitreyi College,
-      University of Delhi. Before joining Samagra, she was working with Project
-      Raahat, a youth-led campaign against domestic violence.
-
-
-      The passion to drive systemic change at the grassroots by catalysing the
-      lever of governance brought her to Samagra. Currently, she is part of the
-      ADAPT-F&ARD team in Odisha.
-    image: /img/edited_img_7655.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/rhea-kad-027733193/?originalSubdomain=in'
-    name: Rhea Kad
-    project: ADAPT-F&ARD
   - bio: >-
       Rhythm holds a Master’s in Economics from Gokhale Institute of Politics
       and Economics, Pune, and Policy Design and Management from the Indian
