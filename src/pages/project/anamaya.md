@@ -29,6 +29,23 @@ scale:
   - count: '96,00,000'
     label: Tribal citizens
 projectMiddleBannerImage: /img/up-niramaya_samagragovernance1.jpeg
+approach:
+  - text: >-
+      Our approach to transforming tribal population’s experience at public
+      healthcare facilities is centered on building institutional capacity, and
+      strengthening public healthcare service delivery channels in the system
+      given its current low resource capacity. This involves interventions to
+      augment doctor availability, build capacity of frontline workers,
+      streamline review and monitoring mechanisms and medicine availability and
+      so on. In cognizance of distinctive tribal realities and challenges,
+      interventions have been contextualized for implementation in tribal areas
+      while some solutions are exclusively targeted at tribal population.
+      Further all interventions are focused on priority health programs like the
+      Reproductive and Child Health program and the Non-Communicable Diseases
+      program. While there is a strong emphasis on supply side system
+      strengthening, adoption of demand side health promotion activities to
+      increase awareness and build people’s trust in the system is also being
+      undertaken.
 impact:
   - count: ' '
     label: ' Building system capacity by augmenting health resources & enforcing accountability'
