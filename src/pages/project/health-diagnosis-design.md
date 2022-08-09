@@ -5,7 +5,7 @@ domainNew: Past Projects
 fullName: Health Diagnosis & Design
 id: Health Diagnosis & Design
 backgroundCover: /img/health-banner-4.jpeg
-domain: Health
+domain: Past Projects
 subTitle: Samagra
 state: Gujarat & Odisha
 tagLine: Creating a roadmap for improving public healthcare delivery
