@@ -12,7 +12,7 @@ tagLine: Improving the quality of human resources in healthcare in Uttar Pradesh
 projectLogoWithState: /img/niramaya.png
 overview:
   - text: >-
-      Samagra, with support from the Bill & Melinda Gates Foundation is working
+      Samagra, with support from the Bill & Melinda Gates Foundation, is working
       with the Government of Uttar Pradesh to reform nursing and paramedical
       training in the state. UP has over 4.4 lakh registered medical
       professionals. These include 1.1 lakh doctors, 0.25 lakh dentists, 2.29
