@@ -8,9 +8,7 @@ backgroundCover: /img/up-niramaya_samagragovernance.jpg
 domain: Health
 subTitle: Samagra
 state: Uttar Pradesh
-tagLine: >-
-  Improving the quality of human resources in healthcare through a digital-first
-  approach
+tagLine: Improving the quality of human resources in healthcare in Uttar Pradesh
 projectLogoWithState: /img/niramaya.png
 overview:
   - text: >-
