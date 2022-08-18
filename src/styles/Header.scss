@@ -45,8 +45,9 @@
         }
 
         .sub-menu {
-          display: inline-block;
+          display: flex;
           position: absolute;
+
           background: white;
           left: 0;
           border-radius: 3px;
@@ -56,13 +57,13 @@
 
           .head-items-wrapper {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
 
             .head-item {
               padding: 10px 20px;
               font-size: 13px;
               cursor: pointer;
-
+              white-space: nowrap;
               &.head-focused {
                 background: #2B2B2B;
                 color: $primary;
@@ -72,14 +73,14 @@
 
           .sub-head-items-wrapper {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             background: #2B2B2B;
 
             .head-item {
               padding: 10px 20px;
               font-size: 12px;
               cursor: pointer;
-
+              white-space: nowrap;
               color: white;
             }
           }
