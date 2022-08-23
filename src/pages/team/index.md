@@ -411,6 +411,18 @@ team:
     name: Manik
     project: Samarth
   - bio: >-
+      Meena holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, she gained hands-on
+      experience in the field of social impact and consulting and interned with
+      The/ Nudge Foundation, mByom and Invest India. 
+
+
+      A strong motivation to create impact at scale brings Meena to Samagra. 
+    image: /img/edited_img_4110.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/meena-priyadarsnee-k/'
+    name: Meena Priyadarsnee K
+    project: .
+  - bio: >-
       Mehul holds a Bachelor's degree in Economics from Hindu College,
       University of Delhi.
        
@@ -419,6 +431,17 @@ team:
     image: /img/mehul.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mehul-sehgal-a38337152/'
     name: Mehul Sehgal
+    project: .
+  - bio: >-
+      Mohit holds a Bachelor's degree in Management Studies from Shaheed Sukhdev
+      College of Business Studies, University of Delhi. 
+
+
+      An opportunity to create impact at scale and work with bureaucratic
+      leaders in the government administration, brings Mohit to Samagra. 
+    image: /img/edited_img_4119.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/mohit-vijay-433a81192/'
+    name: Mohit Vijay
     project: .
   - bio: >-
       Mradul holds a Bachelor's degree in Civil Engineering from IIT Kanpur. A
@@ -679,6 +702,20 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/sanchita-dasgupta-4587a712/'
     name: Sanchita Dasgupta
     project: Office Manager
+  - bio: >
+      Sanskar holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, he explored his
+      interest in the impact sector by interning across strategy and policy
+      roles. He has also led a team of social entrepreneurs at Connecting Dreams
+      Foundation - SRCC Chapter while spearheading initiatives in the domains of
+      education, healthcare, waste management, and art forms. 
+       
+      A strong motivation to contribute towards good governance and catalyse the
+      implementation of deep system reforms, brings Sanskar to Samagra.
+    image: /img/sanskar_close-up-image.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/sanskar-kumar-gupta/'
+    name: Sanskar Kumar Gupta
+    project: Saksham Haryana-Education
   - bio: >-
       Shashwat holds a Bachelor's degree in Civil Engineering from Pandit
       Deendayal Energy University. Prior to joining Samagra, he was working as
