@@ -357,6 +357,18 @@ team:
     name: Jayashankar Vengathattil
     project: Samarth
   - bio: >-
+      Khushi holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, she was an intern
+      under the Youth Engagement Programme envisaged by Dr. Kiran Bedi with the
+      Government of Puducherry. 
+
+
+      A strong desire to explore governance consulting brings Khushi to Samagra.
+    image: /img/img_4303.jpeg
+    linkedInProfile: 'https://www.linkedin.com/in/khushi-goyal-/'
+    name: Khushi Goyal
+    project: Mission Prerna
+  - bio: >-
       Khyati holds a Master’s degree in Management from London Business School
       and a Bachelor’s degree in Commerce from Hansraj College, University of
       Delhi. She has previously worked as an Analyst with the strategy
@@ -371,6 +383,19 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/khyati-narula-297701105/'
     name: Khyati Narula
     project: CEO's Office
+  - bio: >
+      Lakshay holds a Bachelor's degree in Accounting and Finance from Shri Ram
+      College of Commerce, University of Delhi. Before joining Samagra, he
+      worked on District level projects on issues of animal welfare and gender
+      diversity & inclusivity. 
+
+
+      An opportunity to understand and impact the functioning of government
+      departments and create real impact at scale, brings Lakshay to Samagra.
+    image: /img/edited_img_3614.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/lakshay-gupta-578019195/'
+    name: Lakshay Gupta
+    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Manik holds a Bachelor's degree in Commerce from Hansraj College,
       University of Delhi. He is also a licensed Certified Public Accountant.
@@ -763,6 +788,21 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/siddhant-agarwal-774a6b122/'
     name: Siddhant Agarwal
     project: ADAPT-F&ARD
+  - bio: >-
+      Siddharth holds a Bachelor’s degree in Political Science and Economics
+      from St. Stephen’s College, University of Delhi. Before joining Samagra,
+      he interned with NITI Aayog and The Prime Minister's Science, Technology
+      and Innovation Advisory Council (PM-STIAC). He is also the Co-Founder of
+      PeaceX - a UNEP MGCY member organisation with a volunteer presence in 119
+      countries. 
+
+
+      An opportunity to drive real impact at scale brings Siddharth to Samagra. 
+    image: /img/edited_img_3612.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/siddharth-gulati-740386166/'
+    name: |
+      Siddharth Gulati
+    project: 'CEO''s Office '
   - bio: >-
       Simran holds a Master's degree in Economics from the Delhi School of
       Economics and a Bachelor's degree in the same from Lady Shri Ram College
