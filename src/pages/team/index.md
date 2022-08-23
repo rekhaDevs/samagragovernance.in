@@ -286,7 +286,7 @@ team:
       An opportunity to contribute towards driving value for the public and
       various stakeholders in the government and to create real impact at scale,
       brings Deepanshu to Samagra.
-    image: /img/deepanshu.png
+    image: /img/edited_img_3863.jpg
     linkedInProfile: 'https://www.linkedin.com/in/deepanshu-singal-12489119b/'
     name: Deepanshu Singal
     project: .
@@ -385,7 +385,7 @@ team:
       grounding and hands-on experience in governance and developmental issues
       to create impact at scale. Currently, he is part of the Samarth team in
       Himachal Pradesh.
-    image: /img/jayashankar.png
+    image: /img/edited_img_3638.jpg
     linkedInProfile: 'https://www.linkedin.com/in/jayashankar-vengathattil/'
     name: Jayashankar Vengathattil
     project: Samarth
@@ -496,7 +496,7 @@ team:
       strong motivation to contribute towards improving public service delivery
       by co-working with the government and creating real impact at scale,
       brings Mradul to Samagra.
-    image: /img/mradul-.png
+    image: /img/edited_img_4128.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mradul-chaudhary/'
     name: Mradul Chaudhary
     project: Mission Prerna
@@ -560,7 +560,7 @@ team:
       A strong passion for creating systemic change in governance while driving
       impact at the grassroots, brings Praachi to Samagra. Currently, she is
       part of the Samarth team in Himachal Pradesh.
-    image: /img/praachi.png
+    image: /img/edited_img_3640.jpg
     linkedInProfile: 'https://www.linkedin.com/in/praachi-bhatia/'
     name: Praachi Bhatia
     project: Samarth
