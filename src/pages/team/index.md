@@ -137,6 +137,21 @@ team:
     name: Ananya Jain
     project: .
   - bio: >-
+      Anay holds a Master of Business Administration from Faculty of Management
+      Studies, Delhi and a Bachelor's degree in Technology from College of
+      Engineering Pune. Before joining Samagra, he was working as a Offer
+      Development Lead in the EV business of Reliance BP Mobility Limited,
+      primarily working on setting up EV charging and swapping infrastructure
+      across India. 
+
+
+      A strong desire to work on scalable governance solutions that could impact
+      everyday lives of citizens, brings Anay to Samagra. 
+    image: /img/img_4165.jpeg
+    linkedInProfile: 'https://www.linkedin.com/in/anay-gogate-71b50b6b/'
+    name: Anay Gogate
+    project: .
+  - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
       specialisation in Business Analytics from the Indian Institute of Science,
@@ -451,7 +466,7 @@ team:
     image: /img/mradul-.png
     linkedInProfile: 'https://www.linkedin.com/in/mradul-chaudhary/'
     name: Mradul Chaudhary
-    project: .
+    project: Mission Prerna
   - bio: >-
       Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
       University Jaipur. He is also a Young India Fellow from Ashoka University.
@@ -759,6 +774,21 @@ team:
     image: /img/shraya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shraya-sapru/'
     name: Shraya Sapru
+    project: .
+  - bio: >
+      Shreyashi holds a Master’s degree in Management Studies with a
+      specialization in Urban Management from CEPT University, Ahmedabad and a
+      Bachelor’s degree in Architecture from Maulana Azad National Institute of
+      Technology, Bhopal.  Before joining Samagra, she was working as a Senior
+      Architect with L&T Construction. She has also interned with many ULBs,
+      NGOs, NPOs, development banks such as NABARD, which further drew her
+      towards public sector development and governance consulting. 
+
+
+      A strong passion to create impact at scale brings Shreyashi to Samagra.
+    image: /img/img_6876.jpeg
+    linkedInProfile: 'https://www.linkedin.com/in/shreyashi-soni-2908/'
+    name: Shreyashi Soni
     project: .
   - bio: >-
       Shruti is pursuing a Bachelor's degree in Computer Science Engineering
