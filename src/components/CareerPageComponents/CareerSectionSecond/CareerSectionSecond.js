@@ -23,7 +23,7 @@ const CareerSectionSecond = ({content, fromC4GT}) => {
                             </p>
                             <PrimaryButton classes={'py-3 text-uppercase'} click={() => {
                                 window.open('https://www.codeforgovtech.in/', '_blank');
-                            }} text={'Explore'}/>
+                            }} text={'Learn More'}/>
                         </div> : <div className={'text-center mt-4'}>
                             <PrimaryButton classes={'py-3 text-uppercase'} click={() => {
                                 window.location.href = '/joinus'

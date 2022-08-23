@@ -6,6 +6,7 @@ import logoColored from "../img/logo-colored.png";
 import facebookIconActive from "../img/facebook.png";
 import linkedInIconActive from "../img/linkedin.png";
 import youtubeIconActive from "../img/youtube.png";
+import instagramIconActive from "../img/instagram.png";
 
 const Footer = class extends React.Component {
     render() {
@@ -18,6 +19,9 @@ const Footer = class extends React.Component {
 export const FooterComponent = ({}) => {
     const [fIcon, setFIcon] = React.useState(
         facebookIconActive
+    );
+    const [iIcon, setIIcon] = React.useState(
+        instagramIconActive
     );
     const [lIcon, setLIcon] = React.useState(
         linkedInIconActive
@@ -65,9 +69,9 @@ export const FooterComponent = ({}) => {
                     </a>
                     <ul className={'nav justify-content-end'}>
                         <li>
-                            <a className="nav-link" href="https://www.facebook.com/SamagraGovernance">
-                                <img className={'social-icons'} onMouseEnter={() => setFIcon(facebookIconActive)}
-                                     onMouseLeave={() => setFIcon(facebookIconActive)} src={fIcon}/>
+                            <a className="nav-link" href="https://www.instagram.com/samagragovernance/?hl=en">
+                                <img className={'social-icons'} onMouseEnter={() => setIIcon(iIcon)}
+                                     onMouseLeave={() => setIIcon(iIcon)} src={iIcon}/>
                             </a>
                         </li>
                         <li>
