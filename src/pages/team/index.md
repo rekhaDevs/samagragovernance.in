@@ -147,7 +147,7 @@ team:
 
       A strong desire to work on scalable governance solutions that could impact
       everyday lives of citizens, brings Anay to Samagra. 
-    image: /img/img_4165.jpeg
+    image: /img/1.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anay-gogate-71b50b6b/'
     name: Anay Gogate
     project: .
@@ -227,7 +227,7 @@ team:
       An opportunity to create real impact on the ground brings Bhanu to
       Samagra. He intends to leverage his academic grounding and hands-on
       experience in global health to create impact at scale. 
-    image: /img/img_4379.jpeg
+    image: /img/3.jpg
     linkedInProfile: .
     name: Bhanu Prabhakar
     project: .
@@ -397,7 +397,7 @@ team:
 
 
       A strong desire to explore governance consulting brings Khushi to Samagra.
-    image: /img/img_4303.jpeg
+    image: /img/2.jpg
     linkedInProfile: 'https://www.linkedin.com/in/khushi-goyal-/'
     name: Khushi Goyal
     project: Mission Prerna
@@ -440,7 +440,7 @@ team:
       An opportunity to improve the quality of life of citizens at scale brings
       Mallika to Samagra. She intends to leverage her academic grounding and
       hands-on experience with problem solving to create impact at scale.
-    image: /img/img_4430.jpeg
+    image: /img/4.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mallika-anand-801483128/'
     name: Mallika Anand
     project: .
@@ -819,7 +819,7 @@ team:
 
 
       A strong passion to create impact at scale brings Shreyashi to Samagra.
-    image: /img/img_6876.jpeg
+    image: /img/9.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shreyashi-soni-2908/'
     name: Shreyashi Soni
     project: .
