@@ -176,10 +176,8 @@ team:
 
       A strong desire to contribute towards improving public services and
       enhancing quality of life of citizens coupled with a passion for tech and
-      governance, brings Anurag to Samagra. 
-
-
-      Currently, he is part of the SamagraX team.
+      governance, brings Anurag to Samagra. Currently, he is part of the
+      SamagraX team.
     image: /img/anurag.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anurag-bahadur-singh-2790b3142/'
     name: Anurag Bahadur Singh
@@ -619,10 +617,7 @@ team:
 
       An opportunity to use his tech skills for good in the social impact space
       and take on the next challenge in his professional journey brought him to
-      Samagra.
-
-
-      Currently, he is part of the SamagraX team.
+      Samagra. Currently, he is part of the SamagraX team.
     image: /img/edit_radhay.jpg
     linkedInProfile: 'https://www.linkedin.com/in/radhayanand/'
     name: Radhay Anand
@@ -635,10 +630,8 @@ team:
 
 
       An opportunity to transform governance by combining consulting skills and
-      the power of technology brought him to Samagra. 
-
-
-      Currently, he is part of the Mission Prerna team in Uttar Pradesh
+      the power of technology brought him to Samagra. Currently, he is part of
+      the Mission Prerna team in Uttar Pradesh
     image: /img/edited-raghav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
     name: Raghav Katyal
@@ -733,7 +726,7 @@ team:
       girl students in a government school in Delhi. Before joining Samagra, he
       worked at CollPoll, an ed-tech start up as a Product Manager. The belief
       that the path towards equity is through governance and an opportunity to
-      realize this goal at scale brought Saket to Samagra. Currently he is part
+      realize this goal at scale brought Saket to Samagra. Currently, he is part
       of the SamagraX team.
     image: /img/saket.jpg
     linkedInProfile: 'https://www.linkedin.com/in/saket-sinha-2992a924/'
