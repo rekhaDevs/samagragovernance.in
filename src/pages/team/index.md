@@ -58,14 +58,13 @@ team:
       professional and educational experience he has worked on projects ranging
       from strategy development to implementation, while consistently focusing
       on the end-user. An opportunity to improve the lives of citizens by
-      creating impact at scale brought him to Samagra. 
-
-
-      Currently, he is part of the Young Warrior team.
+      creating impact at scale brought him to Samagra. Abhay is the Program
+      Coordinator of the Niramaya team in Uttar Pradesh and manages its daily
+      operations.
     image: /img/abhay_7665.jpg
     linkedInProfile: 'https://www.linkedin.com/in/abhay-kumar-singh-y9010/'
     name: Abhay Singh
-    project: Young Warrior
+    project: Niramaya
   - bio: >-
       Abhishek holds a Bachelor's degree in Law from the National Law School of
       India University, Bangalore. Before joining Samagra, he worked as an
@@ -137,6 +136,21 @@ team:
     name: Ananya Jain
     project: .
   - bio: >-
+      Anay holds a Master of Business Administration from Faculty of Management
+      Studies, Delhi and a Bachelor's degree in Technology from College of
+      Engineering Pune. Before joining Samagra, he was working as a Offer
+      Development Lead in the EV business of Reliance BP Mobility Limited,
+      primarily working on setting up EV charging and swapping infrastructure
+      across India. 
+
+
+      A strong desire to work on scalable governance solutions that could impact
+      everyday lives of citizens, brings Anay to Samagra. 
+    image: /img/1.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/anay-gogate-71b50b6b/'
+    name: Anay Gogate
+    project: .
+  - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
       specialisation in Business Analytics from the Indian Institute of Science,
@@ -146,14 +160,12 @@ team:
       then joined the Department of Finance and Planning, Government of
       Chhattisgarh as a Chief Minister’s Good Governance Fellow. The zeal to
       create real impact on the ground by transforming governance and public
-      administration brought Ankit to Samagra. 
-
-
-      Ankit currently leads the Young Warrior programme. 
+      administration brought Ankit to Samagra. Ankit currently leads the
+      Niramaya programme in Uttar Pradesh. 
     image: /img/ankit_7709.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
-    project: Young Warrior
+    project: 'Niramaya '
   - bio: >-
       Anurag holds a Bachelor's degree in Engineering from NSUT, University of
       Delhi. Before joining Samagra, he was working as an Analyst at Everest
@@ -164,10 +176,8 @@ team:
 
       A strong desire to contribute towards improving public services and
       enhancing quality of life of citizens coupled with a passion for tech and
-      governance, brings Anurag to Samagra. 
-
-
-      Currently, he is part of the SamagraX team.
+      governance, brings Anurag to Samagra. Currently, he is part of the
+      SamagraX team.
     image: /img/anurag.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anurag-bahadur-singh-2790b3142/'
     name: Anurag Bahadur Singh
@@ -198,6 +208,25 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/anusheela-ghosh/'
     name: Anusheela Ghosh
     project: CEO's Office
+  - bio: >-
+      Bhanu holds a Master's degree in Public Management from SDA Bocconi School
+      of Management, Italy and a Bachelor’s degree in English Literature from
+      Hindu College, University of Delhi. Before joining Samagra, he was working
+      as a consultant with the Office of Principal Scientific Adviser to
+      Government of India, where he worked with the Strategic Alliances Division
+      to promote greater industry-academia collaboration on science, technology
+      and innovation. Prior to this, he worked for several years in global
+      health in South Africa and India.
+
+
+      An opportunity to create real impact on the ground brings Bhanu to
+      Samagra. He intends to leverage his academic grounding and hands-on
+      experience in global health to create impact at scale. Bhanu currently
+      leads the Anamaya programme in Odisha. 
+    image: /img/3.jpg
+    linkedInProfile: .
+    name: Bhanu Prabhakar
+    project: Anamaya
   - bio: >-
       Bhavya holds a Bachelor’s degree in Commerce from Jesus and Mary College,
       University of Delhi and a Post-Graduate Diploma in Liberal Studies under
@@ -241,7 +270,7 @@ team:
 
       His belief that employing technological tools can lead to better
       governance and improve the lives of citizens brought him to Samagra.
-      Currently he is part of the SamagraX team.
+      Currently, he is part of the SamagraX team.
     image: /img/chakshu_7676.jpg
     linkedInProfile: 'https://www.linkedin.com/in/chakshu-gautam-6918736b/'
     name: Chakshu Gautam
@@ -252,11 +281,12 @@ team:
        
       An opportunity to contribute towards driving value for the public and
       various stakeholders in the government and to create real impact at scale,
-      brings Deepanshu to Samagra.
-    image: /img/deepanshu.png
+      brings Deepanshu to Samagra. Currently, he is part of the Niramaya team in
+      Uttar Pradesh.
+    image: /img/edited_img_3863.jpg
     linkedInProfile: 'https://www.linkedin.com/in/deepanshu-singal-12489119b/'
     name: Deepanshu Singal
-    project: .
+    project: Niramaya
   - bio: >-
       Deepshikha holds a Master's degree in Nutrition and Public Health from
       S.N.D.T. Women's University, Mumbai and a Bachelor's degree in the same
@@ -335,11 +365,12 @@ team:
 
 
       The urge to actualise implementation and the desire to engage with the
-      executive governance machinery, brings Govind to Samagra. 
+      executive governance machinery, brings Govind to Samagra. Currently, he is
+      part of the Mission Prerna team in Uttar Pradesh.
     image: /img/govind.jpg
     linkedInProfile: 'https://www.linkedin.com/in/govind-gupta-9559481b0/'
     name: Govind Gupta
-    project: .
+    project: Mission Prerna
   - bio: >-
       Jayashankar holds a Master's degree in Development Studies from Tata
       Institute of Social Sciences (TISS), Mumbai and a Bachelor's degree in
@@ -352,10 +383,23 @@ team:
       grounding and hands-on experience in governance and developmental issues
       to create impact at scale. Currently, he is part of the Samarth team in
       Himachal Pradesh.
-    image: /img/jayashankar.png
+    image: /img/edited_img_3638.jpg
     linkedInProfile: 'https://www.linkedin.com/in/jayashankar-vengathattil/'
     name: Jayashankar Vengathattil
     project: Samarth
+  - bio: >-
+      Khushi holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, she was an intern
+      under the Youth Engagement Programme envisaged by Dr. Kiran Bedi with the
+      Government of Puducherry. 
+
+
+      A strong desire to explore governance consulting brings Khushi to Samagra.
+      Currently, she is part of the Mission Prerna team in Uttar Pradesh.
+    image: /img/2.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/khushi-goyal-/'
+    name: Khushi Goyal
+    project: Mission Prerna
   - bio: >-
       Khyati holds a Master’s degree in Management from London Business School
       and a Bachelor’s degree in Commerce from Hansraj College, University of
@@ -371,6 +415,35 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/khyati-narula-297701105/'
     name: Khyati Narula
     project: CEO's Office
+  - bio: >
+      Lakshay holds a Bachelor's degree in Accounting and Finance from Shri Ram
+      College of Commerce, University of Delhi. Before joining Samagra, he
+      worked on District level projects on issues of animal welfare and gender
+      diversity & inclusivity. 
+
+
+      An opportunity to understand and impact the functioning of government
+      departments and create real impact at scale, brings Lakshay to Samagra.
+      Currently, he is part of the Saksham Haryana-Skills & Employment team.
+    image: /img/edited_img_3614.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/lakshay-gupta-578019195/'
+    name: Lakshay Gupta
+    project: Saksham Haryana-Skills & Employment
+  - bio: >-
+      Mallika is a Young India Fellow who holds a Post Graduate Diploma in
+      Liberal Studies from Ashoka University, Haryana and a Bachelor’s degree in
+      Commerce from Maitreyi College, University of Delhi. Before joining
+      Samagra, she was working as an Associate Consultant at Michael Page,
+      primarily managing mid to senior level recruitment for her clients in the
+      FMCG, Automobiles, Building Materials and Professional Services sectors. 
+       
+      An opportunity to improve the quality of life of citizens at scale brings
+      Mallika to Samagra. She intends to leverage her academic grounding and
+      hands-on experience with problem solving to create impact at scale.
+    image: /img/4.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/mallika-anand-801483128/'
+    name: Mallika Anand
+    project: .
   - bio: >-
       Manik holds a Bachelor's degree in Commerce from Hansraj College,
       University of Delhi. He is also a licensed Certified Public Accountant.
@@ -386,6 +459,18 @@ team:
     name: Manik
     project: Samarth
   - bio: >-
+      Meena holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, she gained hands-on
+      experience in the field of social impact and consulting and interned with
+      The/ Nudge Foundation, mByom and Invest India. 
+
+
+      A strong motivation to create impact at scale brings Meena to Samagra. 
+    image: /img/edited_img_4110.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/meena-priyadarsnee-k/'
+    name: Meena Priyadarsnee K
+    project: .
+  - bio: >-
       Mehul holds a Bachelor's degree in Economics from Hindu College,
       University of Delhi.
        
@@ -396,14 +481,26 @@ team:
     name: Mehul Sehgal
     project: .
   - bio: >-
+      Mohit holds a Bachelor's degree in Management Studies from Shaheed Sukhdev
+      College of Business Studies, University of Delhi. 
+
+
+      An opportunity to create impact at scale and work with bureaucratic
+      leaders in the government administration, brings Mohit to Samagra. 
+    image: /img/edited_img_4119.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/mohit-vijay-433a81192/'
+    name: Mohit Vijay
+    project: .
+  - bio: >-
       Mradul holds a Bachelor's degree in Civil Engineering from IIT Kanpur. A
       strong motivation to contribute towards improving public service delivery
       by co-working with the government and creating real impact at scale,
-      brings Mradul to Samagra.
-    image: /img/mradul-.png
+      brings Mradul to Samagra. Currently, he is part of the Mission Prerna team
+      in Uttar Pradesh.
+    image: /img/edited_img_4128.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mradul-chaudhary/'
     name: Mradul Chaudhary
-    project: .
+    project: Mission Prerna
   - bio: >-
       Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
       University Jaipur. He is also a Young India Fellow from Ashoka University.
@@ -413,10 +510,8 @@ team:
       working in the field of education and youth development across six cities.
       He also hosts a podcast focused on changing the narrative around
       Generation Z. The prospect of creating sustainable impact while co-working
-      with the government, brought him to Samagra.
-
-
-      Currently, he is part of the SamagraX team.
+      with the government, brought him to Samagra. Currently, he is part of the
+      SamagraX team.
     image: /img/naman-gupta.jpg
     linkedInProfile: 'https://www.linkedin.com/in/naman6596/'
     name: Naman Gupta
@@ -464,7 +559,7 @@ team:
       A strong passion for creating systemic change in governance while driving
       impact at the grassroots, brings Praachi to Samagra. Currently, she is
       part of the Samarth team in Himachal Pradesh.
-    image: /img/praachi.png
+    image: /img/edited_img_3640.jpg
     linkedInProfile: 'https://www.linkedin.com/in/praachi-bhatia/'
     name: Praachi Bhatia
     project: Samarth
@@ -476,11 +571,13 @@ team:
       also completed a course on 'Re-thinking the Obvious: Rhetoric of
       Development' at Miranda House in collaboration with The George Washington
       University. An opportunity to create positive impact in the lives of
-      people and an interest in public policy brings Pragya to Samagra. 
+      people and an interest in public policy brings Pragya to Samagra. Pragya
+      is the Program Coordinator of the Anamaya team and manages its daily
+      operations.
     image: /img/pragya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/pragya-mathur-678779126'
     name: Pragya Mathur
-    project: .
+    project: Anamaya
   - bio: >-
       Prasanna holds a Bachelor's degree in Statistics from St. Joseph's
       College, Trichy and a Master's in Computer Applications from Adaikalamatha
@@ -488,8 +585,6 @@ team:
       investment banking industries and produced high-end business-to-business
       and consumer-facing designs. He has worked with one of the Big 3
       Consulting firms and two of the top-10 Investment Banking companies.
-
-
       Prasanna manages all creatives for Samagra.
     image: /img/Prasanna.jpg
     linkedInProfile: 'https://www.linkedin.com/in/a-lourdu-pownraj-prasanna-786a1a132'
@@ -506,10 +601,8 @@ team:
       funds of 11 revenue districts of Delhi and recommended policy level
       interventions for improved functioning of the Delhi Urban Development
       Authority. An opportunity to employ her problem-solving skills to create
-      sustainable impact brought her to Samagra. 
-
-
-      Currently, she is part of the SamagraX team.
+      sustainable impact brought her to Samagra. Prerna is the Program
+      Coordinator of the SamagraX team and manages its daily operations.
     image: /img/Prerna.jpg
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
@@ -524,10 +617,7 @@ team:
 
       An opportunity to use his tech skills for good in the social impact space
       and take on the next challenge in his professional journey brought him to
-      Samagra.
-
-
-      Currently, he is part of the SamagraX team.
+      Samagra. Currently, he is part of the SamagraX team.
     image: /img/edit_radhay.jpg
     linkedInProfile: 'https://www.linkedin.com/in/radhayanand/'
     name: Radhay Anand
@@ -540,10 +630,8 @@ team:
 
 
       An opportunity to transform governance by combining consulting skills and
-      the power of technology brought him to Samagra. 
-
-
-      Currently, he is part of the Mission Prerna team in Uttar Pradesh
+      the power of technology brought him to Samagra. Currently, he is part of
+      the Mission Prerna team in Uttar Pradesh
     image: /img/edited-raghav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
     name: Raghav Katyal
@@ -565,7 +653,8 @@ team:
 
       A strong belief in governance being a key lever to drive change brings
       Reetika to Samagra. She intends to leverage her professional and academic
-      experiences to create impact at scale.
+      experiences to create impact at scale. Currently, she is part of the
+      Saksham Haryana-Skills & Employment team.
     image: /img/reetika.jpg
     linkedInProfile: 'https://www.linkedin.com/in/reetika-srivastava/'
     name: Reetika Srivastava
@@ -581,13 +670,11 @@ team:
       worked as forecasting analyst with The Smart Cube and a LAMP Fellow. Her
       passion to improve the quality of life of citizens through evidence-based
       interventions and systemic transformation brought her to Samagra.
-
-
-      Currently, she is part of the Young Warrior team.
+      Currently, she is part of the Saksham Haryana–Education team.
     image: /img/edited_rhythm_b.jpg
     linkedInProfile: 'https://www.linkedin.com/in/rhythm-behl-85b1278b/'
     name: Rhythm Behl
-    project: ' Young Warrior'
+    project: Saksham Haryana–Education
   - bio: >-
       Ria holds a Masters’ degree in Development Studies from Ambedkar
       University and a Bachelor’s Degree in Political Science from Lady Shri Ram
@@ -599,11 +686,12 @@ team:
 
       An opportunity to create measurable impact at scale, through contextual
       solutions informed by a bottom-up understanding of governance structures,
-      brought Ria to Samagra.
+      brought Ria to Samagra. Currently, she is part of the Anamaya team in
+      Odisha.
     image: /img/edited_img_7635.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ria-goyal-2b3935189/'
     name: Ria Goyal
-    project: ' '
+    project: Anamaya
   - bio: >
       Rinkle holds a Bachelor's degree in Commerce from Hansraj College,
       University of Delhi. She is also a Young India Fellow from Ashoka
@@ -630,7 +718,7 @@ team:
     image: /img/sagari.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sagari-handa-5a86157a'
     name: Sagari Handa
-    project: ' SamagraX'
+    project: .
   - bio: >-
       Saket holds a Bachelor's degree Information Science engineering from BMS
       College of Engineering. He has previously worked in TCS and Samsung
@@ -638,7 +726,7 @@ team:
       girl students in a government school in Delhi. Before joining Samagra, he
       worked at CollPoll, an ed-tech start up as a Product Manager. The belief
       that the path towards equity is through governance and an opportunity to
-      realize this goal at scale brought Saket to Samagra. Currently he is part
+      realize this goal at scale brought Saket to Samagra. Currently, he is part
       of the SamagraX team.
     image: /img/saket.jpg
     linkedInProfile: 'https://www.linkedin.com/in/saket-sinha-2992a924/'
@@ -654,6 +742,21 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/sanchita-dasgupta-4587a712/'
     name: Sanchita Dasgupta
     project: Office Manager
+  - bio: >-
+      Sanskar holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, he explored his
+      interest in the impact sector by interning across strategy and policy
+      roles. He has also led a team of social entrepreneurs at Connecting Dreams
+      Foundation - SRCC Chapter while spearheading initiatives in the domains of
+      education, healthcare, waste management, and art forms. 
+       
+      A strong motivation to contribute towards good governance and catalyse the
+      implementation of deep system reforms, brings Sanskar to Samagra.
+      Currently, he is part of the Saksham Haryana–Education team.
+    image: /img/sanskar_close-up-image.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/sanskar-kumar-gupta/'
+    name: Sanskar Kumar Gupta
+    project: Saksham Haryana-Education
   - bio: >-
       Shashwat holds a Bachelor's degree in Civil Engineering from Pandit
       Deendayal Energy University. Prior to joining Samagra, he was working as
@@ -677,11 +780,11 @@ team:
 
       A desire to solve some of society's most critical challenges and bring
       about a meaningful change in people's lives at scale, brings Shipra to
-      Samagra.
+      Samagra. Currently, she is part of the Niramaya team in Uttar Pradesh.
     image: /img/shipra.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shipra-bihani-a224a674/'
     name: Shipra Bihani
-    project: .
+    project: Niramaya
   - bio: >-
       Shraya holds a Bachelor's degree in Chemical Engineering from National
       Institute of Technology Karnataka, Surathkal. Before joining Samagra, she
@@ -693,10 +796,26 @@ team:
 
 
       The penchant for problem solving while translating ideas on paper into
-      reality, brings Shraya to Samagra. 
+      reality, brings Shraya to Samagra. Currently, she is part of the Niramaya
+      team in Uttar Pradesh.
     image: /img/shraya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shraya-sapru/'
     name: Shraya Sapru
+    project: Niramaya
+  - bio: >
+      Shreyashi holds a Master’s degree in Management Studies with a
+      specialization in Urban Management from CEPT University, Ahmedabad and a
+      Bachelor’s degree in Architecture from Maulana Azad National Institute of
+      Technology, Bhopal.  Before joining Samagra, she was working as a Senior
+      Architect with L&T Construction. She has also interned with many ULBs,
+      NGOs, NPOs, development banks such as NABARD, which further drew her
+      towards public sector development and governance consulting. 
+
+
+      A strong passion to create impact at scale brings Shreyashi to Samagra.
+    image: /img/9.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shreyashi-soni-2908/'
+    name: Shreyashi Soni
     project: .
   - bio: >-
       Shruti is pursuing a Bachelor's degree in Computer Science Engineering
@@ -706,10 +825,8 @@ team:
        
       Shruti is passionate about automation and contributing to OpenSource. An
       opportunity to leverage her tech skills to build OpenSource products for
-      governments brought her to Samagra.
-
-
-      Currently, she is part of the SamagraX team.
+      governments brought her to Samagra. Currently, she is part of the SamagraX
+      team.
     image: /img/edited_shruti.jpeg.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shruti-ag/'
     name: Shruti Agarwal
@@ -764,6 +881,22 @@ team:
     name: Siddhant Agarwal
     project: ADAPT-F&ARD
   - bio: >-
+      Siddharth holds a Bachelor’s degree in Political Science and Economics
+      from St. Stephen’s College, University of Delhi. Before joining Samagra,
+      he interned with NITI Aayog and The Prime Minister's Science, Technology
+      and Innovation Advisory Council (PM-STIAC). He is also the Co-Founder of
+      PeaceX - a UNEP MGCY member organisation with a volunteer presence in 119
+      countries. 
+
+
+      An opportunity to drive real impact at scale brings Siddharth to Samagra.
+      Currently, he is part of the CEO's Office.
+    image: /img/edited_img_3612.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/siddharth-gulati-740386166/'
+    name: |
+      Siddharth Gulati
+    project: 'CEO''s Office '
+  - bio: >-
       Simran holds a Master's degree in Economics from the Delhi School of
       Economics and a Bachelor's degree in the same from Lady Shri Ram College
       for Women, University of Delhi. Before joining Samagra, she worked as an
@@ -771,8 +904,8 @@ team:
 
 
       Her passion to bridge the gap between the haves and have nots, and belief
-      in governance as a lever of change brought her to Samagra. She is
-      currently part of the Saksham Haryana-Education team.
+      in governance as a lever of change brought her to Samagra. Currently, she
+      is part of the Saksham Haryana-Education team.
     image: /img/edited_simran.jpg
     linkedInProfile: 'https://www.linkedin.com/in/baggasimran/'
     name: Simran Bagga
@@ -811,11 +944,11 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/sukhpreetsekhon'
     name: Sukhpreet Sekhon
     project: SamagraX
-  - bio: "Susheel holds a Bachelor's degree in Sociology from St. Andrew's College, Mumbai, and a Post-Graduate Diploma in Liberal Studies under the Young India Fellowship at Ashoka University. Susheel has had a longstanding interest in governance and policy implementation, leading him to work with organisations such as the Informed Voter Project and Praja Foundation during his undergraduate studies in Mumbai. His experience at the Young India Fellowship reinforced these ideas and also led him to explore the role of technology and data-based decision-making in governance.\_\n\nHis search for the intersection between technology and governance, and his quest to contribute in creating impact at scale brought Susheel to Samagra."
+  - bio: "Susheel holds a Bachelor's degree in Sociology from St. Andrew's College, Mumbai, and a Post-Graduate Diploma in Liberal Studies under the Young India Fellowship at Ashoka University. Susheel has had a longstanding interest in governance and policy implementation, leading him to work with organisations such as the Informed Voter Project and Praja Foundation during his undergraduate studies in Mumbai. His experience at the Young India Fellowship reinforced these ideas and also led him to explore the role of technology and data-based decision-making in governance.\_\n\nHis search for the intersection between technology and governance, and his quest to contribute in creating impact at scale brought Susheel to Samagra. Currently, he is part of the Anamaya team in Odisha."
     image: /img/edited_susheel.jpg
     linkedInProfile: 'https://www.linkedin.com/in/susheel-varghese-13b3ab151/'
     name: Susheel Varghese
-    project: .
+    project: Anamaya
   - bio: >-
       Swechcha holds a Master’s degree in Social Work from Madras School of
       Social Work, University of Madras and a Bachelor’s degree in Mathematics
@@ -866,10 +999,8 @@ team:
       before pursuing the Young India Fellowship. During the Fellowship, she got
       a chance to work with government schools in Uttar Pradesh and experience
       the gaps in Indian governance first-hand. An opportunity to drive impact
-      at scale through good governance brought her to Samagra. 
-
-
-      Ujjwal is currently Chief of Staff to the CEO.
+      at scale through good governance brought her to Samagra. Ujjwal is
+      currently Chief of Staff to the CEO.
     image: /img/ujjwal_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
@@ -882,8 +1013,8 @@ team:
 
 
       An opportunity to leverage the power of technology to transform governance
-      brought Umang to Samagra. Currently he is part of the Samarth team in
-      Himachal Pradesh.
+      brought Umang to Samagra. Umang is the Program Coordinator of the Samarth
+      team in Himachal Pradesh and manages its daily operations.
     image: /img/umang_ctt.jpg
     linkedInProfile: 'https://www.linkedin.com/in/umang-bhola-194b6686/'
     name: Umang Bhola
