@@ -48,7 +48,7 @@ team:
     image: /img/aayush_7903.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aayushkedia'
     name: Aayush Kedia
-    project: CEO's Office
+    project: Entrepreneur-in-Residence
   - bio: >-
       Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
       dual degree in Mechanical Engineering from Indian Institute of Technology,
@@ -115,15 +115,11 @@ team:
       creating a proof point for an inclusive, holistic and high-performing
       low-income school. An opportunity to build on his previous experience
       working on the ground and create systemic change at scale brought him to
-      Samagra. 
-
-
-      Akash is the Program Coordinator of the Samarth team in Himachal Pradesh
-      and manages its daily operations.
+      Samagra. Currently, he is part of the CEO's Office.
     image: /img/akash_7640.jpg
     linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
     name: Akash Tyagi
-    project: Samarth
+    project: Entrepreneur-in-Residence
   - bio: >-
       Ananya holds a Bachelor's degree in Management from Shaheed Sukhdev
       College of Business Studies, Delhi University. Ananya has previously
@@ -910,21 +906,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/baggasimran/'
     name: Simran Bagga
     project: Saksham Haryana-Education
-  - bio: >-
-      Sounak holds an MBA from Shailesh J. Mehta School of Management, IIT
-      Bombay and a Bachelor's degree in Mechanical Engineering from Jadavpur
-      University, Kolkata. Before joining Samagra, he was working as a Manager
-      in Procter & Gamble (P&G) where he worked on B2B sales, DTC, Indirect
-      Procurement etc.
-
-
-      An opportunity to create impact at the grassroot level brings Sounak to
-      Samagra. He intends to leverage his consulting experience and management
-      expertise to create impact at scale. 
-    image: /img/sounak.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/sounakkundu/'
-    name: Sounak Kundu
-    project: .
   - bio: >-
       Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Previously, he has worked with KPMG to
