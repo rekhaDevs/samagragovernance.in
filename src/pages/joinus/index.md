@@ -94,6 +94,8 @@ formsElements:
       - text: Consulting
       - text: Engineering
       - text: Product
+    otherOptionAvailable:
+      activateOn: ' '
     placeholder: Select Option
     required: true
     type: select
