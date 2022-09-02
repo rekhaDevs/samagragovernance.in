@@ -91,11 +91,9 @@ formsElements:
   - contentDescription: Applying for which role?
     label: Applying for which role?
     options:
-      - text: CEO's Office
       - text: Consulting
       - text: Engineering
       - text: Product
-      - text: Samagra Emerging Leaders Program
     placeholder: Select Option
     required: true
     type: select
