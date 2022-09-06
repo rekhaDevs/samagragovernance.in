@@ -20,7 +20,6 @@ const ProjectPagePreview = ({entry, getAsset}) => {
             ]
         }
     };
-    console.log(previewData, '-------------> 1');
     if (data) {
         return (
             <React.Fragment>

@@ -47,9 +47,6 @@ export const HomeThirdSectionContent = ({parentDomains, data, previewData}) => {
     const [stateItems, setStateItems] = useState(
         JSON.parse(JSON.stringify(items))
     );
-    console.log('items');
-    console.log(items.length);
-    console.log(stateItems);
 
     let swiperInstance;
     let swiperTitleInstance;

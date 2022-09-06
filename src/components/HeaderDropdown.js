@@ -4,8 +4,6 @@ import {graphql, StaticQuery} from "gatsby";
 export const HeaderDropDownComponent = ({data, parentDomains}) => {
     let loosingFocusTimeout;
 
-    console.log('--------------');
-    console.log(parentDomains);
     const [focused, changeFocus] = useState(
         false
     );

@@ -3,7 +3,6 @@ import Swiper from "react-id-swiper";
 
 const service = {};
 const PaginationSlider = ({content}) => {
-    console.log(content);
     const params = {
         pagination: {
             el: '.swiper-pagination',

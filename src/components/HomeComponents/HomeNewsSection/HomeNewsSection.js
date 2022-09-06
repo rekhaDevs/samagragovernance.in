@@ -27,7 +27,6 @@ export const HomeNewsSection = ({data}) => {
     );
     const {allMarkdownRemark: mediaPageContent} = data;
     const media = mediaPageContent.edges;
-    console.log(media);
     return (
         <div className={'home-news-section-wrapper'}>
             <div className={'title'}>

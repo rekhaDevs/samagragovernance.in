@@ -37,8 +37,6 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
     const [activeHoverIndex, setActiveHoverIndex] = useState(-1);
     const [loaderKey, setLoaderKey] = useState({});
     const formsElements = joinUsPageContent.formsElements || [];
-    console.log(formsElements);
-    console.log('================');
     formsElements.forEach((fE) => {
         fE['key'] = camelCase(fE.label);
         fE['fileKeyName'] = camelCase(fE.label) + 'FileName';
@@ -334,7 +332,6 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                     return <div className={'option col-md-4 col-sm-6 col-xs-12'}
                                                 onClick={() => {
                                                     setActiveOption(index);
-                                                    console.log(index, '=======')
                                                     const formObjectTemp = {
                                                         ...formObject
                                                     };

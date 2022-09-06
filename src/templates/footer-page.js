@@ -13,7 +13,6 @@ export const FooterPageTemplate = ({data}) => {
 
 const FooterPage = ({data}) => {
 
-    console.log(data);
     return (
         <FooterComponent/>
     )

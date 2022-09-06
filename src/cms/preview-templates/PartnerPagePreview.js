@@ -4,7 +4,6 @@ import {PartnerPagePreviewTemplate} from "../../templates/partners-page";
 
 const PartnerPagePreview = ({entry, getAsset}) => {
     const data = entry.getIn(['data']).toJS();
-    console.log('PartnerPagePreview->data', data);
     if (data) {
         return (
             <PartnerPagePreviewTemplate

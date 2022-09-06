@@ -57,7 +57,6 @@ export class HomeTopSliderBannerSecond extends React.Component {
         } else {
             this.setState({selectedTextIndex: 0})
         }
-        console.log('slide1-' + scrollTo);
         this.setState({scrollTo}, () => {
             scroller.scrollTo('slide1-' + scrollTo, {
                 duration: 1000,
