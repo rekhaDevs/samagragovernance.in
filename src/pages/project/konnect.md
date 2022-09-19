@@ -8,7 +8,7 @@ backgroundCover: /img/dsc04493-_1_.jpg
 domain: Agriculture
 subTitle: Samagra
 state: Odisha
-tagLine: To improve the income of farmers’ in Odisha
+tagLine: To improve the income of farmers in Odisha
 projectLogoWithState: /img/konnect-odisha.png
 overview:
   - text: >-
