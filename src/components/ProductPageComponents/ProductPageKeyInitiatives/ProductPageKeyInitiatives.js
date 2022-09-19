@@ -28,7 +28,7 @@ export const ProductPageKeyInitiatives = ({project}) => {
                         </div>
 
                         <div className={'description'}>
-                            {keyObjectives[project.longestKeyInitiatives || 0]?.description?.text}
+                            {keyObjectives[project.longestKeyInitiatives || 0] && keyObjectives[project.longestKeyInitiatives || 0].description.text}
                             <div style={{marginTop: '30px'}}>
                                 <CustomPagerButtons/>
                             </div>
