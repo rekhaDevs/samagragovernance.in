@@ -141,11 +141,12 @@ team:
 
 
       A strong desire to work on scalable governance solutions that could impact
-      everyday lives of citizens, brings Anay to Samagra. 
+      everyday lives of citizens, brings Anay to Samagra. Currently, he is part
+      of the KONNECT team in Odisha.
     image: /img/1.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anay-gogate-71b50b6b/'
     name: Anay Gogate
-    project: .
+    project: KONNECT
   - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
@@ -250,11 +251,11 @@ team:
        
       An opportunity to work with stakeholders in the governance ecosystem and
       contribute towards improving the life of citizens, brings Bhavya to
-      Samagra. Currently, he is part of the CEO's Office.
+      Samagra. Currently, he is part of the KONNECT team in Odisha.
     image: /img/bhavya-n.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bhavyanawalakha/'
     name: Bhavya Nawalakha
-    project: CEO's Office
+    project: KONNECT
   - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
@@ -436,10 +437,11 @@ team:
       An opportunity to improve the quality of life of citizens at scale brings
       Mallika to Samagra. She intends to leverage her academic grounding and
       hands-on experience with problem solving to create impact at scale.
+      Currently, she is part of the Samarth team in Himachal Pradesh.
     image: /img/4.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mallika-anand-801483128/'
     name: Mallika Anand
-    project: .
+    project: Samarth
   - bio: >-
       Manik holds a Bachelor's degree in Commerce from Hansraj College,
       University of Delhi. He is also a licensed Certified Public Accountant.
@@ -468,25 +470,28 @@ team:
     project: .
   - bio: >-
       Mehul holds a Bachelor's degree in Economics from Hindu College,
-      University of Delhi.
-       
-      A strong passion for creating impact at scale through the ambit of
-      governance brings Mehul to Samagra.
+      University of Delhi. Before joining Samagra, he interned at KPMG, PATH and
+      RTI International, India. He has also been part of programmes and projects
+      at Federation of Indian Chambers of Commerce and Industry (FICCI) and
+      Central Board of Secondary Education (CBSE). A strong passion for creating
+      impact at scale through the ambit of governance brings Mehul to Samagra.
+      Currently, he is part of the KONNECT team in Odisha.
     image: /img/mehul.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mehul-sehgal-a38337152/'
     name: Mehul Sehgal
-    project: .
+    project: KONNECT
   - bio: >-
       Mohit holds a Bachelor's degree in Management Studies from Shaheed Sukhdev
       College of Business Studies, University of Delhi. 
 
 
       An opportunity to create impact at scale and work with bureaucratic
-      leaders in the government administration, brings Mohit to Samagra. 
+      leaders in the government administration, brought Mohit to Samagra.
+      Currently, he is part of the KONNECT team in Odisha.
     image: /img/edited_img_4119.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mohit-vijay-433a81192/'
     name: Mohit Vijay
-    project: .
+    project: KONNECT
   - bio: >-
       Mradul holds a Bachelor's degree in Civil Engineering from IIT Kanpur. A
       strong motivation to contribute towards improving public service delivery
@@ -497,21 +502,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/mradul-chaudhary/'
     name: Mradul Chaudhary
     project: Mission Prerna
-  - bio: >-
-      Naman holds a Bachelor's degree in Mechanical Engineering from Manipal
-      University Jaipur. He is also a Young India Fellow from Ashoka University.
-      Before joining Samagra, he was working at Harappa Education as a Key
-      Account Manager, ensuring end-to-end project implementation for domestic
-      and international clients. He is also Joint Secretary at Gramiksha, an NGO
-      working in the field of education and youth development across six cities.
-      He also hosts a podcast focused on changing the narrative around
-      Generation Z. The prospect of creating sustainable impact while co-working
-      with the government, brought him to Samagra. Currently, he is part of the
-      SamagraX team.
-    image: /img/naman-gupta.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/naman6596/'
-    name: Naman Gupta
-    project: SamagraX
   - bio: >-
       Namisha holds a Master’s degree in Development Economics from South Asian
       University and a Bachelor’s degree in Economics from Gargi College,
@@ -688,22 +678,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/ria-goyal-2b3935189/'
     name: Ria Goyal
     project: Anamaya
-  - bio: >
-      Rinkle holds a Bachelor's degree in Commerce from Hansraj College,
-      University of Delhi. She is also a Young India Fellow from Ashoka
-      University. Before joining Samagra, she was working as a Manager at 9.9
-      Education, providing strategy & implementation support to launch and
-      operationalise higher education programs and institutions.
-
-
-      A strong desire to contribute towards large-scale social impact,
-      understand the ground realities while working alongside different
-      stakeholders, brings Rinkle to Samagra. She plans to leverage her
-      multidisciplinary experiences and creativity to create impact at scale.
-    image: /img/rinkle.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/rinkle-dang-b4a230a3/'
-    name: Rinkle Dang
-    project: .
   - bio: >-
       Sagari holds a Bachelor's and Master's degree in Environmental Engineering
       from Delhi Technological University and Stanford University, respectively.
@@ -805,14 +779,13 @@ team:
       Technology, Bhopal.  Before joining Samagra, she was working as a Senior
       Architect with L&T Construction. She has also interned with many ULBs,
       NGOs, NPOs, development banks such as NABARD, which further drew her
-      towards public sector development and governance consulting. 
-
-
-      A strong passion to create impact at scale brings Shreyashi to Samagra.
+      towards public sector development and governance consulting. A strong
+      passion to create impact at scale brought Shreyashi to Samagra. Currently,
+      she is part of the KONNECT team in Odisha.
     image: /img/9.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shreyashi-soni-2908/'
     name: Shreyashi Soni
-    project: .
+    project: KONNECT
   - bio: >-
       Shruti is pursuing a Bachelor's degree in Computer Science Engineering
       from JSS, Nodia. Before joining Samagra, she completed Google Summer of
@@ -840,12 +813,12 @@ team:
       public sector has pushed him to work at various levels of governance,
       starting from the grassroots to district-level implementation. An
       opportunity to use his past work experience to create impact at scale
-      brought him to Samagra. Shubham is the Program Coordinator of the
-      ADAPT-F&ARD team in Odisha and manages its daily operations.
+      brought him to Samagra. Shubham is the Program Coordinator of the KONNECT
+      team in Odisha and manages its daily operations.
     image: /img/shubam.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bansalshubham09'
     name: Shubham Bansal
-    project: ADAPT- F&ARD
+    project: KONNECT
   - bio: >-
       Shubhodeep holds a Bachelor’s degree in Manufacturing Engineering from
       Birla Institute of Technology and Science, Pilani (BITS Pilani). Before
@@ -870,12 +843,12 @@ team:
       focused on supply chain and operations cost optimization for clients
       across industries. His long-standing motivation to assist governments in
       maximizing impact while working at the grassroots level towards societal
-      change brought him to Samagra. Currently, he is part of the ADAPT-F&ARD
-      team in Odisha.
+      change brought him to Samagra. Currently, he is part of the KONNECT team
+      in Odisha.
     image: /img/edited_siddhant.jpg
     linkedInProfile: 'https://www.linkedin.com/in/siddhant-agarwal-774a6b122/'
     name: Siddhant Agarwal
-    project: ADAPT-F&ARD
+    project: KONNECT
   - bio: >-
       Siddharth holds a Bachelor’s degree in Political Science and Economics
       from St. Stephen’s College, University of Delhi. Before joining Samagra,
@@ -940,11 +913,12 @@ team:
 
 
       A strong motivation to work on governance issues and improving the quality
-      of life of citizens brought her to Samagra. 
+      of life of citizens brought her to Samagra. Currently, she is part of the
+      CEO's Office.
     image: /img/edited_img_7622.jpg
     linkedInProfile: 'https://www.linkedin.com/in/swechcha-ganapati-224aaabb/'
     name: Swechcha Ganapati
-    project: Process Associate
+    project: CEO's Office
   - bio: >-
       Tanvi holds a Bachelor’s degree in Computer Engineering from Netaji Subhas
       Institute of Technology, New Delhi. Before joining Samagra, she was
@@ -1013,12 +987,12 @@ team:
       technology, consulting and entrepreneurial skills brought him to Samagra. 
 
 
-      Utkarsh is Vice President at Samagra and currently leads the ADAPT-F&ARD
-      programme in Odisha.
+      Utkarsh is Vice President at Samagra and currently leads the KONNECT
+      programme in Odisha and SamagraX.
     image: /img/Utkarsh.jpg
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
-    project: ADAPT-F&ARD
+    project: KONNECT and SamagraX
   - bio: >-
       Vijeeth holds a Bachelor's degree in Commerce from Kirori Mal College,
       University of Delhi. Before joining Samagra, he was leading a team at the
@@ -1028,12 +1002,12 @@ team:
 
       A strong motivation to drive impact at the grassroots across a
       comprehensive range of development markers, combined with a deep-rooted
-      interest for first-principle based problem solving, brings Vijeeth to
-      Samagra.
+      interest for first-principle based problem solving, brought Vijeeth to
+      Samagra. Currently, he is part of the KONNECT team in Odisha.
     image: /img/vijeeth-website.jpg
     linkedInProfile: 'https://www.linkedin.com/in/vijeeth-srinivas-756873148/'
     name: Vijeeth Srinivas
-    project: .
+    project: KONNECT
   - bio: >
       Viren holds an MBA from S.P. Jain Institute of Management & Research.
       Before joining Samagra, he was working as a Senior Manager with Kearney,
