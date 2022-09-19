@@ -7,6 +7,8 @@ export const ProductPageKeyInitiatives = ({project}) => {
     const [activeKeyObjectiveIndex, setKeyObjectiveIndex] = useState(
         0
     );
+    console.log(keyObjectives)
+    console.log(project.longestKeyInitiatives)
     return (
         <div className={'product-page-key-initiatives-section-wrapper'}>
             <div className={'title-big'}>
@@ -26,7 +28,7 @@ export const ProductPageKeyInitiatives = ({project}) => {
                         </div>
 
                         <div className={'description'}>
-                            {keyObjectives[project.longestKeyInitiatives || 0].description.text}
+                            {keyObjectives[project.longestKeyInitiatives || 0]?.description?.text}
                             <div style={{marginTop: '30px'}}>
                                 <CustomPagerButtons/>
                             </div>
