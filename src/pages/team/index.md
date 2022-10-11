@@ -738,6 +738,23 @@ team:
     name: Sanskar Kumar Gupta
     project: Saksham Haryana-Education
   - bio: >-
+      Sanya holds a Bachelor's degree in Engineering from Thapar University,
+      Patiala. Before joining Samagra, she was working as an Analyst with the
+      Payments Advisory team at JP Morgan Chase, where she gained hands-on
+      experience in the emerging payments space across regions and diverse
+      industries. She was also a mentor at NITI Aayog and collaborated on
+      multiple education projects with Teach for India and Simple Education
+      Foundation. 
+
+
+      An opportunity to understand government systems better and engage with the
+      government brings Sanya to Samagra. Currently, she is part of the SamagraX
+      team.
+    image: /img/6.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/sanya-pawah-5856b2142/'
+    name: Sanya Pawah
+    project: SamagraX
+  - bio: >-
       Shashwat holds a Bachelor's degree in Civil Engineering from Pandit
       Deendayal Energy University. Prior to joining Samagra, he was working as
       the National Head of Operations at AIESEC in India, focusing on leadership
