@@ -44,7 +44,7 @@ team:
 
       An opportunity to build high-value products that can impact millions
       brought Aakash to Samagra. Currently, he is part of the SamagraX team.
-    image: /img/img_5061.jpeg
+    image: /img/akash.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aakashyadav-kgp/'
     name: Aakash Yadav
     project: SamagraX
@@ -917,7 +917,7 @@ team:
       An opportunity to contribute to solving complex governance challenges
       brought Soumya to Samagra. She intends to leverage her academic grounding
       and hands-on experience in the corporate sector to create impact at scale.
-    image: /img/img_4935.jpeg
+    image: /img/soumya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/soumya-gupta-664a191a8/'
     name: Soumya Gupta
     project: .
