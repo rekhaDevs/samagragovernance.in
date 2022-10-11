@@ -542,11 +542,12 @@ team:
 
       A strong desire to explore governance consulting as a tool to create
       large-scale impact and to work with state governments to bring about
-      systemic change, brings Pavan to Samagra.
+      systemic change, brings Pavan to Samagra. Currently, he is part of the
+      Saksham Haryana-Skills & Employment team.
     image: /img/8.jpg
     linkedInProfile: 'https://www.linkedin.com/in/pavan-bhat-kundapura-48b41a105/'
     name: 'Pavan Bhat Kundapura '
-    project: .
+    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Praachi holds a Bachelor's degree in Mathematics from St. Stephen's
       College, University of Delhi.
