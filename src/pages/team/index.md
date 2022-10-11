@@ -535,6 +535,19 @@ team:
     name: Nikhil Srivastava
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Pavan holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, he was working as
+      an Associate Consultant at Sattva Consulting. 
+
+
+      A strong desire to explore governance consulting as a tool to create
+      large-scale impact and to work with state governments to bring about
+      systemic change, brings Pavan to Samagra.
+    image: /img/8.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/pavan-bhat-kundapura-48b41a105/'
+    name: 'Pavan Bhat Kundapura '
+    project: .
+  - bio: >-
       Praachi holds a Bachelor's degree in Mathematics from St. Stephen's
       College, University of Delhi.
 
@@ -675,6 +688,19 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/ria-goyal-2b3935189/'
     name: Ria Goyal
     project: Anamaya
+  - bio: >
+      Rishik holds a Bachelor’s degree in Economics from Ramjas College,
+      University of Delhi. Before joining Samagra, he interned at KPMG India,
+      Reliance, Central Square Foundation, Sattva Consulting, and the National
+      Skill Development Corporation. He also served as the Founder President of
+      Rethinking Economics Delhi University. A strong desire to work with the
+      government to create transformative social change brought Rishik to
+      Samagra. Currently, he is part of the Saksham Haryana-Skills & Employment
+      team.
+    image: /img/5-1-.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/rishiksuri/'
+    name: Rishik Suri
+    project: Saksham Haryana-Skills & Employment
   - bio: >-
       Sagari holds a Bachelor's and Master's degree in Environmental Engineering
       from Delhi Technological University and Stanford University, respectively.
