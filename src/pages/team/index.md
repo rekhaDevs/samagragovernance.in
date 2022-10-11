@@ -37,6 +37,18 @@ team:
     name: Rahul Kulkarni
     project: Chief Technologist
   - bio: >-
+      Aakash holds an integrated Bachelor's and Master's Degree in Mechanical
+      Engineering from Indian Institute of Technology Kharagpur. Before joining
+      Samagra, he was working as a Product Manager at CityMall. 
+
+
+      An opportunity to build high-value products that can impact millions
+      brought Aakash to Samagra. Currently, he is part of the SamagraX team.
+    image: /img/img_5061.jpeg
+    linkedInProfile: 'https://www.linkedin.com/in/aakashyadav-kgp/'
+    name: Aakash Yadav
+    project: SamagraX
+  - bio: >-
       Aayush holds an MBA from the Indian School of Business and a Bachelor's
       degree in Commerce from Shri Ram College of Commerce. Prior to Samagra, he
       worked with Blue Vector, a creative agency based out of Gurgaon, that he
@@ -397,21 +409,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/khushi-goyal-/'
     name: Khushi Goyal
     project: Mission Prerna
-  - bio: >-
-      Khyati holds a Master’s degree in Management from London Business School
-      and a Bachelor’s degree in Commerce from Hansraj College, University of
-      Delhi. She has previously worked as an Analyst with the strategy
-      consulting practice at Deloitte, working with IT and Healthcare clients
-      from India, Malaysia and United States.
-
-
-      An intent to work towards building a better India by creating systemic
-      change at scale brought her to Samagra. Currently, she is part of the
-      CEO's Office.
-    image: /img/khyati.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/khyati-narula-297701105/'
-    name: Khyati Narula
-    project: CEO's Office
   - bio: >
       Lakshay holds a Bachelor's degree in Accounting and Finance from Shri Ram
       College of Commerce, University of Delhi. Before joining Samagra, he
@@ -690,19 +687,6 @@ team:
     name: Sagari Handa
     project: .
   - bio: >-
-      Saket holds a Bachelor's degree Information Science engineering from BMS
-      College of Engineering. He has previously worked in TCS and Samsung
-      Research India. As part of the Teach for India Fellowship Saket taught 40
-      girl students in a government school in Delhi. Before joining Samagra, he
-      worked at CollPoll, an ed-tech start up as a Product Manager. The belief
-      that the path towards equity is through governance and an opportunity to
-      realize this goal at scale brought Saket to Samagra. Currently, he is part
-      of the SamagraX team.
-    image: /img/saket.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/saket-sinha-2992a924/'
-    name: Saket Sinha
-    project: SamagraX
-  - bio: >-
       Sanchita holds a Bachelor's degree in Home Science from Lady Irwin
       college. Previously, Sanchita was working as Executive Assistant to the
       Managing Director of Twitter India. An opportunity to contribute to
@@ -879,6 +863,21 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/baggasimran/'
     name: Simran Bagga
     project: Saksham Haryana-Education
+  - bio: >-
+      Soumya holds a Bachelor's degree in Commerce from Jesus and Mary College,
+      University of Delhi. She is also a YLAC policy in action and One Future
+      Fellow. Before joining Samagra, she was working in Audit & Assurance at
+      Deloitte USI, primarily serving commercial and financial clients in
+      Switzerland and the UK. 
+
+
+      An opportunity to contribute to solving complex governance challenges
+      brought Soumya to Samagra. She intends to leverage her academic grounding
+      and hands-on experience in the corporate sector to create impact at scale.
+    image: /img/img_4935.jpeg
+    linkedInProfile: 'https://www.linkedin.com/in/soumya-gupta-664a191a8/'
+    name: Soumya Gupta
+    project: .
   - bio: >-
       Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Previously, he has worked with KPMG to
