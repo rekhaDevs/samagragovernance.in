@@ -62,6 +62,26 @@ team:
     name: Aayush Kedia
     project: Entrepreneur-in-Residence
   - bio: >-
+      Aayush holds a Master's degree in Economics from Delhi School of
+      Economics, University of Delhi and a Bachelor's degree in the same
+      discipline from Delhi College of Arts and Commerce, University of Delhi.
+      Before joining Samagra, he was working as a Market Risk Manager at ICICI
+      Bank, primarily responsible for maintaining the investment policy for
+      proprietary trades of the bank in forex and derivative products and for
+      carrying out extensive research on the economic outlook for domestic and
+      global markets. In his spare time, Aayush enjoys playing lawn tennis,
+      reading thriller novels and watching crime documentaries. 
+
+
+      An opportunity to work with governments to create impact that reaches the
+      last mile and help society inch towards a more equitable and inclusive
+      future, brought him to Samagra. Currently, he is part of the Mission
+      Prerna team in Uttar Pradesh.
+    image: /img/aayush-malik.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/aayush-malik/'
+    name: Aayush Malik
+    project: Mission Prerna
+  - bio: >-
       Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
       dual degree in Mechanical Engineering from Indian Institute of Technology,
       Kanpur. Before joining Samagra, he was working with IBM as a strategy and
@@ -609,7 +629,7 @@ team:
 
       An opportunity to transform governance by combining consulting skills and
       the power of technology brought him to Samagra. Currently, he is part of
-      the Mission Prerna team in Uttar Pradesh
+      the Mission Prerna team in Uttar Pradesh.
     image: /img/edited-raghav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
     name: Raghav Katyal
@@ -844,7 +864,7 @@ team:
       passion for governance brought him to Samagra. He intends to leverage his
       academic grounding and hands-on experience in technology, policy and
       governance to create impact at scale.
-    image: /img/7.jpg
+    image: /img/shubhankar.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shubhankarpradeep/'
     name: Shubhankar Pradeep
     project: .
