@@ -1072,6 +1072,16 @@ team:
     name: Utkarsh Vijay
     project: KONNECT and SamagraX
   - bio: >-
+      Vasundhra holds a Bachelor’s degree in Mathematics from Sri Guru Tegh
+      Bahadur Khalsa College, University of Delhi. Before joining Samagra, she
+      was volunteering for the National Service Scheme. In her spare time,
+      Vasundhra enjoys reading and swimming. A strong drive to work in social
+      impact consulting and create impact at scale, brought her to Samagra.
+    image: /img/vasundhra.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/vasundhra-negi-96b383209/'
+    name: Vasundhra Negi
+    project: .
+  - bio: >-
       Vijeeth holds a Bachelor's degree in Commerce from Kirori Mal College,
       University of Delhi. Before joining Samagra, he was leading a team at the
       Jitin Chawla Centre for Career Development focused on expanding access to
