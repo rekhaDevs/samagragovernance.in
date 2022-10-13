@@ -831,6 +831,24 @@ team:
     name: Shubham Bansal
     project: KONNECT
   - bio: >-
+      Shubhankar holds a Master's degree in Public Policy from National Law
+      School of India University, Bangalore and a Bachelor's degree in Computer
+      Science and Engineering from PES University, Bangalore. He has also been a
+      civil service aspirant. Before joining Samagra, he was working with a
+      political consulting firm. Prior to this, he was an engineer in the cloud
+      computing vertical of Microsoft. In his spare time, Shubhankar enjoys
+      playing cricket and discussing political affairs.
+
+
+      A strong motivation to work on critical socio-economic issues and his
+      passion for governance brought him to Samagra. He intends to leverage his
+      academic grounding and hands-on experience in technology, policy and
+      governance to create impact at scale.
+    image: /img/7.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shubhankarpradeep/'
+    name: Shubhankar Pradeep
+    project: .
+  - bio: >-
       Shubhodeep holds a Bachelor’s degree in Manufacturing Engineering from
       Birla Institute of Technology and Science, Pilani (BITS Pilani). Before
       joining Samagra, he was working as a Principal Associate at Indian
@@ -1058,23 +1076,5 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
     name: Viren Bavishi
     project: Saksham Haryana-Skills & Employment & Mission Prerna
-  - bio: >-
-      Shubhankar holds a Master's degree in Public Policy from National Law
-      School of India University, Bangalore and a Bachelor's degree in Computer
-      Science and Engineering from PES University, Bangalore. He has also been a
-      civil service aspirant. Before joining Samagra, he was working with a
-      political consulting firm. Prior to this, he was an engineer in the cloud
-      computing vertical of Microsoft. In his spare time, Shubhankar enjoys
-      playing cricket and discussing political affairs.
-
-
-      A strong motivation to work on critical socio-economic issues and his
-      passion for governance brought him to Samagra. He intends to leverage his
-      academic grounding and hands-on experience in technology, policy and
-      governance to create impact at scale.
-    image: /img/7.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/shubhankarpradeep/'
-    name: Shubhankar Pradeep
-    project: .
 ---
 
