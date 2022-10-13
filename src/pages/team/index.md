@@ -167,6 +167,20 @@ team:
     name: Aman Gupta
     project: .
   - bio: >-
+      Amit holds a Bachelor's degree in Computer Science and Engineering from
+      Amity University, Noida. Before joining Samagra, he was working as a
+      Fullstack Developer at iDreamCareer. In his spare time, Amit enjoys
+      working out, playing the guitar, watching anime and reading. 
+
+
+      An opportunity to build products for large-scale populations and
+      contribute towards improving the lives of citizens, brought him to
+      Samagra. Currently, he is part of the SamagraX team.
+    image: /img/amit.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/amits19/'
+    name: Amit Sharma
+    project: SamagraX
+  - bio: >-
       Ananya holds a Bachelor's degree in Management from Shaheed Sukhdev
       College of Business Studies, Delhi University. Ananya has previously
       interned at NITI Aayog and Ernst & Young. Ananya co-founded the Rotaract
@@ -203,8 +217,8 @@ team:
       then joined the Department of Finance and Planning, Government of
       Chhattisgarh as a Chief Minister’s Good Governance Fellow. The zeal to
       create real impact on the ground by transforming governance and public
-      administration brought Ankit to Samagra. Ankit currently leads the
-      Niramaya programme in Uttar Pradesh. 
+      administration brought him to Samagra. Ankit currently leads the Niramaya
+      programme in Uttar Pradesh. 
     image: /img/ankit_7709.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
