@@ -153,6 +153,20 @@ team:
     name: Akash Tyagi
     project: Entrepreneur-in-Residence
   - bio: >-
+      Aman holds an MBA from IIM Kozhikode and a Bachelor's degree in Electrical
+      & Electronics Engineering from BITS Pilani. Before joining Samagra, he was
+      working as a Product and Sales Manager for the Indian marketplace at
+      Amazon. In his spare time, Aman enjoys painting, sketching, playing the
+      Piano and listening to podcasts. 
+
+
+      A strong motivation to enable society and state to co-create good
+      governance using technology, brought him to Samagra. 
+    image: /img/aman.jpeg
+    linkedInProfile: 'https://www.linkedin.com/in/amangup/'
+    name: Aman Gupta
+    project: .
+  - bio: >-
       Ananya holds a Bachelor's degree in Management from Shaheed Sukhdev
       College of Business Studies, Delhi University. Ananya has previously
       interned at NITI Aayog and Ernst & Young. Ananya co-founded the Rotaract
