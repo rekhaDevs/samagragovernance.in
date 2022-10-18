@@ -967,10 +967,11 @@ team:
       An opportunity to contribute to solving complex governance challenges
       brought her to Samagra. She intends to leverage her academic grounding and
       hands-on experience in the corporate sector to create impact at scale.
+      Currently, she is part of the Saksham Haryana-Education team.
     image: /img/soumya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/soumya-gupta-664a191a8/'
     name: Soumya Gupta
-    project: .
+    project: Saksham Haryana-Education
   - bio: >-
       Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Previously, he has worked with KPMG to
@@ -1091,10 +1092,11 @@ team:
       was volunteering for the National Service Scheme. In her spare time,
       Vasundhra enjoys reading and swimming. A strong drive to work in social
       impact consulting and create impact at scale, brought her to Samagra.
+      Currently, she is part of the Mission Prerna team in Uttar Pradesh.
     image: /img/vasundhra.jpg
     linkedInProfile: 'https://www.linkedin.com/in/vasundhra-negi-96b383209/'
     name: Vasundhra Negi
-    project: .
+    project: Mission Prerna
   - bio: >-
       Vijeeth holds a Bachelor's degree in Commerce from Kirori Mal College,
       University of Delhi. Before joining Samagra, he was leading a team at the
