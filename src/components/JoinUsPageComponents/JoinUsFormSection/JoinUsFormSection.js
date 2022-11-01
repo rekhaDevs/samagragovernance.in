@@ -277,12 +277,14 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                            body: formData
                                        })
                                            .then(res => {
-                                               console.log(res?.status);
+
                                                if (!res) {
                                                    formObjectTemp[element.fileErrorKey] = true;
                                                    setFormObject(formObjectTemp);
                                                    throw Error('File size Exceeded');
                                                } else {
+                                                   console.log(res.status);
+                                                   console.log('res.status');
                                                    formObjectTemp[element.fileErrorKey] = false;
                                                    return res.json();
                                                }
