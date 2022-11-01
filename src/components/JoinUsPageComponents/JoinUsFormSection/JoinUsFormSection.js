@@ -286,6 +286,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                    return res.json();
                                                }
                                            })
+
                                            .then(image => {
 
                                                console.log(image)
