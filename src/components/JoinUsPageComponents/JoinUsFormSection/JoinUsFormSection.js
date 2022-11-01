@@ -190,7 +190,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                className={`form-control ${submitted && !customValidation(element) ? 'invalid' : ''}`}
                                placeholder={element.placeholder}/>
                         {element.key === 'totalProfessionalExperienceInMonths' &&
-                        <span class="hint">(excluding internships and fellowships)</span>}
+                            <span class="hint">(excluding internships and fellowships)</span>}
                     </fieldset>
                 </div>;
             case 'select':
@@ -277,7 +277,8 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                            body: formData
                                        })
                                            .then(res => {
-                                               if (res && res.status === 422) {
+                                               console.log(res)
+                                               if (res && res.status === 422 && !res.success) {
                                                    formObjectTemp[element.fileErrorKey] = true;
                                                    setFormObject(formObjectTemp);
                                                    throw Error('File size Exceeded');
