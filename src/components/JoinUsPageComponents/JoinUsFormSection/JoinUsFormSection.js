@@ -8,7 +8,7 @@ import Slide3 from '../../../img/slides/Slide3.jpg';
 import Slide4 from '../../../img/slides/Slide4.jpg';
 import Slide5 from '../../../img/slides/Slide5.jpg';
 
-const fileUploadURL = 'https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/image-upload';
+const fileUploadURL = 'https://recruitment-uploader.samagra.io/upload';
 // const fileUploadURL = service.baseUrl + 'image-upload';
 
 export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent, infoText1, infoText2}) => {
@@ -287,6 +287,9 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
                                                }
                                            })
                                            .then(image => {
+
+                                               console.log(image)
+                                               console.log('image response')
                                                formObjectTemp[element.key] = image.key;
                                                formObjectTemp[element.fileKeyName] = image.name;
                                                setFormObject(formObjectTemp);
@@ -470,7 +473,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
 
                                                                    let data = new FormData();
                                                                    data.append('file', files[0]);
-                                                                   axios.post('https://recruitment-uploader.samagra.io/upload', data, config)
+                                                                   axios.post(fileUploadURL, data, config)
                                                                        .then(res => {
                                                                            if (res.data && res.data.fileName) {
                                                                                setStatementOfPurpose(res.data.fileName);
