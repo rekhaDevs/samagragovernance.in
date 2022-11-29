@@ -121,8 +121,8 @@ collections:
           - { label: "Roles", name: roles, widget: object, fields: [ { label: Youtube Link, name: youtubeLink, widget: string }, { label: Responsibilities, name: items, widget: list, fields: [ { label: Title, name: title, widget: text }, { label: Description, name: description, widget: text } ] } ] }
           - { label: "FAQ", name: faq, widget: list, fields: [ { label: Question, name: question, widget: text }, { label: Answer, name: answer, widget: text } ] }
       - file: "src/pages/frameworks/index.md"
-        label: "Careers Page"
-        name: "careers"
+        label: "Frameworks Page"
+        name: "frameworks"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "frameworks-page" }
           - { label: "Title", name: "title", widget: "string" }
