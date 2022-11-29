@@ -12,7 +12,7 @@ mainContent:
       create real impact on the ground. 
 frameworks:
   - image: /img/life-1.jpg
-    text: We cowork with the government
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
     actions:
           - link: https://google.com
             text: We cowork with the government
