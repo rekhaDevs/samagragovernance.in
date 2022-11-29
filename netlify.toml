@@ -4,4 +4,5 @@
   functions = "lambda"
 [build.environment]
   YARN_VERSION = "1.9.4"
+  NODE_VERSION = "16.13.0"
   YARN_FLAGS = "--no-ignore-optional"
