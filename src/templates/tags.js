@@ -47,7 +47,7 @@ class TagRoute extends React.Component {
 export default TagRoute
 
 export const tagPageQuery = graphql`
-  query TagPage($tag: String) {
+  query TagPage{
     site {
       siteMetadata {
         title
