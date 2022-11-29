@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import PaertnersBannerImage from "../components/PartnersPageComponents/PaertnersBannerImage/PaertnersBannerImage";
 import PartnersSectionSecond from "../components/PartnersPageComponents/PartnersSectionSecond/PartnersSectionSecond";
 
+
 export const PartnerPagePreviewTemplate = ({post}) => {
     return (
         <React.Fragment>
