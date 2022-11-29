@@ -60,9 +60,11 @@
       height: 600px;
     }
     .details{
-      padding: 10px;
+      padding: 40px;
       p{
         text-align: center;
+        max-width: 650px;
+        margin: auto;
       }
       .actions {
         margin-top: 15px;
@@ -79,6 +81,9 @@
     flex-direction: column;
     margin-bottom: 100px;
     .items{
+      .details{
+        padding: 10px;
+      }
       .item-image{
         height: 400px;
       }
