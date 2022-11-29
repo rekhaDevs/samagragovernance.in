@@ -11,67 +11,67 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Project Id", name: "projectId", widget: "string"}
-      - {label: "Author Image", name: "authorImage", widget: image}
-      - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Project Id", name: "projectId", widget: "string" }
+      - { label: "Author Image", name: "authorImage", widget: image }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Featured Image", name: "featuredimage", widget: image }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "projectdomain"
     label: "Project Domain"
     folder: "src/pages/project-domain"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-domain-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Display On Header", name: "displayOnHeader", widget: "boolean", default: true}
-      - {label: "Display On Home Slider", name: "displayOnHomeSlider", widget: "boolean", default: true}
-      - {label: "Display Order", name: "displayOrder", widget: "string"}
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "project-domain-post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Display On Header", name: "displayOnHeader", widget: "boolean", default: true }
+      - { label: "Display On Home Slider", name: "displayOnHomeSlider", widget: "boolean", default: true }
+      - { label: "Display Order", name: "displayOrder", widget: "string" }
   - name: "mediacontent"
     label: "Media"
     folder: "src/pages/mediacontent"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Media House", name: "mediaHouse", widget: "string"}
-      - {label: "Project Id", name: "projectId", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Link", name: "link", widget: "string"}
-      - {label: "Tag", name: "tag", widget: "string"}
-      - {label: "Display on Home", name: "displayOnHomePage", widget: "boolean"}
-      - {label: "Image", name: "image", widget: image}
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "media-post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Media House", name: "mediaHouse", widget: "string" }
+      - { label: "Project Id", name: "projectId", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Tag", name: "tag", widget: "string" }
+      - { label: "Display on Home", name: "displayOnHomePage", widget: "boolean" }
+      - { label: "Image", name: "image", widget: image }
   - name: "project"
     label: "Projects"
     folder: "src/pages/project"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Domain New", name: "domainNew", collection: "projectdomain" ,displayFields: ['title'],searchFields: ['title'], valueField: title, widget: relation, required: false }
-      - {label: "Full Name", name: "fullName", widget: "string"}
-      - {label: "Id", name: "id", widget: "string"}
-      - {label: "Background Cover", name: "backgroundCover", widget: image}
-      - {label: "Domain", name: "domain", widget: "string"}
-      - {label: "Sub Title", name: "subTitle", widget: "string"}
-      - {label: "State", name: "state", widget: "string"}
-      - {label: "Tag Line", name: "tagLine", widget: "string"}
-      - {label: "Project Logo with State", name: "projectLogoWithState", widget: image}
-      - {label: Overview, name: overview, widget: list, fields: [{label: Text, name: text, widget: string}]}
-      - {label: Scale, name: scale, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
-      - {label: "Center Banner", name: "projectMiddleBannerImage", widget: image}
-      - {label: Approach, name: approach, widget: list, fields: [{label: Text, name: text, widget: string}]}
-      - {label: Read More, name: readMore, widget: list, fields: [{label: Blog Title, collection: blog ,displayFields: ['title', 'author'],searchFields: ['title', 'author'], name: text, valueField: title, widget: relation, required: false }, {label: Media Title, collection: mediacontent , required: false, displayFields: ['title', 'author', 'mediaHouse'],searchFields: ['title', 'author'], name: text, valueField: title, widget: relation}]}
-      - {label: Impact, name: impact, widget: list, fields: [{label: Count, name: count, widget: string}, {label: Label, name: label, widget: string}]}
-      - {label: "Key Initiative Title", name: "keyInitiativesTitle", widget: "string"}
-      - {label: "Key Initiatives", name: keyInitiatives, widget: list, fields: [{label: "Image", name: "image", widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: object, fields: [{label: Text, name: text, widget: string}]}]}
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "project-post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Domain New", name: "domainNew", collection: "projectdomain" ,displayFields: [ 'title' ],searchFields: [ 'title' ], valueField: title, widget: relation, required: false }
+      - { label: "Full Name", name: "fullName", widget: "string" }
+      - { label: "Id", name: "id", widget: "string" }
+      - { label: "Background Cover", name: "backgroundCover", widget: image }
+      - { label: "Domain", name: "domain", widget: "string" }
+      - { label: "Sub Title", name: "subTitle", widget: "string" }
+      - { label: "State", name: "state", widget: "string" }
+      - { label: "Tag Line", name: "tagLine", widget: "string" }
+      - { label: "Project Logo with State", name: "projectLogoWithState", widget: image }
+      - { label: Overview, name: overview, widget: list, fields: [ { label: Text, name: text, widget: string } ] }
+      - { label: Scale, name: scale, widget: list, fields: [ { label: Count, name: count, widget: string }, { label: Label, name: label, widget: string } ] }
+      - { label: "Center Banner", name: "projectMiddleBannerImage", widget: image }
+      - { label: Approach, name: approach, widget: list, fields: [ { label: Text, name: text, widget: string } ] }
+      - { label: Read More, name: readMore, widget: list, fields: [ { label: Blog Title, collection: blog ,displayFields: [ 'title', 'author' ],searchFields: [ 'title', 'author' ], name: text, valueField: title, widget: relation, required: false }, { label: Media Title, collection: mediacontent , required: false, displayFields: [ 'title', 'author', 'mediaHouse' ],searchFields: [ 'title', 'author' ], name: text, valueField: title, widget: relation } ] }
+      - { label: Impact, name: impact, widget: list, fields: [ { label: Count, name: count, widget: string }, { label: Label, name: label, widget: string } ] }
+      - { label: "Key Initiative Title", name: "keyInitiativesTitle", widget: "string" }
+      - { label: "Key Initiatives", name: keyInitiatives, widget: list, fields: [ { label: "Image", name: "image", widget: image }, { label: Title, name: title, widget: string }, { label: Description, name: description, widget: object, fields: [ { label: Text, name: text, widget: string } ] } ] }
   - name: "pages"
     label: "Pages"
     files:
@@ -79,78 +79,87 @@ collections:
         label: "Home Page"
         name: "index"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Media, name: media, widget: list, fields: [{label: "Media", name: "mediaItem", widget: "relation", collection: "mediacontent", searchFields: ["title"],displayFields: ["title"], valueField: "title"}]}
-          - {label: Base Banner, name: baseBanner, widget: object, fields: [{label: "Title Lines", name: "titleLines", widget: list, fields: [{label: Text, name: text, widget: string}]}]}
-          - {label: "Sub Banners", name: subBanners, widget: list, fields: [{label: "Title Lines", name: "titleLines", widget: list, fields: [{label: Text, name: text, widget: string}]}, {label: "Project Name", name: "projectName", widget: "string"}, {label: "Slides", name: "slides", widget: list, fields: [{label: "Image", name: image, widget: image}, {label: "Title", name: title, widget: string}]}]}
-          - {label: "Second Section" ,name: secondSection, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Our Model", name: ourModel, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: list, fields: [{label: Sub Title, name: subTitle, widget: string}, {label: Text, name: text, widget: text}]}]}, {label: "Our Approach", name: ourApproach, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Video PlaceholderImage, name: image, widget: image}, {label: Description, name: description, widget: list, fields: [{label: Sub Title, name: subTitle, widget: string}, {label: Text, name: text, widget: text}]}]}]}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page" }
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - { label: Media, name: media, widget: list, fields: [ { label: "Media", name: "mediaItem", widget: "relation", collection: "mediacontent", searchFields: [ "title" ],displayFields: [ "title" ], valueField: "title" } ] }
+          - { label: Base Banner, name: baseBanner, widget: object, fields: [ { label: "Title Lines", name: "titleLines", widget: list, fields: [ { label: Text, name: text, widget: string } ] } ] }
+          - { label: "Sub Banners", name: subBanners, widget: list, fields: [ { label: "Title Lines", name: "titleLines", widget: list, fields: [ { label: Text, name: text, widget: string } ] }, { label: "Project Name", name: "projectName", widget: "string" }, { label: "Slides", name: "slides", widget: list, fields: [ { label: "Image", name: image, widget: image }, { label: "Title", name: title, widget: string } ] } ] }
+          - { label: "Second Section" ,name: secondSection, widget: object, fields: [ { label: Title, name: title, widget: string }, { label: "Our Model", name: ourModel, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Title, name: title, widget: string }, { label: Description, name: description, widget: list, fields: [ { label: Sub Title, name: subTitle, widget: string }, { label: Text, name: text, widget: text } ] } ] }, { label: "Our Approach", name: ourApproach, widget: object, fields: [ { label: Title, name: title, widget: string }, { label: Video PlaceholderImage, name: image, widget: image }, { label: Description, name: description, widget: list, fields: [ { label: Sub Title, name: subTitle, widget: string }, { label: Text, name: text, widget: text } ] } ] } ] }
       - file: "src/pages/team/index.md"
         label: "Team Page"
         name: "team"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Banner Image", name: bannerImage, widget: image}
-          - {label: "Sub Title", name: "subTitle", widget: "string"}
-          - {label: Team, name: team, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Name, name: name, widget: text}, {label: Project, name: project, widget: text}, {label: Bio, name: bio, widget: text}, {label: "LinkedIn Profile", name: linkedInProfile, widget: text}]}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "team-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+          - { label: "Sub Title", name: "subTitle", widget: "string" }
+          - { label: Team, name: team, widget: list, fields: [ { label: Image, name: image, widget: image }, { label: Name, name: name, widget: text }, { label: Project, name: project, widget: text }, { label: Bio, name: bio, widget: text }, { label: "LinkedIn Profile", name: linkedInProfile, widget: text } ] }
       - file: "src/pages/partners/index.md"
         label: "Partners Page"
         name: "partner"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partners-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Banner Image", name: bannerImage, widget: image}
-          - {label: "Sub Title", name: "subTitle", widget: "string"}
-          - {label: "Partners Title", name: "partnerTitle", widget: text}
-          - {label: "Tag Lines", name: titleLines, widget: list, fields: [{label: "Text", name: text, widget: "string"}]}
-          - {label: Videos, name: "videos", widget: list, fields: [{label: "Video Url", name: videoUrl, widget: "string"}, {label: "Partner Name", name: partnerName, widget: "string"}, {label: Designation, name: designation, widget: "string"}]}
-          - {label: Partners, name: partners, widget: list, fields: [{label: "Partner Image", name: image, widget: image}, {label: Description, name: description, widget: "text"}]}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "partners-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+          - { label: "Sub Title", name: "subTitle", widget: "string" }
+          - { label: "Partners Title", name: "partnerTitle", widget: text }
+          - { label: "Tag Lines", name: titleLines, widget: list, fields: [ { label: "Text", name: text, widget: "string" } ] }
+          - { label: Videos, name: "videos", widget: list, fields: [ { label: "Video Url", name: videoUrl, widget: "string" }, { label: "Partner Name", name: partnerName, widget: "string" }, { label: Designation, name: designation, widget: "string" } ] }
+          - { label: Partners, name: partners, widget: list, fields: [ { label: "Partner Image", name: image, widget: image }, { label: Description, name: description, widget: "text" } ] }
       - file: "src/pages/careers/index.md"
         label: "Careers Page"
         name: "careers"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "careers-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Banner Image", name: bannerImage, widget: image}
-          - {label: "Center Banner Image", name: centerBanner, widget: object, fields: [{label: Image, name: image, widget: image}]}
-          - {label: "Main Text", name: mainContent, widget: list, fields: [{label: "Text", name: text, widget: string}]}
-          - {label: "Philosophy", name: philosophy, widget: object, fields: [{label: "Section One", name: sectionOne, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}, {label: "Section Two", name: sectionTwo, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]},{label: "Section Three", name: sectionThree, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}, {label: "Section Four", name: sectionFour, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}]}
-          - {label: "Slides", name: slides, widget: list, fields: [{label: Image, name: image, widget: image},{label: Text, name: text, widget: string}]}
-          - {label: "Roles", name: roles, widget: object, fields: [{label: Youtube Link, name: youtubeLink, widget: string}, {label: Responsibilities, name: items, widget: list, fields: [{label: Title, name: title, widget: text}, {label: Description, name: description, widget: text}]}]}
-          - {label: "FAQ", name: faq, widget: list, fields: [{label: Question, name: question, widget: text}, {label: Answer, name: answer, widget: text}]}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "careers-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+          - { label: "Center Banner Image", name: centerBanner, widget: object, fields: [ { label: Image, name: image, widget: image } ] }
+          - { label: "Main Text", name: mainContent, widget: list, fields: [ { label: "Text", name: text, widget: string } ] }
+          - { label: "Philosophy", name: philosophy, widget: object, fields: [ { label: "Section One", name: sectionOne, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Title, name: title, widget: string }, { label: Description, name: description, widget: text } ] }, { label: "Section Two", name: sectionTwo, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Title, name: title, widget: string }, { label: Description, name: description, widget: text } ] },{ label: "Section Three", name: sectionThree, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Title, name: title, widget: string }, { label: Description, name: description, widget: text } ] }, { label: "Section Four", name: sectionFour, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Title, name: title, widget: string }, { label: Description, name: description, widget: text } ] } ] }
+          - { label: "Slides", name: slides, widget: list, fields: [ { label: Image, name: image, widget: image },{ label: Text, name: text, widget: string } ] }
+          - { label: "Roles", name: roles, widget: object, fields: [ { label: Youtube Link, name: youtubeLink, widget: string }, { label: Responsibilities, name: items, widget: list, fields: [ { label: Title, name: title, widget: text }, { label: Description, name: description, widget: text } ] } ] }
+          - { label: "FAQ", name: faq, widget: list, fields: [ { label: Question, name: question, widget: text }, { label: Answer, name: answer, widget: text } ] }
+      - file: "src/pages/frameworks/index.md"
+        label: "Careers Page"
+        name: "careers"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "frameworks-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+          - { label: "Main Text", name: mainContent, widget: list, fields: [ { label: "Text", name: text, widget: string } ] }
+          - { label: "Frameworks", name: frameworks, widget: list, fields: [ { label: Image, name: image, widget: image },{ label: Text, name: text, widget: string }, { label: "Actions", name: actions, widget: list, fields: [ { label: Text, name: link, widget: string }, { label: Text, name: text, widget: string } ] } ] }
       - file: "src/pages/c4gt/index.md"
         label: "C4GT Page"
         name: "c4gt"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "c4gt-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Banner Image", name: bannerImage, widget: image}
-          - {label: "Center Banner Image", name: centerBanner, widget: object, fields: [{label: Image, name: image, widget: image}]}
-          - {label: "Main Text", name: mainContent, widget: list, fields: [{label: "Text", name: text, widget: string}]}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "c4gt-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
+          - { label: "Center Banner Image", name: centerBanner, widget: object, fields: [ { label: Image, name: image, widget: image } ] }
+          - { label: "Main Text", name: mainContent, widget: list, fields: [ { label: "Text", name: text, widget: string } ] }
       - file: "src/pages/media/index.md"
         label: "Media Page"
         name: "media"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Banner Image", name: bannerImage, widget: image}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "media-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Banner Image", name: bannerImage, widget: image }
       - file: "src/pages/footer/index.md"
         label: "Footer Page"
         name: "footer"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "footer-page"}
-          - {label: "Bottom Trademark", name: "bottomTrademark", widget: "string"}
-          - {label: "Bottom Trademark Link", name: "bottomTrademarkLink", widget: "string"}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "footer-page" }
+          - { label: "Bottom Trademark", name: "bottomTrademark", widget: "string" }
+          - { label: "Bottom Trademark Link", name: "bottomTrademarkLink", widget: "string" }
       - file: "src/pages/joinus/index.md"
         label: "Join Us Page"
         name: "joinus"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Info Text 1", name: infoText1, widget: "string"}
-          - {label: "Info Text 2", name: infoText2, widget: "string"}
-          - {label: "Vertical Image", name: verticalImage, widget: image}
-          - {label: "Horizontal Image", name: horizontalImage, widget: image}
-          - {label: "Form Fields", name: formsElements, widget: list, fields: [{label: "Label", name: "label", widget: "markdown"}, {label: "Title", name: "title", widget: "string", required: false}, {label: "Content Description",required: false, name: "contentDescription", widget: "string"}, {label: "Required", name: "required", widget: "boolean", default: true}, {label: "Placeholder", name: "placeholder", widget: "markdown"}, {label: "Input Type", name: "type", widget: "select", options: ["text", "select", "file", "radio"]}, {label: "Validation", name: "validation", widget: "select", options: ["VALID_TEXT", "VALID_NUMBER", "VALID_FILE", "VALID_LINK", "VALID_OPTION", "VALID_CONTACT", "VALID_EMAIL"]}, {label: "Other Option (Only for Select/Radio)", name: "otherOptionAvailable", required: false, widget: "object", fields: [{label: "Activation On", name: "activateOn", widget: "string", required: false}, {label: "Label", name: "label", widget: "string", required: false}, {label: "Placeholder", name: "placeholder", widget: "string", required: false}]}, {label: "Options (Only for Select/Radio)", name: "options", required: false, widget: "list", fields:[{label: "Text", name: "text", widget: "string"}]}, {label: "Action Name (For Files)", name: "actionName", widget: "string", required: false}, {label: "Questions (For Files)", name: "questions", widget: "list", fields:[{label: "Text", name: "text", widget: "string"}], required: false}]}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "media-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Info Text 1", name: infoText1, widget: "string" }
+          - { label: "Info Text 2", name: infoText2, widget: "string" }
+          - { label: "Vertical Image", name: verticalImage, widget: image }
+          - { label: "Horizontal Image", name: horizontalImage, widget: image }
+          - { label: "Form Fields", name: formsElements, widget: list, fields: [ { label: "Label", name: "label", widget: "markdown" }, { label: "Title", name: "title", widget: "string", required: false }, { label: "Content Description",required: false, name: "contentDescription", widget: "string" }, { label: "Required", name: "required", widget: "boolean", default: true }, { label: "Placeholder", name: "placeholder", widget: "markdown" }, { label: "Input Type", name: "type", widget: "select", options: [ "text", "select", "file", "radio" ] }, { label: "Validation", name: "validation", widget: "select", options: [ "VALID_TEXT", "VALID_NUMBER", "VALID_FILE", "VALID_LINK", "VALID_OPTION", "VALID_CONTACT", "VALID_EMAIL" ] }, { label: "Other Option (Only for Select/Radio)", name: "otherOptionAvailable", required: false, widget: "object", fields: [ { label: "Activation On", name: "activateOn", widget: "string", required: false }, { label: "Label", name: "label", widget: "string", required: false }, { label: "Placeholder", name: "placeholder", widget: "string", required: false } ] }, { label: "Options (Only for Select/Radio)", name: "options", required: false, widget: "list", fields: [ { label: "Text", name: "text", widget: "string" } ] }, { label: "Action Name (For Files)", name: "actionName", widget: "string", required: false }, { label: "Questions (For Files)", name: "questions", widget: "list", fields: [ { label: "Text", name: "text", widget: "string" } ], required: false } ] }

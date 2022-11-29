@@ -48,3 +48,40 @@
   bottom: -30px !important;
   padding-right: 10px;
 }
+.frameworks-section{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 200px;
+
+  .items {
+    flex-grow: 1;
+    margin-bottom: 40px;
+    .item-image{
+      height: 600px;
+    }
+    .details{
+      padding: 10px;
+      p{
+        text-align: center;
+      }
+      .actions {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        .action{
+          margin : 0 5px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    margin-bottom: 100px;
+    .items{
+      .item-image{
+        height: 400px;
+      }
+    }
+  }
+}

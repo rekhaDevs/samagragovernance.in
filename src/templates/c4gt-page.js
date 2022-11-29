@@ -25,6 +25,7 @@ const MediaPage = ({data}) => {
             <C4GTTemplate content={careerPageContent.frontmatter}/>
         </Layout>
     )
+
 };
 
 
