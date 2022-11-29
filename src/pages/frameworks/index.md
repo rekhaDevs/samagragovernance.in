@@ -1,25 +1,34 @@
 ---
 templateKey: frameworks-page
-title: Careers @ Samagra
-bannerImage: /img/career-header-bg.jpg
+title: Governance Frameworks
+bannerImage: /img/new_delhi_government_block_03-2016_img5.jpg
 mainContent:
   - text: >-
-      Do you want to work on the most challenging governance problems facing our
-      country? Are you passionate about building a stronger India but unsure
-      what the first step is? Join us on our journey to transform governance in
-      India and work with the best in the social impact sector. Samagra offers
-      its consultants a steep professional learning curve and an opportunity to
-      create real impact on the ground. 
+      Since its inception in 2012, Samagra has been working with governments at
+      various levels across the country. We have synthesized our learnings from
+      these 10 years in the form of two frameworks–The Governance Matrix and
+      Panchsutras for Governance Transformation. These frameworks will be useful
+      for those working in the government as well as for those working with the
+      government.
 frameworks:
-  - image: /img/life-1.jpg
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    actions:
-          - link: https://google.com
-            text: We cowork with the government
-  - image: /img/life-2.png
-    text: We work out of government offices
-    actions:
-          - link: https://google.com
-            text: We cowork with the government
+  - actions:
+      - link: >-
+          https://drive.google.com/file/d/1hnZ02sLPworBYvaRlxnKUr_Q-LP_DwvS/view?usp=sharing
+        text: Download
+    image: /img/the-governance-matrix-1-.jpg
+    text: >-
+      The Governance Matrix is a tool to determine the readiness of a government
+      system (national, state or local) to drive outcomes as a function of level
+      of political salience (political will on a given agenda) and system
+      capacity (people, processes and infrastructure).
+  - actions:
+      - link: >-
+          https://drive.google.com/file/d/1RkOgRkMCP2tj357y2Vn5gNR0wipoiBua/view?usp=sharing
+        text: Download
+    image: /img/panchsutras-1-.jpg
+    text: >-
+      The Panchsutras for Governance Transformation are the 5 key principles for
+      carrying out a successful governance transformation at the national, state
+      or local government level.
 ---
 
