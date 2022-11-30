@@ -9,6 +9,7 @@ import Slide4 from '../../../img/slides/Slide4.jpg';
 import Slide5 from '../../../img/slides/Slide5.jpg';
 
 const fileUploadURL = 'https://recruitment-uploader.samagra.io/upload';
+const formSubmitURL = 'https://recruitment-uploader.samagra.io/form-submit';
 // const fileUploadURL = service.baseUrl + 'image-upload';
 
 export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent, infoText1, infoText2}) => {
@@ -556,7 +557,7 @@ export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageCon
 
                                     loaderKey['formSubmit'] = true;
                                     setLoaderKey(JSON.parse(JSON.stringify(loaderKey)));
-                                    axios.post('https://us-central1-samagragovernance-in-new.cloudfunctions.net/api/form-submit', {
+                                    axios.post(formSubmitURL, {
                                         ...reqObject,
                                         statementOfPurpose
                                     }, {headers: {'Content-Type': 'application/json'}})

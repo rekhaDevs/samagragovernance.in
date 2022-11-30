@@ -59,6 +59,13 @@ export const mediaPageQuery = graphql`
             actions {
                 text
                 link
+                icon {
+                    childImageSharp {
+                        fluid(maxWidth: 1440, quality: 100) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
             }
         }
 
