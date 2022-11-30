@@ -12,7 +12,8 @@ mainContent:
       government.
 frameworks:
   - actions:
-      - link: >-
+      - icon: /img/1-465.jpg
+        link: >-
           https://drive.google.com/file/d/1hnZ02sLPworBYvaRlxnKUr_Q-LP_DwvS/view?usp=sharing
         text: Download
     image: /img/the-governance-matrix-1-.jpg
@@ -22,7 +23,8 @@ frameworks:
       of political salience (political will) and system capacity (people,
       processes and infrastructure).
   - actions:
-      - link: >-
+      - icon: /img/1-465.jpg
+        link: >-
           https://drive.google.com/file/d/1RkOgRkMCP2tj357y2Vn5gNR0wipoiBua/view?usp=sharing
         text: Download
     image: /img/panchsutras-1-.jpg
