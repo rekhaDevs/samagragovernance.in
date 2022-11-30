@@ -19,16 +19,16 @@ frameworks:
     text: >-
       The Governance Matrix is a tool to determine the readiness of a government
       system (national, state or local) to drive outcomes as a function of level
-      of political salience (political will on a given agenda) and system
-      capacity (people, processes and infrastructure).
+      of political salience (political will) and system capacity (people,
+      processes and infrastructure).
   - actions:
       - link: >-
           https://drive.google.com/file/d/1RkOgRkMCP2tj357y2Vn5gNR0wipoiBua/view?usp=sharing
         text: Download
     image: /img/panchsutras-1-.jpg
     text: >-
-      The Panchsutras for Governance Transformation are the 5 key principles for
-      carrying out a successful governance transformation at the national, state
-      or local government level.
+      The Panchsutras for Governance Transformation are the five key principles
+      for carrying out a successful governance transformation at the national,
+      state or local government level.
 ---
 
