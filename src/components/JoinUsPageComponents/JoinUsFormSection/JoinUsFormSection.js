@@ -9,7 +9,7 @@ import Slide4 from '../../../img/slides/Slide4.jpg';
 import Slide5 from '../../../img/slides/Slide5.jpg';
 
 const fileUploadURL = 'https://recruitment-uploader.samagra.io/upload';
-const formSubmitURL = 'https://recruitment-uploader.samagra.io/form-submit';
+const formSubmitURL = 'https://recruitment-uploader.samagra.io/forms/form-submit';
 // const fileUploadURL = service.baseUrl + 'image-upload';
 
 export const JoinUsFormSection = ({verticleImage, horizontalImage, joinUsPageContent, infoText1, infoText2}) => {
