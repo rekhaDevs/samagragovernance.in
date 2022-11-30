@@ -18,9 +18,9 @@ frameworks:
     image: /img/slide1-2-.jpg
     text: >-
       The Governance Matrix is a tool to determine the readiness of a government
-      system (national, state or local) to drive outcomes as a function of level
-      of political salience (political will) and system capacity (people,
-      processes and infrastructure).
+      (national, state or local) to drive outcomes as a function of political
+      salience (political will) and system capacity (people, processes and
+      infrastructure).
   - actions:
       - link: >-
           https://drive.google.com/file/d/1RkOgRkMCP2tj357y2Vn5gNR0wipoiBua/view?usp=sharing
