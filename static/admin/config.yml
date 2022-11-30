@@ -128,7 +128,7 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Banner Image", name: bannerImage, widget: image }
           - { label: "Main Text", name: mainContent, widget: list, fields: [ { label: "Text", name: text, widget: string } ] }
-          - { label: "Frameworks", name: frameworks, widget: list, fields: [ { label: Image, name: image, widget: image },{ label: Text, name: text, widget: string }, { label: "Actions", name: actions, widget: list, fields: [ { label: Text, name: link, widget: string }, { label: Text, name: text, widget: string } ] } ] }
+          - { label: "Frameworks", name: frameworks, widget: list, fields: [ { label: Image, name: image, widget: image },{ label: Text, name: text, widget: string }, { label: "Actions", name: actions, widget: list, fields: [ { label: Text, name: link, widget: string }, { label: "Icon (50X50) px", name: icon, widget: image }, { label: Text, name: text, widget: string } ] } ] }
       - file: "src/pages/c4gt/index.md"
         label: "C4GT Page"
         name: "c4gt"

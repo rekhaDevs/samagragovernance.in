@@ -28,7 +28,16 @@ const FrameworkSectionThird = ({content}) => {
                                         return <div classNam={'action'}>
                                             <PrimaryButton classes={'py-2 text-uppercase'} click={() => {
                                                 window.open(a.link, '_blank');
-                                            }} text={a.text}/>
+                                            }}>
+                                                <div style={{display: 'flex', alignItems: 'center'}}>
+                                                    {
+                                                        a.icon &&
+                                                        <img style={{marginRight: '5px'}} width={20} height={20}
+                                                             src={!!a.icon.childImageSharp ? a.icon.childImageSharp.fluid.src : a.icon}/>
+                                                    }
+                                                    {a.text}
+                                                </div>
+                                            </PrimaryButton>
                                         </div>
                                     })
                                 }
