@@ -85,6 +85,9 @@ const Navbar = class extends React.Component {
                                 <a className="nav-link" href="https://tech.samagragovernance.in">SamagraX</a>
                             </li>
                             <li>
+                                <Link to={'/governanceframeworks'}><a className="nav-link" href="/governanceframeworks">Governance Frameworks</a></Link>
+                            </li>
+                            <li>
                                 <Link to={'/c4gt'}><a className="nav-link" href="/c4gt">Code for GovTech</a></Link>
                             </li>
                             <li>
@@ -96,9 +99,7 @@ const Navbar = class extends React.Component {
                             <li>
                                 <Link to={'/media'}><a className="nav-link" href="/media">Media</a></Link>
                             </li>
-                            <li>
-                                <Link to={'/governanceframeworks'}><a className="nav-link" href="/governanceframeworks">Governance Frameworks</a></Link>
-                            </li>
+
                             {/*<li>*/}
                             {/*    <Link to={'/blog'}><a className="nav-link" href="/blog">Blog</a></Link>*/}
                             {/*</li>*/}
