@@ -158,6 +158,9 @@ export class HeaderSmall extends React.Component {
                             <a href={'https://tech.samagragovernance.in'} className="nav-link">SamagraX</a>
                         </div>
                         <div className={"header-list-item"}>
+                            <a href={'/governanceframeworks'} className="nav-link">Governance Frameworks</a>
+                        </div>
+                        <div className={"header-list-item"}>
                             <Link to={'/c4gt'}><a onClick={() => {
                                 this.setState({popupOpened: 'inactive'})
                             }} className="nav-link" href="/c4gt">Code for GovTech</a></Link>
