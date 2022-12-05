@@ -13,7 +13,7 @@ mainContent:
 frameworks:
   - actions:
       - link: >-
-          https://drive.google.com/file/d/1hnZ02sLPworBYvaRlxnKUr_Q-LP_DwvS/view?usp=sharing
+          https://drive.google.com/file/d/1FhZY3RhkjY_5dWmfQW-Ad_zdWXCKFucr/view?usp=share_link
         text: Download
     image: /img/governance_matrix_for-site_resized.jpg
     text: >-
@@ -23,7 +23,7 @@ frameworks:
       infrastructure).
   - actions:
       - link: >-
-          https://drive.google.com/file/d/1RkOgRkMCP2tj357y2Vn5gNR0wipoiBua/view?usp=sharing
+          https://drive.google.com/file/d/1-UX8s0oQ7rlyzZsubzt2oouqgo4r9sQC/view?usp=share_link
         text: Download
     image: /img/ps_for-site_resized.jpg
     text: >-
