@@ -15,6 +15,9 @@ frameworks:
       - link: >-
           https://drive.google.com/file/d/1FhZY3RhkjY_5dWmfQW-Ad_zdWXCKFucr/view?usp=share_link
         text: Download
+      - link: Media
+        text: >-
+          https://www.ideasforindia.in/topics/governance/the-governance-matrix-understanding-a-system-s-readiness-for-change.html
     image: /img/governance_matrix_for-site_resized.jpg
     text: >-
       The Governance Matrix is a tool to determine the readiness of a government
