@@ -56,11 +56,16 @@
   .items {
     flex: 1;
     margin-bottom: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
     .item-image{
-      height: 400px;
     }
     .details{
       padding: 10px 40px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
       p{
         text-align: center;
         max-width: 650px;
@@ -81,11 +86,11 @@
     flex-direction: column;
     margin-bottom: 100px;
     .items{
+      padding: 10px;
       .details{
         padding: 10px;
       }
       .item-image{
-        height: 400px;
       }
     }
   }

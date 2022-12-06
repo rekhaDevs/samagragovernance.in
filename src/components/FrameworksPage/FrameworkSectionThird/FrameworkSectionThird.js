@@ -8,28 +8,32 @@ const FrameworkSectionThird = ({content}) => {
             {
                 content.frameworks.map((c) => {
                     return <div className={'items'}>
-                        <div className={'item-image'} style={{
-                            backgroundSize: 'contain',
-                            backgroundPosition: 'center',
-                            backgroundRepeat: 'no-repeat',
-                            backgroundImage: `url(${
-                                !!c.image.childImageSharp ? c.image.childImageSharp.fluid.src : c.image
-                            })`
-                        }}>
+                        {/*<div className={'item-image'} style={{*/}
+                        {/*    backgroundSize: 'contain',*/}
+                        {/*    backgroundPosition: 'center',*/}
+                        {/*    backgroundRepeat: 'no-repeat',*/}
+                        {/*    backgroundImage: `url(${*/}
+                        {/*        !!c.image.childImageSharp ? c.image.childImageSharp.fluid.src : c.image*/}
+                        {/*    })`*/}
+                        {/*}}>*/}
 
-                        </div>
+                        {/*</div>*/}
+                        <img src={!!c.image.childImageSharp ? c.image.childImageSharp.fluid.src : c.image}
+                             width={'100%'} className={'item-image'}/>
                         <div className="details">
-                            <p>
-                                {c.text}
-                            </p>
+                            <div style={{flex: 1}}>
+                                <p>
+                                    {c.text}
+                                </p>
+                            </div>
                             <div className="actions">
                                 {
                                     c.actions.map((a) => {
-                                        return <div classNam={'action'}>
-                                            <PrimaryButton classes={'py-2 text-uppercase'} click={() => {
+                                        return <div className={'action'}>
+                                            <PrimaryButton classes={'py-2 text-uppercase'} style={{padding: '2px 25px', width:'128px', textAlign:'center'}} click={() => {
                                                 window.open(a.link, '_blank');
                                             }}>
-                                                <div style={{display: 'flex', alignItems: 'center'}}>
+                                                <div style={{display: 'flex',margin:'auto',justifyContent: 'center', alignItems: 'center'}}>
                                                     {
                                                         a.icon &&
                                                         <img style={{marginRight: '5px'}} width={20} height={20}
@@ -41,6 +45,7 @@ const FrameworkSectionThird = ({content}) => {
                                         </div>
                                     })
                                 }
+
                             </div>
                         </div>
                     </div>
