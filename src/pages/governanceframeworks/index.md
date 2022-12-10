@@ -33,6 +33,8 @@ frameworks:
       - link: >-
           https://www.ideasforindia.in/topics/governance/panchsutras-for-carrying-out-a-successful-governance-transformation.html
         text: Media
+      - link: 'https://www.youtube.com/watch?v=hqTYCZU2Kb8'
+        text: Video
     image: /img/ps_for-site_resized.jpg
     text: >-
       The Panchsutras for Governance Transformation are the five key principles
