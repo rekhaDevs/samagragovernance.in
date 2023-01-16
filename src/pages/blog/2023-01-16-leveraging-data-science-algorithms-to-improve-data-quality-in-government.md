@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Leveraging Data Science algorithms to improve data quality in government
 author: Gautam Rajeev and Siddhant Agarwal
 projectId: KONNECT
-authorImage: /img/person-vector_updated.jpeg
+authorImage: /img/person-vector-2.jpeg
 date: 2023-01-16T13:01:13.704Z
 description: NA
 featuredimage: /img/konnect-blog-cover-photo.png
