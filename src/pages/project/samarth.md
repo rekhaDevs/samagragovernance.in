@@ -22,7 +22,7 @@ overview:
 scale:
   - count: '15,000'
     label: Schools
-  - count: '80,000'
+  - count: '67,000'
     label: Teachers
   - count: '8,00,000'
     label: Students
