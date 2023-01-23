@@ -49,6 +49,21 @@ team:
     name: Aakash Yadav
     project: SamagraX
   - bio: >-
+      Aashutosh holds an MBA from Indian Institute of Management, Ahmedabad and
+      a Bachelor's degree in Economics from Shri Ram College of Commerce,
+      University of Delhi. Before joining Samagra, he was working as a Product
+      Manager at Havells India. In his spare time, Aashutosh enjoys gaming,
+      trekking and traveling.
+
+
+      An opportunity to build innovative products and leverage technology to
+      impact the lives of citizens at scale brought him to Samagra. Currently,
+      he is part of the SamagraX team.
+    image: /img/aashutosh.png
+    linkedInProfile: 'https://www.linkedin.com/in/aashutosh-saini-1aa86b143/'
+    name: Aashutosh Saini
+    project: SamagraX
+  - bio: >-
       Aayush holds an MBA from the Indian School of Business and a Bachelor's
       degree in Commerce from Shri Ram College of Commerce. Prior to Samagra, he
       worked with Blue Vector, a creative agency based out of Gurgaon, that he
