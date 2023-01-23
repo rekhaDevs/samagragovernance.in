@@ -147,11 +147,11 @@ team:
       creating a proof point for an inclusive, holistic and high-performing
       low-income school. An opportunity to build on his previous experience
       working on the ground and create systemic change at scale brought him to
-      Samagra. Currently, he is part of the CEO's Office.
+      Samagra. Currently, he is part of the Central Team in the Delhi office.
     image: /img/akash_7640.jpg
     linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
     name: Akash Tyagi
-    project: Entrepreneur-in-Residence
+    project: Central Team
   - bio: >-
       Aman holds an MBA from IIM Kozhikode and a Bachelor's degree in Electrical
       & Electronics Engineering from BITS Pilani. Before joining Samagra, he was
@@ -162,7 +162,7 @@ team:
 
       A strong motivation to enable society and state to co-create good
       governance using technology, brought him to Samagra. 
-    image: /img/aman.jpeg
+    image: /img/aman.png
     linkedInProfile: 'https://www.linkedin.com/in/amangup/'
     name: Aman Gupta
     project: .
@@ -1083,6 +1083,23 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/vasundhra-negi-96b383209/'
     name: Vasundhra Negi
     project: Mission Prerna
+  - bio: >-
+      Venkatesh holds an MBA from Indian School of Business, Hyderabad and a
+      Bachelor's degree in Electrical, Electronics and Communications
+      Engineering from Indian Institute of Technology, Patna. Before joining
+      Samagra, he was working as a Marketing Communications Manager at Brane
+      Enterprises. Prior to this, he was an Educator and Category Manager at
+      Unacademy. In his spare time, Venkatesh enjoys playing sports and
+      listening to music. 
+
+
+      A strong motivation to create impact at scale and bring positive change in
+      the lives of citizens brought him to Samagra. Currently, he is part of the
+      Central Team in the Delhi office.
+    image: /img/venkatesh.png
+    linkedInProfile: 'https://www.linkedin.com/in/venkateshchaturvedi/'
+    name: Venkatesh Chaturvedi
+    project: Central Team
   - bio: >-
       Vijeeth holds a Bachelor's degree in Commerce from Kirori Mal College,
       University of Delhi. Before joining Samagra, he was leading a team at the
