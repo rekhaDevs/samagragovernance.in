@@ -1003,19 +1003,19 @@ team:
   - bio: >-
       Swechcha holds a Master’s degree in Social Work from Madras School of
       Social Work, University of Madras and a Bachelor’s degree in Mathematics
-      from Kamala Nehru College, University of Delhi. Before joining Samagra,she
-      was working as a Consultant and Program Implementer at Multiple Action
+      from Kamala Nehru College, University of Delhi. Before joining Samagra,
+      she was working as a Consultant and Program Implementer at Multiple Action
       Research Group (MARG) where she was primarily involved in research,
       documentation and data analysis work.
 
 
       A strong motivation to work on governance issues and improving the quality
       of life of citizens brought her to Samagra. Currently, she is part of the
-      CEO's Office.
+      Central Team in the Delhi office.
     image: /img/edited_img_7622.jpg
     linkedInProfile: 'https://www.linkedin.com/in/swechcha-ganapati-224aaabb/'
     name: Swechcha Ganapati
-    project: CEO's Office
+    project: Central Team
   - bio: >-
       Tarang holds a Bachelor's degree in Electronics and Communication
       Engineering from Vellore Institute of Technology. After graduating, Tarang
@@ -1134,6 +1134,21 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/vijeeth-srinivas-756873148/'
     name: Vijeeth Srinivas
     project: KONNECT
+  - bio: >-
+      Vijeet holds a Postgraduate Diploma in Marketing and Management from
+      Bharathiar University, Coimbatore and a Bachelor's degree in Commerce with
+      a specialisation in Taxation from St. Aloysius College, Jabalpur. Before
+      joining Samagra, he was working as a Business Support at DuPont.
+
+
+      An opportunity to create impact at scale brought him to Samagra. He
+      intends to leverage his past work experience to define and develop
+      processes at Samagra. Currently, he is part of the Central Team in the
+      Delhi office.
+    image: /img/vijeet.png
+    linkedInProfile: 'https://www.linkedin.com/in/vijeet-shivhare/'
+    name: Vijeet Shivhare
+    project: Central Team
   - bio: >
       Viren holds an MBA from S.P. Jain Institute of Management & Research.
       Before joining Samagra, he was working as a Senior Manager with Kearney,
