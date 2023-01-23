@@ -507,16 +507,6 @@ team:
     name: Mohit Vijay
     project: KONNECT
   - bio: >-
-      Mradul holds a Bachelor's degree in Civil Engineering from IIT Kanpur. A
-      strong motivation to contribute towards improving public service delivery
-      by co-working with the government and creating real impact at scale,
-      brought him to Samagra. Currently, he is part of the Mission Prerna team
-      in Uttar Pradesh.
-    image: /img/edited_img_4128.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/mradul-chaudhary/'
-    name: Mradul Chaudhary
-    project: Mission Prerna
-  - bio: >-
       Namisha holds a Master’s degree in Development Economics from South Asian
       University and a Bachelor’s degree in Economics from Gargi College,
       University of Delhi. She has previously worked as a MEFF Consultant with
@@ -583,13 +573,13 @@ team:
       also completed a course on 'Re-thinking the Obvious: Rhetoric of
       Development' at Miranda House in collaboration with The George Washington
       University. An opportunity to create positive impact in the lives of
-      people and an interest in public policy brings Pragya to Samagra. Pragya
-      is the Program Coordinator of the Anamaya team and manages its daily
-      operations.
+      people and an interest in public policy brought her to Samagra. Pragya is
+      the Program Coordinator of the Mission Prerna team in Uttar Pradesh and
+      manages its daily operations.
     image: /img/pragya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/pragya-mathur-678779126'
     name: Pragya Mathur
-    project: Anamaya
+    project: Mission Prerna
   - bio: >-
       Prasanna holds a Bachelor's degree in Statistics from St. Joseph's
       College, Trichy and a Master's in Computer Applications from Adaikalamatha
@@ -846,68 +836,14 @@ team:
     name: Shruti Agarwal
     project: SamagraX
   - bio: >-
-      Shubham holds a Bachelor's degree in Electronics and Communication
-      Engineering from Thapar University. Post a six-month stint as an intern
-      with EY, he signed up to do the Gandhi Fellowship. During the fellowship,
-      Shubham worked on the leadership development of headmasters in 25 schools
-      in Thane, Maharashtra. Starting in July 2018, he worked as a Chief
-      Minister's Good Governance Associate in Yamunanagar district of Haryana
-      for one year. As a CMGGA, Shubham worked on improving the public service
-      delivery system in the state and gained a granular understanding of how
-      government programmes are implemented. Shubham's fascination for the
-      public sector has pushed him to work at various levels of governance,
-      starting from the grassroots to district-level implementation. An
-      opportunity to use his past work experience to create impact at scale
-      brought him to Samagra. Shubham is the Program Coordinator of the KONNECT
-      team in Odisha and manages its daily operations.
-    image: /img/shubam.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/bansalshubham09'
-    name: Shubham Bansal
-    project: KONNECT
-  - bio: >-
-      Shubhankar holds a Master's degree in Public Policy from National Law
-      School of India University, Bangalore and a Bachelor's degree in Computer
-      Science and Engineering from PES University, Bangalore. He has also been a
-      civil service aspirant. Before joining Samagra, he was working with a
-      political consulting firm. Prior to this, he was an engineer in the cloud
-      computing vertical of Microsoft. In his spare time, Shubhankar enjoys
-      playing cricket and discussing political affairs.
-
-
-      A strong motivation to work on critical socio-economic issues and his
-      passion for governance brought him to Samagra. He intends to leverage his
-      academic grounding and hands-on experience in technology, policy and
-      governance to create impact at scale.
-    image: /img/shubhankar.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/shubhankarpradeep/'
-    name: Shubhankar Pradeep
-    project: .
-  - bio: >-
-      Shubhodeep holds a Bachelor’s degree in Manufacturing Engineering from
-      Birla Institute of Technology and Science, Pilani (BITS Pilani). Before
-      joining Samagra, he was working as a Principal Associate at Indian
-      Political Action Committee (I-PAC), primarily leading teams to devise
-      election-winning strategies for different political parties. 
-
-
-      A strong motivation to bring about a systemic and sustainable change in
-      governance brought him to Samagra. He intends to leverage his rich
-      on-ground experience of working with politicians, bureaucrats, and NGOs to
-      create impact at scale. Shubhodeep is the Program Coordinator of the
-      Saksham Haryana-Education team and manages its daily operations.
-    image: /img/shubhodeep.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/dattashubhodeep/'
-    name: Shubhodeep Datta
-    project: Saksham Haryana-Education
-  - bio: >-
       Siddhant holds a Bachelor's degree in Mechanical Engineering from Vellore
       Institute of Technology. Before joining Samagra, he was working as a
       Management Consultant with EY's Business Consulting vertical, primarily
       focused on supply chain and operations cost optimization for clients
       across industries. His long-standing motivation to assist governments in
       maximizing impact while working at the grassroots level towards societal
-      change brought him to Samagra. Currently, he is part of the KONNECT team
-      in Odisha.
+      change brought him to Samagra. Siddhant is the Program Coordinator of the
+      KONNECT team in Odisha and manages its daily operations.
     image: /img/edited_siddhant.jpg
     linkedInProfile: 'https://www.linkedin.com/in/siddhant-agarwal-774a6b122/'
     name: Siddhant Agarwal
@@ -936,8 +872,9 @@ team:
 
 
       Her passion to bridge the gap between the haves and have nots, and belief
-      in governance as a lever of change brought her to Samagra. Currently, she
-      is part of the Saksham Haryana-Education team.
+      in governance as a lever of change brought her to Samagra. Simran is the
+      Program Coordinator of the Saksham Haryana-Education team and manages its
+      daily operations.
     image: /img/edited_simran.jpg
     linkedInProfile: 'https://www.linkedin.com/in/baggasimran/'
     name: Simran Bagga
@@ -998,20 +935,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/swechcha-ganapati-224aaabb/'
     name: Swechcha Ganapati
     project: CEO's Office
-  - bio: >-
-      Tanvi holds a Bachelor’s degree in Computer Engineering from Netaji Subhas
-      Institute of Technology, New Delhi. Before joining Samagra, she was
-      working with the Proprietary Data Operations practice at Bain and Company,
-      primarily helping in creating one of Bain’s first data businesses. 
-
-
-      An opportunity to work on governance challenges from an implementation
-      perspective brought Tanvi to Samagra. Tanvi is the Program Coordinator of
-      the Mission Prerna team in Uttar Pradesh and manages its daily operations.
-    image: /img/tanvi.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/tanvi-sharma-156a95100/'
-    name: Tanvi Sharma
-    project: Mission Prerna
   - bio: >-
       Tarang holds a Bachelor's degree in Electronics and Communication
       Engineering from Vellore Institute of Technology. After graduating, Tarang
