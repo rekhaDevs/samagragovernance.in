@@ -964,6 +964,19 @@ team:
     name: Soumya Gupta
     project: Saksham Haryana-Education
   - bio: >-
+      Srajan is a Young India Fellow who holds a Postgraduate Diploma in Liberal
+      Studies from Ashoka University, Haryana and a Bachelor's degree in
+      Electronics and Communications Engineering from IIIT Delhi. Before joining
+      Samagra, he was working as a Deputy Manager - CSR at ESSAR Foundation.
+
+
+      A strong desire to understand the scale of governance challenges in India
+      and become a part of the solution, brought him to Samagra.
+    image: /img/srajan.jpg
+    linkedInProfile: .
+    name: Srajan Bhatnagar
+    project: .
+  - bio: >-
       Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Previously, he has worked with KPMG to
       provide integrity intelligence for M&A transactions to Fortune 500
