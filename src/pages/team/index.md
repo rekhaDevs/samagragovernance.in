@@ -1064,6 +1064,22 @@ team:
     name: Utkarsh Vijay
     project: KONNECT and SamagraX
   - bio: >-
+      Utsav holds an MBA and a Bachelor’s degree in Foundations of Management
+      from IIM Indore. Before joining Samagra, he was working as a Senior
+      Consultant with the TSE consulting practice at EY-Parthenon, primarily
+      working on M&A, large scale transformation and change management projects.
+
+
+      A strong motivation to bring about positive change in the lives of
+      citizens through governance as a lever of change, brought Utsav to
+      Samagra. He intends to leverage his academic grounding and hands-on
+      experience with large scale change management to deliver impact at scale.
+      Currently, he is part of the Mission Prerna team in Uttar Pradesh.
+    image: /img/utsav.png
+    linkedInProfile: 'https://www.linkedin.com/in/utsavthapliyal/'
+    name: Utsav Thapliyal
+    project: Mission Prerna
+  - bio: >-
       Vasundhra holds a Bachelor’s degree in Mathematics from Sri Guru Tegh
       Bahadur Khalsa College, University of Delhi. Before joining Samagra, she
       was volunteering for the National Service Scheme. In her spare time,
