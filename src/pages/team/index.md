@@ -534,6 +534,20 @@ team:
     name: Mohit Vijay
     project: KONNECT
   - bio: >-
+      Nakul holds an MBA from Esade Business School, Barcelona and a Bachelor's
+      degree in Electrical Engineering from Thapar Institute of Engineering &
+      Technology, Patiala. Before joining Samagra, he was working as a Product
+      Manager at Siemens, where he worked on electricity transmission projects
+      for utility companies in India and abroad.
+
+
+      A strong belief in governance being one of the key levers to drive impact
+      at scale, brought him to Samagra. 
+    image: /img/nakul.png
+    linkedInProfile: 'https://www.linkedin.com/in/nakulkumar19/'
+    name: Nakul Kumar
+    project: .
+  - bio: >-
       Namisha holds a Master’s degree in Development Economics from South Asian
       University and a Bachelor’s degree in Economics from Gargi College,
       University of Delhi. She has previously worked as a MEFF Consultant with
