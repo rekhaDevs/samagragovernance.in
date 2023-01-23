@@ -52,8 +52,7 @@ team:
       Aashutosh holds an MBA from Indian Institute of Management, Ahmedabad and
       a Bachelor's degree in Economics from Shri Ram College of Commerce,
       University of Delhi. Before joining Samagra, he was working as a Product
-      Manager at Havells India. In his spare time, Aashutosh enjoys gaming,
-      trekking and traveling.
+      Manager at Havells India.
 
 
       An opportunity to build innovative products and leverage technology to
@@ -111,6 +110,19 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/abhay-kumar-singh-y9010/'
     name: Abhay Singh
     project: SamagraX
+  - bio: >-
+      Abhishek holds a Master's degree in Computer Applications from Institute
+      of Engineering and Technology, Lucknow and a Bachelor's degree in the same
+      discipline from Chhatrapati Shahu Ji Maharaj University, Kanpur. Before
+      joining Samagra, he was working as a Software Developer at Zextras India. 
+
+
+      A strong motivation to contribute towards improving the lives of citizens
+      and to learn & grow as a Developer, brought him to Samagra.
+    image: /img/abhishek.png
+    linkedInProfile: 'https://www.linkedin.com/in/abhishek1401/'
+    name: Abhishek Pal
+    project: .
   - bio: >-
       Abhishek holds a Bachelor's degree in Law from the National Law School of
       India University, Bangalore. Before joining Samagra, he worked as an
@@ -733,6 +745,20 @@ team:
     name: Sagari Handa
     project: .
   - bio: >-
+      Sagar holds a Bachelor’s degree in Civil Engineering from Thapar Institute
+      of Engineering & Technology, Patiala. Before joining Samagra, he was
+      working as a Senior Manager at ICICI Lombard primarily focusing on
+      operations & strategy for SaaS products.
+
+
+      An opportunity to solve complex governance challenges that benefit the
+      lives of citizens brought him to Samagra. Currently, he is part of the
+      Mission Prerna team in Uttar Pradesh.
+    image: /img/sagar.png
+    linkedInProfile: 'https://www.linkedin.com/in/sagar-vats/'
+    name: Sagar Vats
+    project: Mission Prerna
+  - bio: >-
       Sanchita holds a Bachelor's degree in Home Science from Lady Irwin
       college. Previously, Sanchita was working as Executive Assistant to the
       Managing Director of Twitter India. An opportunity to contribute to
@@ -1027,8 +1053,7 @@ team:
       Engineering from Indian Institute of Technology, Patna. Before joining
       Samagra, he was working as a Marketing Communications Manager at Brane
       Enterprises. Prior to this, he was an Educator and Category Manager at
-      Unacademy. In his spare time, Venkatesh enjoys playing sports and
-      listening to music. 
+      Unacademy.
 
 
       A strong motivation to create impact at scale and bring positive change in
