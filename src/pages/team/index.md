@@ -91,12 +91,11 @@ team:
       from strategy development to implementation, while consistently focusing
       on the end-user. An opportunity to improve the lives of citizens by
       creating impact at scale brought him to Samagra. Abhay is the Program
-      Coordinator of the Niramaya team in Uttar Pradesh and manages its daily
-      operations.
+      Coordinator of the SamagraX team and manages its daily operations.
     image: /img/abhay_7665.jpg
     linkedInProfile: 'https://www.linkedin.com/in/abhay-kumar-singh-y9010/'
     name: Abhay Singh
-    project: Niramaya
+    project: SamagraX
   - bio: >-
       Abhishek holds a Bachelor's degree in Law from the National Law School of
       India University, Bangalore. Before joining Samagra, he worked as an
@@ -107,12 +106,12 @@ team:
 
       An opportunity to partner with government stakeholders to develop
       efficient service delivery systems and improve the lives of citizens
-      brought Abhishek to Samagra. Currently, he is part of the Mission Prerna
-      team in Uttar Pradesh.
+      brought him to Samagra. Currently, he is part of the Central Team in the
+      Delhi office.
     image: /img/abhishekrao.jpg
     linkedInProfile: 'https://www.linkedin.com/in/abhishek-rao-479047159/'
     name: 'Abhishek Rao '
-    project: 'Mission Prerna '
+    project: Central Team
   - bio: >-
       Aditi holds a Bachelor's degree in Electronics and Telecommunication
       Engineering from Sardar Patel Institute of Technology, Mumbai University.
@@ -247,11 +246,11 @@ team:
       development sector, she has also worked with the United Nations and
       Government of Delhi. Her strong belief in using governance as a lever for
       societal change brought her to Samagra. Currently, she is part of the
-      CEO's Office.
+      Central Team in the Delhi office.
     image: /img/anusheela_7528.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anusheela-ghosh/'
     name: Anusheela Ghosh
-    project: CEO's Office
+    project: Central Team
   - bio: >-
       Bhanu holds a Master's degree in Public Management from SDA Bocconi School
       of Management, Italy and a Bachelor’s degree in English Literature from
@@ -362,11 +361,12 @@ team:
 
 
       An opportunity to use creative communications tools to tell grassroots
-      impact stories brought her to Samagra.
+      impact stories brought her to Samagra. Currently, she is part of the
+      Central Team in the Delhi office.
     image: /img/edited_garima.jpeg.jpg
     linkedInProfile: 'https://www.linkedin.com/in/garima-sood/'
     name: Garima Sood
-    project: Outreach Associate
+    project: Central Team
   - bio: >-
       Gautam holds a Master's degree in Data Analytics from Georgia Institute of
       Technology, Atlanta and a Bachelor’s degree in Mechanical Engineering from
