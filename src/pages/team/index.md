@@ -549,6 +549,19 @@ team:
     name: Namisha Mehra
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      Nawaz holds a Bachelor's degree in Aeronautics from Jamia Millia Islamia,
+      New Delhi. Before joining Samagra, he was working as a Programme Associate
+      at PRS Legislative Research. Prior to this, he was a Research and Data
+      intern at the Indian Institute of Management, Bangalore.
+
+
+      An opportunity to solve complex governance problems and improve the lives
+      of citizens brought him to Samagra.
+    image: /img/nawaz.png
+    linkedInProfile: 'https://www.linkedin.com/in/nawaz-ahmed-khan-23512a18b/'
+    name: Nawaz Ahmed Khan
+    project: .
+  - bio: >-
       Nikhil holds an MBA from the Indian Institute of Management Ahmedabad
       (IIMA), a Master’s degree in Public Administration from Indira Gandhi
       National Open University (IGNOU), New Delhi and a Bachelor’s degree in
