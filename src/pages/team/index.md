@@ -943,12 +943,12 @@ team:
 
 
       An opportunity to drive real impact at scale brought him to Samagra.
-      Currently, he is part of the CEO's Office.
+      Currently, he is part of the Central Team in the Delhi office.
     image: /img/edited_img_3612.jpg
     linkedInProfile: 'https://www.linkedin.com/in/siddharth-gulati-740386166/'
     name: |
       Siddharth Gulati
-    project: 'CEO''s Office '
+    project: Central Team
   - bio: >-
       Simran holds a Master's degree in Economics from the Delhi School of
       Economics and a Bachelor's degree in the same from Lady Shri Ram College
