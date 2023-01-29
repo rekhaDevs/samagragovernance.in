@@ -331,12 +331,11 @@ team:
 
       A strong belief in governance as a key lever of change and the opportunity
       to gain hands-on experience working with the government brought her to
-      Samagra. Currently, she is part of the Mission Prerna team in Uttar
-      Pradesh.
+      Samagra.
     image: /img/edited_img_7713.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bhavya-berlia-936a8b128/'
     name: Bhavya Berlia
-    project: Mission Prerna
+    project: .
   - bio: >-
       Bhavya holds a Bachelor’s degree in Management Studies from Shaheed
       Sukhdev College of Business Studies, University of Delhi.
