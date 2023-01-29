@@ -1000,11 +1000,12 @@ team:
 
 
       A strong desire to understand the scale of governance challenges in India
-      and become a part of the solution, brought him to Samagra.
+      and become a part of the solution, brought him to Samagra. Currently, he
+      is part of the Mission Prerna team in Uttar Pradesh.
     image: /img/srajan.jpg
     linkedInProfile: .
     name: Srajan Bhatnagar
-    project: .
+    project: Mission Prerna
   - bio: >-
       Srikanth holds an MBA from Xavier Institute of Management, Bhubaneswar and
       a Bachelor's degree in Electrical, Electronics and Communications
