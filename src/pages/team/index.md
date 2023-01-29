@@ -111,6 +111,21 @@ team:
     name: Abhay Singh
     project: SamagraX
   - bio: >-
+      Abhinav holds a Master's degree in Advanced Management from Yale School of
+      Management, Connecticut, an MBA from HEC Paris and a Bachelor's degree in
+      Integrated Medicine and Surgery from Chatrapati Sahuji Maharaj Kanpur
+      University. Before joining Samagra, he was working as a Senior Consultant
+      with the Life Sciences practice at Simon-Kucher & Partners in their Paris
+      office. 
+
+
+      An opportunity to drive impact at scale and work with state governments
+      brings Abhinav to Samagra.
+    image: /img/abhinav-pawar.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/abhinavpawar/'
+    name: Abhinav Pawar
+    project: .
+  - bio: >-
       Abhishek holds a Master's degree in Computer Applications from Institute
       of Engineering and Technology, Lucknow and a Bachelor's degree in the same
       discipline from Chhatrapati Shahu Ji Maharaj University, Kanpur. Before
