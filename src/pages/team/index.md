@@ -518,11 +518,10 @@ team:
       at Federation of Indian Chambers of Commerce and Industry (FICCI) and
       Central Board of Secondary Education (CBSE). A strong passion for creating
       impact at scale through the ambit of governance brought him to Samagra.
-      Currently, he is part of the KONNECT team in Odisha.
     image: /img/mehul.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mehul-sehgal-a38337152/'
     name: Mehul Sehgal
-    project: KONNECT
+    project: .
   - bio: >-
       Mohit holds a Bachelor's degree in Management Studies from Shaheed Sukhdev
       College of Business Studies, University of Delhi. 
@@ -834,12 +833,11 @@ team:
       Deendayal Energy University. Prior to joining Samagra, he was working as
       the National Head of Operations at AIESEC in India, focusing on leadership
       development in youth. A strong desire to bring about systemic change while
-      working with the government brought him to Samagra. Currently, he is part
-      of the Saksham Haryana-Skills & Employment team.
+      working with the government brought him to Samagra.
     image: /img/edited_shashwat.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shashwat-shah-32a1131b4/'
     name: Shashwat Shah
-    project: Saksham Haryana-Skills & Employment
+    project: .
   - bio: >-
       Shipra holds an MPhil degree in Public Policy from the University of
       Cambridge, UK and a Bachelor's degree in History from Lady Shri Ram
