@@ -895,12 +895,11 @@ team:
        
       Shruti is passionate about automation and contributing to OpenSource. An
       opportunity to leverage her tech skills to build OpenSource products for
-      governments brought her to Samagra. Currently, she is part of the SamagraX
-      team.
+      governments brought her to Samagra.
     image: /img/edited_shruti.jpeg.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shruti-ag/'
     name: Shruti Agarwal
-    project: SamagraX
+    project: .
   - bio: >-
       Shubhajeet holds an MBA from Indian Institute of Management, Lucknow and a
       Bachelor’s degree in Mechanical Engineering from Kalinga Institute of
