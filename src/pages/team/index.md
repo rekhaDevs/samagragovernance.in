@@ -962,6 +962,21 @@ team:
     name: Simran Bagga
     project: Saksham Haryana-Education
   - bio: >-
+      Snehi is a Young India Fellow who holds a Post Graduate Diploma in Liberal
+      Studies from Ashoka University, Haryana and a Bachelor's degree in
+      Architecture from Amity University, Noida. Before joining Samagra, she was
+      working as a Manager with the careers and programme development vertical
+      at The Vedica Scholars Programme for Women.
+
+
+      An opportunity to work in the social impact space and contribute towards
+      bringing sustainable change using a data-driven approach, brings Snehi to
+      Samagra.
+    image: /img/snehi-gupta.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/snehi-gupta-6ab189b6/'
+    name: Snehi Gupta
+    project: .
+  - bio: >-
       Soumya holds a Bachelor's degree in Commerce from Jesus and Mary College,
       University of Delhi. She is also a YLAC policy in action and One Future
       Fellow. Before joining Samagra, she was working in Audit & Assurance at
