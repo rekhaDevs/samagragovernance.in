@@ -506,11 +506,12 @@ team:
       Commerce, University of Delhi. Before joining Samagra, she gained hands-on
       experience in the field of social impact and consulting and interned with
       The/ Nudge Foundation, mByom and Invest India. A strong motivation to
-      create impact at scale brought her to Samagra. 
+      create impact at scale brought her to Samagra. Currently, she is part of
+      the KONNECT team in Odisha.
     image: /img/edited_img_4110.jpg
     linkedInProfile: 'https://www.linkedin.com/in/meena-priyadarsnee-k/'
     name: Meena Priyadarsnee K
-    project: .
+    project: KONNECT
   - bio: >-
       Mehul holds a Bachelor's degree in Economics from Hindu College,
       University of Delhi. Before joining Samagra, he interned at KPMG, PATH and
