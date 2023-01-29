@@ -263,12 +263,12 @@ team:
       then joined the Department of Finance and Planning, Government of
       Chhattisgarh as a Chief Minister’s Good Governance Fellow. The zeal to
       create real impact on the ground by transforming governance and public
-      administration brought him to Samagra. Ankit currently leads the Niramaya
-      programme in Uttar Pradesh. 
+      administration brought him to Samagra. Ankit currently leads the Mission
+      Prerna and Niramaya programmes in Uttar Pradesh.
     image: /img/ankit_7709.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
-    project: 'Niramaya '
+    project: 'Mission Prerna & Niramaya '
   - bio: >-
       Anurag holds a Bachelor's degree in Engineering from NSUT, University of
       Delhi. Before joining Samagra, he was working as an Analyst at Everest
@@ -1085,7 +1085,8 @@ team:
       a chance to work with government schools in Uttar Pradesh and experience
       the gaps in Indian governance first-hand. An opportunity to drive impact
       at scale through good governance brought her to Samagra. Ujjwal is
-      currently Chief of Staff to the CEO.
+      currently Chief of Staff to the CEO and leads the Central Team in the
+      Delhi office.
     image: /img/ujjwal_.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
