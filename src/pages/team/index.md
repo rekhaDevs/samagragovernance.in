@@ -863,12 +863,11 @@ team:
 
 
       The penchant for problem solving while translating ideas on paper into
-      reality, brought her to Samagra. Currently, she is part of the Niramaya
-      team in Uttar Pradesh.
+      reality, brought her to Samagra.
     image: /img/shraya.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shraya-sapru/'
     name: Shraya Sapru
-    project: Niramaya
+    project: .
   - bio: >-
       Shreyashi holds a Master’s degree in Management Studies with a
       specialization in Urban Management from CEPT University, Ahmedabad and a
