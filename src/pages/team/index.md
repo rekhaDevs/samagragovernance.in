@@ -164,16 +164,17 @@ team:
       working as an Analyst in advisory and product management verticals in
       Treasury services at JP Morgan Chase Bank primarily in the Asia Pacific
       market. A strong inclination to work on data-driven approaches to solve
-      governance and grassroot challenges and an opportunity to  create impact
-      at scale brought her to Samagra. 
+      governance and grassroot challenges and an opportunity to create impact at
+      scale brought her to Samagra.
 
 
-      Aditi is the Program Coordinator of the CEO's Office and manages its daily
-      operations.
+      Aditi has availed Samagra's Graduate Study Support Program called Vidya.
+      She is currently pursuing an MBA at the Saïd Business School, University
+      of Oxford and will be returning to Samagra after completing her studies. 
     image: /img/aditi_7685.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aditi-phadnis93/'
     name: Aditi Phadnis
-    project: CEO's Office
+    project: Vidya Candidate
   - bio: "Aditya holds an MBA from the University of Oxford and BTech in Mechanical Engineering from YMCA Faridabad. He previously worked as an Associate Equity\_Analyst (Team Lead) at Trefis for 4 years where he\_was catering to top investment banks by analyzing sell-side securities of global internet, e-commerce and telecom companies listed on NYSE and NASDAQ.\_As an undergrad, he was keen to join the Indian civil services and attempted the\_examination\_three times, giving final interviews on all three occasions. An opportunity to apply his problem solving and people skills to improve governance and create impact at scale brought him to Samagra. \n\nAditya is Vice President at Samagra and currently leads the Samarth programme in Himachal Pradesh and the Saksham Haryana-Education programme."
     image: /img/aditya_7618.jpg
     linkedInProfile: 'https://www.linkedin.com/in/adityachopra770/'
