@@ -1006,6 +1006,19 @@ team:
     name: Srajan Bhatnagar
     project: .
   - bio: >-
+      Srikanth holds an MBA from Xavier Institute of Management, Bhubaneswar and
+      a Bachelor's degree in Electrical, Electronics and Communications
+      Engineering from National Institute of Science and Technology (NIST),
+      Berhampur. Before joining Samagra, he was working as an Associate with
+      Janaagraha Centre for Citizenship and Democracy.
+        
+      A strong motivation to work in governance and bring about positive change
+      in the lives of citizens brings Srikanth to Samagra.
+    image: /img/d.-srikanth.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/srikanth-pattnaik-882228168/'
+    name: Srikanth Pattnaik
+    project: KONNECT
+  - bio: >-
       Sukhpreet holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Previously, he has worked with KPMG to
       provide integrity intelligence for M&A transactions to Fortune 500
