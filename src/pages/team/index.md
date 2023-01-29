@@ -882,12 +882,11 @@ team:
       Construction. She has also interned with many ULBs, NGOs, NPOs,
       development banks such as NABARD, which further drew her towards public
       sector development and governance consulting. A strong passion to create
-      impact at scale brought her to Samagra. Currently, she is part of the
-      KONNECT team in Odisha.
+      impact at scale brought her to Samagra.
     image: /img/9.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shreyashi-soni-2908/'
     name: Shreyashi Soni
-    project: KONNECT
+    project: .
   - bio: >-
       Shruti is pursuing a Bachelor's degree in Computer Science Engineering
       from JSS, Nodia. Before joining Samagra, she completed Google Summer of
