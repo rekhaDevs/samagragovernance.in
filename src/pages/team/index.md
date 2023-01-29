@@ -888,6 +888,21 @@ team:
     name: Shruti Agarwal
     project: SamagraX
   - bio: >-
+      Shubhajeet holds an MBA from Indian Institute of Management, Lucknow and a
+      Bachelor’s degree in Mechanical Engineering from Kalinga Institute of
+      Industrial Technology, Bhubaneswar. Before joining Samagra, he was working
+      as an Associate Manager in the Strategy and Transaction vertical at EY
+      Parthenon. 
+
+
+      An opportunity to bring about positive change and be a part of a young,
+      dynamic and growing team that is driving impact at scale, brings
+      Shubhajeet to Samagra.
+    image: /img/shubhajeet-sil.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shubhajeetsil/'
+    name: Shubhajeet Sil
+    project: .
+  - bio: >-
       Siddhant holds a Bachelor's degree in Mechanical Engineering from Vellore
       Institute of Technology. Before joining Samagra, he was working as a
       Management Consultant with EY's Business Consulting vertical, primarily
