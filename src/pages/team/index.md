@@ -687,12 +687,11 @@ team:
 
 
       An opportunity to transform governance by combining consulting skills and
-      the power of technology brought him to Samagra. Currently, he is part of
-      the Mission Prerna team in Uttar Pradesh.
+      the power of technology brought him to Samagra.
     image: /img/edited-raghav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
     name: Raghav Katyal
-    project: Mission Prerna
+    project: .
   - bio: >-
       Raju worked with Punj Lloyd as a administrative assistant in Libya, and
       with Walt Disney as a Office Coordinator. He manages the daily
