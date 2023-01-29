@@ -1028,14 +1028,10 @@ team:
       standardized measurements across Pratham's flagship Read India programme.
       His passion to transform citizen-government experiences at scale brought
       him to Samagra. 
-
-
-      Sukhpreet is Vice President at Samagra and currently leads the SamagraX
-      team.
     image: /img/sukhpreet_7699.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sukhpreetsekhon'
     name: Sukhpreet Sekhon
-    project: SamagraX
+    project: .
   - bio: "Susheel holds a Bachelor's degree in Sociology from St. Andrew's College, Mumbai, and a Post-Graduate Diploma in Liberal Studies under the Young India Fellowship at Ashoka University. Susheel has had a longstanding interest in governance and policy implementation, leading him to work with organisations such as the Informed Voter Project and Praja Foundation during his undergraduate studies in Mumbai. His experience at the Young India Fellowship reinforced these ideas and also led him to explore the role of technology and data-based decision-making in governance.\_\n\nHis search for the intersection between technology and governance, and his quest to contribute in creating impact at scale brought Susheel to Samagra. Currently, he is part of the SamagraX team."
     image: /img/edited_susheel.jpg
     linkedInProfile: 'https://www.linkedin.com/in/susheel-varghese-13b3ab151/'
