@@ -1062,12 +1062,11 @@ team:
       experience in using complex trading tools.
        
       An opportunity to create impact at scale and gain insight into governance
-      consulting brought Tarang to Samagra. Currently, he is part of the
-      SamagraX team.
+      consulting brought Tarang to Samagra.
     image: /img/edited_tarang.jpg
     linkedInProfile: 'https://www.linkedin.com/in/tarang-khurana-16550a106/'
     name: Tarang Khurana
-    project: SamagraX
+    project: .
   - bio: >-
       Ujjwal holds a Bachelor's degree in Computer Engineering from Netaji
       Subhas Institute of Technology. She worked with Microsoft and Directi
