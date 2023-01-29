@@ -530,11 +530,10 @@ team:
 
       An opportunity to create impact at scale and work with bureaucratic
       leaders in the government administration, brought him to Samagra.
-      Currently, he is part of the KONNECT team in Odisha.
     image: /img/edited_img_4119.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mohit-vijay-433a81192/'
     name: Mohit Vijay
-    project: KONNECT
+    project: .
   - bio: >-
       Nakul holds an MBA from Esade Business School, Barcelona and a Bachelor's
       degree in Electrical Engineering from Thapar Institute of Engineering &
