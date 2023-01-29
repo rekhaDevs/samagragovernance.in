@@ -788,11 +788,12 @@ team:
       college. Previously, Sanchita was working as Executive Assistant to the
       Managing Director of Twitter India. An opportunity to contribute to
       Samagra’s vision of transforming governance and improving the lives of
-      citizens brought her to Samagra. She is the firm's Office Manager.
+      citizens brought her to Samagra. Currently, she is part of the Central
+      Team in the Delhi office.
     image: /img/edited_sanchita.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sanchita-dasgupta-4587a712/'
     name: Sanchita Dasgupta
-    project: Office Manager
+    project: Central Team
   - bio: >-
       Sanskar holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Before joining Samagra, he explored his
