@@ -847,11 +847,11 @@ team:
 
       A desire to solve some of society's most critical challenges and bring
       about a meaningful change in people's lives at scale, brought her to
-      Samagra. Currently, she is part of the Niramaya team in Uttar Pradesh.
+      Samagra.
     image: /img/shipra.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shipra-bihani-a224a674/'
     name: Shipra Bihani
-    project: Niramaya
+    project: .
   - bio: >-
       Shraya holds a Bachelor's degree in Chemical Engineering from National
       Institute of Technology Karnataka, Surathkal. Before joining Samagra, she
