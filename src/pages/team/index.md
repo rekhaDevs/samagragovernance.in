@@ -133,11 +133,12 @@ team:
 
 
       A strong motivation to contribute towards improving the lives of citizens
-      and to learn & grow as a Developer, brought him to Samagra.
+      and to learn & grow as a Developer, brought him to Samagra. Currently, he
+      is part of the SamagraX team.
     image: /img/abhishek.png
     linkedInProfile: 'https://www.linkedin.com/in/abhishek1401/'
     name: Abhishek Pal
-    project: .
+    project: SamagraX
   - bio: >-
       Abhishek holds a Bachelor's degree in Law from the National Law School of
       India University, Bangalore. Before joining Samagra, he worked as an
@@ -778,12 +779,11 @@ team:
 
 
       An opportunity to solve complex governance challenges that benefit the
-      lives of citizens brought him to Samagra. Currently, he is part of the
-      Mission Prerna team in Uttar Pradesh.
+      lives of citizens brought him to Samagra.
     image: /img/sagar.png
     linkedInProfile: 'https://www.linkedin.com/in/sagar-vats/'
     name: Sagar Vats
-    project: Mission Prerna
+    project: .
   - bio: >-
       Sanchita holds a Bachelor's degree in Home Science from Lady Irwin
       college. Previously, Sanchita was working as Executive Assistant to the
