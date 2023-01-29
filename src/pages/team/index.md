@@ -315,7 +315,7 @@ team:
     image: /img/3.jpg
     linkedInProfile: .
     name: Bhanu Prabhakar
-    project: .
+    project: Niramaya
   - bio: >-
       Bhavya holds a Bachelor’s degree in Commerce from Jesus and Mary College,
       University of Delhi and a Post-Graduate Diploma in Liberal Studies under
@@ -740,12 +740,12 @@ team:
 
       An opportunity to create measurable impact at scale, through contextual
       solutions informed by a bottom-up understanding of governance structures,
-      brought her to Samagra. Currently, she is part of the Anamaya team in
-      Odisha.
+      brought her to Samagra. Currently, she is part of the Niramaya team in
+      Uttar Pradesh.
     image: /img/edited_img_7635.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ria-goyal-2b3935189/'
     name: Ria Goyal
-    project: Anamaya
+    project: Niramaya
   - bio: >
       Rishik holds a Bachelor’s degree in Economics from Ramjas College,
       University of Delhi. Before joining Samagra, he interned at KPMG India,
