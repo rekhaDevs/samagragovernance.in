@@ -189,7 +189,11 @@ team:
       creating a proof point for an inclusive, holistic and high-performing
       low-income school. An opportunity to build on his previous experience
       working on the ground and create systemic change at scale brought him to
-      Samagra. Currently, he is part of the Central Team in the Delhi office.
+      Samagra. 
+
+
+      Akash is the Program Coordinator of the Recruitment and Special
+      Initiatives team in the Delhi office and manages its daily operations.
     image: /img/akash_7640.jpg
     linkedInProfile: 'https://www.linkedin.com/in/akash-tyagi-b1151951'
     name: Akash Tyagi
