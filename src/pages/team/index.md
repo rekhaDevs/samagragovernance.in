@@ -470,22 +470,6 @@ team:
     name: Lakshay Gupta
     project: Saksham Haryana-Skills & Employment
   - bio: >-
-      Mallika is a Young India Fellow who holds a Post Graduate Diploma in
-      Liberal Studies from Ashoka University, Haryana and a Bachelor’s degree in
-      Commerce from Maitreyi College, University of Delhi. Before joining
-      Samagra, she was working as an Associate Consultant at Michael Page,
-      primarily managing mid to senior level recruitment for her clients in the
-      FMCG, Automobiles, Building Materials and Professional Services sectors. 
-       
-      An opportunity to improve the quality of life of citizens at scale brought
-      her to Samagra. She intends to leverage her academic grounding and
-      hands-on experience with problem solving to create impact at scale.
-      Currently, she is part of the Samarth team in Himachal Pradesh.
-    image: /img/4.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/mallika-anand-801483128/'
-    name: Mallika Anand
-    project: Samarth
-  - bio: >-
       Manik holds a Bachelor's degree in Commerce from Hansraj College,
       University of Delhi. He is also a licensed Certified Public Accountant.
       Before joining Samagra, he was working as an Internal Auditor with Nokia.
