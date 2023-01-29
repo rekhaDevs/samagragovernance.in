@@ -658,12 +658,11 @@ team:
       funds of 11 revenue districts of Delhi and recommended policy level
       interventions for improved functioning of the Delhi Urban Development
       Authority. An opportunity to employ her problem-solving skills to create
-      sustainable impact brought her to Samagra. Prerna is the Program
-      Coordinator of the SamagraX team and manages its daily operations.
+      sustainable impact brought her to Samagra.
     image: /img/Prerna.jpg
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
-    project: SamagraX
+    project: .
   - bio: >
       Radhay holds a Bachelor’s degree in Computer Science Engineering from
       Thapar Institute of Engineering and Technology, Patiala. Before Samagra,
