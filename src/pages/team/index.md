@@ -709,12 +709,11 @@ team:
 
       A strong belief in governance being a key lever to drive change brought
       her to Samagra. She intends to leverage her professional and academic
-      experiences to create impact at scale. Currently, she is part of the
-      Saksham Haryana-Skills & Employment team.
+      experiences to create impact at scale.
     image: /img/reetika.jpg
     linkedInProfile: 'https://www.linkedin.com/in/reetika-srivastava/'
     name: Reetika Srivastava
-    project: Saksham Haryana-Skills & Employment
+    project: .
   - bio: >-
       Rhythm holds a Master’s in Economics from Gokhale Institute of Politics
       and Economics, Pune, and Policy Design and Management from the Indian
