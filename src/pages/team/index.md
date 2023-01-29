@@ -307,12 +307,11 @@ team:
 
       An opportunity to create real impact on the ground brought him to Samagra.
       He intends to leverage his academic grounding and hands-on experience in
-      global health to create impact at scale. Bhanu currently leads the Anamaya
-      programme in Odisha. 
+      global health to create impact at scale.
     image: /img/3.jpg
     linkedInProfile: .
     name: Bhanu Prabhakar
-    project: Anamaya
+    project: .
   - bio: >-
       Bhavya holds a Bachelor’s degree in Commerce from Jesus and Mary College,
       University of Delhi and a Post-Graduate Diploma in Liberal Studies under
