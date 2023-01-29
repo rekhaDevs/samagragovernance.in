@@ -1013,7 +1013,8 @@ team:
       Janaagraha Centre for Citizenship and Democracy.
         
       A strong motivation to work in governance and bring about positive change
-      in the lives of citizens brings Srikanth to Samagra.
+      in the lives of citizens brings Srikanth to Samagra. Currently, he is part
+      of the KONNECT team in Odisha.
     image: /img/d.-srikanth.jpg
     linkedInProfile: 'https://www.linkedin.com/in/srikanth-pattnaik-882228168/'
     name: Srikanth Pattnaik
