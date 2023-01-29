@@ -664,21 +664,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
     project: .
-  - bio: >
-      Radhay holds a Bachelor’s degree in Computer Science Engineering from
-      Thapar Institute of Engineering and Technology, Patiala. Before Samagra,
-      he was working at Centurylink (part of Lumen Technologies) as a full stack
-      developer. He was part of the data team there responsible for development
-      of microservices, REST APIs, data pipelines, dashboards. 
-
-
-      An opportunity to use his tech skills for good in the social impact space
-      and take on the next challenge in his professional journey brought him to
-      Samagra. Currently, he is part of the SamagraX team.
-    image: /img/edit_radhay.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/radhayanand/'
-    name: Radhay Anand
-    project: SamagraX
   - bio: >-
       Raghav holds a Bachelor's degree in Political Science and Economics from
       Ashoka University. Before joining Samagra, he was working as a Legislative
