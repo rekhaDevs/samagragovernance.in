@@ -121,7 +121,7 @@ team:
 
       An opportunity to drive impact at scale and work with state governments
       brings Abhinav to Samagra.
-    image: /img/abhinav-pawar.jpg
+    image: /img/abhinav.jpg
     linkedInProfile: 'https://www.linkedin.com/in/abhinavpawar/'
     name: Abhinav Pawar
     project: .
@@ -953,7 +953,7 @@ team:
       An opportunity to work in the social impact space and contribute towards
       bringing sustainable change using a data-driven approach, brings Snehi to
       Samagra.
-    image: /img/snehi-gupta.jpg
+    image: /img/snehi.jpg
     linkedInProfile: 'https://www.linkedin.com/in/snehi-gupta-6ab189b6/'
     name: Snehi Gupta
     project: .
