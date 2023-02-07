@@ -409,7 +409,7 @@ team:
       An opportunity to use creative communications tools to tell grassroots
       impact stories brought her to Samagra. Currently, she is part of the
       Central Team in the Delhi office.
-    image: /img/edited_garima.jpeg.jpg
+    image: /img/garima_7700.jpg
     linkedInProfile: 'https://www.linkedin.com/in/garima-sood/'
     name: Garima Sood
     project: Central Team
@@ -441,7 +441,7 @@ team:
       security issues, primarily focused on the Indian subcontinent. An
       opportunity to work at the intersection of public policy and communication
       brought her to Samagra.
-    image: /img/gayatri-c.jpg
+    image: /img/gayatri_7766.jpg
     linkedInProfile: 'https://www.linkedin.com/in/gayatri-chandrasekaran-17a25590'
     name: Gayatri Chandrasekaran
     project: Communications Strategy
@@ -632,7 +632,7 @@ team:
       people and an interest in public policy brought her to Samagra. Pragya is
       the Program Coordinator of the Mission Prerna team in Uttar Pradesh and
       manages its daily operations.
-    image: /img/pragya.jpg
+    image: /img/pragya_7691.jpg
     linkedInProfile: 'https://www.linkedin.com/in/pragya-mathur-678779126'
     name: Pragya Mathur
     project: Mission Prerna
@@ -644,7 +644,7 @@ team:
       and consumer-facing designs. He has worked with one of the Big 3
       Consulting firms and two of the top-10 Investment Banking companies.
       Prasanna manages all creatives for Samagra.
-    image: /img/Prasanna.jpg
+    image: /img/prasanna_7785.jpg
     linkedInProfile: 'https://www.linkedin.com/in/a-lourdu-pownraj-prasanna-786a1a132'
     name: Prasanna A
     project: Creatives
@@ -660,7 +660,7 @@ team:
       interventions for improved functioning of the Delhi Urban Development
       Authority. An opportunity to employ her problem-solving skills to create
       sustainable impact brought her to Samagra.
-    image: /img/Prerna.jpg
+    image: /img/prerna_7860.jpg
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
     project: .
@@ -673,7 +673,7 @@ team:
 
       An opportunity to transform governance by combining consulting skills and
       the power of technology brought him to Samagra.
-    image: /img/edited-raghav.jpg
+    image: /img/raghav_7533.jpg
     linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
     name: Raghav Katyal
     project: .
@@ -711,7 +711,7 @@ team:
       passion to improve the quality of life of citizens through evidence-based
       interventions and systemic transformation brought her to Samagra.
       Currently, she is part of the Saksham Haryana–Education team.
-    image: /img/edited_rhythm_b.jpg
+    image: /img/rhythm_b_7613.jpg
     linkedInProfile: 'https://www.linkedin.com/in/rhythm-behl-85b1278b/'
     name: Rhythm Behl
     project: Saksham Haryana–Education
@@ -751,7 +751,7 @@ team:
       environmental consulting company, in Seattle. Her interest in
       transitioning to the development sector and facilitating sustainable
       change on the ground brought her to Samagra. 
-    image: /img/sagari.jpg
+    image: /img/sagari_7668.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sagari-handa-5a86157a'
     name: Sagari Handa
     project: .
@@ -775,7 +775,7 @@ team:
       Samagra’s vision of transforming governance and improving the lives of
       citizens brought her to Samagra. Currently, she is part of the Central
       Team in the Delhi office.
-    image: /img/edited_sanchita.jpg
+    image: /img/sanchita_7894.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sanchita-dasgupta-4587a712/'
     name: Sanchita Dasgupta
     project: Central Team
@@ -817,7 +817,7 @@ team:
       the National Head of Operations at AIESEC in India, focusing on leadership
       development in youth. A strong desire to bring about systemic change while
       working with the government brought him to Samagra.
-    image: /img/edited_shashwat.jpg
+    image: /img/shashwat_7696.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shashwat-shah-32a1131b4/'
     name: Shashwat Shah
     project: .
@@ -879,7 +879,7 @@ team:
       Shruti is passionate about automation and contributing to OpenSource. An
       opportunity to leverage her tech skills to build OpenSource products for
       governments brought her to Samagra.
-    image: /img/edited_shruti.jpeg.jpg
+    image: /img/shruti_g_7659.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shruti-ag/'
     name: Shruti Agarwal
     project: .
@@ -907,7 +907,7 @@ team:
       maximizing impact while working at the grassroots level towards societal
       change brought him to Samagra. Siddhant is the Program Coordinator of the
       KONNECT team in Odisha and manages its daily operations.
-    image: /img/edited_siddhant.jpg
+    image: /img/siddhant_7522.jpg
     linkedInProfile: 'https://www.linkedin.com/in/siddhant-agarwal-774a6b122/'
     name: Siddhant Agarwal
     project: KONNECT
@@ -938,7 +938,7 @@ team:
       in governance as a lever of change brought her to Samagra. Simran is the
       Program Coordinator of the Saksham Haryana-Education team and manages its
       daily operations.
-    image: /img/edited_simran.jpg
+    image: /img/simran_7782.jpg
     linkedInProfile: 'https://www.linkedin.com/in/baggasimran/'
     name: Simran Bagga
     project: Saksham Haryana-Education
@@ -1017,7 +1017,7 @@ team:
     name: Sukhpreet Sekhon
     project: .
   - bio: "Susheel holds a Bachelor's degree in Sociology from St. Andrew's College, Mumbai, and a Post-Graduate Diploma in Liberal Studies under the Young India Fellowship at Ashoka University. Susheel has had a longstanding interest in governance and policy implementation, leading him to work with organisations such as the Informed Voter Project and Praja Foundation during his undergraduate studies in Mumbai. His experience at the Young India Fellowship reinforced these ideas and also led him to explore the role of technology and data-based decision-making in governance.\_\n\nHis search for the intersection between technology and governance, and his quest to contribute in creating impact at scale brought Susheel to Samagra. Currently, he is part of the SamagraX team."
-    image: /img/edited_susheel.jpg
+    image: /img/susheel_7671.jpg
     linkedInProfile: 'https://www.linkedin.com/in/susheel-varghese-13b3ab151/'
     name: Susheel Varghese
     project: SamagraX
@@ -1047,7 +1047,7 @@ team:
        
       An opportunity to create impact at scale and gain insight into governance
       consulting brought Tarang to Samagra.
-    image: /img/edited_tarang.jpg
+    image: /img/tarang_7645.jpg
     linkedInProfile: 'https://www.linkedin.com/in/tarang-khurana-16550a106/'
     name: Tarang Khurana
     project: .
@@ -1060,7 +1060,7 @@ team:
       at scale through good governance brought her to Samagra. Ujjwal is
       currently Chief of Staff to the CEO and leads the Central Team in the
       Delhi office.
-    image: /img/ujjwal_.jpg
+    image: /img/ujjwal_7644.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
     project: Chief of Staff
@@ -1074,7 +1074,7 @@ team:
       An opportunity to leverage the power of technology to transform governance
       brought Umang to Samagra. Umang is the Program Coordinator of the Samarth
       team in Himachal Pradesh and manages its daily operations.
-    image: /img/umang_ctt.jpg
+    image: /img/umang_7679.jpg
     linkedInProfile: 'https://www.linkedin.com/in/umang-bhola-194b6686/'
     name: Umang Bhola
     project: Samarth
@@ -1093,7 +1093,7 @@ team:
 
       Utkarsh is Vice President at Samagra and currently leads the KONNECT
       programme in Odisha and SamagraX.
-    image: /img/Utkarsh.jpg
+    image: /img/utkarsh_7885-1-.jpg
     linkedInProfile: 'https://www.linkedin.com/in/uvijay'
     name: Utkarsh Vijay
     project: KONNECT & SamagraX
@@ -1190,7 +1190,7 @@ team:
 
       Viren is Vice President at Samagra and currently leads the Saksham
       Haryana-Skills & Employment programme.
-    image: /img/edited_viren.jpg
+    image: /img/viren_7884.jpg
     linkedInProfile: 'https://www.linkedin.com/in/viren-bavishi-4693173/'
     name: Viren Bavishi
     project: Saksham Haryana-Skills & Employment
