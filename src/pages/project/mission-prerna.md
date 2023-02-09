@@ -22,7 +22,7 @@ overview:
       improving the quality of education. To this end, Samagra’s Nipun Bharat
       Cell is working with the Government of Uttar Pradesh to ensure that all
       primary school students are able to attain foundational literacy and
-      numeracy skills by 2025.
+      numeracy skills by 2026.
 scale:
   - count: '1,10,000'
     label: Primary Schools
