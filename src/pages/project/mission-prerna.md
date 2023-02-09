@@ -1,9 +1,9 @@
 ---
 templateKey: project-post
-title: Mission Prerna
+title: Nipun Bharat Cell
 domainNew: Education
-fullName: Mission Prerna
-id: Mission Prerna
+fullName: Nipun Bharat Cell
+id: Nipun Bharat Cell
 backgroundCover: /img/samagragovernance_missionprerna.jpg
 domain: Education
 subTitle: Samagra
@@ -19,10 +19,10 @@ overview:
       Education Policy, the state government has recognized the importance of
       ensuring universal acquisition of foundational literacy and numeracy,
       i.e., ability to read with meaning and solve for basic maths, as key to
-      improving the quality of education. To this end, Samagra’s Mission Prerna
-      team is working with the Government of Uttar Pradesh to ensure that all
+      improving the quality of education. To this end, Samagra’s Nipun Bharat
+      Cell is working with the Government of Uttar Pradesh to ensure that all
       primary school students are able to attain foundational literacy and
-      numeracy skills by 2023.
+      numeracy skills by 2025.
 scale:
   - count: '1,10,000'
     label: Primary Schools
