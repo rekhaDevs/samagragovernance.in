@@ -1,15 +1,15 @@
 ---
 templateKey: project-post
-title: Nipun Bharat Cell
+title: NIPUN Bharat Cell
 domainNew: Education
-fullName: Nipun Bharat Cell
-id: Nipun Bharat Cell
+fullName: NIPUN Bharat Cell
+id: NIPUN Bharat Cell
 backgroundCover: /img/samagragovernance_missionprerna.jpg
 domain: Education
 subTitle: Samagra
 state: Uttar Pradesh
 tagLine: Imparting foundational learning to primary students in Uttar Pradesh
-projectLogoWithState: /img/mission-prerna.png
+projectLogoWithState: /img/nbc.png
 overview:
   - text: >-
       Uttar Pradesh has the largest school education system in India. Over the
@@ -19,7 +19,7 @@ overview:
       Education Policy, the state government has recognized the importance of
       ensuring universal acquisition of foundational literacy and numeracy,
       i.e., ability to read with meaning and solve for basic maths, as key to
-      improving the quality of education. To this end, Samagra’s Nipun Bharat
+      improving the quality of education. To this end, Samagra’s NIPUN Bharat
       Cell is working with the Government of Uttar Pradesh to ensure that all
       primary school students are able to attain foundational literacy and
       numeracy skills by 2026.
