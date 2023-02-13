@@ -938,7 +938,7 @@ team:
       in governance as a lever of change brought her to Samagra. Simran is the
       Program Coordinator of the Saksham Haryana-Education team and manages its
       daily operations.
-    image: /img/simran_7782.jpg
+    image: /img/edited_simran.jpg
     linkedInProfile: 'https://www.linkedin.com/in/baggasimran/'
     name: Simran Bagga
     project: Saksham Haryana-Education
