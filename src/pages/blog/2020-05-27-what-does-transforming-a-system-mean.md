@@ -36,7 +36,7 @@ All three fuel motivation which in turn initiates the shift that is required to 
 
 
 
-For any ministry, department, office, or decision-making unit, it is important to have a goal in place so that people know what they have to achieve together. For example, as part of [Mission Prerna](https://www.samagragovernance.in/project/mission-prerna/), a systemic transformation project that seeks to impart foundational learning to primary students in Uttar Pradesh, the state government has clearly defined targets for grades 1 to 5 in Hindi and Maths and communicated it to the entire education system in the form of ‘Prerna Lakshya’. This ‘Lakshya’ has to be achieved by 2022. That is the ultimate goal of the education department currently. 
+For any ministry, department, office, or decision-making unit, it is important to have a goal in place so that people know what they have to achieve together. For example, as part of [Mission Prerna](https://www.samagragovernance.in/project/nipun-bharat-cell/), a systemic transformation project that seeks to impart foundational learning to primary students in Uttar Pradesh, the state government has clearly defined targets for grades 1 to 5 in Hindi and Maths and communicated it to the entire education system in the form of ‘Prerna Lakshya’. This ‘Lakshya’ has to be achieved by 2022. That is the ultimate goal of the education department currently. 
 
 
 
