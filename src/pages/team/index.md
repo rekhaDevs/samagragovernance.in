@@ -940,7 +940,7 @@ team:
       daily operations.
     image: /img/edited_simran.jpg
     linkedInProfile: 'https://www.linkedin.com/in/baggasimran/'
-    name: Simran
+    name: Simran Bagga
     project: Saksham Haryana-Education
   - bio: >-
       Snehi is a Young India Fellow who holds a Post Graduate Diploma in Liberal
