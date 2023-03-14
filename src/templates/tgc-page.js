@@ -3,6 +3,7 @@ import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import {MediaRoll} from "../components/MediaRoll";
 import CareerBannerImage from "../components/CareerPageComponents/CareerBannerImage/CareerBanner";
+import TGCPageComponent from '../components/TGCPageComponent/TGCPageComponent';
 import CareerSectionSecond from "../components/CareerPageComponents/CareerSectionSecond/CareerSectionSecond";
 import CareerSectionThird from "../components/CareerPageComponents/CareerSectionThird/CareerSectionThird";
 import TestimonialSlider from "../components/CareerPageComponents/TestimonialSlider/TestimonialSlider";
@@ -13,7 +14,7 @@ export const TGCTemplate = ({content}) => {
     return (
         <React.Fragment>
             <CareerBannerImage bannerContent={content}/>
-            <CareerSectionSecond fromC4GT={true} content={content}/>
+            <TGCPageComponent fromTGC={true} content={content}/>
         </React.Fragment>
     )
 };

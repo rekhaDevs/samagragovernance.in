@@ -2,6 +2,7 @@ import AboutPagePreview from "./preview-templates/AboutPagePreview";
 import BlogPostPreview from "./preview-templates/BlogPostPreview";
 import CMS from "netlify-cms-app";
 import IndexPagePreview from "./preview-templates/IndexPagePreview";
+import C4GTPagePreview from "./preview-templates/C4GTPagePreview";
 import ProductPagePreview from "./preview-templates/ProductPagePreview";
 import TeamPagePreview from "./preview-templates/TeamPagePreview";
 import cloudinary from "netlify-cms-media-library-cloudinary";
@@ -12,6 +13,7 @@ import JoinUsPreview from "./preview-templates/JoinUsPreview";
 import MediaPostPreview from "./preview-templates/MediaPostPreview";
 import PartnerPagePreview from "./preview-templates/PartnerPagePreview";
 import CareerPagePreview from "./preview-templates/CareersPagePreview";
+import TGCPagePreview from "./preview-templates/TGCPagePreview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -20,6 +22,8 @@ CMS.registerPreviewTemplate("index", IndexPagePreview);
 CMS.registerPreviewTemplate("about", AboutPagePreview);
 // CMS.registerPreviewTemplate('team', TeamPagePreview)
 CMS.registerPreviewTemplate("products", ProductPagePreview);
+CMS.registerPreviewTemplate("c4gt", C4GTPagePreview);
+CMS.registerPreviewTemplate("tgc", TGCPagePreview);
 CMS.registerPreviewTemplate("blog", BlogPostPreview);
 CMS.registerPreviewTemplate("project", ProjectPagePreview);
 CMS.registerPreviewTemplate("media", MediaPagePreview);
