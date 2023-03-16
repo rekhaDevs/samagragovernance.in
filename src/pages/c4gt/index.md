@@ -9,7 +9,7 @@ mainContent:
       Code for GovTech (C4GT) is an annual summer coding program to create a
       community that can build and contribute to global digital public
       goods.     If you want to use Open Source GovTech to create impact, then
-      this is the opportunity for you!  ​  C4GT is being organised by Samagra
-      and supported by Omidyar Network India.
+      this is the opportunity for you! C4GT 2022 was organised by Samagra and
+      supported by Omidyar Network India.
 ---
 
