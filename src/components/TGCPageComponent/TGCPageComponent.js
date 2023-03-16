@@ -19,15 +19,15 @@ const TGCPageComponent = ({content, fromTGC}) => {
                     {
                         fromTGC ? <div className={'mt-4 py-5 text-center f-23 color-text-primary main-text'}>
                             <p>
-                                TGC
+                                {content.textAboveButton}
                             </p>
                             <PrimaryButton classes={'py-3 text-uppercase'} click={() => {
-                                window.open('https://www.codeforgovtech.in/', '_blank');
-                            }} text={'Learn More'}/>
+                                window.open(content.link, '_blank');
+                            }} text={content.buttonText}/>
                         </div> : <div className={'text-center mt-4'}>
                             <PrimaryButton classes={'py-3 text-uppercase'} click={() => {
                                 window.location.href = '/joinus'
-                            }} text={'Apply'}/>
+                            }} text={content.buttonText}/>
                         </div>
                     }
 

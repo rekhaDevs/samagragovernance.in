@@ -52,11 +52,13 @@ export const mediaPageQuery = graphql`
                 }
               }
            }
-        }
-        
+        }        
         mainContent {
             text
         }
+        textAboveButton
+        link
+        buttonText
       }
     }
   }
