@@ -1,7 +1,7 @@
 import React from "react";
-import {PrimaryButton} from "../../PrimaryButton/PrimaryButton";
+import {PrimaryButton} from "../PrimaryButton/PrimaryButton";
 
-const CareerSectionSecond = ({content, fromC4GT}) => {
+const TGCPageComponent = ({content, fromTGC}) => {
     return (
         <div className={'container career-section-second'}>
             <div className="row">
@@ -17,22 +17,22 @@ const CareerSectionSecond = ({content, fromC4GT}) => {
 
                     </div>
                     {
-                        fromC4GT ? <div className={'mt-4 py-5 text-center f-23 color-text-primary main-text'}>
+                        fromTGC ? <div className={'mt-4 py-5 text-center f-23 color-text-primary main-text'}>
                             <p>
-                                Applications for Code for GovTech 2022 are now closed.
+                                {content.textAboveButton}
                             </p>
                             <PrimaryButton classes={'py-3 text-uppercase'} click={() => {
-                                window.open('https://www.codeforgovtech.in/', '_blank');
-                            }} text={'Learn More'}/>
+                                window.open(content.link, '_blank');
+                            }} text={content.buttonText}/>
                         </div> : <div className={'text-center mt-4'}>
                             <PrimaryButton classes={'py-3 text-uppercase'} click={() => {
                                 window.location.href = '/joinus'
-                            }} text={'Apply'}/>
+                            }} text={content.buttonText}/>
                         </div>
                     }
 
                     {<div className={'fw-600 philosophy-title text-center mt-5 pt-4 mb-5'}>
-                        {!fromC4GT ? 'People Philosophy' : ' '}
+                        {!fromTGC ? 'People Philosophy' : ' '}
                     </div>}
                 </div>
             </div>
@@ -40,4 +40,4 @@ const CareerSectionSecond = ({content, fromC4GT}) => {
     )
 };
 
-export default CareerSectionSecond;
+export default TGCPageComponent;
