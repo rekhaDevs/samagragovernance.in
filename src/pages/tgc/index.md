@@ -1,15 +1,16 @@
 ---
 templateKey: tgc-page
-title: Code for GovTech
-bannerImage: /img/code-for-govtech-c4gt-.jpg
+title: The Governance Challenge
+bannerImage: /img/tgc-header-image-1-.jpg
 centerBanner:
   image: /img/diverse.jpg
 mainContent:
   - text: >-
-      Code for GovTech (C4GT) is an annual summer coding program to create a
-      community that can build and contribute to global digital public
-      goods.     If you want to use Open Source GovTech to create impact, then
-      this is the opportunity for you!  ​  C4GT is being organised by Samagra
-      and supported by Omidyar Network India.
+      The Governance Challenge (TGC) is India’s 1st governance case competition
+      for 30 premier business and policy schools. It aims to galvanize India’s
+      young talent towards the governance ecosystem. Each year an anchor state
+      and domain will be chosen for the challenge. The anchor state will host
+      the final round of the Challenge with the Chief Minister of the state
+      attending and judging the finalist teams.
 ---
 
