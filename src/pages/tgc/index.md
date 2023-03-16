@@ -12,7 +12,7 @@ mainContent:
       and domain will be chosen for the challenge. The anchor state will host
       the final round of the Challenge with the Chief Minister of the state
       attending and judging the finalist teams.
-textAboveButton: 
+# textAboveButton: 
 link: https://thegovernancechallenge.co.in/
 buttonText: Learn More
 ---

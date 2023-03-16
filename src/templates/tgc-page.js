@@ -56,7 +56,7 @@ export const mediaPageQuery = graphql`
         mainContent {
             text
         }
-        textAboveButton
+        # textAboveButton
         link
         buttonText
       }

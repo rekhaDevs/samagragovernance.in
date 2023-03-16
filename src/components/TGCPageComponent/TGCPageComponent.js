@@ -18,9 +18,9 @@ const TGCPageComponent = ({content, fromTGC}) => {
                     </div>
                     {
                         fromTGC ? <div className={'mt-4 py-5 text-center f-23 color-text-primary main-text'}>
-                            <p>
+                            {/* <p>
                                 {content.textAboveButton}
-                            </p>
+                            </p> */}
                             <PrimaryButton classes={'py-3 text-uppercase'} click={() => {
                                 window.open(content.link, '_blank');
                             }} text={content.buttonText}/>
