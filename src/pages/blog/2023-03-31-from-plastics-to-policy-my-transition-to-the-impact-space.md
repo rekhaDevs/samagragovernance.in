@@ -6,7 +6,7 @@ projectId: Outreach Team
 authorImage: /img/shraya.jpg
 date: 2023-03-31T02:32:59.917Z
 description: .
-featuredimage: /img/ss2-.png
+featuredimage: /img/1-1-.png
 ---
 I graduated in 2019 from National Institute of Technology Karnataka, Surathkal with a Bachelors’ degree in Chemical Engineering. With a passion to create impact through technology and innovation, I joined ExxonMobil, a US based oil and gas company. My role, termed as Customer and Application Development Engineer, was often confused as “developing apps in a Mobil-e” company for those not familiar with the industry. To explain it in simple terms, my role was in the plastics division, at the intersection of sales and marketing- we were the “technical” experts of the product. It was an incredible learning curve. The position allowed me to engage with individuals across all levels of the organization, from CEOs of client companies to shop floor employees. I had a platform to pitch solutions, test proof of concepts through on-ground trials, and facilitate billions of dollars in sales. Additionally, I had the luxury of working in a global environment, complete with perks such as business-class international travel and premium hotel stays.
 
