@@ -11,9 +11,8 @@ mainContent:
       young talent towards the governance ecosystem. Each year an anchor state
       and domain will be chosen for the challenge. The anchor state will host
       the final round of the Challenge with the Chief Minister of the state
-      attending and judging the finalist teams.
-# textAboveButton: 
-link: https://thegovernancechallenge.co.in/
+      attending and judging the finalist teams
+link: 'https://thegovernancechallenge.co.in/'
 buttonText: Learn More
 ---
 
