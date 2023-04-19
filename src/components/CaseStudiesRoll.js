@@ -8,71 +8,88 @@ class CaseStudiesRoll extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
+    const clean_posts = posts.filter(obj => obj.node.frontmatter.buttonText !== null);
     return (
-      <div className="blogs-section">
-        <div className="row">
-          {posts.map(({ node: post }) => {
-            return (
-              <div
-                className="col-lg-3 col-md-4 col-sm-6 col-xs-1 mb-5"
-                key={post.id}>
-                <div className="blog-wrapper" style={{position: 'relative'}}>
-                  {post.frontmatter.featuredimage ? (
-                    <div
-                      className="image-wrapper"
-                      style={{
-                        backgroundImage: `url(${post.frontmatter.featuredimage
-                          .childImageSharp.fluid.src ||
-                          post.frontmatter.featuredimage})`,
-                        filter: 'grayscale(100%)',
-                        transition: 'filter 0.5s ease-out',
-                      }}
-                      onMouseOver={(e) => {
-                        e.currentTarget.style.filter = 'grayscale(0%)';
-                      }}
-                      onMouseOut={(e) => {
-                        e.currentTarget.style.filter = 'grayscale(100%)';
-                      }}>
-                    </div>
-                  ) : null}
+      <>
+        <div className="blogs-section">
+          <div className="row">
+            {clean_posts.map(({ node: post }) => {
+              return (
+                <div
+                  className="col-lg-3 col-md-4 col-sm-6 col-xs-1 mb-5"
+                  key={post.id}>
+                  <div
+                    className="blog-wrapper"
+                    style={{ position: 'relative' }}>
+                    {post.frontmatter.featuredimage ? (
                       <div
+                        className="image-wrapper"
                         style={{
-                          pointerEvents: 'none',
-                          position: 'absolute',
-                          top: 0,
-                          right: 0,
-                          width: '100%',
-                          height: '100%',
-                          display: 'flex',
-                          flexDirection: 'column'
+                          backgroundImage: `url(${post.frontmatter.featuredimage
+                            .childImageSharp.fluid.src ||
+                            post.frontmatter.featuredimage})`,
+                          filter: 'grayscale(100%)',
+                          transition: 'filter 0.5s ease-out',
+                        }}
+                        onMouseOver={(e) => {
+                          e.currentTarget.style.filter = 'grayscale(0%)';
+                        }}
+                        onMouseOut={(e) => {
+                          e.currentTarget.style.filter = 'grayscale(100%)';
+                        }}></div>
+                    ) : null}
+                    <div
+                      style={{
+                        pointerEvents: 'none',
+                        position: 'absolute',
+                        top: 0,
+                        right: 0,
+                        width: '100%',
+                        height: '100%',
+                        display: 'flex',
+                        flexDirection: 'column',
+                      }}>
+                      <p
+                        style={{
+                          margin: 'auto auto 5% auto',
+                          color: 'white',
+                          fontSize: '16px',
                         }}>
-                        <p style={{ margin: 'auto auto 5% auto', color: 'white', fontSize: '16px' }}>{post.frontmatter.projectId}</p>
-                        <p style={{ margin: '5% auto 5% auto', color: 'white', fontSize: '12px' }}>{post.frontmatter.title}</p>
-                        <PrimaryButton
-                          onMouseOver={(e) => {e.stopPropagation()}}
-                          onMouseOut={(e) => {e.stopPropagation()}}
-                          style={{ margin: 'auto auto 5% auto', pointerEvents: 'auto'}}
-                          classes={'py-1 text-uppercase'}
-                          text= {post.frontmatter.buttonText}
-                          click={() => {
-                            window.open(post.frontmatter.link, '_blank');
-                          }}
-                        />
-                      </div>
-                  {/* <div className="content-wrapper">
-                    <div className="heading">{post.frontmatter.title}</div>
-                    <div className="posted-on">
-                      by {post.frontmatter.author} on {post.frontmatter.date}
+                        {post.frontmatter.projectId}
+                      </p>
+                      <p
+                        style={{
+                          margin: '5% auto 5% auto',
+                          color: 'white',
+                          fontSize: '12px',
+                        }}>
+                        {post.frontmatter.title}
+                      </p>
+                      <PrimaryButton
+                        onMouseOver={(e) => {
+                          e.stopPropagation();
+                        }}
+                        onMouseOut={(e) => {
+                          e.stopPropagation();
+                        }}
+                        style={{
+                          margin: 'auto auto 5% auto',
+                          pointerEvents: 'auto',
+                        }}
+                        classes={'py-1 text-uppercase'}
+                        text={post.frontmatter.buttonText}
+                        click={() => {
+                          window.open(post.frontmatter.link, '_blank');
+                        }}
+                      />
                     </div>
-
-                    <div className="read-more">Read More</div>
-                  </div> */}
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 }
