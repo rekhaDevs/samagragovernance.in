@@ -10,7 +10,7 @@ export default class CaseStudyPage extends React.Component {
           className={'home-top-slider-wrapper media-page-banner'}
           style={{
             height: '600px',
-            backgroundImage: `url(${!!(content.bannerImage && content.bannerImage.childImageSharp) ? content.bannerImage.childImageSharp.fluid.src : content.bannerImage})`,
+            backgroundImage: `url(${content.bannerImage.childImageSharp.fluid.src || content.bannerImage.childImageSharp.fluid.srcSet})`,
           }}>
           <div
             className="translucent-dark-overlay"

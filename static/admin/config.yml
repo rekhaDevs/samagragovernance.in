@@ -32,7 +32,7 @@ collections:
       - { label: "Project Id", name: "projectId", widget: "string" }
       # - { label: "Author Image", name: "authorImage", widget: image }
       - { label: "Publish Date", name: "date", widget: "date" }
-      # - { label: "Description", name: "description", widget: "text" }
+      - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Link", name: "link", widget: "string" }
       - { label: "Button Text", name: "buttonText", widget: "string" }
