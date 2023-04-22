@@ -1,22 +1,12 @@
 import '../styles/BlogDetails.scss';
 import { graphql } from 'gatsby';
 import React from 'react';
-import CaseStudyPage from '../components/CaseStudyPage';
-export const CaseStudyTemplate = ({ content }) => {
-  return (
-    <>
-      <CaseStudyPage content={content[0].node.frontmatter}/>
-    </>
-  );
+export const CaseStudyTemplate = () => {
+  return <div />;
 };
 
-const CaseStudy = ({ data }) => {
-  const { edges: post } = data.allMarkdownRemark;
-  return (
-    <CaseStudyTemplate
-      content={post.filter((obj) => obj.node.frontmatter.description !== null)}
-    />
-  );
+const CaseStudy = () => {
+  return <CaseStudyTemplate />;
 };
 
 export default CaseStudy;
@@ -31,14 +21,17 @@ export const pageQuery = graphql`
           id
           frontmatter {
             templateKey
-            description
-            bannerImage {
+            title
+            projectId
+            featuredimage {
               childImageSharp {
-                fluid(maxWidth: 1440, quality: 100) {
+                fluid(maxWidth: 1280, quality: 62) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
+            link
+            buttonText
           }
         }
       }

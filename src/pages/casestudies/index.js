@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import CaseStudiesRoll from '../CaseStudiesRoll';
-export default class CaseStudyPage extends React.Component {
+import CaseStudiesRoll from '../../components/CaseStudiesRoll';
+import backgroundImage from '../../img/team-banner.jpg';
+export default class CaseStudiesIndexPage extends React.Component {
   render() {
-    const { content } = this.props;
     return (
       <Layout>
         <div
           className={'home-top-slider-wrapper media-page-banner'}
           style={{
             height: '600px',
-            backgroundImage: `url(${content.bannerImage.childImageSharp.fluid.src || content.bannerImage.childImageSharp.fluid.srcSet})`,
+            backgroundImage: `url(${backgroundImage})`,
           }}>
           <div
             className="translucent-dark-overlay"
@@ -26,7 +26,13 @@ export default class CaseStudyPage extends React.Component {
                 className={
                   'mt-4 py-5 text-center f-23 color-text-primary main-text'
                 }>
-                {content.description}
+                Since its inception in 2012, Samagra has been working with
+                governments at various levels across the country. We have
+                synthesized our learnings from these 10 years in the form of two
+                frameworks- The Governance Matrix and Panchsutras for Governance
+                Transformation. These frameworks will be useful for those
+                working in the government as well as for those working with the
+                government.
               </div>
             </div>
           </div>
