@@ -1,5 +1,5 @@
 import '../styles/BlogDetails.scss';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import React from 'react';
 import CaseStudyPage from '../components/CaseStudyPage';
 export const CaseStudyTemplate = ({ content }) => {

@@ -32,7 +32,7 @@ class CaseStudiesRoll extends React.Component {
                           transition: 'filter 0.5s ease-out',
                         }}
                         onMouseOver={(e) => {
-                          e.currentTarget.style.filter = 'grayscale(0%)';
+                          e.currentTarget.style.filter = 'grayscale(60%)';
                         }}
                         onMouseOut={(e) => {
                           e.currentTarget.style.filter = 'grayscale(100%)';
@@ -53,7 +53,8 @@ class CaseStudiesRoll extends React.Component {
                         style={{
                           margin: 'auto auto 5% auto',
                           color: 'white',
-                          fontSize: '16px',
+                          fontSize: '18px',
+                          textShadow: '0px 2px 2px rgba(255, 255, 255, 0.4)'
                         }}>
                         {post.frontmatter.projectId}
                       </p>
@@ -61,7 +62,9 @@ class CaseStudiesRoll extends React.Component {
                         style={{
                           margin: '5% auto 5% auto',
                           color: 'white',
-                          fontSize: '12px',
+                          fontSize: '16px',
+                          textShadow: '0px 2px 2px rgba(255, 255, 255, 0.4)',
+                          textAlign: 'center'
                         }}>
                         {post.frontmatter.title}
                       </p>
@@ -118,9 +121,9 @@ export default () => (
                 slug
               }
               frontmatter {
-                title
                 templateKey
-                author
+                title
+                projectId
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
                   childImageSharp {
@@ -129,7 +132,6 @@ export default () => (
                     }
                   }
                 }
-                projectId
                 link
                 buttonText
               }
