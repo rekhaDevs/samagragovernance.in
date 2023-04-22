@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import CaseStudiesRoll from '../../components/CaseStudiesRoll';
-import backgroundImage from "../../img/team-banner.JPG";
+import backgroundImage from "../../img/team-banner-img.jpg";
 export default class CaseStudiesIndexPage extends React.Component {
   render() {
     return (
