@@ -27,9 +27,9 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "case-study" }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Project ID", name: "projectId", widget: "string" }
+      - { label: "Caption", name: "title", widget: "string" }
       # - { label: "Author", name: "author", widget: "string" }
-      - { label: "Project Id", name: "projectId", widget: "string" }
       # - { label: "Author Image", name: "authorImage", widget: image }
       - { label: "Publish Date", name: "date", widget: "date" }
       # - { label: "Description", name: "description", widget: "text" }

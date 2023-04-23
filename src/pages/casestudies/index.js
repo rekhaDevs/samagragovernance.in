@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import CaseStudiesRoll from '../../components/CaseStudiesRoll';
-import backgroundImage from "../../img/team-banner-img.jpg";
+import backgroundImage from '../../img/team-banner-img.jpg';
 export default class CaseStudiesIndexPage extends React.Component {
   render() {
     return (
@@ -33,6 +33,12 @@ export default class CaseStudiesIndexPage extends React.Component {
                 Transformation. These frameworks will be useful for those
                 working in the government as well as for those working with the
                 government.
+              </div>
+              <div
+                className={
+                  'py-2 text-center f-23 color-text-primary main-text'
+                }>
+                Case Studies for 2023 Coming Soon!
               </div>
             </div>
           </div>

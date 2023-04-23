@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link, graphql, StaticQuery } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 import { PrimaryButton } from '../components/PrimaryButton/PrimaryButton';
-import PreviewCompatibleImage from './PreviewCompatibleImage';
 
 class CaseStudiesRoll extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
-    const clean_posts = posts.filter(obj => obj.node.frontmatter.buttonText !== null);
+    const clean_posts = posts.filter(
+      (obj) => obj.node.frontmatter.buttonText !== null
+    );
     return (
       <>
         <div className="blogs-section">
@@ -21,70 +22,76 @@ class CaseStudiesRoll extends React.Component {
                   <div
                     className="blog-wrapper"
                     style={{ position: 'relative' }}>
-                    {post.frontmatter.featuredimage ? (
-                      <div
-                        className="image-wrapper"
-                        style={{
-                          backgroundImage: `url(${post.frontmatter.featuredimage
-                            .childImageSharp.fluid.src ||
-                            post.frontmatter.featuredimage})`,
-                          filter: 'grayscale(100%)',
-                          transition: 'filter 0.5s ease-out',
-                        }}
-                        onMouseOver={(e) => {
-                          e.currentTarget.style.filter = 'grayscale(60%)';
-                        }}
-                        onMouseOut={(e) => {
-                          e.currentTarget.style.filter = 'grayscale(100%)';
-                        }}></div>
-                    ) : null}
-                    <div
-                      style={{
-                        pointerEvents: 'none',
-                        position: 'absolute',
-                        top: 0,
-                        right: 0,
-                        width: '100%',
-                        height: '100%',
-                        display: 'flex',
-                        flexDirection: 'column',
-                      }}>
-                      <p
-                        style={{
-                          margin: 'auto auto 5% auto',
-                          color: 'white',
-                          fontSize: '18px',
-                          textShadow: '0px 2px 2px rgba(255, 255, 255, 0.4)'
-                        }}>
-                        {post.frontmatter.projectId}
-                      </p>
-                      <p
-                        style={{
-                          margin: '5% auto 5% auto',
-                          color: 'white',
-                          fontSize: '16px',
-                          textShadow: '0px 2px 2px rgba(255, 255, 255, 0.4)',
-                          textAlign: 'center'
-                        }}>
-                        {post.frontmatter.title}
-                      </p>
-                      <PrimaryButton
-                        onMouseOver={(e) => {
-                          e.stopPropagation();
-                        }}
-                        onMouseOut={(e) => {
-                          e.stopPropagation();
-                        }}
-                        style={{
-                          margin: 'auto auto 5% auto',
-                          pointerEvents: 'auto',
-                        }}
-                        classes={'py-1 text-uppercase'}
-                        text={post.frontmatter.buttonText}
-                        click={() => {
-                          window.open(post.frontmatter.link, '_blank');
-                        }}
-                      />
+                    <div className="flip-card">
+                      <div className="front">
+                        {post.frontmatter.featuredimage ? (
+                          <div
+                            className="image-wrapper"
+                            style={{
+                              backgroundImage: `url(${post.frontmatter
+                                .featuredimage.childImageSharp.fluid.src ||
+                                post.frontmatter.featuredimage})`,
+                              transition: 'background 0.5s ease-out',
+                              display: 'flex',
+                              alignItems: 'center',
+                            }}>
+                            <p
+                              style={{
+                                background: '#2B2A2A',
+                                width: '100%',
+                                textAlign: 'center',
+                                color: 'white',
+                                fontSize: '18px',
+                              }}>
+                              {post.frontmatter.projectId}
+                            </p>
+                          </div>
+                        ) : null}
+                      </div>
+                      <div className="back">
+                        <div
+                          style={{
+                            position: 'absolute',
+                            top: 0,
+                            right: 0,
+                            width: '100%',
+                            height: '100%',
+                            display: 'flex',
+                            flexDirection: 'column',
+                          }}>
+                          <p
+                            style={{
+                              width: '100%',
+                              textAlign: 'center',
+                              margin: 'auto auto 5% auto',
+                              color: 'white',
+                              fontSize: '18px',
+                            }}>
+                            {post.frontmatter.projectId}
+                          </p>
+                          <p
+                            style={{
+                              margin: '5%',
+                              color: 'white',
+                              fontSize: '16px',
+                              textShadow: '1px 1px 2px black',
+                              textAlign: 'center',
+                            }}>
+                            {post.frontmatter.title}
+                          </p>
+                          <PrimaryButton
+                            style={{
+                              margin: 'auto auto 5% auto',
+                              pointerEvents: 'auto',
+                            }}
+                            classes={'py-1 text-uppercase'}
+                            text={post.frontmatter.buttonText}
+                            click={() => {
+                              window.open(post.frontmatter.link, '_blank');
+                            }}
+                          />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
