@@ -8,7 +8,7 @@ projectId: Niramaya
 authorImage: /img/deepanshu.png
 date: 2023-05-12T18:21:05.067Z
 description: .
-featuredimage: /img/1-1-.png
+featuredimage: /img/photo-2023-05-12-14-52-51.jpg
 ---
 The COVID-19 outbreak highlighted the gaps in quality of healthcare systems across the globe and countries’ preparedness to handle public health emergencies. In India, nursing professionals were at the frontline in management of the COVID-19 outbreak – first in providing 24x7 care to patients amidst the rising case load of the country and then in administration of 220 crore+ COVID vaccine doses, in one of the biggest inoculation campaigns in the world. Simply put, nurses, moreover credible and quality nurses, are essential for any [healthcare system](https://12ft.io/proxy?q=https%3A%2F%2Findianexpress.com%2Farticle%2Fexplained%2Fup-covid-19-cases-deaths-7280863%2F) to thrive. 
 
@@ -51,6 +51,10 @@ Industry standard planning and monitoring processes are being followed for timel
 **System Buy-in for Niramaya Reforms**
 
 Stakeholders at all levels are poised to work towards realising Niramaya’s vision to make nursing students like Asha ready for securing high paying nursing jobs both inside and outside of UP. On 8th October 2022, Hon’ble Chief Minister of Uttar Pradesh, Shri Yogi Adityanath, launched Niramaya in mission-mode and several reforms under it. In this event, Hon’ble CM stressed upon the importance of nurses in our society and mentioned how it provides opportunities for seva (service), rozgaar (livelihood), and swabhimaan (self-respect).
+
+![](/img/niramaya-launch.png)
+
+_Mission Niramaya Team with Hon’ble CM Yogi Adityanath at the launch event_
 
 Attendance of 400+ representatives across nurse employers, institute and funder groups (and many more virtually), helped create a lot of buzz around Mission Niramaya on-ground. Every activity in the medical education sphere in UP started aligning itself to Mission Niramaya and its reforms.
 
