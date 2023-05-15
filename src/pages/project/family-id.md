@@ -8,7 +8,7 @@ backgroundCover: /img/beneficiaries-family-id.png
 domain: Service Delivery
 subTitle: Samagra
 state: Uttar Pradesh
-tagLine: ' Ensuring maximum coverage of welfare schemes through a proactive scheme & service delivery mechanism '
+tagLine: ' Ensuring coverage of welfare schemes through a proactive scheme & service delivery mechanism '
 projectLogoWithState: /img/family-id-logo.png
 overview:
   - text: >-
@@ -72,8 +72,8 @@ impact:
     label: >-
       No duplication of beneficiaries across 150 schemes; hence saving state
       budgets
-  - count: 5 lakh
-    label: Additional jobs provided through job/skilling/credit linkages
+  - count: .
+    label: 5 lakh additional jobs provided through job/skilling/credit linkages
 keyInitiativesTitle: .
 ---
 
