@@ -1,6 +1,6 @@
 ---
 templateKey: project-post
-title: Chief Minister NIPUN Bharat Associates
+title: CMNBA
 domainNew: Education
 fullName: Chief Minister NIPUN Bharat Associates
 id: CMNBA
