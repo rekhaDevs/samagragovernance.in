@@ -11,7 +11,7 @@ state: Uttar Pradesh
 tagLine: >-
   Enabling rigorous on-ground FLN implementation through 111 high-quality
   associates
-projectLogoWithState: /img/logo.jpg
+projectLogoWithState: /img/cmnba.png
 overview:
   - text: >-
       Samagra is working with the Department of Basic Education, Govt of Uttar
