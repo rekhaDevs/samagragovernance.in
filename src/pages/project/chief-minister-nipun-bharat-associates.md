@@ -9,7 +9,7 @@ domain: Education
 subTitle: Samagra
 state: Uttar Pradesh
 tagLine: Enabling FLN implementation through 111 high-quality associates
-projectLogoWithState: /img/cmnba.png
+projectLogoWithState: /img/cmnba-1-.png
 overview:
   - text: >-
       Samagra is working with the Department of Basic Education, Govt of Uttar
