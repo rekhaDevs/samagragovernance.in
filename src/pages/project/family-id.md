@@ -9,7 +9,7 @@ domain: Service Delivery
 subTitle: Samagra
 state: Uttar Pradesh
 tagLine: ' Ensuring a proactive scheme & service delivery mechanism '
-projectLogoWithState: /img/family-id.png
+projectLogoWithState: /img/family-id-1-.png
 overview:
   - text: >-
       Family ID is envisioned as a database of all families residing in the
