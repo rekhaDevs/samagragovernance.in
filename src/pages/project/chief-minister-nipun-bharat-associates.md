@@ -8,9 +8,7 @@ backgroundCover: /img/beneficiary-photo.jpg
 domain: Education
 subTitle: Samagra
 state: Uttar Pradesh
-tagLine: >-
-  Enabling rigorous on-ground FLN implementation through 111 high-quality
-  associates
+tagLine: Enabling FLN implementation through 111 high-quality associates
 projectLogoWithState: /img/cmnba.png
 overview:
   - text: >-
