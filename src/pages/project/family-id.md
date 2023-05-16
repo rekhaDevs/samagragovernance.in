@@ -8,7 +8,7 @@ backgroundCover: /img/beneficiaries-family-id.png
 domain: Service Delivery
 subTitle: Samagra
 state: Uttar Pradesh
-tagLine: ' Ensuring coverage of welfare schemes through a proactive scheme & service delivery mechanism '
+tagLine: ' Ensuring a proactive scheme & service delivery mechanism '
 projectLogoWithState: /img/family-id.png
 overview:
   - text: >-
