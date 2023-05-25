@@ -41,20 +41,20 @@ approach:
       and re-inforce accountability amongst all cadres by facilitating high
       quality data backed review mechanisms. 
 impact:
-  - count: .
+  - count: ' '
     label: Increasing the number of grade-competent ‘NIPUN’ students in the district
-  - count: .
+  - count: ' '
     label: >-
       Rigorous implementation of academic and administrative reforms under
       NIPUN 
-  - count: .
+  - count: ' '
     label: >-
       Quality data-backed monitoring by incorporating qualitative (school/field
       visits) & quantitative (data analytical) insights 
-  - count: .
+  - count: ' '
     label: >-
       Compliance and effective translation of academic strategy and motivation
       mechanisms on the ground
-keyInitiativesTitle: .
+keyInitiativesTitle: ' '
 ---
 
