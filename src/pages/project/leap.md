@@ -36,7 +36,7 @@ impact:
     label: 'Increase in income of 17+ lakh dairy and goatery farmers '
   - count: 100%
     label: Farmer-centric government scheme saturation
-  - count: .
+  - count: ' '
     label: 'Livestock best practice adoption by farmers '
 keyInitiativesTitle: .
 ---
