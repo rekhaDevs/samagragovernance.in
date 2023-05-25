@@ -1,7 +1,7 @@
 ---
 templateKey: media-post
 title: 'Nexus of Good: A holistic intervention'
-mediaHouse: millenniumpost
+mediaHouse: Millennium Post
 projectId: Samagra
 date: 2023-05-25T09:14:15.389Z
 author: Anil Swarup
