@@ -4,11 +4,11 @@ title: LEAP
 domainNew: Agriculture
 fullName: Livestock Expansion & Advancement Program
 id: LEAP
-backgroundCover: /img/img_20230216_152706-1-.jpg
+backgroundCover: /img/whatsapp-image-2023-02-27-at-1.20.23-pm.jpeg
 domain: 'Agriculture '
 subTitle: Samagra
 state: Odisha
-tagLine: Increase income of 20+ lakh livestock farmers over 3 years
+tagLine: To increase income of 20+ lakh livestock farmers over 3 years
 projectLogoWithState: /img/leap.png
 overview:
   - text: ' Samagra has been working with the Departments of Agriculture and Farmers’ Empowerment (DAFE) and Fisheries & Animal Resources (F&ARD), Govt of Odisha, with support from the Bill & Melinda Gates Foundation (BMGF), over the past 4 years on multiple agri-centric interventions. Building on top of earlier success, LEAP (Livestock Expansion & Advancement Program) was conceptualized to focus on increasing the income of livestock farmers through two animal husbandry value chains i.e. Dairy and Goatery. Samagra’s role is to develop a holistic design to achieve the income enhancement objective and execute it over 3 years to deliver palpable change on ground.'
