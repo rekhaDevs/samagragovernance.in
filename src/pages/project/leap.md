@@ -38,6 +38,6 @@ impact:
     label: Farmer-centric government scheme saturation
   - count: ' '
     label: 'Livestock best practice adoption by farmers '
-keyInitiativesTitle: .
+keyInitiativesTitle: '  '
 ---
 
