@@ -2,7 +2,7 @@
 templateKey: project-post
 title: LEAP
 domainNew: Agriculture
-fullName: LEAP
+fullName: Livestock Expansion & Advancement Program
 id: LEAP
 backgroundCover: /img/img_20230216_152706-1-.jpg
 domain: 'Agriculture '
