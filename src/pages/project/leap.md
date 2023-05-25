@@ -33,7 +33,7 @@ approach:
       help maintain a razor sharp focus on the overall goal of the program.
 impact:
   - count: ' 2x '
-    label: 'Increase in income of 17+ lakh dairy and goatery farmers '
+    label: 'Increase in income of 17+ lakh dairy & goatery farmers '
   - count: 100%
     label: Farmer-centric government scheme saturation
   - count: ' '
