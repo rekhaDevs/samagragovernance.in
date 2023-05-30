@@ -70,11 +70,11 @@ team:
       his last project involved conceptualising a marketing tech product. He has
       previously also worked at EY. His belief that governance is the critical
       lever to creating sustainable and scalable solutions brought him to
-      Samagra. Currently, he is part of the CEO's Office.
+      Samagra. 
     image: /img/aayush_7903.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aayushkedia'
     name: Aayush Kedia
-    project: Entrepreneur-in-Residence
+    project: ' '
   - bio: >-
       Aayush holds a Master's degree in Economics from Delhi School of
       Economics, University of Delhi and a Bachelor's degree in the same
@@ -89,12 +89,12 @@ team:
 
       An opportunity to work with governments to create impact that reaches the
       last mile and help society inch towards a more equitable and inclusive
-      future, brought him to Samagra. Currently, he is part of the Mission
-      Prerna team in Uttar Pradesh.
+      future, brought him to Samagra. Currently, he is part of the NIPUN Bharat
+      team in Uttar Pradesh.
     image: /img/aayush-malik.jpg
     linkedInProfile: 'https://www.linkedin.com/in/aayush-malik/'
     name: Aayush Malik
-    project: Mission Prerna
+    project: NIPUN Bharat Cell
   - bio: >-
       Abhay holds an MBA from Indian Institute of Management Ahmedabad and a
       dual degree in Mechanical Engineering from Indian Institute of Technology,
@@ -134,12 +134,11 @@ team:
 
       An opportunity to partner with government stakeholders to develop
       efficient service delivery systems and improve the lives of citizens
-      brought him to Samagra. Currently, he is part of the Central Team in the
-      Delhi office.
+      brought him to Samagra. 
     image: /img/abhishekrao.jpg
     linkedInProfile: 'https://www.linkedin.com/in/abhishek-rao-479047159/'
     name: 'Abhishek Rao '
-    project: Central Team
+    project: ' '
   - bio: >-
       Aditi holds a Bachelor's degree in Electronics and Telecommunication
       Engineering from Sardar Patel Institute of Technology, Mumbai University.
@@ -178,7 +177,7 @@ team:
     image: /img/aman.png
     linkedInProfile: 'https://www.linkedin.com/in/amangup/'
     name: Aman Gupta
-    project: .
+    project: ' '
   - bio: >-
       Amit holds a Bachelor's degree in Computer Science and Engineering from
       Amity University, Noida. Before joining Samagra, he was working as a
@@ -204,11 +203,12 @@ team:
 
       A strong desire to work on scalable governance solutions that could impact
       everyday lives of citizens, brought him to Samagra. Currently, he is part
-      of the KONNECT team in Odisha.
+      of the KONNECT team in Odisha. Anay is the Program Coordinator of the LEAP
+      team and manages its daily operations.
     image: /img/1.jpg
     linkedInProfile: 'https://www.linkedin.com/in/anay-gogate-71b50b6b/'
     name: Anay Gogate
-    project: KONNECT
+    project: LEAP
   - bio: >-
       Ankit holds a Bachelor's degree in Computer Science and Engineering from
       Uttar Pradesh Technical University and a Master's in Management with a
@@ -219,12 +219,12 @@ team:
       then joined the Department of Finance and Planning, Government of
       Chhattisgarh as a Chief Minister’s Good Governance Fellow. The zeal to
       create real impact on the ground by transforming governance and public
-      administration brought him to Samagra. Ankit currently leads the Mission
-      Prerna and Niramaya programmes in Uttar Pradesh.
+      administration brought him to Samagra. Ankit currently leads the NIPUN
+      Bharat and Niramaya programmes in Uttar Pradesh.
     image: /img/ankit_7709.jpg
     linkedInProfile: 'https://www.linkedin.com/in/ankitg17'
     name: Ankit Goel
-    project: 'Mission Prerna & Niramaya '
+    project: 'NIPUN Bharat Cell & Niramaya '
   - bio: >-
       Anurag holds a Bachelor's degree in Engineering from NSUT, University of
       Delhi. Before joining Samagra, he was working as an Analyst at Everest
@@ -255,6 +255,21 @@ team:
     name: Anusheela Ghosh
     project: Central Team
   - bio: >-
+      Ashana holds an MBA from IIM Kozhikode and a Bachelor’s degree in
+      Electrical Engineering from Sardar Patel College of Engineering, Mumbai.
+      Before joining Samagra, she was working as an Area Sales Manager for the
+      personal products division at Hindustan Unilever Limited. 
+
+
+      A strong motivation to bring positive change in the lives of citizens
+      brings Ashana to Samagra. She intends to leverage her academic grounding
+      and hands-on experience in sales to deliver impact at scale. Currently,
+      she is part of the NIPUN Bharat team in Uttar Pradesh.
+    image: /img/ashana-shukla.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/ashana-shukla/'
+    name: Ashana Shukla
+    project: NIPUN Bharat Cell
+  - bio: >-
       Bhavya holds a Bachelor’s degree in Commerce from Jesus and Mary College,
       University of Delhi and a Post-Graduate Diploma in Liberal Studies under
       the Young India Fellowship at Ashoka University. She was previously
@@ -269,11 +284,11 @@ team:
 
       A strong belief in governance as a key lever of change and the opportunity
       to gain hands-on experience working with the government brought her to
-      Samagra.
+      Samagra. Currently, she is part of the C4GT team in the Delhi office. 
     image: /img/edited_img_7713.jpg
     linkedInProfile: 'https://www.linkedin.com/in/bhavya-berlia-936a8b128/'
     name: Bhavya Berlia
-    project: .
+    project: C4GT
   - bio: >-
       Chakshu holds a Bachelor's degree in Civil Engineering from Galgotias
       College of Engineering and Technology and an MTech in Structural
@@ -942,11 +957,11 @@ team:
       was volunteering for the National Service Scheme. In her spare time,
       Vasundhra enjoys reading and swimming. A strong drive to work in social
       impact consulting and create impact at scale, brought her to Samagra.
-      Currently, she is part of the Mission Prerna team in Uttar Pradesh.
+      Currently, she is part of the NIPUN Bharat team in Uttar Pradesh.
     image: /img/vasundhra.jpg
     linkedInProfile: 'https://www.linkedin.com/in/vasundhra-negi-96b383209/'
     name: Vasundhra Negi
-    project: Mission Prerna
+    project: NIPUN Bharat Cell
   - bio: >-
       Venkatesh holds an MBA from Indian School of Business, Hyderabad and a
       Bachelor's degree in Electrical, Electronics and Communications
