@@ -600,12 +600,11 @@ team:
       Technology, Chandigarh. 
 
 
-      Nitin is Senior Vice President and Head of Product at Samagra and
-      currently leads the C4GT programme and SamagraX.
+      Nitin is Senior Vice President and Head of Product at Samagra.
     image: /img/nitin-kashyap-1.jpeg
     linkedInProfile: 'https://www.linkedin.com/in/nitin-kashyap-7573181/'
     name: Nitin Kashyap
-    project: SamagraX and C4GT
+    project: ' '
   - bio: >-
       Pavan holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Before joining Samagra, he was working as
