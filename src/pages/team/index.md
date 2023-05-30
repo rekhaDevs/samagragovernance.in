@@ -452,11 +452,11 @@ team:
 
 
       A strong desire to explore governance consulting brought her to Samagra.
-      Currently, she is part of the Mission Prerna team in Uttar Pradesh.
+      Currently, she is part of the NIPUN Bharat team in Uttar Pradesh.
     image: /img/2.jpg
     linkedInProfile: 'https://www.linkedin.com/in/khushi-goyal-/'
     name: Khushi Goyal
-    project: Mission Prerna
+    project: NIPUN Bharat Cell
   - bio: >-
       Kritika holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Before joining Samagra, she was working as
@@ -637,13 +637,11 @@ team:
       also completed a course on 'Re-thinking the Obvious: Rhetoric of
       Development' at Miranda House in collaboration with The George Washington
       University. An opportunity to create positive impact in the lives of
-      people and an interest in public policy brought her to Samagra. Pragya is
-      the Program Coordinator of the Mission Prerna team in Uttar Pradesh and
-      manages its daily operations.
+      people and an interest in public policy brought her to Samagra. 
     image: /img/pragya_7691.jpg
     linkedInProfile: 'https://www.linkedin.com/in/pragya-mathur-678779126'
     name: Pragya Mathur
-    project: Mission Prerna
+    project: .
   - bio: >-
       Prasanna holds a Bachelor's degree in Statistics from St. Joseph's
       College, Trichy and a Master's in Computer Applications from Adaikalamatha
@@ -976,11 +974,11 @@ team:
 
       A strong desire to understand the scale of governance challenges in India
       and become a part of the solution, brought him to Samagra. Currently, he
-      is part of the Mission Prerna team in Uttar Pradesh.
+      is part of the NIPUN Bharat team in Uttar Pradesh.
     image: /img/srajan.jpg
-    linkedInProfile: .
+    linkedInProfile: ' .'
     name: Srajan Bhatnagar
-    project: Mission Prerna
+    project: NIPUN Bharat Cell
   - bio: >-
       Srikanth holds an MBA from Xavier Institute of Management, Bhubaneswar and
       a Bachelor's degree in Electrical, Electronics and Communications
