@@ -180,6 +180,16 @@ team:
     name: Aditya Singh Rana
     project: Niramaya
   - bio: >-
+      Akshata comes with a decade long experience across US and India in human
+      centric design and research. She holds three degrees - Master’s in Design
+      for Social Innovation from School of Visual Arts, New York and Strategic
+      Design Management from National Institute of Design, Ahmedabad and a
+      Bachelor's in Design from National Institute of Fashion Technology Delhi.
+    image: /img/akshata-malhotra.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/akshata-malhotra-b072a13b/'
+    name: Akshata Malhotra
+    project: Design
+  - bio: >-
       Aman holds an MBA from IIM Kozhikode and a Bachelor's degree in Electrical
       & Electronics Engineering from BITS Pilani. Before joining Samagra, he was
       working as a Product and Sales Manager for the Indian marketplace at
