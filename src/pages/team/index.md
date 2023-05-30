@@ -399,6 +399,21 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/khushi-goyal-/'
     name: Khushi Goyal
     project: Mission Prerna
+  - bio: >-
+      Kritika holds a Bachelor's degree in Commerce from Shri Ram College of
+      Commerce, University of Delhi. Before joining Samagra, she was working as
+      an Associate as part of the Indian Administrative Fellowship at The/Nudge
+      Institute, where she worked directly with the Principal Secretary, Govt of
+      Karnataka.
+
+
+      An opportunity to solve complex governance problems and create on-ground
+      impact that is sustainable and scalable, brings Kritika to Samagra.
+      Currently, she is part of the CMNBA team in Uttar Pradesh.
+    image: /img/kritika-garg.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/kritika-garg-69171b129/'
+    name: Kritika Garg
+    project: CMNBA
   - bio: >
       Lakshay holds a Bachelor's degree in Accounting and Finance from Shri Ram
       College of Commerce, University of Delhi. Before joining Samagra, he
