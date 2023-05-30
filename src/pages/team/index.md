@@ -402,6 +402,22 @@ team:
     name: Jayashankar Vengathattil
     project: Samarth
   - bio: >-
+      An Aquarium Hobbyist, Karan holds a Postgraduate Diploma in Rural
+      Management from Xavier Institute of Social Service, Ranchi and a
+      Bachelor's degree in Information Technology from Shri Ramswaroop Memorial
+      College of Engineering and Management, Lucknow. Before joining Samagra, he
+      was working as a Young Professional Livestock at Bihar Rural Livelihoods
+      Promotion Society (JEEViKA). 
+
+
+      An opportunity to work at the intersection of data, technology and
+      governance to improve the quality of life of citizens brings Karan to
+      Samagra. Currently, he is part of the Niramaya team in Uttar Pradesh.
+    image: /img/karan-s.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/karan-sabharwal-239858184/'
+    name: Karan Sabharwal
+    project: Niramaya
+  - bio: >-
       Karan holds a Bachelor’s degree in Information Technology from University
       of Mumbai. Karan has more than 10 years of experience in software
       development. Before joining Samagra, he was working as an Engineering
