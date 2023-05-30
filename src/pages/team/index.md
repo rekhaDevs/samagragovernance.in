@@ -656,6 +656,20 @@ team:
     name: Prerna Bhandari
     project: .
   - bio: >-
+      Prerna holds an MBA from Indian Institute of Management, Calcutta and a
+      Bachelor's degree in Civil Engineering from Jadavpur University, Kolkata.
+      Before joining Samagra, she was working as an Assistant Manager in Fosroc
+      Chemicals, primarily working on infrastructure projects with government
+      stakeholders. 
+
+
+      A strong motivation to work in the impact space and contribute towards
+      social development brings Prerna to Samagra
+    image: /img/prerna-singh.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/prerna-singh-b92016145/'
+    name: Prerna Singh
+    project: ' '
+  - bio: >-
       Raghav holds a Bachelor's degree in Political Science and Economics from
       Ashoka University. Before joining Samagra, he was working as a Legislative
       Assistant to a Lok Sabha Member of Parliament, supporting multiple
