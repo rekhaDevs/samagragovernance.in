@@ -419,10 +419,11 @@ team:
       at Federation of Indian Chambers of Commerce and Industry (FICCI) and
       Central Board of Secondary Education (CBSE). A strong passion for creating
       impact at scale through the ambit of governance brought him to Samagra.
-    image: /img/mehul.jpg
+      Currently, he is part of the Central Team in the Delhi office.
+    image: /img/mehul-sehgal.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mehul-sehgal-a38337152/'
     name: Mehul Sehgal
-    project: .
+    project: Central Team
   - bio: >-
       Mohit holds a Bachelor's degree in Management Studies from Shaheed Sukhdev
       College of Business Studies, University of Delhi. 
@@ -661,7 +662,7 @@ team:
       A strong motivation to contribute towards good governance and catalyse the
       implementation of deep system reforms, brought him to Samagra. Currently,
       he is part of the Saksham Haryana–Education team.
-    image: /img/sanskar_close-up-image.jpg
+    image: /img/sanskar-gupta.jpg
     linkedInProfile: 'https://www.linkedin.com/in/sanskar-kumar-gupta/'
     name: Sanskar Kumar Gupta
     project: Saksham Haryana-Education
@@ -792,7 +793,7 @@ team:
       in governance as a lever of change brought her to Samagra. Simran is the
       Program Coordinator of the Saksham Haryana-Education team and manages its
       daily operations.
-    image: /img/edited_simran.jpg
+    image: /img/simran-bagga.jpg
     linkedInProfile: 'https://www.linkedin.com/in/baggasimran/'
     name: Simran Bagga
     project: Saksham Haryana-Education
