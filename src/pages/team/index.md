@@ -556,6 +556,23 @@ team:
     name: Nikhil Srivastava
     project: Saksham Haryana-Skills & Employment
   - bio: >-
+      The passion to leverage GovTech and DataGov to create  impact at scale
+      brings Nitin Kashyap to Samagra. Nitin describes himself as a "Dreamer.
+      Thinker. Doer". He comes with more than two decades of experience across
+      UK and India in Engineering, Management Consultancy and Product
+      Management. Nitin’s last stint was as a Product Management leader at
+      Google; where he was leading Google's efforts on Foundational Literacy &
+      Numeracy with Google Read Along and Google Classroom. 
+
+
+      Nitin holds an MBA from Indian School of Business, Hyderabad and a
+      Bachelor's degree in Computer Science Engineering from PEC University of
+      Technology, Chandigarh. 
+    image: /img/nitin-kashyap-1.jpeg
+    linkedInProfile: 'https://www.linkedin.com/in/nitin-kashyap-7573181/'
+    name: Nitin Kashyap
+    project: SamagraX and C4GT
+  - bio: >-
       Pavan holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Before joining Samagra, he was working as
       an Associate Consultant at Sattva Consulting. 
