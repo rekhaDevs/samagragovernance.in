@@ -185,6 +185,10 @@ team:
       for Social Innovation from School of Visual Arts, New York and Strategic
       Design Management from National Institute of Design, Ahmedabad and a
       Bachelor's in Design from National Institute of Fashion Technology Delhi.
+
+
+      Akshata is Vice President at Samagra and currently leads the Design
+      vertical at the firm.
     image: /img/akshata-malhotra.jpg
     linkedInProfile: 'https://www.linkedin.com/in/akshata-malhotra-b072a13b/'
     name: Akshata Malhotra
@@ -594,6 +598,10 @@ team:
       Nitin holds an MBA from Indian School of Business, Hyderabad and a
       Bachelor's degree in Computer Science Engineering from PEC University of
       Technology, Chandigarh. 
+
+
+      Nitin is Senior Vice President and Head of Product at Samagra and
+      currently leads the C4GT programme and SamagraX.
     image: /img/nitin-kashyap-1.jpeg
     linkedInProfile: 'https://www.linkedin.com/in/nitin-kashyap-7573181/'
     name: Nitin Kashyap
