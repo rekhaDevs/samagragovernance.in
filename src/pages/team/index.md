@@ -874,6 +874,24 @@ team:
     name: Shubhajeet Sil
     project: .
   - bio: >-
+      Shubhi holds Masters degrees in Economics and Social Work from Indira
+      Gandhi National Open University (IGNOU), Delhi and a Bachelor’s degree in
+      Economics & Mathematics from Kamala Nehru College, University of Delhi.
+      Before joining Samagra, she was working as an Associate Consultant with
+      the PMO team for CSR Advisory at Sattva Consulting, primarily working on
+      data management, process governance, and reporting on Business metrics for
+      the CSR unit. 
+
+
+      An opportunity to work on complex problem statements and design solutions
+      using management tools to improve the quality of life of citizens brings
+      Shubhi to Samagra. Currently, she is part of the Saksham Haryana–Education
+      team.
+    image: /img/shubhi-singh.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/shubhi-singh4/'
+    name: Shubhi Singh
+    project: Saksham Haryana-Education
+  - bio: >-
       Siddhant holds a Bachelor's degree in Mechanical Engineering from Vellore
       Institute of Technology. Before joining Samagra, he was working as a
       Management Consultant with EY's Business Consulting vertical, primarily
