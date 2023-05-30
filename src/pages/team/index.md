@@ -165,6 +165,21 @@ team:
     name: Aditya Chopra
     project: Saksham Haryana-Education & Samarth
   - bio: >-
+      Aditya holds an MBA from IE Business School, Madrid and a Bachelor's
+      degree in IT Engineering from Dr. A.P.J. Abdul Kalam Technical University,
+      Lucknow. Before joining Samagra, he was working as an internal consultant
+      for the Government of India on the Clean India Mission to make India open
+      defecation free.
+
+
+      A strong motivation to work on complex social issues & drive real change
+      on ground through better governance, brings Aditya to Samagra. Currently,
+      he is part of the Niramaya team in Uttar Pradesh.
+    image: /img/aditya-rana.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/adityasinghrana94/'
+    name: Aditya Singh Rana
+    project: Niramaya
+  - bio: >-
       Aman holds an MBA from IIM Kozhikode and a Bachelor's degree in Electrical
       & Electronics Engineering from BITS Pilani. Before joining Samagra, he was
       working as a Product and Sales Manager for the Indian marketplace at
