@@ -402,6 +402,19 @@ team:
     name: Jayashankar Vengathattil
     project: Samarth
   - bio: >-
+      Karan holds a Bachelor’s degree in Information Technology from University
+      of Mumbai. Karan has more than 10 years of experience in software
+      development. Before joining Samagra, he was working as an Engineering
+      Manager at Gojek.
+
+
+      An opportunity to contribute towards nation building and deliver solutions
+      to create impact at scale, brings Karan to Samagra.
+    image: /img/karan-trehan.jpg
+    linkedInProfile: 'https://www.linkedin.com/in/karntrehan/'
+    name: ' Karan Trehan'
+    project: SamagraX
+  - bio: >-
       Khushi holds a Bachelor's degree in Commerce from Shri Ram College of
       Commerce, University of Delhi. Before joining Samagra, she was an intern
       under the Youth Engagement Programme envisaged by Dr. Kiran Bedi with the
