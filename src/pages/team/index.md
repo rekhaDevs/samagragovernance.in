@@ -725,6 +725,21 @@ team:
     name: Shraya Sapru
     project: .
   - bio: >-
+      Shreya holds a Master's degree in Management from INSEAD, France and a
+      Bachelor's degree in Business Administration with a specialisation in
+      Marketing from St. Xavier’s College, Kolkata. Before joining Samagra, she
+      was interning at Arthur D. Little in Singapore. Previously, she also ran a
+      regional content creation venture.
+
+
+      A strong desire to create impact at scale through governance consulting
+      brings Shreya to Samagra. Currently, she is part of the FAMILY ID team in
+      Uttar Pradesh.
+    image: /img/shreya-aggarwal.png
+    linkedInProfile: 'https://www.linkedin.com/in/shreyaagarwal15/'
+    name: Shreya Agarwal
+    project: FAMILY ID
+  - bio: >-
       Shreyashi holds a Master’s degree in Management Studies with a
       specialization in Urban Management from CEPT University, Ahmedabad and a
       Bachelor’s degree in Architecture from Maulana Azad National Institute of
