@@ -1,8 +1,6 @@
 ---
 templateKey: blog-post
-title: >-
-  The ‘Panchsutras’ from my first month at Samagra: Unlocking Effective
-  Strategies
+title: '‘Panchsutras’ from my first month at Samagra: Unlocking Effective Strategies'
 author: Sambhavi Gupta
 projectId: Outreach Team
 authorImage: /img/15.jpg
