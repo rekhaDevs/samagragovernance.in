@@ -271,19 +271,6 @@ team:
     name: Anurag Bahadur Singh
     project: SamagraX
   - bio: >-
-      Anusheela holds a Bachelor's degree in Psychology (Hons) from Lady Shri
-      Ram College For Women, Delhi University. Before joining Samagra, she was
-      working as a Projects Executive at ECHO India, which works towards
-      capacity building in health and education. Passionate about the
-      development sector, she has also worked with the United Nations and
-      Government of Delhi. Her strong belief in using governance as a lever for
-      societal change brought her to Samagra. Currently, she is part of the
-      Central Team in the Delhi office.
-    image: /img/anusheela_7528.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/anusheela-ghosh/'
-    name: Anusheela Ghosh
-    project: Central Team
-  - bio: >-
       Ashana holds an MBA from IIM Kozhikode and a Bachelor’s degree in
       Electrical Engineering from Sardar Patel College of Engineering, Mumbai.
       Before joining Samagra, she was working as an Area Sales Manager for the
@@ -409,12 +396,12 @@ team:
       A deep interest in subnational governance and a penchant for problem
       solving brought him to Samagra. He intends to leverage his academic
       grounding and hands-on experience in governance and developmental issues
-      to create impact at scale. Currently, he is part of the Samarth team in
-      Himachal Pradesh.
+      to create impact at scale. Currently, he is part of the Central Team in
+      the Delhi office.
     image: /img/edited_img_3638.jpg
     linkedInProfile: 'https://www.linkedin.com/in/jayashankar-vengathattil/'
     name: Jayashankar Vengathattil
-    project: Samarth
+    project: ' Central Team'
   - bio: >-
       Karan holds a Postgraduate Diploma in Rural Management from Xavier
       Institute of Social Service, Ranchi and a Bachelor's degree in Information
@@ -485,7 +472,7 @@ team:
     image: /img/edited_img_3614.jpg
     linkedInProfile: 'https://www.linkedin.com/in/lakshay-gupta-578019195/'
     name: Lakshay Gupta
-    project: Saksham Haryana-Skills & Employment
+    project: ' '
   - bio: >-
       Manik holds a Bachelor's degree in Commerce from Hansraj College,
       University of Delhi. He is also a licensed Certified Public Accountant.
@@ -519,24 +506,11 @@ team:
 
       An opportunity to create impact at scale and work with bureaucratic
       leaders in the government administration, brought him to Samagra.
+      Currently, he is part of the LEAP team in Odisha.
     image: /img/edited_img_4119.jpg
     linkedInProfile: 'https://www.linkedin.com/in/mohit-vijay-433a81192/'
     name: Mohit Vijay
-    project: .
-  - bio: >-
-      Nakul holds an MBA from Esade Business School, Barcelona and a Bachelor's
-      degree in Electrical Engineering from Thapar Institute of Engineering &
-      Technology, Patiala. Before joining Samagra, he was working as a Product
-      Manager at Siemens, where he worked on electricity transmission projects
-      for utility companies in India and abroad.
-
-
-      A strong belief in governance being one of the key levers to drive impact
-      at scale, brought him to Samagra. 
-    image: /img/nakul.png
-    linkedInProfile: 'https://www.linkedin.com/in/nakulkumar19/'
-    name: Nakul Kumar
-    project: .
+    project: LEAP
   - bio: >-
       Namisha holds a Master’s degree in Development Economics from South Asian
       University and a Bachelor’s degree in Economics from Gargi College,
@@ -546,12 +520,11 @@ team:
 
 
       A strong motivation to navigate and solve for India’s development puzzle
-      through institutionalisation and tech brought her to Samagra. Currently,
-      she is part of the Saksham Haryana-Skills & Employment team.
+      through institutionalisation and tech brought her to Samagra. 
     image: /img/namisha_7630.jpg
     linkedInProfile: 'https://www.linkedin.com/in/namisha-m-75a98014b/'
     name: Namisha Mehra
-    project: Saksham Haryana-Skills & Employment
+    project: ' '
   - bio: >-
       Nawaz holds a Bachelor's degree in Aeronautics from Jamia Millia Islamia,
       New Delhi. Before joining Samagra, he was working as a Programme Associate
@@ -579,12 +552,11 @@ team:
       An opportunity to converge technology and good governance practices to
       create a meaningful impact in the lives of citizens, brought him to
       Samagra. He intends to leverage his professional and academic experiences
-      to create impact at scale. Nikhil is the Program Coordinator of the
-      Saksham Haryana-Skills & Employment team and manages its daily operations.
+      to create impact at scale.
     image: /img/nikhil-s.jpg
     linkedInProfile: 'https://www.linkedin.com/in/nikhilsrivastava1991/'
     name: Nikhil Srivastava
-    project: Saksham Haryana-Skills & Employment
+    project: ' '
   - bio: >-
       The passion to leverage GovTech and DataGov to create  impact at scale
       brings Nitin Kashyap to Samagra. Nitin describes himself as a "Dreamer.
@@ -614,11 +586,11 @@ team:
       A strong desire to explore governance consulting as a tool to create
       large-scale impact and to work with state governments to bring about
       systemic change, brought him to Samagra. Currently, he is part of the
-      Saksham Haryana-Skills & Employment team.
+      Central Team in the Delhi office.
     image: /img/8.jpg
     linkedInProfile: 'https://www.linkedin.com/in/pavan-bhat-kundapura-48b41a105/'
     name: 'Pavan Bhat Kundapura '
-    project: Saksham Haryana-Skills & Employment
+    project: Central Team
   - bio: >-
       Praachi holds a Bachelor's degree in Mathematics from St. Stephen's
       College, University of Delhi. A strong passion for creating systemic
@@ -666,10 +638,14 @@ team:
       interventions for improved functioning of the Delhi Urban Development
       Authority. An opportunity to employ her problem-solving skills to create
       sustainable impact brought her to Samagra.
+
+
+      Prerna is the Program Coordinator of the FAMILY ID team in Uttar Pradesh
+      and manages its daily operations.
     image: /img/prerna_7860.jpg
     linkedInProfile: 'https://www.linkedin.com/in/prerna-bhandari-112298141'
     name: Prerna Bhandari
-    project: .
+    project: FAMILY ID
   - bio: >-
       Prerna holds an MBA from Indian Institute of Management, Calcutta and a
       Bachelor's degree in Civil Engineering from Jadavpur University, Kolkata.
@@ -692,11 +668,13 @@ team:
 
 
       An opportunity to transform governance by combining consulting skills and
-      the power of technology brought him to Samagra.
+      the power of technology brought him to Samagra. Raghav is the Program
+      Coordinator of the CMNBA team in Uttar Pradesh and manages its daily
+      operations.
     image: /img/raghav_7533.jpg
     linkedInProfile: 'https://www.linkedin.com/in/raghav-katyal-2a3250120/'
     name: Raghav Katyal
-    project: .
+    project: CMNBA
   - bio: >-
       Raju worked with Punj Lloyd as a administrative assistant in Libya, and
       with Walt Disney as a Office Coordinator. He manages the daily
@@ -795,7 +773,7 @@ team:
     image: /img/shashwat_7696.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shashwat-shah-32a1131b4/'
     name: Shashwat Shah
-    project: .
+    project: CMNBA
   - bio: >-
       Shipra holds an MPhil degree in Public Policy from the University of
       Cambridge, UK and a Bachelor's degree in History from Lady Shri Ram
@@ -887,7 +865,7 @@ team:
     image: /img/shubhajeet-sil.jpg
     linkedInProfile: 'https://www.linkedin.com/in/shubhajeetsil/'
     name: Shubhajeet Sil
-    project: .
+    project: LEAP
   - bio: >-
       Shubhi holds Masters degrees in Economics and Social Work from Indira
       Gandhi National Open University (IGNOU), Delhi and a Bachelor’s degree in
@@ -1044,7 +1022,7 @@ team:
     image: /img/tarang_7645.jpg
     linkedInProfile: 'https://www.linkedin.com/in/tarang-khurana-16550a106/'
     name: Tarang Khurana
-    project: .
+    project: FAMILY ID
   - bio: >-
       Ujjwal holds a Bachelor's degree in Computer Engineering from Netaji
       Subhas Institute of Technology. She worked with Microsoft and Directi
@@ -1058,20 +1036,6 @@ team:
     linkedInProfile: 'https://www.linkedin.com/in/ujjwal-relan-981b814a'
     name: Ujjwal Relan
     project: Chief of Staff
-  - bio: >-
-      Umang holds a Bachelor's degree in Information Technology from Punjab
-      Engineering College. He was previously working as a software engineer with
-      CaaStle, focused on Android development and R&D. Before joining Samagra,
-      he worked with Paytm as a Senior Software Engineer.
-
-
-      An opportunity to leverage the power of technology to transform governance
-      brought Umang to Samagra. Umang is the Program Coordinator of the Samarth
-      team in Himachal Pradesh and manages its daily operations.
-    image: /img/umang_7679.jpg
-    linkedInProfile: 'https://www.linkedin.com/in/umang-bhola-194b6686/'
-    name: Umang Bhola
-    project: Samarth
   - bio: >-
       Utkarsh holds a Bachelor's degree in Computer Science Engineering from
       NIT, Jalandhar. Previously, he has worked as Technology Consultant with
@@ -1102,11 +1066,11 @@ team:
       citizens through governance as a lever of change, brought Utsav to
       Samagra. He intends to leverage his academic grounding and hands-on
       experience with large scale change management to deliver impact at scale.
-      Currently, he is part of the Mission Prerna team in Uttar Pradesh.
+      Currently, he is part of the NIPUN Bharat team in Uttar Pradesh.
     image: /img/utsav.png
     linkedInProfile: 'https://www.linkedin.com/in/utsavthapliyal/'
     name: Utsav Thapliyal
-    project: Mission Prerna
+    project: NIPUN Bharat Cell
   - bio: >-
       Vasundhra holds a Bachelor’s degree in Mathematics from Sri Guru Tegh
       Bahadur Khalsa College, University of Delhi. Before joining Samagra, she
