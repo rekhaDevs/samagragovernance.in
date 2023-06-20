@@ -1,13 +1,13 @@
 import "../styles/BlogDetails.scss";
 
 import Content, { HTMLContent } from "../components/Content";
-import { Link, graphql } from "gatsby";
-
+import { graphql } from "gatsby";
+import Disqus from 'gatsby-plugin-disqus'
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
 import React from "react";
-import { kebabCase } from "lodash";
+
 
 export const BlogPostTemplate = ({
   content,
@@ -86,6 +86,13 @@ const BlogPost = ({ data }) => {
           </Helmet>
         }
       />
+      <div className={"container blog-detail-section"}>
+          <Disqus
+            identifier={post.id}
+            title={post.frontmatter.title}
+            url={post.fields.slug}
+          />
+      </div>
     </Layout>
   );
 };
