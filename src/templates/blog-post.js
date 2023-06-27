@@ -97,7 +97,7 @@ const BlogPost = ({ data }) => {
       <Script>
         {`
           window.gc_params = {
-              graphcomment_id: 'codewithlinda',
+              graphcomment_id: 'samagragovernance',
               fixed_header_height: 0,
           };
 
