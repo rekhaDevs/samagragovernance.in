@@ -6,7 +6,8 @@ import { Link, graphql } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
-import React from "react";
+import React,{useEffect} from "react";
+import Script from "react-inline-script"
 import { kebabCase } from "lodash";
 
 export const BlogPostTemplate = ({
@@ -18,7 +19,11 @@ export const BlogPostTemplate = ({
   htmlContent,
   helmet
 }) => {
+
+
   const PostContent = contentComponent || Content;
+
+  
   if (!content) {
     return <div />;
   }
@@ -69,6 +74,8 @@ export const BlogPostTemplate = ({
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
+
+
   return (
     <Layout slug={data.markdownRemark.fields.slug}>
       <BlogPostTemplate
@@ -86,6 +93,21 @@ const BlogPost = ({ data }) => {
           </Helmet>
         }
       />
+     <div id="graphcomment"></div>
+      <Script>
+        {`
+          window.gc_params = {
+              graphcomment_id: 'codewithlinda',
+              fixed_header_height: 0,
+          };
+
+          (function() {
+            var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+            gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+          })();
+        `}
+      </Script>
     </Layout>
   );
 };
