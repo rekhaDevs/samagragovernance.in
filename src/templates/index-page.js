@@ -17,7 +17,7 @@ export const IndexPageTemplate = ({
     <React.Fragment>
         {
             data && data.subBanners ? <React.Fragment>
-                <HomeTopSlider baseBanner={data.baseBanner} subBanners={data.subBanners}/>
+                <HomeTopSlider stickyBanner={data.stickyBanner} baseBanner={data.baseBanner} subBanners={data.subBanners}/>
                 <HomeSecondSection homeContent={data}/>
             </React.Fragment> : <span/>
         }
@@ -25,14 +25,6 @@ export const IndexPageTemplate = ({
         <HomeNewsSection/>
     </React.Fragment>
 );
-
-// const IndexPage = ({data}) => {
-//     return (
-//         <Layout>
-//             <IndexPageTemplate data={frontmatter}/>
-//         </Layout>
-//     )
-// };
 
 class IndexPage extends React.Component {
     constructor(props) {
@@ -71,6 +63,14 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        stickyBanner {
+          stickyBannerTitle
+          stickyBannerButtonTitle
+          stickyBannerColor
+          stickyBannerButtonColor
+          stickyBannerButtonTextColor
+          stickyBannerButtonLink
+        }
         baseBanner {
             titleLines {
                 text

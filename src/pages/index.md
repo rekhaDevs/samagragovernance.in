@@ -2,6 +2,13 @@
 templateKey: index-page
 title: Samagra Governance
 description: Samagra Governance
+stickyBanner:
+  stickyBannerTitle: This is a test banner title This is a test banner title This is a test banner title
+  stickyBannerColor: white
+  stickyBannerButtonTitle: Press
+  stickyBannerButtonTextColor: white
+  stickyBannerButtonColor: orange
+  stickyBannerButtonLink: https://www.google.com
 media:
   - mediaItem: >-
       1 Stop, 556 Schemes: Haryana Govt’s Unique System Can Revolutionise How
