@@ -27,6 +27,31 @@
 
 .blogs-section {
   padding: 100px 20px 200px 20px;
+  .filter-row{
+    display: flex;
+    align-content: flex-start;
+    .blog-filter{
+      position: relative;
+      padding: 0;
+      width: 100%;
+      .filter-input{
+        margin-bottom: 1rem ;
+        padding: 10px;
+        border: 1px solid #868686;
+      }
+    }
+    .filter-button-div{
+      margin-left: 10px;
+      width: 10rem; 
+      .filter-button{
+        background-color: #212529;
+        color: white;
+        width: 100%;
+        padding: 10px;
+      }
+    }
+  }
+  
 
   .blog-wrapper {
     position: relative;

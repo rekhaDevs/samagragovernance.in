@@ -9,6 +9,15 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
     return (
       <div className="blogs-section">
+        <div className="filter-row">
+          <div className="blog-filter col-lg-3 col-md-4 col-sm-6 col-xs-6">
+            <input type="text" className='filter-input w-93' placeholder="Search.."/>
+          </div>
+          <div className="filter-button-div">
+            <button className="filter-button f-15">Search
+            <span>&gt;</span></button>
+          </div>
+        </div>
         <div className="row">
           {posts.map(({ node: post }) => {
             return (
