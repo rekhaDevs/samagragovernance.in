@@ -115,7 +115,6 @@ export class HomeTopSlider extends React.Component {
       secondBannerActive,
       thirdBannerActive,
       fourthBannerActive,
-      stickyBannerActive=true
     } = this.state;
     const allBanners = [];
     let found = false;
@@ -138,49 +137,10 @@ export class HomeTopSlider extends React.Component {
     }
     allBanners.splice(0, 0, { active: !found, id: 1 });
 
-    const stickyBannerCloseHandler = () => {
-        this.setState({
-            stickyBannerActive: !stickyBannerActive
-        })
-    }
-
     return (
       <div
         className={'home-top-slider-wrapper'}
         style={{ background: '#444444' }}>
-        {/* Sticky Banner */}
-        {stickyBannerActive && <div
-          className="sticky-banner"
-          style={{
-            background: `${this.props.stickyBanner.stickyBannerColor}`,
-          }}>
-          <div className="sticky-banner-title">
-            {this.props.stickyBanner.stickyBannerTitle}
-          </div>
-          <a
-            href={this.props.stickyBanner.stickyBannerButtonLink}
-            style={{
-              color: `${this.props.stickyBanner.stickyBannerButtonTextColor}`,
-            }}>
-            <div
-              className="sticky-banner-btn"
-              style={{
-                backgroundColor: `${this.props.stickyBanner.stickyBannerButtonColor}`,
-              }}>
-              {this.props.stickyBanner.stickyBannerButtonTitle}
-            </div>
-          </a>
-          <div className='sticky-banner-close-btn'>
-          <button style={{
-            border: 'none',
-            outline: 'none',
-            background: 'white',
-            fontSize: '24px'
-          }}
-          onClick={stickyBannerCloseHandler}
-          >x</button>
-          </div>
-        </div>}
         <div className="video-background">
           <video
             controls={false}

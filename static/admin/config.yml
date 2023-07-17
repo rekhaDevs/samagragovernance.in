@@ -240,8 +240,18 @@ collections:
               fields:
                 [
                   {
+                    label: Sticky Banner Active,
+                    name: stickyBannerActive,
+                    widget: boolean,
+                  },
+                  {
                     label: Sticky Banner Title,
                     name: stickyBannerTitle,
+                    widget: string,
+                  },
+                  {
+                    label: Sticky Banner Title Color,
+                    name: stickyBannerTitleColor,
                     widget: string,
                   },
                   {

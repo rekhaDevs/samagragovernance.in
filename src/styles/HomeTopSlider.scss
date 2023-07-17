@@ -12,45 +12,6 @@
     width: 100%;
   }
 
-  .sticky-banner{
-    position: relative;
-    z-index: 200;
-    padding: 15px 0;
-    top: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  @media only screen and (max-width: 767px) {
-    /* Mobile-specific styles */
-    .sticky-banner {
-      top: 0;
-    }
-  }
-
-  .sticky-banner-title{
-    text-align: center;
-    margin-left: auto;
-  }
-
-  .sticky-banner a{
-    text-decoration: none;
-  }
-
-  .sticky-banner-btn{
-    margin: 5px;
-    border-radius: 15px;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-
-  .sticky-banner-close-btn{
-    text-align: right;
-    margin-left: auto;
-    margin-right: 5px;
-  }
-
   .translucent-dark-overlay {
     position: absolute;
     top: 0;

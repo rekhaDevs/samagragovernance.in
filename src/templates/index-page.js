@@ -17,7 +17,7 @@ export const IndexPageTemplate = ({
     <React.Fragment>
         {
             data && data.subBanners ? <React.Fragment>
-                <HomeTopSlider stickyBanner={data.stickyBanner} baseBanner={data.baseBanner} subBanners={data.subBanners}/>
+                <HomeTopSlider baseBanner={data.baseBanner} subBanners={data.subBanners}/>
                 <HomeSecondSection homeContent={data}/>
             </React.Fragment> : <span/>
         }
@@ -63,14 +63,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        stickyBanner {
-          stickyBannerTitle
-          stickyBannerButtonTitle
-          stickyBannerColor
-          stickyBannerButtonColor
-          stickyBannerButtonTextColor
-          stickyBannerButtonLink
-        }
         baseBanner {
             titleLines {
                 text
