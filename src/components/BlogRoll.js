@@ -93,7 +93,17 @@ class BlogRoll extends React.Component {
                 </div>
               </a>
             );
-          }):<>No Data Found</>}
+          }):<>
+          <div className='no-data-found'>
+            <div className='no-data'>
+            <div className="no-data-icon"> <i className='fa fa-exclamation-circle'></i></div>
+            <div className="no-data-title">
+              No Data Found
+            </div>
+          </div>
+          </div>
+          
+            </>}
         </div>
       </div>
     );

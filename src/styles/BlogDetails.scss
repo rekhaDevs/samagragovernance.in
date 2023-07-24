@@ -206,3 +206,21 @@
     }
   }
 }
+.row{
+  .no-data-found{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .no-data {
+      text-align: center;
+      &-icon {
+        color: gray;
+        font-size: 4rem;
+      }
+      &-title {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
