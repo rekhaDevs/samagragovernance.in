@@ -3,8 +3,8 @@ templateKey: index-page
 title: Samagra Governance
 description: Samagra Governance
 stickyBanner:
-  stickyBannerActive: true
-  stickyBannerTitle: This is a test banner title This is a test banner title This is a test banner title
+  stickyBannerActive: false
+  stickyBannerTitle: This is a test banner title
   stickyBannerTitleColor: black
   stickyBannerColor: white
   stickyBannerButtonTitle: Press
