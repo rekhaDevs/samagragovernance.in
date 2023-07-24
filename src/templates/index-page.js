@@ -26,14 +26,6 @@ export const IndexPageTemplate = ({
     </React.Fragment>
 );
 
-// const IndexPage = ({data}) => {
-//     return (
-//         <Layout>
-//             <IndexPageTemplate data={frontmatter}/>
-//         </Layout>
-//     )
-// };
-
 class IndexPage extends React.Component {
     constructor(props) {
         super(props);
